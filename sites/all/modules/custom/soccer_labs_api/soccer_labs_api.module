@@ -1,0 +1,191 @@
+<?php
+	
+function soccer_labs_api_permission() {
+  return array(
+    'use api for extract info' => array(
+      'title' => t('Use API to extract info'),
+      'description' => t('Use API to get info '),
+    ),
+  );
+}
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+function soccer_labs_apictools_plugin_api($owner, $api) {
+  if ($owner == 'services' && $api == 'services') {
+    return array(
+      'version' => 3,
+      'file' => 'soccer_labs_api.services.inc'
+    );
+  }
+}
+
+function soccer_labs_api_get_competitions() 
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->fieldCondition('field_fetch_information', 'value', '1', '=')
+		  ->addMetaData('account', user_load(1));
+	
+	$result = $query->execute();
+	
+	$return = array();
+	if (isset($result['node'])) 
+		foreach(array_keys($result['node']) as $id)
+		{
+			$node = node_load($id);		
+			$obj = array();
+			$obj['nid'] = $node->nid;
+			$obj['title'] = $node->title;
+			$return[] = $obj;				
+		}
+	
+	return $return;
+}
+
+
+function soccer_labs_api_get_teams()
+{
+	$limit = (isset($_POST['limit'])) ? $_POST['limit'] : 200;
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'team')
+		  ->addMetaData('account', user_load(1))
+		  ->range(0, $limit);
+		  
+	
+	if(isset($_POST['competition']))
+		$query->fieldCondition('field_competition', 'target_id', $_POST['competition']);
+	
+	if(isset($_POST['team']))
+		$query->propertyCondition('nid', $_POST['team']);
+		
+	$result = $query->execute();
+	
+	$return = array();
+	if (isset($result['node'])) 
+		foreach(array_keys($result['node']) as $id)
+		{
+			$node = node_load($id);		
+			$obj = array();
+			$obj['nid'] = $node->nid;
+			$obj['title'] = $node->title;
+			$obj['image'] = (isset($node->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($node->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+			$obj['imagethumbnail'] = (isset($node->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $node->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+			$return[] = $obj;				
+		}
+	
+	return $return;
+}
+
+function soccer_labs_api_get_games() {
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$limit = (isset($_POST['limit'])) ? $_POST['limit'] : 100;
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->range(0, $limit);
+		  
+	
+	if(isset($_POST['competition']))
+		$query->fieldCondition('field_competition', 'target_id', $_POST['competition']);
+	
+	if(isset($_POST['local_team']))
+		$query->fieldCondition('field_local_team', 'target_id',  $_POST['local_team']);
+	
+	if(isset($_POST['visitor_team']))
+		$query->fieldCondition('field_visitor_team', 'target_id',  $_POST['visitor_team']);
+	
+	if(isset($_POST['from_match_date']))
+		$query->fieldCondition('field_match_date', 'value', $_POST['from_match_date'], '>=');
+	
+	if(isset($_POST['to_match_date']))	
+		$query->fieldCondition('field_match_date', 'value', $_POST['to_match_date'], '<=');
+		
+	if(isset($_POST['in_progress']))
+	{
+		$query->fieldCondition('field_available_live_score', 'value', '1', '=');
+		$query->fieldCondition('field_match_status', 'value', 'FT', '<>');
+		$query->fieldCondition('field_match_status', 'value', 'Postp.', '<>');
+		
+
+		$from = new DateTime('now',new DateTimeZone('UTC'));
+		$from = $from->modify('-140 minutes');
+		
+		$to = new DateTime('now', new DateTimeZone('UTC'));
+		$to = $to->modify('+5 minutes');
+		
+		
+		$query->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=');
+		$query->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<=');
+
+	}	
+		
+	
+		
+		
+		
+	$result = $query->execute();
+	
+	$return = array();
+	if (isset($result['node'])) 
+		foreach(array_keys($result['node']) as $id)
+		{
+			$node = node_load($id);		
+			$obj = array();
+			$obj['nid'] = $node->nid;
+			$obj['match_date'] = $node->field_match_date[LANGUAGE_NONE][0];
+			$obj['match_status'] = $node->field_match_status[LANGUAGE_NONE][0]['value'];
+			
+			if(isset($node->field_competition[LANGUAGE_NONE][0]['target_id']))
+			{
+				$nodecompetition = node_load($node->field_competition[LANGUAGE_NONE][0]['target_id']);	
+				$obj['competition']['nid'] = $nodecompetition->nid;
+				$obj['competition']['title'] = $nodecompetition->title;
+			}
+			
+			if(isset($node->field_local_team[LANGUAGE_NONE][0]['target_id']))
+			{
+				$nodeteam = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);	
+				$obj['local_team']['nid'] = $nodeteam->nid;
+				$obj['local_team']['title'] = $nodeteam->title;
+				$obj['local_team']['score'] = $node->field_local_team_score[LANGUAGE_NONE][0]['value'];
+				$obj['local_team']['image'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+				$obj['local_team']['imagethumbnail'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $nodeteam->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+			}
+			
+			if(isset($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']))
+			{
+				$nodeteam = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);	
+				$obj['visitor_team']['nid'] = $nodeteam->nid;
+				$obj['visitor_team']['title'] = $nodeteam->title;
+				$obj['visitor_team']['score'] = $node->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+				$obj['visitor_team']['image'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+				$obj['visitor_team']['imagethumbnail'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $nodeteam->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+			}
+			
+			$stats = commentaries_inplaytips_getStats($node);
+			$obj['stats'] = ( $stats ? $stats : array() );
+			
+			$cards = commentaries_inplaytips_getCards($node);
+			$obj['cards'] = ( $cards ? $cards : array() );
+			
+			$goals = commentaries_inplaytips_getGoals($node);
+			$obj['goals'] = ( $goals ? $goals : array() );
+			
+			
+			$return[] = $obj;				
+		}
+	
+	return $return;
+}

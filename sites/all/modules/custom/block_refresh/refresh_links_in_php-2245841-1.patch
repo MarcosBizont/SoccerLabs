@@ -1,0 +1,166 @@
+diff --git a/block_refresh.module b/block_refresh.module
+index a46e4e8..a8641d6 100755
+--- a/block_refresh.module
++++ b/block_refresh.module
+@@ -24,7 +24,7 @@ function block_refresh_init() {
+         'args' => arg(),
+         'query' => block_refresh_get_query_as_string(),
+       )
+-    ), 'setting');
++        ), 'setting');
+   }
+ }
+ 
+@@ -47,7 +47,7 @@ function block_refresh_permission() {
+ function block_refresh_help($path, $arg) {
+   switch ($path) {
+     case 'admin/help#block_refresh':
+-      $block_refresh_help  = '<div class="form-item">';
++      $block_refresh_help = '<div class="form-item">';
+       $block_refresh_help .= t("Ensure that you have !configured for user roles. Adding a permission to %access will allow a block, when configured, to be refreshed automatically and/or manually.", array('%access' => BLOCK_REFRESH_ACCESS_CONTENT_PERMISSION, '!configured' => l(t('configured permissions'), 'admin/user/access', array(), NULL, 'module-block_refresh')));
+       $block_refresh_help .= '</div><div class="form-item">';
+       $block_refresh_help .= t("You will also need to set the appropriate settings for each block that you wish to automatically and/or manually refresh by clicking on the appropriate %configure link(s) on the !admin.", array('%configure' => t('configure'), '!admin' => l(t('blocks administration page'), 'admin/build/block')));
+@@ -142,7 +142,7 @@ function block_refresh_submit($form, &$form_state) {
+   }
+   else {
+     // The form has been submitted from a panels pane config dialog.
+-    list($module,$delta) = explode('-',$form_state['subtype_name']);
++    list($module, $delta) = explode('-', $form_state['subtype_name']);
+     // As the options have been set in the panels pane, we can
+     // assume that the user wants the block to work in panels.
+     $panels = 1;
+@@ -150,7 +150,7 @@ function block_refresh_submit($form, &$form_state) {
+   $block_id = drupal_html_id('block-' . $module . '-' . $delta);
+   $settings = variable_get('block_refresh_settings', array());
+   // If the auto (enable) checkbox AND the manual checkbox are unchecked, we want to remove the current block from the array
+-  if(!$form['block_refresh']['block_refresh_auto']['#checked'] &&
++  if (!$form['block_refresh']['block_refresh_auto']['#checked'] &&
+       !$form['block_refresh']['block_refresh_manual']['#checked'] &&
+       !$form['block_refresh']['block_refresh_init']['#checked']) {
+     unset($settings[$block_id]);
+@@ -158,18 +158,18 @@ function block_refresh_submit($form, &$form_state) {
+   // Otherwise, we need to setup the block to be configured for block refresh
+   else {
+     $settings[$block_id]['element'] = $block_id;
+-     $settings[$block_id]['auto'] = $form_state['values']['block_refresh_auto'];
+-     $settings[$block_id]['manual'] = $form_state['values']['block_refresh_manual'];
+-     $settings[$block_id]['init'] = $form_state['values']['block_refresh_init'];
+-     $settings[$block_id]['arguments'] = $form_state['values']['block_refresh_arguments'];
+-     $settings[$block_id]['panels'] = $panels;
+-     $settings[$block_id]['timer'] = $form_state['values']['block_refresh_timer'];
+-     $settings[$block_id]['block'] = array(
+-       'block' => $module,
+-       'delta' => $delta,
+-       );
+-     $settings[$block_id]['bypass_page_cache'] = $form_state['values']['block_refresh_bypass_page_cache'];
+-     $settings[$block_id]['bypass_external_cache'] = $form_state['values']['block_refresh_bypass_external_cache'];
++    $settings[$block_id]['auto'] = $form_state['values']['block_refresh_auto'];
++    $settings[$block_id]['manual'] = $form_state['values']['block_refresh_manual'];
++    $settings[$block_id]['init'] = $form_state['values']['block_refresh_init'];
++    $settings[$block_id]['arguments'] = $form_state['values']['block_refresh_arguments'];
++    $settings[$block_id]['panels'] = $panels;
++    $settings[$block_id]['timer'] = $form_state['values']['block_refresh_timer'];
++    $settings[$block_id]['block'] = array(
++      'block' => $module,
++      'delta' => $delta,
++    );
++    $settings[$block_id]['bypass_page_cache'] = $form_state['values']['block_refresh_bypass_page_cache'];
++    $settings[$block_id]['bypass_external_cache'] = $form_state['values']['block_refresh_bypass_external_cache'];
+   }
+   variable_set('block_refresh_settings', $settings);
+ }
+@@ -197,6 +197,22 @@ function block_refresh_form_alter(&$form, &$form_state, $form_id) {
+   }
+ }
+ 
++/**
++ * Implements hook_preprocess_block.
++ */
++function block_refresh_preprocess_block(&$vars) {
++  //Add refresh link if applicable.
++  $settings = variable_get('block_refresh_settings', array());
++  if (isset($settings[$vars['block_html_id']])) {
++    $br_settings = $settings[$vars['block_html_id']];
++    if ($br_settings['manual'] == 1) {
++      $vars['title_prefix'][] = array(
++        '#type' => 'markup',
++        '#markup' => '<div class="block-refresh-button">' . t('Refresh') . '</div>',
++      );
++    }
++  }
++}
+ 
+ /**
+  * PRIVATE FUNCTIONS
+@@ -220,20 +236,21 @@ function block_refresh_block_content($module = NULL, $delta = NULL) {
+   }
+   //Validate args and get referrering page args from end.  Set as path.
+   $args = arg();
+-  if(!empty($args[3]) && $args[0] == 'block_refresh' && $args[1] == $module && $args[2] == $delta) {
++  if (!empty($args[3]) && $args[0] == 'block_refresh' && $args[1] == $module && $args[2] == $delta) {
+     unset($args[0]);
+     unset($args[1]);
+     unset($args[2]);
+     $_GET['q'] = implode('/', $args);
+-  } else {
+-    $_GET['q'] = '';  $args = arg();
+-
++  }
++  else {
++    $_GET['q'] = '';
++    $args = arg();
+   }
+   // Run the block_view hook from the block module
+   $block = module_invoke($module, 'block_view', $delta);
+ 
+   //Bypass page cache if set
+-  if($settings[$block_id]['bypass_page_cache'] == 1) {
++  if ($settings[$block_id]['bypass_page_cache'] == 1) {
+     $GLOBALS['conf']['cache'] = FALSE;
+   }
+ 
+@@ -251,16 +268,17 @@ function block_refresh_block_content($module = NULL, $delta = NULL) {
+  */
+ function block_refresh_get_query_as_string() {
+   $vars = $_GET;
+-  if(!empty($vars['q'])) {
++  if (!empty($vars['q'])) {
+     unset($vars['q']);
+   }
+-  if(!empty($vars['render'])) {
++  if (!empty($vars['render'])) {
+     unset($vars['render']);
+   }
+-  if(count($vars) > 0 ) {
++  if (count($vars) > 0) {
+     $querystring = '?' . http_build_query($vars);
+     return $querystring;
+-  } else {
++  }
++  else {
+     return '';
+   }
+ }
+diff --git a/js/block_refresh.js b/js/block_refresh.js
+index 5d07b65..68f614a 100644
+--- a/js/block_refresh.js
++++ b/js/block_refresh.js
+@@ -36,18 +36,6 @@
+             });
+           }, timer * 1000); // We need to multiply by 1000 because the admin enters a number in seconds,  but the setInterval() function expects milliseconds
+         }
+-        if (manual) {
+-          refresh_link = '<div class="block-refresh-button">' + Drupal.t('Refresh') + '</div>';
+-          // We'll attach the refresh link to the header if it exists...
+-          if ($(element + ' h2').length) {
+-            // note: for some reason I couldn't get $(this) to work, I don't know why
+-            $(element + ' h2').before(refresh_link);
+-          }
+-          // ...otherwise we will attach it to the content
+-          else {
+-            $(element + ' ' + element_content).before(refresh_link);
+-          }
+-        }
+         if (init) {
+           $(element + ' ' + element_content).load(Drupal.settings.basePath + Drupal.settings.pathPrefix + 'block_refresh/' + block + '/' + delta + args + query, '', function() {
+             Drupal.attachBehaviors(this);

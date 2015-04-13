@@ -1,0 +1,74 @@
+;Theme info
+name = SevenMag
+description = SevenMag ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+;Stylesheets
+
+;Core regions
+
+regions[banner] = 'Banner'
+regions[main_menu] = 'Main menu'
+regions[news_trending] = 'News Trending'
+
+regions[right_bar] = 'Right bar'
+regions[search] = 'Search'
+#regions[topnews] = 'Top news'
+regions[big_carousel_full] = 'Slideshow'
+
+
+;Slideshow of homepage
+regions[slideshow_homepage_style2] = 'Slideshow homepage style 2'
+
+regions[precontent] = 'Pre main content'
+regions[precontentinside] = 'Pre main content inside the body'
+regions[content] = 'Main content'
+
+
+regions[highlighted] = 'Highlighted'
+
+;Sidebar
+regions[tabs_sidebar_first] = 'Tabs Sidebar first'
+regions[tabs_sidebar_second] = 'Tabs Sidebar second'
+regions[tabs_sidebar_third] = 'Tabs Sidebar third'
+regions[sidebar_first] = 'Sidebar first'
+regions[tabs_sidebar_second] = 'Tabs Sidebar second'
+regions[sidebar_second] = 'Sidebar second'
+
+
+;Contact page
+regions[maps] = 'Maps'
+regions[info_contact] = 'Info contact'
+
+
+;Footer columns
+regions[footer_col_one] = 'Footer col 1'
+regions[footer_col_two] = 'Footer col 2'
+regions[footer_col_three] = 'Footer col 3'
+regions[footer_col_four] = 'Footer col 4'
+regions[footer_menu] = 'Footer menu'
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+ 
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+version = "7.x"
+project = "SevenMag"
+datestamp = "1365027012"

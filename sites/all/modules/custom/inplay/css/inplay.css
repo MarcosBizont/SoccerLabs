@@ -1,0 +1,638 @@
+body {
+    overflow:hidden;
+}
+
+.hideme
+{
+	display: none;
+}
+
+.page-content {
+	margin: 25px 0;
+}
+/*
+#block-inplay-inplay-commentaries .content-header,
+#block-views-real-time-block-3 .content-header,
+#block-views-real-time-block-2 .content-header,
+#block-views-real-time-block-1 .content-header,
+#block-inplay-inplay-tips .content-header
+{
+	display: none;
+}*/
+
+
+.page-node-4629 .grid_8 .title-p
+{
+	display: none;
+}
+
+#block-views-real-time-block-3 .views-field views-field-field-match-date
+{
+	
+}
+
+
+#block-views-real-time-block-3 .views-field-field-image,
+#block-views-real-time-block-3 .views-field-field-image-1
+{
+	
+}
+
+#block-views-real-time-block-3 .views-field-field-local-team-score,
+#block-views-real-time-block-3 .views-field-field-visitor-team-score
+{
+	width: 5%;
+	color: #000;
+}
+
+#block-views-real-time-block-3 .gamerow .views-field.views-field-field-local-team
+{
+	width: 25%;
+	text-align: right;
+	margin-right: 5px;
+}
+
+#block-views-real-time-block-3 .gamerow .views-field.views-field-field-visitor-team
+{
+	width: 25%;
+	text-align: left;
+	margin-left: 5px;
+}
+
+#block-views-real-time-block-3 .views-field-field-tip-available,
+#block-views-real-time-block-3 .views-field-nothing-1,
+#block-views-real-time-block-3 .views-field-nothing-2
+{
+	width: 3.5%;
+}
+
+.loadingsidebar div
+{
+	visibility: hidden;
+}
+
+.loadingsidebar
+{
+	background: url(../img/Ball.gif) no-repeat center top;
+}
+
+.loadingsidebarsmall
+{
+	background: url(../img/Ball.gif) no-repeat center top;
+	background-size: 20px;
+	width: 20px;
+	height: 20px;
+	margin: 0px auto 0px auto;
+	zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	
+}
+
+.sidebarleft .block_tab-title
+{
+	float: left;
+}
+.sidebarleft .block_tab-title a
+{
+	background: url("../img/BallStatIcon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 30px;
+    text-indent: -99999px;
+    width: 30px;
+}
+
+.sidebarleft .block_tab-blocks
+{
+	clear: left;
+}
+
+.sidebarleft .content-header {
+	animation: 1.3s ease 0s normal none 1 running fadeInUp;
+	color: #555;
+	display: block;
+	padding: 15px 20px 15px 20px;
+	border: 1px solid #ddd;
+	background: #f9f9f9;
+	outline: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.sidebarleft .content-header:hover
+{
+	background: #AAA;	
+}
+
+.sidebarleft .content-header h4
+{
+	margin: 0px;
+	font-size: 14px;
+	color: #000;
+}
+
+.page-node-4629 .sidebarleft.grid_4
+{
+	
+}
+
+.page-node-4629 .grid_8.alpha
+{
+	overflow: scroll;
+}
+
+
+.page-node-4629 .webui-popover {
+    margin-left: 10px !important;
+    border-radius: 0px;
+    top: 60px !important;
+}
+
+.page-node-4629 .webui-popover-inner {
+	
+}
+
+.page-node-4629 .webui-popover-title {
+	display: none;
+}
+
+.page-node-4629 .webui-popover-content
+{
+	margin-top: 30px;	
+	color: #000;
+}
+
+.page-node-4629 .webui-popover-content a
+{
+	color: #000;
+}
+
+.webui-popover-inner .close 
+{
+	opacity: 1;
+	margin-top: -20px;	
+}
+
+.page-node-4629 .webui-popover-content table td {
+	width: 33%;
+}
+
+.page-node-4629 .webui-popover-content table td.views-field-field-local-team-score,
+.page-node-4629 .webui-popover-content table td.views-field-nothing,
+.page-node-4629 .webui-popover-content table td.views-field-field-visitor-team-score
+{
+	width: 5%
+}
+
+.page-node-4629 .webui-popover-content table td.views-field-field-local-team,
+.page-node-4629 .webui-popover-content table td.views-field-field-visitor-team
+{
+	width: 30%
+}
+
+.page-node-4629 .webui-popover-content table td.views-field-field-match-date
+{
+	width: 20%
+}
+
+
+.page-node-4629 #footer
+{
+	display: none;
+}
+
+
+#layout .sf-menu
+{
+	margin: 12.5px 0;
+}
+
+#layout .language-switcher-locale-url
+{
+	margin-top: 0px;
+}
+
+.banner
+{
+	margin: 10px 0;
+	line-height: normal;
+}
+
+#header .logo img {
+    height: 40px;
+    margin: 5px;
+}
+
+.sidebarleft i.fa
+{
+	font-size: 20px;
+    margin-right: 10px;
+}
+
+.webui-popover-title i.fa
+{
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+.view-footer {
+
+}
+
+.views-field-field-competition, .views-field-nid
+{
+	display: none;
+}
+
+#block-views-real-time-block-3,
+#block-inplay-inplay-header
+{
+	width: 100%;
+}
+
+
+#block-views-real-time-block-3 .gamerow{
+	box-sizing: border-box;
+    clear: both;
+    height: 50px;
+    padding: 10px;
+    width: 100%;	
+}
+
+#block-views-real-time-block-3 .gamerow.competitiontitle
+{
+	height: 60px;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+#block-views-real-time-block-3 .gamerow.views-row-odd
+{
+	
+}
+
+#block-views-real-time-block-3 .gamerow.views-row
+{
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}
+
+#block-views-real-time-block-3 .gamerow.competitiontitle
+{
+	border-bottom: 1px solid #ddd;
+}
+
+#block-views-real-time-block-3 .gamerow.views-row:hover
+{
+	background: none repeat scroll 0 0 #AAA;
+}
+
+
+#block-views-real-time-block-3 span.date-display-single,
+#block-views-real-time-block-3 .views-field-field-competition-1
+{
+	
+}
+
+#block-views-real-time-block-3 .gamerow .views-field,
+#block-inplay-inplay-header .views-row .views-field
+{
+	float: left;
+	text-align: center;
+}
+
+#block-views-real-time-block-3 .views-field-field-match-date,
+#block-views-real-time-block-3 .views-field-field-match-status
+{
+	width: 15%;
+	
+}
+
+#block-views-real-time-block-3 .views-field-field-match-date span.field-content,
+#block-views-real-time-block-3 .views-field-field-match-status span.field-content
+{
+	font-size: 12px;
+	border-right: 1px solid #000;
+	display: block;
+	line-height: 30px;
+	color: #000;
+}
+
+#block-views-real-time-block-3 .views-field-field-match-status span
+{
+	
+}
+
+#block-views-real-time-block-3 .view-footer .views-field-field-match-date .date-display-single
+{
+	border: 0px;
+}
+
+.view-grouping
+{
+	margin-bottom: 30px;
+}
+
+.b_title h3
+{
+	display: none;
+}
+
+.view-grouping-header
+{
+	color: #000;
+    font-size: 13px;
+}
+
+caption
+{
+	color: #000;
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+.views-field-field-visitor-team span, .views-field-field-local-team span
+{
+	color: #000;
+}
+
+
+#block-views-real-time-block-3 td
+{
+	vertical-align: middle;
+	width: 1%;
+}
+
+.view-header h2
+{
+	display: none;
+}
+
+#block-block-15 
+{
+	 margin: 0 10px 10px;
+}
+
+#block-block-15 div
+{
+	float: left;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+#block-block-15 .onlywithtip label
+{
+	color: #000;
+}
+
+#block-block-15 .onlywithtip input
+{
+	margin-right: 5px;
+}
+
+#block-block-16 a
+{
+	font-size: 10px;
+}
+
+
+#block-inplay-inplay-header
+{
+	font-size: 14px;
+	color: #000;
+	
+}
+
+#block-inplay-inplay-header .views-row
+{
+	box-sizing: border-box;
+    clear: both;
+    height: 110px;
+    padding: 10px;
+    width: 100%;	
+}
+
+#block-inplay-inplay-header .views-field-field-local-team,
+#block-inplay-inplay-header .views-field-field-visitor-team
+{
+	width: 35%;
+}
+
+#block-inplay-inplay-header .views-field-field-local-team img,
+#block-inplay-inplay-header .views-field-field-visitor-team img
+{
+	display: inline;
+}
+
+#block-inplay-inplay-header .views-field-nothing
+{
+	width: 30%;
+	height: 100px;
+	font-size: 35px;
+}
+
+#block-inplay-inplay-header .views-field-nothing .time
+{
+	font-size: 12px;
+}
+
+
+#block-inplay-inplay-header .views-field-nothing i
+{
+	font-size: 20px;
+	color: #7a7a7a;
+	 margin-left: 20px;
+    margin-right: 20px;
+}
+
+#block-block-17
+{
+	display: none;
+}
+
+.webui-popover-content .b_title
+{
+	display: none;
+}
+
+.view-tips-blocks .views-field-name
+{
+	font-size: 16px;
+}
+
+.view-tips-blocks h3
+{
+	display: none;
+}
+
+.view-tips-blocks .views-row
+{
+	border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.view-tips-blocks .views-field-field-explain-odds
+{
+	color: #7a7a7a;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.view-tips-blocks .views-field-created
+{
+	color: #7a7a7a;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team,
+.view-tips-blocks .views-field-field-how-is-this-bet-works-,
+.view-tips-blocks .views-field-nothing
+{
+	font-size: 12px;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team .views-label,
+.view-tips-blocks .views-field-field-how-is-this-bet-works- .views-label,
+.view-tips-blocks .views-field-nothing .views-label,
+.view-tips-blocks .views-field-nothing-1 .views-label,
+.webui-popover-content .collapsible .fieldset-legend
+{
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team .views-label:hover,
+.view-tips-blocks .views-field-field-how-is-this-bet-works- .views-label:hover,
+.view-tips-blocks .views-field-nothing .views-label:hover,
+.view-tips-blocks .views-field-nothing-1 .views-label:hover,
+.webui-popover-content .collapsible .fieldset-legend:hover
+{
+	text-decoration: underline;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team .field-content,
+.view-tips-blocks .views-field-field-how-is-this-bet-works- .field-content,
+.view-tips-blocks .views-field-nothing .field-content
+{
+	display: none;
+	padding-left: 20px;
+	color: #7a7a7a;
+}
+
+.view-tips-blocks .views-field-nothing-1
+{
+	display: none;
+}
+
+.view-tips-blocks .indent
+{
+	padding-left: 40px;
+}
+
+.view-tips-blocks .stand
+{
+	color: blue;
+}
+
+
+.view-tips-blocks .views-field-name i
+{
+	margin: 0 10px;
+}
+
+.view-header
+{
+	background-color: #313131;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 14px 8px !important;
+    text-align: center;
+    text-shadow: none;
+  }
+  
+  
+
+.view-grouping-header
+{
+	display: none;
+}
+
+.precontentinhome
+{
+	display: none;
+}
+
+.webui-popover-content fieldset.collapsed
+{
+	height: auto !important;
+}
+
+
+/* Commentaries */
+
+.commentarieslist td 
+{
+	text-align: left;
+}
+
+.commentarieslist td span
+{
+	padding: 10px;
+}
+
+.commentarieslist td strong
+{
+	font-size: 16px;
+}
+
+.commentarieslist td span.isgoal,
+.commentarieslist td span.isimportant
+{
+	font-size: 18px;
+}
+
+.commentarieslist td span.isgoal strong,
+.commentarieslist td span.isimportant strong
+{
+	font-size: 24px;
+}
+
+
+
+/* Post box */
+
+.post
+{
+	border-top: medium none;
+    box-shadow: none;
+    padding-top: 0;
+}
+
+/* Controls */
+#edit_competition_chosen
+{
+	width: 100% !important;	
+}
+
+#block-inplay-inplay-controls
+{
+	display: none;
+}
+
+.grid_8.prealpha .fa-cog
+{
+	clear: both;
+    cursor: pointer;
+    float: right;
+}

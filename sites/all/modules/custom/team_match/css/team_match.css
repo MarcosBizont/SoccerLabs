@@ -1,0 +1,93 @@
+.view-tips-blocks .views-field-name
+{
+	font-size: 16px;
+}
+
+.view-tips-blocks h3
+{
+	display: none;
+}
+
+.view-tips-blocks .views-row
+{
+	border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.view-tips-blocks .views-field-field-explain-odds
+{
+	color: #7a7a7a;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.view-tips-blocks .views-field-created
+{
+	color: #7a7a7a;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team,
+.view-tips-blocks .views-field-field-how-is-this-bet-works-,
+.view-tips-blocks .views-field-nothing
+{
+	font-size: 12px;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team .views-label,
+.view-tips-blocks .views-field-field-how-is-this-bet-works- .views-label,
+.view-tips-blocks .views-field-nothing .views-label,
+.view-tips-blocks .views-field-nothing-1 .views-label,
+.collapsible .fieldset-legend
+{
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team .views-label:hover,
+.view-tips-blocks .views-field-field-how-is-this-bet-works- .views-label:hover,
+.view-tips-blocks .views-field-nothing .views-label:hover,
+.view-tips-blocks .views-field-nothing-1 .views-label:hover,
+.collapsible .fieldset-legend:hover
+{
+	text-decoration: underline;
+}
+
+.view-tips-blocks .views-field-field-why-this-match-and-or-team .field-content,
+.view-tips-blocks .views-field-field-how-is-this-bet-works- .field-content,
+.view-tips-blocks .views-field-nothing .field-content
+{
+	display: none;
+	padding-left: 20px;
+	color: #7a7a7a;
+}
+
+.view-tips-blocks .views-field-nothing-1
+{
+	display: none;
+}
+
+.view-tips-blocks .indent
+{
+	padding-left: 40px;
+}
+
+.view-tips-blocks .stand
+{
+	color: blue;
+}
+
+.view-tips-blocks .views-field-name i
+{
+	margin: 0 10px;
+}
+
+
+#block-views-tips-blocks-block .views-field-name,
+#block-views-tips-blocks-block .views-label
+{
+	color: #000;
+}

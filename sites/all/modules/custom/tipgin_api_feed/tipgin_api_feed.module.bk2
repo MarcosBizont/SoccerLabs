@@ -1,0 +1,414 @@
+<?php
+
+/*
+	
+		For the Live Scores feed, you can access the feed every 5 seconds. For Odds Comparison Feeds, you can access every 2 minutes. For all other feeds, you can access each league or country's feed every 10 minutes.
+	
+	
+	ini_set('display_errors', 'On');
+	error_reporting(E_ALL);
+	$test = new TipGinApi('marcastillo');
+	print_r($test->getOdds('mexico'));
+ * 
+ *
+ *
+ *
+ */
+ 
+ /**
+ * Implements hook_libraries_info().
+ *
+ * For defining external libraries.
+ */
+function tipgin_api_feed_libraries_info() {
+  
+  $libraries['tipgin-api'] = array(
+    'name' => 'Tip Gin API',
+    'vendor url' => 'http://www.tipgin.net/',
+    'download url' => 'http://www.tipgin.net/',
+    'version callback' => 'tipgin_api_feed_library_version_callback',
+    'files' => array(
+      'php' => array('tipgin-api.php'), //this can be a path to the file location like array('lib/simple.js')
+     ),
+  );
+  return $libraries;
+}
+
+function tipgin_api_feed_library_version_callback() {
+  return TRUE;
+}
+
+function tipgin_syncme6()
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', '', '<>')
+		  ->fieldCondition('field_country', 'value', '', '<>')->range(0,50);	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		foreach($competition_items as $item)
+		{
+			tipgin_syncme5($item->field_country['und'][0]['value'],$item->field_tipginapi_id['und'][0]['value']);	
+		}
+		
+	}
+}
+
+function tipgin_syncme5($country,$compextid)
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	//$test->getAllFiles();
+	//return;
+	$obj = $test->getFixtures($country);
+	//dpm($obj);
+	//return;
+	if(isset($obj['league']['@attributes'])) 
+	{
+		$obj['league'] = array($obj['league']);
+	}
+	//dpm($obj);
+
+	foreach($obj['league'] as $league)
+	{
+		//dpm($league);
+		if($league['@attributes']['id']==$compextid)
+		{
+			//if(isset($league['@attributes']['name'])) dpm($league['@attributes']['name'] . ' - ' . $league['@attributes']['id'] );
+			if(isset($league['match']['@attributes'])) 
+			{
+				$league['match'] = array($league['match']);
+			}
+			
+			foreach($league['match'] as $match)
+			{
+				$myteams = array();
+				foreach($league['match'] as $match)
+				{
+					$matchtimestamp = strtotime($match['@attributes']['date']);
+					$since = strtotime('-6 week');
+					if(isset($match['home']['@attributes']['name']) && $matchtimestamp > $since)
+					{
+						$myteams[] = $match['home'];
+						$myteams[] = $match['away'];
+					}
+				}
+				
+				foreach($myteams as $team)
+				{
+					//dpm($team['@attributes']['name']);
+					$isthere = false;
+					$query1 = new EntityFieldQuery();
+					$query1->entityCondition('entity_type', 'node')
+						  ->entityCondition('bundle', 'team')
+						  ->addMetaData('account', user_load(1))
+						  ->fieldCondition('field_tipginapi_id', 'value', $team['@attributes']['id'], '=')
+						  ->range(0,1);
+						  
+					$result1 = $query1->execute();
+					if (isset($result1['node'])) 
+					{
+						$team1 = array_keys($result1['node']);
+						$team_items = entity_load('node', $team1);
+						
+						foreach($team_items as $teamitem)
+						{
+							$isthere = true;
+						}
+					}
+					if(!$isthere) dpm($league['@attributes']['name'] . ' ' . $team['@attributes']['name'] . ' ' . $team['@attributes']['id']);
+				}
+			}
+		}
+			
+	}
+
+}
+
+
+
+function tipgin_syncme($country)
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	//$test->getAllFiles();
+	//return;
+	$obj = $test->getStandings($country);
+	dpm($obj);
+	//return;
+	if(isset($obj['league']['@attributes'])) 
+	{
+		$obj['league'] = array($obj['league']);
+		dpm($obj);
+	}
+	
+
+	foreach($obj['league'] as $league)
+	{
+		//dpm($league);
+		if(isset($league['@attributes']['name'])) dpm($league['@attributes']['name'] . ' - ' . $league['@attributes']['id'] );
+		foreach($league['team'] as $team)
+			if(isset($team['@attributes']['name'])) dpm($team['@attributes']['name'] . ' - ' . $team['@attributes']['id'] );
+	}
+
+}
+
+
+
+function tipgin_syncme1($country)
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	//$test->getAllFiles();
+	//return;
+	$obj = $test->getSeasonsResults($country);
+	dpm($obj);
+	return;
+	if(isset($obj['league']['@attributes'])) 
+	{
+		$obj['league'] = array($obj['league']);
+		dpm($obj);
+	}
+	
+
+	foreach($obj['league'] as $league)
+	{
+		//dpm($league);
+		if(isset($league['@attributes']['name'])) dpm($league['@attributes']['name'] . ' - ' . $league['@attributes']['id'] );
+		foreach($league['match'] as $match)
+		{
+			if(isset($match['home']['@attributes']['name']))
+			{
+				dpm($match['home']['@attributes']['name'] . ' - ' . $match['home']['@attributes']['id'] );
+				dpm($match['away']['@attributes']['name'] . ' - ' . $match['away']['@attributes']['id'] );	
+			}
+		}
+			
+	}
+
+}
+
+
+
+function tipgin_syncme2()
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', '', '<>')
+		  ->fieldCondition('field_country', 'value', '', '<>')
+		  ->range(0,50);	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		foreach($competition_items as $item)
+		{
+			$id = $item->field_tipginapi_id['und'][0]['value'];
+			$obj = $test->getStandings($item->field_country['und'][0]['value']);
+			
+			if(isset($obj['league']['@attributes'])) 
+			{
+				$obj['league'] = array($obj['league']);
+			}
+			
+			foreach($obj['league'] as $league)
+			{
+				if($id == $league['@attributes']['id'])
+				{
+					foreach($league['team'] as $team)
+					{
+						$query1 = new EntityFieldQuery();
+						$query1->entityCondition('entity_type', 'node')
+							  ->entityCondition('bundle', 'team')
+							  ->addMetaData('account', user_load(1))
+							  ->fieldCondition('field_competition', 'target_id', $item->nid, '=')
+							  ->propertyCondition('title', $team['@attributes']['name'], '=')
+							  ->range(0,1);
+						$result1 = $query1->execute();
+						//$saved = false;
+						if (isset($result1['node'])) 
+						{
+							$team1 = array_keys($result1['node']);
+							$team_items = entity_load('node', $team1);
+							
+							foreach($team_items as $teamitem)
+							{
+								$teamitem->field_tipginapi_id['und'][0]['value'] = $team['@attributes']['id'];
+								node_save($teamitem);
+								//dpm($teamitem);
+								//$saved = true;
+							}
+							
+						}
+						//if(!$saved) dpm($team['@attributes']['name']);
+					}
+				}
+			}
+		}
+		
+		
+		//dpm($competition_items);
+	}
+}
+
+
+function tipgin_syncme3()
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	//$test->getAllFiles();
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_country', 'value', '', '<>')
+		  ->range(0,50);	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		foreach($competition_items as $item)
+		{
+			//$id = $item->field_tipginapi_id['und'][0]['value'];
+			$obj = $test->getFixtures($item->field_country['und'][0]['value']);
+			
+			if(isset($obj['league']['@attributes'])) 
+			{
+				$obj['league'] = array($obj['league']);
+			}
+			
+			foreach($obj['league'] as $league)
+			{
+				//if($id == $league['@attributes']['id'])
+				//{
+					$myteams = array();
+					foreach($league['match'] as $match)
+					{
+						if(isset($match['home']['@attributes']['name']))
+						{
+							$myteams[] = $match['home'];
+							$myteams[] = $match['away'];
+						}
+					}
+					
+					foreach($myteams as $team)
+					{
+						$query1 = new EntityFieldQuery();
+						$query1->entityCondition('entity_type', 'node')
+							  ->entityCondition('bundle', 'team')
+							  ->addMetaData('account', user_load(1))
+							  ->fieldCondition('field_competition', 'target_id', $item->nid, '=')
+							  ->propertyCondition('title', $team['@attributes']['name'], '=')
+							  ->range(0,1);
+						$result1 = $query1->execute();
+						$saved = false;
+						if (isset($result1['node'])) 
+						{
+							$team1 = array_keys($result1['node']);
+							$team_items = entity_load('node', $team1);
+							
+							foreach($team_items as $teamitem)
+							{
+								$teamitem->field_tipginapi_id['und'][0]['value'] = $team['@attributes']['id'];
+								node_save($teamitem);
+								//dpm($teamitem);
+								//$saved = true;
+							}
+							
+						}
+						//if($saved) dpm($team['@attributes']['name']);
+					}
+				//}
+			}
+		}
+		
+		
+		//dpm($competition_items);
+	}
+}
+
+
+
+function tipgin_syncme4()
+{
+	libraries_load('tipgin-api');
+	$test = new TipGinApi('marcastillo');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_country', 'value', '', '<>')
+		  ->range(0,50);	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		foreach($competition_items as $item)
+		{
+			//$id = $item->field_tipginapi_id['und'][0]['value'];
+			$obj = $test->getStandings($item->field_country['und'][0]['value']);
+			//$obj = $test->getRecentResults($item->field_country['und'][0]['value']);
+			foreach($obj['league'] as $league)
+			{
+				//if($id == $league['@attributes']['id'])
+				//{
+					foreach($league['team'] as $team)
+					{
+						$query1 = new EntityFieldQuery();
+						$query1->entityCondition('entity_type', 'node')
+							  ->entityCondition('bundle', 'team')
+							  ->addMetaData('account', user_load(1))
+							  ->fieldCondition('field_competition', 'target_id', $item->nid, '=')
+							  ->propertyCondition('title', $team['@attributes']['name'], '=')
+							  ->range(0,1);
+						$result1 = $query1->execute();
+						$saved = false;
+						if (isset($result1['node'])) 
+						{
+							$team1 = array_keys($result1['node']);
+							$team_items = entity_load('node', $team1);
+							
+							foreach($team_items as $teamitem)
+							{
+								$teamitem->field_tipginapi_id['und'][0]['value'] = $team['@attributes']['id'];
+								node_save($teamitem);
+								//dpm($teamitem);
+								//$saved = true;
+							}
+							
+						}
+						//if($saved) dpm($team['@attributes']['name']);
+					}
+				//}
+			}
+		}
+		
+		
+		//dpm($competition_items);
+	}
+}
+
+
+?>

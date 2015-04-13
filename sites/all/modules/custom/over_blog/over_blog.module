@@ -1,0 +1,13 @@
+<?php
+
+function over_blog_menu() {
+	$items['blog'] = array(
+	  'page callback' => 'over_blog_gohome',
+	);
+	return $items;
+}
+
+function over_blog_gohome() 
+{
+	drupal_goto('');
+}

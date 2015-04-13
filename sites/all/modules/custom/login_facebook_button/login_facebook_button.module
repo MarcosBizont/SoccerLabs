@@ -1,0 +1,42 @@
+<?php
+
+function login_facebook_button_init() {
+	drupal_add_css(drupal_get_path('module', 'login_facebook_button') . '/social-buttons.css');
+}
+
+function login_facebook_button_form_alter(&$form, &$form_state, $form_id)
+{
+	if($form_id=='user_register_form')
+	{	
+		
+		
+		$form['#prefix'] = '<h2>' . t('We teach you how to bet in soccer') . '</h2>' . 
+			'<h5>' . t('Join the platform who give you what you need to bet in soccer. Get started for free.') . '</h5>' .
+			l('<i class="fa fa-facebook"></i> | Connect with Facebook', 'user/simple-fb-connect', 
+				array('html' => true, 'attributes' => array('class' => 'btnsocial btn-facebook') ) )
+			. l('<i class="fa fa-twitter"></i> | Connect with Twitter', 'twitter/redirect', 
+				array('html' => true, 'attributes' => array('class' => 'btnsocial btn-twitter') ) )
+			. "<div class='orinlogin' name='orinlogin' id='orinlogin' ><a href='#'>" . t("Or create an account") . "</a></div>";
+		
+	}
+	elseif($form_id=='user_login_block')
+	{	
+		$form['name']['#prefix'] = l('<i class="fa fa-facebook"></i> | Connect with Facebook', 'user/simple-fb-connect', 
+				array('html' => true, 'attributes' => array('class' => 'btnsocial btn-facebook') ) )
+			. l('<i class="fa fa-twitter"></i> | Connect with Twitter', 'twitter/redirect', 
+				array('html' => true, 'attributes' => array('class' => 'btnsocial btn-twitter') ) )
+			. "<div class='orinlogin'>" . t("Or") . "</div>";
+		
+	}
+	
+	if($form_id=='user_register_form')
+	{
+		//$form['actions']['submit']['#submit'][] = 'login_facebook_button_form_othersubmit';
+	}
+	
+}
+
+function login_facebook_button_user_insert(&$edit, $account, $category)
+{
+
+}

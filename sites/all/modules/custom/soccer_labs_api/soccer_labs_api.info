@@ -1,0 +1,7 @@
+name = Soccer Labs API
+description = Soccer Labs API
+package = Services
+core = 7.x
+dependencies[] = services 
+dependencies[] = rest_server
+files[] = soccer_labs_api.services.inc

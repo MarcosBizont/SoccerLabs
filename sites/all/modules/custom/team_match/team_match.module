@@ -1,0 +1,179 @@
+<?PHP
+
+/**
+ * Implements hook_init().
+ */
+function team_match_init() {
+	$node = menu_get_object();
+	if (isset($node->type))
+		if ($node->type == 'match') {
+			drupal_add_js(drupal_get_path('module', 'team_match') . '/js/team_match.js', array('scope' => 'footer'));
+		    drupal_add_css(drupal_get_path('module', 'team_match') . '/css/team_match.css', array('weight' => 10));
+		}
+}
+	
+	
+/**
+ * Implements hook_block_info().
+ */
+function team_match_block_info() {
+  $blocks = array();
+  $blocks['team_block_stats'] = array('info' => t('Stats in team (5 matches)'), );
+  $blocks['match_block_stats'] = array('info' => t('Stats in match (5 matches)'), );
+  $blocks['match_block_stats_lv'] = array('info' => t('Stats in match LV (5 matches)'), );
+  $blocks['team_block_standings'] = array('info' => t('Standings in team (5 matches)'), );
+  $blocks['match_block_standings'] = array('info' => t('Standings in match (5 matches)'), );
+  
+  $blocks['match_block_last5_games'] = array('info' => t('Last 5 games in match'), );
+  $blocks['match_block_last5_games_lv'] = array('info' => t('Last 5 games L/V in match'), );
+  
+  $blocks['match_block_inplaystats'] = array('info' => t('Game stats'), );
+  
+  $blocks['team_tips'] = array('info' => t('Tips in team'), );
+  $blocks['match_tips'] = array('info' => t('Tips in match'), );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function team_match_block_view($delta='') {
+  $block = array();
+  switch($delta) {
+    case 'team_block_stats' :
+      $block['subject'] = t('Last 5 games stats for this team');
+      $block['content'] = team_block_stats();
+      break;
+    case 'match_block_stats' :
+      $block['subject'] = t('Last 5 games stats previous this game');
+      $block['content'] = match_block_stats();
+      break;
+    case 'match_block_stats_lv' :
+      $block['subject'] = t('Last 5 games stats previous this game (L/V)');
+      $block['content'] = match_block_stats_lv();
+      break;  
+    case 'team_block_standings' :
+      $block['subject'] = t('Standings in team (5 matches)');
+      $block['content'] = team_block_standings();
+      break;
+    case 'match_block_standings' :
+      $block['subject'] = t('Standings in match (5 matches)');
+      $block['content'] = match_block_standings();
+      break;
+    case 'match_block_inplaystats' :
+      $block['subject'] = t('Stats during the game');
+      $block['content'] = match_block_inplaystats();
+      break;  
+    case 'match_block_last5_games' :
+      $block['subject'] = t('Last 5 games');
+      $block['content'] = match_block_last5_games();
+      break;
+    case 'match_block_last5_games_lv' :
+      $block['subject'] = t('Last 5 games (L/V)');
+      $block['content'] = match_block_last5_games_lv();
+      break;
+          
+    case 'team_tips' :
+      $block['subject'] = t('Tips in team');
+      $block['content'] = team_tips();
+      break;
+    case 'match_tips' :
+      $block['subject'] = t('Tips in match');
+      $block['content'] = match_tips();
+      break;
+  } 
+  return $block;
+}
+
+function team_block_stats()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	if(is_numeric(arg(1)))
+		$block .= commentaries_teamstats_overview(arg(1), array(5) );
+	
+	return $block;
+}
+
+function match_block_stats()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	if(is_numeric(arg(1)))
+		$block .= commentaries_matchstats_overview(arg(1), array(5) );
+	
+	return $block;
+}
+
+function match_block_stats_lv()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	if(is_numeric(arg(1)))
+		$block .= commentaries_matchstats_overview_lv(arg(1), array(5) );
+	
+	return $block;
+}
+
+
+function match_block_inplaystats()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	if(is_numeric(arg(1)))
+		$block .= commentaries_matchstats_inplay_overview(arg(1) );
+	
+	return $block;	
+}
+
+function match_block_last5_games()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	if(is_numeric(arg(1)))
+		$block .= commentaries_teamlast5_games_noblock();
+	
+	return $block;
+}
+
+function match_block_last5_games_lv()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	if(is_numeric(arg(1)))
+		$block .= commentaries_teamlast5_games_lv_noblock();
+	
+	return $block;	
+}
+
+function team_block_standings()
+{
+	return "";
+}
+
+function match_block_standings()
+{
+	return "";
+}
+
+function team_tips()
+{
+	return "";	
+}
+
+function match_tips()
+{
+	return "";
+}

@@ -1,0 +1,407 @@
+<?PHP
+
+define("TIPS_FROM_DAYS", '+12 hours');
+define("TIPS_TO_DAYS", '+30 days');
+define("SIMULATION_DAYS", 90);
+
+	
+define("LOCAL_POSSESION_TIME", 51);
+define("VISITOR_POSSESION_TIME", 49);
+define("RANGE_UP_DOWN", 1.75);
+
+define("LOCAL_POSSESION_GOAL_AVG", 1);
+define("VISITOR_POSSESION_GOAL_AGAINST_AVG", 1);
+
+define("MATCHES_TO_CHECK_IN_THE_PAST", 5);
+
+define("MATCHES_WITH_STATS_TO_CHECK", 5);
+
+define("MATCHES_TO_CHECK_IN_THE_PAST_COMPETITION", 500);
+define("MATCHES_TO_CHECK_IN_THE_PAST_COMPETITION_MIN", 50);
+
+define("MIN_PROFIT", 1.05);
+
+/////
+
+define("UNDER_1_5_BY_TEAM_PROBABILITY", .95);
+define("OVER_1_5_BY_TEAM_PROBABILITY", .72);
+define("BOTH_TO_SCORE_PROBABILITY", .7);
+
+define("NO_GOAL_BY_TEAM_PROBABILITY", .8);
+
+
+define("OVER_0_5_BY_MATCH_HT_PROBABILITY", .8);
+define("OVER_1_5_BY_MATCH_HT_PROBABILITY", .7);
+
+define("UNDER_1_5_BY_MATCH_PROBABILITY", .6);
+define("OVER_1_5_BY_MATCH_PROBABILITY", .85);
+
+define("UNDER_2_5_BY_MATCH_PROBABILITY", .75);
+define("OVER_2_5_BY_MATCH_PROBABILITY", .75);
+
+define("UNDER_3_5_BY_MATCH_PROBABILITY", .9);
+define("OVER_3_5_BY_MATCH_PROBABILITY", .5);
+
+define("WIN_BY_POISSON_PROBABILITY", .7);
+
+define("WIN_DRAW_POISSON_PROBABILITY", .5);
+
+/**
+ * Implements hook_cronapi().
+ */
+function tips_cronapi() {
+  $items = array();
+  $items['tips_generate_bets'] = array();
+  $items['tips_generate_bets_inplay'] = array();
+  $items['tips_generate_tips'] = array();
+  $items['tips_generate_tips_inplay'] = array();
+  $items['tips_close_tips'] = array();
+  return $items;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function tips_block_info() {
+  $blocks = array();
+  $blocks['tips_general_stream'] = array('info' => t('General stream for tips'), );
+  
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function tips_block_view($delta='') {
+  $block = array();
+  switch($delta) {
+    case 'tips_general_stream' :
+      $block['subject'] = t('General stream for tips');
+      $block['content'] = tips_general_stream();
+      break;
+  } 
+  return $block;
+}
+
+function tips_generate_bets_inplay()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	module_load_include('inc', 'tips', 'tips_poisson');
+	module_load_include('inc', 'tips', 'tips_tipfin_odds');
+	module_load_include('inc', 'tips', 'tips_inplay_bets');
+	
+	tips_tipfin_odds_tips_checktips_ht();
+	//tips_inplay_bets_check();
+}
+
+function tips_generate_bets()
+{
+	module_load_include('inc', 'tips', 'tips_tipfin_odds');
+	module_load_include('inc', 'tips', 'tips_bankroll_managment');
+	
+	tips_bankroll_managment_checkbankrolls();
+	tips_tipfin_odds_tips_checktips();
+}
+
+function tips_generate_tips_inplay()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	module_load_include('inc', 'tips', 'tips_poisson');
+	module_load_include('inc', 'tips', 'tips_posessiontime');
+	
+	tips_check_poisson_tips_ht_creation();
+	
+	
+}
+
+function tips_generate_tips()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	module_load_include('inc', 'tips', 'tips_poisson');
+	module_load_include('inc', 'tips', 'tips_posessiontime');
+	
+	tips_check_poisson_tips_creation(4);
+	//tips_check_posessiontime_tips_creation(4);
+	
+}
+
+function tips_regenerate_tips()
+{
+	// Delete bets
+	$query = db_select('node', 'n');
+	$query->join('field_data_field_win', 'a', 'n.nid = a.entity_id'); 
+	$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id');
+	$query->join('field_data_field_tip', 'c', 'n.nid = c.field_tip_target_id');
+	
+	$query->fields('c',array('entity_id'))
+		->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')->condition('c.bundle', 'bet')
+		->condition('a.field_win_value', 0);
+	
+	$winresult = $query->execute();
+	while($record = $winresult->fetchAssoc())
+		node_delete($record['entity_id']);
+	
+	// Delete tips
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_win', 'value', '0', '=');
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$tipsids = array_keys($result['node']);
+		foreach($tipsids as $idtip)
+			node_delete($idtip);
+	}
+	
+	// Genera tips
+	tips_generate_tips();
+	// Generate bets
+	//tips_generate_bets();
+}
+
+function tips_close_tips()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	module_load_include('inc', 'tips', 'tips_poisson');
+	module_load_include('inc', 'tips', 'tips_posessiontime');
+	
+	$from = new DateTime();
+	$from = $from->modify('-20 days');
+	
+	$to = new DateTime();
+	$to = $to->modify('+12 hours');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=')
+		  ->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<')
+		  ->fieldCondition('field_win', 'value', '0', '=');
+	
+	$result = $query->execute();
+	
+	if (isset($result['node'])) 
+	{
+		$tipsids = array_keys($result['node']);
+		foreach($tipsids as $idtip)
+		{
+			$tip = node_load($idtip);
+			$match = node_load($tip->field_match[LANGUAGE_NONE][0]['target_id']);
+			if($match->field_match_status[LANGUAGE_NONE][0]['value']=='FT')
+			{
+				tips_close_tips_poisson($tip);
+				tips_close_tips_posessiontime($tip);
+			}
+			elseif($match->field_match_status[LANGUAGE_NONE][0]['value']=='Postp.')
+			{
+				$tip->field_win[LANGUAGE_NONE][0]['value'] = 3;
+				node_save($tip);	
+			}
+			
+		}
+	}
+	
+	// Update tips type info
+	//$from = new DateTime('now',new DateTimeZone('UTC'));
+	//$from = $from->modify('-5 days');
+	
+	$vocabulary = taxonomy_vocabulary_machine_name_load('tip_type');
+	$terms = entity_load('taxonomy_term', FALSE, array('vid' => $vocabulary->vid));
+	foreach($terms as $term)
+	{
+		$query = db_select('node', 'n');
+		$query->join('field_data_field_win', 'a', 'n.nid = a.entity_id'); 
+		$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id');
+		$query->fields('n',array('nid'))
+			->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')
+			->condition('a.field_win_value', 1)->condition('b.field_tip_type_target_id', $term->tid);
+		
+		$win = $query->countQuery()->execute()->fetchField();    
+		
+        $query = db_select('node', 'n');
+		$query->join('field_data_field_win', 'a', 'n.nid = a.entity_id'); 
+		$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id');
+		$query->fields('n',array('nid'))
+			->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')
+			->condition('a.field_win_value', array(1,2), 'IN')->condition('b.field_tip_type_target_id', $term->tid);
+		
+		$total = $query->countQuery()->execute()->fetchField();  
+		
+		$term->field_acccuracy[LANGUAGE_NONE][0]['value'] = number_format((($win/$total)*100),2) . '% (' . $win . '/' . $total . ') ';
+		
+		$odds = ( MIN_PROFIT / ( $win / $total ) ); 
+		$term->field_odds_suggested[LANGUAGE_NONE][0]['value'] = number_format($odds,2);
+		taxonomy_term_save($term);
+	}
+	
+	$vocabulary = taxonomy_vocabulary_machine_name_load('tip_type');
+	$terms = entity_load('taxonomy_term', FALSE, array('vid' => $vocabulary->vid));
+	
+	foreach($terms as $term)
+	{
+		$profit = 0;
+		$numbets = 0;
+		
+		$query = db_select('node', 'n');
+		$query->join('field_data_field_win', 'a', 'n.nid = a.entity_id'); 
+		$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id');
+		$query->join('field_data_field_tip', 'c', 'n.nid = c.field_tip_target_id');
+		$query->join('field_data_field_stake', 'd', 'c.entity_id = d.entity_id');
+		
+		$query->fields('d',array('field_stake_value'))
+			->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')->condition('c.bundle', 'bet')->condition('d.bundle', 'bet')
+			->condition('a.field_win_value', 2)->condition('b.field_tip_type_target_id', $term->tid);
+		
+		
+		$lossresult = $query->execute();
+		while($record = $lossresult->fetchAssoc())
+		{
+			$profit -= $record['field_stake_value'];
+			$numbets += 1;
+		}
+		
+		//$numbets = $query->countQuery()->execute()->fetchField();    
+		//$profit -= $numbets;
+		
+        $query = db_select('node', 'n');
+		$query->join('field_data_field_win', 'a', 'n.nid = a.entity_id'); 
+		$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id');
+		$query->join('field_data_field_tip', 'c', 'n.nid = c.field_tip_target_id');
+		$query->join('field_data_field_bet_odds', 'd', 'c.entity_id = d.entity_id');
+		
+		
+		$query->fields('d',array('field_bet_odds_value'))
+			->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')
+			->condition('c.bundle', 'bet')->condition('c.bundle', 'bet')
+			->condition('a.field_win_value', 1)->condition('b.field_tip_type_target_id', $term->tid);
+		
+		$winresult = $query->execute();
+		while($record = $winresult->fetchAssoc())
+		{
+			$profit += ($record['field_bet_odds_value']-1);
+			$numbets += 1;
+		}
+		
+		$term->field_profit[LANGUAGE_NONE][0]['value'] = $profit;
+		$term->field_num_bets[LANGUAGE_NONE][0]['value'] = $numbets;
+		taxonomy_term_save($term);	
+	}
+	
+		
+}
+
+function tips_general_stream()
+{
+	return '';
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	module_load_include('inc', 'tips', 'tips_poisson');
+	
+	$from = new DateTime();
+	$from = $from->modify(TIPS_FROM_DAYS);
+	
+	$to = new DateTime();
+	$to = $to->modify(TIPS_TO_DAYS);
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<')
+		  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=')		
+		  ->fieldOrderBy('field_match_date', 'value', 'ASC')
+		  ->range(0,20);
+	
+	$result = $query->execute();
+	$testreturn = array();
+	
+	$rows = array();
+	if (isset($result['node'])) 
+	{
+		$matchids = array_keys($result['node']);
+		foreach($matchids as $idmatch)
+		{
+			$match = node_load($idmatch);
+			$competitionid = $match->field_competition[LANGUAGE_NONE][0]['target_id'];
+			
+			$posson_stats = tips_poisson_distribution($match);
+			//if($posson_stats['draw_poisson_probability'] >= .30)
+			//{
+			//	$posson_stats_simulation = tips_poisson_distribution_simulation_draw($posson_stats['draw_poisson_probability'], $competitionid, 30);
+				dpm($posson_stats);
+				//dpm($posson_stats_simulation);
+			//}
+			
+		}
+	}	
+	
+	//$headers = array('Match','local possestion time','visitor possestion time', 'local overs 1.5', 'total overs 2.5', 'local victory', 'real num' );
+	//$block = theme('table', array('header' => $headers, 'rows'=> $rows));
+	
+	$block = '';
+	return $block;
+	
+	
+}
+
+
+function tips_create_tip($match, $body, $title, $teamid, $probability, $tiptype)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match', 'target_id', $match->nid, '=')
+		  ->fieldCondition('field_team', 'target_id', $teamid, '=')
+		  ->fieldCondition('field_tip_type', 'target_id', $tiptype, '=');
+	
+	$result = $query->execute();
+	
+	$tip = false;
+	if (!isset($result['node'])) 
+	{
+		$tip = new stdClass();
+		$tip->type = 'tip';
+		$tip->status = 1;
+		$tip->uid = 1;
+		$tip->title = $title;
+		$tip->promote = 0;
+		$tip->created = time();
+		$tip->timestamp = $tip->created;
+		$tip->changed = $tip->created;
+		$tip->sticky = 0;
+		$tip->revision = 0;
+		$tip->language = 'und';
+		
+		$tip->body[LANGUAGE_NONE][0]['value'] = $body;
+		$tip->field_probability[LANGUAGE_NONE][0]['value'] = $probability;
+		$tip->field_team[LANGUAGE_NONE][0]['target_id'] = $teamid;
+		$tip->field_tip_type[LANGUAGE_NONE][0]['target_id'] = $tiptype;
+		$tip->field_match[LANGUAGE_NONE][0]['target_id'] = $match->nid;
+		$tip->field_competition = $match->field_competition;
+		$tip->field_match_date = $match->field_match_date;
+		node_save($tip);
+		
+		$match->field_tip_available[LANGUAGE_NONE][0]['value'] = 1;
+		node_save($match);
+				
+	}
+	else
+	{
+		$tipids = array_keys($result['node']);	
+		foreach($tipids as $idtip)
+		{
+			$tipobj = node_load($idtip);
+			$tipobj->field_match_date = $match->field_match_date;
+			node_save($tipobj);	
+		}
+			
+		$match->field_tip_available[LANGUAGE_NONE][0]['value'] = 1;
+		node_save($match);
+	}
+	
+	return $tip;	
+}

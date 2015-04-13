@@ -1,0 +1,11 @@
+name = SevenMag
+description = Install profile for SevenMag themes
+version = VERSION
+core = 7.x
+
+files[] = sevenmag_profile.profile
+
+version = "7.x-1.0-beta1"
+core = "7.x"
+project = "SevenMag"
+datestamp = "1365027012"

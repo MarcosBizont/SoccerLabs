@@ -1,0 +1,793 @@
+<?php
+
+/*
+	
+		For the Live Scores feed, you can access the feed every 5 seconds. 
+		For Odds Comparison Feeds, you can access every 2 minutes. 
+		For all other feeds, you can access each league or country's feed every 10 minutes.
+	
+	
+	ini_set('display_errors', 'On');
+	error_reporting(E_ALL);
+	$test = new TipGinApi('marcastillo');
+	print_r($test->getOdds('mexico'));
+ * 
+ *
+ *
+ *
+ */
+ 
+ /**
+ * Implements hook_libraries_info().
+ *
+ * For defining external libraries.
+ */
+function tipgin_api_feed_libraries_info() {
+  
+  $libraries['tipgin-api'] = array(
+    'name' => 'Tip Gin API',
+    'vendor url' => 'http://www.tipgin.net/',
+    'download url' => 'http://www.tipgin.net/',
+    'version callback' => 'tipgin_api_feed_library_version_callback',
+    'files' => array(
+      'php' => array('tipgin-api.php'), //this can be a path to the file location like array('lib/simple.js')
+     ),
+  );
+  return $libraries;
+}
+
+function tipgin_api_feed_library_version_callback() {
+  return TRUE;
+}
+
+
+function tipgin_api_feed_menu() {
+  $items = array();
+  $items['admin/config/tipginapi'] = array(
+    'title' => 'Tip Gin api settings',
+    'description' => 'Settings for Tip Gin api',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('tipgin_api_feed_admin'),
+    'access arguments' => array('administer tip gin api settings'),
+    'type' => MENU_NORMAL_ITEM,
+   );
+  return $items;
+}
+
+function tipgin_api_feed_permission() {
+  return array(
+    'administer tip gin api settings' => array(
+      'title' => t('Administer Tip Gin api settings'),
+      'description' => t('Perform administer Tip Gin api settings.'),
+    ),
+  );
+}
+
+
+
+
+
+function tipgin_api_feed_admin() {
+  
+  $form = array();
+  
+  $form['tipgin_api_feed_apikey'] = array(
+    '#type' => 'textfield',
+    '#title' => t('API key'),
+    '#default_value' => variable_get('tipgin_api_feed_apikey', ''),
+    '#size' => 50,
+    '#maxlength' => 50,
+    '#description' => t("API Key from http://www.tipgin.net/."),
+    '#required' => TRUE,
+  );
+  return system_settings_form($form);
+}
+
+
+/**
+ * Implements hook_cronapi().
+ */
+function tipgin_api_feed_cronapi() {
+  $items = array();
+  
+  $items['tipgin_api_feed_action_fillmatches'] = array();
+  $items['tipgin_api_feed_action_fillmatchesinprogress'] = array();
+  
+  $items['tipgin_api_feed_action_processcomment'] = array();
+  $items['tipgin_api_feed_action_processcomment_inplay'] = array();
+  return $items;
+}
+
+function tipgin_api_feed_action_processcomment()
+{
+	module_load_include('inc', 'tipgin_api_feed', 'tipgin_api_feed_process_comments');
+	
+	$queue = DrupalQueue::get('processCommentariesQueue');
+	
+	$i = 0;
+	while($item = $queue->claimItem()) {
+		$data = $item->data;
+		_tipgin_api_feed_process_comments($data[0],$data[1]);
+		$queue->deleteItem($item);
+		if($i>=1) return;
+		$i++;
+	}
+	sleep(20);
+}
+
+function tipgin_api_feed_action_processcomment_inplay()
+{
+	module_load_include('inc', 'tipgin_api_feed', 'tipgin_api_feed_process_comments');
+	
+	$queue = DrupalQueue::get('processCommentariesInPlayQueue');
+	
+	while($item = $queue->claimItem()) {
+		$data = $item->data;
+		_tipgin_api_feed_process_comments_inplay($data[0],$data[1]);
+		watchdog('debug_processcomment',$data[0]);
+		$queue->deleteItem($item);
+	}
+}
+
+function tipgin_api_feed_action_checkcommentaries_close($job)
+{
+	return '';
+	libraries_load('football-api');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))	
+		  ->fieldCondition('field_commentary_checked', 'value', 1, '<>')
+		  ->fieldOrderBy('field_match_date', 'value', 'ASC')
+		  ->range(0, 15);	
+	
+	$result = $query->execute();
+	
+	if (isset($result['node'])) 
+	{
+		$matchids = array_keys($result['node']);
+		watchdog('debug',var_export($matchids,true));
+		
+		$matches = entity_load('node', $matchids);
+		foreach($matches as $match)
+		{	
+			$foot = new FootballApi(variable_get('tipgin_api_feed_apikey', ''));
+			$commentaries = $foot->getMatchCommentaries($match->field_footapi_id[LANGUAGE_NONE][0]['value']);
+			
+			if(isset($commentaries[0]))
+				$match->field_football_api_[LANGUAGE_NONE][0]['value'] = json_encode($commentaries);
+			
+			$match->field_commentary_checked[LANGUAGE_NONE][0]['value'] = 1;
+			node_save($match);
+		}
+	}
+}
+
+function tipgin_api_feed_action_fillmatchesinprogress_1($job) 
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_time_to_refresh', 'target_id', 306);
+	tipgin_api_feed_action_fillmatchesinprogress($query);
+}
+function tipgin_api_feed_action_fillmatchesinprogress_5($job) 
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_time_to_refresh', 'target_id', 307);
+	tipgin_api_feed_action_fillmatchesinprogress($query);
+}
+function tipgin_api_feed_action_fillmatchesinprogress_10($job) 
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_time_to_refresh', 'target_id', 308);
+	tipgin_api_feed_action_fillmatchesinprogress($query);
+}
+function tipgin_api_feed_action_fillmatchesinprogress_30($job) 
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_time_to_refresh', 'target_id', 309);
+	tipgin_api_feed_action_fillmatchesinprogress($query);
+}
+
+function tipgin_api_feed_action_fillmatchesinprogress($query) 
+{
+	libraries_load('football-api');
+	$foot = new FootballApi(variable_get('tipgin_api_feed_apikey', ''));
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competitions = array_keys($result['node']);
+		$competitions_items = entity_load('node', $competitions);
+		foreach($competitions_items as $competitionnode)
+		{
+			$fixtures = array();
+			if($competitionnode->field_time_to_refresh[LANGUAGE_NONE][0]['target_id'] != 309)
+				$fixtures = $foot->getTodayMatches($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);	
+			else
+				$fixtures = $foot->getTodayMatchesPastWithFixtures($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);	
+			foreach($fixtures as $match) _tipgin_api_feed_update_match($match);
+			
+			$matches_lessthan_halfhour = 0;
+			$matches_lessthan_10min = 0;
+			$matches_lessthan_5min = 0;
+			foreach($fixtures as $match)
+			{
+				$matchdate = $match->match_formatted_date . ' ' . $match->match_time;
+				$matchdate = new DateTime($matchdate, new DateTimeZone('UTC'));
+				$matchdate->setTimeZone(new DateTimeZone(date_default_timezone()));
+				
+				$tocompare = new DateTime('now',new DateTimeZone(date_default_timezone()));
+				$tocompare->add(new DateInterval('PT30M'));
+				if($tocompare > $matchdate && $match->match_status != 'FT') $matches_lessthan_halfhour++;
+				
+				$tocompare = new DateTime('now',new DateTimeZone(date_default_timezone()));
+				$tocompare->add(new DateInterval('PT10M'));
+				if($tocompare > $matchdate && $match->match_status != 'FT') $matches_lessthan_10min++;
+				
+				$tocompare = new DateTime('now',new DateTimeZone(date_default_timezone()));
+				$tocompare->add(new DateInterval('PT5M'));
+				if($tocompare > $matchdate && $match->match_status != 'FT') $matches_lessthan_5min++;
+			}
+			$competitionnode->field_time_to_refresh[LANGUAGE_NONE][0]['target_id'] = 309;
+			if($matches_lessthan_halfhour>0) $competitionnode->field_time_to_refresh[LANGUAGE_NONE][0]['target_id'] = 308;
+			if($matches_lessthan_10min>0) $competitionnode->field_time_to_refresh[LANGUAGE_NONE][0]['target_id'] = 307;
+			//if($matches_lessthan_5min>0) $competitionnode->field_time_to_refresh[LANGUAGE_NONE][0]['target_id'] = 306;
+			node_save($competitionnode);
+		}
+			
+	}
+		
+	variable_set('tipgin_api_feed_apirequestsremaining', date('Y-m-d H:s') . ' : ' . $foot->APIRequestsRemaining);
+}
+
+function tipgin_api_feed_action_fillmatches($job)
+{
+	libraries_load('football-api');
+	$foot = new FootballApi(variable_get('tipgin_api_feed_apikey', ''));
+	
+	$competitions = $foot->getCompetitions();
+	
+	foreach($competitions as $competition) 
+	{
+		$competitionnode = _tipgin_api_feed_create_competition($competition);
+		
+		$standings = $foot->getStandings($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);
+		if(is_array($standings)) foreach($standings as $stand) _tipgin_api_feed_create_standing($stand);
+		
+		$fixtures = $foot->getAllPossibleFixtures($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);
+		foreach($fixtures as $match) 
+			_tipgin_api_feed_create_match($match);	
+	}
+	
+	//include_once('./includes/bootstrap.inc');
+	//drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
+	//drupal_flush_all_caches();
+	
+	variable_set('tipgin_api_feed_apirequestsremaining', date('Y-m-d H:s') . ' : ' . $foot->APIRequestsRemaining); 
+}
+
+
+function _tipgin_api_feed_get_match($matchid)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $matchid, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		$match = reset($match_items);  
+		return $match;
+	}
+	else
+	{
+		return 0;	
+	}
+}
+
+function _tipgin_api_feed_get_competition_nid($competitionid)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $competitionid, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		$cp = reset($competition_items);  
+		return $cp;
+	}
+	else
+	{
+		return 0;	
+	}
+}
+
+function _tipgin_api_feed_create_competition($competitionobj)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $competitionobj->id, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		$cp = reset($competition_items); 
+		
+		$cp->changed = time();
+	}
+	else
+	{
+		$cp = new stdClass();
+		$cp->type = 'competition';
+		$cp->status = 1;
+		$cp->uid = 1;
+		$cp->promote = 0;
+		$cp->created = time();
+		$cp->timestamp = $cp->created;
+		$cp->changed = $cp->created;
+		$cp->sticky = 0;
+		$cp->revision = 0;
+		$cp->language = 'und';
+				
+	}
+	$cp->title = $competitionobj->region . ' - ' . $competitionobj->name;
+	$cp->field_footapi_id[LANGUAGE_NONE][0]['value'] = $competitionobj->id;
+	createTermsFromString($competitionobj->region,',','region',$cp->field_region);
+    node_save($cp);
+	
+	return $cp;
+}
+
+
+
+function _tipgin_api_feed_create_standing($standingobj)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'standing')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $standingobj->stand_id, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$standing = array_keys($result['node']);
+		$standing_items = entity_load('node', $standing);
+		$st = reset($standing_items); 
+		$st->changed = time();
+		
+	}
+	else
+	{
+		$st = new stdClass();
+		$st->type = 'standing';
+		$st->status = 1;
+		$st->uid = 1;
+		$st->promote = 0;
+		$st->created = time();
+		$st->timestamp = $st->created;
+		$st->changed = $st->created;
+		$st->sticky = 0;
+		$st->revision = 0;
+		$st->language = 'und';
+	}
+
+	$st->title = $standingobj->stand_team_name;
+	$st->field_footapi_id[LANGUAGE_NONE][0]['value'] = $standingobj->stand_id;
+	$cpid = _tipgin_api_feed_get_competition_nid($standingobj->stand_competition_id);
+	$st->field_competition[LANGUAGE_NONE][0]['target_id'] = $cpid->nid;
+	$team = _tipgin_api_feed_create_team($standingobj->stand_team_id, $standingobj->stand_team_name, $cpid->nid);
+	$st->field_team[LANGUAGE_NONE][0]['target_id'] = $team->nid;
+	
+	//createTermsFromString($standingobj->stand_season,',','season',$st->field_season);
+	createNodesFromString($cpid->title . ' ' . $standingobj->stand_season,'season', $st->field_season);
+	
+	
+	$st->field_position[LANGUAGE_NONE][0]['value'] = $standingobj->stand_position;
+	$st->field_overall_gp[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_gp;
+	$st->field_overall_w[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_w;
+	$st->field_overall_d[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_d;
+	$st->field_overall_l[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_l;
+	$st->field_overall_gs[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_gs;
+	$st->field_overall_ga[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_ga;
+	$st->field_home_gp[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_gp;
+	$st->field_home_w[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_w;
+	$st->field_home_d[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_d;
+	$st->field_home_l[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_l;
+	$st->field_home_gs[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_gs;
+	$st->field_home_ga[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_ga;
+	$st->field_away_gp[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_gp;
+	$st->field_away_w[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_w;
+	$st->field_away_d[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_d;
+	$st->field_away_l[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_l;
+	$st->field_away_gs[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_gs;
+	$st->field_away_ga[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_ga;
+	$st->field_gd[LANGUAGE_NONE][0]['value'] = $standingobj->stand_gd;
+	$st->field_points[LANGUAGE_NONE][0]['value'] = $standingobj->stand_points;
+	$st->field_group[LANGUAGE_NONE][0]['value'] = $standingobj->stand_group;
+	
+    node_save($st);
+	
+	return $st;
+
+}
+
+
+function _tipgin_api_feed_update_match($matchobj)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $matchobj->match_id, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		$mt = reset($match_items);
+		
+		$laststatus = $mt->field_match_status[LANGUAGE_NONE][0]['value'];
+		
+		$mt->changed = time();
+		$mt->field_local_team_score[LANGUAGE_NONE][0]['value'] = $matchobj->match_localteam_score;
+		$mt->field_visitor_team_score[LANGUAGE_NONE][0]['value'] = $matchobj->match_visitorteam_score;
+		
+		$matchdate = strtotime($matchobj->match_formatted_date . ' ' . $matchobj->match_time);
+		
+		$title = $matchobj->match_localteam_name . ( trim($matchobj->match_localteam_score)=='?' ? '' : ' ' . trim($matchobj->match_localteam_score) );
+		$title .= ' - ';
+		$title .= ( trim($matchobj->match_visitorteam_score)=='?' ? '' : trim($matchobj->match_visitorteam_score) . ' ')  . $matchobj->match_visitorteam_name;
+		
+		$mt->title = $title;
+		$mt->field_commentary_available[LANGUAGE_NONE][0]['value'] = $matchobj->match_commentary_available;
+		$mt->field_match_status[LANGUAGE_NONE][0]['value'] = $matchobj->match_status;
+		
+	    node_save($mt);
+	    	    
+	    if($laststatus == $matchobj->match_status) return $mt;
+		
+		if (trim($matchobj->match_commentary_available)!='')
+		{
+			$foot = new FootballApi(variable_get('tipgin_api_feed_apikey', ''));
+			$commentaries = $foot->getMatchCommentaries($matchobj->match_id);
+			if(isset($commentaries[0]))
+			{
+				$queue = DrupalQueue::get('processCommentariesInPlayQueue');
+				$queue->createItem(array($mt->nid,$commentaries));	
+			}
+		}
+		
+	}
+	return $mt;
+
+}
+
+
+
+function _tipgin_api_feed_create_match($matchobj)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $matchobj->match_id, '=');	
+	
+	$result = $query->execute();
+	$createplayer = true;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		$mt = reset($match_items);
+		
+		$mt->changed = time();
+		$createplayer = false;
+	}
+	else
+	{
+		$mt = new stdClass();
+		$mt->type = 'match';
+		$mt->status = 1;
+		$mt->uid = 1;
+		$mt->title = $matchobj->match_localteam_name . ' - ' . $matchobj->match_visitorteam_name;
+		$mt->promote = 0;
+		$mt->created = time();
+		$mt->timestamp = $mt->created;
+		$mt->changed = $mt->created;
+		$mt->sticky = 0;
+		$mt->revision = 0;
+		$mt->language = 'und';
+				
+	}
+	
+	$mt->field_footapi_id[LANGUAGE_NONE][0]['value'] = $matchobj->match_id;
+	$cpid = _tipgin_api_feed_get_competition_nid($matchobj->match_comp_id);
+	$mt->field_competition[LANGUAGE_NONE][0]['target_id'] = $cpid->nid;
+	
+	$localteam = _tipgin_api_feed_create_team($matchobj->match_localteam_id, $matchobj->match_localteam_name, $cpid->nid);
+	$visitorteam = _tipgin_api_feed_create_team($matchobj->match_visitorteam_id, $matchobj->match_visitorteam_name, $cpid->nid);
+	
+	$mt->field_local_team[LANGUAGE_NONE][0]['target_id'] = $localteam->nid;
+	$mt->field_visitor_team[LANGUAGE_NONE][0]['target_id'] = $visitorteam->nid;
+	
+	$mt->field_local_team_score[LANGUAGE_NONE][0]['value'] = $matchobj->match_localteam_score;
+	$mt->field_visitor_team_score[LANGUAGE_NONE][0]['value'] = $matchobj->match_visitorteam_score;
+	$matchdate = strtotime($matchobj->match_formatted_date . ' ' . $matchobj->match_time);
+	$mt->field_match_date[LANGUAGE_NONE][0]['value'] = date('Y-m-d\TH:i', $matchdate);
+	
+
+	$title = $matchobj->match_localteam_name . ( trim($matchobj->match_localteam_score)=='?' ? '' : ' ' . trim($matchobj->match_localteam_score) );
+	$title .= ' - ';
+	$title .= ( trim($matchobj->match_visitorteam_score)=='?' ? '' : trim($matchobj->match_visitorteam_score) . ' ')  . $matchobj->match_visitorteam_name;
+	
+	$mt->title = $title;
+	
+	$mt->field_commentary_available[LANGUAGE_NONE][0]['value'] = $matchobj->match_commentary_available;
+	
+	$mt->field_match_status[LANGUAGE_NONE][0]['value'] = $matchobj->match_status;
+	
+    node_save($mt);
+    
+	if (trim($matchobj->match_commentary_available)!='')
+	{
+		$foot = new FootballApi(variable_get('tipgin_api_feed_apikey', ''));
+		$commentaries = $foot->getMatchCommentaries($matchobj->match_id);
+		if(isset($commentaries[0]))
+		{
+			$queue = DrupalQueue::get('processCommentariesQueue');
+			$queue->createItem(array($mt->nid,$commentaries));	
+		}
+	}
+	
+	
+	
+	return $mt;
+
+}
+
+function _tipgin_api_feed_get_player($id, $name, $teamid)
+{
+	if(!is_numeric($id)) $id = 0;
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'player')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $id, '=')
+		  ->propertyCondition('title', $name, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$player = array_keys($result['node']);
+		$player_items = entity_load('node', $player);
+		$pl = reset($player_items); 
+		return $pl->nid;
+	}
+	else
+	{
+		$pl = _tipgin_api_feed_create_player($id, 0, $name, '', $teamid);	
+		return $pl->nid;
+	}
+	
+	return false;
+}
+
+function _tipgin_api_feed_create_player($id, $number, $name, $pos, $teamdid)
+{	
+	if(!is_numeric($id)) $id = 0;
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'player')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $id, '=')
+		  ->propertyCondition('title', $name, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$player = array_keys($result['node']);
+		$player_items = entity_load('node', $player);
+		$pl = reset($player_items); 
+		$pl->changed = time();
+	}
+	else
+	{
+		$query = new EntityFieldQuery();
+		$query->entityCondition('entity_type', 'node')
+			  ->entityCondition('bundle', 'player')
+			  ->addMetaData('account', user_load(1))
+			  ->fieldCondition('field_player_teams', 'target_id', $teamdid, '=')
+			  ->propertyCondition('title', $name, '=');	
+		
+		$result = $query->execute();
+		if (isset($result['node'])) 
+		{
+			$player = array_keys($result['node']);
+			$player_items = entity_load('node', $player);
+			$pl = reset($player_items); 
+			$pl->changed = time();
+		}
+		else
+		{
+			$pl = new stdClass();
+			$pl->type = 'player';
+			$pl->status = 1;
+			$pl->uid = 1;
+			$pl->title = $name;
+			$pl->promote = 0;
+			$pl->created = time();
+			$pl->timestamp = $pl->created;
+			$pl->changed = $pl->created;
+			$pl->sticky = 0;
+			$pl->revision = 0;
+			$pl->language = 'und';
+			$pl->field_player_teams[LANGUAGE_NONE] = array();
+		}
+	}
+	
+	$pl->field_footapi_id[LANGUAGE_NONE][0]['value'] = $id;
+	$pl->field_number[LANGUAGE_NONE][0]['value'] = intval($number);
+	$pl->field_pos[LANGUAGE_NONE][0]['value'] = $pos;
+	
+	$addme = true;
+	foreach($pl->field_player_teams[LANGUAGE_NONE] as $team) if($team['target_id']==$teamdid) $addme = false;
+	if($addme) $pl->field_player_teams[LANGUAGE_NONE][] = array('target_id' => $teamdid);
+    
+    node_save($pl);
+	
+	return $pl;
+	
+}
+
+function _tipgin_api_feed_create_team($id, $name, $cpid)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'team')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $id, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		// ToDo : Update competitions
+		$team = array_keys($result['node']);
+		$team_items = entity_load('node', $team);
+		$tm = reset($team_items); 
+		$tm->changed = time();
+	}
+	else
+	{
+		$tm = new stdClass();
+		$tm->type = 'team';
+		$tm->status = 1;
+		$tm->uid = 1;
+		$tm->title = $name;
+		$tm->promote = 0;
+		$tm->created = time();
+		$tm->timestamp = $tm->created;
+		$tm->changed = $tm->created;
+		$tm->sticky = 0;
+		$tm->revision = 0;
+		$tm->language = 'und';
+		$tm->field_competition[LANGUAGE_NONE] = array();
+	}
+	
+	$tm->field_footapi_id[LANGUAGE_NONE][0]['value'] = $id;
+	
+	$addme = true;
+	foreach($tm->field_competition[LANGUAGE_NONE] as $competition) if($competition['target_id']==$cpid) $addme = false;
+	if($addme) $tm->field_competition[LANGUAGE_NONE][] = array('target_id' => $cpid);
+    
+    node_save($tm);
+	
+	return $tm;
+}
+
+
+// General Libraries
+
+function createTermsFromString($rowfield,$separator,$vocabulary,&$nodefield) {
+//return str_replace('#','',$value);
+unset($vid);
+  $keywords = explode($separator, str_replace('#','',$rowfield));
+  if (!isset($vid)) {
+    $vocabs = taxonomy_vocabulary_load_multiple(array(), array('machine_name' => $vocabulary));
+    $vids = array_keys($vocabs);
+    $vid = reset($vids);
+}
+
+foreach ($keywords as $index => $keyword) {
+  if(trim($keyword)!='')
+  {
+  $matches = taxonomy_get_term_by_name($keyword,$vocabulary);
+  if (empty($matches)) {
+    $term = new stdClass;
+    $term->name = $keyword;
+    $term->vocabulary_machine_name = $vocabulary;
+    $term->vid = $vid;
+    taxonomy_term_save($term);
+  } 
+  else {
+    $term = reset($matches);
+  }
+  $nodefield[LANGUAGE_NONE][$index]['target_id'] = $term->tid;
+  }
+}
+
+}
+
+
+
+
+function createNodesFromString($rowfield,$contenttype,&$nodefield) {
+    //return str_replace('#','',$value);
+    global $user;
+    
+    $row = db_query('SELECT nid FROM node WHERE type = :ctype  AND title = :mytitle', 
+    		array(':ctype' => $contenttype, ':mytitle' => $rowfield))->fetchField();
+    		
+    		
+    if(intval($row)<=0) {
+		
+        $nodesingle = new stdClass();
+		$nodesingle->type = $contenttype;
+		$nodesingle->status = 1;
+		$nodesingle->uid = $user->uid;
+		$nodesingle->title = $rowfield;
+		$nodesingle->promote = 0;
+		$nodesingle->created = time();
+		$nodesingle->timestamp = $nodesingle->created;
+		$nodesingle->changed = $nodesingle->created;
+		$nodesingle->sticky = 0;
+		$nodesingle->revision = 0;
+		$nodesingle->language = 'und';
+        node_save($nodesingle);
+        
+        $nid = $nodesingle->nid;
+	} else {
+		$nid = $row; 
+	}
+    
+    $nodefield[LANGUAGE_NONE][0]['target_id'] = $nid;
+}
+    
+    
+
+
+?>

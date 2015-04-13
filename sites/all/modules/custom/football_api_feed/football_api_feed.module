@@ -1,0 +1,365 @@
+<?php
+
+/**
+ * Implements hook_libraries_info().
+ *
+ * For defining external libraries.
+ */
+function football_api_feed_libraries_info() {
+  
+  $libraries['football-api'] = array(
+    'name' => 'Football API',
+    'vendor url' => 'http://football-api.com/documentation/',
+    'download url' => 'http://football-api.com/documentation/',
+    'version callback' => 'football_api_feed_library_version_callback',
+    'files' => array(
+      'php' => array('football-api.php'), //this can be a path to the file location like array('lib/simple.js')
+     ),
+  );
+  return $libraries;
+}
+
+function football_api_feed_library_version_callback() {
+  return TRUE;
+}
+
+
+function football_api_feed_menu() {
+  $items = array();
+  $items['admin/config/footballapi'] = array(
+    'title' => 'Football api settings',
+    'description' => 'Settings for Football api',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('football_api_feed_admin'),
+    'access arguments' => array('administer football api settings'),
+    'type' => MENU_NORMAL_ITEM,
+   );
+  return $items;
+}
+
+function football_api_feed_permission() {
+  return array(
+    'administer football api settings' => array(
+      'title' => t('Administer football api settings'),
+      'description' => t('Perform administer football api settings.'),
+    ),
+  );
+}
+
+function football_api_feed_admin() {
+  
+  $form = array();
+  
+  $form['football_api_feed_apirequestsremaining'] = array(
+	'#type' => 'item',
+	'#title' => t('API requests remanining'),
+  	'#markup' => variable_get('football_api_feed_apirequestsremaining', ''),
+  );
+
+  
+  $form['football_api_feed_apikey'] = array(
+    '#type' => 'textfield',
+    '#title' => t('API key'),
+    '#default_value' => variable_get('football_api_feed_apikey', ''),
+    '#size' => 50,
+    '#maxlength' => 50,
+    '#description' => t("API Key from http://football-api.com/account/."),
+    '#required' => TRUE,
+  );
+  return system_settings_form($form);
+}
+
+ 
+ 
+ // Rules needed
+ // Should be usable as secondary function to use it as library
+ // Fill matches
+
+/**
+ * Implements hook_cronapi().
+ */
+function football_api_feed_cronapi() {
+  $items = array();
+  
+  $items['football_api_feed_action_fillmatches'] = array();
+  $items['football_api_feed_action_fillmatchesinprogress'] = array();
+  
+  $items['football_api_feed_action_processcomment'] = array();
+  
+  return $items;
+}
+
+function football_api_feed_action_processcomment()
+{
+	module_load_include('inc', 'football_api_feed', 'football_api_feed_process_comments');
+	
+	$queue = DrupalQueue::get('processCommentariesQueue');
+	
+	$i = 0;
+	while($item = $queue->claimItem()) {
+		$data = $item->data;
+		_football_api_feed_process_comments($data[0],$data[1]);
+		$queue->deleteItem($item);
+		if($i>=50) return;
+		$i++;
+	}
+}
+
+function football_api_feed_action_fillmatchesinprogress($job) 
+{
+	libraries_load('football-api');
+	$foot = new FootballApi(variable_get('football_api_feed_apikey', ''));
+
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1)); 
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competitions = array_keys($result['node']);
+		$competitions_items = entity_load('node', $competitions);
+		foreach($competitions_items as $competitionnode)
+			if(isset($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']))
+				if( intval($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']) > 0 )
+				{
+					$fixtures = $foot->getTodayMatches($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);	
+					foreach($fixtures as $match) 
+						_football_api_feed_update_match($match, true);
+				}
+			
+	}
+		
+	variable_set('football_api_feed_apirequestsremaining', date('Y-m-d H:s') . ' : ' . $foot->APIRequestsRemaining);
+}
+
+function football_api_feed_action_fillmatches($job)
+{
+	libraries_load('football-api');
+	$foot = new FootballApi(variable_get('football_api_feed_apikey', ''));
+
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1)); 
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competitions = array_keys($result['node']);
+		$competitions_items = entity_load('node', $competitions);
+		foreach($competitions_items as $competitionnode)
+			if(isset($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']))
+				if( intval($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']) > 0 )
+				{
+					$standings = $foot->getStandings($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);
+					if(is_array($standings)) 
+						foreach($standings as $stand) 
+							_football_api_feed_create_standing($stand);
+					
+					$fixtures = $foot->getAllPossibleFixtures($competitionnode->field_footapi_id[LANGUAGE_NONE][0]['value']);
+					foreach($fixtures as $match) 
+						_football_api_feed_update_match($match);	
+				}
+			
+	}
+	
+	variable_set('football_api_feed_apirequestsremaining', date('Y-m-d H:s') . ' : ' . $foot->APIRequestsRemaining); 
+}
+
+
+function _football_api_feed_create_standing($standingobj)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'standing')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $standingobj->stand_id, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$standing = array_keys($result['node']);
+		$standing_items = entity_load('node', $standing);
+		$st = reset($standing_items); 
+		$st->changed = time();
+		
+	}
+	else
+	{
+		$st = new stdClass();
+		$st->type = 'standing';
+		$st->status = 1;
+		$st->uid = 1;
+		$st->promote = 0;
+		$st->created = time();
+		$st->timestamp = $st->created;
+		$st->changed = $st->created;
+		$st->sticky = 0;
+		$st->revision = 0;
+		$st->language = 'und';
+	}
+
+	$st->title = $standingobj->stand_team_name;
+	$st->field_footapi_id[LANGUAGE_NONE][0]['value'] = $standingobj->stand_id;
+	$cpid = _football_api_feed_get_competition($standingobj->stand_competition_id);
+	$st->field_competition[LANGUAGE_NONE][0]['target_id'] = $cpid->nid;
+	$team = _football_api_feed_get_team($standingobj->stand_team_id, $standingobj->stand_team_name, $cpid->nid);
+	if(!isset($team->nid)) return false;
+	$st->field_team[LANGUAGE_NONE][0]['target_id'] = $team->nid;
+	
+	createNodesFromString($cpid->title . ' ' . $standingobj->stand_season,'season', $st->field_season);
+	
+	$st->field_position[LANGUAGE_NONE][0]['value'] = $standingobj->stand_position;
+	$st->field_overall_gp[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_gp;
+	$st->field_overall_w[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_w;
+	$st->field_overall_d[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_d;
+	$st->field_overall_l[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_l;
+	$st->field_overall_gs[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_gs;
+	$st->field_overall_ga[LANGUAGE_NONE][0]['value'] = $standingobj->stand_overall_ga;
+	$st->field_home_gp[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_gp;
+	$st->field_home_w[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_w;
+	$st->field_home_d[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_d;
+	$st->field_home_l[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_l;
+	$st->field_home_gs[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_gs;
+	$st->field_home_ga[LANGUAGE_NONE][0]['value'] = $standingobj->stand_home_ga;
+	$st->field_away_gp[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_gp;
+	$st->field_away_w[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_w;
+	$st->field_away_d[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_d;
+	$st->field_away_l[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_l;
+	$st->field_away_gs[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_gs;
+	$st->field_away_ga[LANGUAGE_NONE][0]['value'] = $standingobj->stand_away_ga;
+	$st->field_gd[LANGUAGE_NONE][0]['value'] = $standingobj->stand_gd;
+	$st->field_points[LANGUAGE_NONE][0]['value'] = $standingobj->stand_points;
+	$st->field_group[LANGUAGE_NONE][0]['value'] = $standingobj->stand_group;
+	
+    node_save($st);
+	
+	return $st;
+
+}
+
+
+function _football_api_feed_update_match($matchobj, $inplay = false)
+{
+	module_load_include('inc', 'football_api_feed', 'football_api_feed_process_comments');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $matchobj->match_id, '=');	
+	
+	$result = $query->execute();
+	
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		$mt = reset($match_items);
+		
+	}
+	else
+	{
+		$cp = _football_api_feed_get_competition($matchobj->match_comp_id);
+		$localteam = _football_api_feed_get_team($matchobj->match_localteam_id, $matchobj->match_localteam_name, $cp->nid);
+		$visitorteam = _football_api_feed_get_team($matchobj->match_visitorteam_id, $matchobj->match_visitorteam_name, $cp->nid);
+		$matchdate = strtotime($matchobj->match_formatted_date . ' ' . $matchobj->match_time);
+		$matchdate = date('Y-m-d H:i:s', $matchdate);
+		
+		$query = new EntityFieldQuery();
+		$query->entityCondition('entity_type', 'node')
+			  ->entityCondition('bundle', 'match')
+			  ->addMetaData('account', user_load(1))
+			  ->fieldCondition('field_competition', 'target_id', $cp->nid, '=')
+			  ->fieldCondition('field_local_team', 'target_id', $localteam->nid, '=')
+			  ->fieldCondition('field_visitor_team', 'target_id', $visitorteam->nid, '=')
+			  ->fieldCondition('field_match_date', 'value', $matchdate, '=');	
+		
+		$result = $query->execute();
+		
+		if (isset($result['node'])) 
+		{
+			$match = array_keys($result['node']);
+			$match_items = entity_load('node', $match);
+			$mt = reset($match_items);
+		}
+	}
+	
+	
+	if($mt)
+	{
+		if($inplay)
+		{
+			$laststatus = '';
+			if ($cache = cache_get('processCommentariesInPlayQueue_laststatus_' . $matchobj->match_id )) $laststatus =  $cache->data;
+			if($matchobj->match_status==$laststatus) return false;
+			cache_set('processCommentariesInPlayQueue_laststatus_' . $matchobj->match_id, $matchobj->match_status, 'cache');
+			
+			_football_api_feed_process_comments($mt->nid, $matchobj->match_id,true);
+		}
+		else
+		{
+			$queue = DrupalQueue::get('processCommentariesQueue');
+			$queue->createItem(array($mt->nid, $matchobj->match_id));	
+		}
+	}
+	
+	return $mt;
+
+}
+
+function _football_api_feed_get_competition($competitionid)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $competitionid, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		$cp = reset($competition_items);  
+		return $cp;
+	}
+	else
+	{
+		return 0;	
+	}
+}
+
+function _football_api_feed_get_team($id, $name, $cpid)
+{
+	// ToDo get tie right team
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'team')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $id, '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		// ToDo : Update competitions
+		$team = array_keys($result['node']);
+		$team_items = entity_load('node', $team);
+		$tm = reset($team_items); 
+		$tm->changed = time();
+	}
+	
+	if(!isset($tm)) watchdog('debug my tm', $id . ' ' . $name);
+	
+	return $tm;
+}
+
+  
+    
+
+
+?>

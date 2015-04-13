@@ -1,0 +1,21 @@
+--- js/block_refresh.js
++++ js/block_refresh.js
+@@ -36,18 +36,6 @@
+             });
+           }, timer * 1000); // We need to multiply by 1000 because the admin enters a number in seconds,  but the setInterval() function expects milliseconds
+         }
+-        if (manual) {
+-          refresh_link = '<div class="block-refresh-button">' + Drupal.t('Refresh') + '</div>';
+-          // We'll attach the refresh link to the header if it exists...
+-          if ($(element + ' h2').length) {
+-            // note: for some reason I couldn't get $(this) to work, I don't know why
+-            $(element + ' h2').before(refresh_link);
+-          }
+-          // ...otherwise we will attach it to the content
+-          else {
+-            $(element + ' ' + element_content).before(refresh_link);
+-          }
+-        }
+         if (init) {
+           $(element + ' ' + element_content).load(Drupal.settings.basePath + Drupal.settings.pathPrefix + 'block_refresh/' + block + '/' + delta + args + query, '', function() {
+             Drupal.attachBehaviors(this);

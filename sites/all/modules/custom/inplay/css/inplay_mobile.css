@@ -1,0 +1,205 @@
+.title-p, .b_title
+{
+	display: none;
+}
+
+
+.b_block
+{
+	border: 0px;
+	box-shadow: none;
+	margin: 0px !important;
+	padding: 0px;
+}
+
+.row
+{
+	width: 98%;
+}
+
+/* Grid In Play mobile */
+
+.view-in-play-mobile
+{
+	font-size: 14px;
+}
+
+.view-in-play-mobile .views-field-field-local-team-score,
+.view-in-play-mobile .views-field-field-visitor-team-score,
+.view-in-play-mobile .views-field-nothing
+{
+	width: 5%;
+	color: #000;
+}
+
+.view-in-play-mobile .views-field-field-image-1,
+.view-in-play-mobile .views-field-field-image
+{
+	width: 10%;	
+}
+
+.view-in-play-mobile .gamerow .views-field.views-field-field-local-team
+{
+	text-align: right;
+	margin-right: 5px;
+}
+
+.view-in-play-mobile .gamerow .views-field.views-field-field-visitor-team
+{
+	text-align: left;
+	margin-left: 5px;
+}
+
+.view-in-play-mobile .gamerow .views-field.views-field-field-local-team,
+.view-in-play-mobile .gamerow .views-field.views-field-field-visitor-team
+{
+	width: 30%;
+}
+
+.view-in-play-mobile .gamerow .views-field.views-field-field-image img,
+.view-in-play-mobile .gamerow .views-field.views-field-field-image-1 img
+{
+	display: inline;
+}
+
+.view-in-play-mobile .gamerow .views-field-title
+{
+	width: 30%;
+}
+
+.view-in-play-mobile.view-teams .gamerow .views-field-field-image
+{
+	margin-left: 35%;
+}
+
+
+.view-in-play-mobile .gamerow{
+	box-sizing: border-box;
+    clear: both;
+    padding: 0px;
+    width: 100%;	
+    display: block;
+}
+
+.view-in-play-mobile .competitiontitle {
+    font-size: 16px;
+    display:inline;
+}
+
+.view-in-play-mobile .gamerow.views-row
+{
+	border-top: 1px solid #ddd;
+	cursor: pointer;
+}
+
+.view-in-play-mobile .gamerow.views-row legend
+{
+	display: none;
+}
+
+.view-in-play-mobile .gamerow.views-row:hover
+{
+	background: none repeat scroll 0 0 #AAA;
+}
+
+
+.view-in-play-mobile .gamerow .views-field
+{
+	float: left;
+	text-align: center;
+}
+
+.view-in-play-mobile .views-field-field-match-date-1
+{
+	width: 20%;
+	
+}
+
+.view-in-play-mobile .views-field-field-match-date-1 span
+{
+	font-size: 12px;
+	border-right: 1px solid #000;
+	display: block;
+	line-height: 30px;
+	color: #000;
+}
+
+.view-in-play-mobile .views-field-field-visitor-team span, 
+.view-in-play-mobile .views-field-field-local-team span,
+.view-in-play-mobile .views-field-title span{
+    color: #000;
+}
+
+.view-in-play-mobile .views-field-field-match-date,
+.view-in-play-mobile .views-field-field-match-status
+{
+	width: 100%;
+	
+}
+
+.view-in-play-mobile .views-field-field-match-date span, 
+.view-in-play-mobile .views-field-field-match-status span {
+    color: #000;
+    font-size: 12px;
+}
+
+.view-in-play-mobile .views-field-field-match-date i, 
+.view-in-play-mobile .views-field-field-match-status i 
+{
+	 margin: 0 0 0 5px;
+}
+
+
+.view-in-play-mobile .views-field-nothing-1 {
+    clear: left;
+    float: none !important;
+    width: 100%;
+}
+
+
+.view-in-play-mobile .views-field-field-tip-available,
+.view-in-play-mobile .views-field-nothing-1,
+.view-in-play-mobile .views-field-nothing-2,
+.view-in-play-mobile .views-field-view-node
+{
+	width: 100%;
+	color: #000;
+}
+
+.view-in-play-mobile .tiplalbel
+{
+	font-size: 12px;
+    margin-left: 5px;
+}
+
+.views-row-last
+{
+	margin-bottom: 40px;
+}
+
+
+/**/
+
+.view-in-play-mobile .tips-fieldset
+{
+	display: none;
+}
+
+
+
+
+
+.post h3 
+{
+	text-align: center;
+}
+
+
+.view-grouping-header,
+.views-field-nid,
+.views-field-field-competition-1
+{
+	display: none;
+}
+
+

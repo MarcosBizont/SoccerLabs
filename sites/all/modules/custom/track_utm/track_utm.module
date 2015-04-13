@@ -1,0 +1,23 @@
+<?php
+
+function track_utm_boot()
+{
+	if(isset($_GET['utm_source'])) $_SESSION['utm_source'] = $_GET['utm_source'];
+	if(isset($_GET['utm_medium'])) $_SESSION['utm_medium'] = $_GET['utm_medium'];
+	if(isset($_GET['utm_campaign'])) $_SESSION['utm_campaign'] = $_GET['utm_campaign'];
+		
+}
+
+function track_utm_user_presave(&$edit, $account, $category) 
+{
+	
+	if(isset($_SESSION['utm_source']))
+		$edit['field_utm_source'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_source'];	
+	
+	if(isset($_SESSION['utm_medium']))
+		$edit['field_utm_medium'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_medium'];	
+		
+	if(isset($_SESSION['utm_campaign']))
+		$edit['field_utm_campaign'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_campaign'];	
+	
+}

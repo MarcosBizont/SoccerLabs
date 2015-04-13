@@ -1,0 +1,698 @@
+<?PHP
+
+/**
+ * Implements hook_block_info().
+ */
+function commentaries_block_info() {
+  $blocks = array();
+  $blocks['commentaries_forblock'] = array('info' => t('Commentaries'), );
+  $blocks['commentaries_goals'] = array('info' => t('Goals'), );
+  $blocks['commentaries_cards'] = array('info' => t('Cards'), );
+  $blocks['commentaries_stats'] = array('info' => t('Stats'), );
+  $blocks['commentaries_lineup'] = array('info' => t('Line up'), );
+  $blocks['commentaries_subs'] = array('info' => t('Bench'), );
+  $blocks['commentaries_substitutions'] = array('info' => t('Substitutions'), );
+  $blocks['commentaries_playerstats'] = array('info' => t('Player stats'), );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function commentaries_block_view($delta='') {
+  $block = array();
+  switch($delta) {
+    case 'commentaries_forblock' :
+      $block['subject'] = t('Commentaries');
+      $block['content'] = commentaries_forblock_view();
+      break;
+    case 'commentaries_goals' :
+      $block['subject'] = t('Goals');
+      $block['content'] = commentaries_goals_view();
+      break;
+    case 'commentaries_cards' :
+      $block['subject'] = t('Cards');
+      $block['content'] = commentaries_cards_view();
+      break;
+    case 'commentaries_stats' :
+      $block['subject'] = t('Stats');
+      $block['content'] = commentaries_stats_view();
+      break;
+    case 'commentaries_lineup' :
+      $block['subject'] = t('Line up');
+      $block['content'] = commentaries_lineup_view();
+      break;
+    case 'commentaries_subs' :
+      $block['subject'] = t('Bench');
+      $block['content'] = commentaries_subs_view();
+      break;
+	case 'commentaries_substitutions' :
+      $block['subject'] = t('Substitutions');
+      $block['content'] = commentaries_substitutions_view();
+      break;
+    case 'commentaries_playerstats' :
+      $block['subject'] = t('Player stats');
+      $block['content'] = commentaries_playerstats_view();
+      break;
+  } 
+  return $block;
+}
+
+function commentaries_tablefromarray($arrayinitial, $headers, $arrayfields, $multipleinitial = false, $bringobject = false)
+{
+	$table ='';
+	
+	if(!$multipleinitial) $arrayinitial = array($arrayinitial);
+	
+	foreach($arrayinitial as $array)
+		if(isset($array))
+		{
+			$rows = array();
+			foreach($array as $arritem)
+			{
+				$isoneitem = false;
+				foreach($arrayfields as $fieldname) if(isset($arritem->$fieldname)) $isoneitem = true;
+				
+				if($isoneitem)
+				{
+					$row = array();
+					foreach($arrayfields as $fieldname) 
+					{
+						if(isset($arritem->$fieldname))
+							$row[] = $arritem->$fieldname;
+						else
+							$row[] = '';
+					}
+					if(count($row)>0) $rows[] = $row;	
+				}
+				else
+				{
+					if(is_array($arritem) || is_object($arritem))
+					{
+						foreach($arritem as $arritem2)
+						{
+							$row = array();
+							foreach($arrayfields as $fieldname) 
+							{
+								if(isset($arritem2->$fieldname))
+									$row[] = $arritem2->$fieldname;
+								else
+									$row[] = '';
+							}
+							if(count($row)>0) $rows[] = $row;
+						}
+					}	
+				}
+			}
+			
+			if(count($rows)>1)
+			{
+				$lastrow = array_pop($rows);
+				array_unshift($rows, $lastrow);
+			}
+			
+			$table .= (count($rows) > 0) ? theme('table', array('header' => $headers, 'rows'=> $rows)) : '' ;		
+		}
+	
+	return ( $bringobject ? $rows : $table );
+}
+
+function commentaries_goals_view()
+{
+  	return '';
+  	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	$local = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	  	$visitor = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	  	
+	  	return 	commentaries_tablefromarray($commentaries[0]->comm_match_summary->localteam->goals, 
+	  							array('Minute', $local->title), 
+	  							array('minute','name')) . 
+	  			commentaries_tablefromarray($commentaries[0]->comm_match_summary->visitorteam->goals, 
+	  							array('Minute', $visitor->title), 
+	  							array('minute','name'));
+	}
+}
+
+function commentaries_cards_view()
+{
+  	return '';
+  	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	$local = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	  	$visitor = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	  	
+	  	return 	commentaries_tablefromarray(
+	  							$commentaries[0]->comm_match_summary->localteam->yellowcards, 
+	  							array('Yellow', $local->title), 
+	  							array('minute','name')) .
+	  			commentaries_tablefromarray(
+	  							$commentaries[0]->comm_match_summary->localteam->redcards, 
+	  							array('Red', $local->title), 
+	  							array('minute','name')) . 
+	  			commentaries_tablefromarray(
+		  						$commentaries[0]->comm_match_summary->visitorteam->yellowcards, 
+	  							array('Yellow', $visitor->title), 
+	  							array('minute','name')).
+	  			commentaries_tablefromarray(
+		  						$commentaries[0]->comm_match_summary->visitorteam->redcards, 
+	  							array('Red', $visitor->title), 
+	  							array('minute','name'));
+	}
+}
+
+function commentaries_stats_view()
+{
+	return '';
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	$local = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	  	$visitor = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	  	
+	  	if(isset($commentaries[0]->comm_match_stats->localteam) && isset($commentaries[0]->comm_match_stats->visitorteam))
+	  	{
+			$commentaries[0]->comm_match_stats->localteam->myname = $local->title;
+		  	$commentaries[0]->comm_match_stats->visitorteam->myname = $visitor->title;
+		  	$arrstats = array($commentaries[0]->comm_match_stats->localteam, $commentaries[0]->comm_match_stats->visitorteam);
+		  	
+		  	$table = '';
+		  	
+		  	foreach($arrstats as $statobj)
+		  	{
+		  	  	$rows = array();
+				$headers = array($statobj->myname,'');
+				foreach($statobj as $key => $stat)
+			  	{
+				  	switch($key)
+				  	{
+					  	case 'shots';
+					  		$rows[] = array('Shots',$stat->total);
+					  		$rows[] = array('Shots on goal',$stat->ongoal);	
+					  	break;
+					  	case 'fouls';
+					  		$rows[] = array('Fouls',$stat->total);
+					  	break;
+					  	case 'corners';
+					  		$rows[] = array('Corners',$stat->total);
+					  	break;
+					  	case 'offsides';
+					  		$rows[] = array('Offsides',$stat->total);
+					  	break;
+					  	case 'possestiontime';
+					  		$rows[] = array('Possession time',$stat->total);
+					  	break;
+					  	case 'yellowcards';
+					  		$rows[] = array('Yellow cards',$stat->total);
+					  	break;
+					  	case 'redcards';
+					  		$rows[] = array('Red cards',$stat->total);
+					  	break;
+					  	case 'saves';
+					  		$rows[] = array('Saves',$stat->total);
+					  	break;
+				  	}
+			  	}
+			  	$table .= (count($rows) > 0) ? theme('table', array('header' => $headers, 'rows'=> $rows)) : '' ;
+			}
+		}
+	}
+	return $table;	
+}
+
+function commentaries_lineup_view()
+{
+	return '';
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	$local = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	  	$visitor = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	  	
+	  	if(isset($commentaries[0]->comm_match_teams->localteam->player))
+	  	{
+		  	$table .= commentaries_tablefromarray(
+	  							$commentaries[0]->comm_match_teams->localteam->player, 
+	  							array('Number', $local->title, 'Position'), 
+	  							array('number','name', 'pos'));
+	  	}
+	  	if(isset($commentaries[0]->comm_match_teams->visitorteam->player))
+	  	{
+		  	$table .= commentaries_tablefromarray(
+		  						$commentaries[0]->comm_match_teams->visitorteam->player, 
+	  							array('Number', $visitor->title, 'Position'), 
+	  							array('number','name', 'pos'));
+	  	}
+	}
+	return $table;	
+}
+
+function commentaries_substitutions_view()
+{
+	return '';
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	$local = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	  	$visitor = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	  	
+	  	if(isset($commentaries[0]->comm_match_substitutions->localteam->substitution))
+	  	{
+		  	$table .= commentaries_tablefromarray(
+	  							$commentaries[0]->comm_match_substitutions->localteam->substitution, 
+	  							array($local->title, 'Out', 'In'), 
+	  							array('minute','off', 'on'));
+	  	}
+	  	if(isset($commentaries[0]->comm_match_substitutions->visitorteam->substitution))
+	  	{
+		  	$table .= commentaries_tablefromarray(
+		  						$commentaries[0]->comm_match_substitutions->visitorteam->substitution, 
+	  							array($visitor->title, 'Out', 'In'),
+	  							array('minute','off', 'on'));
+	  	}		
+	}
+	return $table;
+}
+
+function commentaries_subs_view()
+{
+	return '';
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	$local = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	  	$visitor = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	  	
+	  	if(isset($commentaries[0]->comm_match_subs->localteam->player))
+	  	{
+		  	$table .= commentaries_tablefromarray(
+	  							$commentaries[0]->comm_match_subs->localteam->player, 
+	  							array('Number', $local->title, 'Position'), 
+	  							array('number','name', 'pos'));
+	  	}
+	  	if(isset($commentaries[0]->comm_match_subs->visitorteam->player))
+	  	{
+		  	$table .= commentaries_tablefromarray(
+		  						$commentaries[0]->comm_match_subs->visitorteam->player, 
+	  							array('Number', $visitor->title, 'Position'), 
+	  							array('number','name', 'pos'));
+	  	}
+	}	
+	return $table;	
+}
+
+function commentaries_playerstats_view()
+{
+	
+}
+
+function commentaries_forblock_view() {
+	
+  	return '';
+  	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+  	$table ='';
+  	if(isset($node->field_football_api_['und'][0]['value']))
+  	{
+	  	$commentaries = json_decode($node->field_football_api_['und'][0]['value']);
+	  	if(isset($commentaries[0]->comm_commentaries->comment) 
+	  		&& !is_string($commentaries[0]->comm_commentaries->comment)
+	  		&& !isset($commentaries[0]->comm_commentaries->comment->comment))
+	  	{
+		  	$commentaries = $commentaries[0]->comm_commentaries->comment;
+		  	
+		  	$header = array('', '');
+			$rows = array();
+			foreach($commentaries as $value) $rows[] = array($value->minute,$value->comment);
+			
+			
+			$lastcomment = array_pop($rows);
+			array_unshift($rows, $lastcomment);
+			
+			
+			$table = theme('table', array('header' => $header, 'rows'=> $rows));
+		}
+	}
+	return $table;
+}
+
+function commentaries_inplaycommentaries_view()
+{
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match' && $node->type!='team') $nid = func_get_arg(0);
+	$node = node_load($nid);
+	$block = '';
+	
+	//$block .= commentaries_themethisblock(t('Commentaries'),commentaries_forblock_view($nid));
+	$block = '<div class="block-refresh-button hideme"></div>';
+	$block .= commentaries_forblock_view($nid);
+	
+	
+	return $block;
+}
+
+function commentaries_inplaystats_view()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);
+	$block='';
+	
+	$block .= commentaries_themethisblock(t('Standings'),views_embed_view('standings','block', $nid));
+	
+	
+	return $block;
+}
+
+function commentaries_inplay_header()
+{
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	
+	$block = '';
+	$view = views_get_view('header_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block');
+	$view->set_arguments(array($nid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	return $block;
+}
+
+function commentaries_inplaylast5_games()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);
+	$lid = $node->field_local_team[LANGUAGE_NONE][0]['target_id'];
+	$vid = $node->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
+		
+	
+	$block = '';
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_2');
+	$view->set_arguments(array($lid,$lid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= commentaries_themethisblock(t('Last 5 games'),$tipiblock);
+	
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_2');
+	$view->set_arguments(array($vid,$vid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= commentaries_themethisblock(t('Last 5 games'),$tipiblock);
+	
+	return $block;	
+}
+
+function commentaries_teamlast5_games_noblock()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_2');
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	return $block;	
+}
+
+
+
+function commentaries_teamlast5_games_lv_noblock()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$block = '';
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block');
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_1');
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	return $block;	
+}
+
+function commentaries_inplaylast5_games_noblock()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);
+	$lid = $node->field_local_team[LANGUAGE_NONE][0]['target_id'];
+	$vid = $node->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
+		
+	
+	$block = '';
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_2');
+	$view->set_arguments(array($lid,$lid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_2');
+	$view->set_arguments(array($vid,$vid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	return $block;	
+}
+
+
+
+function commentaries_inplaylast5_games_lv_noblock()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);
+	$lid = $node->field_local_team[LANGUAGE_NONE][0]['target_id'];
+	$vid = $node->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
+		
+	
+	$block = '';
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block');
+	$view->set_arguments(array($lid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_1');
+	$view->set_arguments(array($vid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= $tipiblock;
+	
+	return $block;	
+}
+
+function commentaries_inplaylast5_games_lv()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);
+	$lid = $node->field_local_team[LANGUAGE_NONE][0]['target_id'];
+	$vid = $node->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
+		
+	
+	$block = '';
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block');
+	$view->set_arguments(array($lid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= commentaries_themethisblock(t('Last 5 games as local'),$tipiblock);
+	
+	
+	$view = views_get_view('matches_by_team_in_play');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_1');
+	$view->set_arguments(array($vid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= commentaries_themethisblock(t('Last 5 games as visitor'),$tipiblock);
+	
+	return $block;	
+}
+
+function commentaries_inplaylast5_game_stats()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);	
+	
+	$block = '';
+	
+	$block .= commentaries_themethisblock(t('Last 5 matches'),commentaries_matchstats_overview($nid, array(5) ));
+	
+	return $block;	
+}
+
+function commentaries_inplaylast5_game_stats_lv()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);	
+	
+	$block = '';
+	
+	$block .= commentaries_themethisblock(t('Last 5 matches LV'),commentaries_matchstats_overview_lv($nid, array(5) ));
+	
+	return $block;	
+}
+
+function commentaries_inplaygame_stats()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);	
+	
+	$block = '';
+	
+	$block .= commentaries_themethisblock(t('Game stats'),commentaries_matchstats_inplay_overview($nid));
+	
+	return $block;
+}
+
+function commentaries_inplaytips_view()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	$nid = is_numeric(arg(1)) ? arg(1) : func_get_arg(0);
+	$node = node_load($nid);
+	if($node->type!='match') $nid = func_get_arg(0);
+	$node = node_load($nid);	
+	
+	$block = '';
+	
+	$view = views_get_view('tips_blocks');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block');
+	$view->set_arguments(array($nid));
+	$view->pre_execute();
+	$view->execute();
+	$tipiblock = $view->render();
+	if($view->total_rows > 0) $block .= commentaries_themethisblock(t('Tips'),$tipiblock);
+	
+	return $block;
+}
+
+function commentaries_themethisblock($title,$blockinto)
+{
+	$block = '';
+	if($blockinto!='')
+	{
+		$block .= '<div class="b_title"><h4 class="section_title">' . $title . '</h4></div>';
+		$block .= '<div class="b_block" >' . $blockinto . '</div>';	
+	}
+	return $block;
+}
+
+
+
+?>

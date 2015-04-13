@@ -1,0 +1,50 @@
+diff --git a/complete_profile/complete_profile.module b/complete_profile/complete_profile.module
+
+--- a/complete_profile/complete_profile.module
++++ b/complete_profile/complete_profile.module
+@@ -157,6 +157,8 @@ function complete_profile_profile_field_is_empty($account, $field) {
+ }
+ 
+ function complete_profile_entity_has_empty_required_fields($entity_type, $entity) {
++  global $user;
++  $account = $user;
+   list(, , $bundle) = entity_extract_ids($entity_type, $entity);
+   $instances = field_info_instances($entity_type, $bundle);
+ 
+@@ -180,6 +182,11 @@ function complete_profile_entity_has_empty_required_fields($entity_type, $entity
+     }
+   }
+ 
++  // check if email is empty
++  if(empty($account->mail)){
++    return TRUE;
++  }
++
+   return FALSE;
+ }
+ 
+diff --git a/complete_profile/complete_profile.pages.inc b/complete_profile/complete_profile.pages.inc
+
+--- a/complete_profile/complete_profile.pages.inc
++++ b/complete_profile/complete_profile.pages.inc
+@@ -43,6 +43,20 @@ function complete_profile_form($form, &$form_state, $account) {
+       }
+     }
+   }
++  
++  if(empty($account->mail)){
++	  $form['account'] = array(
++	    '#type'   => 'container',
++	    '#weight' => -10,
++	  );
++      $form['account']['mail'] = array(
++	    '#type' => 'textfield',
++	    '#title' => t('E-mail address'),
++	    '#maxlength' => EMAIL_MAX_LENGTH,
++	    '#description' => t('A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.'),
++	    '#required' => TRUE
++	  );	
++  }
+ 
+   $form['help'] = array(
+     '#markup' => '<p>' . t('Fill out the following fields to complete your profile.') . '</p>',

@@ -1,0 +1,1287 @@
+<?php
+
+/*
+	
+		For the Live Scores feed, you can access the feed every 5 seconds. 
+		For Odds Comparison Feeds, you can access every 2 minutes. 
+		For all other feeds, you can access each league or country's feed every 10 minutes.
+*/
+
+
+ /**
+ * Implements hook_libraries_info().
+ *
+ * For defining external libraries.
+ */
+function tipgin_api_feed_libraries_info() {
+  
+  $libraries['tipgin-api'] = array(
+    'name' => 'Tip Gin API',
+    'vendor url' => 'http://www.tipgin.net/',
+    'download url' => 'http://www.tipgin.net/',
+    'version callback' => 'tipgin_api_feed_library_version_callback',
+    'files' => array(
+      'php' => array('tipgin-api.php'), //this can be a path to the file location like array('lib/simple.js')
+     ),
+  );
+  return $libraries;
+}
+
+function tipgin_api_feed_library_version_callback() {
+  return TRUE;
+}
+
+function tipgin_api_feed_menu() {
+  $items = array();
+  $items['admin/config/tipginapi'] = array(
+    'title' => 'Tip Gin api settings',
+    'description' => 'Settings for Tip Gin api',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('tipgin_api_feed_admin'),
+    'access arguments' => array('administer tip gin api settings'),
+    'type' => MENU_NORMAL_ITEM,
+   );
+  $items['admin/config/tipginapi/integrateteams'] = array(
+    'title' => 'Integrate teams',
+    'description' => 'Integrate teams to avoid duplicated',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('tipgin_api_feed_integrateteams_admin'),
+    'access arguments' => array('administer tip gin api settings'),
+    'type' => MENU_NORMAL_ITEM,
+   );
+  $items['admin/config/tipginapi/integratecompetitions'] = array(
+    'title' => 'Integrate competitions',
+    'description' => 'Integrate competitions',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('tipgin_api_feed_integratecompetitions_admin'),
+    'access arguments' => array('administer tip gin api settings'),
+    'type' => MENU_NORMAL_ITEM,
+   );
+  $items['admin/config/tipginapi/integrategames'] = array(
+    'title' => 'Integrate games',
+    'description' => 'Integrate games',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('tipgin_api_feed_integrategames_admin'),
+    'access arguments' => array('administer tip gin api settings'),
+    'type' => MENU_NORMAL_ITEM,
+   );
+  return $items;
+}
+
+
+function tipgin_api_feed_permission() {
+  return array(
+    'administer tip gin api settings' => array(
+      'title' => t('Administer Tip Gin api settings'),
+      'description' => t('Perform administer Tip Gin api settings.'),
+    ),
+  );
+}
+
+
+function tipgin_api_feed_integrategames_admin()
+{
+	$form = array();
+	  
+	$form['tipgin_api_feed_integrategames_nid_keep'] = array(
+		'#type' => 'textfield',
+		'#title' => t('NID to keep'),
+		'#default_value' => '',
+		'#size' => 10,
+		'#maxlength' => 10,
+		'#required' => TRUE,
+	);
+	$form['tipgin_api_feed_integrategames_nid_remove'] = array(
+		'#type' => 'textfield',
+		'#title' => t('NID to remove'),
+		'#default_value' => '',
+		'#size' => 10,
+		'#maxlength' => 10,
+		'#required' => TRUE,
+	);
+	
+	$form['#submit'][] = 'tipgin_api_feed_integrategames_admin_submit';
+	
+	return system_settings_form($form);	
+}
+
+function tipgin_api_feed_integrategames_admin_submit($form, &$form_state) {
+	//return '';
+	$nidkeep = $form_state['values']['tipgin_api_feed_integrategames_nid_keep'];
+	$nidremove = $form_state['values']['tipgin_api_feed_integrategames_nid_remove'];
+	
+	$nodekeep = node_load($nidkeep);
+	$noderemove = node_load($nidremove);
+	if($nodekeep->type!='match' || $noderemove->type!='match')
+	{
+		drupal_set_message(t('Wrong nids'),'error');
+	}
+	
+	foreach($noderemove->field_tipginapi_id['und'] as $apiid)
+	{
+		$toadd = true;
+		if(isset($nodekeep->field_tipginapi_id['und']))
+			foreach($nodekeep->field_tipginapi_id['und'] as $apiidnnew) 
+				if($apiid['value']==$apiidnnew['value']) $toadd = false;
+		if($toadd)
+		{
+			$nodekeep->field_tipginapi_id['und'][] = array('value' => $apiid['value']);
+			node_save($nodekeep);	
+		}
+	}
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			foreach($match->field_match[LANGUAGE_NONE] as $key => $value)
+				if($value['target_id']==$nidremove) 
+					$match->field_match[LANGUAGE_NONE][$key]['target_id'] = $nidkeep;
+					
+			node_save($match);
+		}
+	}
+	
+	node_delete($nidremove);
+}
+
+
+
+function tipgin_api_feed_integratecompetitions_admin()
+{
+	$form = array();
+	  
+	$form['tipgin_api_feed_integratecompetitions_nid_keep'] = array(
+		'#type' => 'textfield',
+		'#title' => t('NID to keep'),
+		'#default_value' => '',
+		'#size' => 10,
+		'#maxlength' => 10,
+		'#required' => TRUE,
+	);
+	$form['tipgin_api_feed_integratecompetitions_nid_remove'] = array(
+		'#type' => 'textfield',
+		'#title' => t('NID to remove'),
+		'#default_value' => '',
+		'#size' => 10,
+		'#maxlength' => 10,
+		'#required' => TRUE,
+	);
+	
+	$form['#submit'][] = 'tipgin_api_feed_integratecompetitions_admin_submit';
+	
+	return system_settings_form($form);	
+}
+
+function tipgin_api_feed_integratecompetitions_admin_submit($form, &$form_state) {
+	//return '';
+	$nidkeep = $form_state['values']['tipgin_api_feed_integratecompetitions_nid_keep'];
+	$nidremove = $form_state['values']['tipgin_api_feed_integratecompetitions_nid_remove'];
+	
+	$nodekeep = node_load($nidkeep);
+	$noderemove = node_load($nidremove);
+	if($nodekeep->type!='competition' || $noderemove->type!='competition')
+	{
+		drupal_set_message(t('Wrong nids'),'error');
+	}
+	
+	foreach($noderemove->field_tipginapi_id['und'] as $apiid)
+	{
+		$toadd = true;
+		if(isset($nodekeep->field_tipginapi_id['und']))
+			foreach($nodekeep->field_tipginapi_id['und'] as $apiidnnew) 
+				if($apiid['value']==$apiidnnew['value']) $toadd = false;
+		if($toadd)
+		{
+			$nodekeep->field_tipginapi_id['und'][] = array('value' => $apiid['value']);
+			node_save($nodekeep);	
+		}
+	}
+	
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_competition', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			foreach($match->field_competition[LANGUAGE_NONE] as $key => $value)
+				if($value['target_id']==$nidremove) 
+					$match->field_competition[LANGUAGE_NONE][$key]['target_id'] = $nidkeep;
+			
+			node_save($match);
+		}
+	}
+	
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_competition', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			foreach($match->field_competition[LANGUAGE_NONE] as $key => $value)
+				if($value['target_id']==$nidremove) 
+					$match->field_competition[LANGUAGE_NONE][$key]['target_id'] = $nidkeep;
+					
+			node_save($match);
+		}
+	}
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'standing')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_competition', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			foreach($match->field_competition[LANGUAGE_NONE] as $key => $value)
+				if($value['target_id']==$nidremove) 
+					$match->field_competition[LANGUAGE_NONE][$key]['target_id'] = $nidkeep;
+			
+			node_save($match);
+		}
+	}
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'team')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_competition', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			foreach($match->field_competition[LANGUAGE_NONE] as $key => $value)
+				if($value['target_id']==$nidremove) 
+					$match->field_competition[LANGUAGE_NONE][$key]['target_id'] = $nidkeep;
+					
+			node_save($match);
+		}
+	}
+	
+	node_delete($nidremove);
+}
+
+
+
+
+
+function tipgin_api_feed_integrateteams_admin()
+{
+	$form = array();
+	  
+	$form['tipgin_api_feed_integrateteams_nid_keep'] = array(
+		'#type' => 'textfield',
+		'#title' => t('NID to keep'),
+		'#default_value' => '',
+		'#size' => 10,
+		'#maxlength' => 10,
+		'#required' => TRUE,
+	);
+	$form['tipgin_api_feed_integrateteams_nid_remove'] = array(
+		'#type' => 'textfield',
+		'#title' => t('NID to remove'),
+		'#default_value' => '',
+		'#size' => 10,
+		'#maxlength' => 10,
+		'#required' => TRUE,
+	);
+	
+	$form['#submit'][] = 'tipgin_api_feed_integrateteams_admin_submit';
+	
+	return system_settings_form($form);	
+}
+
+function tipgin_api_feed_integrateteams_admin_submit($form, &$form_state) {
+	$nidkeep = $form_state['values']['tipgin_api_feed_integrateteams_nid_keep'];
+	$nidremove = $form_state['values']['tipgin_api_feed_integrateteams_nid_remove'];
+	
+	$nodekeep = node_load($nidkeep);
+	$noderemove = node_load($nidremove);
+	if($nodekeep->type!='team' || $noderemove->type!='team')
+	{
+		drupal_set_message(t('Wrong nids'),'error');
+	}
+	
+	foreach($noderemove->field_competition['und'] as $competition)
+	{
+		$toadd = true;
+		foreach($nodekeep->field_competition['und'] as $competitionnew) if($competition['target_id']==$competitionnew['target_id']) $toadd = false;
+		if($toadd)
+		{
+			$nodekeep->field_competition['und'][] = array('target_id' => $competition['target_id']);
+			node_save($nodekeep);	
+		}
+	}
+	
+	foreach($noderemove->field_tipginapi_id['und'] as $apiid)
+	{
+		$toadd = true;
+		foreach($nodekeep->field_tipginapi_id['und'] as $apiidnnew) if($apiid['value']==$apiidnnew['value']) $toadd = false;
+		if($toadd)
+		{
+			$nodekeep->field_tipginapi_id['und'][] = array('value' => $apiid['value']);
+			node_save($nodekeep);	
+		}
+	}
+	
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_local_team', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			$match->field_local_team[LANGUAGE_NONE][0]['target_id'] = $nidkeep;
+			node_save($match);
+		}
+	}
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_visitor_team', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			$match->field_visitor_team[LANGUAGE_NONE][0]['target_id'] = $nidkeep;
+			node_save($match);
+		}
+	}
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_team', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			$match->field_team[LANGUAGE_NONE][0]['target_id'] = $nidkeep;
+			node_save($match);
+		}
+	}
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'standing')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_team', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			$match->field_team[LANGUAGE_NONE][0]['target_id'] = $nidkeep;
+			node_save($match);
+		}
+	}
+	
+	node_delete($nidremove);
+}
+
+function tipgin_api_feed_admin() {
+  
+  $form = array();
+  
+  $form['tipgin_api_feed_apikey'] = array(
+    '#type' => 'textfield',
+    '#title' => t('API key'),
+    '#default_value' => variable_get('tipgin_api_feed_apikey', ''),
+    '#size' => 50,
+    '#maxlength' => 50,
+    '#description' => t("API Key from http://www.tipgin.net/."),
+    '#required' => TRUE,
+  );
+  return system_settings_form($form);
+}
+
+
+/**
+ * Implements hook_cronapi().
+ */
+function tipgin_api_feed_cronapi() {
+	$items = array();
+	
+	$items['tipgin_api_feed_action_fillmatchesfixtures'] = array();
+	$items['tipgin_api_feed_action_fillmatcheslastweek'] = array();
+	$items['tipgin_api_feed_action_fillmatchesinprogress'] = array();
+	
+	$items['tipgin_api_feed_action_processmatchdata'] = array();
+	$items['tipgin_api_feed_action_gethistory'] = array();
+	
+	return $items;
+}
+
+
+function tipgin_api_feed_action_gethistory()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	
+	$queue = DrupalQueue::get('processGetHistory');
+	if($item = $queue->claimItem())
+	{
+		$data = $item->data;
+		if(!in_array($data[1], $tipgin->TGAPI_SEASON_RESULTS_COUNTRIES)) $queue->deleteItem($item);	
+		
+		$recent = $tipgin->getSeasonsResults($data[1]);
+		//dpm($recent);
+		$leaguefromq = $data[0];
+		
+		//if(isset($recent['league']['@attributes'])) $recent['league'] = array($recent['league']);
+		
+		if(isset($recent['league']))
+			foreach($recent['league'] as $league)
+			{
+				//dpm($league['@attributes']['id'].' - '.$leaguefromq);
+				if($league['@attributes']['id']==$leaguefromq)
+					if(_tipgin_api_feed_iscompetition_beingfetched($league['@attributes']['id']))
+					{
+						//dpm($league);
+						if(isset($league['week']))
+						{
+							foreach($league['week'] as $week)
+							{
+								if(isset($week['match']))
+								{
+									foreach($week['match'] as $match)
+									{
+										$matchtimestamp = strtotime($match['@attributes']['date']);
+										$since = strtotime('-48 weeks');
+										if(isset($match['home']['@attributes']['name']) && $matchtimestamp > $since)
+										{
+											//watchdog('trying process match',$league['@attributes']['name']);
+											_tipgin_api_feed_processmatch($match,$league);
+										}
+											
+									}	
+								}	
+							}
+						}
+						if(isset($league['stage']))
+						{
+							foreach($league['stage'] as $stage)
+							{
+								if(isset($stage['aggregate']))
+								{
+									foreach($stage['aggregate'] as $aggregate)
+									{
+										if(isset($aggregate['match']))
+										{
+											foreach($aggregate['match'] as $match)
+											{
+												$matchtimestamp = strtotime($match['@attributes']['date']);
+												$since = strtotime('-48 weeks');
+												if(isset($match['home']['@attributes']['name']) && $matchtimestamp > $since)
+												{
+													//watchdog('trying process match',$league['@attributes']['name']);
+													_tipgin_api_feed_processmatch($match,$league);
+												}
+													
+											}	
+										}
+									}
+								}	
+							}
+						}
+					}
+			}
+		
+		$queue->deleteItem($item);	
+	}
+	
+	
+}
+
+
+function tipgin_api_feed_action_processmatchdata()
+{
+	module_load_include('inc', 'tipgin_api_feed', 'tipgin_api_feed_process_comments');
+	
+	$queue = DrupalQueue::get('processTipGinEventsQueue');
+	
+	$i = 0;
+	while($item = $queue->claimItem()) {
+		$data = $item->data;
+		_tipgin_api_feed_process_matchdata($data[0],$data[1]);
+		$queue->deleteItem($item);
+		if($i>=200) return;
+		$i++;
+	}
+	//sleep(20);
+}
+
+function tipgin_api_feed_action_fillmatchesfixtures()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$tipgin->getFixturesFile();
+	
+	foreach($tipgin->TGAPI_FIXTURES_COUNTRIES as $country)
+	{
+		$recent = $tipgin->getFixtures($country);
+	
+		if(isset($recent['league']['@attributes'])) $recent['league'] = array($recent['league']);
+		
+		if(isset($recent['league']))
+			foreach($recent['league'] as $league)
+			{
+				_tipgin_api_feed_create_competition($league,$country);
+				if(_tipgin_api_feed_iscompetition_beingfetched($league['@attributes']['id']))
+				{
+					if(isset($league['match']['@attributes'])) $league['match'] = array($league['match']);
+					foreach($league['match'] as $match) _tipgin_api_feed_processmatch($match,$league);
+				}
+				else
+				{
+					//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
+				}
+			}	
+	}	
+}
+
+function tipgin_api_feed_action_fillmatcheslastweek()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$tipgin->getRecentResultsFile();
+	
+	foreach($tipgin->TGAPI_RECENT_RESULTS_COUNTRIES as $country)
+	{
+		$recent = $tipgin->getRecentResults($country);
+	
+		if(isset($recent['league']['@attributes'])) $recent['league'] = array($recent['league']);
+		
+		if(isset($recent['league']))
+			foreach($recent['league'] as $league)
+			{
+				_tipgin_api_feed_create_competition($league,$country);
+				if(_tipgin_api_feed_iscompetition_beingfetched($league['@attributes']['id']))
+				{
+					if(isset($league['match']['@attributes'])) $league['match'] = array($league['match']);
+					foreach($league['match'] as $match) 
+					{
+						$weekstoget = 1;
+						if(_tipgin_api_feed_bring_old_information($league['@attributes']['id']))
+						{
+							$queue = DrupalQueue::get('processGetHistory');
+							$queue->createItem(array($league['@attributes']['id'],$country));
+							$weekstoget = 24;
+						}
+						
+						$matchtimestamp = strtotime($match['@attributes']['date']);
+						$since = strtotime('-' . $weekstoget . ' week');
+						if(isset($match['home']['@attributes']['name']) && $matchtimestamp > $since)
+						_tipgin_api_feed_processmatch($match,$league);
+					}
+				}
+				else
+				{
+					//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
+				}
+			}	
+	}
+	
+	// To avoid last day problem
+	tipgin_api_feed_action_fillmatchesd1();
+		
+}
+
+
+function tipgin_api_feed_action_fillmatchesd1()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$tipgin->getLivescoreFile();
+	$totalcount = 0 ;
+	$livescore = $tipgin->getLivescore('d-1');
+	
+	if(isset($livescore['league']['@attributes'])) $livescore['league'] = array($livescore['league']);
+	
+	if(isset($livescore['league']))
+		foreach($livescore['league'] as $league)
+		{
+			_tipgin_api_feed_create_competition($league,$league['@attributes']['country']);
+			if(_tipgin_api_feed_iscompetition_beingfetched($league['@attributes']['id']))
+			{
+				if(isset($league['match']['@attributes'])) $league['match'] = array($league['match']);
+				$totalcount += count($league['match']);
+				foreach($league['match'] as $match) _tipgin_api_feed_processmatch($match,$league);
+			}
+			else
+			{
+				//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
+			}
+		}
+		
+	watchdog('countmatches',' count matches d-1 ' . $totalcount);
+		
+}
+
+function tipgin_api_feed_action_fillmatchesinprogress()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$tipgin->getLivescoreFile();
+	$totalcount = 0 ;
+	$livescore = $tipgin->getLivescore('livescore');
+	
+	if(isset($livescore['league']['@attributes'])) $livescore['league'] = array($livescore['league']);
+	
+	if(isset($livescore['league']))
+		foreach($livescore['league'] as $league)
+		{
+			_tipgin_api_feed_create_competition($league,$league['@attributes']['country']);
+			if(_tipgin_api_feed_iscompetition_beingfetched($league['@attributes']['id']))
+			{
+				if(isset($league['match']['@attributes'])) $league['match'] = array($league['match']);
+				$totalcount += count($league['match']);
+				foreach($league['match'] as $match) _tipgin_api_feed_processmatch($match,$league);
+			}
+			else
+			{
+				//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
+			}
+		}
+		
+	watchdog('countmatches',' count matches ' . $totalcount);
+		
+}
+
+function _tipgin_api_feed_processmatch($match,$league)
+{
+	if(intval($match['@attributes']['id'])==0) return false;
+	
+	if(!isset($match['home']['@attributes']['goals']) && isset($match['home']['@attributes']['score'])) 
+		$match['home']['@attributes']['goals'] = $match['home']['@attributes']['score'];
+	if(!isset($match['away']['@attributes']['goals']) && isset($match['away']['@attributes']['score'])) 
+		$match['away']['@attributes']['goals'] = $match['away']['@attributes']['score'];
+	
+	if(!isset($match['home']['@attributes']['goals'])) $match['home']['@attributes']['goals'] = '?';
+	if(!isset($match['away']['@attributes']['goals'])) $match['away']['@attributes']['goals'] = '?';
+	if(!isset($match['events'])) $match['events'] = array();
+	
+	if(intval($match['@attributes']['id'])==4151056)
+	{
+		//if ($cache = cache_get('_tipgin_api_feed_processmatch_' . $match['@attributes']['id'])) $laststatus =  $cache->data;
+		//watchdog('laststatus','laststatus_' . $laststatus);
+		//watchdog('debuglaststatusinprogrees','debuglaststatusinprogrees_' . $match['@attributes']['id']);
+	}
+	
+	$laststatus = '--nostatus--';
+	if ($cache = cache_get('_tipgin_api_feed_processmatch_' . $match['@attributes']['id'])) $laststatus =  $cache->data;
+	if($match['@attributes']['status']==$laststatus) return false;
+	cache_set('_tipgin_api_feed_processmatch_' . $match['@attributes']['id'], $match['@attributes']['status'], 'cache');
+	
+	
+	
+	$mt = _tipgin_api_feed_match_exists($match,$league);
+	if(!$mt)
+	{
+		if(!_tipgin_api_feed_allowcompetition_newgames($league['@attributes']['id'])) 
+		{
+			/*
+				$matchdate = $match['@attributes']['date'] . ' ' . $match['@attributes']['time'];
+			watchdog('New game rejected', 'New game rejected : ' . $matchdate . ' ' .
+						$league['@attributes']['name'] . ' ' . 
+						$match['home']['@attributes']['name'] . ' ' . $match['home']['@attributes']['id'] . ' ' . $match['away']['@attributes']['name'] .  ' ' . $match['away']['@attributes']['id'] . ' '  . $match['@attributes']['id']);
+			*/
+			return false;
+		}
+		$mt = _tipgin_api_feed_create_match($match,$league);
+	}
+	else
+		$mt = _tipgin_api_feed_update_match($match,$mt);
+		
+	return $mt;
+}
+
+function _tipgin_api_feed_create_match($match,$league)
+{
+	// teams
+	$localteam = _tipgin_api_feed_team_exists($match['home']);
+	$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+	
+	if(!$localteam || !$visitorteam)
+	{
+		if(!_tipgin_api_feed_allowcompetition_newteams($league['@attributes']['id'])) 
+		{
+			$matchdate = $match['@attributes']['date'] . ' ' . $match['@attributes']['time'];
+			watchdog('New team rejected', 'New team rejected : ' . $matchdate . ' ' .
+						$league['@attributes']['name'] . ' ' . 
+						$match['home']['@attributes']['name'] . ' ' . $match['home']['@attributes']['id'] . ' ' . $match['away']['@attributes']['name'] .  ' ' . $match['away']['@attributes']['id'] . ' '  . $match['@attributes']['id']);
+			return false;
+		}
+		if(!$localteam) $localteam = _tipgin_api_feed_create_team($match['home'], $league);
+		if(!$visitorteam) $visitorteam = _tipgin_api_feed_create_team($match['away'], $league); 
+	}
+	
+	if(!$localteam || !$visitorteam) return false;
+	
+	if(!$localteam) $localteam = _tipgin_api_feed_update_team($match['home'], $league);
+	if(!$visitorteam) $visitorteam = _tipgin_api_feed_update_team($match['away'], $league); 
+	
+	if(!$localteam || !$visitorteam) return false;
+		
+	$mt = new stdClass();
+	$mt->type = 'match';
+	$mt->status = 1;
+	$mt->uid = 1;
+	$mt->promote = 0;
+	$mt->created = time();
+	$mt->timestamp = $mt->created;
+	$mt->changed = $mt->created;
+	$mt->sticky = 0;
+	$mt->revision = 0;
+	$mt->language = 'und';
+	
+	$mt->field_competition[LANGUAGE_NONE][0]['target_id'] = _tipgin_api_feed_competition_getnid($league['@attributes']['id']);
+	
+	$mt->field_local_team[LANGUAGE_NONE][0]['target_id'] = $localteam->nid;
+	$mt->field_visitor_team[LANGUAGE_NONE][0]['target_id'] = $visitorteam->nid;
+	$mt->field_local_team_score[LANGUAGE_NONE][0]['value'] = $match['home']['@attributes']['goals'];
+	$mt->field_visitor_team_score[LANGUAGE_NONE][0]['value'] = $match['away']['@attributes']['goals'];
+	
+	$matchdate = strtotime($match['@attributes']['date'] . ' ' . $match['@attributes']['time']);
+	$mt->field_match_date[LANGUAGE_NONE][0]['value'] = date('Y-m-d\TH:i', $matchdate);
+	
+	$title = $match['home']['@attributes']['name'] . ( trim($match['home']['@attributes']['goals'])=='?' ? '' : ' ' . trim($match['home']['@attributes']['goals']) );
+	$title .= ' - ';
+	$title .= ( trim($match['away']['@attributes']['goals'])=='?' ? '' : trim($match['away']['@attributes']['goals']) . ' ')  . $match['away']['@attributes']['name'];
+	
+	$mt->title = $title;
+	$mt->field_commentary_available[LANGUAGE_NONE][0]['value'] = count($match['events']);
+	$mt->field_match_status[LANGUAGE_NONE][0]['value'] = $match['@attributes']['status'];
+	$mt->field_tipginapi_id[LANGUAGE_NONE][0]['value'] = intval($match['@attributes']['id']);
+	
+	if( trim($match['home']['@attributes']['goals']) != '?' && trim($match['away']['@attributes']['goals']) != '?' )
+		$mt->field_available_live_score[LANGUAGE_NONE][0]['value'] = 1;
+	else
+		$mt->field_available_live_score[LANGUAGE_NONE][0]['value'] = 0;
+		
+    node_save($mt);
+    	    
+	if (count($match['events'])>0)
+	{
+		$queue = DrupalQueue::get('processTipGinEventsQueue');
+		$queue->createItem(array($mt->nid,$match));
+	}
+	
+	
+	return $mt;
+}
+
+function _tipgin_api_feed_update_match($match,$mt=false)
+{
+	if(intval($match['@attributes']['id'])==0) return false;
+	if(!$mt) $mt = _tipgin_api_feed_match_exists($match,$league); 
+	
+	$laststatus = $mt->field_match_status[LANGUAGE_NONE][0]['value'];
+	
+	$mt->changed = time();
+	$mt->field_local_team_score[LANGUAGE_NONE][0]['value'] = $match['home']['@attributes']['goals'];
+	$mt->field_visitor_team_score[LANGUAGE_NONE][0]['value'] = $match['away']['@attributes']['goals'];
+	
+	$matchdate = strtotime($match['@attributes']['date'] . ' ' . $match['@attributes']['time']);
+	$mt->field_match_date[LANGUAGE_NONE][0]['value'] = date('Y-m-d\TH:i', $matchdate);
+	
+	$title = $match['home']['@attributes']['name'] . ( trim($match['home']['@attributes']['goals'])=='?' ? '' : ' ' . trim($match['home']['@attributes']['goals']) );
+	$title .= ' - ';
+	$title .= ( trim($match['away']['@attributes']['goals'])=='?' ? '' : trim($match['away']['@attributes']['goals']) . ' ')  . $match['away']['@attributes']['name'];
+	
+	$mt->title = $title;
+	$mt->field_commentary_available[LANGUAGE_NONE][0]['value'] = count($match['events']);
+	$mt->field_match_status[LANGUAGE_NONE][0]['value'] = $match['@attributes']['status'];
+	$mt->field_tipginapi_id[LANGUAGE_NONE][0]['value'] = intval($match['@attributes']['id']);
+	
+	if( trim($match['home']['@attributes']['goals']) != '?' && trim($match['away']['@attributes']['goals']) != '?' )
+		$mt->field_available_live_score[LANGUAGE_NONE][0]['value'] = 1;
+	else
+		$mt->field_available_live_score[LANGUAGE_NONE][0]['value'] = 0;
+		
+    node_save($mt);
+    	    
+    if($laststatus == $match['@attributes']['status']) return $mt;
+	
+	if (count($match['events'])>0)
+	{
+		$queue = DrupalQueue::get('processTipGinEventsQueue');
+		$queue->createItem(array($mt->nid,$match));
+	}
+		
+	return $mt;
+}
+
+function _tipgin_api_feed_match_exists($match,$league)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $match['@attributes']['id'], '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		$mt = reset($match_items);
+	}
+	
+	if(!$mt && _tipgin_api_feed_iscompetition_old($league['@attributes']['id']))
+	{
+		$matchdate = $match['@attributes']['date'] . ' ' . $match['@attributes']['time'];
+		$localteam = _tipgin_api_feed_team_exists($match['home']);
+		$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+		
+		if(!$localteam || !$visitorteam) return false;
+		
+		$from = new DateTime($matchdate, new DateTimeZone('UTC'));
+		$from = $from->modify('-1 days');
+	
+		$to = new DateTime($matchdate, new DateTimeZone('UTC'));
+		$to = $to->modify('+1 days');
+		
+		$query = new EntityFieldQuery();
+		$query->entityCondition('entity_type', 'node')
+			  ->entityCondition('bundle', 'match')
+			  ->addMetaData('account', user_load(1))
+			  ->fieldCondition('field_local_team', 'target_id', $localteam->nid, '=')
+			  ->fieldCondition('field_visitor_team', 'target_id', $visitorteam->nid, '=')
+			  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=')
+			  ->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<=')
+			  ->range(0,1);	
+	
+		$result = $query->execute();
+		if (isset($result['node'])) 
+		{
+			$match = array_keys($result['node']);
+			$match_items = entity_load('node', $match);
+			$mt = reset($match_items);
+		}
+	}
+	
+	
+	return $mt;
+}
+
+function _tipgin_api_feed_create_team($team, $league)
+{
+	if(intval($team['@attributes']['id'])==0) return false;
+	
+	$tm = new stdClass();
+	$tm->type = 'team';
+	$tm->status = 1;
+	$tm->uid = 1;
+	$tm->title = $team['@attributes']['name'];
+	$tm->promote = 0;
+	$tm->created = time();
+	$tm->timestamp = $tm->created;
+	$tm->changed = $tm->created;
+	$tm->sticky = 0;
+	$tm->revision = 0;
+	$tm->language = 'und';
+	
+	
+	$tm->field_tipginapi_id[LANGUAGE_NONE][0]['value'] = $team['@attributes']['id'];
+	
+	$cpid = _tipgin_api_feed_competition_getnid($league['@attributes']['id']);
+	$tm->field_competition[LANGUAGE_NONE] = array();
+	$tm->field_competition[LANGUAGE_NONE][] = array('target_id' => $cpid);
+	
+	//$addme = true;
+	//foreach($tm->field_competition[LANGUAGE_NONE] as $competition) if($competition['target_id']==$cpid) $addme = false;
+	//if($addme) $tm->field_competition[LANGUAGE_NONE][] = array('target_id' => $cpid);
+    
+    node_save($tm);
+	
+	return $tm;	
+}
+
+function _tipgin_api_feed_update_team($team, $league)
+{
+	if(intval($team['@attributes']['id'])==0) return false;
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'team')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_footapi_id', 'value', $id, '=');	
+	
+	$result = $query->execute();
+	$tm = false;
+	if (isset($result['node'])) 
+	{
+		$team = array_keys($result['node']);
+		$team_items = entity_load('node', $team);
+		$tm = reset($team_items); 
+		$tm->changed = time();
+	
+		$addme = true;
+		foreach($tm->field_tipginapi_id[LANGUAGE_NONE] as $apiid) if($apiid['value']==$team['@attributes']['id']) $addme = false;
+		if($addme) $tm->field_tipginapi_id[LANGUAGE_NONE][] = array('value' => $team['@attributes']['id']);
+		
+		$addme = true;
+		$cpid = _tipgin_api_feed_competition_getnid($league['@attributes']['id']);
+		foreach($tm->field_competition[LANGUAGE_NONE] as $competition) if($competition['target_id']==$cpid) $addme = false;
+		if($addme) $tm->field_competition[LANGUAGE_NONE][] = array('target_id' => $cpid);
+	
+	    
+	    node_save($tm);
+    }
+	
+	return $tm;	
+}
+
+function _tipgin_api_feed_team_exists($team)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'team')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $team['@attributes']['id'], '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$tm = false;
+	if (isset($result['node'])) 
+	{
+		$teamobj = array_keys($result['node']);
+		$team_items = entity_load('node', $teamobj);
+		$tm = reset($team_items);
+	}
+	
+	return $tm;	
+}
+
+function _tipgin_api_feed_create_competition($league,$country)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $league['@attributes']['id'], '=');	
+	
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$competition = array_keys($result['node']);
+		$competition_items = entity_load('node', $competition);
+		$cp = reset($competition_items); 
+		
+		$cp->changed = time();
+	}
+	else
+	{
+		$query = new EntityFieldQuery();
+		$query->entityCondition('entity_type', 'node')
+			  ->entityCondition('bundle', 'competition')
+			  ->addMetaData('account', user_load(1))
+			  ->propertyCondition('title', ucfirst($country) . ' - ' . $league['@attributes']['name'], '=');
+		
+		$result = $query->execute();
+		if (isset($result['node'])) 
+		{
+			$competition = array_keys($result['node']);
+			$competition_items = entity_load('node', $competition);
+			$cp = reset($competition_items); 
+			$cp->changed = time();
+			$cp->field_tipginapi_id[LANGUAGE_NONE][] = array('value' => $league['@attributes']['id']);
+			node_save($cp);
+		}
+		else
+		{
+			$cp = new stdClass();
+			$cp->type = 'competition';
+			$cp->status = 1;
+			$cp->uid = 1;
+			$cp->promote = 0;
+			$cp->created = time();
+			$cp->timestamp = $cp->created;
+			$cp->changed = $cp->created;
+			$cp->sticky = 0;
+			$cp->revision = 0;
+			$cp->language = 'und';
+			$cp->title =  ucfirst($country) . ' - ' . $league['@attributes']['name'];		
+			$cp->field_country[LANGUAGE_NONE][0]['value'] = $country;
+			$cp->field_tipginapi_id[LANGUAGE_NONE][0]['value'] = $league['@attributes']['id'];
+			createTermsFromString(ucfirst($country),',','region',$cp->field_region);
+			node_save($cp);
+		}
+	}
+	
+	return $cp;
+}
+
+
+function _tipgin_api_feed_iscompetition_beingfetched($id)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $id, '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$valret = 0;
+	if (isset($result['node'])) 
+	{
+		$compobj = array_keys($result['node']);
+		$comp_items = entity_load('node', $compobj);
+		$cp = reset($comp_items);
+		$valret = $cp->field_fetch_information[LANGUAGE_NONE][0]['value'];
+	}
+	
+	return $valret;
+}
+
+function _tipgin_api_feed_iscompetition_old($id)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $id, '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$valret = 0;
+	if (isset($result['node'])) 
+	{
+		$compobj = array_keys($result['node']);
+		$comp_items = entity_load('node', $compobj);
+		$cp = reset($comp_items);
+		$valret = $cp->field_is_an_old_competition[LANGUAGE_NONE][0]['value'];
+	}
+	
+	return $valret;	
+}
+
+function _tipgin_api_feed_allowcompetition_newgames($id)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $id, '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$valret = 0;
+	if (isset($result['node'])) 
+	{
+		$compobj = array_keys($result['node']);
+		$comp_items = entity_load('node', $compobj);
+		$cp = reset($comp_items);
+		$valret = $cp->field_allow_new_games[LANGUAGE_NONE][0]['value'];
+	}
+	
+	return $valret;	
+}
+
+function _tipgin_api_feed_allowcompetition_newteams($id)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $id, '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$valret = 0;
+	if (isset($result['node'])) 
+	{
+		$compobj = array_keys($result['node']);
+		$comp_items = entity_load('node', $compobj);
+		$cp = reset($comp_items);
+		$valret = $cp->field_allow_new_teams[LANGUAGE_NONE][0]['value'];
+	}
+	
+	return $valret;	
+}
+
+function _tipgin_api_feed_bring_old_information($id)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $id, '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$valret = false;
+	if (isset($result['node'])) 
+	{
+		$compobj = array_keys($result['node']);
+		$comp_items = entity_load('node', $compobj);
+		$cpnode = reset($comp_items);
+		if($cpnode->field_is_an_old_competition[LANGUAGE_NONE][0]['value']!=1 )
+		{
+			if($cpnode->field_fetch_information[LANGUAGE_NONE][0]['value']==1)
+			{
+				if($cpnode->field_bring_old_information[LANGUAGE_NONE][0]['value']!=1)
+				{
+					$valret = true;
+					$cpnode->field_bring_old_information[LANGUAGE_NONE][0]['value'] = 1;
+					node_save($cpnode);	
+				}
+			}
+		}
+	}
+	return $valret;	
+}
+
+function _tipgin_api_feed_competition_getnid($id)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'competition')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tipginapi_id', 'value', $id, '=')->range(0,1);	
+	
+	$result = $query->execute();
+	$valret = 0;
+	if (isset($result['node'])) 
+	{
+		$compobj = array_keys($result['node']);
+		$comp_items = entity_load('node', $compobj);
+		$cp = reset($comp_items);
+		$valret = $cp->nid;
+	}
+	
+	return $valret;	
+}
+
+// General Libraries
+
+function createNodesFromString($rowfield,$contenttype,&$nodefield) {
+    //return str_replace('#','',$value);
+    global $user;
+    
+    $row = db_query('SELECT nid FROM node WHERE type = :ctype  AND title = :mytitle', 
+    		array(':ctype' => $contenttype, ':mytitle' => $rowfield))->fetchField();
+    		
+    		
+    if(intval($row)<=0) {
+		
+        $nodesingle = new stdClass();
+		$nodesingle->type = $contenttype;
+		$nodesingle->status = 1;
+		$nodesingle->uid = $user->uid;
+		$nodesingle->title = $rowfield;
+		$nodesingle->promote = 0;
+		$nodesingle->created = time();
+		$nodesingle->timestamp = $nodesingle->created;
+		$nodesingle->changed = $nodesingle->created;
+		$nodesingle->sticky = 0;
+		$nodesingle->revision = 0;
+		$nodesingle->language = 'und';
+        node_save($nodesingle);
+        
+        $nid = $nodesingle->nid;
+	} else {
+		$nid = $row; 
+	}
+    
+    $nodefield[LANGUAGE_NONE][0]['target_id'] = $nid;
+}
+
+
+
+function createTermsFromString($rowfield,$separator,$vocabulary,&$nodefield) {
+//return str_replace('#','',$value);
+unset($vid);
+  $keywords = explode($separator, str_replace('#','',$rowfield));
+  if (!isset($vid)) {
+    $vocabs = taxonomy_vocabulary_load_multiple(array(), array('machine_name' => $vocabulary));
+    $vids = array_keys($vocabs);
+    $vid = reset($vids);
+}
+
+foreach ($keywords as $index => $keyword) {
+  if(trim($keyword)!='')
+  {
+  $matches = taxonomy_get_term_by_name($keyword,$vocabulary);
+  if (empty($matches)) {
+    $term = new stdClass;
+    $term->name = $keyword;
+    $term->vocabulary_machine_name = $vocabulary;
+    $term->vid = $vid;
+    taxonomy_term_save($term);
+  } 
+  else {
+    $term = reset($matches);
+  }
+  $nodefield[LANGUAGE_NONE][$index]['target_id'] = $term->tid;
+  }
+}
+
+}
+
+
+
+?>

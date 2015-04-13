@@ -1,0 +1,80 @@
+.form-radios{
+	width:100%;
+	float:left;
+	margin-top:60px!important;
+	clear:both;
+}
+.form-radios input[type=radio]{
+	margin-right:15px;
+	cursor: pointer;
+	background: #e1e1e1;
+}
+.form-radios .form-item{
+	width: 70px;
+	margin: 0 30px 90px 0!important;
+	float: left;
+}
+.form-radios .form-item label{
+	margin-top: -70px!important;
+	border: 2px solid #fff!important;
+	outline: 1px solid #ddd!important;
+	position: absolute!important;
+	display: block;
+	width: 70px;
+	height: 0px;
+	line-height: 30px;
+	padding-top: 70px!important;
+	cursor: pointer;
+	text-align: center;
+	color: #444;
+	border: 1px solid #fff;
+	outline: 2px solid #a3af7f;
+	font-weight: bold;
+	background:#333
+}
+.form-item label[for="edit-built-in-skins-defaultcss"] { background: #fc4242; }
+.form-item label[for="edit-built-in-skins-bridgecss"] { background: #a5d549; }
+.form-item label[for="edit-built-in-skins-cyancss"] { background: #35d3b7; }
+.form-item label[for="edit-built-in-skins-darkredcss"] { background: #970001; }
+.form-item label[for="edit-built-in-skins-bluecss"] { background: #2f92ee; }
+.form-item label[for="edit-built-in-skins-greencss"] { background: #3fc35f; }
+.form-item label[for="edit-built-in-skins-lightbluecss"] { background: #37c6f5; }
+
+.form-item label[for="edit-built-in-skins-pinkcss"] { background: #fa3aab; }
+.form-item label[for="edit-built-in-skins-purplecss"] { background: #c762cb; }
+.form-item label[for="edit-built-in-skins-orangecss"] { background: #ff6e41; }
+
+
+.form-item label[for="edit-built-in-skins-slatecss"] { background: #6b798f; }
+.form-item label[for="edit-built-in-skins-yellowcss"] { background: #f2d438; }
+
+
+
+.form-item label[for="edit-background-for-boxed-layout-none-background"] { background-color:#FFF!important }
+.form-item label[for="edit-background-for-boxed-layout-wood"] { background:url(../bg/retina_wood.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-crossed"] { background:url(../bg/crossed_stripes.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-fabric"] { background:url(../bg/classy_fabric.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-linen"] { background:url(../bg/low_contrast_linen.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-diagmonds"] { background:url(../bg/diagmonds.jpg) }
+
+.form-item label[for="edit-background-for-boxed-layout-triangles"] { background:url(../bg/triangles.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-black-thread"] { background:url(../bg/black_thread.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-checkered-pattern"] { background:url(../bg/checkered_pattern.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-black-mamba"] { background:url(../bg/black_mamba.jpg) }
+
+.form-item label[for="edit-background-for-boxed-layout-back-pattern"] { background:url(../bg/back_pattern.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-vichy"] { background:url(../bg/vichy.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-diamond-upholstery"] { background:url(../bg/diamond_upholstery.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-lyonnette"] { background:url(../bg/lyonnette.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-graphy"] { background:url(../bg/graphy.jpg) }
+.form-item label[for="edit-background-for-boxed-layout-subtlenet2"] { background:url(../bg/subtlenet2.jpg) }
+
+
+.form-radios .form-item-active label{
+	border: 1px solid #fff!important;
+	outline: 2px solid #a3af7f!important;
+	font-weight: bold!important;
+}
+.form-item .form-item{
+	padding:15px 0px!important;
+}
