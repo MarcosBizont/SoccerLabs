@@ -329,7 +329,7 @@ function tips_check_poisson_tips_creation($daystocheck)
 	module_load_include('inc', 'commentaries', 'commentaries_strategies');
 		
 	$from = new DateTime();
-	$from = $from->modify('-3 days');
+	//$from = $from->modify('-3 days');
 	
 	$to = new DateTime();
 	$to = $to->modify('+' . $daystocheck . ' days');
@@ -528,51 +528,60 @@ function tips_close_tips_poisson($tip)
 
 function tips_poisson_distribution($match, $remaining_time = false, $gamestocheck = false)
 {
-	$lid = $match->field_local_team[LANGUAGE_NONE][0]['target_id'];
-	$vid = $match->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
-	$competitionid = $match->field_competition[LANGUAGE_NONE][0]['target_id'];
-	$matchdate = $match->field_match_date[LANGUAGE_NONE][0]['value'];
-	
-	$competition_stats = commentaries_get_competition_stats($competitionid, $matchdate, MATCHES_TO_CHECK_IN_THE_PAST_COMPETITION);
-	if(!$gamestocheck) $gamestocheck = MATCHES_TO_CHECK_IN_THE_PAST;
-	$local_stats = commentaries_inplaytips_getlastgamesgoals_team($lid, $matchdate, $gamestocheck, 1, $competitionid);
-	$visitor_stats = commentaries_inplaytips_getlastgamesgoals_team($vid, $matchdate, $gamestocheck, 1, $competitionid);
-	
-	//dpm($competition_stats['count']);
-	//dpm($local_stats['local_count']);
-	//dpm($visitor_stats['visitor_count']);
-	
-	if($competition_stats['count'] < MATCHES_TO_CHECK_IN_THE_PAST_COMPETITION_MIN || $local_stats['local_count'] < $gamestocheck || $visitor_stats['visitor_count'] < $gamestocheck)
-		return false;
-	
-	$local_goals = ($local_stats['goals_as_local_avg']/$competition_stats['goals_as_local_avg']) *
-					($visitor_stats['goals_against_as_visitor_avg']/$competition_stats['goals_as_local_avg']) *
-					$competition_stats['goals_as_local_avg'];
-	
-	$visitor_goals = ($visitor_stats['goals_as_visitor_avg']/$competition_stats['goals_as_visitor_avg']) *
-					($local_stats['goals_against_as_local_avg']/$competition_stats['goals_as_visitor_avg']) *
-					$competition_stats['goals_as_visitor_avg'];
-	
-	
-	if($remaining_time!==false)
-	{
-		$local_goals = $local_goals * pow($remaining_time, 0.85);
-		$visitor_goals = $visitor_goals * pow($remaining_time, 0.85);
+	if ($cache = cache_get('tips_poisson_distribution' . $match->nid . '_' .  strval($remaining_time) . '_' . strval($gamestocheck), 'cache')) {
+	  	$arraytoreturn = $cache->data;
 	}
-	
-	$proximity_local = array('0' => 0, '1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0,); 
-	$proximity_visitor = array('0' => 0, '1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0,); 
-	
-	foreach($proximity_local as $id => &$value) $value = ( pow(2.71828,-$local_goals) * pow($local_goals,$id) ) / tips_poisson_factorial($id);
-	foreach($proximity_visitor as $id => &$value) $value = ( pow(2.71828,-$visitor_goals) * pow($visitor_goals,$id) ) / tips_poisson_factorial($id);
-	
-	$arraytoreturn['local_goals'] = $local_goals;
-	$arraytoreturn['visitor_goals'] = $visitor_goals;
-	$arraytoreturn['proximity_local'] = $proximity_local;
-	$arraytoreturn['proximity_visitor'] = $proximity_visitor;
-	$arraytoreturn['competition_stats'] = $competition_stats;
-	$arraytoreturn['local_stats'] = $local_stats;
-	$arraytoreturn['visitor_stats'] = $visitor_stats;
+	else 
+	{
+		$lid = $match->field_local_team[LANGUAGE_NONE][0]['target_id'];
+		$vid = $match->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
+		$competitionid = $match->field_competition[LANGUAGE_NONE][0]['target_id'];
+		$matchdate = $match->field_match_date[LANGUAGE_NONE][0]['value'];
+		
+		$competition_stats = commentaries_get_competition_stats($competitionid, $matchdate, MATCHES_TO_CHECK_IN_THE_PAST_COMPETITION);
+		if(!$gamestocheck) $gamestocheck = MATCHES_TO_CHECK_IN_THE_PAST;
+		$local_stats = commentaries_inplaytips_getlastgamesgoals_team($lid, $matchdate, $gamestocheck, 1, $competitionid);
+		$visitor_stats = commentaries_inplaytips_getlastgamesgoals_team($vid, $matchdate, $gamestocheck, 1, $competitionid);
+		
+		//dpm($competition_stats['count']);
+		//dpm($local_stats['local_count']);
+		//dpm($visitor_stats['visitor_count']);
+		
+		if($competition_stats['count'] < MATCHES_TO_CHECK_IN_THE_PAST_COMPETITION_MIN || $local_stats['local_count'] < $gamestocheck || $visitor_stats['visitor_count'] < $gamestocheck)
+			return false;
+		
+		$local_goals = ($local_stats['goals_as_local_avg']/$competition_stats['goals_as_local_avg']) *
+						($visitor_stats['goals_against_as_visitor_avg']/$competition_stats['goals_as_local_avg']) *
+						$competition_stats['goals_as_local_avg'];
+		
+		$visitor_goals = ($visitor_stats['goals_as_visitor_avg']/$competition_stats['goals_as_visitor_avg']) *
+						($local_stats['goals_against_as_local_avg']/$competition_stats['goals_as_visitor_avg']) *
+						$competition_stats['goals_as_visitor_avg'];
+		
+		
+		if($remaining_time!==false)
+		{
+			$local_goals = $local_goals * pow($remaining_time, 0.85);
+			$visitor_goals = $visitor_goals * pow($remaining_time, 0.85);
+		}
+		
+		$proximity_local = array('0' => 0, '1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0,); 
+		$proximity_visitor = array('0' => 0, '1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0,); 
+		
+		foreach($proximity_local as $id => &$value) $value = ( pow(2.71828,-$local_goals) * pow($local_goals,$id) ) / tips_poisson_factorial($id);
+		foreach($proximity_visitor as $id => &$value) $value = ( pow(2.71828,-$visitor_goals) * pow($visitor_goals,$id) ) / tips_poisson_factorial($id);
+		
+		$arraytoreturn['local_goals'] = $local_goals;
+		$arraytoreturn['visitor_goals'] = $visitor_goals;
+		$arraytoreturn['proximity_local'] = $proximity_local;
+		$arraytoreturn['proximity_visitor'] = $proximity_visitor;
+		$arraytoreturn['competition_stats'] = $competition_stats;
+		$arraytoreturn['local_stats'] = $local_stats;
+		$arraytoreturn['visitor_stats'] = $visitor_stats;
+		
+		cache_set('tips_poisson_distribution' . $match->nid . '_' .  strval($remaining_time) . '_' . strval($gamestocheck), 
+			$arraytoreturn, 'cache', time() + 60*60*24);
+	}
 	
 	return $arraytoreturn;
 }

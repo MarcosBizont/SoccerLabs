@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:41:19" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4030387" alternate_id_2="4317144" date="06.04.2015" id="4148006" static_id="06041523488272348880" status="FT" time="17:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:14" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4030387" alternate_id_2="4317144" date="06.04.2015" id="4148006" static_id="06041523488272348880" status="FT" time="17:00">
 <home goals="0" id="2348827" name="Besiktas"></home>
 <away goals="0" id="2348880" name="Basaksehir"></away>
 <events>
@@ -268,11 +268,22 @@
 <event id="22142331" minute="90+3" player="C. Erkin" playerid="2338241" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="turkey" name="Turkey: Ptt 1. Lig" cup="False" id="3255" sub_id="32550"><match alternate_id="4032082" alternate_id_2="4319286" date="13.04.2015" id="4149700" static_id="13041523488062348893" status="16:00" time="16:00">
-<home goals="?" id="2348806" name="Alanyaspor"></home>
-<away goals="?" id="2348893" name="Kayserispor"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="turkey" name="Turkey: Ptt 1. Lig" cup="False" id="3255" sub_id="32550"><match alternate_id="4032082" alternate_id_2="4319286" date="13.04.2015" id="4149700" static_id="13041523488062348893" status="FT" time="16:00">
+<home goals="1" id="2348806" name="Alanyaspor"></home>
+<away goals="1" id="2348893" name="Kayserispor"></away>
+<events>
+<event id="22206364" minute="11" player="D. Biseswar" playerid="2334152" result="" team="away" type="yellowcard"></event>
+<event id="22206365" minute="15" player="A. Uludag" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22206366" minute="38" player="I. Dagasan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22206367" minute="40" player="C. Can" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22206368" minute="48" player="J. Ayite" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22206369" minute="49" player="Sereno" playerid="2348906" result="" team="away" type="yellowcard"></event>
+<event id="22206370" minute="60" player="O. Yokuslu" playerid="2444598" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22206371" minute="60" player="O. Yokuslu" playerid="2444598" result="" team="away" type="yellowcard"></event>
+<event id="22206372" minute="66" player="E. Bulucu" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201077143" minute="68" player="A. Sahbaz" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4032084" alternate_id_2="4319285" date="12.04.2015" id="4149702" static_id="12041523487992348927" status="FT" time="13:30">
 <home goals="1" id="2348799" name="Adana Demirspor"></home>
 <away goals="0" id="2348927" name="Sanliurfaspor"></away>
@@ -1055,7 +1066,33 @@
 <event id="20157614" minute="75" player="M. Cengiz" playerid="2484158" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="turkey" name="Turkey: Turkish Cup - Play Offs" cup="True" id="3256" sub_id="32565"><match alternate_id="4108086" alternate_id_2="4310152" date="18.03.2015" id="4225640" static_id="18031523488932348930" status="FT" time="17:30">
+</match></league><league country="turkey" name="Turkey: Turkish Cup - Play Offs" cup="True" id="3256" sub_id="32565"><match alternate_id="" alternate_id_2="4310154" date="15.04.2015" id="" static_id="15041523489072348862" status="16:45" time="16:45">
+<home goals="?" id="2348907" name="Manisaspor"></home>
+<away goals="?" id="2348862" name="Galatasaray"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4310153" date="14.04.2015" id="" static_id="14041523488682348835" status="FT" time="15:45">
+<home goals="2" id="2348868" name="Genclerbirligi"></home>
+<away goals="3" id="2348835" name="Bursaspor"></away>
+<events>
+<event id="22115034" minute="15" player="R. Petrovic" playerid="2378999" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22115035" minute="33" player="U. Ciftci" playerid="2498225" result="" team="home" type="yellowcard"></event>
+<event id="22115036" minute="38" player="M. El Kabir" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22115037" minute="45+2" player="U. Ciftci" playerid="2498225" result="" team="home" type="yellowred"></event>
+<event id="22115038" minute="58" player="S. Aziz" playerid="2336706" result="" team="away" type="yellowcard"></event>
+<event id="22115039" minute="59" player="V. Sen" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22115040" minute="69" player="H. Aslantas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22115041" minute="70" player="E. Tasdemir" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22115042" minute="73" player="V. Sen" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="200163843" minute="74" player="M. El Kabir" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="200163844" minute="77" player="Josue" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="200163845" minute="77" player="A. Oguz" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="200163846" minute="85" player="D. Tosic" playerid="2333177" result="" team="home" type="yellowcard"></event>
+<event id="200163847" minute="90+4" player="S. Bayrak" playerid="2336859" result="" team="home" type="redcard"></event>
+<event id="200163848" minute="90+4" player="Fernandao" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4108086" alternate_id_2="4310152" date="18.03.2015" id="4225640" static_id="18031523488932348930" status="FT" time="17:30">
 <home goals="1" id="2348893" name="Kayserispor"></home>
 <away goals="1" id="2348930" name="Sivasspor"></away>
 <events>
@@ -1617,13 +1654,6 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="4" visitorteam="1"></penalty>
-</match><match alternate_id="4079450" alternate_id_2="4279164" date="29.10.2014" id="4197043" static_id="29101423488092348915" status="FT" time="11:00">
-<home goals="1" id="2348809" name="Altinordu"></home>
-<away goals="0" id="2348915" name="Ofspor"></away>
-<events>
-<event id="21805144" minute="78" player="M. Ozturk" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4079443" alternate_id_2="4279168" date="29.10.2014" id="4197036" static_id="29101423488382348865" status="FT" time="11:00">
 <home goals="2" id="2348838" name="Cankiri"></home>
 <away goals="3" id="2348865" name="Gaziantepspor"></away>
@@ -1653,6 +1683,14 @@
 <away goals="0" id="2348805" name="Aksarayspor"></away>
 <events>
 <event id="21805214" minute="71" player="J. Cinar" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4079448" alternate_id_2="4279184" date="29.10.2014" id="4197041" static_id="29101423488962348861" status="AET" time="11:00">
+<home goals="1" id="2348896" name="Keciorengucu"></home>
+<away goals="0" id="2348861" name="Fethiyespor"></away>
+<events>
+<event id="21805344" minute="70" player="T. Mayhos" playerid="2539397" result="" team="home" type="yellowred"></event>
+<event id="21805345" minute="116" player="Y. Kocal" playerid="2600302" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4079442" alternate_id_2="4279173" date="29.10.2014" id="4197035" static_id="29101423488982348856" status="FT" time="11:00">

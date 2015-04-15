@@ -62,8 +62,8 @@
 	}
 	
 	/* Add gamerows for loading */
-	//$('#block-views-real-time-block-3 .view-real-time').prepend('<div class="gamerow"><div class="loadingsidebarsmall"></div></div>');
-	//$('#block-views-real-time-block-3 .view-real-time').append('<div class="gamerow"><div class="loadingsidebarsmall"></div></div>');
+	$('#block-views-real-time-block-3 .view-real-time').prepend('<div class="gamerow"><div class="loadingsidebarsmall"></div></div>');
+	$('#block-views-real-time-block-3 .view-real-time').append('<div class="gamerow"><div class="loadingsidebarsmall"></div></div>');
 	
 	/* Default isotope */
 	$('#block-views-real-time-block-3').isotope({
@@ -381,10 +381,6 @@
 		}, 1000);
 	});
 	$("#toTop").addClass("hidett");
-	
-	$('.grid_8.alpha').animate({
-			scrollTop: 1
-		}, 1);
 	
 	defaultLoadMore();
 	

@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:52" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115679" alternate_id_2="4317863" date="13.04.2015" id="4233227" static_id="13041523435092343539" status="17:55" time="17:55">
-<home goals="?" id="2343509" name="Shmona"></home>
-<away goals="?" id="2343539" name="Maccabi Tel Aviv"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:48" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115679" alternate_id_2="4317863" date="13.04.2015" id="4233227" static_id="13041523435092343539" status="FT" time="17:55">
+<home goals="0" id="2343509" name="Shmona"></home>
+<away goals="0" id="2343539" name="Maccabi Tel Aviv"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4115678" alternate_id_2="4317862" date="12.04.2015" id="4233226" static_id="12041523434832343525" status="FT" time="17:45">
 <home goals="1" id="2343483" name="H. Beer Sheva"></home>
 <away goals="1" id="2343525" name="Maccabi Haifa"></away>
@@ -511,36 +512,55 @@
 <event id="19876284" minute="59" player="R. Dayan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118706" alternate_id_2="4322016" date="13.04.2015" id="4236250" static_id="13041523434702355635" status="16:30" time="16:30">
-<home goals="?" id="2343470" name="Yehuda"></home>
-<away goals="?" id="2355635" name="Kiryat Gat"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119218" alternate_id_2="4322017" date="13.04.2015" id="4236762" static_id="13041523435122355177" status="16:00" time="16:00">
-<home goals="?" id="2343512" name="H. Ironi Rishon"></home>
-<away goals="?" id="2355177" name="Ironi Tiberias"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118705" alternate_id_2="4322014" date="13.04.2015" id="4236249" static_id="13041523434942343523" status="15:30" time="15:30">
-<home goals="?" id="2343494" name="Hapoel Kfar-Saba"></home>
-<away goals="?" id="2343523" name="M. Nazareth"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118704" alternate_id_2="4322012" date="13.04.2015" id="4236248" static_id="13041523434792343503" status="15:00" time="15:00">
-<home goals="?" id="2343479" name="Hapoel Afula"></home>
-<away goals="?" id="2343503" name="Hap. Ramat Gan"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118703" alternate_id_2="4322013" date="13.04.2015" id="4236247" static_id="13041523434862343541" status="15:00" time="15:00">
-<home goals="?" id="2343486" name="Hapoel Bnei Lod"></home>
-<away goals="?" id="2343541" name="Maccabi Yavne"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119217" alternate_id_2="4322015" date="13.04.2015" id="4236761" static_id="13041523435272343499" status="15:00" time="15:00">
-<home goals="?" id="2343527" name="M. Herzliya"></home>
-<away goals="?" id="2343499" name="H. Nazareth"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118706" alternate_id_2="4322016" date="13.04.2015" id="4236250" static_id="13041523434702355635" status="FT" time="16:30">
+<home goals="1" id="2343470" name="Yehuda"></home>
+<away goals="1" id="2355635" name="Kiryat Gat"></away>
+<events>
+<event id="22233664" minute="23" player="Rally" playerid="" result="" team="home" type="redcard"></event>
+<event id="22233665" minute="24" player="Moshe (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233666" minute="83" player="Kadusi" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119218" alternate_id_2="4322017" date="13.04.2015" id="4236762" static_id="13041523435122355177" status="FT" time="16:00">
+<home goals="2" id="2343512" name="H. Ironi Rishon"></home>
+<away goals="0" id="2355177" name="Ironi Tiberias"></away>
+<events>
+<event id="22233674" minute="15" player="Nachum" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22233675" minute="45" player="Gross" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22233676" minute="82" player="Biancardini" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118705" alternate_id_2="4322014" date="13.04.2015" id="4236249" static_id="13041523434942343523" status="FT" time="15:30">
+<home goals="1" id="2343494" name="Hapoel Kfar-Saba"></home>
+<away goals="0" id="2343523" name="M. Nazareth"></away>
+<events>
+<event id="22233644" minute="67" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118704" alternate_id_2="4322012" date="13.04.2015" id="4236248" static_id="13041523434792343503" status="FT" time="15:00">
+<home goals="1" id="2343479" name="Hapoel Afula"></home>
+<away goals="1" id="2343503" name="Hap. Ramat Gan"></away>
+<events>
+<event id="22233624" minute="50" player="Cohen" playerid="2479253" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233625" minute="65" player="Shawat" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118703" alternate_id_2="4322013" date="13.04.2015" id="4236247" static_id="13041523434862343541" status="FT" time="15:00">
+<home goals="1" id="2343486" name="Hapoel Bnei Lod"></home>
+<away goals="0" id="2343541" name="Maccabi Yavne"></away>
+<events>
+<event id="22233634" minute="44" player="Lukman" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119217" alternate_id_2="4322015" date="13.04.2015" id="4236761" static_id="13041523435272343499" status="FT" time="15:00">
+<home goals="0" id="2343527" name="M. Herzliya"></home>
+<away goals="3" id="2343499" name="H. Nazareth"></away>
+<events>
+<event id="22233654" minute="33" player="Malkin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233655" minute="70" player="Abudi" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22233656" minute="84" player="Malkin" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4119216" alternate_id_2="4322011" date="12.04.2015" id="4236760" static_id="12041523434912343471" status="FT" time="16:00">
 <home goals="2" id="2343491" name="Hapoel Jerusalem"></home>
 <away goals="0" id="2343471" name="Hak. Ramat Gan"></away>

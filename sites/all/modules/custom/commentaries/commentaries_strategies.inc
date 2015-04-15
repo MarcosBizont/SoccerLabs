@@ -303,12 +303,12 @@ function commentaries_inplaytips_getlastgamesgoals_team($teamid, $matchdate, $ga
 
 function commentaries_get_competition_stats($competitionid, $matchdate, $gamestocheck = 100)
 {
-	//if ($variable = variable_get('commentaries_get_competition_stats' . $competitionid . '_' . $matchdate . '_' . $gamestocheck)) {
-	//  	$arrtoreturn =  $variable;
-	//}
-	//else 
-	//{	
-		
+	if ($cache = cache_get('commentaries_get_competition_stats' . $competitionid . '_' . $matchdate . '_' . $gamestocheck, 'cache')) {
+	  	$arrtoreturn = $cache->data;
+	}
+	else 
+	{	
+	
 		$query = new EntityFieldQuery();
 		$query->entityCondition('entity_type', 'node')
 			  ->entityCondition('bundle', 'match')
@@ -395,8 +395,8 @@ function commentaries_get_competition_stats($competitionid, $matchdate, $gamesto
 		foreach($local_stats as $statindex => $stat) $arrtoreturn[$statindex] = $stat/$times_w_stats;
 		foreach($visitor_stats as $statindex => $stat) $arrtoreturn[$statindex] = $stat/$times_w_stats;	
 				
-		//variable_set('commentaries_get_competition_stats' . $competitionid . '_' . $matchdate . '_' . $gamestocheck, $arrtoreturn );	
-	//}
+		cache_set('commentaries_get_competition_stats' . $competitionid . '_' . $matchdate . '_' . $gamestocheck, $arrtoreturn, 'cache', time() + 60*60*168);
+	}
 					
 	return $arrtoreturn;
 }	

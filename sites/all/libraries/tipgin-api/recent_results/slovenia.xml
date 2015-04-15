@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:41:14" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002686" alternate_id_2="4314499" date="12.04.2015" id="4120308" static_id="12041523473352351276" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:09" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002686" alternate_id_2="4314499" date="12.04.2015" id="4120308" static_id="12041523473352351276" status="FT" time="14:00">
 <home goals="1" id="2347335" name="NK Krka"></home>
 <away goals="1" id="2351276" name="Radomlje"></away>
 <events>
@@ -235,13 +235,19 @@
 <event id="21968679" minute="86" player="I. Novoselec" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4002668" alternate_id_2="4295518" date="14.03.2015" id="4120290" static_id="14031523473532347335" status="FT" time="15:00">
-<home goals="0" id="2347353" name="Velenje"></home>
-<away goals="0" id="2347335" name="NK Krka"></away>
+</match><match alternate_id="4002672" alternate_id_2="4295547" date="14.03.2015" id="4120294" static_id="14031523473502347305" status="FT" time="15:00">
+<home goals="3" id="2347350" name="O. Ljubljana"></home>
+<away goals="1" id="2347305" name="ND Gorica"></away>
 <events>
-<event id="21968684" minute="25" player="I. Knezovic" playerid="2370503" result="" team="home" type="yellowcard"></event>
+<event id="21968974" minute="9" player="E. Henty" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21968975" minute="21" player="N. Mitrovic" playerid="2490425" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21968976" minute="24" player="N. Mitrovic" playerid="2490425" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21968977" minute="28" player="A. Rodic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21968978" minute="45" player="N. Taider" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="21968979" minute="54" player="E. Henty" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="21968980" minute="61" player="S. Enow" playerid="2473839" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[2-1]"></ht>
 </match></league><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="3964459" alternate_id_2="4116760" date="04.06.2014" id="4082123" static_id="04061423512762347335" status="Cancl." time="15:00">
 <home goals="?" id="2351276" name="Radomlje"></home>
 <away goals="?" id="2347335" name="NK Krka"></away>
@@ -409,7 +415,20 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="slovenia" name="Slovenia: Slovenian Cup" cup="True" id="3221" sub_id="32210"><match alternate_id="4082168" alternate_id_2="4286515" date="03.12.2014" id="4199751" static_id="03121423473142347335" status="FT" time="16:30">
+</match></league><league country="slovenia" name="Slovenia: Slovenian Cup" cup="True" id="3221" sub_id="32210"><match alternate_id="4108159" alternate_id_2="4302971" date="15.04.2015" id="4225713" static_id="15041523473142347301" status="15:00" time="15:00">
+<home goals="?" id="2347314" name="Maribor"></home>
+<away goals="?" id="2347301" name="Celje"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4116825" alternate_id_2="4302970" date="14.04.2015" id="4234371" static_id="14041523473112347302" status="FT" time="15:00">
+<home goals="1" id="2347311" name="Koper"></home>
+<away goals="0" id="2347302" name="Domzale"></away>
+<events>
+<event id="22043204" minute="5" player="I. Guberac" playerid="2415935" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22043205" minute="31" player="I. Guberac" playerid="2415935" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4082168" alternate_id_2="4286515" date="03.12.2014" id="4199751" static_id="03121423473142347335" status="FT" time="16:30">
 <home goals="4" id="2347314" name="Maribor"></home>
 <away goals="2" id="2347335" name="NK Krka"></away>
 <events>
@@ -573,26 +592,6 @@
 <events>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="3997571" alternate_id_2="4142286" date="20.08.2014" id="4115193" static_id="20081423473032347356" status="AET" time="14:00">
-<home goals="2" id="2347303" name="Drava"></home>
-<away goals="3" id="2347356" name="Verzej"></away>
-<events>
-<event id="20436364" minute="45+2" player="L. Panikvar (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20436365" minute="54" player="L. Lavrinc" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20436366" minute="59" player="D. Vinkovic" playerid="2638359" result="[2 - 1]" team="away" type="goal"></event>
-<event id="20436367" minute="64" player="T. Polajzer" playerid="2638746" result="" team="away" type="redcard"></event>
-<event id="20436368" minute="78" player="D. Vinkovic" playerid="2638359" result="[2 - 2]" team="away" type="goal"></event>
-<event id="20436369" minute="94" player="Z. Sostaric" playerid="" result="" team="home" type="redcard"></event>
-<event id="20436370" minute="98" player="M. Mauko" playerid="2495185" result="[2 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="3997574" alternate_id_2="4142289" date="20.08.2014" id="4115196" static_id="20081423473182347360" status="AET" time="14:00">
-<home goals="0" id="2347318" name="Nafta"></home>
-<away goals="1" id="2347360" name="Sencur"></away>
-<events>
-<event id="20436394" minute="120" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="slovenia" name="Slovenia: Super Cup" cup="True" id="3449" sub_id=""><match alternate_id="4044596" alternate_id_2="4122356" date="13.08.2014" id="4162209" static_id="13081423473052347314" status="FT" time="18:15">
 <home goals="1" id="2347305" name="ND Gorica"></home>
 <away goals="4" id="2347314" name="Maribor"></away>

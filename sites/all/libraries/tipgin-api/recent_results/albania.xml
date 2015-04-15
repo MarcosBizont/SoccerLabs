@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:22" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4000757" alternate_id_2="4315210" date="13.04.2015" id="4118379" static_id="13041523375612337556" status="16:00" time="16:00">
-<home goals="?" id="2337561" name="Skenderbeu"></home>
-<away goals="?" id="2337556" name="Partizani"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4000759" alternate_id_2="4315328" date="13.04.2015" id="4000759" static_id="13041523375462337554" status="13:00" time="13:00">
-<home goals="?" id="2337546" name="Kukesi"></home>
-<away goals="?" id="2337554" name="Laci"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:22" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4000757" alternate_id_2="4315210" date="13.04.2015" id="4118379" static_id="13041523375612337556" status="FT" time="16:00">
+<home goals="5" id="2337561" name="Skenderbeu"></home>
+<away goals="2" id="2337556" name="Partizani"></away>
+<events>
+<event id="19021074" minute="13" player="Lilaj" playerid="2415884" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19021075" minute="38" player="Latifi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19021076" minute="45" player="Racic" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="19021077" minute="46" player="Berisha" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="19021078" minute="53" player="Stojkov" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="19021079" minute="59" player="Racic" playerid="" result="[4 - 2]" team="away" type="goal"></event>
+<event id="19021080" minute="66" player="Radas" playerid="2368387" result="[5 - 2]" team="home" type="goal"></event>
+<event id="19021081" minute="90" player="Vila" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4000759" alternate_id_2="4315328" date="13.04.2015" id="4000759" static_id="13041523375462337554" status="FT" time="13:00">
+<home goals="0" id="2337546" name="Kukesi"></home>
+<away goals="0" id="2337554" name="Laci"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4000755" alternate_id_2="4315209" date="12.04.2015" id="4118377" static_id="12041523375642337565" status="FT" time="15:00">
 <home goals="2" id="2337564" name="KF Tirana"></home>
 <away goals="1" id="2337565" name="Vllaznia"></away>

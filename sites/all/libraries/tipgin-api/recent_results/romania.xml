@@ -1,19 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:41:09" sport="soccer" country="romania"><league country="romania" name="Romania: Liga I" cup="False" id="3194" sub_id="31940"><match alternate_id="4108565" alternate_id_2="4322907" date="13.04.2015" id="4226119" static_id="13041523465602346579" status="17:30" time="17:30">
-<home goals="?" id="2346560" name="Petrolul"></home>
-<away goals="?" id="2346579" name="V. Constanta"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4108566" alternate_id_2="4322906" date="13.04.2015" id="4226120" static_id="13041523463902346523" status="15:00" time="15:00">
-<home goals="?" id="2346390" name="Ceahlaul"></home>
-<away goals="?" id="2346523" name="Gaz Metan Medias"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4108567" alternate_id_2="4322530" date="13.04.2015" id="4226121" static_id="13041523465542346556" status="9" time="12:30">
-<home goals="0" id="2346554" name="Otelul"></home>
-<away goals="0" id="2346556" name="Pandurii"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:04" sport="soccer" country="romania"><league country="romania" name="Romania: Liga I" cup="False" id="3194" sub_id="31940"><match alternate_id="4108565" alternate_id_2="4322907" date="13.04.2015" id="4226119" static_id="13041523465602346579" status="FT" time="17:30">
+<home goals="1" id="2346560" name="Petrolul"></home>
+<away goals="2" id="2346579" name="V. Constanta"></away>
 <events>
+<event id="22242574" minute="11" player="B. Mitrea" playerid="2536939" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22242575" minute="31" player="C. Daminuta" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22242576" minute="37" player="B. Nicolita" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22242577" minute="39" player="K. Ipsa" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22242578" minute="39" player="N. Bonilla" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22242579" minute="63" player="L. Marinescu" playerid="2405896" result="" team="home" type="yellowcard"></event>
+<event id="22242580" minute="68" player="C. M. Manea" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22242581" minute="81" player="T. Tamuz" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22242582" minute="89" player="C. Vasilache" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="201439243" minute="90+1" player="R. Benzar" playerid="2485535" result="" team="away" type="yellowcard"></event>
+<event id="201439244" minute="90+3" player="S. Pana" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4108566" alternate_id_2="4322906" date="13.04.2015" id="4226120" static_id="13041523463902346523" status="FT" time="15:00">
+<home goals="0" id="2346390" name="Ceahlaul"></home>
+<away goals="0" id="2346523" name="Gaz Metan Medias"></away>
+<events>
+<event id="22242564" minute="45" player="I. Buzean" playerid="2376021" result="" team="away" type="yellowcard"></event>
+<event id="22242565" minute="57" player="A. Tahar" playerid="2405774" result="" team="away" type="yellowcard"></event>
+<event id="22242566" minute="90+3" player="I. Stana" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4108567" alternate_id_2="4322530" date="13.04.2015" id="4226121" static_id="13041523465542346556" status="FT" time="12:30">
+<home goals="0" id="2346554" name="Otelul"></home>
+<away goals="2" id="2346556" name="Pandurii"></away>
+<events>
+<event id="22238804" minute="28" player="M. Momcilovic" playerid="2422145" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22238805" minute="41" player="M. Roman (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22238806" minute="90" player="J. Hamroun" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-2]"></ht>
 </match><match alternate_id="4108568" alternate_id_2="4322529" date="12.04.2015" id="4226122" static_id="12041523463792346589" status="FT" time="16:30">
 <home goals="0" id="2346379" name="Astra"></home>
 <away goals="0" id="2346589" name="Steaua Bucuresti"></away>

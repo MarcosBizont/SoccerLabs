@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:05" sport="soccer" country="germany"><league country="germany" name="Germany: Bundesliga" cup="False" id="3062" sub_id="30620"><match alternate_id="3927974" alternate_id_2="4318952" date="12.04.2015" id="4045714" static_id="12041523424792342510" status="FT" time="15:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:06" sport="soccer" country="germany"><league country="germany" name="Germany: Bundesliga" cup="False" id="3062" sub_id="30620"><match alternate_id="3927974" alternate_id_2="4318952" date="12.04.2015" id="4045714" static_id="12041523424792342510" status="FT" time="15:30">
 <home goals="3" id="2342479" name="VfB Stuttgart"></home>
 <away goals="2" id="2342510" name="Werder Bremen"></away>
 <events>
@@ -276,11 +276,16 @@
 <event id="20153545" minute="66" player="N. Giesselmann" playerid="2473246" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="germany" name="Germany: 2. Bundesliga" cup="False" id="3058" sub_id="30580"><match alternate_id="3998513" alternate_id_2="4319477" date="13.04.2015" id="4116135" static_id="13041523422102342292" status="18:15" time="18:15">
-<home goals="?" id="2342210" name="Dusseldorf"></home>
-<away goals="?" id="2342292" name="Kaiserslautern"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="germany" name="Germany: 2. Bundesliga" cup="False" id="3058" sub_id="30580"><match alternate_id="3998513" alternate_id_2="4319477" date="13.04.2015" id="4116135" static_id="13041523422102342292" status="FT" time="18:15">
+<home goals="1" id="2342210" name="Dusseldorf"></home>
+<away goals="1" id="2342292" name="Kaiserslautern"></away>
+<events>
+<event id="22208274" minute="8" player="S. Zoller" playerid="2400889" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22208275" minute="71" player="J. Tah" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22208276" minute="71" player="S. Zoller" playerid="2400889" result="" team="away" type="yellowcard"></event>
+<event id="22208277" minute="90" player="M. Liendl (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="3998516" alternate_id_2="4319123" date="12.04.2015" id="4116138" static_id="12041523421922342405" status="FT" time="11:30">
 <home goals="0" id="2342192" name="Aue"></home>
 <away goals="1" id="2342405" name="Sandhausen"></away>
@@ -501,12 +506,15 @@
 <event id="22166272" minute="90+4" player="J. Polak" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="3998499" alternate_id_2="4314637" date="22.03.2015" id="4116121" static_id="22031523421922342240" status="FT" time="12:30">
-<home goals="0" id="2342192" name="Aue"></home>
-<away goals="0" id="2342240" name="Greuther Furth"></away>
+</match><match alternate_id="3998494" alternate_id_2="4314638" date="22.03.2015" id="4116116" static_id="22031523422962342292" status="FT" time="12:30">
+<home goals="0" id="2342296" name="Karlsruher"></home>
+<away goals="0" id="2342292" name="Kaiserslautern"></away>
 <events>
-<event id="22159874" minute="31" player="Z. Korcsmar" playerid="2365509" result="" team="away" type="yellowcard"></event>
-<event id="22159875" minute="87" player="D. Diring" playerid="2521166" result="" team="home" type="yellowcard"></event>
+<event id="22159884" minute="18" player="J. Meffert" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22159885" minute="34" player="P. Hofmann" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22159886" minute="42" player="M. Karl" playerid="2333834" result="" team="away" type="yellowcard"></event>
+<event id="22159887" minute="56" player="K. Demirbay" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22159888" minute="68" player="H. Yamada" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="germany" name="Germany: 2. Bundesliga - Relegation" cup="False" id="3058" sub_id=""><match alternate_id="3957266" alternate_id_2="4114007" date="19.05.2014" id="4074951" static_id="19051423420952342162" status="AET" time="18:30">
@@ -964,7 +972,12 @@
 <event id="22166296" minute="66" player="D. Arend" playerid="2419005" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="germany" name="Germany: Regionalliga Nordost" cup="False" id="3060" sub_id="30604"><match alternate_id="4009572" alternate_id_2="4320758" date="12.04.2015" id="4127193" static_id="12041523425312342152" status="FT" time="12:05">
+</match></league><league country="germany" name="Germany: Regionalliga Nordost" cup="False" id="3060" sub_id="30604"><match alternate_id="4009564" alternate_id_2="4317449" date="15.04.2015" id="4127185" static_id="15041523421522342346" status="16:00" time="16:00">
+<home goals="?" id="2342152" name="Jena"></home>
+<away goals="?" id="2342346" name="Meuselwitz"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4009572" alternate_id_2="4320758" date="12.04.2015" id="4127193" static_id="12041523425312342152" status="FT" time="12:05">
 <home goals="2" id="2342531" name="Zwickau"></home>
 <away goals="1" id="2342152" name="Jena"></away>
 <events>
@@ -1117,19 +1130,12 @@
 <event id="22166328" minute="68" player="C. Beck" playerid="2385958" result="[0 - 5]" team="away" type="goal"></event>
 </events>
 <ht score="[0-3]"></ht>
-</match><match alternate_id="3959635" alternate_id_2="4315333" date="28.03.2015" id="4077314" static_id="28031523421042342127" status="FT" time="12:30">
-<home goals="0" id="2342104" name="Babelsberg"></home>
-<away goals="0" id="2342127" name="BFC Dynamo"></away>
-<events>
-<event id="22166834" minute="72" player="J. Prochnow" playerid="2386062" result="" team="home" type="yellowred"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4009556" alternate_id_2="4315281" date="28.03.2015" id="4127177" static_id="28031523422302342271" status="FT" time="12:30">
 <home goals="1" id="2342230" name="Halberstadt"></home>
 <away goals="1" id="2342271" name="Hertha Berlin II"></away>
 <events>
 <event id="22166314" minute="70" player="T. Teixeira-Rebelo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22166315" minute="84" player="G. Zingu" playerid="2566552" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22166315" minute="84" player="A. Syhre" playerid="2590589" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4009553" alternate_id_2="4315283" date="28.03.2015" id="4127174" static_id="28031523425312342353" status="FT" time="12:30">
@@ -1264,11 +1270,6 @@
 <event id="21923476" minute="90+1" player="" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4043210" alternate_id_2="4293753" date="01.04.2015" id="4160824" static_id="01041523539682342141" status="Postp." time="17:30">
-<home goals="?" id="2353968" name="Rodinghausen"></home>
-<away goals="?" id="2342141" name="B. Monchengladbach II"></away>
-<events></events>
-<ht score=""></ht>
 </match><match alternate_id="4043291" alternate_id_2="4317454" date="30.03.2015" id="4160905" static_id="30031523420882342399" status="FT" time="18:15">
 <home goals="0" id="2342088" name="Alemannia Aachen"></home>
 <away goals="0" id="2342399" name="Oberhausen"></away>
@@ -1285,6 +1286,16 @@
 <event id="22182686" minute="86" player="M. Wunderlich" playerid="2386590" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match><match alternate_id="4043294" alternate_id_2="4316919" date="28.03.2015" id="4160908" static_id="28031523524302342473" status="FT" time="13:00">
+<home goals="1" id="2352430" name="Hennef"></home>
+<away goals="3" id="2342473" name="Verl"></away>
+<events>
+<event id="22182694" minute="6" player="M. Notz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22182695" minute="21" player="M. Haeder" playerid="2498248" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22182696" minute="57" player="H. Al Ghaddioui (pen.)" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22182697" minute="85" player="S. Engelmann" playerid="2473181" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4043289" alternate_id_2="4316921" date="28.03.2015" id="4160903" static_id="28031523424302342141" status="FT" time="13:00">
 <home goals="2" id="2342430" name="Lotte"></home>
 <away goals="2" id="2342141" name="B. Monchengladbach II"></away>
@@ -1306,11 +1317,29 @@
 <event id="22182747" minute="77" player="M. Wilschrey" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match></league><league country="germany" name="Germany: Regionalliga Sudwest" cup="False" id="3060" sub_id="30606"><match alternate_id="4009344" alternate_id_2="4322819" date="13.04.2015" id="4126965" static_id="13041523422932342402" status="16:00" time="16:00">
-<home goals="?" id="2342293" name="Kaiserslautern II"></home>
-<away goals="?" id="2342402" name="Saarbrücken"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="germany" name="Germany: Regionalliga Sudwest" cup="False" id="3060" sub_id="30606"><match alternate_id="4009279" alternate_id_2="4293412" date="14.04.2015" id="4126900" static_id="14041523422792342301" status="FT" time="17:30">
+<home goals="0" id="2342279" name="FC 08 Homburg"></home>
+<away goals="1" id="2342301" name="Kickers Offenbach"></away>
+<events>
+<event id="21947624" minute="41" player="G. Modica" playerid="2496008" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4009284" alternate_id_2="4293404" date="14.04.2015" id="4126905" static_id="14041523425302342308" status="FT" time="16:15">
+<home goals="1" id="2342530" name="Zweibrucken"></home>
+<away goals="2" id="2342308" name="TuS Koblenz"></away>
+<events>
+<event id="21947544" minute="11" player="A. Saito" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21947545" minute="22" player="M. Bildirici" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="21947546" minute="22" player="A. Hauk" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="21947547" minute="83" player="A. Marx" playerid="2634231" result="" team="away" type="yellowred"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4009344" alternate_id_2="4322819" date="13.04.2015" id="4126965" static_id="13041523422932342402" status="FT" time="16:00">
+<home goals="0" id="2342293" name="Kaiserslautern II"></home>
+<away goals="0" id="2342402" name="Saarbrücken"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4009345" alternate_id_2="4321569" date="12.04.2015" id="4126966" static_id="12041523421862342499" status="FT" time="12:00">
 <home goals="0" id="2342186" name="Eintracht Trier"></home>
 <away goals="0" id="2342499" name="Mannheim"></away>
@@ -1438,34 +1467,14 @@
 <event id="22217295" minute="66" player="A. Zeric" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4009339" alternate_id_2="4318964" date="04.04.2015" id="4126960" static_id="04041523421122342377" status="FT" time="12:00">
-<home goals="0" id="2342112" name="Baunatal"></home>
-<away goals="3" id="2342377" name="Pirmasens"></away>
+</match><match alternate_id="4009335" alternate_id_2="4318965" date="04.04.2015" id="4126956" static_id="04041523424992342293" status="FT" time="12:00">
+<home goals="2" id="2342499" name="Mannheim"></home>
+<away goals="0" id="2342293" name="Kaiserslautern II"></away>
 <events>
-<event id="22203144" minute="7" player="D. Gerlinger" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22203145" minute="53" player="D. Borgardt (o.g.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22203146" minute="60" player="J. Sommer" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22203154" minute="69" player="A. Ramaj (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22203155" minute="77" player="A. Ramaj (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3955889" alternate_id_2="4319125" date="04.04.2015" id="4073584" static_id="04041523421872342351" status="FT" time="12:00">
-<home goals="1" id="2342187" name="Elversberg"></home>
-<away goals="0" id="2342351" name="Neckarelz"></away>
-<events>
-<event id="22204754" minute="44" player="T. Birk" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4009338" alternate_id_2="4318966" date="04.04.2015" id="4126959" static_id="04041523420982342521" status="FT" time="12:00">
-<home goals="5" id="2342098" name="Walldorf"></home>
-<away goals="1" id="2342521" name="Worms"></away>
-<events>
-<event id="22203164" minute="20" player="D. Etzold" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22203165" minute="27" player="N. Hillenbrand" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22203166" minute="45" player="N. Hillenbrand" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22203167" minute="54" player="T. Kern" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="22203168" minute="72" player="F. Treske" playerid="" result="[4 - 1]" team="away" type="goal"></event>
-<event id="22203169" minute="78" player="M. Carl" playerid="" result="[5 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[3-0]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4009340" alternate_id_2="4318967" date="04.04.2015" id="4126961" static_id="04041523425302342273" status="FT" time="12:00">
 <home goals="0" id="2342530" name="Zweibrucken"></home>
 <away goals="4" id="2342273" name="Kassel"></away>
@@ -1599,11 +1608,6 @@
 <event id="22198804" minute="64" player="J. Keller" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4012510" alternate_id_2="4318274" date="02.04.2015" id="4130131" static_id="02041523421192342420" status="Postp." time="17:00">
-<home goals="?" id="2342119" name="Bayern II"></home>
-<away goals="?" id="2342420" name="Seligenporten"></away>
-<events></events>
-<ht score=""></ht>
 </match><match alternate_id="4012505" alternate_id_2="4318271" date="02.04.2015" id="4130126" static_id="02041523424962342083" status="FT" time="17:00">
 <home goals="3" id="2342496" name="Burghausen"></home>
 <away goals="0" id="2342083" name="Munich 1860 II"></away>
@@ -1645,6 +1649,17 @@
 <event id="22182764" minute="51" player="J. Muller" playerid="2583556" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4012498" alternate_id_2="4316928" date="28.03.2015" id="4130119" static_id="28031523422852342119" status="FT" time="13:00">
+<home goals="2" id="2342285" name="Illertissen"></home>
+<away goals="3" id="2342119" name="Bayern II"></away>
+<events>
+<event id="22182784" minute="15" player="M. Hammerle" playerid="2419072" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22182785" minute="17" player="P. Steinhart" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22182786" minute="29" player="A. Morina" playerid="2583958" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22182787" minute="32" player="G. Wegkamp" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22182788" minute="52" player="L. Gortler" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[2-2]"></ht>
 </match></league><league country="germany" name="Germany: Regionalliga Bayern - Relegation" cup="False" id="3060" sub_id=""><match alternate_id="3963879" alternate_id_2="4117754" date="06.06.2014" id="4081544" static_id="06061423424192342389" status="FT" time="17:00">
 <home goals="5" id="2342419" name="Schweinfurt"></home>
 <away goals="1" id="2342389" name="Rosenheim"></away>
@@ -1861,18 +1876,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4038302" alternate_id_2="4315287" date="28.03.2015" id="4155916" static_id="28031523421462342334" status="FT" time="13:00">
+<home goals="1" id="2342146" name="Brandenburger"></home>
+<away goals="1" id="2342334" name="Malchower"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4038303" alternate_id_2="4315288" date="28.03.2015" id="4155917" static_id="28031523422602355528" status="FT" time="13:00">
 <home goals="2" id="2342260" name="Hansa Rostock II"></home>
 <away goals="0" id="2355528" name="Zehlendorf"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4038296" alternate_id_2="4315290" date="28.03.2015" id="4155910" static_id="28031523528702342363" status="FT" time="13:00">
-<home goals="3" id="2352870" name="Lichtenberg"></home>
-<away goals="1" id="2342363" name="Rathenow"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Nofv- Süd" cup="False" id="3061" sub_id="30617"><match alternate_id="4038557" alternate_id_2="4321043" date="12.04.2015" id="4156171" static_id="12041523555292352876" status="FT" time="13:00">
 <home goals="3" id="2355529" name="RB Leipzig II"></home>
 <away goals="0" id="2352876" name="Einheit Rudolstadt"></away>
@@ -1973,18 +1988,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4038540" alternate_id_2="4315291" date="29.03.2015" id="4156154" static_id="29031523503462342396" status="FT" time="12:00">
-<home goals="1" id="2350346" name="Halle"></home>
-<away goals="2" id="2342396" name="Erfurt II"></away>
+</match><match alternate_id="4038537" alternate_id_2="4315368" date="29.03.2015" id="4156151" static_id="29031523497692342358" status="FT" time="12:00">
+<home goals="0" id="2349769" name="Chemnitzer FC II"></home>
+<away goals="3" id="2342358" name="Oberlausitz"></away>
 <events>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4038539" alternate_id_2="4315336" date="29.03.2015" id="4156153" static_id="29031523421532342171" status="FT" time="12:00">
-<home goals="2" id="2342153" name="Jena II"></home>
-<away goals="1" id="2342171" name="Dresden II"></away>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4038536" alternate_id_2="4315389" date="29.03.2015" id="4156150" static_id="29031523555302342193" status="FT" time="12:00">
+<home goals="0" id="2355530" name="Eisenach"></home>
+<away goals="1" id="2342193" name="Aue II"></away>
 <events>
 </events>
-<ht score="[2-1]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4038543" alternate_id_2="4315292" date="29.03.2015" id="4156157" static_id="29031523555292342414" status="FT" time="12:00">
 <home goals="4" id="2355529" name="RB Leipzig II"></home>
 <away goals="0" id="2342414" name="Schott Jena"></away>
@@ -2111,7 +2126,13 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="germany" name="Germany: Oberliga Hamburg" cup="False" id="3061" sub_id="30613"><match alternate_id="4029555" alternate_id_2="4320904" date="12.04.2015" id="4147174" static_id="12041523512362342111" status="FT" time="13:00">
+</match></league><league country="germany" name="Germany: Oberliga Hamburg" cup="False" id="3061" sub_id="30613"><match alternate_id="4029506" alternate_id_2="4309741" date="14.04.2015" id="4147125" static_id="14041523497632342111" status="FT" time="16:30">
+<home goals="0" id="2349763" name="Rugenbergen"></home>
+<away goals="1" id="2342111" name="Barmbek-Uhlenhorst"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4029555" alternate_id_2="4320904" date="12.04.2015" id="4147174" static_id="12041523512362342111" status="FT" time="13:00">
 <home goals="1" id="2351236" name="Pinneberg"></home>
 <away goals="3" id="2342111" name="Barmbek-Uhlenhorst"></away>
 <events>
@@ -2225,12 +2246,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4029537" alternate_id_2="4315300" date="28.03.2015" id="4147156" static_id="28031523512362349763" status="FT" time="13:00">
-<home goals="1" id="2351236" name="Pinneberg"></home>
-<away goals="1" id="2349763" name="Rugenbergen"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Bremen" cup="False" id="3061" sub_id="30612"><match alternate_id="4037538" alternate_id_2="4319507" date="12.04.2015" id="4155152" static_id="12041523529882342103" status="FT" time="13:30">
 <home goals="1" id="2352988" name="Sparta Bremerhaven"></home>
 <away goals="3" id="2342103" name="Aumund-Vegesack"></away>
@@ -2466,7 +2481,22 @@
 <events>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="germany" name="Germany: Oberliga Westfalen" cup="False" id="3061" sub_id="306117"><match alternate_id="4038052" alternate_id_2="4321172" date="12.04.2015" id="4155666" static_id="12041523423902342514" status="FT" time="13:00">
+</match></league><league country="germany" name="Germany: Oberliga Westfalen" cup="False" id="3061" sub_id="306117"><match alternate_id="4038002" alternate_id_2="4297085" date="15.04.2015" id="4155616" static_id="15041523499772342390" status="17:30" time="17:30">
+<home goals="?" id="2349977" name="Westfalia Rhynern"></home>
+<away goals="?" id="2342390" name="Ahlen"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4297154" date="15.04.2015" id="" static_id="15041523541582342200" status="17:30" time="17:30">
+<home goals="?" id="2354158" name="Zweckel"></home>
+<away goals="?" id="2342200" name="Eintracht Rheine"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4037935" alternate_id_2="4281998" date="15.04.2015" id="4155549" static_id="15041523425142352924" status="16:15" time="16:15">
+<home goals="?" id="2342514" name="Westfalia Herne"></home>
+<away goals="?" id="2352924" name="Lippstadt"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4038052" alternate_id_2="4321172" date="12.04.2015" id="4155666" static_id="12041523423902342514" status="FT" time="13:00">
 <home goals="1" id="2342390" name="Ahlen"></home>
 <away goals="1" id="2342514" name="Westfalia Herne"></away>
 <events>
@@ -2562,26 +2592,9 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4038046" alternate_id_2="4319514" date="02.04.2015" id="4155660" static_id="02041523420962352926" status="Postp." time="17:30">
-<home goals="?" id="2342096" name="Arminia Bielefeld II"></home>
-<away goals="?" id="2352926" name="Roland Beckum"></away>
-<events></events>
-<ht score=""></ht>
 </match><match alternate_id="4037985" alternate_id_2="4294451" date="02.04.2015" id="4155599" static_id="02041523555272342434" status="FT" time="17:30">
 <home goals="0" id="2355527" name="Stadtlohn"></home>
 <away goals="2" id="2342434" name="Erkenschwick"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4038032" alternate_id_2="4317475" date="29.03.2015" id="4155646" static_id="29031523529282352927" status="FT" time="13:00">
-<home goals="2" id="2352928" name="Neuenkirchen"></home>
-<away goals="3" id="2352927" name="Ennepetal"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4038034" alternate_id_2="4317479" date="29.03.2015" id="4155648" static_id="29031523499772342514" status="FT" time="13:00">
-<home goals="0" id="2349977" name="Westfalia Rhynern"></home>
-<away goals="0" id="2342514" name="Westfalia Herne"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -2687,6 +2700,12 @@
 <events>
 </events>
 <ht score="[1-1]"></ht>
+</match><match alternate_id="4029818" alternate_id_2="4314811" date="28.03.2015" id="4147437" static_id="28031523537712342506" status="FT" time="14:00">
+<home goals="0" id="2353771" name="Ederbergland"></home>
+<away goals="1" id="2342506" name="Wehen II"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4029820" alternate_id_2="4314682" date="28.03.2015" id="4147439" static_id="28031523424162349766" status="FT" time="14:00">
 <home goals="0" id="2342416" name="Schwalmstadt"></home>
 <away goals="4" id="2349766" name="SKV Darmstadt"></away>
@@ -2696,12 +2715,6 @@
 </match><match alternate_id="4029821" alternate_id_2="4314683" date="28.03.2015" id="4147440" static_id="28031523539622342195" status="FT" time="14:00">
 <home goals="0" id="2353962" name="Sp. Seligenstadt"></home>
 <away goals="2" id="2342195" name="Eschborn"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4029814" alternate_id_2="4314684" date="28.03.2015" id="4147433" static_id="28031523424722342116" status="FT" time="14:00">
-<home goals="0" id="2342472" name="Vellmar"></home>
-<away goals="1" id="2342116" name="Alzenau"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -2813,18 +2826,18 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="3988053" alternate_id_2="4318988" date="01.04.2015" id="4105675" static_id="01041523421882351309" status="FT" time="17:30">
+<home goals="7" id="2342188" name="Elversberg II"></home>
+<away goals="0" id="2351309" name="Arminia Ludwigshafen"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="3973447" alternate_id_2="4318989" date="01.04.2015" id="4091094" static_id="01041523497752355398" status="FT" time="17:30">
 <home goals="5" id="2349775" name="Gonsenheim"></home>
 <away goals="2" id="2355398" name="Diefflen"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4016907" alternate_id_2="4318990" date="01.04.2015" id="4134527" static_id="01041523554002342339" status="FT" time="17:30">
-<home goals="3" id="2355400" name="Schott Mainz"></home>
-<away goals="2" id="2342339" name="Mechtersheim"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Bayern Nord" cup="False" id="3061" sub_id="306120"><match alternate_id="4029248" alternate_id_2="4320788" date="12.04.2015" id="4146867" static_id="12041523421912342489" status="FT" time="13:00">
 <home goals="0" id="2342191" name="Erlangen"></home>
 <away goals="4" id="2342489" name="Aschaffenburg"></away>
@@ -2932,19 +2945,39 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4029230" alternate_id_2="4316953" date="28.03.2015" id="4146849" static_id="28031523528062352803" status="FT" time="15:00">
-<home goals="2" id="2352806" name="Amberg"></home>
-<away goals="0" id="2352803" name="Ammerthal"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4029227" alternate_id_2="4316954" date="28.03.2015" id="4146846" static_id="28031523528022342508" status="FT" time="15:00">
 <home goals="2" id="2352802" name="Aubstadt"></home>
 <away goals="0" id="2342508" name="Weiden"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="germany" name="Germany: Oberliga Bayern Süd" cup="False" id="3061" sub_id="306121"><match alternate_id="4028943" alternate_id_2="4322079" date="12.04.2015" id="4146562" static_id="12041523537762352799" status="FT" time="13:00">
+</match><match alternate_id="4029228" alternate_id_2="4316955" date="28.03.2015" id="4146847" static_id="28031523539612342191" status="FT" time="15:00">
+<home goals="2" id="2353961" name="Erlenbach"></home>
+<away goals="1" id="2342191" name="Erlangen"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
+</match></league><league country="germany" name="Germany: Oberliga Bayern Süd" cup="False" id="3061" sub_id="306121"><match alternate_id="4028904" alternate_id_2="4294092" date="15.04.2015" id="4146523" static_id="15041523554542352792" status="17:00" time="17:00">
+<home goals="?" id="2355454" name="Landsberg"></home>
+<away goals="?" id="2352792" name="Unterfohring"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4031041" alternate_id_2="4318993" date="15.04.2015" id="4148659" static_id="15041523421072355395" status="16:30" time="16:30">
+<home goals="?" id="2342107" name="Bad Kotzting"></home>
+<away goals="?" id="2355395" name="Dachau"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4028708" alternate_id_2="4209021" date="15.04.2015" id="4146327" static_id="15041523539592352796" status="16:00" time="16:00">
+<home goals="?" id="2353959" name="Bogen"></home>
+<away goals="?" id="2352796" name="Schwabmunchen"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4028801" alternate_id_2="4271198" date="15.04.2015" id="4146420" static_id="15041523539582342383" status="16:00" time="16:00">
+<home goals="?" id="2353958" name="Pipinsried"></home>
+<away goals="?" id="2342383" name="Rain/Lech"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4028943" alternate_id_2="4322079" date="12.04.2015" id="4146562" static_id="12041523537762352799" status="FT" time="13:00">
 <home goals="2" id="2353776" name="Raisting"></home>
 <away goals="2" id="2352799" name="Eichstatt"></away>
 <events>
@@ -3034,37 +3067,18 @@
 <events>
 </events>
 <ht score="[1-2]"></ht>
-</match><match alternate_id="4031039" alternate_id_2="4318995" date="04.04.2015" id="4148657" static_id="04041523539582342468" status="FT" time="13:00">
-<home goals="5" id="2353958" name="Pipinsried"></home>
-<away goals="2" id="2342468" name="Unterhaching II"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="4028933" alternate_id_2="4318996" date="04.04.2015" id="4146552" static_id="04041523527962353778" status="FT" time="13:00">
 <home goals="0" id="2352796" name="Schwabmunchen"></home>
 <away goals="2" id="2353778" name="Vilzing"></away>
 <events>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4028929" alternate_id_2="4317523" date="04.04.2015" id="4146548" static_id="04041523520912353960" status="FT" time="12:00">
-<home goals="0" id="2352091" name="DJK Rosenheim"></home>
-<away goals="1" id="2353960" name="Pullach"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4028930" alternate_id_2="4317678" date="04.04.2015" id="4146549" static_id="04041523423832352791" status="FT" time="12:00">
-<home goals="3" id="2342383" name="Rain/Lech"></home>
-<away goals="0" id="2352791" name="Hankofen-Hailing"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4028931" alternate_id_2="4317482" date="04.04.2015" id="4146550" static_id="04041523527942352798" status="FT" time="12:00">
-<home goals="1" id="2352794" name="Wolfratshausen"></home>
-<away goals="1" id="2352798" name="Sonthofen"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match></league><league country="germany" name="Germany: Oberliga Baden-Württemberg" cup="False" id="3061" sub_id="30610"><match alternate_id="4028578" alternate_id_2="4317607" date="12.04.2015" id="4146197" static_id="12041523424412342298" status="FT" time="12:00">
+</match></league><league country="germany" name="Germany: Oberliga Baden-Württemberg" cup="False" id="3061" sub_id="30610"><match alternate_id="4028581" alternate_id_2="4317578" date="15.04.2015" id="4146200" static_id="15041523540522349760" status="16:15" time="16:15">
+<home goals="?" id="2354052" name="Ravensburg"></home>
+<away goals="?" id="2349760" name="Hollenbach"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4028578" alternate_id_2="4317607" date="12.04.2015" id="4146197" static_id="12041523424412342298" status="FT" time="12:00">
 <home goals="2" id="2342441" name="Stutt. Kickers II"></home>
 <away goals="0" id="2342298" name="Kehler"></away>
 <events>
@@ -3178,12 +3192,6 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4028579" alternate_id_2="4317559" date="02.04.2015" id="4146198" static_id="02041523554502342109" status="FT" time="15:45">
-<home goals="0" id="2355450" name="SV Pforzheim"></home>
-<away goals="6" id="2342109" name="Bahlinger"></away>
-<events>
-</events>
-<ht score="[0-5]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Mittelrhein" cup="False" id="3061" sub_id="306123"><match alternate_id="4037758" alternate_id_2="4321070" date="12.04.2015" id="4155372" static_id="12041523529152352913" status="FT" time="13:30">
 <home goals="3" id="2352915" name="Hertha Walheim"></home>
 <away goals="1" id="2352913" name="Freialdenhoven"></away>
@@ -3286,15 +3294,15 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4037735" alternate_id_2="4315320" date="29.03.2015" id="4155349" static_id="29031523539532342504" status="FT" time="13:00">
-<home goals="0" id="2353953" name="Bergheim"></home>
-<away goals="2" id="2342504" name="FC Wegberg-Beeck"></away>
+</match><match alternate_id="4037739" alternate_id_2="4315372" date="29.03.2015" id="4155353" static_id="29031523529222355525" status="FT" time="13:00">
+<home goals="3" id="2352922" name="Alfter"></home>
+<away goals="0" id="2355525" name="VfL Leverkusen"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4037736" alternate_id_2="4315321" date="29.03.2015" id="4155350" static_id="29031523421242355524" status="FT" time="13:00">
-<home goals="4" id="2342124" name="Bergisch Gladbach"></home>
-<away goals="1" id="2355524" name="Eilendorf"></away>
+</match><match alternate_id="4037735" alternate_id_2="4315320" date="29.03.2015" id="4155349" static_id="29031523539532342504" status="FT" time="13:00">
+<home goals="0" id="2353953" name="Bergheim"></home>
+<away goals="2" id="2342504" name="FC Wegberg-Beeck"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -3304,7 +3312,17 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="germany" name="Germany: Oberliga Niederrhein" cup="False" id="3061" sub_id="306124"><match alternate_id="3987801" alternate_id_2="4321176" date="12.04.2015" id="4105423" static_id="12041523528982354153" status="FT" time="13:00">
+</match></league><league country="germany" name="Germany: Oberliga Niederrhein" cup="False" id="3061" sub_id="306124"><match alternate_id="3987738" alternate_id_2="4315417" date="15.04.2015" id="4105360" static_id="15041523385782352901" status="18:00" time="18:00">
+<home goals="?" id="2338578" name="Bocholt"></home>
+<away goals="?" id="2352901" name="Sonsbeck"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="3987742" alternate_id_2="4315373" date="15.04.2015" id="4105364" static_id="15041523529052352899" status="17:30" time="17:30">
+<home goals="?" id="2352905" name="Honnepel-Niedermormter"></home>
+<away goals="?" id="2352899" name="Krefeld-Fischeln"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="3987801" alternate_id_2="4321176" date="12.04.2015" id="4105423" static_id="12041523528982354153" status="FT" time="13:00">
 <home goals="2" id="2352898" name="Baumberg"></home>
 <away goals="2" id="2354153" name="Hilden"></away>
 <events>
@@ -3412,18 +3430,6 @@
 <events>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="3987763" alternate_id_2="4318180" date="02.04.2015" id="4105385" static_id="02041523529082354153" status="FT" time="17:30">
-<home goals="3" id="2352908" name="Kapellen-Erft"></home>
-<away goals="3" id="2354153" name="Hilden"></away>
-<events>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="3987761" alternate_id_2="4318207" date="02.04.2015" id="4105383" static_id="02041523424712338578" status="FT" time="17:30">
-<home goals="2" id="2342471" name="Velbert"></home>
-<away goals="1" id="2338578" name="Bocholt"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Play Offs - Promotion Group" cup="False" id="3061" sub_id=""><match alternate_id="3965630" alternate_id_2="4116200" date="07.06.2014" id="4083292" static_id="07061423421432342323" status="FT" time="13:00">
 <home goals="3" id="2342143" name="Bremer"></home>
 <away goals="4" id="2342323" name="Lübeck"></away>

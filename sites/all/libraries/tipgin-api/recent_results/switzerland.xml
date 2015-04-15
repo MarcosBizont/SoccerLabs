@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:41:18" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="3909453" alternate_id_2="4316591" date="12.04.2015" id="4027202" static_id="12041523484422348632" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:12" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="3909453" alternate_id_2="4316591" date="12.04.2015" id="4027202" static_id="12041523484422348632" status="FT" time="14:00">
 <home goals="5" id="2348442" name="Basel"></home>
 <away goals="1" id="2348632" name="Zurich"></away>
 <events>
@@ -290,11 +290,26 @@
 <event id="22108862" minute="90+3" player="S. Tarashaj" playerid="2545186" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="switzerland" name="Switzerland: Challenge League" cup="False" id="3245" sub_id="32450"><match alternate_id="4005828" alternate_id_2="4317688" date="13.04.2015" id="4123450" static_id="13041523486022348624" status="17:45" time="17:45">
-<home goals="?" id="2348602" name="Servette"></home>
-<away goals="?" id="2348624" name="Wohlen"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="switzerland" name="Switzerland: Challenge League" cup="False" id="3245" sub_id="32450"><match alternate_id="4005828" alternate_id_2="4317688" date="13.04.2015" id="4123450" static_id="13041523486022348624" status="FT" time="17:45">
+<home goals="3" id="2348602" name="Servette"></home>
+<away goals="1" id="2348624" name="Wohlen"></away>
+<events>
+<event id="22190384" minute="10" player="B. Martignoni" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22190385" minute="31" player="M. Brahimi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22190386" minute="36" player="C. Holenstein" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22190387" minute="38" player="D. Giampa" playerid="2548834" result="" team="away" type="yellowcard"></event>
+<event id="22190388" minute="50" player="K. Pezzoni" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22190389" minute="53" player="A. Pnishi" playerid="2417675" result="" team="away" type="yellowcard"></event>
+<event id="22190390" minute="54" player="B. Besnard" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22190391" minute="60" player="R. Kamber" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22190392" minute="74" player="M. Urtic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="200917343" minute="76" player="B. Martignoni" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="200917344" minute="78" player="J. Vonlanthen" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="200917345" minute="82" player="K. Bua" playerid="2633321" result="" team="home" type="yellowcard"></event>
+<event id="200917346" minute="90+3" player="D. Giampa" playerid="2548834" result="" team="away" type="yellowred"></event>
+<event id="200917347" minute="90+4" player="S. Ramizi" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4005824" alternate_id_2="4317141" date="12.04.2015" id="4123446" static_id="12041523484492348620" status="FT" time="13:00">
 <home goals="0" id="2348449" name="Biel"></home>
 <away goals="0" id="2348620" name="Wil"></away>
@@ -727,15 +742,18 @@
 <event id="21682286" minute="95" player="A. Chermiti" playerid="2352745" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4049333" alternate_id_2="4266886" date="21.09.2014" id="4166944" static_id="21091423486212348442" status="FT" time="12:00">
-<home goals="0" id="2348621" name="Winterthur"></home>
-<away goals="4" id="2348442" name="Basel"></away>
+</match><match alternate_id="4049336" alternate_id_2="4266887" date="21.09.2014" id="4166947" static_id="21091423485832348554" status="FT" time="12:00">
+<home goals="3" id="2348583" name="Xamax"></home>
+<away goals="5" id="2348554" name="Grasshoppers"></away>
 <events>
-<event id="21682364" minute="32" player="M. Elneny" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21682365" minute="36" player="B. Embolo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21682366" minute="42" player="B. Embolo" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21682367" minute="67" player="B. Embolo" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="21682368" minute="71" player="D. Iapichino" playerid="" result="" team="home" type="redcard"></event>
+<event id="21682374" minute="2" player="M. Dabbur" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21682375" minute="4" player="Y. Ravet" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21682376" minute="13" player="M. Dabbur" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="21682377" minute="14" player="C. Doudin" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="21682378" minute="17" player="M. Erard" playerid="2529000" result="[2 - 3]" team="home" type="goal"></event>
+<event id="21682379" minute="53" player="Y. Ravet" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+<event id="21682380" minute="76" player="M. Dabbur" playerid="" result="[2 - 5]" team="away" type="goal"></event>
+<event id="21682381" minute="86" player="M. Rodriguez" playerid="2465508" result="[3 - 5]" team="home" type="goal"></event>
 </events>
-<ht score="[0-3]"></ht>
+<ht score="[2-3]"></ht>
 </match></league></recent_results>

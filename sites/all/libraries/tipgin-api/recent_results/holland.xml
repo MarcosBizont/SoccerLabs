@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:18" sport="soccer" country="holland"><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="3988311" alternate_id_2="4319233" date="12.04.2015" id="4105933" static_id="12041523450112345299" status="FT" time="14:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:18" sport="soccer" country="holland"><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="3988311" alternate_id_2="4319233" date="12.04.2015" id="4105933" static_id="12041523450112345299" status="FT" time="14:45">
 <home goals="2" id="2345011" name="Den Haag"></home>
 <away goals="0" id="2345299" name="Utrecht"></away>
 <events>
@@ -295,11 +295,15 @@
 <event id="20137536" minute="88" player="L. Burnet" playerid="2466713" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="holland" name="Netherlands: Eerste Divisie" cup="False" id="3156" sub_id="31560"><match alternate_id="4002084" alternate_id_2="4322105" date="13.04.2015" id="4119706" static_id="13041523451442345083" status="18:00" time="18:00">
-<home goals="?" id="2345144" name="Jong Ajax"></home>
-<away goals="?" id="2345083" name="Emmen"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="holland" name="Netherlands: Eerste Divisie" cup="False" id="3156" sub_id="31560"><match alternate_id="4002084" alternate_id_2="4322105" date="13.04.2015" id="4119706" static_id="13041523451442345083" status="FT" time="18:00">
+<home goals="0" id="2345144" name="Jong Ajax"></home>
+<away goals="2" id="2345083" name="Emmen"></away>
+<events>
+<event id="22234554" minute="4" player="A. Bannink" playerid="2435374" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22234555" minute="39" player="R. Zivkovic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22234556" minute="73" player="S. Laghmouchi" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4002082" alternate_id_2="4322103" date="12.04.2015" id="4119704" static_id="12041523451732345055" status="FT" time="12:30">
 <home goals="2" id="2345173" name="Nijmegen"></home>
 <away goals="0" id="2345055" name="Graafschap"></away>

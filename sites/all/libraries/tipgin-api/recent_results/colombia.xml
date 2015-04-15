@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:34" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4119214" alternate_id_2="4321770" date="13.04.2015" id="4236758" static_id="13041523399662339974" status="FT" time="01:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:31" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4119214" alternate_id_2="4321770" date="13.04.2015" id="4236758" static_id="13041523399662339974" status="FT" time="01:00">
 <home goals="0" id="2339966" name="Cucuta"></home>
 <away goals="0" id="2339974" name="Envigado"></away>
 <events>
@@ -1101,7 +1101,23 @@
 <event id="180047743" minute="82" player="A. Uribe" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4118484" alternate_id_2="4307186" date="12.04.2015" id="4236028" static_id="12041523399722339989" status="FT" time="20:30">
+</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4103308" alternate_id_2="4307180" date="14.04.2015" id="4220864" static_id="14041523399612339957" status="FT" time="01:00">
+<home goals="0" id="2339961" name="Barranquilla"></home>
+<away goals="0" id="2339957" name="America De Cali"></away>
+<events>
+<event id="22085304" minute="35" player="Lucumi" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4105487" alternate_id_2="4307181" date="13.04.2015" id="4223042" static_id="13041523399592349376" status="FT" time="23:00">
+<home goals="3" id="2339959" name="Bucaramanga"></home>
+<away goals="1" id="2349376" name="Llaneros"></away>
+<events>
+<event id="22085314" minute="42" player="Amaya" playerid="2578958" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22085315" minute="69" player="Perez" playerid="2505915" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22085316" minute="90" player="Varela" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4118484" alternate_id_2="4307186" date="12.04.2015" id="4236028" static_id="12041523399722339989" status="FT" time="20:30">
 <home goals="2" id="2339972" name="Pereira"></home>
 <away goals="1" id="2339989" name="Real Santander"></away>
 <events>
@@ -1250,14 +1266,6 @@
 <event id="22085186" minute="90" player="Mendoza" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4117332" alternate_id_2="4307166" date="29.03.2015" id="4234876" static_id="29031523475702347560" status="FT" time="20:00">
-<home goals="0" id="2347570" name="Depor"></home>
-<away goals="2" id="2347560" name="Cartagena"></away>
-<events>
-<event id="22085164" minute="51" player="Cabrera" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22085165" minute="81" player="Parra" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4117333" alternate_id_2="4307167" date="29.03.2015" id="4234877" static_id="29031523478262339141" status="FT" time="20:00">
 <home goals="2" id="2347826" name="Leones"></home>
 <away goals="0" id="2339141" name="Fortaleza"></away>
@@ -1266,15 +1274,12 @@
 <event id="22085175" minute="75" player="Moya" playerid="2481559" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4106328" alternate_id_2="4307171" date="28.03.2015" id="4223883" static_id="28031523399922339972" status="FT" time="20:00">
-<home goals="1" id="2339992" name="Valledupar"></home>
-<away goals="0" id="2339972" name="Pereira"></away>
-<events>
-<event id="22085214" minute="25" player="Cetre (pen.)" playerid="2502299" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22085215" minute="71" player="Cetre" playerid="2502299" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4107494" alternate_id_2="4315478" date="01.04.2015" id="4225049" static_id="01041523399752339980" status="FT" time="20:00">
+</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4111999" alternate_id_2="4314337" date="15.04.2015" id="4229549" static_id="15041523399642339991" status="16:30" time="16:30">
+<home goals="?" id="2339964" name="Popayan"></home>
+<away goals="?" id="2339991" name="U. Magdalena"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4107494" alternate_id_2="4315478" date="01.04.2015" id="4225049" static_id="01041523399752339980" status="FT" time="20:00">
 <home goals="0" id="2339975" name="Expreso Rojo"></home>
 <away goals="1" id="2339980" name="La Equidad"></away>
 <events>
@@ -1448,12 +1453,6 @@
 <event id="22084625" minute="45" player="J. Ayala" playerid="2508060" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4107463" alternate_id_2="4307115" date="05.03.2015" id="4225018" static_id="05031523399922339991" status="FT" time="20:00">
-<home goals="0" id="2339992" name="Valledupar"></home>
-<away goals="0" id="2339991" name="U. Magdalena"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="colombia" name="Colombia: Copa Aguila - Play Offs" cup="True" id="3737" sub_id=""><match alternate_id="4081559" alternate_id_2="4286935" date="13.11.2014" id="4199145" static_id="13111423399902339969" status="FT" time="00:30">
 <home goals="2" id="2339990" name="Santa Fe"></home>
 <away goals="1" id="2339969" name="Deportes Tolima"></away>
@@ -1761,7 +1760,23 @@
 <event id="22010541" minute="84" player="G. Garcia" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4118484" alternate_id_2="4307186" date="12.04.2015" id="4236028" static_id="12041523399722339989" status="FT" time="20:30">
+</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4103308" alternate_id_2="4307180" date="14.04.2015" id="4220864" static_id="14041523399612339957" status="FT" time="01:00">
+<home goals="0" id="2339961" name="Barranquilla"></home>
+<away goals="0" id="2339957" name="America De Cali"></away>
+<events>
+<event id="22085304" minute="35" player="Lucumi" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4105487" alternate_id_2="4307181" date="13.04.2015" id="4223042" static_id="13041523399592349376" status="FT" time="23:00">
+<home goals="3" id="2339959" name="Bucaramanga"></home>
+<away goals="1" id="2349376" name="Llaneros"></away>
+<events>
+<event id="22085314" minute="42" player="Amaya" playerid="2578958" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22085315" minute="69" player="Perez" playerid="2505915" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22085316" minute="90" player="Varela" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4118484" alternate_id_2="4307186" date="12.04.2015" id="4236028" static_id="12041523399722339989" status="FT" time="20:30">
 <home goals="2" id="2339972" name="Pereira"></home>
 <away goals="1" id="2339989" name="Real Santander"></away>
 <events>

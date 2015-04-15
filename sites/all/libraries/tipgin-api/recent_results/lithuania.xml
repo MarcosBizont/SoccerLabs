@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:57" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4109282" alternate_id_2="4318066" date="13.04.2015" id="4226834" static_id="13041523444492344433" status="16:30" time="16:30">
-<home goals="?" id="2344449" name="Zalgiris"></home>
-<away goals="?" id="2344433" name="Suduva"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:52" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4109282" alternate_id_2="4318066" date="13.04.2015" id="4226834" static_id="13041523444492344433" status="FT" time="16:30">
+<home goals="2" id="2344449" name="Zalgiris"></home>
+<away goals="0" id="2344433" name="Suduva"></away>
+<events>
+<event id="22194164" minute="11" player="A. Jankauskas" playerid="2359318" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22194165" minute="40" player="Elivelton" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22194166" minute="57" player="A. Jankauskas" playerid="2359318" result="" team="home" type="yellowcard"></event>
+<event id="22194167" minute="57" player="M. Soblinskas" playerid="2521992" result="" team="away" type="yellowcard"></event>
+<event id="22194168" minute="59" player="V. Baranovskij" playerid="2492896" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4109281" alternate_id_2="4317937" date="12.04.2015" id="4226833" static_id="12041523505892344431" status="FT" time="14:00">
 <home goals="2" id="2350589" name="Trakai"></home>
 <away goals="0" id="2344431" name="Spyris Kaunas"></away>
@@ -242,7 +248,12 @@
 <event id="22118484" minute="54" player="S. Nyuiadzi" playerid="2526922" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="lithuania" name="Lithuania: Division 2" cup="False" id="3124" sub_id="31240"><match alternate_id="4117701" alternate_id_2="4320944" date="12.04.2015" id="4235245" static_id="" status="FT" time="11:00">
+</match></league><league country="lithuania" name="Lithuania: Division 2" cup="False" id="3124" sub_id="31240"><match alternate_id="" alternate_id_2="4320947" date="15.04.2015" id="" static_id="" status="17:00" time="17:00">
+<home goals="?" id="2353735" name="Zalgiris 3"></home>
+<away goals="?" id="" name="Trakai 2"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4117701" alternate_id_2="4320944" date="12.04.2015" id="4235245" static_id="" status="FT" time="11:00">
 <home goals="2" id="2344388" name="Banga"></home>
 <away goals="1" id="" name="Kruoja 2"></away>
 <events>
@@ -356,12 +367,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4117680" alternate_id_2="4319976" date="29.03.2015" id="4235224" static_id="29031523443932344399" status="FT" time="12:00">
-<home goals="0" id="2344393" name="FBK Kaunas"></home>
-<away goals="0" id="2344399" name="Silute"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="lithuania" name="Lithuania: Division 2 - Promotion Group" cup="False" id="3124" sub_id="31241"><match alternate_id="" alternate_id_2="4273589" date="02.11.2014" id="" static_id="02111423555342353734" status="FT" time="11:00">
 <home goals="5" id="2355534" name="MRU TiuMenas"></home>
 <away goals="1" id="2353734" name="Silas"></away>
@@ -542,15 +547,15 @@
 <events>
 </events>
 <ht score="[3-3]"></ht>
-</match></league><league country="lithuania" name="Lithuania: Division 2 - Promotion Group" cup="False" id="3124" sub_id="31241"><match alternate_id="4075386" alternate_id_2="4271429" date="19.09.2014" id="4192995" static_id="19091423552372344439" status="FT" time="12:00">
-<home goals="1" id="2355237" name="Stumbras"></home>
-<away goals="1" id="2344439" name="Utenis"></away>
+</match></league><league country="lithuania" name="Lithuania: Division 2 - Promotion Group" cup="False" id="3124" sub_id="31241"><match alternate_id="4075387" alternate_id_2="4271428" date="19.09.2014" id="4192996" static_id="19091423555342353735" status="FT" time="12:00">
+<home goals="2" id="2355534" name="MRU TiuMenas"></home>
+<away goals="0" id="2353735" name="Zalgiris 3"></away>
 <events>
-<event id="21727794" minute="30" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21727795" minute="52" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="21727796" minute="67" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="21727784" minute="28" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21727785" minute="71" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21727786" minute="76" player="" playerid="" result="" team="home" type="redcard"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[1-0]"></ht>
 </match></league><league country="lithuania" name="Lithuania: Division 2 - Relegation Group" cup="False" id="3124" sub_id=""><match alternate_id="4072224" alternate_id_2="4271078" date="13.09.2014" id="4189833" static_id="13091423538172344400" status="FT" time="14:00">
 <home goals="2" id="2353817" name="Baltija Panevezys"></home>
 <away goals="6" id="2344400" name="Tauras Taurage"></away>
@@ -734,9 +739,9 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4076694" alternate_id_2="4273918" date="23.09.2014" id="4194303" static_id="23091423552362344413" status="FT" time="14:00">
-<home goals="1" id="2355236" name="Mostiskes"></home>
-<away goals="0" id="2344413" name="Jonava"></away>
+</match><match alternate_id="4075586" alternate_id_2="4273914" date="23.09.2014" id="4193195" static_id="23091423538222353731" status="FT" time="14:00">
+<home goals="2" id="2353822" name="TAIP Vilnius"></home>
+<away goals="0" id="2353731" name="Lokomotyvas Radviliskis"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>

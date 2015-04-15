@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:26" sport="soccer" country="azerbaijan"><league country="azerbaijan" name="Azerbaijan: Premier League" cup="False" id="2927" sub_id="29270"><match alternate_id="4040280" alternate_id_2="4315215" date="09.04.2015" id="4157894" static_id="09041523384222338427" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:24" sport="soccer" country="azerbaijan"><league country="azerbaijan" name="Azerbaijan: Premier League" cup="False" id="2927" sub_id="29270"><match alternate_id="4040280" alternate_id_2="4315215" date="09.04.2015" id="4157894" static_id="09041523384222338427" status="FT" time="14:00">
 <home goals="1" id="2338422" name="Gabala"></home>
 <away goals="0" id="2338427" name="Simurq Zaqatala"></away>
 <events>
@@ -154,16 +154,21 @@
 <event id="19416156" minute="75" player="Zargarov S." playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="azerbaijan" name="Azerbaijan: Azerbaijan Cup" cup="True" id="3919" sub_id="39190"><match alternate_id="4119570" alternate_id_2="4318048" date="13.04.2015" id="4119570" static_id="13041523384182338403" status="14:00" time="14:00">
-<home goals="?" id="2338418" name="Neftci Baku"></home>
-<away goals="?" id="2338403" name="Inter Baku"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4116414" alternate_id_2="4318049" date="13.04.2015" id="4116414" static_id="13041523384062338427" status="13:00" time="13:00">
-<home goals="?" id="2338406" name="Qarabag"></home>
-<away goals="?" id="2338427" name="Simurq Zaqatala"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="azerbaijan" name="Azerbaijan: Azerbaijan Cup" cup="True" id="3919" sub_id="39190"><match alternate_id="4119570" alternate_id_2="4318048" date="13.04.2015" id="4119570" static_id="13041523384182338403" status="FT" time="14:00">
+<home goals="2" id="2338418" name="Neftci Baku"></home>
+<away goals="0" id="2338403" name="Inter Baku"></away>
+<events>
+<event id="20209204" minute="19" player="Canales N." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20209205" minute="71" player="Canales N." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4116414" alternate_id_2="4318049" date="13.04.2015" id="4116414" static_id="13041523384062338427" status="FT" time="13:00">
+<home goals="1" id="2338406" name="Qarabag"></home>
+<away goals="0" id="2338427" name="Simurq Zaqatala"></away>
+<events>
+<event id="20177644" minute="15" player="Tachiyev J." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4112082" alternate_id_2="4295202" date="13.03.2015" id="4112082" static_id="13031523384102338403" status="FT" time="13:00">
 <home goals="0" id="2338410" name="Khazar Lenkoran"></home>
 <away goals="3" id="2338403" name="Inter Baku"></away>
@@ -229,7 +234,7 @@
 <event id="20119166" minute="32" player="Reynaldo" playerid="2403639" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4123412" alternate_id_2="4282467" date="03.12.2014" id="4123412" static_id="03121423384102354686" status="WO" time="14:00">
+</match><match alternate_id="4119564" alternate_id_2="4282467" date="03.12.2014" id="4119564" static_id="03121423384102354686" status="WO" time="14:00">
 <home goals="?" id="2338410" name="Khazar Lenkoran"></home>
 <away goals="?" id="2354686" name="Araz"></away>
 <events></events>

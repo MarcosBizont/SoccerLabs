@@ -1,23 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:41:10" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="3983770" alternate_id_2="4322478" date="13.04.2015" id="4101403" static_id="13041523466702346754" status="16:30" time="16:30">
-<home goals="?" id="2346670" name="FK Rostov"></home>
-<away goals="?" id="2346754" name="Spartak Moscow"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3980926" alternate_id_2="4322477" date="13.04.2015" id="4098559" static_id="13041523467682346763" status="15:00" time="15:00">
-<home goals="?" id="2346768" name="T. Moscow"></home>
-<away goals="?" id="2346763" name="Terek Grozni"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3979990" alternate_id_2="4322476" date="13.04.2015" id="4097623" static_id="13041523466172346629" status="14:15" time="14:15">
-<home goals="?" id="2346617" name="Amkar"></home>
-<away goals="?" id="2346629" name="CSKA Moscow"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3980927" alternate_id_2="4322475" date="13.04.2015" id="4098560" static_id="13041523467722346704" status="41" time="12:00">
-<home goals="1" id="2346772" name="Ural"></home>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:05" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="3983770" alternate_id_2="4322478" date="13.04.2015" id="4101403" static_id="13041523466702346754" status="FT" time="16:30">
+<home goals="2" id="2346670" name="FK Rostov"></home>
+<away goals="1" id="2346754" name="Spartak Moscow"></away>
+<events>
+<event id="22238284" minute="15" player="G. Kanga" playerid="2579978" result="" team="home" type="yellowcard"></event>
+<event id="22238285" minute="36" player="M. Grigorjev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22238286" minute="38" player="J. Insaurralde" playerid="2381935" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22238287" minute="51" player="Q. Promes" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22238288" minute="55" player="K. Kallstrom" playerid="2331991" result="" team="away" type="yellowcard"></event>
+<event id="22238289" minute="82" player="M. Grigorjev" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22238290" minute="84" player="D. Kombarov" playerid="2338269" result="" team="away" type="yellowcard"></event>
+<event id="22238291" minute="90" player="Romulo" playerid="2447608" result="" team="away" type="yellowcard"></event>
+<event id="22238292" minute="90+2" player="D. Glushakov" playerid="2358011" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="3980926" alternate_id_2="4322477" date="13.04.2015" id="4098559" static_id="13041523467682346763" status="FT" time="15:00">
+<home goals="0" id="2346768" name="T. Moscow"></home>
+<away goals="0" id="2346763" name="Terek Grozni"></away>
+<events>
+<event id="22238274" minute="34" player="M. Komorowski" playerid="2344702" result="" team="away" type="yellowcard"></event>
+<event id="22238275" minute="61" player="J. Mauricio" playerid="2396846" result="" team="away" type="yellowcard"></event>
+<event id="22238276" minute="68" player="I. Franjic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22238277" minute="69" player="O. Ivanov" playerid="2338525" result="" team="away" type="yellowcard"></event>
+<event id="22238278" minute="90" player="J. Mauricio" playerid="2396846" result="" team="away" type="yellowred"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="3979990" alternate_id_2="4322476" date="13.04.2015" id="4097623" static_id="13041523466172346629" status="FT" time="14:15">
+<home goals="1" id="2346617" name="Amkar"></home>
+<away goals="0" id="2346629" name="CSKA Moscow"></away>
+<events>
+<event id="22238264" minute="59" player="I. Kireev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="3980927" alternate_id_2="4322475" date="13.04.2015" id="4098560" static_id="13041523467722346704" status="FT" time="12:00">
+<home goals="2" id="2346772" name="Ural"></home>
 <away goals="0" id="2346704" name="Lokomotiv Moscow"></away>
 <events>
 <event id="22238254" minute="6" player="T. Mikhalik (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22238255" minute="47" player="T. Mikhalik" playerid="2351504" result="" team="away" type="yellowcard"></event>
+<event id="22238256" minute="60" player="F. Smolov" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22238257" minute="81" player="A. Sapeta" playerid="2404189" result="" team="home" type="yellowcard"></event>
+<event id="22238258" minute="81" player="Maicon" playerid="2396483" result="" team="away" type="yellowcard"></event>
+<event id="22238259" minute="89" player="A. Belozerov" playerid="2358000" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="3980922" alternate_id_2="4319336" date="12.04.2015" id="4098555" static_id="12041523466362346715" status="FT" time="15:30">

@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:57" sport="soccer" country="macedonia"><league country="macedonia" name="Fyr Of Macedonia: First League" cup="False" id="3133" sub_id="31330"><match alternate_id="4110940" alternate_id_2="4316830" date="11.04.2015" id="4228491" static_id="11041523445532344585" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:53" sport="soccer" country="macedonia"><league country="macedonia" name="Fyr Of Macedonia: First League" cup="False" id="3133" sub_id="31330"><match alternate_id="4110936" alternate_id_2="4313052" date="14.04.2015" id="4228487" static_id="14041523445902344580" status="FT" time="14:00">
+<home goals="2" id="2344590" name="Shkendija"></home>
+<away goals="2" id="2344580" name="Met. Skopje"></away>
+<events>
+<event id="20122864" minute="5" player="Naumovski B." playerid="2499510" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20122865" minute="51" player="Juffo V." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20122866" minute="63" player="Kirovski H." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20122867" minute="70" player="Radeski M." playerid="2566277" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4110940" alternate_id_2="4316830" date="11.04.2015" id="4228491" static_id="11041523445532344585" status="FT" time="14:00">
 <home goals="1" id="2344553" name="Bregalnica Stip"></home>
 <away goals="0" id="2344585" name="Pelister"></away>
 <events>
@@ -148,15 +158,17 @@
 <event id="20122755" minute="72" player="Velinov V." playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4110916" alternate_id_2="4310463" date="15.03.2015" id="4228467" static_id="15031523445912344580" status="FT" time="13:00">
-<home goals="1" id="2344591" name="Sileks"></home>
-<away goals="1" id="2344580" name="Met. Skopje"></away>
-<events>
-<event id="20122664" minute="44" player=" Bakracheski N." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20122665" minute="50" player=" Rudan S." playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="macedonia" name="Fyr Of Macedonia: Macedonian Cup" cup="True" id="3718" sub_id="37180"><match alternate_id="3865045" alternate_id_2="4297520" date="18.03.2015" id="3865045" static_id="18031523445872344588" status="FT" time="13:00">
+</match></league><league country="macedonia" name="Fyr Of Macedonia: Macedonian Cup" cup="True" id="3718" sub_id="37180"><match alternate_id="3865041" alternate_id_2="4297522" date="15.04.2015" id="3865041" static_id="15041523445882344587" status="14:00" time="14:00">
+<home goals="?" id="2344588" name="Renova"></home>
+<away goals="?" id="2344587" name="Rabotnicki"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4088980" alternate_id_2="4297523" date="15.04.2015" id="4088980" static_id="15041523445952344593" status="14:00" time="14:00">
+<home goals="?" id="2344595" name="Turnovo"></home>
+<away goals="?" id="2344593" name="Teteks"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="3865045" alternate_id_2="4297520" date="18.03.2015" id="3865045" static_id="18031523445872344588" status="FT" time="13:00">
 <home goals="2" id="2344587" name="Rabotnicki"></home>
 <away goals="1" id="2344588" name="Renova"></away>
 <events>
@@ -312,18 +324,4 @@
 <event id="19630254" minute="32" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4115018" alternate_id_2="4269974" date="24.09.2014" id="4115018" static_id="24091423445912349685" status="FT" time="13:30">
-<home goals="1" id="2344591" name="Sileks"></home>
-<away goals="1" id="2349685" name="Euromilk"></away>
-<events>
-<event id="20163684" minute="53" player=" Nedeljkovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20163685" minute="78" player=" Aksentiev" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4061669" alternate_id_2="4269975" date="24.09.2014" id="4061669" static_id="24091423445952344553" status="FT" time="13:30">
-<home goals="0" id="2344595" name="Turnovo"></home>
-<away goals="0" id="2344553" name="Bregalnica Stip"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league></recent_results>

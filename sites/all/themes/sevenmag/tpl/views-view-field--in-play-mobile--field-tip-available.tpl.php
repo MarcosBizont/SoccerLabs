@@ -25,6 +25,6 @@
  if(tips_match_have_tip_withoffers($row->entity)) 
  	print '<i class="fa fa-bolt" title="' . t('Tip with booker\'s offers available') . '"></i><span class="tiplalbel">' . t('Tip with booker\'s offers available') . '</span>';
  elseif(tips_match_have_tip($row->entity)) 
- 	print '<i class="fa fa-bell" title="' . t('Tip available') . '"></i><span class="tiplalbel">' . t('Tip available') . '</span>';
+ 	print '<i class="fa fa-lightbulb-o" title="' . t('Tip available') . '"></i><span class="tiplalbel">' . t('Tip available') . '</span>';
 
 ?>

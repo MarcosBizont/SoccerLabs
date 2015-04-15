@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.04.2015 12:40:11" sport="soccer" country="spain"><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4033143" alternate_id_2="4323093" date="13.04.2015" id="4150761" static_id="13041523480942347876" status="18:30" time="18:30">
-<home goals="?" id="2348094" name="Valencia"></home>
-<away goals="?" id="2347876" name="Levante"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:09" sport="soccer" country="spain"><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4033143" alternate_id_2="4323093" date="13.04.2015" id="4150761" static_id="13041523480942347876" status="FT" time="18:30">
+<home goals="3" id="2348094" name="Valencia"></home>
+<away goals="0" id="2347876" name="Levante"></away>
+<events>
+<event id="22244434" minute="16" player="A. Paco" playerid="2496444" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22244435" minute="21" player="J. Mari" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22244436" minute="21" player="S. Mustafi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22244437" minute="21" player="A. Ivanschitz" playerid="2350981" result="" team="away" type="yellowcard"></event>
+<event id="22244438" minute="34" player="D. Parejo" playerid="2383111" result="" team="home" type="yellowcard"></event>
+<event id="22244439" minute="36" player="S. Feghouli" playerid="2371287" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22244440" minute="61" player="J. Simao" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22244441" minute="75" player="A. Negredo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22244442" minute="90+3" player="A. Negredo" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4033140" alternate_id_2="4322674" date="12.04.2015" id="4150758" static_id="12041523478112347840" status="FT" time="19:00">
 <home goals="0" id="2347811" name="Cordoba"></home>
 <away goals="2" id="2347840" name="Elche"></away>

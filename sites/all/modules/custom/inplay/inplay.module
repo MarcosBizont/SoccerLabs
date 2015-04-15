@@ -281,7 +281,7 @@ function inplay_block_view($delta='') {
       $block['content'] = inplay_commentaries_view();
       break;
     case 'inplay_tips' :
-      $block['subject'] = '<i class="fa fa-2x fa-bell"></i>' . t('Tips');
+      $block['subject'] = '<i class="fa fa-2x fa-lightbulb-o"></i>' . t('Tips');
       $block['content'] = inplay_tips_view();
       break;
     case 'inplay_game_stats' :
