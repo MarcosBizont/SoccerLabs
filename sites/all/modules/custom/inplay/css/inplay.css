@@ -547,8 +547,19 @@ caption
 
 .view-tips-blocks .views-field-name i
 {
-	margin: 0 10px;
+	margin: 0 0 0 10px;
 }
+
+.view-tips-blocks .fa-check-circle 
+{
+	color: green;
+}
+
+.view-tips-blocks .fa-times-circle 
+{
+	color: red;
+}
+
 
 .view-header
 {

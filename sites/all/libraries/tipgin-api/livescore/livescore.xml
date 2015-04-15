@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><livescore updated="15.04.2015 01:53:38" sport="soccer" ><league country="argentina" name="Argentina: Primera B Metropolitana" cup="False" id="2910" sub_id="29100"><match alternate_id="4105635" alternate_id_2="4320509" commentary="False" date="15.04.2015" id="4223190" static_id="15041523377892337892" status="90" time="00:05">
+<?xml version="1.0" encoding="utf-8"?><livescore updated="15.04.2015 05:01:36" sport="soccer" ><league country="argentina" name="Argentina: Primera B Metropolitana" cup="False" id="2910" sub_id="29100"><match alternate_id="4105635" alternate_id_2="4320509" commentary="False" date="15.04.2015" id="4223190" static_id="15041523377892337892" status="FT" time="00:05">
 <home goals="1" id="2337789" name="Defensores de Belgrano"></home>
 <away goals="0" id="2337892" name="Sportivo Italiano"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22218594" minute="88" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22218594" minute="88" player="Goux" playerid="2391478" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22218595" minute="90" player="Frances" playerid="2423285" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
+<ft score="[1-0]"></ft>
 </match></league><league country="argentina" name="Argentina: Primera D Metropolitana" cup="False" id="2913" sub_id="29130"><match alternate_id="4106019" alternate_id_2="4319931" commentary="False" date="15.04.2015" id="4223574" static_id="15041523378402337857" status="18:00" time="18:00">
 <home goals="?" id="2337840" name="Ituzaingó"></home>
 <away goals="?" id="2337857" name="Lugano"></away>
@@ -66,11 +68,13 @@
 <away goals="?" id="2354823" name="South Adelaide"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="australia_and_oceania" name="Australia and Oceania: Ofc Champions League" cup="False" id="3537" sub_id=""><match alternate_id="4102912" alternate_id_2="4306492" commentary="False" date="15.04.2015" id="4220470" static_id="15041523456982345380" status="04:30" time="04:30">
-<home goals="?" id="2345698" name="Hekari Utd"></home>
-<away goals="?" id="2345380" name="Team Wellington"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="australia_and_oceania" name="Australia and Oceania: Ofc Champions League" cup="False" id="3537" sub_id=""><match alternate_id="4102912" alternate_id_2="4306492" commentary="False" date="15.04.2015" id="4220470" static_id="15041523456982345380" status="33" time="04:30">
+<home goals="0" id="2345698" name="Hekari Utd"></home>
+<away goals="1" id="2345380" name="Team Wellington"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="22078424" minute="22" player="Corrales" playerid="2400649" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4102913" alternate_id_2="4306493" commentary="False" date="15.04.2015" id="4220471" static_id="15041523486642349336" status="07:00" time="07:00">
 <home goals="?" id="2348664" name="Tefana"></home>
 <away goals="?" id="2349336" name="Tafea"></away>
@@ -201,8 +205,8 @@
 <away goals="?" id="2355081" name="Jiangxi Liansheng"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4119144" alternate_id_2="4321481" commentary="False" date="15.04.2015" id="4236688" static_id="" status="07:00" time="07:00">
-<home goals="?" id="" name="Meizhou Wuhua"></home>
+</match><match alternate_id="4119144" alternate_id_2="4321481" commentary="False" date="15.04.2015" id="4236688" static_id="15041523561592349646" status="07:00" time="07:00">
+<home goals="?" id="2356159" name="Meizhou Wuhua"></home>
 <away goals="?" id="2349646" name="Hunan Xiangtao"></away>
 <events></events>
 <ht score=""></ht>
@@ -221,9 +225,9 @@
 <away goals="?" id="2356141" name="Nei Mongol"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4118261" alternate_id_2="4321486" commentary="False" date="15.04.2015" id="4235805" static_id="" status="07:30" time="07:30">
-<home goals="?" id="" name="Tianjin Locomotive"></home>
-<away goals="?" id="" name="Xinjiang Tianshan"></away>
+</match><match alternate_id="4119145" alternate_id_2="4321486" commentary="False" date="15.04.2015" id="4236689" static_id="15041523550842353685" status="07:30" time="07:30">
+<home goals="?" id="2355084" name="Tianjin Locomotive"></home>
+<away goals="?" id="2353685" name="Xinjiang Tianshan"></away>
 <events></events>
 <ht score=""></ht>
 </match><match alternate_id="4119132" alternate_id_2="4321487" commentary="False" date="15.04.2015" id="4236676" static_id="15041523537452349647" status="07:30" time="07:30">
@@ -396,17 +400,7 @@
 <away goals="?" id="2344593" name="Teteks"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="gabon" name="Gabon: Championnat D1" cup="False" id="3853" sub_id=""><match alternate_id="4121049" alternate_id_2="4323419" commentary="False" date="14.04.2015" id="4238593" static_id="14041523505412350261" status="15:00" time="15:00">
-<home goals="?" id="2350541" name="Pélican"></home>
-<away goals="?" id="2350261" name="Bitam"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4121048" alternate_id_2="4323420" commentary="False" date="14.04.2015" id="4238592" static_id="14041523521072352105" status="15:00" time="15:00">
-<home goals="?" id="2352107" name="Solidarite"></home>
-<away goals="?" id="2352105" name="O'Mbilanziami"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4121050" alternate_id_2="4323702" commentary="False" date="15.04.2015" id="4238594" static_id="15041523505402354861" status="15:00" time="15:00">
+</match></league><league country="gabon" name="Gabon: Championnat D1" cup="False" id="3853" sub_id=""><match alternate_id="4121050" alternate_id_2="4323702" commentary="False" date="15.04.2015" id="4238594" static_id="15041523505402354861" status="15:00" time="15:00">
 <home goals="?" id="2350540" name="CF Mounana"></home>
 <away goals="?" id="2354861" name="Port-Gentil"></away>
 <events></events>
@@ -630,34 +624,34 @@
 <events>
 </events>
 <ht score=""></ht>
-</match></league><league country="north_and_central_america" name="North and Central America: Cfu Club Championship" cup="False" id="4432" sub_id=""><match alternate_id="" alternate_id_2="4322064" commentary="False" date="15.04.2015" id="" static_id="15041523518762342739" status="19:30" time="19:30">
+</match></league><league country="north_and_central_america" name="North and Central America: Cfu Club Championship" cup="False" id="4432" sub_id=""><match alternate_id="4123687" alternate_id_2="4322064" commentary="False" date="15.04.2015" id="4241231" static_id="15041523518762342739" status="19:30" time="19:30">
 <home goals="?" id="2351876" name="Montego Bay"></home>
 <away goals="?" id="2342739" name="Moulien"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4322058" commentary="False" date="15.04.2015" id="" static_id="15041523428172348190" status="20:00" time="20:00">
+</match><match alternate_id="4123686" alternate_id_2="4322058" commentary="False" date="15.04.2015" id="4241230" static_id="15041523428172348190" status="20:00" time="20:00">
 <home goals="?" id="2342817" name="Alpha"></home>
 <away goals="?" id="2348190" name="Inter Moengotapoe"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4322061" commentary="False" date="15.04.2015" id="" static_id="" status="20:00" time="20:00">
-<home goals="?" id="" name="Helenites"></home>
+</match><match alternate_id="4123689" alternate_id_2="4322061" commentary="False" date="15.04.2015" id="4241233" static_id="15041523562132342750" status="20:00" time="20:00">
+<home goals="?" id="2356213" name="Helenites"></home>
 <away goals="?" id="2342750" name="Sainte-Rose"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4322062" commentary="False" date="15.04.2015" id="" static_id="15041523439662343956" status="21:30" time="21:30">
+</match><match alternate_id="4123684" alternate_id_2="4322062" commentary="False" date="15.04.2015" id="4241228" static_id="15041523439662343956" status="21:30" time="21:30">
 <home goals="?" id="2343966" name="SAP"></home>
 <away goals="?" id="2343956" name="Waterhouse"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4322059" commentary="False" date="15.04.2015" id="" static_id="15041523505602345086" status="22:00" time="22:00">
+</match><match alternate_id="4123685" alternate_id_2="4322059" commentary="False" date="15.04.2015" id="4241229" static_id="15041523505602345086" status="22:00" time="22:00">
 <home goals="?" id="2350560" name="America des Cayes"></home>
 <away goals="?" id="2345086" name="Excelsior"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4322060" commentary="False" date="15.04.2015" id="" static_id="" status="22:30" time="22:30">
+</match><match alternate_id="4123688" alternate_id_2="4322060" commentary="False" date="15.04.2015" id="4241232" static_id="15041523391042356214" status="22:30" time="22:30">
 <home goals="?" id="2339104" name="Bosco"></home>
-<away goals="?" id="" name="Lyford Cay"></away>
+<away goals="?" id="2356214" name="Lyford Cay"></away>
 <events></events>
 <ht score=""></ht>
 </match></league><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101039" alternate_id_2="4320136" commentary="True" date="15.04.2015" id="4218597" static_id="15041523457142345715" status="Postp." time="19:00">
@@ -821,34 +815,37 @@
 <away goals="?" id="2347440" name="Thanda Royal Zulu"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4107383" alternate_id_2="4318378" commentary="True" date="15.04.2015" id="4224938" static_id="15041523378692349367" status="82" time="00:15">
-<home goals="2" id="2337869" name="Racing Club"></home>
+</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4107383" alternate_id_2="4318378" commentary="True" date="15.04.2015" id="4224938" static_id="15041523378692349367" status="FT" time="00:15">
+<home goals="3" id="2337869" name="Racing Club"></home>
 <away goals="2" id="2349367" name="Dep. Tachira"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22197284" minute="29" player="J. Meza" playerid="2453430" result="[0 - 1]" team="away" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22197285" minute="36" player="C. Lopez" playerid="2385316" result="" team="away" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22197286" minute="36" player="J. Contreras" playerid="2512599" result="" team="away" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22197287" minute="44" player="E. Videla" playerid="2423569" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22197288" minute="50" player="J. Meza" playerid="2453430" result="[0 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22197288" minute="48" player="J. Meza" playerid="2453430" result="[0 - 2]" team="away" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22197289" minute="56" player="C. Lujano" playerid="2446279" result="" team="away" type="yellowcard"></event>
-<event assist="G. Bou" assistid="52758" extra_min="" id="22197290" minute="59" player="D. Milito" playerid="2335169" result="[1 - 2]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22197291" minute="70" player="G. Bou" playerid="2384591" result="[2 - 2]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22197292" minute="74" player="J. Mora" playerid="2638909" result="" team="away" type="yellowcard"></event>
+<event assist="G. Bou" assistid="52758" extra_min="" id="22197290" minute="57" player="D. Milito" playerid="2335169" result="[1 - 2]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22197291" minute="69" player="G. Bou" playerid="2384591" result="[2 - 2]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22197292" minute="73" player="J. Mora" playerid="2638909" result="" team="away" type="yellowcard"></event>
+<event assist="N. Sanchez" assistid="17816" extra_min="" id="200986343" minute="90" player="B. Fernandez" playerid="2577032" result="[3 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4107382" alternate_id_2="4318379" commentary="True" date="15.04.2015" id="4224937" static_id="15041523457712345715" status="83" time="00:15">
+<ft score="[3-2]"></ft>
+</match><match alternate_id="4107382" alternate_id_2="4318379" commentary="True" date="15.04.2015" id="4224937" static_id="15041523457712345715" status="FT" time="00:15">
 <home goals="1" id="2345771" name="Sporting Cristal"></home>
 <away goals="1" id="2345715" name="Guarani"></away>
 <events>
 <event assist="J. Benitez" assistid="23715" extra_min="" id="22197294" minute="13" player="F. Santander" playerid="2363381" result="[0 - 1]" team="away" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22197295" minute="22" player="J. Cazulo" playerid="2408826" result="" team="home" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22197296" minute="48" player="M. Palau" playerid="2389036" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22197297" minute="59" player="S. Blanco" playerid="2355235" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22197297" minute="58" player="S. Blanco" playerid="2355235" result="[1 - 1]" team="home" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22197298" minute="59" player="F. Santander" playerid="2363381" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22197299" minute="65" player="J. Benitez" playerid="2355548" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22197300" minute="81" player="C. Lobaton" playerid="2355849" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22197299" minute="64" player="J. Benitez" playerid="2355548" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22197300" minute="80" player="C. Lobaton" playerid="2355849" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
+<ft score="[1-1]"></ft>
 </match><match alternate_id="4107376" alternate_id_2="4318380" commentary="True" date="15.04.2015" id="4224931" static_id="15041523388302340693" status="20:30" time="20:30">
 <home goals="?" id="2338830" name="The Strongest"></home>
 <away goals="?" id="2340693" name="Emelec"></away>
@@ -929,9 +926,9 @@
 <away goals="?" id="2348295" name="Husqvarna"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="sweden" name="Sweden: Allsvenskan Women" cup="False" id="2868" sub_id=""><match alternate_id="" alternate_id_2="4325873" commentary="False" date="15.04.2015" id="" static_id="" status="16:30" time="16:30">
+</match></league><league country="sweden" name="Sweden: Allsvenskan Women" cup="False" id="2868" sub_id=""><match alternate_id="" alternate_id_2="4325873" commentary="False" date="15.04.2015" id="" static_id="15041523550902356215" status="16:30" time="16:30">
 <home goals="?" id="2355090" name="Rosengard W"></home>
-<away goals="?" id="" name="Hammarby W"></away>
+<away goals="?" id="2356215" name="Hammarby W"></away>
 <events></events>
 <ht score=""></ht>
 </match><match alternate_id="4091934" alternate_id_2="4325874" commentary="False" date="15.04.2015" id="4209500" static_id="15041523543752354368" status="17:00" time="17:00">

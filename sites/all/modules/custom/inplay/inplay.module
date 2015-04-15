@@ -20,6 +20,7 @@ function _inplay_start_session_time()
 	$_SESSION['inplay_session_remove_end'] = 0;
 	$_SESSION['inplay_session_offset_new'] = 0;
 	$_SESSION['inplay_session_offset_old'] = 0;
+	$_SESSION['inplay_inplay_nids'] = '';
 }
 
 /**
@@ -93,6 +94,13 @@ function inplay_init() {
     $items['inplay/loadold/gamerows'] = array(
 		'title' => 'Add old rows on scroll',
 		'page callback' => '_inplay_loadold_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplay/loadinplay/gamerows'] = array(
+		'title' => 'Add in play rows on scroll',
+		'page callback' => '_inplay_loadinplay_gamerows',
 		'access arguments' => array('access content'),  
 		'type' => MENU_CALLBACK
     );
@@ -181,7 +189,6 @@ function _inplay_loadold_gamerows()
 	$view->set_offset($_SESSION['inplay_session_offset_old']);
 	$view->pre_execute();
 	$view->execute();
-	//$view->result = array_reverse($view->result);
 	$numrows = $view->total_rows;
 	$rettext =  $view->render();
 	
@@ -191,6 +198,57 @@ function _inplay_loadold_gamerows()
 	
 	echo $rettext;	
 }
+
+function _inplay_loadinplay_gamerows()
+{
+	$rowsbyload = 500;
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1));
+		  
+	$query->fieldCondition('field_available_live_score', 'value', '1', '=');
+	//$query->fieldCondition('field_match_status', 'value', 'FT', '<>');
+	$query->fieldCondition('field_match_status', 'value', 'Postp.', '<>');
+	
+	$from = new DateTime('now',new DateTimeZone('UTC'));
+	$from = $from->modify('-140 minutes');
+	$to = new DateTime('now', new DateTimeZone('UTC'));
+	$to = $to->modify('+5 minutes');
+	
+	$query->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=');
+	$query->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<=');
+	
+	$result = $query->execute();
+	
+	$nids = array();
+	if (isset($result['node'])) $nids = array_keys($result['node']);
+	
+	if(count($nids)==0) 
+	{
+		echo '';
+		exit();
+	}
+	
+	
+	$_SESSION['inplay_inplay_nids'] = $nids;
+	
+	$view = views_get_view('real_time');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_3');
+	$view->set_items_per_page($rowsbyload);
+	$view->pre_execute();
+	$view->execute();
+	$rettext =  $view->render();
+	
+	$_SESSION['inplay_inplay_nids'] = '';
+	
+	echo $rettext;		
+	
+}
+
+
 
 function _inplay_refresh_competition($data)
 {

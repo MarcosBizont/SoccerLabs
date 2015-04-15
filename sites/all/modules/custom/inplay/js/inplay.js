@@ -286,6 +286,33 @@
 	
 	/* Controls */
 	
+	function updateInplayGameRows()
+	{
+		var data_to_send = '';
+		$.post('/inplay/loadinplay/gamerows', { data: {data_to_send} } ,function(data) {
+			//console.log(data);
+			if(data=='') return;
+			data = jQuery.parseHTML(data);
+			$('.gamerow',data).each(function()
+			{
+				var growclass = '';
+				var val = $(this).attr('class').match(/\bgrow-(\d+)\b/)[1];
+				$('#block-views-real-time-block-3 .view-content .grow-' + val).html($(this).html());
+			});
+			//filterInplay();
+			/*
+			var first_element = $('#block-views-real-time-block-3 .view-content .views-row:eq(0)');
+			$('#block-views-real-time-block-3 .view-content').prepend($('.view-content',data).html());
+			
+			containter = $('#block-views-real-time-block-3').isotope('destroy').isotope({
+			  itemSelector: '.gamerow',
+			  layoutMode: 'fitRows',
+			});
+			filterInplay();
+			$('.grid_8.alpha').scrollTop(first_element.position().top);*/
+		});
+	};
+	
 	function addNewGameRows()
 	{
 		var data_to_send = '';
@@ -382,8 +409,12 @@
 	});
 	$("#toTop").addClass("hidett");
 	
+	localStorage['addingoldgames'] = 0;
 	defaultLoadMore();
 	
+	setInterval(function() {
+	    updateInplayGameRows();
+	}, 120 * 1000);
 	
 	
 	
