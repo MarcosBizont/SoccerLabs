@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:07" sport="soccer" country="singapore"><league country="singapore" name="Singapore: S.League" cup="False" id="3215" sub_id="32150"><match alternate_id="4099109" alternate_id_2="4314137" date="16.04.2015" id="4216668" static_id="16041523471982347197" status="11:30" time="11:30">
-<home goals="?" id="2347198" name="Geylang"></home>
-<away goals="?" id="2347197" name="Brunei DPMM"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:41:09" sport="soccer" country="singapore"><league country="singapore" name="Singapore: S.League" cup="False" id="3215" sub_id="32150"><match alternate_id="4099109" alternate_id_2="4314137" date="16.04.2015" id="4216668" static_id="16041523471982347197" status="FT" time="11:30">
+<home goals="0" id="2347198" name="Geylang"></home>
+<away goals="1" id="2347197" name="Brunei DPMM"></away>
+<events>
+<event id="22154874" minute="81" player="P. Sergio" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4099108" alternate_id_2="4314004" date="15.04.2015" id="4216667" static_id="15041523471932347211" status="FT" time="11:30">
 <home goals="2" id="2347193" name="Albirex Niigata"></home>
 <away goals="0" id="2347211" name="Young Lions"></away>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:08" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="3985249" alternate_id_2="4319474" date="15.04.2015" id="4102871" static_id="15041523418732341698" status="FT" time="16:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:08" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="3985249" alternate_id_2="4319474" date="15.04.2015" id="4102871" static_id="15041523418732341698" status="FT" time="16:30">
 <home goals="2" id="2341873" name="Lyon"></home>
 <away goals="0" id="2341698" name="Bastia"></away>
 <events>
@@ -590,15 +590,6 @@
 <event id="22198697" minute="85" player="R. Chouleur" playerid="2443395" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4031326" alternate_id_2="4318520" date="03.04.2015" id="4148944" static_id="03041523417342341883" status="FT" time="18:00">
-<home goals="0" id="2341734" name="Colomiers"></home>
-<away goals="1" id="2341883" name="Paris FC"></away>
-<events>
-<event id="22198704" minute="20" player="I. Ech-Chergui (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22198705" minute="64" player="T. Gamiette" playerid="" result="" team="away" type="redcard"></event>
-<event id="22198706" minute="64" player="N. Donne" playerid="2491031" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="4031327" alternate_id_2="4318521" date="03.04.2015" id="4148945" static_id="03041523417452341714" status="FT" time="18:00">
 <home goals="3" id="2341745" name="Dunkerque"></home>
 <away goals="0" id="2341714" name="CA Bastia"></away>
@@ -632,6 +623,12 @@
 <event id="22199114" minute="74" player="S. Sissoko" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22199115" minute="79" player="S. Sissoko" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22199116" minute="90" player="G. Gope-Fenepej" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4031329" alternate_id_2="4318524" date="03.04.2015" id="4148947" static_id="03041523419052341829" status="FT" time="18:00">
+<home goals="0" id="2341905" name="Red Star"></home>
+<away goals="0" id="2341829" name="Le Poire Sur Vie"></away>
+<events>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="france" name="France: Cfa - Group A" cup="False" id="4311" sub_id="43110"><match alternate_id="" alternate_id_2="4320739" date="11.04.2015" id="" static_id="11041523419112341832" status="FT" time="17:00">
@@ -746,21 +743,24 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4315985" date="28.03.2015" id="" static_id="28031523416692341718" status="FT" time="17:00">
-<home goals="0" id="2341669" name="Arras"></home>
-<away goals="1" id="2341718" name="Calais"></away>
+</match><match alternate_id="" alternate_id_2="4315952" date="28.03.2015" id="" static_id="28031523417012341896" status="FT" time="17:00">
+<home goals="2" id="2341701" name="Beauvais"></home>
+<away goals="0" id="2341896" name="Quevilly"></away>
 <events>
+<event id="22173024" minute="28" player="Vaury" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22173025" minute="44" player="Le Picard" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4315955" date="28.03.2015" id="" static_id="28031523418442341832" status="FT" time="17:00">
-<home goals="1" id="2341844" name="Mantes"></home>
-<away goals="2" id="2341832" name="Lens II"></away>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4315953" date="28.03.2015" id="" static_id="28031523417762341812" status="FT" time="17:00">
+<home goals="4" id="2341776" name="Dieppe"></home>
+<away goals="0" id="2341812" name="Ivry"></away>
 <events>
-<event id="22173054" minute="19" player="Spano" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22173055" minute="64" player="Preira" playerid="2488153" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22173056" minute="73" player="Madiani" playerid="2617237" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22173034" minute="6" player="Persico" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22173035" minute="23" player="Persico" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22173036" minute="65" player="Kabran" playerid="2376648" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22173037" minute="90" player="Persico" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[2-0]"></ht>
 </match></league><league country="france" name="France: Cfa - Group B" cup="False" id="4311" sub_id="43111"><match alternate_id="" alternate_id_2="4320742" date="12.04.2015" id="" static_id="12041523419392346968" status="FT" time="13:00">
 <home goals="1" id="2341939" name="Sochaux II"></home>
 <away goals="3" id="2346968" name="Jeanne d Arc"></away>
@@ -867,23 +867,19 @@
 <events>
 </events>
 <ht score="[2-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4315273" date="28.03.2015" id="" static_id="" status="FT" time="17:00">
+<home goals="1" id="2341688" name="Belfort"></home>
+<away goals="0" id="" name="St Etienne II"></away>
+<events>
+<event id="22166234" minute="86" player="Amadi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4315331" date="28.03.2015" id="" static_id="28031523418172342010" status="FT" time="17:00">
 <home goals="0" id="2341817" name="Jura Sud"></home>
 <away goals="0" id="2342010" name="Yzeure"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4315425" date="28.03.2015" id="" static_id="28031523418992346968" status="FT" time="17:00">
-<home goals="1" id="2341899" name="Raon L Etape"></home>
-<away goals="3" id="2346968" name="Jeanne d Arc"></away>
-<events>
-<event id="22167754" minute="1" player="Touncara" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22167755" minute="18" player="Boulila" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22167756" minute="53" player="Balogou" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22167757" minute="58" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22167758" minute="62" player="Lambay" playerid="2397602" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match><match alternate_id="" alternate_id_2="4315364" date="28.03.2015" id="" static_id="28031523419902351384" status="FT" time="17:00">
 <home goals="1" id="2341990" name="Sarre Union"></home>
 <away goals="2" id="2351384" name="Fleury-Merogis"></away>
@@ -995,12 +991,13 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4312807" date="28.03.2015" id="" static_id="28031523418592341809" status="FT" time="17:00">
-<home goals="1" id="2341859" name="Monts"></home>
-<away goals="1" id="2341809" name="Hyeres"></away>
+</match><match alternate_id="" alternate_id_2="4312735" date="28.03.2015" id="" static_id="28031523418542341910" status="FT" time="17:00">
+<home goals="0" id="2341854" name="Monaco II"></home>
+<away goals="1" id="2341910" name="Rodez"></away>
 <events>
+<event id="22140854" minute="60" player="Boutabout" playerid="2333005" result="[0 - 1]" team="away" type="goal"></event>
 </events>
-<ht score="[-]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4312824" date="28.03.2015" id="" static_id="" status="FT" time="17:00">
 <home goals="1" id="2341933" name="Sete"></home>
 <away goals="3" id="" name="Montpellier 2"></away>
@@ -1374,32 +1371,35 @@
 <event id="21729141" minute="84" player="J. Akpa Akpro" playerid="2531252" result="[1 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4076918" alternate_id_2="4271555" date="28.10.2014" id="4194527" static_id="28101423417162341729" status="AET" time="19:00">
-<home goals="4" id="2341716" name="Caen"></home>
-<away goals="3" id="2341729" name="Clermont"></away>
+</match><match alternate_id="4076916" alternate_id_2="4271558" date="28.10.2014" id="4194525" static_id="28101423418572341655" status="FT" time="19:00">
+<home goals="0" id="2341857" name="Montpellier"></home>
+<away goals="1" id="2341655" name="AC Ajaccio"></away>
 <events>
-<event id="21729054" minute="34" player="M. J. N'Kololo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21729055" minute="49" player="R. Dugimont" playerid="2488243" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21729056" minute="55" player="J. Feret" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21729057" minute="61" player="H. Novillo" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="21729058" minute="70" player="N. Seube" playerid="2345477" result="" team="home" type="yellowcard"></event>
-<event id="21729059" minute="72" player="Capelle P.Not on pitch" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21729060" minute="72" player="M. Duhamel" playerid="2377091" result="[2 - 2]" team="home" type="goal"></event>
-<event id="21729061" minute="83" player="H. Bazile" playerid="" result="[3 - 2]" team="home" type="goal"></event>
-<event id="21729062" minute="86" player="A. Yahia" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="196304043" minute="88" player="K. Diogo" playerid="2578094" result="[3 - 3]" team="away" type="goal"></event>
-<event id="196304044" minute="120+1" player="M. Duhamel" playerid="2377091" result="[4 - 3]" team="home" type="goal"></event>
+<event id="21729084" minute="36" player="Hilton" playerid="2333261" result="" team="home" type="yellowcard"></event>
+<event id="21729085" minute="37" player="L. Abergel" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21729086" minute="44" player="M. Madri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21729087" minute="78" player="A. Mounier" playerid="2371133" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4076919" alternate_id_2="4271559" date="28.10.2014" id="4194528" static_id="28101423418642341824" status="FT" time="19:00">
-<home goals="4" id="2341864" name="Nantes"></home>
-<away goals="0" id="2341824" name="Laval"></away>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4076915" alternate_id_2="4271561" date="28.10.2014" id="4194524" static_id="28101423419062341667" status="AET" time="19:00">
+<home goals="2" id="2341906" name="Reims"></home>
+<away goals="3" id="2341667" name="Arles-Avignon"></away>
 <events>
-<event id="21729094" minute="4" player="I. Shechter" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21729095" minute="57" player="V. Bessat" playerid="2345545" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21729096" minute="71" player="H. Alla" playerid="2371457" result="" team="away" type="yellowcard"></event>
-<event id="21729097" minute="72" player="I. Bangoura" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21729098" minute="90+1" player="I. Shechter" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21729114" minute="26" player="N. De Preville" playerid="2419399" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21729115" minute="63" player="M. Niang" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21729116" minute="68" player="M. Tacalfred" playerid="2369568" result="" team="home" type="yellowcard"></event>
+<event id="21729117" minute="74" player="F. Ouaamar" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21729118" minute="81" player="T. Savanier" playerid="2528622" result="[1 - 2]" team="away" type="goal"></event>
+<event id="21729119" minute="90" player="G. Courtet" playerid="2495109" result="[2 - 2]" team="home" type="goal"></event>
+<event id="21729120" minute="90+3" player="S. Gigot" playerid="2613177" result="" team="away" type="yellowcard"></event>
+<event id="21729121" minute="92" player="S. Gigot" playerid="2613177" result="" team="away" type="yellowred"></event>
+<event id="21729122" minute="93" player="M. Delac" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="196304643" minute="93" player="H. Rodriguez" playerid="2528621" result="" team="away" type="yellowcard"></event>
+<event id="196304644" minute="102" player="F. Ouaamar" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="196304645" minute="110" player="T. Savanier" playerid="2528622" result="" team="away" type="yellowcard"></event>
+<event id="196304646" minute="112" player="A. Mandi" playerid="2432711" result="" team="home" type="yellowcard"></event>
+<event id="196304647" minute="118" player="Diego" playerid="2365577" result="" team="home" type="yellowcard"></event>
+<event id="196304648" minute="119" player="R. Bonne" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league><league country="france" name="France: Coupe De France" cup="False" id="3051" sub_id="30510"><match alternate_id="4113210" alternate_id_2="4314920" date="08.04.2015" id="4230758" static_id="08041523418942341918" status="FT" time="19:00">

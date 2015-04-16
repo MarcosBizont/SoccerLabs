@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:55" sport="soccer" country="mexico"><league country="mexico" name="Mexico: Primera Division - Clausura" cup="False" id="3141" sub_id="31414"><match alternate_id="4089545" alternate_id_2="4319304" date="12.04.2015" id="4207112" static_id="12041523447692344777" status="FT" time="22:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:55" sport="soccer" country="mexico"><league country="mexico" name="Mexico: Primera Division - Clausura" cup="False" id="3141" sub_id="31414"><match alternate_id="4089545" alternate_id_2="4319304" date="12.04.2015" id="4207112" static_id="12041523447692344777" status="FT" time="22:00">
 <home goals="1" id="2344769" name="Guadalajara Chivas"></home>
 <away goals="0" id="2344777" name="Club Leon"></away>
 <events>
@@ -925,11 +925,14 @@
 <event id="180251445" minute="90+3" player="" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura - Play Offs" cup="False" id="3142" sub_id=""><match alternate_id="4123817" alternate_id_2="4325947" date="16.04.2015" id="4241361" static_id="16041523447842344779" status="00:30" time="00:30">
-<home goals="?" id="2344784" name="Necaxa"></home>
-<away goals="?" id="2344779" name="Merida"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura - Play Offs" cup="False" id="3142" sub_id=""><match alternate_id="4123817" alternate_id_2="4325947" date="16.04.2015" id="4241361" static_id="16041523447842344779" status="FT" time="00:30">
+<home goals="1" id="2344784" name="Necaxa"></home>
+<away goals="1" id="2344779" name="Merida"></away>
+<events>
+<event id="22272974" minute="39" player="Suarez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22272975" minute="47" player="Padilla" playerid="2347121" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura" cup="False" id="3142" sub_id="31423"><match alternate_id="4089971" alternate_id_2="4318735" date="12.04.2015" id="4207538" static_id="12041523447652344779" status="FT" time="01:00">
 <home goals="2" id="2344765" name="Dorados de Sinaloa"></home>
 <away goals="1" id="2344779" name="Merida"></away>

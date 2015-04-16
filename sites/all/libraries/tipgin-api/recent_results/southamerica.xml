@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:11" sport="soccer" country="southamerica"><league country="southamerica" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:41:11" sport="soccer" country="southamerica"><league country="southamerica" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
 <home goals="1" id="2342078" name="Germany"></home>
 <away goals="0" id="2337719" name="Argentina"></away>
 <events>
@@ -422,21 +422,46 @@
 <event id="19151466" minute="81" player="J. O. Mikel" playerid="2334369" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4107377" alternate_id_2="4321768" date="16.04.2015" id="4224932" static_id="16041523447512338976" status="01:00" time="01:00">
-<home goals="?" id="2344751" name="Atlas"></home>
-<away goals="?" id="2338976" name="Atletico-MG"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4107378" alternate_id_2="4321764" date="16.04.2015" id="4224933" static_id="16041523398002339990" status="01:00" time="01:00">
-<home goals="?" id="2339800" name="Colo Colo"></home>
-<away goals="?" id="2339990" name="Santa Fe"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4107379" alternate_id_2="4321775" date="16.04.2015" id="4224934" static_id="16041523492582339413" status="01:00" time="01:00">
-<home goals="?" id="2349258" name="Danubio"></home>
-<away goals="?" id="2339413" name="Sao Paulo"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4107377" alternate_id_2="4321768" date="16.04.2015" id="4224932" static_id="16041523447512338976" status="FT" time="01:00">
+<home goals="1" id="2344751" name="Atlas"></home>
+<away goals="0" id="2338976" name="Atletico-MG"></away>
+<events>
+<event id="22231184" minute="38" player="D. Alvarez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231185" minute="39" player="A. Gonzalez" playerid="2525235" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231186" minute="41" player="J. Datolo" playerid="2345711" result="" team="away" type="yellowcard"></event>
+<event id="22231187" minute="55" player="L. Donizete" playerid="2364755" result="" team="away" type="yellowcard"></event>
+<event id="22231188" minute="72" player="Patric" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4107378" alternate_id_2="4321764" date="16.04.2015" id="4224933" static_id="16041523398002339990" status="FT" time="01:00">
+<home goals="0" id="2339800" name="Colo Colo"></home>
+<away goals="3" id="2339990" name="Santa Fe"></away>
+<events>
+<event id="22231144" minute="31" player="L. Paez" playerid="2619930" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22231145" minute="47" player="O. Perez" playerid="2354326" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22231146" minute="65" player="J. Beausejour" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231147" minute="68" player="C. Baeza" playerid="2568399" result="" team="home" type="yellowcard"></event>
+<event id="22231148" minute="69" player="Y. Mina" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22231149" minute="73" player="L. Arias" playerid="2404134" result="" team="away" type="yellowcard"></event>
+<event id="22231150" minute="79" player="W. Morelo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231151" minute="84" player="J. Roa" playerid="2481261" result="" team="away" type="yellowcard"></event>
+<event id="22231152" minute="90+1" player="L. Paez" playerid="2619930" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4107379" alternate_id_2="4321775" date="16.04.2015" id="4224934" static_id="16041523492582339413" status="FT" time="01:00">
+<home goals="1" id="2349258" name="Danubio"></home>
+<away goals="2" id="2339413" name="Sao Paulo"></away>
+<events>
+<event id="22231254" minute="29" player="B. Fornaroli" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231255" minute="48" player="L. Sosa" playerid="2533540" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231256" minute="52" player="Doria" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231257" minute="55" player="Reinaldo" playerid="2506311" result="" team="away" type="yellowcard"></event>
+<event id="22231258" minute="61" player="A. Pato" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22231259" minute="65" player="Hudson" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231260" minute="81" player="J. Gravi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231261" minute="90+1" player="R. Centurion" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4107385" alternate_id_2="4318425" date="15.04.2015" id="4224940" static_id="15041523457602344804" status="FT" time="22:45">
 <home goals="4" id="2345760" name="Juan Aurich"></home>
 <away goals="5" id="2344804" name="U.A.N.L.- Tigres"></away>

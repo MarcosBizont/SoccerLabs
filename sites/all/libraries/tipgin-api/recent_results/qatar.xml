@@ -1,36 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:03" sport="soccer" country="qatar"><league country="qatar" name="Qatar: Premier League" cup="False" id="3189" sub_id="31890"><match alternate_id="4118451" alternate_id_2="4323875" date="16.04.2015" id="4235995" static_id="16041523463282346342" status="15:15" time="15:15">
-<home goals="?" id="2346328" name="Al Ahli Doha"></home>
-<away goals="?" id="2346342" name="Al-Shahaniya"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118455" alternate_id_2="4323876" date="16.04.2015" id="4235999" static_id="16041523463322346331" status="15:15" time="15:15">
-<home goals="?" id="2346332" name="Al-Kharitiyath"></home>
-<away goals="?" id="2346331" name="Al Jaish"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118452" alternate_id_2="4323877" date="16.04.2015" id="4235996" static_id="16041523463332346346" status="15:15" time="15:15">
-<home goals="?" id="2346333" name="Al Khor"></home>
-<away goals="?" id="2346346" name="Umm-Salal"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118454" alternate_id_2="4323878" date="16.04.2015" id="4235998" static_id="16041523463362346339" status="15:15" time="15:15">
-<home goals="?" id="2346336" name="Al-Sadd"></home>
-<away goals="?" id="2346339" name="Shamal"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118449" alternate_id_2="4323879" date="16.04.2015" id="4235993" static_id="16041523463372346340" status="15:15" time="15:15">
-<home goals="?" id="2346337" name="Al Sailiya"></home>
-<away goals="?" id="2346340" name="Lakhwiya"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118450" alternate_id_2="4323880" date="16.04.2015" id="4235994" static_id="16041523463412346330" status="15:15" time="15:15">
-<home goals="?" id="2346341" name="Al Wakra"></home>
-<away goals="?" id="2346330" name="Al-Gharafa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118453" alternate_id_2="4323881" date="16.04.2015" id="4235997" static_id="16041523463452346329" status="15:15" time="15:15">
-<home goals="?" id="2346345" name="Qatar SC"></home>
-<away goals="?" id="2346329" name="Al Arabi"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:41:02" sport="soccer" country="qatar"><league country="qatar" name="Qatar: Premier League" cup="False" id="3189" sub_id="31890"><match alternate_id="4118451" alternate_id_2="4323875" date="16.04.2015" id="4235995" static_id="16041523463282346342" status="FT" time="15:15">
+<home goals="2" id="2346328" name="Al Ahli Doha"></home>
+<away goals="0" id="2346342" name="Al-Shahaniya"></away>
+<events>
+<event id="20198014" minute="56" player="Kaluyituka D. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20198015" minute="69" player="Abdullah M." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118455" alternate_id_2="4323876" date="16.04.2015" id="4235999" static_id="16041523463322346331" status="FT" time="15:15">
+<home goals="1" id="2346332" name="Al-Kharitiyath"></home>
+<away goals="2" id="2346331" name="Al Jaish"></away>
+<events>
+<event id="20198054" minute="6" player="Hassan A." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20198055" minute="79" player="Martins A." playerid="2364842" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20198056" minute="90+4" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4118452" alternate_id_2="4323877" date="16.04.2015" id="4235996" static_id="16041523463332346346" status="FT" time="15:15">
+<home goals="3" id="2346333" name="Al Khor"></home>
+<away goals="4" id="2346346" name="Umm-Salal"></away>
+<events>
+<event id="20198024" minute="36" player="Cesar J. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20198025" minute="65" player="Cesar J." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20198026" minute="74" player="Sanli T." playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="20198027" minute="78" player="Antonio M." playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="20198028" minute="81" player="Aliadière J." playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="20198029" minute="85" player="Mardanli I." playerid="" result="[3 - 3]" team="away" type="goal"></event>
+<event id="20198030" minute="90" player="Tamer J." playerid="" result="[3 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4118454" alternate_id_2="4323878" date="16.04.2015" id="4235998" static_id="16041523463362346339" status="FT" time="15:15">
+<home goals="2" id="2346336" name="Al-Sadd"></home>
+<away goals="0" id="2346339" name="Shamal"></away>
+<events>
+<event id="20198044" minute="14" player="Assadalla A." playerid="2455361" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20198045" minute="50" player="Alsenhaji H." playerid="" result="" team="home" type="yellowred"></event>
+<event id="20198046" minute="78" player="Younis A." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4118449" alternate_id_2="4323879" date="16.04.2015" id="4235993" static_id="16041523463372346340" status="FT" time="15:15">
+<home goals="0" id="2346337" name="Al Sailiya"></home>
+<away goals="5" id="2346340" name="Lakhwiya"></away>
+<events>
+<event id="20197994" minute="11" player="Weiss V." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20197995" minute="45+2" player="Hamad O." playerid="2485420" result="" team="home" type="redcard"></event>
+<event id="20197996" minute="45+3" player="Soria S. (pen.)" playerid="2400298" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20197997" minute="52" player="Weiss V." playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="20197998" minute="57" player="Ali H." playerid="2414066" result="[0 - 4]" team="away" type="goal"></event>
+<event id="20197999" minute="71" player="Mohamed Ismail" playerid="" result="[0 - 5]" team="away" type="goal"></event>
+<event id="20198000" minute="88" player="Faozi A.  (Penalty missed)" playerid="" result="" team="home" type=""></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4118450" alternate_id_2="4323880" date="16.04.2015" id="4235994" static_id="16041523463412346330" status="FT" time="15:15">
+<home goals="2" id="2346341" name="Al Wakra"></home>
+<away goals="1" id="2346330" name="Al-Gharafa"></away>
+<events>
+<event id="20198004" minute="15" player="Saez S." playerid="2401170" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20198005" minute="49" player="Keseru C." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20198006" minute="62" player="Al Kaabi J." playerid="2598674" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4118453" alternate_id_2="4323881" date="16.04.2015" id="4235997" static_id="16041523463452346329" status="FT" time="15:15">
+<home goals="2" id="2346345" name="Qatar SC"></home>
+<away goals="1" id="2346329" name="Al Arabi"></away>
+<events>
+<event id="20198034" minute="31" player="Fadhl O." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20198035" minute="45+3" player="Paulinho (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20198036" minute="55" player="Han Kook-Young" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20198037" minute="86" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match></league></recent_results>

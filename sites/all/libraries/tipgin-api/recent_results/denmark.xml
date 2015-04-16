@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:35" sport="soccer" country="denmark"><league country="denmark" name="Denmark: Superliga" cup="False" id="3018" sub_id="30180"><match alternate_id="3997036" alternate_id_2="4317394" date="13.04.2015" id="4114658" static_id="13041523406242340590" status="FT" time="17:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:36" sport="soccer" country="denmark"><league country="denmark" name="Denmark: Superliga" cup="False" id="3018" sub_id="30180"><match alternate_id="3997036" alternate_id_2="4317394" date="13.04.2015" id="4114658" static_id="13041523406242340590" status="FT" time="17:00">
 <home goals="0" id="2340624" name="Silkeborg"></home>
 <away goals="4" id="2340590" name="FC Copenhagen"></away>
 <events>
@@ -232,16 +232,18 @@
 <event id="21974928" minute="82" player="T. Pukki" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="denmark" name="Denmark: Nordicbet Ligaen" cup="False" id="3022" sub_id="30220"><match alternate_id="4033854" alternate_id_2="4293098" date="16.04.2015" id="4151472" static_id="16041523405922340516" status="18:30" time="18:30">
-<home goals="?" id="2340592" name="Koge"></home>
-<away goals="?" id="2340516" name="Aarhus"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4033879" alternate_id_2="4321147" date="16.04.2015" id="4151497" static_id="16041523405742340647" status="16:30" time="16:30">
-<home goals="?" id="2340574" name="Vendsyssel FF"></home>
-<away goals="?" id="2340647" name="Vejle"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="denmark" name="Denmark: Nordicbet Ligaen" cup="False" id="3022" sub_id="30220"><match alternate_id="4033854" alternate_id_2="4293098" date="16.04.2015" id="4151472" static_id="16041523405922340516" status="4" time="18:30">
+<home goals="0" id="2340592" name="Koge"></home>
+<away goals="0" id="2340516" name="Aarhus"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4033879" alternate_id_2="4321147" date="16.04.2015" id="4151497" static_id="16041523405742340647" status="FT" time="16:30">
+<home goals="0" id="2340574" name="Vendsyssel FF"></home>
+<away goals="0" id="2340647" name="Vejle"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4033874" alternate_id_2="4320366" date="12.04.2015" id="4151492" static_id="12041523405142340627" status="FT" time="13:00">
 <home goals="2" id="2340514" name="AB Copenhagen"></home>
 <away goals="1" id="2340627" name="Skive"></away>
@@ -769,11 +771,16 @@
 <event id="21913819" minute="90+3" player="S. Jakobsen" playerid="" result="[2 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="denmark" name="Denmark: Landspokal Cup" cup="True" id="3358" sub_id="33580"><match alternate_id="4112013" alternate_id_2="4314118" date="16.04.2015" id="4229563" static_id="16041523405902340547" status="16:15" time="16:15">
-<home goals="?" id="2340590" name="FC Copenhagen"></home>
-<away goals="?" id="2340547" name="Esbjerg"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="denmark" name="Denmark: Landspokal Cup" cup="True" id="3358" sub_id="33580"><match alternate_id="4112013" alternate_id_2="4314118" date="16.04.2015" id="4229563" static_id="16041523405902340547" status="FT" time="16:15">
+<home goals="1" id="2340590" name="FC Copenhagen"></home>
+<away goals="1" id="2340547" name="Esbjerg"></away>
+<events>
+<event id="22154684" minute="11" player="Y. Toutouh" playerid="2499550" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22154685" minute="45" player="L. Augustinsson" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22154686" minute="55" player="T. Delaney" playerid="2416018" result="" team="home" type="yellowcard"></event>
+<event id="22154687" minute="68" player="M. van Buren" playerid="2526556" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4112012" alternate_id_2="4314119" date="15.04.2015" id="4229562" static_id="15041523406492340638" status="FT" time="16:00">
 <home goals="2" id="2340649" name="Vestsjaelland"></home>
 <away goals="0" id="2340638" name="Sonderjyske"></away>

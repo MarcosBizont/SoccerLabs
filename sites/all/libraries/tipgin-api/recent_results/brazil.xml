@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:14" sport="soccer" country="brazil"><league country="brazil" name="Brazil: Série A" cup="False" id="2974" sub_id="29740"><match alternate_id="3853251" alternate_id_2="4292892" date="07.12.2014" id="3977314" static_id="07121423390032338976" status="FT" time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:14" sport="soccer" country="brazil"><league country="brazil" name="Brazil: Série A" cup="False" id="2974" sub_id="29740"><match alternate_id="3853251" alternate_id_2="4292892" date="07.12.2014" id="3977314" static_id="07121423390032338976" status="FT" time="19:00">
 <home goals="0" id="2339003" name="Botafogo RJ"></home>
 <away goals="0" id="2338976" name="Atletico-MG"></away>
 <events>
@@ -896,18 +896,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4076949" alternate_id_2="4275957" date="04.10.2014" id="4194558" static_id="04101423390712339053" status="FT" time="19:00">
-<home goals="1" id="2339071" name="Confianca"></home>
-<away goals="1" id="2339053" name="Central-PE"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
 </match><match alternate_id="4076959" alternate_id_2="4275958" date="04.10.2014" id="4194568" static_id="04101423506832354713" status="FT" time="19:00">
 <home goals="0" id="2350683" name="Jacuipense"></home>
 <away goals="2" id="2354713" name="Globo"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
+</match><match alternate_id="4076951" alternate_id_2="4275962" date="04.10.2014" id="4194560" static_id="04101423506642339263" status="FT" time="19:00">
+<home goals="1" id="2350664" name="Tombense"></home>
+<away goals="0" id="2339263" name="Metropolitano"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="brazil" name="Brazil: Série D" cup="False" id="2955" sub_id=""><match alternate_id="4019062" alternate_id_2="4270917" date="21.09.2014" id="4136681" static_id="21091423392742339356" status="FT" time="20:00">
 <home goals="2" id="2339274" name="Moto Club"></home>
 <away goals="1" id="2339356" name="Remo"></away>
@@ -1016,18 +1016,18 @@
 <events>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4019044" alternate_id_2="4269163" date="14.09.2014" id="4136663" static_id="14091423391212339010" status="FT" time="19:00">
-<home goals="1" id="2339121" name="Estrela do Norte"></home>
-<away goals="1" id="2339010" name="Brasiliense"></away>
+</match><match alternate_id="4019057" alternate_id_2="4270191" date="14.09.2014" id="4136676" static_id="14091423520572339174" status="FT" time="19:00">
+<home goals="3" id="2352057" name="Maringa FC"></home>
+<away goals="1" id="2339174" name="Guarani de Palhoca"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4019054" alternate_id_2="4270195" date="14.09.2014" id="4136673" static_id="14091423395062338953" status="FT" time="19:00">
-<home goals="1" id="2339506" name="Villa Nova AC"></home>
-<away goals="2" id="2338953" name="Anapolina"></away>
+</match><match alternate_id="4019049" alternate_id_2="4270194" date="14.09.2014" id="4136668" static_id="14091423393942338978" status="FT" time="19:00">
+<home goals="2" id="2339394" name="Santos AP"></home>
+<away goals="0" id="2338978" name="Acreano"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[1-0]"></ht>
 </match></league><league country="brazil" name="Brazil: Campeonato Paulista - Play Offs" cup="False" id="2981" sub_id=""><match alternate_id="4119890" alternate_id_2="4323924" date="12.04.2015" id="4237434" static_id="12041523393932339515" status="FT" time="19:00">
 <home goals="3" id="2339393" name="Santos"></home>
 <away goals="0" id="2339515" name="Piracicaba"></away>
@@ -2110,6 +2110,14 @@
 <event id="21965225" minute="41" player="K. Welker Marcal Almeida" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
+</match><match alternate_id="4086056" alternate_id_2="4295168" date="22.02.2015" id="4203623" static_id="22021523461722349371" status="FT" time="19:00">
+<home goals="0" id="2346172" name="Feirense"></home>
+<away goals="2" id="2349371" name="Galicia"></away>
+<events>
+<event id="21965184" minute="16" player="Ramon" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21965185" minute="39" player="Ramon" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4086054" alternate_id_2="4295170" date="22.02.2015" id="4203621" static_id="22021523506832338987" status="FT" time="19:00">
 <home goals="2" id="2350683" name="Jacuipense"></home>
 <away goals="1" id="2338987" name="Bahia"></away>
@@ -2118,14 +2126,6 @@
 <event id="21965205" minute="47" player="Nadson" playerid="2359007" result="[1 - 1]" team="home" type="goal"></event>
 <event id="21965206" minute="49" player="Nadson" playerid="2359007" result="[2 - 1]" team="home" type="goal"></event>
 <event id="21965207" minute="71" player="" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4086053" alternate_id_2="4295171" date="22.02.2015" id="4203620" static_id="22021523395092339426" status="FT" time="19:00">
-<home goals="1" id="2339509" name="Vitoria da Conquista"></home>
-<away goals="1" id="2339426" name="Juazeirense"></away>
-<events>
-<event id="21965214" minute="35" player="Alberto" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21965215" minute="81" player="Caca" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[-]"></ht>
 </match></league><league country="brazil" name="Brazil: Campeonato Cearense - Play Offs" cup="False" id="2979" sub_id="29793"><match alternate_id="4117095" alternate_id_2="4319748" date="12.04.2015" id="4234641" static_id="12041523391412339184" status="FT" time="19:00">
@@ -4529,41 +4529,80 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4310009" date="05.03.2015" id="" static_id="05031523400152339269" status="FT" time="00:00">
-<home goals="1" id="2340015" name="Costa Rica"></home>
-<away goals="1" id="2339269" name="Misto"></away>
+</match><match alternate_id="" alternate_id_2="4309938" date="05.03.2015" id="" static_id="05031523547502339220" status="FT" time="00:00">
+<home goals="0" id="2354750" name="Ubiratan"></home>
+<away goals="3" id="2339220" name="Ivinhema"></away>
 <events>
 </events>
-<ht score="[-]"></ht>
-</match></league><league country="brazil" name="Brazil: Copa Do Brasil" cup="True" id="3354" sub_id="33540"><match alternate_id="4095008" alternate_id_2="4321752" date="16.04.2015" id="4212572" static_id="16041523390492339071" status="01:00" time="01:00">
-<home goals="?" id="2339049" name="Ceará"></home>
-<away goals="?" id="2339071" name="Confianca"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4095022" alternate_id_2="4321760" date="16.04.2015" id="4212586" static_id="16041523391602339028" status="01:00" time="01:00">
-<home goals="?" id="2339160" name="Gremio"></home>
-<away goals="?" id="2339028" name="Campinense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4095026" alternate_id_2="4321754" date="16.04.2015" id="4212590" static_id="16041523392842339009" status="01:00" time="01:00">
-<home goals="?" id="2339284" name="Nautico"></home>
-<away goals="?" id="2339009" name="Brasilia"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4094984" alternate_id_2="4321761" date="16.04.2015" id="4212548" static_id="16041523394952339360" status="01:00" time="01:00">
-<home goals="?" id="2339495" name="Vasco"></home>
-<away goals="?" id="2339360" name="Rio Branco"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4094964" alternate_id_2="4321758" date="15.04.2015" id="4212528" static_id="15041523392182339274" status="45" time="23:30">
-<home goals="1" id="2339218" name="Boa"></home>
-<away goals="0" id="2339274" name="Moto Club"></away>
+<ht score="[0-1]"></ht>
+</match></league><league country="brazil" name="Brazil: Copa Do Brasil" cup="True" id="3354" sub_id="33540"><match alternate_id="4095008" alternate_id_2="4321752" date="16.04.2015" id="4212572" static_id="16041523390492339071" status="FT" time="01:00">
+<home goals="1" id="2339049" name="Ceará"></home>
+<away goals="0" id="2339071" name="Confianca"></away>
 <events>
-<event id="22231084" minute="19" player="L. Fernando" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22231085" minute="26" player="P. Augusto" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22231086" minute="32" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231024" minute="26" player="Pedrinho" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231025" minute="30" player="J. Marcos" playerid="2398118" result="" team="home" type="yellowcard"></event>
+<event id="22231026" minute="59" player="Altemar" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231027" minute="60" player="M. Aurelio" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231028" minute="68" player="T. Cameta" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231029" minute="72" player="C. Flavio" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231030" minute="90" player="Richardson" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4095022" alternate_id_2="4321760" date="16.04.2015" id="4212586" static_id="16041523391602339028" status="FT" time="01:00">
+<home goals="2" id="2339160" name="Gremio"></home>
+<away goals="0" id="2339028" name="Campinense"></away>
+<events>
+<event id="22231104" minute="36" player="F. Bastos" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231105" minute="38" player="S. Negretti" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231106" minute="45" player="Maicon" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231107" minute="63" player="Douglas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231108" minute="78" player="Leandro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231109" minute="80" player="Walace" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231110" minute="90+3" player="Lincoln" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4095026" alternate_id_2="4321754" date="16.04.2015" id="4212590" static_id="16041523392842339009" status="FT" time="01:00">
+<home goals="2" id="2339284" name="Nautico"></home>
+<away goals="0" id="2339009" name="Brasilia"></away>
+<events>
+<event id="22231044" minute="12" player="Andre (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231045" minute="24" player="Guilherme" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231046" minute="43" player="G. Filgueira Mendez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231047" minute="59" player="Renato" playerid="2614596" result="" team="home" type="yellowcard"></event>
+<event id="22231048" minute="65" player="Giba" playerid="2444663" result="" team="away" type="yellowcard"></event>
+<event id="22231049" minute="85" player="Anderson de Freitas" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22231050" minute="88" player="Santos" playerid="2437159" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4094984" alternate_id_2="4321761" date="16.04.2015" id="4212548" static_id="16041523394952339360" status="FT" time="01:00">
+<home goals="3" id="2339495" name="Vasco"></home>
+<away goals="2" id="2339360" name="Rio Branco"></away>
+<events>
+<event id="22231114" minute="42" player="Alexandre Matao" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22231115" minute="44" player="Tiaguinho" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231116" minute="46" player="Yago" playerid="2564583" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22231117" minute="59" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231118" minute="62" player="L. Thalles" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22231119" minute="64" player="Diogo Marzagao" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231120" minute="71" player="Kinho" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22231121" minute="78" player="L. Thalles" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="22231122" minute="88" player="Leo" playerid="2411999" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4094964" alternate_id_2="4321758" date="15.04.2015" id="4212528" static_id="15041523392182339274" status="Pen." time="23:30">
+<home goals="1" id="2339218" name="Boa"></home>
+<away goals="1" id="2339274" name="Moto Club"></away>
+<events>
+<event id="22231084" minute="19" player="L. Fernando" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231085" minute="26" player="Pedro Augusto" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231086" minute="49" player="N. Silva" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231087" minute="60" player="Rayllan" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231088" minute="70" player="Henrique" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22231089" minute="73" player="Kleo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22231090" minute="73" player="Moacir" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+<penalty localteam="3" visitorteam="4"></penalty>
 </match><match alternate_id="4095012" alternate_id_2="4321759" date="15.04.2015" id="4212576" static_id="15041523393802339328" status="Cancl." time="23:30">
 <home goals="?" id="2339380" name="Salgueiro"></home>
 <away goals="?" id="2339328" name="Piaui"></away>
@@ -4574,7 +4613,7 @@
 <away goals="?" id="2354713" name="Globo"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4094994" alternate_id_2="4322006" date="15.04.2015" id="4212558" static_id="15041523389772339356" status="85" time="22:30">
+</match><match alternate_id="4094994" alternate_id_2="4322006" date="15.04.2015" id="4212558" static_id="15041523389772339356" status="Pen." time="22:30">
 <home goals="1" id="2338977" name="Atletico-PR"></home>
 <away goals="1" id="2339356" name="Remo"></away>
 <events>
@@ -4585,12 +4624,13 @@
 <event id="22233568" minute="51" player="Felipe" playerid="2414625" result="" team="home" type="yellowcard"></event>
 <event id="22233569" minute="52" player="Gustavo" playerid="2560266" result="" team="home" type="yellowcard"></event>
 <event id="22233570" minute="53" player="F. Macena" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22233571" minute="59" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22233571" minute="59" player="Jadson" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22233572" minute="64" player="Warian" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4095024" alternate_id_2="4322112" date="15.04.2015" id="4212588" static_id="15041523390032349638" status="90" time="22:30">
-<home goals="3" id="2339003" name="Botafogo RJ"></home>
+<penalty localteam="5" visitorteam="4"></penalty>
+</match><match alternate_id="4095024" alternate_id_2="4322112" date="15.04.2015" id="4212588" static_id="15041523390032349638" status="FT" time="22:30">
+<home goals="4" id="2339003" name="Botafogo RJ"></home>
 <away goals="2" id="2349638" name="Botafogo PB"></away>
 <events>
 <event id="22234624" minute="13" player="Hercules" playerid="" result="" team="away" type="yellowcard"></event>
@@ -4603,9 +4643,11 @@
 <event id="22234631" minute="71" player="W. Arao" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 <event id="22234632" minute="75" player="Guto" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="201359743" minute="79" player="A. Oliveira" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="201359744" minute="89" player="Sassa" playerid="2564574" result="[4 - 2]" team="home" type="goal"></event>
+<event id="201359745" minute="90+1" player="D. Giaretta" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match><match alternate_id="4095006" alternate_id_2="4321753" date="15.04.2015" id="4212570" static_id="15041523392252339217" status="90" time="22:30">
+</match><match alternate_id="4095006" alternate_id_2="4321753" date="15.04.2015" id="4212570" static_id="15041523392252339217" status="FT" time="22:30">
 <home goals="1" id="2339225" name="Joinville"></home>
 <away goals="0" id="2339217" name="Ituano"></away>
 <events>
@@ -4621,10 +4663,10 @@
 <event id="201323843" minute="66" player="Fabio" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="201323844" minute="78" player="Clayson" playerid="2566340" result="" team="away" type="yellowcard"></event>
 <event id="201323845" minute="86" player="Dick" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="201323846" minute="90+1" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201323846" minute="86" player="F. Viana" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4094992" alternate_id_2="4322057" date="15.04.2015" id="4212556" static_id="15041523393932339244" status="90" time="22:30">
+</match><match alternate_id="4094992" alternate_id_2="4322057" date="15.04.2015" id="4212556" static_id="15041523393932339244" status="FT" time="22:30">
 <home goals="1" id="2339393" name="Santos"></home>
 <away goals="0" id="2339244" name="Londrina"></away>
 <events>
@@ -4709,18 +4751,11 @@
 <event id="22012296" minute="75" player="I. Joao" playerid="2571304" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4095025" alternate_id_2="4299874" date="02.04.2015" id="4212589" static_id="02041523390092339284" status="FT" time="22:30">
-<home goals="0" id="2339009" name="Brasilia"></home>
-<away goals="1" id="2339284" name="Nautico"></away>
-<events>
-<event id="22012244" minute="50" player="Werick" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22012245" minute="51" player="P. Carmona" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22012246" minute="79" player="P. Ricardo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22012247" minute="80" player="B. Alves" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22012248" minute="82" player="Andre" playerid="2411737" result="" team="home" type="yellowcard"></event>
-<event id="22012249" minute="90+1" player="Guilherme" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
+</match><match alternate_id="4094956" alternate_id_2="4318376" date="02.04.2015" id="4212520" static_id="02041523389442338926" status="Cancl." time="22:30">
+<home goals="?" id="2338944" name="America MG"></home>
+<away goals="?" id="2338926" name="Luziania"></away>
+<events></events>
+<ht score=""></ht>
 </match><match alternate_id="4094962" alternate_id_2="4318377" date="02.04.2015" id="4212526" static_id="02041523390862338941" status="FT" time="22:30">
 <home goals="1" id="2339086" name="CRB"></home>
 <away goals="0" id="2338941" name="Amadense"></away>
@@ -4741,12 +4776,10 @@
 <event id="22197445" minute="40" player="E. Junior" playerid="" result="" team="away" type="redcard"></event>
 <event id="22197446" minute="51" player="Carlinhos" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22197447" minute="52" player="F. Bob (pen.)" playerid="2396848" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22197448" minute="60" player="" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22197449" minute="60" player="Wagner" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22197450" minute="63" player="Marinho" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22197448" minute="60" player="Wagner" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22197449" minute="63" player="Marinho" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22197450" minute="78" player="F. R. Sorbara Santos" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22197451" minute="81" player="Adrianinho (pen.)" playerid="2364330" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22197452" minute="82" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="200987943" minute="86" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league><league country="brazil" name="Brazil: Copa Verde" cup="True" id="4407" sub_id="44070"><match alternate_id="" alternate_id_2="4320115" date="05.04.2015" id="" static_id="05041523393202339356" status="FT" time="21:30">

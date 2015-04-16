@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:30" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4123500" alternate_id_2="4321776" date="16.04.2015" id="4241044" static_id="16041523399822339956" status="01:00" time="01:00">
-<home goals="?" id="2339982" name="Millonarios"></home>
-<away goals="?" id="2339956" name="Petrolera"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:31" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4123500" alternate_id_2="4321776" date="16.04.2015" id="4241044" static_id="16041523399822339956" status="FT" time="01:00">
+<home goals="3" id="2339982" name="Millonarios"></home>
+<away goals="1" id="2339956" name="Petrolera"></away>
+<events>
+<event id="22231264" minute="25" player="J. Agudelo" playerid="2640177" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22231265" minute="36" player="R. Carrascal" playerid="2559393" result="" team="away" type="yellowcard"></event>
+<event id="22231266" minute="51" player="O. Vasquez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22231267" minute="62" player="F. Banguero" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22231268" minute="66" player="D. Valencia" playerid="2509427" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22231269" minute="68" player="F. Insua" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22231270" minute="85" player="R. Robayo" playerid="2354118" result="" team="home" type="yellowcard"></event>
+<event id="22231271" minute="86" player="V. Castillo" playerid="2405921" result="" team="away" type="yellowcard"></event>
+<event id="22231272" minute="90+3" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4120075" alternate_id_2="4312946" date="15.04.2015" id="4237619" static_id="15041523399802339983" status="Postp." time="23:00">
 <home goals="?" id="2339980" name="La Equidad"></home>
 <away goals="?" id="2339983" name="Atl. Nacional"></away>
@@ -875,15 +885,17 @@
 <event id="21819132" minute="90+4" player="J. Silva" playerid="2616092" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-2]"></ht>
-</match><match alternate_id="4078383" alternate_id_2="4280563" date="26.10.2014" id="4195986" static_id="26101423399842339960" status="FT" time="22:30">
-<home goals="0" id="2339984" name="Once Caldas"></home>
-<away goals="0" id="2339960" name="Huila"></away>
+</match><match alternate_id="3994032" alternate_id_2="4280553" date="26.10.2014" id="4111654" static_id="26101423399742339976" status="FT" time="22:30">
+<home goals="0" id="2339974" name="Envigado"></home>
+<away goals="1" id="2339976" name="Ind. Medellin"></away>
 <events>
-<event id="21819134" minute="43" player="J. Arango" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21819135" minute="43" player="E. Hernandez" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21819136" minute="57" player="E. Perlaza" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21819137" minute="61" player="J. Guaza" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21819138" minute="82" player="J. Lozano" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21819034" minute="55" player="J. Saiz" playerid="2424184" result="" team="home" type="yellowcard"></event>
+<event id="21819035" minute="60" player="C. Restrepo" playerid="2503739" result="" team="away" type="yellowcard"></event>
+<event id="21819036" minute="65" player="C. Valencia" playerid="2512562" result="" team="away" type="yellowcard"></event>
+<event id="21819037" minute="71" player="Y. Angulo" playerid="2501569" result="" team="home" type="yellowcard"></event>
+<event id="21819038" minute="73" player="G. Cano" playerid="2349642" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21819039" minute="76" player="F. Burbano" playerid="2405926" result="" team="home" type="yellowcard"></event>
+<event id="21819040" minute="87" player="D. Hernandez" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="colombia" name="Colombia: Liga Aguila - Apertura - Play Offs" cup="False" id="3000" sub_id=""><match alternate_id="" alternate_id_2="4114236" date="22.05.2014" id="" static_id="22051423399832339978" status="Pen." time="00:00">
@@ -1256,17 +1268,21 @@
 <event id="22085165" minute="81" player="Parra" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4107503" alternate_id_2="4314335" date="16.04.2015" id="4225058" static_id="16041523535612339976" status="41" time="00:00">
+</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4107503" alternate_id_2="4314335" date="16.04.2015" id="4225058" static_id="16041523535612339976" status="FT" time="00:00">
 <home goals="0" id="2353561" name="Jaguares de Cordoba"></home>
 <away goals="0" id="2339976" name="Ind. Medellin"></away>
 <events>
+<event id="22156854" minute="86" player="Marin" playerid="2509081" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4107507" alternate_id_2="4314338" date="16.04.2015" id="4225062" static_id="16041523505242339978" status="41" time="00:00">
+</match><match alternate_id="4107507" alternate_id_2="4314338" date="16.04.2015" id="4225062" static_id="16041523505242339978" status="FT" time="00:00">
 <home goals="0" id="2350524" name="Uniautónoma"></home>
-<away goals="1" id="2339978" name="Junior"></away>
+<away goals="2" id="2339978" name="Junior"></away>
 <events>
 <event id="22156884" minute="4" player="O. Perez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22156885" minute="86" player="J. Ramos" playerid="2354318" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22156886" minute="90" player="Murillo" playerid="" result="" team="home" type="redcard"></event>
+<event id="22156887" minute="90" player="Perez" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4111618" alternate_id_2="4314145" date="15.04.2015" id="4229169" static_id="15041523399742347826" status="FT" time="22:00">
@@ -1423,13 +1439,16 @@
 <event id="22117715" minute="85" player="H. Mendoza" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4108546" alternate_id_2="4310422" date="18.03.2015" id="4226100" static_id="18031523478262339974" status="FT" time="20:00">
-<home goals="1" id="2347826" name="Leones"></home>
-<away goals="1" id="2339974" name="Envigado"></away>
+</match><match alternate_id="4108928" alternate_id_2="4310527" date="18.03.2015" id="4226480" static_id="18031523399572349632" status="FT" time="20:00">
+<home goals="3" id="2339957" name="America De Cali"></home>
+<away goals="1" id="2349632" name="Cortulua"></away>
 <events>
-<event id="22117724" minute="9" player="C. Arango" playerid="2567932" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22117725" minute="50" player="L. Velez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22117726" minute="78" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22118774" minute="8" player="V. Delgado" playerid="2565715" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22118775" minute="62" player="E. Farias" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22118776" minute="74" player="J. Rivera" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22118777" minute="80" player="J. Rivera" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22118778" minute="84" player="J. Castillo" playerid="" result="" team="home" type="redcard"></event>
+<event id="22118779" minute="90+4" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match></league><league country="colombia" name="Colombia: Copa Aguila - Play Offs" cup="True" id="3737" sub_id=""><match alternate_id="4081559" alternate_id_2="4286935" date="13.11.2014" id="4199145" static_id="13111423399902339969" status="FT" time="00:30">

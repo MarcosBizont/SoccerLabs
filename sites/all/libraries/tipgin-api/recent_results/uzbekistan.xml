@@ -1,16 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:18" sport="soccer" country="uzbekistan"><league country="uzbekistan" name="Uzbekistan: Professional Football League" cup="False" id="3276" sub_id="32760"><match alternate_id="4110990" alternate_id_2="4323884" date="16.04.2015" id="4228541" static_id="16041523493122349319" status="13:30" time="13:30">
-<home goals="?" id="2349312" name="Nasaf Qarshi"></home>
-<away goals="?" id="2349319" name="Qizilqum Zarafshon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4110989" alternate_id_2="4323885" date="16.04.2015" id="4228540" static_id="16041523493182349322" status="13:30" time="13:30">
-<home goals="?" id="2349318" name="Pakhtakor"></home>
-<away goals="?" id="2349322" name="Shortan Guzor"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4110988" alternate_id_2="4323883" date="16.04.2015" id="4228539" static_id="16041523492982349306" status="11:00" time="11:00">
-<home goals="?" id="2349298" name="Din. Samarkand"></home>
-<away goals="?" id="2349306" name="Lok. Tashkent"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:41:18" sport="soccer" country="uzbekistan"><league country="uzbekistan" name="Uzbekistan: Professional Football League" cup="False" id="3276" sub_id="32760"><match alternate_id="4110990" alternate_id_2="4323884" date="16.04.2015" id="4228541" static_id="16041523493122349319" status="FT" time="13:30">
+<home goals="3" id="2349312" name="Nasaf Qarshi"></home>
+<away goals="1" id="2349319" name="Qizilqum Zarafshon"></away>
+<events>
+<event id="20123404" minute="28" player="Gevorkjan A. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20123405" minute="47" player="Gadoev S." playerid="2564623" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20123406" minute="59" player="Vakhobov B." playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="20123407" minute="70" player="Gadoev S." playerid="2564623" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4110989" alternate_id_2="4323885" date="16.04.2015" id="4228540" static_id="16041523493182349322" status="FT" time="13:30">
+<home goals="2" id="2349318" name="Pakhtakor"></home>
+<away goals="1" id="2349322" name="Shortan Guzor"></away>
+<events>
+<event id="20123394" minute="3" player="Taran I." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20123395" minute="25" player="Andrejev S. (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20123396" minute="48" player="Sokhibov J." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4110988" alternate_id_2="4323883" date="16.04.2015" id="4228539" static_id="16041523492982349306" status="FT" time="11:00">
+<home goals="0" id="2349298" name="Din. Samarkand"></home>
+<away goals="1" id="2349306" name="Lok. Tashkent"></away>
+<events>
+<event id="20123384" minute="79" player="Bikmajev M." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league></recent_results>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:39" sport="soccer" country="finland"><league country="finland" name="Finland: Veikkausliiga" cup="False" id="3362" sub_id="33620"><match alternate_id="4108198" alternate_id_2="4307942" date="12.04.2015" id="4225752" static_id="12041523415152341620" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:39" sport="soccer" country="finland"><league country="finland" name="Finland: Veikkausliiga" cup="False" id="3362" sub_id="33620"><match alternate_id="4108198" alternate_id_2="4307942" date="12.04.2015" id="4225752" static_id="12041523415152341620" status="FT" time="14:00">
 <home goals="1" id="2341515" name="Inter Turku"></home>
 <away goals="1" id="2341620" name="SJK"></away>
 <events>
@@ -770,36 +770,70 @@
 <event id="22035116" minute="84" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="finland" name="Finland: Suomen Cup" cup="True" id="3047" sub_id="30470"><match alternate_id="4120054" alternate_id_2="4323607" date="16.04.2015" id="4237598" static_id="16041523415952352215" status="17:00" time="17:00">
-<home goals="?" id="2341595" name="Keski-Uusimaa"></home>
-<away goals="?" id="2352215" name="BK-46"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4120053" alternate_id_2="4323604" date="16.04.2015" id="4237597" static_id="16041523415022353304" status="16:00" time="16:00">
-<home goals="?" id="2341502" name="Haka"></home>
-<away goals="?" id="2353304" name="MuSa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119445" alternate_id_2="4323603" date="16.04.2015" id="4236989" static_id="16041523415852341538" status="15:30" time="15:30">
-<home goals="?" id="2341585" name="AC Oulu"></home>
-<away goals="?" id="2341538" name="PS Kemi"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4120052" alternate_id_2="4323606" date="16.04.2015" id="4237596" static_id="16041523415152341610" status="15:30" time="15:30">
-<home goals="?" id="2341515" name="Inter Turku"></home>
-<away goals="?" id="2341610" name="Rovaniemi"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119581" alternate_id_2="4323608" date="16.04.2015" id="4237125" static_id="16041523415502341505" status="15:00" time="15:00">
-<home goals="?" id="2341550" name="KPV Kokkola"></home>
-<away goals="?" id="2341505" name="HIFK"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4120051" alternate_id_2="4323605" date="16.04.2015" id="4237595" static_id="16041523415142341569" status="13:00" time="13:00">
-<home goals="?" id="2341514" name="Ilves"></home>
-<away goals="?" id="2341569" name="Mariehamn"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="finland" name="Finland: Suomen Cup" cup="True" id="3047" sub_id="30470"><match alternate_id="4120054" alternate_id_2="4323607" date="16.04.2015" id="4237598" static_id="16041523415952352215" status="80" time="17:00">
+<home goals="1" id="2341595" name="Keski-Uusimaa"></home>
+<away goals="1" id="2352215" name="BK-46"></away>
+<events>
+<event id="22249574" minute="33" player="(o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22249575" minute="80" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4120053" alternate_id_2="4323604" date="16.04.2015" id="4237597" static_id="16041523415022353304" status="P" time="16:00">
+<home goals="2" id="2341502" name="Haka"></home>
+<away goals="2" id="2353304" name="MuSa"></away>
+<events>
+<event id="22249544" minute="10" player="K. Multanen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22249545" minute="42" player="S. Sanevuori" playerid="2340133" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22249546" minute="88" player="N. Vainionpaa" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22249547" minute="90+1" player="T. Tuuri" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+<penalty localteam="3" visitorteam="3"></penalty>
+</match><match alternate_id="4119445" alternate_id_2="4323603" date="16.04.2015" id="4236989" static_id="16041523415852341538" status="Pen." time="15:30">
+<home goals="3" id="2341585" name="AC Oulu"></home>
+<away goals="3" id="2341538" name="PS Kemi"></away>
+<events>
+<event id="22249534" minute="13" player="D. Satfsula" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22249535" minute="21" player="W. Greenwell" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22249536" minute="33" player="T. Tahvanainen" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22249537" minute="52" player="S. Jovovic" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22249538" minute="66" player="W. Greenwell" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22249539" minute="90+5" player="A. Marzuoli" playerid="" result="[3 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+<penalty localteam="4" visitorteam="3"></penalty>
+</match><match alternate_id="4120052" alternate_id_2="4323606" date="16.04.2015" id="4237596" static_id="16041523415152341610" status="FT" time="15:30">
+<home goals="7" id="2341515" name="Inter Turku"></home>
+<away goals="3" id="2341610" name="Rovaniemi"></away>
+<events>
+<event id="22249564" minute="15" player="V. Onovo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22249565" minute="19" player="V. Onovo" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22249566" minute="45+1" player="M. Yaghoubi" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22249567" minute="45+1" player="V. Onovo" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22249568" minute="71" player="V. Onovo" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22249569" minute="72" player="A. Kokko" playerid="2340232" result="[4 - 2]" team="away" type="goal"></event>
+<event id="22249570" minute="76" player="A. Kokko" playerid="2340232" result="[4 - 3]" team="away" type="goal"></event>
+<event id="22249571" minute="81" player="E. Matoukou" playerid="" result="[5 - 3]" team="home" type="goal"></event>
+<event id="22249572" minute="85" player="S. Duah" playerid="2492121" result="[6 - 3]" team="home" type="goal"></event>
+<event id="201509143" minute="90+1" player="E. Belica" playerid="" result="[7 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[3-1]"></ht>
+</match><match alternate_id="4119581" alternate_id_2="4323608" date="16.04.2015" id="4237125" static_id="16041523415502341505" status="AET" time="15:00">
+<home goals="0" id="2341550" name="KPV Kokkola"></home>
+<away goals="2" id="2341505" name="HIFK"></away>
+<events>
+<event id="22249584" minute="117" player="E. Terava" playerid="2409393" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22249585" minute="120+2" player="J. Korhonen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4120051" alternate_id_2="4323605" date="16.04.2015" id="4237595" static_id="16041523415142341569" status="FT" time="13:00">
+<home goals="0" id="2341514" name="Ilves"></home>
+<away goals="2" id="2341569" name="Mariehamn"></away>
+<events>
+<event id="22249554" minute="16" player="B. Span" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22249555" minute="90" player="D. Orgill" playerid="2409279" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4119444" alternate_id_2="4323609" date="15.04.2015" id="4236988" static_id="15041523415562341559" status="FT" time="15:30">
 <home goals="2" id="2341556" name="KuPS"></home>
 <away goals="1" id="2341559" name="Lahti"></away>

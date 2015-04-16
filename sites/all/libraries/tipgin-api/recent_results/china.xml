@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:29" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4103983" alternate_id_2="4319311" date="13.04.2015" id="4221538" static_id="13041523398852339886" status="FT" time="11:35">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:30" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4103983" alternate_id_2="4319311" date="13.04.2015" id="4221538" static_id="13041523398852339886" status="FT" time="11:35">
 <home goals="0" id="2339885" name="Hangzhou Greentown"></home>
 <away goals="0" id="2339886" name="Henan Jianye"></away>
 <events>
@@ -432,21 +432,26 @@
 <event id="22197166" minute="81" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="china" name="China: Fa Cup" cup="True" id="4077" sub_id="40770"><match alternate_id="4119131" alternate_id_2="4321478" date="16.04.2015" id="4236675" static_id="16041523561602350924" status="07:30" time="07:30">
-<home goals="?" id="2356160" name="Hangzhou Ange"></home>
-<away goals="?" id="2350924" name="Dalian Aerbin"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4123615" alternate_id_2="4321485" date="16.04.2015" id="4241159" static_id="16041523550932339926" status="07:00" time="07:00">
-<home goals="?" id="2355093" name="Suzhou Jinfu"></home>
-<away goals="?" id="2339926" name="Yanbian"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119143" alternate_id_2="4321489" date="16.04.2015" id="4236687" static_id="16041523551102339900" status="07:00" time="07:00">
-<home goals="?" id="2355110" name="Yinchuan Helanshan"></home>
-<away goals="?" id="2339900" name="Qingdao Jonoon"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="china" name="China: Fa Cup" cup="True" id="4077" sub_id="40770"><match alternate_id="4119131" alternate_id_2="4321478" date="16.04.2015" id="4236675" static_id="16041523561602350924" status="FT" time="07:30">
+<home goals="0" id="2356160" name="Hangzhou Ange"></home>
+<away goals="2" id="2350924" name="Dalian Aerbin"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4123615" alternate_id_2="4321485" date="16.04.2015" id="4241159" static_id="16041523550932339926" status="Pen." time="07:00">
+<home goals="0" id="2355093" name="Suzhou Jinfu"></home>
+<away goals="0" id="2339926" name="Yanbian"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="2" visitorteam="4"></penalty>
+</match><match alternate_id="4119143" alternate_id_2="4321489" date="16.04.2015" id="4236687" static_id="16041523551102339900" status="Pen." time="07:00">
+<home goals="0" id="2355110" name="Yinchuan Helanshan"></home>
+<away goals="0" id="2339900" name="Qingdao Jonoon"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="3" visitorteam="4"></penalty>
 </match><match alternate_id="4118252" alternate_id_2="4321477" date="15.04.2015" id="4235796" static_id="15041523561552355107" status="FT" time="12:00">
 <home goals="0" id="2356155" name="Guangxi Longguida"></home>
 <away goals="2" id="2355107" name="Hebei"></away>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:14" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4030387" alternate_id_2="4317144" date="06.04.2015" id="4148006" static_id="06041523488272348880" status="FT" time="17:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:41:15" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4030387" alternate_id_2="4317144" date="06.04.2015" id="4148006" static_id="06041523488272348880" status="FT" time="17:00">
 <home goals="0" id="2348827" name="Besiktas"></home>
 <away goals="0" id="2348880" name="Basaksehir"></away>
 <events>
@@ -1066,16 +1066,33 @@
 <event id="20157614" minute="75" player="M. Cengiz" playerid="2484158" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="turkey" name="Turkey: Turkish Cup - Play Offs" cup="True" id="3256" sub_id="32565"><match alternate_id="" alternate_id_2="4310156" date="16.04.2015" id="" static_id="16041523488602348910" status="16:45" time="16:45">
-<home goals="?" id="2348860" name="Fenerbahce"></home>
-<away goals="?" id="2348910" name="Mersin"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4310155" date="16.04.2015" id="" static_id="16041523489302348893" status="15:00" time="15:00">
-<home goals="?" id="2348930" name="Sivasspor"></home>
-<away goals="?" id="2348893" name="Kayserispor"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="turkey" name="Turkey: Turkish Cup - Play Offs" cup="True" id="3256" sub_id="32565"><match alternate_id="" alternate_id_2="4310156" date="16.04.2015" id="" static_id="16041523488602348910" status="FT" time="16:45">
+<home goals="4" id="2348860" name="Fenerbahce"></home>
+<away goals="1" id="2348910" name="Mersin"></away>
+<events>
+<event id="22115064" minute="6" player="D. Kuyt" playerid="2331878" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22115065" minute="29" player="E. Ozarslan" playerid="2442359" result="" team="away" type="redcard"></event>
+<event id="22115066" minute="30" player="N. Kaya" playerid="2435419" result="" team="away" type="yellowcard"></event>
+<event id="22115067" minute="31" player="D. Kuyt (pen.)" playerid="2331878" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22115068" minute="49" player="H. A. Kaldirim" playerid="2387280" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22115069" minute="56" player="C. Erkin" playerid="2338241" result="" team="home" type="yellowcard"></event>
+<event id="22115070" minute="61" player="C. Erkin" playerid="2338241" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22115071" minute="72" player="M. Futacs" playerid="" result="[4 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4310155" date="16.04.2015" id="" static_id="16041523489302348893" status="Pen." time="15:00">
+<home goals="1" id="2348930" name="Sivasspor"></home>
+<away goals="1" id="2348893" name="Kayserispor"></away>
+<events>
+<event id="22115054" minute="45" player="A. Chahechouhe" playerid="2459739" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22115055" minute="60" player="J. Utaka" playerid="2333304" result="" team="home" type="yellowcard"></event>
+<event id="22115056" minute="84" player="T. Sahin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22115057" minute="90" player="Bobo (pen.)" playerid="2336633" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22115058" minute="111" player="K. Erdogan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22115059" minute="115" player="B. Ozbek" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+<penalty localteam="3" visitorteam="1"></penalty>
 </match><match alternate_id="" alternate_id_2="4310154" date="15.04.2015" id="" static_id="15041523489072348862" status="FT" time="16:45">
 <home goals="1" id="2348907" name="Manisaspor"></home>
 <away goals="1" id="2348862" name="Galatasaray"></away>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:07" sport="soccer" country="italy"><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4035779" alternate_id_2="4294738" date="15.04.2015" id="4153394" static_id="15041523437362343792" status="FT" time="16:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:07" sport="soccer" country="italy"><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4035779" alternate_id_2="4294738" date="15.04.2015" id="4153394" static_id="15041523437362343792" status="FT" time="16:30">
 <home goals="2" id="2343736" name="Genoa"></home>
 <away goals="0" id="2343792" name="Parma"></away>
 <events>
@@ -222,16 +222,19 @@
 <event id="199237746" minute="90+2" player="M. Parolo" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4035818" alternate_id_2="4300895" date="04.04.2015" id="4153433" static_id="04041523437502343792" status="FT" time="13:00">
-<home goals="1" id="2343750" name="Inter"></home>
-<away goals="1" id="2343792" name="Parma"></away>
+</match><match alternate_id="4035821" alternate_id_2="4300894" date="04.04.2015" id="4153436" static_id="04041523437362343884" status="FT" time="13:00">
+<home goals="1" id="2343736" name="Genoa"></home>
+<away goals="1" id="2343884" name="Udinese"></away>
 <events>
-<event id="22022454" minute="25" player="F. Guarin" playerid="2388315" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22022455" minute="44" player="A. Lila" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22022456" minute="61" player="A. Ranocchia" playerid="2392974" result="" team="home" type="yellowcard"></event>
-<event id="22022457" minute="73" player="Felipe" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22022444" minute="18" player="G. Pinzi" playerid="2335945" result="" team="away" type="yellowcard"></event>
+<event id="22022445" minute="19" player="S. De Maio" playerid="2394885" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22022446" minute="44" player="I. Piris" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22022447" minute="49" player="Guilherme" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22022448" minute="62" player="T. Costa" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22022449" minute="68" player="C. Thereau" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22022450" minute="78" player="T. Rincon" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4035816" alternate_id_2="4300897" date="04.04.2015" id="4153431" static_id="04041523437912343771" status="FT" time="13:00">
 <home goals="1" id="2343791" name="Palermo"></home>
 <away goals="2" id="2343771" name="AC Milan"></away>
@@ -450,6 +453,17 @@
 <event id="22221680" minute="90+2" player="M. Sampirisi" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4042970" alternate_id_2="4319137" date="02.04.2015" id="4160584" static_id="02041523436472343773" status="FT" time="18:30">
+<home goals="1" id="2343647" name="Avellino"></home>
+<away goals="0" id="2343773" name="Modena"></away>
+<events>
+<event id="22204874" minute="33" player="A. Zito" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22204875" minute="62" player="A. Zito" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22204876" minute="71" player="M. Trotta" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22204877" minute="81" player="T. Cionek" playerid="2374334" result="" team="away" type="yellowcard"></event>
+<event id="22204878" minute="88" player="L. Garritano" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4042972" alternate_id_2="4319029" date="02.04.2015" id="4160586" static_id="02041523436942343860" status="FT" time="18:30">
 <home goals="2" id="2343694" name="Crotone"></home>
 <away goals="0" id="2343860" name="Spezia"></away>
@@ -507,36 +521,6 @@
 <event id="22203817" minute="90+3" player="G. Monachello" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4042966" alternate_id_2="4319032" date="02.04.2015" id="4160580" static_id="02041523437982343659" status="FT" time="18:30">
-<home goals="2" id="2343798" name="Pescara"></home>
-<away goals="3" id="2343659" name="Brescia"></away>
-<events>
-<event id="22203824" minute="4" player="L. Memushaj" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22203825" minute="6" player="D. Corvia" playerid="2336165" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22203826" minute="16" player="B. Bjarnason" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22203827" minute="44" player="A. Rossi" playerid="2336140" result="" team="home" type="yellowcard"></event>
-<event id="22203828" minute="50" player="D. Corvia" playerid="2336165" result="[2 - 2]" team="away" type="goal"></event>
-<event id="22203829" minute="57" player="G. Brugman" playerid="2434953" result="" team="home" type="yellowcard"></event>
-<event id="22203830" minute="68" player="A. Caracciolo" playerid="2335924" result="" team="away" type="yellowcard"></event>
-<event id="22203831" minute="71" player="D. Corvia" playerid="2336165" result="" team="away" type="yellowcard"></event>
-<event id="22203832" minute="72" player="D. Corvia" playerid="2336165" result="[2 - 3]" team="away" type="goal"></event>
-<event id="201051743" minute="85" player="D. Tonucci" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[2-1]"></ht>
-</match><match alternate_id="4052103" alternate_id_2="4319033" date="02.04.2015" id="4169714" static_id="02041523438212343925" status="FT" time="18:30">
-<home goals="1" id="2343821" name="Pro Vercelli"></home>
-<away goals="1" id="2343925" name="Vicenza"></away>
-<events>
-<event id="22203834" minute="33" player="T. Manfredini" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22203835" minute="39" player="M. Sampirisi" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22203836" minute="45" player="G. Fabiano" playerid="2540583" result="" team="home" type="yellowcard"></event>
-<event id="22203837" minute="56" player="A. Cocco" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22203838" minute="59" player="E. Marchi" playerid="2425814" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22203839" minute="70" player="F. Cosenza" playerid="2350446" result="" team="home" type="yellowcard"></event>
-<event id="22203840" minute="72" player="A. Cocco (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22203841" minute="75" player="N. Brighenti" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4042964" alternate_id_2="4319034" date="02.04.2015" id="4160578" static_id="02041523438782343649" status="FT" time="18:30">
 <home goals="2" id="2343878" name="Ternana"></home>
 <away goals="0" id="2343649" name="Bari"></away>
@@ -549,6 +533,25 @@
 <event id="22203849" minute="89" player="L. Crecco" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4042969" alternate_id_2="4319138" date="02.04.2015" id="4160583" static_id="02041523436412343731" status="FT" time="18:30">
+<home goals="3" id="2343641" name="Trapani"></home>
+<away goals="1" id="2343731" name="Frosinone"></away>
+<events>
+<event id="22204884" minute="7" player="F. Falco" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22204885" minute="27" player="A. Russo" playerid="2527858" result="" team="away" type="yellowcard"></event>
+<event id="22204886" minute="31" player="A. Barilla" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22204887" minute="34" player="M. Ciaramitaro" playerid="2336131" result="" team="home" type="yellowcard"></event>
+<event id="22204888" minute="35" player="L. Blanchard" playerid="2418906" result="" team="away" type="yellowcard"></event>
+<event id="22204889" minute="57" player="M. Ciofani" playerid="2423727" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22204890" minute="60" player="S. Rizzato" playerid="2390220" result="" team="home" type="yellowcard"></event>
+<event id="22204891" minute="61" player="A. Barilla" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22204892" minute="70" player="D. Curiale" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201062343" minute="81" player="A. Russo" playerid="2527858" result="" team="away" type="yellowred"></event>
+<event id="201062344" minute="82" player="C. Terlizzi (pen.)" playerid="2335981" result="[3 - 1]" team="home" type="goal"></event>
+<event id="201062345" minute="84" player="M. Santana" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201062346" minute="90+2" player="M. Ciofani" playerid="2423727" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4042967" alternate_id_2="4319035" date="02.04.2015" id="4160581" static_id="02041523439202343677" status="FT" time="18:30">
 <home goals="0" id="2343920" name="Varese"></home>
 <away goals="3" id="2343677" name="Catania"></away>
@@ -2235,6 +2238,18 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4062342" alternate_id_2="4320019" date="02.04.2015" id="4179951" static_id="02041523463722343656" status="FT" time="13:00">
+<home goals="1" id="2346372" name="Asti"></home>
+<away goals="2" id="2343656" name="Borgosesia"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4062345" alternate_id_2="4320020" date="02.04.2015" id="4179954" static_id="02041523436082343706" status="FT" time="13:00">
+<home goals="0" id="2343608" name="Borgomanero"></home>
+<away goals="1" id="2343706" name="Derthona"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4062341" alternate_id_2="4320021" date="02.04.2015" id="4179950" static_id="02041523530532337719" status="FT" time="13:00">
 <home goals="3" id="2353053" name="Bra"></home>
 <away goals="1" id="2337719" name="Argentina"></away>
@@ -2244,12 +2259,6 @@
 </match><match alternate_id="4062347" alternate_id_2="4320022" date="02.04.2015" id="4179956" static_id="02041523438482354343" status="FT" time="13:00">
 <home goals="2" id="2343848" name="Caronnese"></home>
 <away goals="0" id="2354343" name="Sancolombano"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4062344" alternate_id_2="4320023" date="02.04.2015" id="4179953" static_id="02041523439102343555" status="FT" time="13:00">
-<home goals="0" id="2343910" name="Lavagnese"></home>
-<away goals="0" id="2343555" name="Cuneo"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -2265,12 +2274,6 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4062346" alternate_id_2="4320026" date="02.04.2015" id="4179955" static_id="02041523517042343632" status="FT" time="13:00">
-<home goals="1" id="2351704" name="RapalloBogliasco"></home>
-<away goals="1" id="2343632" name="Pro Settimo"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="4062340" alternate_id_2="4320027" date="02.04.2015" id="4179949" static_id="02041523476262343579" status="FT" time="13:00">
 <home goals="1" id="2347626" name="Vado"></home>
 <away goals="1" id="2343579" name="Acqui"></away>
@@ -2391,18 +2394,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4075118" alternate_id_2="4317562" date="29.03.2015" id="4192727" static_id="29031523517132355765" status="FT" time="13:00">
-<home goals="1" id="2351713" name="MapelloBonate"></home>
-<away goals="1" id="2355765" name="Ciserano"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4075124" alternate_id_2="4317492" date="29.03.2015" id="4192733" static_id="29031523439142349819" status="FT" time="13:00">
-<home goals="4" id="2343914" name="Virtus Verona"></home>
-<away goals="1" id="2349819" name="Seregno"></away>
+</match><match alternate_id="4075122" alternate_id_2="4317351" date="29.03.2015" id="4192731" static_id="29031523438892343819" status="FT" time="13:00">
+<home goals="2" id="2343889" name="Caravaggio"></home>
+<away goals="3" id="2343819" name="Pro Sesto"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
+</match><match alternate_id="4062645" alternate_id_2="4317527" date="29.03.2015" id="4180254" static_id="29031523435532351714" status="FT" time="13:00">
+<home goals="1" id="2343553" name="Castellana"></home>
+<away goals="1" id="2351714" name="Pontisola"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Group C" cup="False" id="3096" sub_id="30962"><match alternate_id="4062984" alternate_id_2="4319639" date="12.04.2015" id="4180593" static_id="12041523557662354338" status="FT" time="13:00">
 <home goals="2" id="2355766" name="ArzignanoChiampo"></home>
 <away goals="1" id="2354338" name="Ripa Fenadora"></away>
@@ -2517,12 +2520,12 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4062960" alternate_id_2="4315374" date="29.03.2015" id="4180569" static_id="29031523438822353058" status="FT" time="13:00">
-<home goals="1" id="2343882" name="Triestina"></home>
-<away goals="2" id="2353058" name="Clodiense"></away>
+</match><match alternate_id="4062964" alternate_id_2="4315396" date="29.03.2015" id="4180573" static_id="29031523557662345815" status="FT" time="13:00">
+<home goals="2" id="2355766" name="ArzignanoChiampo"></home>
+<away goals="1" id="2345815" name="Kras"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Group D" cup="False" id="3096" sub_id="30963"><match alternate_id="4063354" alternate_id_2="4321118" date="12.04.2015" id="4180963" static_id="12041523435812343800" status="FT" time="13:30">
 <home goals="2" id="2343581" name="Scandicci"></home>
 <away goals="2" id="2343800" name="Piacenza"></away>
@@ -2751,18 +2754,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4063683" alternate_id_2="4315346" date="29.03.2015" id="4181292" static_id="29031523438972343804" status="FT" time="13:00">
-<home goals="0" id="2343897" name="Massese"></home>
-<away goals="0" id="2343804" name="Poggibonsi"></away>
+</match><match alternate_id="4063686" alternate_id_2="4315437" date="29.03.2015" id="4181295" static_id="29031523439092343615" status="FT" time="13:00">
+<home goals="2" id="2343909" name="Gavorrano"></home>
+<away goals="1" id="2343615" name="Flaminia"></away>
 <events>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4063680" alternate_id_2="4315399" date="29.03.2015" id="4181289" static_id="29031523436352354183" status="FT" time="13:00">
-<home goals="1" id="2343635" name="Vivi Altotevere"></home>
-<away goals="2" id="2354183" name="Gualdo Casacastalda"></away>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4063684" alternate_id_2="4315428" date="29.03.2015" id="4181293" static_id="29031523498342343772" status="FT" time="13:00">
+<home goals="1" id="2349834" name="Voluntas Spoleto"></home>
+<away goals="3" id="2343772" name="Ponsacco"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[-]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Group F" cup="False" id="3096" sub_id="30965"><match alternate_id="4064013" alternate_id_2="4319698" date="12.04.2015" id="4181622" static_id="12041523517252343932" status="FT" time="13:00">
 <home goals="1" id="2351725" name="Agnonese"></home>
 <away goals="1" id="2343932" name="Vis Pesaro"></away>
@@ -2871,18 +2874,18 @@
 <events>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4063991" alternate_id_2="4315376" date="29.03.2015" id="4181600" static_id="29031523436802349837" status="FT" time="13:00">
-<home goals="1" id="2343680" name="Celano"></home>
-<away goals="2" id="2349837" name="Jesina"></away>
+</match><match alternate_id="4063994" alternate_id_2="4315176" date="29.03.2015" id="4181603" static_id="29031523517252351726" status="FT" time="13:00">
+<home goals="3" id="2351725" name="Agnonese"></home>
+<away goals="4" id="2351726" name="San Nicolo"></away>
 <events>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4063990" alternate_id_2="4315348" date="29.03.2015" id="4181599" static_id="29031523439122343686" status="FT" time="13:00">
-<home goals="2" id="2343912" name="Recanatese"></home>
-<away goals="2" id="2343686" name="Civitanovese"></away>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4063987" alternate_id_2="4315469" date="29.03.2015" id="4181596" static_id="29031523530662353065" status="FT" time="13:00">
+<home goals="0" id="2353066" name="Termoli"></home>
+<away goals="0" id="2353065" name="Amiternina"></away>
 <events>
 </events>
-<ht score="[2-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Group G" cup="False" id="3096" sub_id="30966"><match alternate_id="4064314" alternate_id_2="4319694" date="12.04.2015" id="4181923" static_id="12041523498402343855" status="FT" time="13:00">
 <home goals="1" id="2349840" name="Anziolavinio"></home>
 <away goals="3" id="2343855" name="Sora"></away>
@@ -2991,18 +2994,18 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4064297" alternate_id_2="4315349" date="29.03.2015" id="4181906" static_id="29031523436042343855" status="FT" time="13:00">
-<home goals="1" id="2343604" name="Astrea"></home>
-<away goals="1" id="2343855" name="Sora"></away>
+</match><match alternate_id="4064301" alternate_id_2="4315177" date="29.03.2015" id="4181910" static_id="29031523530702343639" status="FT" time="13:00">
+<home goals="4" id="2353070" name="Ostia Mare"></home>
+<away goals="1" id="2343639" name="Selargius"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4064296" alternate_id_2="4315350" date="29.03.2015" id="4181905" static_id="29031523436122343710" status="FT" time="13:00">
-<home goals="0" id="2343612" name="Cynthia"></home>
-<away goals="0" id="2343710" name="Fondi"></away>
+<ht score="[3-1]"></ht>
+</match><match alternate_id="4064300" alternate_id_2="4315178" date="29.03.2015" id="4181909" static_id="29031523543502343661" status="FT" time="13:00">
+<home goals="2" id="2354350" name="Terracina"></home>
+<away goals="5" id="2343661" name="Budoni"></away>
 <events>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[0-2]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Group H" cup="False" id="3096" sub_id="30967"><match alternate_id="4064618" alternate_id_2="4319665" date="12.04.2015" id="4182227" static_id="12041523530722349845" status="FT" time="14:00">
 <home goals="3" id="2353072" name="Bisceglie"></home>
 <away goals="1" id="2349845" name="Arzanese"></away>
@@ -3111,12 +3114,12 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4064606" alternate_id_2="4315403" date="29.03.2015" id="4182215" static_id="29031523437662351735" status="FT" time="14:00">
-<home goals="1" id="2343766" name="Manfredonia"></home>
-<away goals="1" id="2351735" name="Sarnese"></away>
+</match><match alternate_id="4064602" alternate_id_2="4315378" date="29.03.2015" id="4182211" static_id="29031523530722343643" status="FT" time="14:00">
+<home goals="3" id="2353072" name="Bisceglie"></home>
+<away goals="2" id="2343643" name="Pomigliano"></away>
 <events>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[3-1]"></ht>
 </match><match alternate_id="4064600" alternate_id_2="4315404" date="29.03.2015" id="4182209" static_id="29031523438152343582" status="FT" time="14:00">
 <home goals="3" id="2343815" name="Potenza"></home>
 <away goals="1" id="2343582" name="Grottaglie"></away>
@@ -3237,9 +3240,9 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4064906" alternate_id_2="4315182" date="29.03.2015" id="4182515" static_id="29031523543612354357" status="FT" time="13:00">
-<home goals="1" id="2354361" name="Torrecuso"></home>
-<away goals="2" id="2354357" name="Due Torri"></away>
+</match><match alternate_id="4064909" alternate_id_2="4315405" date="29.03.2015" id="4182518" static_id="29031523455872354352" status="FT" time="13:00">
+<home goals="2" id="2345587" name="Noto"></home>
+<away goals="0" id="2354352" name="Marcianise"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>

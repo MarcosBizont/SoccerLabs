@@ -1,18 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:15" sport="soccer" country="uae"><league country="uae" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="4003000" alternate_id_2="4319097" date="16.04.2015" id="4120622" static_id="16041523490632349073" status="16:45" time="16:45">
-<home goals="?" id="2349063" name="Al Ahli Dubai"></home>
-<away goals="?" id="2349073" name="Al Nasr"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002996" alternate_id_2="4319172" date="16.04.2015" id="4120618" static_id="16041523490662349079" status="16:45" time="16:45">
-<home goals="?" id="2349066" name="Al Dhafra"></home>
-<away goals="?" id="2349079" name="Al Wahda"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002995" alternate_id_2="4319096" date="16.04.2015" id="4120617" static_id="16041523490642349069" status="13:55" time="13:55">
-<home goals="?" id="2349064" name="Al Ain"></home>
-<away goals="?" id="2349069" name="Ittihad Kalba"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:41:15" sport="soccer" country="uae"><league country="uae" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="4003000" alternate_id_2="4319097" date="16.04.2015" id="4120622" static_id="16041523490632349073" status="90" time="16:45">
+<home goals="2" id="2349063" name="Al Ahli Dubai"></home>
+<away goals="2" id="2349073" name="Al Nasr"></away>
+<events>
+<event id="19043504" minute="24" player=" Khalil A." playerid="2395934" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19043505" minute="43" player="Abdelaziz Husain" playerid="2410243" result="" team="home" type="yellowcard"></event>
+<event id="19043506" minute="46" player=" Fahad HadeedToure I." playerid="" result="" team="away" type=""></event>
+<event id="19043507" minute="54" player=" Ahmed T." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19043508" minute="56" player=" Juma A.Hussain A." playerid="" result="" team="away" type=""></event>
+<event id="19043509" minute="57" player=" Assaidi O." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19043510" minute="69" player=" Juma A." playerid="2485571" result="[2 - 1]" team="away" type="goal"></event>
+<event id="19043511" minute="78" player=" Khamis M." playerid="2395343" result="[2 - 2]" team="away" type="goal"></event>
+<event id="19043512" minute="79" player=" Sanqour A.Abdelaziz Husain" playerid="" result="" team="home" type=""></event>
+<event id="169448543" minute="86" player=" Fahad Hadeed" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4002996" alternate_id_2="4319172" date="16.04.2015" id="4120618" static_id="16041523490662349079" status="90" time="16:45">
+<home goals="1" id="2349066" name="Al Dhafra"></home>
+<away goals="2" id="2349079" name="Al Wahda"></away>
+<events>
+<event id="19043464" minute="44" player=" Al Ghaferi S." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19043465" minute="45+1" player=" Diaz D." playerid="2347026" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19043466" minute="58" player=" Diop M." playerid="2406875" result="[1 - 1]" team="home" type="goal"></event>
+<event id="19043467" minute="63" player="Al Khoory M." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="19043468" minute="64" player="Jumaa Ab." playerid="2395982" result="" team="home" type="yellowcard"></event>
+<event id="19043469" minute="69" player=" Al N. A.Kaddioui Idrissi Y." playerid="" result="" team="home" type=""></event>
+<event id="19043470" minute="70" player=" Matar I.Al Shehhi M." playerid="" result="" team="away" type=""></event>
+<event id="19043471" minute="83" player=" Al Noubi S.Al Ghaferi S." playerid="" result="" team="away" type=""></event>
+<event id="19043472" minute="87" player=" Diaz D." playerid="2347026" result="" team="away" type="yellowcard"></event>
+<event id="169448143" minute="87" player=" Abdulla Al JaberiAl Khoory M." playerid="" result="" team="home" type=""></event>
+<event id="169448144" minute="88" player=" Ali Al HammadiTariq H." playerid="" result="" team="home" type=""></event>
+<event id="169448145" minute="89" player=" Al Akberi M.Bazuhair A." playerid="" result="" team="away" type=""></event>
+<event id="169448146" minute="90+1" player=" Al Akberi M." playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="169448147" minute="90+3" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4002995" alternate_id_2="4319096" date="16.04.2015" id="4120617" static_id="16041523490642349069" status="FT" time="13:55">
+<home goals="4" id="2349064" name="Al Ain"></home>
+<away goals="0" id="2349069" name="Ittihad Kalba"></away>
+<events>
+<event id="19043454" minute="30" player="Stoch M." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19043455" minute="32" player="Kembo-Ekoko J." playerid="2333301" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19043456" minute="42" player="Abdulrahman O." playerid="2395932" result="[3 - 0]" team="home" type="goal"></event>
+<event id="19043457" minute="44" player="Khamis K." playerid="2599953" result="" team="away" type="yellowcard"></event>
+<event id="19043458" minute="46" player="Murad I.Khamis K." playerid="" result="" team="away" type=""></event>
+<event id="19043459" minute="55" player="Rashed E.Diaky I." playerid="" result="" team="home" type=""></event>
+<event id="19043460" minute="59" player="Gyan A.Abdulrahman O." playerid="" result="" team="home" type=""></event>
+<event id="19043461" minute="63" player="Sulaiman Y." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19043462" minute="70" player="Ali K.Fettah S." playerid="" result="" team="away" type=""></event>
+<event id="169448043" minute="74" player="Abdulrahman . K. .Fayez M." playerid="" result="" team="home" type=""></event>
+<event id="169448044" minute="83" player="Gyan A." playerid="2332457" result="[4 - 0]" team="home" type="goal"></event>
+<event id="169448045" minute="86" player="Sanad AliWaigo P." playerid="" result="" team="away" type=""></event>
+<event id="169448046" minute="90+1" player="Sanad Ali" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4002991" alternate_id_2="4316432" date="12.04.2015" id="4120613" static_id="12041523490792349070" status="FT" time="16:45">
 <home goals="1" id="2349079" name="Al Wahda"></home>
 <away goals="0" id="2349070" name="Al Jazira"></away>

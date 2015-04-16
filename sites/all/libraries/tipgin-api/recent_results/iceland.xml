@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:43" sport="soccer" country="iceland"><league country="iceland" name="Iceland: Pepsideild" cup="False" id="3082" sub_id="30820"><match alternate_id="3843230" alternate_id_2="4272754" date="04.10.2014" id="3973573" static_id="04101423431012343135" status="FT" time="16:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:44" sport="soccer" country="iceland"><league country="iceland" name="Iceland: Pepsideild" cup="False" id="3082" sub_id="30820"><match alternate_id="3843230" alternate_id_2="4272754" date="04.10.2014" id="3973573" static_id="04101423431012343135" status="FT" time="16:00">
 <home goals="1" id="2343101" name="Hafnarfjordur"></home>
 <away goals="2" id="2343135" name="Stjarnan"></away>
 <events>
@@ -490,16 +490,18 @@
 <event id="21644758" minute="80" player="O. Bjornsson" playerid="2416002" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="iceland" name="Iceland: League Cup - Play Offs" cup="True" id="3373" sub_id=""><match alternate_id="4123570" alternate_id_2="4325688" date="16.04.2015" id="4241114" static_id="16041523431132343103" status="18:00" time="18:00">
-<home goals="?" id="2343113" name="Akranes"></home>
-<away goals="?" id="2343103" name="Fjolnir"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4123569" alternate_id_2="4325689" date="16.04.2015" id="4241113" static_id="16041523431462343101" status="18:00" time="18:00">
-<home goals="?" id="2343146" name="Vikingur Reykjavik"></home>
-<away goals="?" id="2343101" name="Hafnarfjordur"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="iceland" name="Iceland: League Cup - Play Offs" cup="True" id="3373" sub_id=""><match alternate_id="4123570" alternate_id_2="4325688" date="16.04.2015" id="4241114" static_id="16041523431132343103" status="41" time="18:00">
+<home goals="2" id="2343113" name="Akranes"></home>
+<away goals="0" id="2343103" name="Fjolnir"></away>
+<events>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4123569" alternate_id_2="4325689" date="16.04.2015" id="4241113" static_id="16041523431462343101" status="41" time="18:00">
+<home goals="0" id="2343146" name="Vikingur Reykjavik"></home>
+<away goals="1" id="2343101" name="Hafnarfjordur"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
 </match></league><league country="iceland" name="Iceland: League Cup" cup="True" id="3373" sub_id="33730"><match alternate_id="4090140" alternate_id_2="4318711" date="11.04.2015" id="4207707" static_id="11041523431192343146" status="FT" time="13:00">
 <home goals="2" id="2343119" name="KA Akureyri"></home>
 <away goals="3" id="2343146" name="Vikingur Reykjavik"></away>

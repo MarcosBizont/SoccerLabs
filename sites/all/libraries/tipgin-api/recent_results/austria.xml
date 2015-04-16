@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:22" sport="soccer" country="austria"><league country="austria" name="Austria: Tipico Bundesliga" cup="False" id="2926" sub_id="29260"><match alternate_id="3996905" alternate_id_2="4313902" date="15.04.2015" id="4114527" static_id="15041523382942338371" status="FT" time="16:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:21" sport="soccer" country="austria"><league country="austria" name="Austria: Tipico Bundesliga" cup="False" id="2926" sub_id="29260"><match alternate_id="3996905" alternate_id_2="4313902" date="15.04.2015" id="4114527" static_id="15041523382942338371" status="FT" time="16:30">
 <home goals="3" id="2338294" name="Altach"></home>
 <away goals="1" id="2338371" name="Neustadt"></away>
 <events>
@@ -1027,12 +1027,16 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="3938783" alternate_id_2="4288106" date="28.03.2015" id="4056516" static_id="28031523382172338178" status="FT" time="14:30">
-<home goals="0" id="2338217" name="FC Hochst"></home>
-<away goals="0" id="2338178" name="Eugendorf"></away>
+</match><match alternate_id="4012645" alternate_id_2="4288105" date="28.03.2015" id="4130266" static_id="28031523382412338311" status="FT" time="14:30">
+<home goals="3" id="2338241" name="Kufstein"></home>
+<away goals="1" id="2338311" name="Schwaz"></away>
 <events>
+<event id="21894554" minute="9" player="Treichl" playerid="2473142" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21894555" minute="34" player="Baydar" playerid="2584437" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21894556" minute="45" player="Treichl" playerid="2473142" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21894557" minute="89" player="Burgstaller" playerid="2342956" result="[3 - 1]" team="away" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4012647" alternate_id_2="4288270" date="28.03.2015" id="4130268" static_id="28031523382812338232" status="FT" time="14:30">
 <home goals="0" id="2338281" name="Saalfelden"></home>
 <away goals="3" id="2338232" name="Kitzbuhel"></away>

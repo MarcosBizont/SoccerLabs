@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:59" sport="soccer" country="paraguay"><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101042" alternate_id_2="4320144" date="16.04.2015" id="4218600" static_id="16041523457172352094" status="29" time="00:10">
-<home goals="1" id="2345717" name="Libertad Asuncion"></home>
-<away goals="0" id="2352094" name="Deportivo Santani"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 18:40:59" sport="soccer" country="paraguay"><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101042" alternate_id_2="4320144" date="16.04.2015" id="4218600" static_id="16041523457172352094" status="FT" time="00:10">
+<home goals="3" id="2345717" name="Libertad Asuncion"></home>
+<away goals="3" id="2352094" name="Deportivo Santani"></away>
 <events>
 <event id="22214944" minute="15" player="P. Benitez" playerid="2355559" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22214945" minute="41" player="J. Acosta" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22214946" minute="42" player="S. Aquino" playerid="2355564" result="" team="home" type="yellowcard"></event>
+<event id="22214947" minute="43" player="H. Lopez" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22214948" minute="45" player="P. Benitez" playerid="2355559" result="" team="home" type="yellowcard"></event>
+<event id="22214949" minute="45+1" player="J. Acosta" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22214950" minute="45+3" player="E. Torres" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22214951" minute="68" player="R. Leichtweis" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="22214952" minute="69" player="G. Velazquez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201162943" minute="77" player="E. Torres" playerid="" result="[3 - 3]" team="away" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[2-2]"></ht>
 </match><match alternate_id="4101041" alternate_id_2="4320135" date="15.04.2015" id="4218599" static_id="15041523457082345728" status="FT" time="22:00">
 <home goals="2" id="2345708" name="Cerro Porteno"></home>
 <away goals="1" id="2345728" name="Sp. Luqueno"></away>

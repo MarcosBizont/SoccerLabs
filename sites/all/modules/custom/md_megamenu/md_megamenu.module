@@ -355,8 +355,11 @@
    * Load megamenu to render menu in views
    */
   function megamenu_loads($mid) {
+	global $user;
+	$user = user_load($user->uid);
     $block = array('menu_title' => t(''), 'menu_content' => '');
     $menu = MDMegaMenu::getById($mid);
+    
 
     # Check menu is existing?
     if (!$menu)
@@ -384,6 +387,17 @@
 
     if (!is_null($menu)) {
       $tabs = MDMegaTab::getTabsByMenu($mid);
+      
+      // $tabs[0]->settings['general']['icon']
+      // id=572&url=http://soccer-labs.com/sites/default/files/Sin-t%C3%ADtulo-1.png
+      // GEt my profile picture
+      // now get the full image url from the uri and the style
+      if(isset($user->picture->uri))
+      {
+	  	$tabs[0]->settings['general']['icon'] = 'id=' . $user->picture->fid . '&url=' . image_style_url('thumbnail', $user->picture->uri);    
+      }
+	  
+	  
       $block['menu_title'] = $menu->title;
       $block['menu_content'] = theme('megamenu_theme', array("menu_settings" => $menu->settings, "menu_tabs" => $tabs, "mid" => $mid));
     }
