@@ -71,7 +71,7 @@ function tips_check_poisson_tips_creation_processmatch()
 	{
 		$data = $item->data;
 		//watchdog('processtips','Process node for tips : ' . $data);
-		if(!tips_match_have_tip($data))
+		if(!tips_match_have_any_tip($data))
 			if (!($cache = cache_get('tips_check_poisson_tips_creation_processmatch_id_' . $data)))
 			{
 				cache_set('tips_check_poisson_tips_creation_processmatch_id_' . $data, 'cache', time() + 604800);

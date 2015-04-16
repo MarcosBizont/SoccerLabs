@@ -6,7 +6,7 @@
     <?php print $item->title?>
   </h3>
 <?php elseif ($type == 'img' && $item->img_path != ''):?>
-  <div>
+  <div >
      <?php print theme('image', array('path' => file_create_url($item->img_path), 'alt' => $item->img_alt, 'attributes' => array('class' => $item->class))); ?>
   </div>
 <?php elseif ($type == 'a'):?>

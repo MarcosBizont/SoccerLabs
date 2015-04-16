@@ -699,6 +699,33 @@ article .s_category {
 	float: right;
 	margin: 12px 0;
 }
+
+.banner .block
+{
+	float: right;
+}
+
+
+
+/* Mega menu general*/
+.banner #block-md-megamenu-1
+{
+	margin-top: 15px;
+}
+
+.banner #block-md-megamenu-1 .first .mm-container
+{
+	margin-left: -100px !important;
+	width: 175px !important;	
+}
+
+.banner #block-md-megamenu-1 .first > a
+{
+	padding-top: 0px !important;  
+	padding-bottom: 0px !important;
+}
+
+
 .sec_head {
 	position: relative;
 	background: #f3f3f3;
@@ -5598,6 +5625,7 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 {
 	display: none;
 }
+
 
 @media screen and (max-width:1040px) {
 	.review-desc { width: 71%;}

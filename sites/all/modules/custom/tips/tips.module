@@ -523,7 +523,8 @@ function tips_close_tips()
 		
 }
 
-function tips_match_have_tip($matchid)
+// Even if the tip is not public
+function tips_match_have_any_tip($matchid)
 {
 	$query = db_select('node', 'n');
 	$query->join('field_data_field_match', 'a', 'n.nid = a.entity_id'); 
@@ -531,21 +532,53 @@ function tips_match_have_tip($matchid)
 	$query->join('field_data_field_is_available', 'c', 'b.field_tip_type_target_id = c.entity_id'); 
 	$query->fields('n',array('nid'))
 		->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')->condition('c.bundle', 'tip_type')
-		->condition('a.field_match_target_id', $matchid)
-		->condition('c.field_is_available_value', '1');
+		->condition('a.field_match_target_id', $matchid);
 		
 	$result = $query->execute()->fetchAll();
 	return count($result) > 0 ? true : false;	
 }
 
-function tips_match_have_tip_withoffers($matchid)
+function tips_match_have_tip($matchid, &$accuracy = '')
+{
+	$query = db_select('node', 'n');
+	$query->join('field_data_field_match', 'a', 'n.nid = a.entity_id'); 
+	$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id'); 
+	$query->join('field_data_field_is_available', 'c', 'b.field_tip_type_target_id = c.entity_id'); 
+    $query->leftJoin('field_data_field_win', 'd', 'n.nid = d.entity_id'); 
+
+	$query->fields('n',array('nid'))->fields('d',array('field_win_value'))
+		->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')->condition('c.bundle', 'tip_type')
+		->condition('a.field_match_target_id', $matchid)
+		->condition('c.field_is_available_value', '1');
+		
+	$result = $query->execute()->fetchAll();
+	
+	if(count($result) > 0)
+	{
+		$accuracy = 0;
+		$countaccuracy = 0;
+		foreach($result as $tip)
+		{
+			if(intval($tip->field_win_value) == 1) $accuracy+=1;
+			if(intval($tip->field_win_value) == 1 || intval($tip->field_win_value) == 2) $countaccuracy+=1;
+		}
+		if(count($result) == $countaccuracy) $accuracy = $accuracy/$countaccuracy;
+		else $accuracy = '';
+	}
+	
+	return count($result) > 0 ? true : false;	
+}
+
+function tips_match_have_tip_withoffers($matchid, &$accuracy = '')
 {	
 	$query = db_select('node', 'n');
 	$query->join('field_data_field_match', 'a', 'n.nid = a.entity_id'); 
 	$query->join('field_data_field_tip_type', 'b', 'n.nid = b.entity_id'); 
 	$query->join('field_data_field_is_available', 'c', 'b.field_tip_type_target_id = c.entity_id'); 
-	$query->join('field_data_field_have_booker_offers', 'd', 'n.nid = d.entity_id'); 
-	$query->fields('n',array('nid'))
+	$query->join('field_data_field_have_booker_offers', 'd', 'n.nid = d.entity_id');
+	$query->leftJoin('field_data_field_win', 'e', 'n.nid = e.entity_id'); 
+	 
+	$query->fields('n',array('nid'))->fields('e',array('field_win_value'))
 		->condition('a.bundle', 'tip')->condition('b.bundle', 'tip')
 		->condition('c.bundle', 'tip_type')->condition('d.bundle', 'tip')
 		->condition('a.field_match_target_id', $matchid)
@@ -553,6 +586,21 @@ function tips_match_have_tip_withoffers($matchid)
 		->condition('d.field_have_booker_offers_value', '1');
 		
 	$result = $query->execute()->fetchAll();
+	
+	if(count($result) > 0)
+	{
+		$accuracy = 0;
+		$countaccuracy = 0;
+		foreach($result as $tip)
+		{
+			if(intval($tip->field_win_value) == 1) $accuracy+=1;
+			if(intval($tip->field_win_value) == 1 || intval($tip->field_win_value) == 2) $countaccuracy+=1;
+		}
+		if(count($result) == $countaccuracy) $accuracy = $accuracy/$countaccuracy;
+		else $accuracy = '';
+	}
+	
+	
 	return count($result) > 0 ? true : false;		
 }
 

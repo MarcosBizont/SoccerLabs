@@ -27,6 +27,9 @@ $tip = node_load($row->nid);
 $obj = tips_tipfin_odds_library_check_odds_for_tip($tip);
 
 //
+if(is_array($obj))
+	if(count($obj)>0)
+		echo '<span class="stand">' . t('Soon you gonna be able to simulate you bets here!').'</span><br>';
 
 foreach($obj as $value) 
 {

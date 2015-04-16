@@ -231,6 +231,17 @@ body {
 	line-height: normal;
 }
 
+.banner #block-locale-language
+{
+	margin: 5px 0;
+}
+
+.banner #block-md-megamenu-1
+{
+	margin-top: 0px;
+}
+
+
 #header .logo img {
     height: 40px;
     margin: 5px;
@@ -663,6 +674,12 @@ caption
 .grid_8.prealpha i:hover
 {
 	color: #000;
+}
+
+.views-field-field-tip-available i.green
+{
+	color: green;
+	font-size: 18px;
 }
 
 

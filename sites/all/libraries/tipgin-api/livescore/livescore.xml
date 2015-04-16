@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><livescore updated="16.04.2015 02:09:33" sport="soccer" ><league country="bangladesh" name="Bangladesh: Premier League" cup="False" id="2931" sub_id=""><match alternate_id="" alternate_id_2="4324651" commentary="False" date="16.04.2015" id="" static_id="16041523384722338468" status="10:15" time="10:15">
+<?xml version="1.0" encoding="utf-8"?><livescore updated="16.04.2015 04:53:33" sport="soccer" ><league country="bangladesh" name="Bangladesh: Premier League" cup="False" id="2931" sub_id=""><match alternate_id="" alternate_id_2="4324651" commentary="False" date="16.04.2015" id="" static_id="16041523384722338468" status="10:15" time="10:15">
 <home goals="?" id="2338472" name="Abahani Limited"></home>
 <away goals="?" id="2338468" name="Abahani Chittagong"></away>
 <events></events>
@@ -8,41 +8,65 @@
 <away goals="?" id="2338478" name="Muktijoddha Sangsad"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="brazil" name="Brazil: Copa Do Brasil" cup="True" id="3354" sub_id="33540"><match alternate_id="4095008" alternate_id_2="4321752" commentary="False" date="16.04.2015" id="4212572" static_id="16041523390492339071" status="47" time="01:00">
-<home goals="0" id="2339049" name="Ceará"></home>
+</match></league><league country="brazil" name="Brazil: Copa Do Brasil" cup="True" id="3354" sub_id="33540"><match alternate_id="4095008" alternate_id_2="4321752" commentary="False" date="16.04.2015" id="4212572" static_id="16041523390492339071" status="FT" time="01:00">
+<home goals="1" id="2339049" name="Ceará"></home>
 <away goals="0" id="2339071" name="Confianca"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22231024" minute="26" player="Pedrinho" playerid="2468288" result="" team="away" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22231025" minute="30" player="J. Marcos" playerid="2398118" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231026" minute="59" player="Altemar" playerid="2450833" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231027" minute="60" player="M. Aurelio" playerid="2341204" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231028" minute="68" player="T. Cameta" playerid="2566295" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231029" minute="72" player="C. Flavio" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231030" minute="90" player="Richardson" playerid="2462472" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4095022" alternate_id_2="4321760" commentary="False" date="16.04.2015" id="4212586" static_id="16041523391602339028" status="51" time="01:00">
-<home goals="0" id="2339160" name="Gremio"></home>
+<ft score="[1-0]"></ft>
+</match><match alternate_id="4095022" alternate_id_2="4321760" commentary="False" date="16.04.2015" id="4212586" static_id="16041523391602339028" status="FT" time="01:00">
+<home goals="2" id="2339160" name="Gremio"></home>
 <away goals="0" id="2339028" name="Campinense"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22231104" minute="36" player="F. Bastos" playerid="2352927" result="" team="home" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22231105" minute="38" player="S. Negretti" playerid="2444566" result="" team="away" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22231106" minute="45" player="Maicon" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231107" minute="63" player="Douglas" playerid="2364385" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231108" minute="78" player="Leandro" playerid="2364457" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231109" minute="80" player="Walace" playerid="2670186" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="3" id="22231110" minute="90" player="Lincoln" playerid="2727462" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="3" id="22231111" minute="90" player="Lincoln" playerid="2727462" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4095026" alternate_id_2="4321754" commentary="False" date="16.04.2015" id="4212590" static_id="16041523392842339009" status="55" time="01:00">
-<home goals="1" id="2339284" name="Nautico"></home>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4095026" alternate_id_2="4321754" commentary="False" date="16.04.2015" id="4212590" static_id="16041523392842339009" status="FT" time="01:00">
+<home goals="2" id="2339284" name="Nautico"></home>
 <away goals="0" id="2339009" name="Brasilia"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22231044" minute="12" player="Andre (o.g.)" playerid="2396983" result="[1 - 0]" team="home" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22231045" minute="24" player="Guilherme" playerid="2697180" result="" team="home" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22231046" minute="43" player="G. Filgueira Mendez" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231047" minute="59" player="Renato" playerid="2614596" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231048" minute="65" player="Giba" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231049" minute="85" player="Anderson de Freitas" playerid="2505846" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231050" minute="88" player="Santos" playerid="2437159" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4094984" alternate_id_2="4321761" commentary="False" date="16.04.2015" id="4212548" static_id="16041523394952339360" status="51" time="01:00">
-<home goals="1" id="2339495" name="Vasco"></home>
-<away goals="1" id="2339360" name="Rio Branco"></away>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4094984" alternate_id_2="4321761" commentary="False" date="16.04.2015" id="4212548" static_id="16041523394952339360" status="FT" time="01:00">
+<home goals="3" id="2339495" name="Vasco"></home>
+<away goals="2" id="2339360" name="Rio Branco"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22231114" minute="42" player="Alexandre Matao" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231114" minute="42" player="Alexandre Matao" playerid="2421578" result="[0 - 1]" team="away" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22231115" minute="44" player="Tiaguinho" playerid="" result="" team="away" type="yellowcard"></event>
 <event assist="" assistid="" extra_min="" id="22231116" minute="46" player="Yago" playerid="2564583" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231117" minute="46" player="Lucas" playerid="2446622" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231118" minute="62" player="L. Thalles" playerid="2647038" result="[2 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231119" minute="64" player="Diogo Marzagao" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231120" minute="71" player="Kinho" playerid="2593967" result="[2 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231121" minute="78" player="L. Thalles" playerid="2647038" result="[3 - 2]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231122" minute="88" player="Leo" playerid="2662818" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
+<ft score="[3-2]"></ft>
 </match><match alternate_id="4095030" alternate_id_2="4322111" commentary="False" date="16.04.2015" id="4212594" static_id="16041523389872339280" status="22:30" time="22:30">
 <home goals="?" id="2338987" name="Bahia"></home>
 <away goals="?" id="2339280" name="Nacional-AM"></away>
@@ -73,18 +97,27 @@
 <away goals="?" id="2350924" name="Dalian Aerbin"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4123500" alternate_id_2="4321776" commentary="True" date="16.04.2015" id="4241044" static_id="16041523399822339956" status="50" time="01:00">
-<home goals="1" id="2339982" name="Millonarios"></home>
-<away goals="0" id="2339956" name="Petrolera"></away>
+</match></league><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4123500" alternate_id_2="4321776" commentary="True" date="16.04.2015" id="4241044" static_id="16041523399822339956" status="FT" time="01:00">
+<home goals="3" id="2339982" name="Millonarios"></home>
+<away goals="1" id="2339956" name="Petrolera"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22231264" minute="25" player="J. Agudelo" playerid="2640177" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231264" minute="24" player="J. Agudelo" playerid="2640177" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231265" minute="36" player="R. Carrascal" playerid="2559393" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231266" minute="51" player="O. Vasquez" playerid="2354121" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231267" minute="62" player="F. Banguero" playerid="2584544" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231268" minute="66" player="D. Valencia" playerid="2509427" result="[2 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231269" minute="68" player="F. Insua" playerid="2333654" result="[3 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231270" minute="85" player="R. Robayo" playerid="2354118" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231271" minute="87" player="V. Castillo" playerid="2405921" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="2" id="22231272" minute="90" player="D. Silva" playerid="2501972" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
+<ft score="[3-1]"></ft>
 </match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4107503" alternate_id_2="4314335" commentary="False" date="16.04.2015" id="4225058" static_id="16041523535612339976" status="FT" time="00:00">
 <home goals="0" id="2353561" name="Jaguares de Cordoba"></home>
 <away goals="0" id="2339976" name="Ind. Medellin"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22156854" minute="86" player="Marin" playerid="2342258" result="" team="away" type="redcard"></event>
+<event assist="" assistid="" extra_min="" id="22156854" minute="86" player="Vladimir Marin Rios" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 <ft score="[0-0]"></ft>
@@ -94,6 +127,8 @@
 <events>
 <event assist="" assistid="" extra_min="" id="22156884" minute="4" player="O. Perez" playerid="2507641" result="[0 - 1]" team="away" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22156885" minute="86" player="J. Ramos" playerid="2354318" result="[0 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22156886" minute="90" player="Jefferson Murillo" playerid="" result="" team="home" type="redcard"></event>
+<event assist="" assistid="" extra_min="" id="22156887" minute="90" player="Oidel Jair Perez Rivadeneira" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 <ft score="[0-2]"></ft>
@@ -102,23 +137,31 @@
 <away goals="?" id="2349376" name="Llaneros"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="costarica" name="Costa Rica: Primera Division - Torneo De Verano" cup="False" id="3002" sub_id="30023"><match alternate_id="4034425" alternate_id_2="4319820" commentary="False" date="16.04.2015" id="4152043" static_id="16041523400202340052" status="8" time="02:00">
-<home goals="0" id="2340020" name="Alajuelense"></home>
-<away goals="0" id="2340052" name="U.C.R."></away>
+</match></league><league country="costarica" name="Costa Rica: Primera Division - Torneo De Verano" cup="False" id="3002" sub_id="30023"><match alternate_id="4034425" alternate_id_2="4319820" commentary="False" date="16.04.2015" id="4152043" static_id="16041523400202340052" status="FT" time="02:00">
+<home goals="2" id="2340020" name="Alajuelense"></home>
+<away goals="2" id="2340052" name="U.C.R."></away>
 <events>
+<event assist="" assistid="" extra_min="" id="22211704" minute="42" player="V. Gutierrez" playerid="2428363" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22211705" minute="44" player="D. Calvo" playerid="2469362" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22211706" minute="59" player="J. McDonald" playerid="2375013" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22211707" minute="60" player="J. Cascante" playerid="2529982" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22211708" minute="77" player="J. McDonald" playerid="2375013" result="[2 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22211709" minute="89" player="J. Solis" playerid="2374875" result="[2 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4316041" commentary="False" date="16.04.2015" id="" static_id="16041523400312340053" status="7" time="02:00">
-<home goals="0" id="2340031" name="Saprissa"></home>
-<away goals="0" id="2340053" name="CS Uruguay"></away>
+<ht score="[1-1]"></ht>
+<ft score="[2-2]"></ft>
+</match><match alternate_id="" alternate_id_2="4316041" commentary="False" date="16.04.2015" id="" static_id="16041523400312340053" status="FT" time="02:00">
+<home goals="4" id="2340031" name="Saprissa"></home>
+<away goals="1" id="2340053" name="CS Uruguay"></away>
 <events>
+<event assist="" assistid="" extra_min="" id="22173914" minute="11" player="D. Flores" playerid="2434730" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22173915" minute="23" player="J. Moya" playerid="2434726" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22173916" minute="27" player="D. Vega" playerid="2434727" result="[2 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22173917" minute="48" player="M. Escoe (pen.)" playerid="2450691" result="[3 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22173918" minute="57" player="D. Vega" playerid="2434727" result="[4 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
-</match></league><league country="côte_d'ivoire" name="Côte D'Ivoire: Ligue 1" cup="False" id="3004" sub_id=""><match alternate_id="4118334" alternate_id_2="4323692" commentary="False" date="15.04.2015" id="4235878" static_id="15041523400742340059" status="16:00" time="16:00">
-<home goals="?" id="2340074" name="Stade d Abidjan"></home>
-<away goals="?" id="2340059" name="Academie de FAD"></away>
-<events></events>
-<ht score=""></ht>
+<ht score="[2-1]"></ht>
+<ft score="[4-1]"></ft>
 </match></league><league country="denmark" name="Denmark: Nordicbet Ligaen" cup="False" id="3022" sub_id="30220"><match alternate_id="4033879" alternate_id_2="4321147" commentary="False" date="16.04.2015" id="4151497" static_id="16041523405742340647" status="16:30" time="16:30">
 <home goals="?" id="2340574" name="Vendsyssel FF"></home>
 <away goals="?" id="2340647" name="Vejle"></away>
@@ -184,21 +227,27 @@
 <away goals="?" id="2352215" name="BK-46"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="guatemala" name="Guatemala: Liga Nacional - Clausura" cup="False" id="3070" sub_id="30703"><match alternate_id="4111443" alternate_id_2="4321024" commentary="False" date="16.04.2015" id="4228994" static_id="16041523427862342769" status="8" time="02:00">
+</match></league><league country="guatemala" name="Guatemala: Liga Nacional - Clausura" cup="False" id="3070" sub_id="30703"><match alternate_id="4111443" alternate_id_2="4321024" commentary="False" date="16.04.2015" id="4228994" static_id="16041523427862342769" status="FT" time="02:00">
 <home goals="0" id="2342786" name="Petapa"></home>
 <away goals="0" id="2342769" name="Malacateco"></away>
 <events>
+<event assist="" assistid="" extra_min="" id="22223744" minute="57" player="M. Lopez" playerid="2726638" result="" team="away" type="redcard"></event>
+<event assist="" assistid="" extra_min="3" id="22223745" minute="90" player="B. Orellana" playerid="2688668" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="honduras" name="Honduras: Liga Nacional - Clausura" cup="False" id="3075" sub_id="30752"><match alternate_id="4093523" alternate_id_2="4319112" commentary="False" date="16.04.2015" id="4211089" static_id="16041523428532342859" status="55" time="01:00">
-<home goals="1" id="2342853" name="Motagua"></home>
+<ft score="[0-0]"></ft>
+</match></league><league country="honduras" name="Honduras: Liga Nacional - Clausura" cup="False" id="3075" sub_id="30752"><match alternate_id="4093523" alternate_id_2="4319112" commentary="False" date="16.04.2015" id="4211089" static_id="16041523428532342859" status="FT" time="01:00">
+<home goals="3" id="2342853" name="Motagua"></home>
 <away goals="0" id="2342859" name="Victoria"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22204624" minute="39" player="Medina" playerid="2375776" result="" team="away" type="redcard"></event>
 <event assist="" assistid="" extra_min="" id="22204625" minute="41" player="Discua" playerid="2387434" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22204626" minute="49" player="Castillo" playerid="2585368" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22204627" minute="85" player="Castillo" playerid="2585368" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4093522" alternate_id_2="4319113" commentary="False" date="16.04.2015" id="4211088" static_id="16041523378662342852" status="55" time="01:00">
+<ft score="[3-0]"></ft>
+</match><match alternate_id="4093522" alternate_id_2="4319113" commentary="False" date="16.04.2015" id="4211088" static_id="16041523378662342852" status="FT" time="01:00">
 <home goals="2" id="2337866" name="Platense"></home>
 <away goals="3" id="2342852" name="Marathon"></away>
 <events>
@@ -209,26 +258,35 @@
 <event assist="" assistid="" extra_min="" id="22204638" minute="36" player="Puerto" playerid="2416989" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[2-3]"></ht>
-</match><match alternate_id="4093520" alternate_id_2="4318865" commentary="False" date="16.04.2015" id="4211086" static_id="16041523428562354104" status="55" time="01:00">
-<home goals="1" id="2342856" name="Real Espana"></home>
-<away goals="0" id="2354104" name="Parrillas O."></away>
+<ft score="[2-3]"></ft>
+</match><match alternate_id="4093520" alternate_id_2="4318865" commentary="False" date="16.04.2015" id="4211086" static_id="16041523428562354104" status="FT" time="01:00">
+<home goals="3" id="2342856" name="Real Espana"></home>
+<away goals="1" id="2354104" name="Parrillas O."></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22202154" minute="20" player="Delgado" playerid="2375734" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22202155" minute="70" player="Rodas" playerid="2416991" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22202156" minute="76" player="Rodriguez" playerid="2639353" result="[2 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22202157" minute="90" player="Nunez" playerid="2375943" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4093521" alternate_id_2="4318866" commentary="False" date="16.04.2015" id="4211087" static_id="16041523428602347950" status="55" time="01:00">
+<ft score="[3-1]"></ft>
+</match><match alternate_id="4093521" alternate_id_2="4318866" commentary="False" date="16.04.2015" id="4211087" static_id="16041523428602347950" status="FT" time="01:00">
 <home goals="0" id="2342860" name="Vida"></home>
 <away goals="0" id="2347950" name="Real Sociedad"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4093524" alternate_id_2="4319150" commentary="False" date="16.04.2015" id="4211090" static_id="16041523555062342854" status="45" time="01:15">
+<ft score="[0-0]"></ft>
+</match><match alternate_id="4093524" alternate_id_2="4319150" commentary="False" date="16.04.2015" id="4211090" static_id="16041523555062342854" status="FT" time="01:15">
 <home goals="1" id="2355506" name="CD Honduras"></home>
-<away goals="0" id="2342854" name="Olimpia"></away>
+<away goals="2" id="2342854" name="Olimpia"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="22205004" minute="24" player="Zaldivar (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22205005" minute="47" player="Lozano" playerid="2434409" result="[1 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22205006" minute="76" player="Alvarado" playerid="2434402" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+<ft score="[1-2]"></ft>
 </match></league><league country="iceland" name="Iceland: League Cup - Play Offs" cup="True" id="3373" sub_id=""><match alternate_id="4123570" alternate_id_2="4325688" commentary="False" date="16.04.2015" id="4241114" static_id="16041523431132343103" status="18:00" time="18:00">
 <home goals="?" id="2343113" name="Akranes"></home>
 <away goals="?" id="2343103" name="Fjolnir"></away>
@@ -244,7 +302,7 @@
 <away goals="?" id="2343143" name="Valur"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4123572" alternate_id_2="4325691" commentary="False" date="16.04.2015" id="4241116" static_id="16041523431052343119" status="19:00" time="19:00">
+</match><match alternate_id="4123572" alternate_id_2="4325691" commentary="False" date="16.04.2015" id="4241116" static_id="16041523431052343119" status="20:00" time="20:00">
 <home goals="?" id="2343105" name="Fylkir"></home>
 <away goals="?" id="2343119" name="KA Akureyri"></away>
 <events></events>
@@ -289,50 +347,58 @@
 <away goals="?" id="2352122" name="Muhoroni"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura - Play Offs" cup="False" id="3142" sub_id=""><match alternate_id="4123817" alternate_id_2="4325947" commentary="False" date="16.04.2015" id="4241361" static_id="16041523447842344779" status="85" time="00:30">
+</match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura - Play Offs" cup="False" id="3142" sub_id=""><match alternate_id="4123817" alternate_id_2="4325947" commentary="False" date="16.04.2015" id="4241361" static_id="16041523447842344779" status="FT" time="00:30">
 <home goals="1" id="2344784" name="Necaxa"></home>
 <away goals="1" id="2344779" name="Merida"></away>
 <events>
-<event id="22272974" minute="39" player="Suarez" playerid="2684754" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22272975" minute="47" player="Padilla" playerid="2347121" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22272974" minute="39" player="Suarez" playerid="2684754" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22272975" minute="47" player="Padilla" playerid="2347121" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="north_and_central_america" name="North and Central America: Cfu Club Championship" cup="False" id="4432" sub_id=""><match alternate_id="4123685" alternate_id_2="4322059" commentary="False" date="15.04.2015" id="4241229" static_id="15041523505602345086" status="22:00" time="22:00">
-<home goals="?" id="2350560" name="America des Cayes"></home>
-<away goals="?" id="2345086" name="Excelsior"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124016" alternate_id_2="4322063" commentary="False" date="16.04.2015" id="4241560" static_id="" status="00:00" time="00:00">
-<home goals="?" id="2348745" name="W Connection"></home>
-<away goals="?" id="" name="Guyana Defence Force"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="panama" name="Panama: Lpf - Clausura" cup="False" id="4417" sub_id=""><match alternate_id="4124021" alternate_id_2="4323870" commentary="False" date="16.04.2015" id="4241565" static_id="16041523407992345695" status="01:00" time="01:00">
-<home goals="?" id="2340799" name="Alianza"></home>
-<away goals="?" id="2345695" name="Miguelito"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124019" alternate_id_2="4323871" commentary="False" date="16.04.2015" id="4241563" static_id="16041523456922345688" status="01:00" time="01:00">
-<home goals="?" id="2345692" name="Arabe Unido"></home>
-<away goals="?" id="2345688" name="Chiriqui"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124017" alternate_id_2="4323872" commentary="False" date="16.04.2015" id="4241561" static_id="16041523456912345694" status="01:00" time="01:00">
-<home goals="?" id="2345691" name="Chorrillo"></home>
-<away goals="?" id="2345694" name="San Francisco"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124018" alternate_id_2="4323873" commentary="False" date="16.04.2015" id="4241562" static_id="16041523378352345693" status="01:00" time="01:00">
-<home goals="?" id="2337835" name="Independiente"></home>
-<away goals="?" id="2345693" name="Plaza Amador"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124020" alternate_id_2="4323874" commentary="False" date="16.04.2015" id="4241564" static_id="16041523456962345690" status="01:00" time="01:00">
-<home goals="?" id="2345696" name="Tauro"></home>
-<away goals="?" id="2345690" name="Chepo"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101042" alternate_id_2="4320144" commentary="True" date="16.04.2015" id="4218600" static_id="16041523457172352094" status="90" time="00:10">
+<ft score="[1-1]"></ft>
+</match></league><league country="north_and_central_america" name="North and Central America: Cfu Club Championship" cup="False" id="4432" sub_id=""><match alternate_id="4124016" alternate_id_2="4322063" commentary="False" date="16.04.2015" id="4241560" static_id="" status="FT" time="00:00">
+<home goals="7" id="2348745" name="W Connection"></home>
+<away goals="1" id="" name="Guyana Defence Force"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+<ft score="[7-1]"></ft>
+</match></league><league country="panama" name="Panama: Lpf - Clausura" cup="False" id="4417" sub_id=""><match alternate_id="4124021" alternate_id_2="4323870" commentary="False" date="16.04.2015" id="4241565" static_id="16041523407992345695" status="FT" time="01:00">
+<home goals="1" id="2340799" name="Alianza"></home>
+<away goals="1" id="2345695" name="Miguelito"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+<ft score="[1-1]"></ft>
+</match><match alternate_id="4124019" alternate_id_2="4323871" commentary="False" date="16.04.2015" id="4241563" static_id="16041523456922345688" status="FT" time="01:00">
+<home goals="3" id="2345692" name="Arabe Unido"></home>
+<away goals="1" id="2345688" name="Chiriqui"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+<ft score="[3-1]"></ft>
+</match><match alternate_id="4124017" alternate_id_2="4323872" commentary="False" date="16.04.2015" id="4241561" static_id="16041523456912345694" status="FT" time="01:00">
+<home goals="0" id="2345691" name="Chorrillo"></home>
+<away goals="2" id="2345694" name="San Francisco"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+<ft score="[0-2]"></ft>
+</match><match alternate_id="4124018" alternate_id_2="4323873" commentary="False" date="16.04.2015" id="4241562" static_id="16041523378352345693" status="FT" time="01:00">
+<home goals="1" id="2337835" name="Independiente"></home>
+<away goals="2" id="2345693" name="Plaza Amador"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+<ft score="[1-2]"></ft>
+</match><match alternate_id="4124020" alternate_id_2="4323874" commentary="False" date="16.04.2015" id="4241564" static_id="16041523456962345690" status="FT" time="01:00">
+<home goals="1" id="2345696" name="Tauro"></home>
+<away goals="2" id="2345690" name="Chepo"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+<ft score="[1-2]"></ft>
+</match></league><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101042" alternate_id_2="4320144" commentary="True" date="16.04.2015" id="4218600" static_id="16041523457172352094" status="FT" time="00:10">
 <home goals="3" id="2345717" name="Libertad Asuncion"></home>
 <away goals="3" id="2352094" name="Deportivo Santani"></away>
 <events>
@@ -345,9 +411,11 @@
 <event assist="" assistid="" extra_min="3" id="22214950" minute="45" player="E. Torres" playerid="2354379" result="[2 - 2]" team="away" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22214951" minute="68" player="R. Leichtweis" playerid="2451130" result="[3 - 2]" team="home" type="goal"></event>
 <event assist="" assistid="" extra_min="" id="22214952" minute="69" player="G. Velazquez" playerid="2616374" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="201162943" minute="77" player="E. Torres" playerid="2354379" result="[3 - 3]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="201162943" minute="69" player="G. Arevalos" playerid="2557060" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="201162944" minute="77" player="E. Torres" playerid="2354379" result="[3 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[2-2]"></ht>
+<ft score="[3-3]"></ft>
 </match><match alternate_id="4101037" alternate_id_2="4320145" commentary="True" date="16.04.2015" id="4218595" static_id="16041523457192345722" status="21:00" time="21:00">
 <home goals="?" id="2345719" name="Nacional Asuncion"></home>
 <away goals="?" id="2345722" name="Rubio Nu"></away>
@@ -405,31 +473,49 @@
 <away goals="?" id="2347197" name="Brunei DPMM"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4107377" alternate_id_2="4321768" commentary="True" date="16.04.2015" id="4224932" static_id="16041523447512338976" status="53" time="01:00">
+</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4107377" alternate_id_2="4321768" commentary="True" date="16.04.2015" id="4224932" static_id="16041523447512338976" status="FT" time="01:00">
 <home goals="1" id="2344751" name="Atlas"></home>
 <away goals="0" id="2338976" name="Atletico-MG"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22231184" minute="38" player="D. Alvarez" playerid="2687156" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22231185" minute="39" player="A. Gonzalez" playerid="2525235" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22231186" minute="41" player="J. Datolo" playerid="2345711" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231184" minute="37" player="D. Alvarez" playerid="2687156" result="" team="home" type="yellowcard"></event>
+<event assist="E. Castillo" assistid="15214" extra_min="" id="22231185" minute="39" player="A. Gonzalez" playerid="2525235" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231186" minute="40" player="J. Datolo" playerid="2345711" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231187" minute="54" player="L. Donizete" playerid="2364755" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231188" minute="71" player="Patric" playerid="2365311" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4107378" alternate_id_2="4321764" commentary="True" date="16.04.2015" id="4224933" static_id="16041523398002339990" status="46" time="01:00">
+<ft score="[1-0]"></ft>
+</match><match alternate_id="4107378" alternate_id_2="4321764" commentary="True" date="16.04.2015" id="4224933" static_id="16041523398002339990" status="FT" time="01:00">
 <home goals="0" id="2339800" name="Colo Colo"></home>
-<away goals="1" id="2339990" name="Santa Fe"></away>
+<away goals="3" id="2339990" name="Santa Fe"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22231144" minute="31" player="L. Paez" playerid="2354127" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="L. Arias" assistid="72301" extra_min="" id="22231144" minute="30" player="L. Paez" playerid="2354127" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231145" minute="46" player="O. Perez" playerid="2354326" result="[0 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231146" minute="64" player="J. Beausejour" playerid="2353869" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231147" minute="67" player="C. Baeza" playerid="2568399" result="" team="home" type="yellowcard"></event>
+<event assist="O. Perez" assistid="22493" extra_min="" id="22231148" minute="67" player="Y. Mina" playerid="2621595" result="[0 - 3]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231149" minute="73" player="L. Arias" playerid="2404134" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231150" minute="79" player="W. Morelo" playerid="2354126" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231151" minute="84" player="J. Roa" playerid="2481261" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="1" id="22231152" minute="90" player="L. Paez" playerid="2354127" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4107379" alternate_id_2="4321775" commentary="True" date="16.04.2015" id="4224934" static_id="16041523492582339413" status="54" time="01:00">
+<ft score="[0-3]"></ft>
+</match><match alternate_id="4107379" alternate_id_2="4321775" commentary="True" date="16.04.2015" id="4224934" static_id="16041523492582339413" status="FT" time="01:00">
 <home goals="1" id="2349258" name="Danubio"></home>
-<away goals="0" id="2339413" name="Sao Paulo"></away>
+<away goals="2" id="2339413" name="Sao Paulo"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22231254" minute="29" player="B. Fornaroli" playerid="2355240" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22231255" minute="48" player="L. Sosa" playerid="2533540" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22231256" minute="52" player="Doria" playerid="2559717" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231254" minute="28" player="B. Fornaroli" playerid="2355240" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231255" minute="47" player="L. Sosa" playerid="2533540" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231256" minute="51" player="Doria" playerid="2559717" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231257" minute="55" player="Reinaldo" playerid="2506311" result="" team="away" type="yellowcard"></event>
+<event assist="M. Bastos" assistid="2059" extra_min="" id="22231258" minute="60" player="A. Pato" playerid="2341260" result="[1 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22231259" minute="64" player="Hudson" playerid="2364927" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="22231260" minute="80" player="J. Gravi" playerid="2660438" result="" team="home" type="yellowcard"></event>
+<event assist="M. Bastos" assistid="2059" extra_min="" id="22231261" minute="90" player="R. Centurion" playerid="2580001" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+<ft score="[1-2]"></ft>
 </match><match alternate_id="4107387" alternate_id_2="4323823" commentary="True" date="16.04.2015" id="4224942" static_id="16041523377592339841" status="22:45" time="22:45">
 <home goals="?" id="2337759" name="Boca Juniors"></home>
 <away goals="?" id="2339841" name="Palestino"></away>
@@ -483,7 +569,7 @@
 <away goals="?" id="2349197" name="Philadelphia Union"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="usa" name="Usa: Usl" cup="False" id="3860" sub_id=""><match alternate_id="" alternate_id_2="4326022" commentary="False" date="16.04.2015" id="" static_id="" status="02:30" time="02:30">
+</match></league><league country="usa" name="Usa: Usl" cup="False" id="3860" sub_id=""><match alternate_id="" alternate_id_2="4326022" commentary="False" date="16.04.2015" id="" static_id="" status="02:45" time="02:45">
 <home goals="?" id="2355169" name="Sacramento Republic"></home>
 <away goals="?" id="" name="Vancouver Whitecaps 2"></away>
 <events></events>
@@ -493,12 +579,15 @@
 <away goals="?" id="2349209" name="Rochester"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="world" name="World: Friendly International" cup="False" id="3368" sub_id="33680"><match alternate_id="4093122" alternate_id_2="4299993" commentary="False" date="16.04.2015" id="4210688" static_id="16041523490902344742" status="46" time="00:30">
-<home goals="0" id="2349090" name="USA"></home>
+</match></league><league country="world" name="World: Friendly International" cup="False" id="3368" sub_id="33680"><match alternate_id="4093122" alternate_id_2="4299993" commentary="False" date="16.04.2015" id="4210688" static_id="16041523490902344742" status="FT" time="00:30">
+<home goals="2" id="2349090" name="USA"></home>
 <away goals="0" id="2344742" name="Mexico"></away>
 <events>
+<event assist="" assistid="" extra_min="" id="22013434" minute="49" player="J. Morris" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="M. Bradley" assistid="2304" extra_min="" id="22013435" minute="72" player="J. Agudelo" playerid="2435001" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+<ft score="[2-0]"></ft>
 </match><match alternate_id="" alternate_id_2="4326062" commentary="False" date="16.04.2015" id="" static_id="16041523428462338920" status="18:00" time="18:00">
 <home goals="?" id="2342846" name="Honduras U20"></home>
 <away goals="?" id="2338920" name="Brazil U20"></away>
