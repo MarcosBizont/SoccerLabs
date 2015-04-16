@@ -1,33 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:51" sport="soccer" country="korea"><league country="korea" name="South Korea: K-League Classic" cup="False" id="3115" sub_id="31150"><match alternate_id="4106685" alternate_id_2="4319324" date="15.04.2015" id="4224240" static_id="15041523441722344162" status="10:30" time="10:30">
-<home goals="?" id="2344172" name="Jeju Utd"></home>
-<away goals="?" id="2344162" name="Gwangju FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4106681" alternate_id_2="4317311" date="15.04.2015" id="4224236" static_id="15041523441832344152" status="10:30" time="10:30">
-<home goals="?" id="2344183" name="Pohang"></home>
-<away goals="?" id="2344152" name="Jeonnam"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4106683" alternate_id_2="4317286" date="15.04.2015" id="4224238" static_id="15041523441852344170" status="10:30" time="10:30">
-<home goals="?" id="2344185" name="Seongnam"></home>
-<away goals="?" id="2344170" name="Incheon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4106684" alternate_id_2="4317246" date="15.04.2015" id="4224239" static_id="15041523441562344154" status="10:30" time="10:30">
-<home goals="?" id="2344156" name="Seoul"></home>
-<away goals="?" id="2344154" name="Daejeon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4106682" alternate_id_2="4317192" date="15.04.2015" id="4224237" static_id="15041523441932344191" status="10:30" time="10:30">
-<home goals="?" id="2344193" name="Ulsan Hyundai"></home>
-<away goals="?" id="2344191" name="Suwon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4106680" alternate_id_2="4317191" date="15.04.2015" id="4224235" static_id="15041523441442344173" status="10:00" time="10:00">
-<home goals="?" id="2344144" name="Busan"></home>
-<away goals="?" id="2344173" name="Jeonbuk"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:50" sport="soccer" country="korea"><league country="korea" name="South Korea: K-League Classic" cup="False" id="3115" sub_id="31150"><match alternate_id="4106685" alternate_id_2="4319324" date="15.04.2015" id="4224240" static_id="15041523441722344162" status="FT" time="10:30">
+<home goals="2" id="2344172" name="Jeju Utd"></home>
+<away goals="1" id="2344162" name="Gwangju FC"></away>
+<events>
+<event id="22206744" minute="16" player="Hwang Il-Soo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22206745" minute="17" player="L. Yeo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22206746" minute="48" player="Eun-Kyu Jang" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22206747" minute="50" player="G. Fortunato" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22206748" minute="59" player="Bae Ki-Jong" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4106681" alternate_id_2="4317311" date="15.04.2015" id="4224236" static_id="15041523441832344152" status="FT" time="10:30">
+<home goals="4" id="2344183" name="Pohang"></home>
+<away goals="1" id="2344152" name="Jeonnam"></away>
+<events>
+<event id="22186614" minute="33" player="Moon Chang-Jin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22186615" minute="41" player="M. Orsic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22186616" minute="51" player="T. Alves" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22186617" minute="60" player="J. Son" playerid="2358586" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22186618" minute="62" player="J. Son" playerid="2358586" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22186619" minute="77" player="Kim Seung-Dae" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22186620" minute="82" player="Choi Hyo-Jin" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4106683" alternate_id_2="4317286" date="15.04.2015" id="4224238" static_id="15041523441852344170" status="FT" time="10:30">
+<home goals="0" id="2344185" name="Seongnam"></home>
+<away goals="0" id="2344170" name="Incheon"></away>
+<events>
+<event id="22186364" minute="13" player="D. Park" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22186365" minute="53" player="Jang Won-Seok" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22186366" minute="57" player="Park Tae-Min" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22186367" minute="65" player="Jorginho" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22186368" minute="78" player="Kim In-Sung" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22186369" minute="90+2" player="Kim Dong-Suk" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4106684" alternate_id_2="4317246" date="15.04.2015" id="4224239" static_id="15041523441562344154" status="FT" time="10:30">
+<home goals="1" id="2344156" name="Seoul"></home>
+<away goals="0" id="2344154" name="Daejeon"></away>
+<events>
+<event id="22185964" minute="27" player="Ahn Sang-Hyun" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22185965" minute="63" player="Kim Hyun-Sung" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22185966" minute="77" player="C. Park" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22185967" minute="90+2" player="Ahn Sang-Hyun" playerid="" result="" team="away" type="yellowred"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4106682" alternate_id_2="4317192" date="15.04.2015" id="4224237" static_id="15041523441932344191" status="FT" time="10:30">
+<home goals="1" id="2344193" name="Ulsan Hyundai"></home>
+<away goals="1" id="2344191" name="Suwon"></away>
+<events>
+<event id="22185424" minute="5" player="Kaio" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22185425" minute="35" player="S. Cho" playerid="2358769" result="" team="away" type="yellowcard"></event>
+<event id="22185426" minute="45+1" player="Lim Chang-Woo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22185427" minute="67" player="Kaio" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22185428" minute="82" player="Kim Shin-Wook" playerid="2407290" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4106680" alternate_id_2="4317191" date="15.04.2015" id="4224235" static_id="15041523441442344173" status="FT" time="10:00">
+<home goals="1" id="2344144" name="Busan"></home>
+<away goals="2" id="2344173" name="Jeonbuk"></away>
+<events>
+<event id="22185414" minute="16" player="K. Kee-Hee" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22185415" minute="52" player="Park Yong-Ji" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22185416" minute="78" player="Lee Dong-Gook" playerid="2337093" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22185417" minute="87" player="Leonardo" playerid="2351009" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22185418" minute="89" player="Lee Dong-Gook" playerid="2337093" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4106679" alternate_id_2="4317190" date="12.04.2015" id="4224234" static_id="12041523441622344173" status="FT" time="07:00">
 <home goals="2" id="2344162" name="Gwangju FC"></home>
 <away goals="3" id="2344173" name="Jeonbuk"></away>
@@ -178,20 +216,20 @@
 <event id="22097531" minute="81" player="Kim Yong-Hwan" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4106666" alternate_id_2="4308401" date="22.03.2015" id="4224221" static_id="22031523441852344191" status="FT" time="05:00">
-<home goals="1" id="2344185" name="Seongnam"></home>
-<away goals="3" id="2344191" name="Suwon"></away>
+</match><match alternate_id="4106665" alternate_id_2="4308400" date="22.03.2015" id="4224220" static_id="22031523441832344156" status="FT" time="05:00">
+<home goals="2" id="2344183" name="Pohang"></home>
+<away goals="1" id="2344156" name="Seoul"></away>
 <events>
-<event id="22097514" minute="27" player="Kim Tae-Yoo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22097515" minute="36" player="Beom-Seok Oh" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22097516" minute="44" player="Yun Young-Sun" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22097517" minute="45+1" player="Yeom Ki-Hun" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22097518" minute="50" player="Yeom Ki-Hun" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22097519" minute="69" player="Hwang Eui-Jo" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22097520" minute="88" player="Kaio" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22097521" minute="90+2" player="Kaio" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22097504" minute="32" player="Kim Seung-Dae" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22097505" minute="51" player="J. Son" playerid="2358586" result="" team="home" type="yellowcard"></event>
+<event id="22097506" minute="52" player="Shin Hwa-Yong" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22097507" minute="53" player="Park Sun-Ju" playerid="2434849" result="" team="home" type="yellowcard"></event>
+<event id="22097508" minute="56" player="Kim Seung-Dae" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22097509" minute="58" player="Koh Myong-Jin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22097510" minute="67" player="Ko Yo-Han" playerid="2358759" result="" team="away" type="yellowcard"></event>
+<event id="22097511" minute="86" player="J. Tae-Yun" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[1-0]"></ht>
 </match></league><league country="korea" name="South Korea: K-League Classic - Relegation" cup="False" id="3115" sub_id=""><match alternate_id="" alternate_id_2="4294666" date="06.12.2014" id="" static_id="06121423441652344162" status="FT" time="05:00">
 <home goals="1" id="2344165" name="Gyeongnam"></home>
 <away goals="1" id="2344162" name="Gwangju FC"></away>
@@ -575,31 +613,52 @@
 <event id="21878940" minute="85" player="Lee Jong-Ho" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="korea" name="South Korea: K League Challenge" cup="False" id="4190" sub_id="41900"><match alternate_id="4102859" alternate_id_2="4306524" date="15.04.2015" id="4220417" static_id="15041523441432344181" status="10:30" time="10:30">
-<home goals="?" id="2344143" name="Bucheon FC 1995"></home>
-<away goals="?" id="2344181" name="Hummel"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102860" alternate_id_2="4306525" date="15.04.2015" id="4220418" static_id="15041523441532344140" status="10:30" time="10:30">
-<home goals="?" id="2344153" name="Daegu"></home>
-<away goals="?" id="2344140" name="Anyang"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102861" alternate_id_2="4306526" date="15.04.2015" id="4220419" static_id="15041523441922352256" status="10:30" time="10:30">
-<home goals="?" id="2344192" name="Suwon City"></home>
-<away goals="?" id="2352256" name="Ansan Police"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102857" alternate_id_2="4306522" date="15.04.2015" id="4220415" static_id="15041523441582344139" status="10:00" time="10:00">
-<home goals="?" id="2344158" name="Gangwon"></home>
-<away goals="?" id="2344139" name="Goyang Hi"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102858" alternate_id_2="4306523" date="15.04.2015" id="4220416" static_id="15041523441632356189" status="10:00" time="10:00">
-<home goals="?" id="2344163" name="Sangju Sangmu"></home>
-<away goals="?" id="2356189" name="Seoul E."></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="korea" name="South Korea: K League Challenge" cup="False" id="4190" sub_id="41900"><match alternate_id="4102859" alternate_id_2="4306524" date="15.04.2015" id="4220417" static_id="15041523441432344181" status="FT" time="10:30">
+<home goals="0" id="2344143" name="Bucheon FC 1995"></home>
+<away goals="0" id="2344181" name="Hummel"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102860" alternate_id_2="4306525" date="15.04.2015" id="4220418" static_id="15041523441532344140" status="FT" time="10:30">
+<home goals="2" id="2344153" name="Daegu"></home>
+<away goals="2" id="2344140" name="Anyang"></away>
+<events>
+<event id="22078754" minute="1" player="Jang Baek Kyu" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22078755" minute="33" player="Kim Tae Bong" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22078756" minute="44" player="Jonathan" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22078757" minute="45" player="Ahn Seong Min" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4102861" alternate_id_2="4306526" date="15.04.2015" id="4220419" static_id="15041523441922352256" status="FT" time="10:30">
+<home goals="2" id="2344192" name="Suwon City"></home>
+<away goals="2" id="2352256" name="Ansan Police"></away>
+<events>
+<event id="22078764" minute="27" player="Hyuk" playerid="2451466" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22078765" minute="73" player="Jung Ki Woon" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22078766" minute="85" player="Hyuk" playerid="2451466" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22078767" minute="90" player="Kim Han Weon" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4102857" alternate_id_2="4306522" date="15.04.2015" id="4220415" static_id="15041523441582344139" status="FT" time="10:00">
+<home goals="0" id="2344158" name="Gangwon"></home>
+<away goals="1" id="2344139" name="Goyang Hi"></away>
+<events>
+<event id="22078724" minute="33" player="Kim Yu Seong" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22078725" minute="39" player="Kim Dong Ki" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4102858" alternate_id_2="4306523" date="15.04.2015" id="4220416" static_id="15041523441632356189" status="FT" time="10:00">
+<home goals="3" id="2344163" name="Sangju Sangmu"></home>
+<away goals="2" id="2356189" name="Seoul E."></away>
+<events>
+<event id="22078734" minute="6" player="Lim Sang Hyeob" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22078735" minute="24" player="Shin Il Soo" playerid="" result="" team="away" type="redcard"></event>
+<event id="22078736" minute="52" player="Chu Ming Joo" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22078737" minute="55" player="Park Gi Dong" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22078738" minute="73" player="Mitchell" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22078739" minute="90" player="Yeo Sung Hye" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4102856" alternate_id_2="4306521" date="05.04.2015" id="4220414" static_id="05041523441652344163" status="FT" time="07:00">
 <home goals="1" id="2344165" name="Gyeongnam"></home>
 <away goals="3" id="2344163" name="Sangju Sangmu"></away>

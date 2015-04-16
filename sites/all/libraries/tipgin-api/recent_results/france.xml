@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:09" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="3985249" alternate_id_2="4319474" date="15.04.2015" id="4102871" static_id="15041523418732341698" status="16:30" time="16:30">
-<home goals="?" id="2341873" name="Lyon"></home>
-<away goals="?" id="2341698" name="Bastia"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:08" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="3985249" alternate_id_2="4319474" date="15.04.2015" id="4102871" static_id="15041523418732341698" status="FT" time="16:30">
+<home goals="2" id="2341873" name="Lyon"></home>
+<away goals="0" id="2341698" name="Bastia"></away>
+<events>
+<event id="22208244" minute="45+1" player="B. Kone" playerid="2387536" result="" team="home" type="yellowcard"></event>
+<event id="22208245" minute="77" player="M. Yattara" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22208246" minute="80" player="S. Umtiti" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22208247" minute="85" player="A. Lacazette" playerid="2419486" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="3985245" alternate_id_2="4319473" date="12.04.2015" id="4102867" static_id="12041523417082341875" status="FT" time="19:00">
 <home goals="1" id="2341708" name="Bordeaux"></home>
 <away goals="0" id="2341875" name="Marseille"></away>

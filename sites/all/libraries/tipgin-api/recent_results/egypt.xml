@@ -1,23 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:38" sport="soccer" country="egypt"><league country="egypt" name="Egypt: Premier League" cup="False" id="3026" sub_id="30260"><match alternate_id="4118699" alternate_id_2="4323598" date="15.04.2015" id="4236243" static_id="15041523407412340734" status="15:30" time="15:30">
-<home goals="?" id="2340741" name="El Masry"></home>
-<away goals="?" id="2340734" name="El Gaish"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118697" alternate_id_2="4323595" date="15.04.2015" id="4236241" static_id="15041523407352340717" status="13:30" time="13:30">
-<home goals="?" id="2340735" name="El Gounah"></home>
-<away goals="?" id="2340717" name="Arab Contractors"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118696" alternate_id_2="4323596" date="15.04.2015" id="4236240" static_id="15041523407612340732" status="13:30" time="13:30">
-<home goals="?" id="2340761" name="Haras El Hodood"></home>
-<away goals="?" id="2340732" name="El Daklyeh"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4118698" alternate_id_2="4323597" date="15.04.2015" id="4236242" static_id="15041523407732345643" status="13:30" time="13:30">
-<home goals="?" id="2340773" name="Misr Elmaqasah"></home>
-<away goals="?" id="2345643" name="Al Nasr"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:37" sport="soccer" country="egypt"><league country="egypt" name="Egypt: Premier League" cup="False" id="3026" sub_id="30260"><match alternate_id="4118699" alternate_id_2="4323598" date="15.04.2015" id="4236243" static_id="15041523407412340734" status="FT" time="15:30">
+<home goals="0" id="2340741" name="El Masry"></home>
+<away goals="0" id="2340734" name="El Gaish"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118697" alternate_id_2="4323595" date="15.04.2015" id="4236241" static_id="15041523407352340717" status="FT" time="13:30">
+<home goals="2" id="2340735" name="El Gounah"></home>
+<away goals="1" id="2340717" name="Arab Contractors"></away>
+<events>
+<event id="20200474" minute="77" player="Mohamed T." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20200475" minute="80" player="Ashraf S." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20200476" minute="90" player="Al-Saied A." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118696" alternate_id_2="4323596" date="15.04.2015" id="4236240" static_id="15041523407612340732" status="FT" time="13:30">
+<home goals="1" id="2340761" name="Haras El Hodood"></home>
+<away goals="0" id="2340732" name="El Daklyeh"></away>
+<events>
+<event id="20200464" minute="73" player="Genedi G." playerid="" result="" team="away" type="yellowred"></event>
+<event id="20200465" minute="86" player="Hassan M. A." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118698" alternate_id_2="4323597" date="15.04.2015" id="4236242" static_id="15041523407732345643" status="FT" time="13:30">
+<home goals="2" id="2340773" name="Misr Elmaqasah"></home>
+<away goals="1" id="2345643" name="Al Nasr"></away>
+<events>
+<event id="20200484" minute="3" player="Mohamed Essam (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20200485" minute="30" player="Hamdi E." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20200486" minute="37" player="Fawzi M." playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4323592" date="14.04.2015" id="" static_id="14041523407162354998" status="FT" time="16:00">
 <home goals="5" id="2340716" name="Al Ahly"></home>
 <away goals="0" id="2354998" name="Alassiouty"></away>
@@ -358,13 +370,16 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3996355" alternate_id_2="4122332" date="10.07.2014" id="4113977" static_id="10071423407162354745" status="FT" time="19:30">
-<home goals="1" id="2340716" name="Al Ahly"></home>
-<away goals="0" id="2354745" name="El Raja"></away>
+</match><match alternate_id="4007079" alternate_id_2="4122333" date="10.07.2014" id="4124700" static_id="10071423407492340783" status="Pen." time="19:30">
+<home goals="2" id="2340749" name="El-Shorta"></home>
+<away goals="2" id="2340783" name="Smouha"></away>
 <events>
-<event id="18977054" minute="60" player=" Meteab E." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19084294" minute="23" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19084295" minute="43" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="19084296" minute="67" player="" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="19084297" minute="90" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[0-2]"></ht>
 </match></league><league country="egypt" name="Egypt: Super Cup" cup="True" id="4098" sub_id=""><match alternate_id="" alternate_id_2="4273362" date="14.09.2014" id="" static_id="14091423407162340792" status="Pen." time="17:00">
 <home goals="0" id="2340716" name="Al Ahly"></home>
 <away goals="0" id="2340792" name="Zamalek"></away>

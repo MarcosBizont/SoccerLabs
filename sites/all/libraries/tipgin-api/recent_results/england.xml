@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:40:04" sport="soccer" country="england"><league country="england" name="England: Premier League" cup="False" id="3037" sub_id="30370"><match alternate_id="3970022" alternate_id_2="4322769" date="13.04.2015" id="4087675" static_id="13041523410822341120" status="FT" time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:04" sport="soccer" country="england"><league country="england" name="England: Premier League" cup="False" id="3037" sub_id="30370"><match alternate_id="3970022" alternate_id_2="4322769" date="13.04.2015" id="4087675" static_id="13041523410822341120" status="FT" time="19:00">
 <home goals="2" id="2341082" name="Liverpool"></home>
 <away goals="0" id="2341120" name="Newcastle Utd"></away>
 <events>
@@ -256,16 +256,32 @@
 <event id="200834544" minute="90+6" player="C. Brunt" playerid="2347345" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-3]"></ht>
-</match></league><league country="england" name="England: Championship" cup="False" id="3038" sub_id="30380"><match alternate_id="3999050" alternate_id_2="4323698" date="15.04.2015" id="4116672" static_id="15041523410082341166" status="19:00" time="19:00">
-<home goals="?" id="2341008" name="Fulham"></home>
-<away goals="?" id="2341166" name="Rotherham"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3999049" alternate_id_2="4323696" date="15.04.2015" id="4116671" static_id="15041523411302341256" status="18:45" time="18:45">
-<home goals="?" id="2341130" name="Nottingham"></home>
-<away goals="?" id="2341256" name="Watford"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="england" name="England: Championship" cup="False" id="3038" sub_id="30380"><match alternate_id="3999050" alternate_id_2="4323698" date="15.04.2015" id="4116672" static_id="15041523410082341166" status="FT" time="19:00">
+<home goals="1" id="2341008" name="Fulham"></home>
+<away goals="1" id="2341166" name="Rotherham"></away>
+<events>
+<event id="22250484" minute="4" player="M. Derbyshire" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22250485" minute="54" player="D. Guthrie" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22250486" minute="67" player="R. McCormack" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22250487" minute="73" player="K. Broadfoot" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22250488" minute="81" player="D. Burn" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22250489" minute="86" player="M. Turner" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="3999049" alternate_id_2="4323696" date="15.04.2015" id="4116671" static_id="15041523411302341256" status="FT" time="18:45">
+<home goals="1" id="2341130" name="Nottingham"></home>
+<away goals="3" id="2341256" name="Watford"></away>
+<events>
+<event id="22250464" minute="4" player="O. Ighalo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22250465" minute="41" player="M. Connolly" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22250466" minute="51" player="T. Deeney" playerid="2383030" result="" team="away" type="yellowcard"></event>
+<event id="22250467" minute="56" player="A. Abdi" playerid="2343324" result="" team="away" type="yellowcard"></event>
+<event id="22250468" minute="59" player="K. Wilson" playerid="2347445" result="" team="home" type="redcard"></event>
+<event id="22250469" minute="65" player="M. Motta" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22250470" minute="72" player="G. Gardner" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22250471" minute="87" player="A. Abdi" playerid="2343324" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
 </match><match alternate_id="3999047" alternate_id_2="4323394" date="14.04.2015" id="4116669" static_id="14041523408812340921" status="FT" time="19:00">
 <home goals="1" id="2340881" name="Bolton"></home>
 <away goals="1" id="2340921" name="Charlton"></away>
@@ -431,7 +447,7 @@
 <event id="22235384" minute="14" player="S. Morrison" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22235385" minute="17" player="K. Philips" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22235386" minute="36" player="L. Peltier" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22235387" minute="45+1" player="S. Morrison" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235387" minute="45+2" player="S. Morrison" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22235388" minute="54" player="G. Bellusci" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22235389" minute="55" player="A. Gunnarsson" playerid="2356488" result="" team="away" type="yellowcard"></event>
 <event id="22235390" minute="62" player="A. Gunnarsson" playerid="2356488" result="[1 - 2]" team="away" type="goal"></event>
@@ -439,6 +455,16 @@
 <event id="22235392" minute="85" player="K. Harris" playerid="2465620" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
+</match><match alternate_id="3999035" alternate_id_2="4322189" date="11.04.2015" id="4116657" static_id="11041523411072341166" status="FT" time="14:00">
+<home goals="2" id="2341107" name="Middlesbrough"></home>
+<away goals="0" id="2341166" name="Rotherham"></away>
+<events>
+<event id="22235394" minute="50" player="L. Tomlin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22235395" minute="64" player="K. Arnason" playerid="2343475" result="" team="away" type="yellowcard"></event>
+<event id="22235396" minute="66" player="P. Bamford" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22235397" minute="90+1" player="L. Frecklington" playerid="2382432" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="3999036" alternate_id_2="4322190" date="11.04.2015" id="4116658" static_id="11041523411092341256" status="FT" time="14:00">
 <home goals="0" id="2341109" name="Millwall"></home>
 <away goals="2" id="2341256" name="Watford"></away>
@@ -466,18 +492,6 @@
 <event id="22235425" minute="90" player="H. Robson-Kanu" playerid="2378325" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3999038" alternate_id_2="4322193" date="11.04.2015" id="4116660" static_id="11041523411822340921" status="FT" time="14:00">
-<home goals="1" id="2341182" name="Sheffield Wed"></home>
-<away goals="1" id="2340921" name="Charlton"></away>
-<events>
-<event id="22235434" minute="41" player="C. Lavery" playerid="2490718" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235435" minute="52" player="S. Hutchinson" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22235436" minute="60" player="J. Helan" playerid="2544729" result="" team="home" type="yellowcard"></event>
-<event id="22235437" minute="75" player="J. Gudmundsson" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22235438" minute="85" player="C. Solly" playerid="2410089" result="" team="away" type="yellowcard"></event>
-<event id="22235439" minute="90+1" player="Y. Buyens" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="england" name="England: Championship - Play Offs" cup="False" id="3038" sub_id=""><match alternate_id="" alternate_id_2="4114316" date="24.05.2014" id="" static_id="24051423409662341151" status="FT" time="14:00">
 <home goals="0" id="2340966" name="Derby"></home>
 <away goals="1" id="2341151" name="QPR"></away>
@@ -698,6 +712,15 @@
 <event id="22247575" minute="76" player="J. Murphy" playerid="2344936" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="3999547" alternate_id_2="4322194" date="11.04.2015" id="4117169" static_id="11041523408542340930" status="FT" time="14:00">
+<home goals="1" id="2340854" name="Barnsley"></home>
+<away goals="1" id="2340930" name="Chesterfield"></away>
+<events>
+<event id="22235444" minute="26" player="J. O'Shea" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22235445" minute="62" player="S. Winnall" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22235446" minute="78" player="S. Winnall" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="3999548" alternate_id_2="4322195" date="11.04.2015" id="4117170" static_id="11041523409492340939" status="FT" time="14:00">
 <home goals="1" id="2340949" name="Coventry"></home>
 <away goals="0" id="2340939" name="Colchester"></away>
@@ -726,28 +749,28 @@
 <event id="22235477" minute="61" player="D. Furman" playerid="2344784" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="3999551" alternate_id_2="4322198" date="11.04.2015" id="4117173" static_id="11041523410122340889" status="FT" time="14:00">
-<home goals="1" id="2341012" name="Gillingham FC"></home>
-<away goals="0" id="2340889" name="Bradford"></away>
+</match><match alternate_id="3999554" alternate_id_2="4322201" date="11.04.2015" id="4117176" static_id="11041523411502340899" status="FT" time="14:00">
+<home goals="1" id="2341150" name="Preston"></home>
+<away goals="1" id="2340899" name="Bristol City"></away>
 <events>
-<event id="22235484" minute="19" player="L. Legge" playerid="2368009" result="" team="home" type="yellowcard"></event>
-<event id="22235485" minute="23" player="J. Hanson" playerid="2417296" result="" team="away" type="yellowcard"></event>
-<event id="22235486" minute="72" player="J. Marquis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22235514" minute="30" player="J. King" playerid="2469421" result="" team="home" type="yellowcard"></event>
+<event id="22235515" minute="59" player="J. Beckford" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22235516" minute="63" player="A. Wilbraham" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22235517" minute="85" player="S. Wiseman" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3999552" alternate_id_2="4322199" date="11.04.2015" id="4117174" static_id="11041523411342341181" status="FT" time="14:00">
-<home goals="2" id="2341134" name="Oldham"></home>
-<away goals="2" id="2341181" name="Sheffield Utd"></away>
+</match><match alternate_id="3999555" alternate_id_2="4322202" date="11.04.2015" id="4117177" static_id="11041523411782340953" status="FT" time="14:00">
+<home goals="2" id="2341178" name="Scunthorpe"></home>
+<away goals="1" id="2340953" name="Crawley Town"></away>
 <events>
-<event id="22235494" minute="22" player="D. Poleon" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235495" minute="33" player="L. Reed" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22235496" minute="39" player="J. Mills" playerid="2389544" result="" team="home" type="yellowcard"></event>
-<event id="22235497" minute="43" player="D. Poleon" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22235498" minute="45+4" player="J. Holt" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22235499" minute="56" player="J. Holt" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="22235500" minute="73" player="J. Murphy" playerid="2344936" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22235524" minute="19" player="R. Dickson (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22235525" minute="62" player="R. Dickson" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235526" minute="62" player="P. Madden" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22235527" minute="64" player="L. Fowler" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235528" minute="77" player="I. McLeod" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22235529" minute="80" player="A. Boyce" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[2-0]"></ht>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="3999556" alternate_id_2="4322203" date="11.04.2015" id="4117178" static_id="11041523412222341142" status="FT" time="14:00">
 <home goals="1" id="2341222" name="Swindon"></home>
 <away goals="0" id="2341142" name="Peterborough"></away>
@@ -766,18 +789,6 @@
 <event id="22235545" minute="86" player="T. Bradshaw" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3999558" alternate_id_2="4322205" date="11.04.2015" id="4117180" static_id="11041523412922341131" status="FT" time="14:00">
-<home goals="1" id="2341292" name="Yeovil"></home>
-<away goals="1" id="2341131" name="Notts County"></away>
-<events>
-<event id="22235554" minute="10" player="H. Hollis (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235555" minute="64" player="G. Burke" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22235556" minute="67" player="S. Foley" playerid="2407612" result="" team="home" type="yellowcard"></event>
-<event id="22235557" minute="79" player="G. Thompson" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22235558" minute="80" player="B. Webster" playerid="2348391" result="" team="home" type="yellowcard"></event>
-<event id="22235559" minute="82" player="S. Arthurworrey" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="england" name="England: League One - Play Offs" cup="False" id="3039" sub_id=""><match alternate_id="3958652" alternate_id_2="4114781" date="25.05.2014" id="4076335" static_id="25051423410792341166" status="Pen." time="14:00">
 <home goals="2" id="2341079" name="Leyton Orient"></home>
 <away goals="2" id="2341166" name="Rotherham"></away>
@@ -843,11 +854,15 @@
 <event id="20134277" minute="90+5" player="K. Ntlhe" playerid="2532556" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="england" name="England: League Two" cup="False" id="3030" sub_id="30300"><match alternate_id="4000055" alternate_id_2="4323699" date="15.04.2015" id="4117677" static_id="15041523409072340917" status="18:45" time="18:45">
-<home goals="?" id="2340907" name="Burton"></home>
-<away goals="?" id="2340917" name="Carlisle"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="england" name="England: League Two" cup="False" id="3030" sub_id="30300"><match alternate_id="4000055" alternate_id_2="4323699" date="15.04.2015" id="4117677" static_id="15041523409072340917" status="FT" time="18:45">
+<home goals="1" id="2340907" name="Burton"></home>
+<away goals="1" id="2340917" name="Carlisle"></away>
+<events>
+<event id="22250494" minute="2" player="D. Grainger" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22250495" minute="69" player="N. Buddle" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22250496" minute="90+8" player="D. Johnstone" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4000056" alternate_id_2="4323408" date="14.04.2015" id="4117678" static_id="14041523409082341187" status="FT" time="18:45">
 <home goals="1" id="2340908" name="Bury"></home>
 <away goals="0" id="2341187" name="Shrewsbury"></away>
@@ -971,6 +986,26 @@
 <event id="22247687" minute="84" player="M. Hughes" playerid="2334772" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
+</match><match alternate_id="4000043" alternate_id_2="4322206" date="11.04.2015" id="4117665" static_id="11041523408272341139" status="FT" time="14:00">
+<home goals="0" id="2340827" name="AFC Wimbledon"></home>
+<away goals="0" id="2341139" name="Oxford Utd"></away>
+<events>
+<event id="22235564" minute="61" player="J. Goodman" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22235565" minute="66" player="B. Fuller" playerid="2382379" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4000044" alternate_id_2="4322207" date="11.04.2015" id="4117666" static_id="11041523409132340820" status="FT" time="14:00">
+<home goals="2" id="2340913" name="Cambridge Utd"></home>
+<away goals="2" id="2340820" name="Accrington"></away>
+<events>
+<event id="22235574" minute="8" player="T. Elliott" playerid="2399103" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22235575" minute="39" player="P. Mingoia" playerid="2464291" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22235576" minute="45" player="A. Buxton" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235577" minute="79" player="R. Bird" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22235578" minute="90+1" player="S. Conneely" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22235579" minute="90+4" player="N. Hunt" playerid="2334454" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4000045" alternate_id_2="4322208" date="11.04.2015" id="4117667" static_id="11041523409172340962" status="FT" time="14:00">
 <home goals="1" id="2340917" name="Carlisle"></home>
 <away goals="0" id="2340962" name="Dagenham and Red."></away>
@@ -994,16 +1029,6 @@
 <event id="22235595" minute="79" player="M. Palmer" playerid="2589805" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4000047" alternate_id_2="4322210" date="11.04.2015" id="4117669" static_id="11041523411132341147" status="FT" time="14:00">
-<home goals="3" id="2341113" name="Morecambe"></home>
-<away goals="1" id="2341147" name="Portsmouth"></away>
-<events>
-<event id="22235604" minute="10" player="A. Kenyon" playerid="2576947" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235605" minute="69" player="A. Kenyon" playerid="2576947" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22235606" minute="85" player="C. Chaplin" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="22235607" minute="90+3" player="P. Amond" playerid="2351596" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4000048" alternate_id_2="4322211" date="11.04.2015" id="4117670" static_id="11041523411212340908" status="FT" time="14:00">
 <home goals="0" id="2341121" name="Newport"></home>
 <away goals="2" id="2340908" name="Bury"></away>
@@ -1013,36 +1038,35 @@
 <event id="22235616" minute="88" player="D. Nardiello" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4000049" alternate_id_2="4322212" date="11.04.2015" id="4117671" static_id="11041523411442341095" status="FT" time="14:00">
-<home goals="2" id="2341144" name="Plymouth"></home>
-<away goals="1" id="2341095" name="Mansfield"></away>
+</match><match alternate_id="4000052" alternate_id_2="4322215" date="11.04.2015" id="4117674" static_id="11041523412072341126" status="FT" time="14:00">
+<home goals="2" id="2341207" name="Stevenage"></home>
+<away goals="1" id="2341126" name="Northampton"></away>
 <events>
-<event id="22235624" minute="2" player="A. O'Connor" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235625" minute="33" player="L. Beevers" playerid="2382429" result="" team="away" type="yellowcard"></event>
-<event id="22235626" minute="63" player="C. McHugh" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22235627" minute="64" player="V. Oliver" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22235654" minute="30" player="J. Taylor" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235655" minute="39" player="Z. Diamond" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22235656" minute="41" player="T. Pett" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22235657" minute="60" player="R. Cresswell" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235658" minute="65" player="C. Whelpdale" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22235659" minute="79" player="B. Moloney" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235660" minute="82" player="C. Lee" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22235661" minute="82" player="I. Toney" playerid="2609181" result="" team="away" type="yellowcard"></event>
+<event id="22235662" minute="90" player="S. Walton" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="201370043" minute="90+3" player="D. Wells" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201370044" minute="90+4" player="R. Cresswell" playerid="" result="" team="away" type="yellowred"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4000050" alternate_id_2="4322213" date="11.04.2015" id="4117672" static_id="11041523411872340993" status="FT" time="14:00">
-<home goals="4" id="2341187" name="Shrewsbury"></home>
-<away goals="0" id="2340993" name="Exeter"></away>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4000053" alternate_id_2="4322216" date="11.04.2015" id="4117675" static_id="11041523412882340926" status="FT" time="14:00">
+<home goals="2" id="2341288" name="Wycombe"></home>
+<away goals="1" id="2340926" name="Cheltenham"></away>
 <events>
-<event id="22235634" minute="18" player="J. Akpa-Akpro" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235635" minute="62" player="J. Collins" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22235636" minute="71" player="J. Grandison" playerid="2408478" result="" team="home" type="yellowcard"></event>
-<event id="22235637" minute="73" player="J. Akpa-Akpro" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22235638" minute="90+2" player="T. Barnett" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4000051" alternate_id_2="4322214" date="11.04.2015" id="4117673" static_id="11041523411972341241" status="FT" time="14:00">
-<home goals="1" id="2341197" name="Southend"></home>
-<away goals="0" id="2341241" name="Tranmere"></away>
-<events>
-<event id="22235644" minute="38" player="B. Corr" playerid="2382978" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22235645" minute="42" player="S. Jennings" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22235646" minute="60" player="C. Bolger" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22235647" minute="76" player="J. Donacien" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22235648" minute="84" player="R. Donnelly" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235664" minute="5" player="J. Deaman" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235665" minute="15" player="J. Jacobson" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22235666" minute="45+2" player="A. Pierre" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22235667" minute="54" player="D. Berry" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22235668" minute="56" player="A. Mawson" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22235669" minute="74" player="D. Berry" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235670" minute="76" player="S. McDonald" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22235671" minute="90" player="S. Saunders" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4000054" alternate_id_2="4322217" date="11.04.2015" id="4117676" static_id="11041523412932341035" status="FT" time="14:00">
@@ -1287,18 +1311,19 @@
 <event id="22235799" minute="73" player="J. Goddard" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4010041" alternate_id_2="4320728" date="06.04.2015" id="4127662" static_id="06041523408282341238" status="FT" time="14:00">
-<home goals="2" id="2340828" name="Aldershot"></home>
-<away goals="0" id="2341238" name="Torquay"></away>
+</match><match alternate_id="4010045" alternate_id_2="4320676" date="06.04.2015" id="4127666" static_id="06041523409712341278" status="FT" time="14:00">
+<home goals="2" id="2340971" name="Dover Ath."></home>
+<away goals="1" id="2341278" name="Woking"></away>
 <events>
-<event id="22220784" minute="5" player="T. Plummer" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22220785" minute="27" player="D. Lathrope" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22220786" minute="66" player="T. Ajala" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22220787" minute="74" player="G. Wilson" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22220788" minute="76" player="J. Robertson" playerid="2610234" result="" team="home" type="yellowcard"></event>
-<event id="22220789" minute="83" player="S. Hatton" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22220264" minute="37" player="Y. Odubade" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22220265" minute="49" player="S. Payne" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22220266" minute="57" player="C. Arthur" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22220267" minute="69" player="R. Orlu" playerid="2476562" result="" team="home" type="yellowcard"></event>
+<event id="22220268" minute="87" player="K. Murtagh" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22220269" minute="89" player="B. Saah" playerid="" result="" team="away" type="redcard"></event>
+<event id="22220270" minute="89" player="S. Payne (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4010046" alternate_id_2="4320677" date="06.04.2015" id="4127667" static_id="06041523410112340832" status="FT" time="14:00">
 <home goals="1" id="2341011" name="Gateshead"></home>
 <away goals="0" id="2340832" name="Altrincham"></away>
@@ -1323,22 +1348,22 @@
 <event id="22220802" minute="90+1" player="M. Taylor" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4010048" alternate_id_2="4320730" date="06.04.2015" id="4127669" static_id="06041523410802341027" status="FT" time="14:00">
-<home goals="1" id="2341080" name="Lincoln City"></home>
-<away goals="1" id="2341027" name="Halifax"></away>
+</match><match alternate_id="4010052" alternate_id_2="4320679" date="06.04.2015" id="4127673" static_id="06041523412582340981" status="FT" time="14:00">
+<home goals="1" id="2341258" name="Welling"></home>
+<away goals="2" id="2340981" name="Eastleigh"></away>
 <events>
-<event id="22220804" minute="12" player="H. Bencherif" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22220805" minute="45" player="T. Miller" playerid="2444240" result="" team="home" type="yellowcard"></event>
-<event id="22220806" minute="53" player="A. Power" playerid="2382762" result="" team="home" type="yellowcard"></event>
-<event id="22220807" minute="56" player="K. Wallace" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22220808" minute="62" player="J. Cranston" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22220809" minute="73" player="J. Caprice" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22220810" minute="75" player="L. Maynard" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22220811" minute="81" player="G. Hutchinson" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22220812" minute="90" player="L. Maynard" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="201221543" minute="90+3" player="J. Cranston" playerid="" result="" team="home" type="yellowred"></event>
+<event id="22220294" minute="6" player="J. Reason" playerid="2378133" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22220295" minute="29" player="R. Flitney" playerid="2367887" result="" team="away" type="yellowcard"></event>
+<event id="22220296" minute="30" player="H. Osborne" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22220297" minute="37" player="B. Jefford" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22220298" minute="71" player="J. Partington" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22220299" minute="71" player="R. Lafayette" playerid="2436792" result="" team="home" type="yellowcard"></event>
+<event id="22220300" minute="74" player="J. Healy" playerid="2393077" result="" team="home" type="yellowcard"></event>
+<event id="22220301" minute="75" player="J. Turley" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22220302" minute="90+2" player="S. Corne" playerid="2639749" result="" team="home" type="yellowcard"></event>
+<event id="201216443" minute="90+4" player="D. Walker" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[1-1]"></ht>
 </match></league><league country="england" name="England: Vanarama Conference - Play Offs" cup="False" id="3036" sub_id=""><match alternate_id="3954436" alternate_id_2="4112841" date="18.05.2014" id="4072131" static_id="18051423409132341011" status="FT" time="15:00">
 <home goals="2" id="2340913" name="Cambridge Utd"></home>
 <away goals="1" id="2341011" name="Gateshead"></away>
@@ -1549,20 +1574,26 @@
 <event id="22227175" minute="90+3" player="M. Symons" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4010803" alternate_id_2="4320682" date="06.04.2015" id="4128424" static_id="06041523408212340942" status="FT" time="14:00">
-<home goals="6" id="2340821" name="Fylde"></home>
-<away goals="2" id="2340942" name="Colwyn Bay"></away>
+</match><match alternate_id="4010807" alternate_id_2="4320684" date="06.04.2015" id="4128428" static_id="06041523410252341204" status="FT" time="14:00">
+<home goals="0" id="2341025" name="Guiseley"></home>
+<away goals="2" id="2341204" name="Stalybridge"></away>
 <events>
-<event id="22220324" minute="2" player="D. Rowe" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22220325" minute="6" player="R. Allen" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22220326" minute="7" player="R. Allen" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22220327" minute="10" player="O. Anoruo" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-<event id="22220328" minute="12" player="R. Allen (pen.)" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="22220329" minute="43" player="J. Ellison" playerid="2472594" result="[4 - 2]" team="away" type="goal"></event>
-<event id="22220330" minute="49" player="D. Rowe" playerid="" result="[5 - 2]" team="home" type="goal"></event>
-<event id="22220331" minute="76" player="R. Allen" playerid="" result="[6 - 2]" team="home" type="goal"></event>
+<event id="22220344" minute="26" player="A. Chippendale" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22220345" minute="42" player="D. Hall" playerid="" result="" team="home" type="redcard"></event>
+<event id="22220346" minute="51" player="A. Mudimu" playerid="2595989" result="[0 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[4-2]"></ht>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4010808" alternate_id_2="4320685" date="06.04.2015" id="4128429" static_id="06041523410332341124" status="FT" time="14:00">
+<home goals="4" id="2341033" name="Harrogate"></home>
+<away goals="1" id="2341124" name="North Ferriby"></away>
+<events>
+<event id="22220354" minute="10" player="J. Emmett" playerid="2550399" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22220355" minute="44" player="L. Turner" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22220356" minute="68" player="J. Rose" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22220357" minute="73" player="A. Bolder" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22220358" minute="87" player="J. Thewlis" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4010809" alternate_id_2="4320732" date="06.04.2015" id="4128430" static_id="06041523410562340890" status="FT" time="14:00">
 <home goals="1" id="2341056" name="Hyde"></home>
 <away goals="3" id="2340890" name="Bradford PA"></away>
@@ -1582,14 +1613,6 @@
 <event id="22220836" minute="84" player="O. Sowunmi" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4010811" alternate_id_2="4320686" date="06.04.2015" id="4128432" static_id="06041523411942341040" status="FT" time="14:00">
-<home goals="1" id="2341194" name="Solihull"></home>
-<away goals="1" id="2341040" name="Hednesford"></away>
-<events>
-<event id="22220364" minute="62" player="B. Bailey" playerid="2610594" result="" team="away" type="redcard"></event>
-<event id="22220365" minute="78" player="D. Langdon" playerid="2366505" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="england" name="England: Vanarama Conference North - Play Offs" cup="False" id="3035" sub_id=""><match alternate_id="3953349" alternate_id_2="4112422" date="10.05.2014" id="4071045" static_id="10051423408322341025" status="AET" time="14:00">
 <home goals="2" id="2340832" name="Altrincham"></home>
 <away goals="1" id="2341025" name="Guiseley"></away>
@@ -1791,21 +1814,21 @@
 <event id="22220425" minute="74" player="H. Cornick" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4011351" alternate_id_2="4320694" date="06.04.2015" id="4128972" static_id="06041523412012340979" status="FT" time="14:00">
-<home goals="3" id="2341201" name="St. Albans"></home>
-<away goals="0" id="2340979" name="Eastbourne Borough"></away>
-<events>
-<event id="22220444" minute="21" player="S. Wales" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22220445" minute="41" player="S. Thomas" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22220446" minute="65" player="D. Green" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
 </match><match alternate_id="4011352" alternate_id_2="4320695" date="06.04.2015" id="4128973" static_id="06041523412572340983" status="FT" time="14:00">
 <home goals="0" id="2341257" name="Wealdstone"></home>
 <away goals="1" id="2340983" name="Ebbsfleet"></away>
 <events>
 <event id="22220454" minute="18" player="E. Godfrey (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22220455" minute="69" player="J. Louis" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4011355" alternate_id_2="4320696" date="06.04.2015" id="4128976" static_id="06041523412612341203" status="FT" time="14:00">
+<home goals="1" id="2341261" name="Weston"></home>
+<away goals="2" id="2341203" name="Staines"></away>
+<events>
+<event id="22220464" minute="44" player="E. Buchanan" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22220465" minute="60" player="D. Grubb" playerid="2366103" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22220466" minute="85" player="J. Cooke" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4011357" alternate_id_2="4320734" date="06.04.2015" id="4128978" static_id="06041523499132341038" status="FT" time="14:00">
@@ -1974,14 +1997,16 @@
 <event id="22222346" minute="62" player="Dodd" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4022000" alternate_id_2="4320697" date="06.04.2015" id="4139619" static_id="06041523409152341275" status="FT" time="14:00">
-<home goals="1" id="2340915" name="Canvey"></home>
-<away goals="1" id="2341275" name="Witham"></away>
+</match><match alternate_id="4022004" alternate_id_2="4320736" date="06.04.2015" id="4139623" static_id="06041523410342341105" status="FT" time="14:00">
+<home goals="2" id="2341034" name="Harrow"></home>
+<away goals="2" id="2341105" name="Metropolitan"></away>
 <events>
-<event id="22220474" minute="72" player="Cook" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22220475" minute="85" player="Agyakwa" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22220864" minute="13" player="Bartley" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22220865" minute="19" player="McCall" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22220866" minute="76" player="Maan" playerid="2492729" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22220867" minute="78" player="Driver" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4021998" alternate_id_2="4320737" date="06.04.2015" id="4139617" static_id="06041523408232340871" status="FT" time="14:00">
 <home goals="2" id="2340823" name="Hornchurch"></home>
 <away goals="2" id="2340871" name="Billericay"></away>
@@ -1992,6 +2017,14 @@
 <event id="22220877" minute="90" player="Purcell" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
+</match><match alternate_id="4022005" alternate_id_2="4320738" date="06.04.2015" id="4139624" static_id="06041523410762340909" status="FT" time="14:00">
+<home goals="0" id="2341076" name="Leiston"></home>
+<away goals="1" id="2340909" name="Bury Town"></away>
+<events>
+<event id="22220884" minute="20" player="Bullard" playerid="" result="" team="home" type="redcard"></event>
+<event id="22220885" minute="34" player="Miller" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4022006" alternate_id_2="4320866" date="06.04.2015" id="4139625" static_id="06041523410892352691" status="FT" time="14:00">
 <home goals="2" id="2341089" name="Maidstone"></home>
 <away goals="0" id="2352691" name="Peacehaven and Telscombe"></away>
@@ -2010,14 +2043,6 @@
 <event id="22222427" minute="57" player="Pinnock" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4022008" alternate_id_2="4320699" date="06.04.2015" id="4139627" static_id="06041523412462341070" status="FT" time="14:00">
-<home goals="2" id="2341246" name="VCD Athletic"></home>
-<away goals="0" id="2341070" name="Leatherhead"></away>
-<events>
-<event id="22220494" minute="50" player="Bremner" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22220495" minute="90" player="Cox" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="england" name="England: Ryman League - Play Offs" cup="False" id="3034" sub_id=""><match alternate_id="" alternate_id_2="4294939" date="05.05.2014" id="" static_id="05051423410852340823" status="FT" time="14:00">
 <home goals="3" id="2341085" name="Lowestoft"></home>
 <away goals="0" id="2340823" name="Hornchurch"></away>
@@ -2036,11 +2061,14 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="england" name="England: Premier League U21" cup="False" id="4133" sub_id="41330"><match alternate_id="4116164" alternate_id_2="4318505" date="15.04.2015" id="4233711" static_id="15041523535692355634" status="18:00" time="18:00">
-<home goals="?" id="2353569" name="Newcastle Utd U21"></home>
-<away goals="?" id="2355634" name="Derby U21"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="england" name="England: Premier League U21" cup="False" id="4133" sub_id="41330"><match alternate_id="4116164" alternate_id_2="4318505" date="15.04.2015" id="4233711" static_id="15041523535692355634" status="FT" time="18:00">
+<home goals="0" id="2353569" name="Newcastle Utd U21"></home>
+<away goals="2" id="2355634" name="Derby U21"></away>
+<events>
+<event id="22198554" minute="49" player="A. Santos" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22198555" minute="74" player="F. Rawson" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4115991" alternate_id_2="4297638" date="13.04.2015" id="4233539" static_id="13041523535662353577" status="FT" time="18:00">
 <home goals="0" id="2353566" name="Arsenal U21"></home>
 <away goals="1" id="2353577" name="Reading U21"></away>
@@ -2627,54 +2655,55 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4079563" alternate_id_2="4282266" date="25.10.2014" id="4197156" static_id="25101423408592341034" status="FT" time="14:00">
-<home goals="1" id="2340859" name="Basingstoke"></home>
-<away goals="1" id="2341034" name="Harrow"></away>
+</match><match alternate_id="4079561" alternate_id_2="4282267" date="25.10.2014" id="4197154" static_id="25101423409152341037" status="FT" time="14:00">
+<home goals="0" id="2340915" name="Canvey"></home>
+<away goals="0" id="2341037" name="Havant and W"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4079566" alternate_id_2="4282341" date="25.10.2014" id="4197159" static_id="25101423409922340901" status="FT" time="14:00">
+<home goals="1" id="2340992" name="Evesham"></home>
+<away goals="2" id="2340901" name="Bromley"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4079550" alternate_id_2="4282272" date="25.10.2014" id="4197143" static_id="25101423410112341009" status="FT" time="14:00">
+<home goals="4" id="2341011" name="Gateshead"></home>
+<away goals="0" id="2341009" name="Gainsborough"></away>
+<events>
+<event id="21836224" minute="42" player="Tom Allan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21836225" minute="65" player="Danny Wright" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21836226" minute="68" player="Alex Rodman" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21836227" minute="76" player="Jon Shaw" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4079548" alternate_id_2="4282276" date="25.10.2014" id="4197141" static_id="25101423410722340879" status="FT" time="14:00">
+<home goals="3" id="2341072" name="Leek"></home>
+<away goals="4" id="2340879" name="Blyth"></away>
+<events>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4079540" alternate_id_2="4282280" date="25.10.2014" id="4197133" static_id="25101423412002340825" status="FT" time="14:00">
+<home goals="2" id="2341200" name="Spennymoor"></home>
+<away goals="2" id="2340825" name="Telford"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4079552" alternate_id_2="4282270" date="25.10.2014" id="4197145" static_id="25101423409692340900" status="FT" time="14:00">
-<home goals="1" id="2340969" name="Dorchester"></home>
-<away goals="7" id="2340900" name="Bristol Rovers"></away>
+</match><match alternate_id="4079560" alternate_id_2="4282284" date="25.10.2014" id="4197153" static_id="25101423412622340891" status="FT" time="14:00">
+<home goals="0" id="2341262" name="Weymouth"></home>
+<away goals="0" id="2340891" name="Braintree"></away>
 <events>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4079542" alternate_id_2="4282273" date="25.10.2014" id="4197135" static_id="25101423410242341025" status="FT" time="14:00">
-<home goals="3" id="2341024" name="Grimsby"></home>
-<away goals="0" id="2341025" name="Guiseley"></away>
-<events>
-<event id="21836234" minute="62" player="Nathan Arnold" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21836235" minute="68" player="Lenell John-Lewis" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21836236" minute="77" player="Lenell John-Lewis" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4079541" alternate_id_2="4282275" date="25.10.2014" id="4197134" static_id="25101423410652340821" status="FT" time="14:00">
-<home goals="3" id="2341065" name="Kings Lynn"></home>
-<away goals="4" id="2340821" name="Fylde"></away>
+</match><match alternate_id="4079569" alternate_id_2="4282286" date="25.10.2014" id="4197162" static_id="25101423412782340883" status="FT" time="14:00">
+<home goals="2" id="2341278" name="Woking"></home>
+<away goals="1" id="2340883" name="Boreham Wood"></away>
 <events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4079543" alternate_id_2="4282343" date="25.10.2014" id="4197136" static_id="25101423499312341185" status="FT" time="14:00">
-<home goals="1" id="2349931" name="Norton Utd"></home>
-<away goals="1" id="2341185" name="Shildon"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4079562" alternate_id_2="4282281" date="25.10.2014" id="4197155" static_id="25101423412012340943" status="FT" time="14:00">
-<home goals="0" id="2341201" name="St. Albans"></home>
-<away goals="1" id="2340943" name="Concord"></away>
-<events>
-<event id="21836314" minute="63" player="Gardner" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21836364" minute="56" player="Giuseppe Sole" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21836365" minute="57" player="Shakes" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21836366" minute="61" player="Giuseppe Sole" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4079551" alternate_id_2="4282283" date="25.10.2014" id="4197144" static_id="25101423412232341198" status="FT" time="14:00">
-<home goals="1" id="2341223" name="Tamworth"></home>
-<away goals="1" id="2341198" name="Southport"></away>
-<events>
-<event id="21836334" minute="2" player="Clarke (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21836335" minute="70" player="George" playerid="2610601" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="england" name="England: Capital One Cup" cup="True" id="3032" sub_id="30320"><match alternate_id="4099678" alternate_id_2="4304923" date="01.03.2015" id="4217237" static_id="01031523409252341239" status="FT" time="16:00">
 <home goals="2" id="2340925" name="Chelsea"></home>
 <away goals="0" id="2341239" name="Tottenham"></away>
@@ -2925,17 +2954,21 @@
 <event id="21684710" minute="89" player="S. Berahino" playerid="2481318" result="[3 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4049621" alternate_id_2="4267106" date="24.09.2014" id="4167232" static_id="24091423409072340898" status="FT" time="18:45">
-<home goals="0" id="2340907" name="Burton"></home>
-<away goals="3" id="2340898" name="Brighton"></away>
+</match><match alternate_id="4049620" alternate_id_2="4267114" date="24.09.2014" id="4167231" static_id="24091423410922341182" status="FT" time="18:45">
+<home goals="7" id="2341092" name="Manchester City"></home>
+<away goals="0" id="2341182" name="Sheffield Wed"></away>
 <events>
-<event id="21684564" minute="18" player="R. Ince" playerid="2582926" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21684565" minute="37" player="K. LuaLua" playerid="2337091" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21684566" minute="66" player="C. Mackail-Smith" playerid="2382918" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21684567" minute="68" player="L. Dunk" playerid="2460937" result="" team="away" type="yellowcard"></event>
-<event id="21684568" minute="88" player="I. Calderon" playerid="2390725" result="" team="away" type="redcard"></event>
+<event id="21684644" minute="47" player="F. Lampard" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21684645" minute="53" player="E. Dzeko" playerid="2352421" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21684646" minute="54" player="J. Navas" playerid="2340668" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21684647" minute="59" player="K. Zayatte" playerid="2333266" result="" team="away" type="redcard"></event>
+<event id="21684648" minute="60" player="Y. Toure (pen.)" playerid="2336329" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21684649" minute="63" player="E. Mangala" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21684650" minute="77" player="E. Dzeko" playerid="2352421" result="[5 - 0]" team="home" type="goal"></event>
+<event id="21684651" minute="88" player="J. A. Pozo" playerid="" result="[6 - 0]" team="home" type="goal"></event>
+<event id="21684652" minute="90+3" player="F. Lampard" playerid="" result="[7 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-2]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="england" name="England: Fa Community Shield" cup="False" id="3444" sub_id=""><match alternate_id="3969528" alternate_id_2="4117081" date="10.08.2014" id="4087181" static_id="10081423408352341092" status="FT" time="14:00">
 <home goals="3" id="2340835" name="Arsenal"></home>
 <away goals="0" id="2341092" name="Manchester City"></away>
@@ -3013,27 +3046,39 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4082353" alternate_id_2="4288840" date="15.11.2014" id="4199936" static_id="15111423556212340931" status="FT" time="15:00">
-<home goals="2" id="2355621" name="Bedford"></home>
-<away goals="1" id="2340931" name="Chippenham Town"></away>
+</match><match alternate_id="4082338" alternate_id_2="4288838" date="15.11.2014" id="4199921" static_id="15111423408502341097" status="FT" time="15:00">
+<home goals="3" id="2340850" name="Banbury"></home>
+<away goals="2" id="2341097" name="Marine"></away>
+<events>
+<event id="21901884" minute="1" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21901885" minute="20" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="21901886" minute="21" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21901887" minute="38" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="21901888" minute="41" player="" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="21901889" minute="68" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4082328" alternate_id_2="4288842" date="15.11.2014" id="4199911" static_id="15111423408792341026" status="FT" time="15:00">
+<home goals="1" id="2340879" name="Blyth"></home>
+<away goals="1" id="2341026" name="Halesowen"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4082351" alternate_id_2="4288841" date="15.11.2014" id="4199934" static_id="15111423408692341145" status="FT" time="15:00">
-<home goals="1" id="2340869" name="Biggleswade Town"></home>
-<away goals="2" id="2341145" name="Poole Town"></away>
+</match><match alternate_id="4082349" alternate_id_2="4288843" date="15.11.2014" id="4199932" static_id="15111423409032341003" status="FT" time="15:00">
+<home goals="0" id="2340903" name="Burgess Hill"></home>
+<away goals="0" id="2341003" name="Folkestone"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4082330" alternate_id_2="4288845" date="15.11.2014" id="4199913" static_id="15111423409612340857" status="FT" time="15:00">
+<home goals="1" id="2340961" name="Curzon"></home>
+<away goals="2" id="2340857" name="Barwell"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4082325" alternate_id_2="4288844" date="15.11.2014" id="4199908" static_id="15111423409222341084" status="FT" time="15:00">
-<home goals="4" id="2340922" name="Chasetown"></home>
-<away goals="1" id="2341084" name="Loughborough Dyn."></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4082357" alternate_id_2="4288847" date="15.11.2014" id="4199940" static_id="15111423409782340834" status="FT" time="15:00">
-<home goals="4" id="2340978" name="East Thurrock"></home>
-<away goals="4" id="2340834" name="Arlesey"></away>
+</match><match alternate_id="4082358" alternate_id_2="4288849" date="15.11.2014" id="4199941" static_id="15111423410422341285" status="FT" time="15:00">
+<home goals="4" id="2341042" name="Hendon"></home>
+<away goals="0" id="2341285" name="Worthing"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -3043,9 +3088,9 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4082332" alternate_id_2="4288853" date="15.11.2014" id="4199915" static_id="15111423410652341213" status="FT" time="15:00">
-<home goals="3" id="2341065" name="Kings Lynn"></home>
-<away goals="1" id="2341213" name="Stourbridge"></away>
+</match><match alternate_id="4082336" alternate_id_2="4288859" date="15.11.2014" id="4199919" static_id="15111423411152349928" status="FT" time="15:00">
+<home goals="1" id="2341115" name="Nantwich"></home>
+<away goals="3" id="2349928" name="Ramsbottom"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -3055,25 +3100,10 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4082326" alternate_id_2="4288864" date="15.11.2014" id="4199909" static_id="15111423412002341072" status="FT" time="15:00">
-<home goals="3" id="2341200" name="Spennymoor"></home>
-<away goals="3" id="2341072" name="Leek"></away>
+</match><match alternate_id="4082335" alternate_id_2="4288867" date="15.11.2014" id="4199918" static_id="15111423412432340910" status="FT" time="15:00">
+<home goals="2" id="2341243" name="United of Manchester"></home>
+<away goals="0" id="2340910" name="Buxton"></away>
 <events>
-<event id="21902144" minute="13" player="Capper" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21902145" minute="20" player="Shotton" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21902146" minute="23" player="Roberts" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="21902147" minute="70" player="Shotton" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="21902148" minute="80" player="Grice" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="21902149" minute="90" player="Johnson" playerid="" result="[3 - 3]" team="home" type="goal"></event>
-<event id="21902150" minute="90" player="Kinsey" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4082340" alternate_id_2="4288872" date="15.11.2014" id="4199923" static_id="15111423412752341242" status="FT" time="15:00">
-<home goals="0" id="2341275" name="Witham"></home>
-<away goals="1" id="2341242" name="Truro"></away>
-<events>
-<event id="21902224" minute="50" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="21902225" minute="88" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[-]"></ht>
 </match></league><league country="england" name="England: Johnstone'S Paint Trophy" cup="False" id="3033" sub_id="30330"><match alternate_id="4101365" alternate_id_2="4306108" date="22.03.2015" id="4218923" static_id="22031523408992341249" status="FT" time="15:30">
@@ -3239,27 +3269,30 @@
 <event id="21713367" minute="84" player="K. Smith" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4071925" alternate_id_2="4269985" date="07.10.2014" id="4189534" static_id="07101423409082341113" status="FT" time="18:45">
-<home goals="3" id="2340908" name="Bury"></home>
-<away goals="1" id="2341113" name="Morecambe"></away>
+</match><match alternate_id="4071930" alternate_id_2="4269987" date="07.10.2014" id="4189539" static_id="07101423409392341012" status="Pen." time="18:45">
+<home goals="3" id="2340939" name="Colchester"></home>
+<away goals="3" id="2341012" name="Gillingham FC"></away>
 <events>
-<event id="21713354" minute="14" player="D. Nardiello (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21713355" minute="39" player="D. Nardiello" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21713356" minute="74" player="S. Beeley" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="21713357" minute="90+4" player="R. Lowe" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="21713374" minute="17" player="D. Wright" playerid="2334500" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21713375" minute="24" player="B. Dickenson" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21713376" minute="38" player="S. Watt (pen.)" playerid="2429134" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21713377" minute="55" player="B. Dack" playerid="2591001" result="[2 - 2]" team="away" type="goal"></event>
+<event id="21713378" minute="74" player="A. German" playerid="2406985" result="[2 - 3]" team="away" type="goal"></event>
+<event id="21713379" minute="87" player="F. Sears" playerid="2358038" result="[3 - 3]" team="home" type="goal"></event>
 </events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4071924" alternate_id_2="4269995" date="07.10.2014" id="4189533" static_id="07101423411502341146" status="FT" time="18:45">
-<home goals="3" id="2341150" name="Preston"></home>
-<away goals="2" id="2341146" name="Port Vale"></away>
+<ht score="[2-1]"></ht>
+<penalty localteam="2" visitorteam="4"></penalty>
+</match><match alternate_id="4071931" alternate_id_2="4269992" date="07.10.2014" id="4189540" static_id="07101423411102340827" status="FT" time="18:45">
+<home goals="2" id="2341110" name="Milton Keynes Dons"></home>
+<away goals="3" id="2340827" name="AFC Wimbledon"></away>
 <events>
-<event id="21713454" minute="13" player="C. Humphrey" playerid="2382594" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21713455" minute="51" player="T. Pope" playerid="2382748" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21713456" minute="63" player="J. Garner" playerid="2379339" result="[2 - 1]" team="home" type="goal"></event>
-<event id="21713457" minute="69" player="P. Gallagher" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="21713458" minute="89" player="T. Pope" playerid="2382748" result="[3 - 2]" team="away" type="goal"></event>
+<event id="21713424" minute="2" player="D. Powell" playerid="2400134" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21713425" minute="26" player="A. Azeez" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21713426" minute="40" player="B. Afobe" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21713427" minute="68" player="S. Rigg" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="21713428" minute="80" player="A. Akinfenwa" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[2-1]"></ht>
 </match></league><league country="england" name="England: Premier League U18 - Second Stage" cup="False" id="4134" sub_id=""><match alternate_id="" alternate_id_2="4324440" date="11.04.2015" id="" static_id="" status="FT" time="11:30">
 <home goals="2" id="" name="Reading U18"></home>
 <away goals="0" id="" name="Derby U18"></away>
@@ -3367,18 +3400,18 @@
 <away goals="?" id="" name="Chelsea U18"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4320372" date="28.03.2015" id="" static_id="" status="FT" time="11:00">
-<home goals="4" id="" name="Leicester U18"></home>
-<away goals="3" id="" name="Brighton U18"></away>
-<events>
-</events>
-<ht score="[1-3]"></ht>
 </match><match alternate_id="" alternate_id_2="4320373" date="28.03.2015" id="" static_id="" status="FT" time="11:00">
 <home goals="1" id="" name="Liverpool U18"></home>
 <away goals="1" id="" name="Wolverhampton U18"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4320375" date="28.03.2015" id="" static_id="" status="FT" time="11:00">
+<home goals="2" id="" name="Southampton U18"></home>
+<away goals="1" id="" name="Norwich U18"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
 </match></league><league country="england" name="England: Premier League U18 - First Stage" cup="False" id="4244" sub_id=""><match alternate_id="" alternate_id_2="4307059" date="14.03.2015" id="" static_id="" status="FT" time="11:00">
 <home goals="3" id="" name="Leicester U18"></home>
 <away goals="1" id="" name="Aston Villa U18"></away>

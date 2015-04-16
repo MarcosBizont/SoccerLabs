@@ -71,255 +71,255 @@ function tips_check_poisson_tips_creation_processmatch()
 	{
 		$data = $item->data;
 		//watchdog('processtips','Process node for tips : ' . $data);
-		
-		if (!($cache = cache_get('tips_check_poisson_tips_creation_processmatch_id_' . $data)))
-		{
-			cache_set('tips_check_poisson_tips_creation_processmatch_id_' . $data, 'cache', time() + 604800);
-			$match = node_load($data);
-				
-			$posson_stats = tips_poisson_distribution($match);
-			
-			$lid = $match->field_local_team[LANGUAGE_NONE][0]['target_id'];
-			$vid = $match->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
-	
-			$over_2_5_local_probability = 
-				$posson_stats['proximity_local'][3] + 
-				$posson_stats['proximity_local'][4] + $posson_stats['proximity_local'][5] + $posson_stats['proximity_local'][6];
-			$over_2_5_visitor_probability = 
-				$posson_stats['proximity_visitor'][3] + 
-				$posson_stats['proximity_visitor'][4] + $posson_stats['proximity_visitor'][5] + $posson_stats['proximity_visitor'][6];
-				
-				
-			$over_1_5_local_probability = 
-				$posson_stats['proximity_local'][2] + $posson_stats['proximity_local'][3] + 
-				$posson_stats['proximity_local'][4] + $posson_stats['proximity_local'][5] + $posson_stats['proximity_local'][6];
-			$over_1_5_visitor_probability = 
-				$posson_stats['proximity_visitor'][2] + $posson_stats['proximity_visitor'][3] + 
-				$posson_stats['proximity_visitor'][4] + $posson_stats['proximity_visitor'][5] + $posson_stats['proximity_visitor'][6];
-			
-			
-			$over_0_5_local_probability = 
-				$posson_stats['proximity_local'][1] + $over_1_5_local_probability;
-			$over_0_5_visitor_probability = 
-				$posson_stats['proximity_visitor'][1] + $over_1_5_visitor_probability;
-			$both_to_score = $over_0_5_local_probability * $over_0_5_visitor_probability;
-			
-			
-			// Over under by team
-			$under_1_5_local_probability = $posson_stats['proximity_local'][0] + $posson_stats['proximity_local'][1];
-			$under_1_5_visitor_probability = $posson_stats['proximity_visitor'][0] + $posson_stats['proximity_visitor'][1];
-			
-			$under_2_5_local_probability = $posson_stats['proximity_local'][0] + $posson_stats['proximity_local'][1] + $posson_stats['proximity_local'][2];
-			$under_2_5_visitor_probability = $posson_stats['proximity_visitor'][0] + $posson_stats['proximity_visitor'][1] + $posson_stats['proximity_visitor'][2];
-			
-			
-			// Over under by match
-			
-			$under_1_5_by_match 
-				= tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'under', 1.5);
-			$over_1_5_by_match 
-				= tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'over', 1.5);
-									
-			$under_2_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'under', 2.5);
-			
-			$over_2_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'over', 2.5);
-			
-			$under_3_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'under', 3.5);
-			
-			$over_3_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'over', 3.5);
-			
-			$under_4_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'under', 4.5);
-			
-			$over_4_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
-					$posson_stats['proximity_visitor'], 'over', 4.5);
-			
-			// Win, loss, draw
-			
-			$local_win_probability =
-				 tips_poisson_winner_match($posson_stats['proximity_local'], $posson_stats['proximity_visitor'], '1');
-			
-			$visitor_win_probability =
-				 tips_poisson_winner_match($posson_stats['proximity_local'], $posson_stats['proximity_visitor'], '2');
-			
-			$draw_probability = 
-				 tips_poisson_winner_match($posson_stats['proximity_local'], $posson_stats['proximity_visitor'], 'X');
-								
-			$no_goal_by_local_probability = $posson_stats['proximity_local'][0];
-			$no_goal_by_visitor_probability = $posson_stats['proximity_visitor'][0];
-			
-			$draw_competition_probability = $posson_stats['competition_stats']['draws']/100;
-			
-			// DRAW_HOUSE_PROBABILITY
-			$draws_prob_simple = ($posson_stats['local_stats']['draws_as_local'] 
-									+ $posson_stats['visitor_stats']['draws_as_visitor']) / ( MATCHES_TO_CHECK_IN_THE_PAST * 2);
-									
-			$draws_prob_both = ($posson_stats['local_stats']['draws_as_local'] 
-								+ $posson_stats['local_stats']['draws_as_visitor'] 
-								+ $posson_stats['visitor_stats']['draws_as_local'] 
-								+ $posson_stats['visitor_stats']['draws_as_visitor']) / ( MATCHES_TO_CHECK_IN_THE_PAST * 4); 
-			
-			if(is_array($posson_stats))
+		if(!tips_match_have_tip($data))
+			if (!($cache = cache_get('tips_check_poisson_tips_creation_processmatch_id_' . $data)))
 			{
+				cache_set('tips_check_poisson_tips_creation_processmatch_id_' . $data, 'cache', time() + 604800);
+				$match = node_load($data);
+					
+				$posson_stats = tips_poisson_distribution($match);
 				
-				if($local_win_probability >= WIN_BY_POISSON_PROBABILITY)
+				$lid = $match->field_local_team[LANGUAGE_NONE][0]['target_id'];
+				$vid = $match->field_visitor_team[LANGUAGE_NONE][0]['target_id'];
+		
+				$over_2_5_local_probability = 
+					$posson_stats['proximity_local'][3] + 
+					$posson_stats['proximity_local'][4] + $posson_stats['proximity_local'][5] + $posson_stats['proximity_local'][6];
+				$over_2_5_visitor_probability = 
+					$posson_stats['proximity_visitor'][3] + 
+					$posson_stats['proximity_visitor'][4] + $posson_stats['proximity_visitor'][5] + $posson_stats['proximity_visitor'][6];
+					
+					
+				$over_1_5_local_probability = 
+					$posson_stats['proximity_local'][2] + $posson_stats['proximity_local'][3] + 
+					$posson_stats['proximity_local'][4] + $posson_stats['proximity_local'][5] + $posson_stats['proximity_local'][6];
+				$over_1_5_visitor_probability = 
+					$posson_stats['proximity_visitor'][2] + $posson_stats['proximity_visitor'][3] + 
+					$posson_stats['proximity_visitor'][4] + $posson_stats['proximity_visitor'][5] + $posson_stats['proximity_visitor'][6];
+				
+				
+				$over_0_5_local_probability = 
+					$posson_stats['proximity_local'][1] + $over_1_5_local_probability;
+				$over_0_5_visitor_probability = 
+					$posson_stats['proximity_visitor'][1] + $over_1_5_visitor_probability;
+				$both_to_score = $over_0_5_local_probability * $over_0_5_visitor_probability;
+				
+				
+				// Over under by team
+				$under_1_5_local_probability = $posson_stats['proximity_local'][0] + $posson_stats['proximity_local'][1];
+				$under_1_5_visitor_probability = $posson_stats['proximity_visitor'][0] + $posson_stats['proximity_visitor'][1];
+				
+				$under_2_5_local_probability = $posson_stats['proximity_local'][0] + $posson_stats['proximity_local'][1] + $posson_stats['proximity_local'][2];
+				$under_2_5_visitor_probability = $posson_stats['proximity_visitor'][0] + $posson_stats['proximity_visitor'][1] + $posson_stats['proximity_visitor'][2];
+				
+				
+				// Over under by match
+				
+				$under_1_5_by_match 
+					= tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'under', 1.5);
+				$over_1_5_by_match 
+					= tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'over', 1.5);
+										
+				$under_2_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'under', 2.5);
+				
+				$over_2_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'over', 2.5);
+				
+				$under_3_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'under', 3.5);
+				
+				$over_3_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'over', 3.5);
+				
+				$under_4_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'under', 4.5);
+				
+				$over_4_5_by_match = tips_poisson_over_under_match($posson_stats['proximity_local'], 
+						$posson_stats['proximity_visitor'], 'over', 4.5);
+				
+				// Win, loss, draw
+				
+				$local_win_probability =
+					 tips_poisson_winner_match($posson_stats['proximity_local'], $posson_stats['proximity_visitor'], '1');
+				
+				$visitor_win_probability =
+					 tips_poisson_winner_match($posson_stats['proximity_local'], $posson_stats['proximity_visitor'], '2');
+				
+				$draw_probability = 
+					 tips_poisson_winner_match($posson_stats['proximity_local'], $posson_stats['proximity_visitor'], 'X');
+									
+				$no_goal_by_local_probability = $posson_stats['proximity_local'][0];
+				$no_goal_by_visitor_probability = $posson_stats['proximity_visitor'][0];
+				
+				$draw_competition_probability = $posson_stats['competition_stats']['draws']/100;
+				
+				// DRAW_HOUSE_PROBABILITY
+				$draws_prob_simple = ($posson_stats['local_stats']['draws_as_local'] 
+										+ $posson_stats['visitor_stats']['draws_as_visitor']) / ( MATCHES_TO_CHECK_IN_THE_PAST * 2);
+										
+				$draws_prob_both = ($posson_stats['local_stats']['draws_as_local'] 
+									+ $posson_stats['local_stats']['draws_as_visitor'] 
+									+ $posson_stats['visitor_stats']['draws_as_local'] 
+									+ $posson_stats['visitor_stats']['draws_as_visitor']) / ( MATCHES_TO_CHECK_IN_THE_PAST * 4); 
+				
+				if(is_array($posson_stats))
 				{
-					$team = node_load($lid);
-					$title = 'Winner by poisson : Local - ' . $team->title . ' : ' . intval($local_win_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, $lid, $local_win_probability, 832);	
+					
+					if($local_win_probability >= WIN_BY_POISSON_PROBABILITY)
+					{
+						$team = node_load($lid);
+						$title = 'Winner by poisson : Local - ' . $team->title . ' : ' . intval($local_win_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, $lid, $local_win_probability, 832);	
+					}
+					if($visitor_win_probability >= WIN_BY_POISSON_PROBABILITY)
+					{
+						$team = node_load($vid);
+						$title = 'Winner by poisson : Visitor - ' . $team->title . ' : '  . intval($visitor_win_probability*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, $vid, $visitor_win_probability, 832);	
+					}
+					
+					if($draw_competition_probability >= DRAW_COMPETITION_PROBABILITY)
+					{
+						$title = 'Draw by competition : ' . intval($draw_competition_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, 0, $draw_competition_probability, 787);	
+					}
+					
+					if($draws_prob_simple >= DRAW_HOUSE_PROBABILITY)
+					{
+						$title = 'Draw by House : ' . intval($draws_prob_simple*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, 0, $draws_prob_simple, 788);	
+					}
+					
+					if($draws_prob_both >= DRAW_HOUSE_PROBABILITY)
+					{
+						$title = 'Draw by House : ' . intval($draws_prob_both*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, 0, $draws_prob_both, 788);	
+					}
+					
+					
+					if($over_1_5_local_probability >= OVER_1_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($lid);
+						$title = 'Over 1.5 by team : Local - ' . $team->title . ' : ' . intval($over_1_5_local_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, $lid, $over_1_5_local_probability, 572);	
+					}
+					if($over_1_5_visitor_probability >= OVER_1_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($vid);
+						$title = 'Over 1.5 by team : Visitor - ' . $team->title . ' : '  . intval($over_1_5_visitor_probability*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, $vid, $over_1_5_visitor_probability, 572);	
+					}
+					
+					
+					if($under_1_5_local_probability >= UNDER_1_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($lid);
+						$title = 'Under 1.5 by team : Local - ' . $team->title . ' : ' . intval($under_1_5_local_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, $lid, $under_1_5_local_probability, 571);	
+					}
+					if($under_1_5_visitor_probability >= UNDER_1_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($vid);
+						$title = 'Under 1.5 by team : Visitor - ' . $team->title . ' : '  . intval($under_1_5_visitor_probability*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, $vid, $under_1_5_visitor_probability, 571);	
+					}
+					
+					
+					if($over_2_5_local_probability >= OVER_2_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($lid);
+						$title = 'Over 2.5 by team : Local - ' . $team->title . ' : ' . intval($over_2_5_local_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, $lid, $over_2_5_local_probability, 799);	
+					}
+					if($over_2_5_visitor_probability >= OVER_2_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($vid);
+						$title = 'Over 2.5 by team : Visitor - ' . $team->title . ' : '  . intval($over_2_5_visitor_probability*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, $vid, $over_2_5_visitor_probability, 799);	
+					}
+					
+					
+					if($under_2_5_local_probability >= UNDER_2_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($lid);
+						$title = 'Under 2.5 by team : Local - ' . $team->title . ' : ' . intval($under_2_5_local_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, $lid, $under_2_5_local_probability, 798);	
+					}
+					if($under_2_5_visitor_probability >= UNDER_2_5_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($vid);
+						$title = 'Under 2.5 by team : Visitor - ' . $team->title . ' : '  . intval($under_2_5_visitor_probability*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, $vid, $under_2_5_visitor_probability, 798);	
+					}
+					
+					
+					
+					if($both_to_score >= BOTH_TO_SCORE_PROBABILITY)
+					{
+						$title = 'Both to score : '  . intval($both_to_score*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $both_to_score, 573);	
+					}
+					
+					
+					if($under_1_5_by_match >= UNDER_1_5_BY_MATCH_PROBABILITY)
+					{
+						$title = 'Under 1.5 by match : '  . intval($under_1_5_by_match*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_1_5_by_match, 578);	
+					}
+					
+					if($over_1_5_by_match >= OVER_1_5_BY_MATCH_PROBABILITY)
+					{
+						$title = 'Over 1.5 by match : '  . intval($over_1_5_by_match*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_1_5_by_match, 753);	
+					}
+					
+					if($under_2_5_by_match >= UNDER_2_5_BY_MATCH_PROBABILITY)
+					{
+						$title = 'Under 2.5 by match : '  . intval($under_2_5_by_match*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_2_5_by_match, 576);	
+					}
+					
+					if($over_2_5_by_match >= OVER_2_5_BY_MATCH_PROBABILITY)
+					{
+						$title = 'Over 2.5 by match : '  . intval($over_2_5_by_match*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_2_5_by_match, 577);	
+					}
+					
+					if($under_3_5_by_match >= UNDER_3_5_BY_MATCH_PROBABILITY)
+					{
+						$title = 'Under 3.5 by match : '  . intval($under_3_5_by_match*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_3_5_by_match, 754);	
+					}
+					
+					if($over_3_5_by_match >= OVER_3_5_BY_MATCH_PROBABILITY)
+					{
+						$title = 'Over 3.5 by match : '  . intval($over_3_5_by_match*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_3_5_by_match, 755);	
+					}
+					
+					
+					
+					if($no_goal_by_local_probability >= NO_GOAL_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($lid);
+						$title = 'No goal by team : Local - ' . $team->title . ' : ' . intval($no_goal_by_local_probability*100) . '% ';
+						tips_create_tip($match, json_encode($posson_stats),$title, $lid, $no_goal_by_local_probability, 575);	
+					}
+					if($no_goal_by_visitor_probability >= NO_GOAL_BY_TEAM_PROBABILITY)
+					{
+						$team = node_load($vid);
+						$title = 'No goal by team : Visitor - ' . $team->title . ' : '  . intval($no_goal_by_visitor_probability*100) . '% ';	
+						tips_create_tip($match, json_encode($posson_stats), $title, $vid, $no_goal_by_visitor_probability, 575);	
+					}
+					
 				}
-				if($visitor_win_probability >= WIN_BY_POISSON_PROBABILITY)
-				{
-					$team = node_load($vid);
-					$title = 'Winner by poisson : Visitor - ' . $team->title . ' : '  . intval($visitor_win_probability*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, $vid, $visitor_win_probability, 832);	
-				}
-				
-				if($draw_competition_probability >= DRAW_COMPETITION_PROBABILITY)
-				{
-					$title = 'Draw by competition : ' . intval($draw_competition_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, 0, $draw_competition_probability, 787);	
-				}
-				
-				if($draws_prob_simple >= DRAW_HOUSE_PROBABILITY)
-				{
-					$title = 'Draw by House : ' . intval($draws_prob_simple*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, 0, $draws_prob_simple, 788);	
-				}
-				
-				if($draws_prob_both >= DRAW_HOUSE_PROBABILITY)
-				{
-					$title = 'Draw by House : ' . intval($draws_prob_both*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, 0, $draws_prob_both, 788);	
-				}
-				
-				
-				if($over_1_5_local_probability >= OVER_1_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($lid);
-					$title = 'Over 1.5 by team : Local - ' . $team->title . ' : ' . intval($over_1_5_local_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, $lid, $over_1_5_local_probability, 572);	
-				}
-				if($over_1_5_visitor_probability >= OVER_1_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($vid);
-					$title = 'Over 1.5 by team : Visitor - ' . $team->title . ' : '  . intval($over_1_5_visitor_probability*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, $vid, $over_1_5_visitor_probability, 572);	
-				}
-				
-				
-				if($under_1_5_local_probability >= UNDER_1_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($lid);
-					$title = 'Under 1.5 by team : Local - ' . $team->title . ' : ' . intval($under_1_5_local_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, $lid, $under_1_5_local_probability, 571);	
-				}
-				if($under_1_5_visitor_probability >= UNDER_1_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($vid);
-					$title = 'Under 1.5 by team : Visitor - ' . $team->title . ' : '  . intval($under_1_5_visitor_probability*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, $vid, $under_1_5_visitor_probability, 571);	
-				}
-				
-				
-				if($over_2_5_local_probability >= OVER_2_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($lid);
-					$title = 'Over 2.5 by team : Local - ' . $team->title . ' : ' . intval($over_2_5_local_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, $lid, $over_2_5_local_probability, 799);	
-				}
-				if($over_2_5_visitor_probability >= OVER_2_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($vid);
-					$title = 'Over 2.5 by team : Visitor - ' . $team->title . ' : '  . intval($over_2_5_visitor_probability*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, $vid, $over_2_5_visitor_probability, 799);	
-				}
-				
-				
-				if($under_2_5_local_probability >= UNDER_2_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($lid);
-					$title = 'Under 2.5 by team : Local - ' . $team->title . ' : ' . intval($under_2_5_local_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, $lid, $under_2_5_local_probability, 798);	
-				}
-				if($under_2_5_visitor_probability >= UNDER_2_5_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($vid);
-					$title = 'Under 2.5 by team : Visitor - ' . $team->title . ' : '  . intval($under_2_5_visitor_probability*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, $vid, $under_2_5_visitor_probability, 798);	
-				}
-				
-				
-				
-				if($both_to_score >= BOTH_TO_SCORE_PROBABILITY)
-				{
-					$title = 'Both to score : '  . intval($both_to_score*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $both_to_score, 573);	
-				}
-				
-				
-				if($under_1_5_by_match >= UNDER_1_5_BY_MATCH_PROBABILITY)
-				{
-					$title = 'Under 1.5 by match : '  . intval($under_1_5_by_match*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_1_5_by_match, 578);	
-				}
-				
-				if($over_1_5_by_match >= OVER_1_5_BY_MATCH_PROBABILITY)
-				{
-					$title = 'Over 1.5 by match : '  . intval($over_1_5_by_match*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_1_5_by_match, 753);	
-				}
-				
-				if($under_2_5_by_match >= UNDER_2_5_BY_MATCH_PROBABILITY)
-				{
-					$title = 'Under 2.5 by match : '  . intval($under_2_5_by_match*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_2_5_by_match, 576);	
-				}
-				
-				if($over_2_5_by_match >= OVER_2_5_BY_MATCH_PROBABILITY)
-				{
-					$title = 'Over 2.5 by match : '  . intval($over_2_5_by_match*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_2_5_by_match, 577);	
-				}
-				
-				if($under_3_5_by_match >= UNDER_3_5_BY_MATCH_PROBABILITY)
-				{
-					$title = 'Under 3.5 by match : '  . intval($under_3_5_by_match*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_3_5_by_match, 754);	
-				}
-				
-				if($over_3_5_by_match >= OVER_3_5_BY_MATCH_PROBABILITY)
-				{
-					$title = 'Over 3.5 by match : '  . intval($over_3_5_by_match*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_3_5_by_match, 755);	
-				}
-				
-				
-				
-				if($no_goal_by_local_probability >= NO_GOAL_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($lid);
-					$title = 'No goal by team : Local - ' . $team->title . ' : ' . intval($no_goal_by_local_probability*100) . '% ';
-					tips_create_tip($match, json_encode($posson_stats),$title, $lid, $no_goal_by_local_probability, 575);	
-				}
-				if($no_goal_by_visitor_probability >= NO_GOAL_BY_TEAM_PROBABILITY)
-				{
-					$team = node_load($vid);
-					$title = 'No goal by team : Visitor - ' . $team->title . ' : '  . intval($no_goal_by_visitor_probability*100) . '% ';	
-					tips_create_tip($match, json_encode($posson_stats), $title, $vid, $no_goal_by_visitor_probability, 575);	
-				}
-				
-			}
-		}	
+			}	
 		
 		$queue->deleteItem($item);
-		if($i>=20) return;
+		if($i>=50) return;
 		$i++;
 	}	
 }

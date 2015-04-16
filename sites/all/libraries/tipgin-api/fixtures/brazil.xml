@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="14.04.2015 06:50:09" sport="soccer" country="brazil"><league country="brazil" name="Brazil: Série A" cup="False" id="2974" sub_id="29740"><match alternate_id="4112102" alternate_id_2="4313923" date="09.05.2015" id="4229650" static_id="09051523390612339078" status="21:30" time="21:30">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="15.04.2015 06:50:09" sport="soccer" country="brazil"><league country="brazil" name="Brazil: Série A" cup="False" id="2974" sub_id="29740"><match alternate_id="4112102" alternate_id_2="4313923" date="09.05.2015" id="4229650" static_id="09051523390612339078" status="21:30" time="21:30">
 <home id="2339061" name="Chapecoense-SC"></home>
 <away id="2339078" name="Coritiba"></away>
 
@@ -328,14 +328,14 @@
 <away id="2339008" name="Brasil de Pelotas"></away>
 
 
-</match></league><league country="brazil" name="Brazil: Campeonato Mineiro - Play Offs" cup="False" id="2957" sub_id=""><match alternate_id="" alternate_id_2="4323238" date="18.04.2015" id="" static_id="18041523390232350664" status="19:00" time="19:00">
-<home id="2339023" name="Caldense"></home>
-<away id="2350664" name="Tombense"></away>
-
-
-</match><match alternate_id="4119449" alternate_id_2="4323239" date="19.04.2015" id="4236993" static_id="19041523390892338976" status="19:00" time="19:00">
+</match></league><league country="brazil" name="Brazil: Campeonato Mineiro - Play Offs" cup="False" id="2957" sub_id=""><match alternate_id="4119449" alternate_id_2="4323239" date="19.04.2015" id="4236993" static_id="19041523390892338976" status="19:00" time="19:00">
 <home id="2339089" name="Cruzeiro"></home>
 <away id="2338976" name="Atletico-MG"></away>
+
+
+</match><match alternate_id="4119447" alternate_id_2="4323238" date="19.04.2015" id="4236991" static_id="19041523390232350664" status="21:30" time="21:30">
+<home id="2339023" name="Caldense"></home>
+<away id="2350664" name="Tombense"></away>
 
 
 </match></league><league country="brazil" name="Brazil: Campeonato Baiano - Play Offs" cup="False" id="2970" sub_id="29703"><match alternate_id="4117049" alternate_id_2="4319710" date="19.04.2015" id="4234595" static_id="19041523389872339426" status="19:00" time="19:00">
@@ -353,11 +353,6 @@
 <away id="2339172" name="Guarani de Juazeiro"></away>
 
 
-</match></league><league country="brazil" name="Brazil: Campeonato Paranaense - Play Offs" cup="False" id="2975" sub_id="29752"><match alternate_id="4119894" alternate_id_2="4324023" date="18.04.2015" id="4237438" static_id="18041523461222339142" status="19:00" time="19:00">
-<home id="2346122" name="Operario"></home>
-<away id="2339142" name="Foz do Iguacu"></away>
-
-
 </match></league><league country="brazil" name="Brazil: Campeonato Paranaense - Relegation" cup="False" id="2975" sub_id="29753"><match alternate_id="" alternate_id_2="4321326" date="18.04.2015" id="" static_id="18041523389772339364" status="21:30" time="21:30">
 <home id="2338977" name="Atletico-PR"></home>
 <away id="2339364" name="Rio Branco SC"></away>
@@ -373,7 +368,12 @@
 <away id="2339281" name="Nacional PR"></away>
 
 
-</match><match alternate_id="4118586" alternate_id_2="4321328" date="26.04.2015" id="4236130" static_id="26041523392812339364" status="19:00" time="19:00">
+</match></league><league country="brazil" name="Brazil: Campeonato Paranaense - Play Offs" cup="False" id="2975" sub_id="29752"><match alternate_id="" alternate_id_2="4324023" date="19.04.2015" id="" static_id="19041523461222339142" status="22:00" time="22:00">
+<home id="2346122" name="Operario"></home>
+<away id="2339142" name="Foz do Iguacu"></away>
+
+
+</match></league><league country="brazil" name="Brazil: Campeonato Paranaense - Relegation" cup="False" id="2975" sub_id="29753"><match alternate_id="4118586" alternate_id_2="4321328" date="26.04.2015" id="4236130" static_id="26041523392812339364" status="19:00" time="19:00">
 <home id="2339281" name="Nacional PR"></home>
 <away id="2339364" name="Rio Branco SC"></away>
 

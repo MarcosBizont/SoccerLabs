@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:09" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002686" alternate_id_2="4314499" date="12.04.2015" id="4120308" static_id="12041523473352351276" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:41:09" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002686" alternate_id_2="4314499" date="12.04.2015" id="4120308" static_id="12041523473352351276" status="FT" time="14:00">
 <home goals="1" id="2347335" name="NK Krka"></home>
 <away goals="1" id="2351276" name="Radomlje"></away>
 <events>
@@ -223,18 +223,6 @@
 <event id="21969208" minute="89" player="B. Vrhovec" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4002670" alternate_id_2="4295517" date="14.03.2015" id="4120292" static_id="14031523473142347348" status="FT" time="15:00">
-<home goals="2" id="2347314" name="Maribor"></home>
-<away goals="1" id="2347348" name="Zavrc"></away>
-<events>
-<event id="21968674" minute="30" player="S. Muminovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21968675" minute="50" player="A. Ibraimi" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21968676" minute="53" player="A. Rajcevic" playerid="2370456" result="" team="home" type="yellowcard"></event>
-<event id="21968677" minute="77" player="M. Tavares" playerid="2370587" result="[2 - 1]" team="home" type="goal"></event>
-<event id="21968678" minute="85" player="F. Petanjek" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21968679" minute="86" player="I. Novoselec" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="4002672" alternate_id_2="4295547" date="14.03.2015" id="4120294" static_id="14031523473502347305" status="FT" time="15:00">
 <home goals="3" id="2347350" name="O. Ljubljana"></home>
 <away goals="1" id="2347305" name="ND Gorica"></away>
@@ -248,6 +236,13 @@
 <event id="21968980" minute="61" player="S. Enow" playerid="2473839" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-1]"></ht>
+</match><match alternate_id="4002668" alternate_id_2="4295518" date="14.03.2015" id="4120290" static_id="14031523473532347335" status="FT" time="15:00">
+<home goals="0" id="2347353" name="Velenje"></home>
+<away goals="0" id="2347335" name="NK Krka"></away>
+<events>
+<event id="21968684" minute="25" player="I. Knezovic" playerid="2370503" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="3964459" alternate_id_2="4116760" date="04.06.2014" id="4082123" static_id="04061423512762347335" status="Cancl." time="15:00">
 <home goals="?" id="2351276" name="Radomlje"></home>
 <away goals="?" id="2347335" name="NK Krka"></away>
@@ -415,11 +410,17 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="slovenia" name="Slovenia: Slovenian Cup" cup="True" id="3221" sub_id="32210"><match alternate_id="4108159" alternate_id_2="4302971" date="15.04.2015" id="4225713" static_id="15041523473142347301" status="15:00" time="15:00">
-<home goals="?" id="2347314" name="Maribor"></home>
-<away goals="?" id="2347301" name="Celje"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="slovenia" name="Slovenia: Slovenian Cup" cup="True" id="3221" sub_id="32210"><match alternate_id="4108159" alternate_id_2="4302971" date="15.04.2015" id="4225713" static_id="15041523473142347301" status="FT" time="15:00">
+<home goals="2" id="2347314" name="Maribor"></home>
+<away goals="3" id="2347301" name="Celje"></away>
+<events>
+<event id="22043214" minute="11" player="S. Omoregie" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22043215" minute="53" player="M. Tavares" playerid="2370587" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22043216" minute="66" player="D. Volas" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22043217" minute="88" player="B. Vrhovec" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22043218" minute="90+3" player="I. Lendric" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4116825" alternate_id_2="4302970" date="14.04.2015" id="4234371" static_id="14041523473112347302" status="FT" time="15:00">
 <home goals="1" id="2347311" name="Koper"></home>
 <away goals="0" id="2347302" name="Domzale"></away>

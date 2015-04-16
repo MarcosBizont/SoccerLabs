@@ -679,7 +679,6 @@ function tipgin_api_feed_action_fillmatchesd1()
 			}
 		}
 		
-	watchdog('countmatches',' count matches d-1 ' . $totalcount);
 		
 }
 
@@ -708,8 +707,8 @@ function tipgin_api_feed_action_fillmatchesinprogress()
 				//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
 			}
 		}
-		
-	watchdog('countmatches',' count matches ' . $totalcount);
+	
+	tipgin_api_feed_action_fillmatchesd1();
 		
 }
 

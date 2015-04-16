@@ -89,6 +89,12 @@ body {
 	
 }
 
+#block-views-real-time-block-3 .gamerow.toploadingsidebarsmall,
+#block-views-real-time-block-3 .gamerow.bottomloadingsidebarsmall
+{
+	height: 25px;
+}
+
 .sidebarleft .block_tab-title
 {
 	float: left;
@@ -646,4 +652,28 @@ caption
 	clear: both;
     cursor: pointer;
     float: right;
+}
+
+
+/* rows */
+
+.views-field-field-tip-available i:hover,
+.views-field-nothing-2 i:hover,
+.views-field-nothing-1 i:hover,
+.grid_8.prealpha i:hover
+{
+	color: #000;
+}
+
+
+/* Header in play */
+
+.view-header-in-play .views-field-field-competition
+{
+	clear: both;
+    display: block;
+    font-size: 18px;
+    line-height: 200%;
+    width: 100%;
+	
 }

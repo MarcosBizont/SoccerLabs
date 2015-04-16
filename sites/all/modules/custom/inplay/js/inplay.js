@@ -34,11 +34,14 @@
 	this.filterInplay = function()
 	{
 		containter = $('#block-views-real-time-block-3');
+		/* Add gamerows for loading */
 		containter.isotope({filter:function()
 				{
 					return filterInplayItem($(this)); 
 				}
 		});
+		
+			
 		/*containter.isotope( 'on', 'layoutComplete', 
 			function()
 			{
@@ -61,10 +64,10 @@
 		
 	}
 	
-	/* Add gamerows for loading */
-	$('#block-views-real-time-block-3 .view-real-time').prepend('<div class="gamerow"><div class="loadingsidebarsmall"></div></div>');
-	$('#block-views-real-time-block-3 .view-real-time').append('<div class="gamerow"><div class="loadingsidebarsmall"></div></div>');
-	
+	containter = $('#block-views-real-time-block-3');
+	containter.find('.view-real-time').prepend('<div class="gamerow toploadingsidebarsmall"><div class=""></div></div>');
+	containter.find('.view-real-time').append('<div class="gamerow bottomloadingsidebarsmall"><div class=""></div></div>');
+		
 	/* Default isotope */
 	$('#block-views-real-time-block-3').isotope({
 	  itemSelector: '.gamerow',
@@ -326,7 +329,8 @@
 			  layoutMode: 'fitRows',
 			});
 			filterInplay();
-			$('.grid_8.alpha').scrollTop(first_element.position().top);
+			if(first_element.size()>0)
+				$('.grid_8.alpha').scrollTop(first_element.position().top);
 		});
 	};
 	
@@ -359,6 +363,7 @@
 		if($('#block-views-real-time-block-3 .view-empty').size() >= 1 || ( $('#block-views-real-time-block-3 .view-content .gamerow').size() < 20 ) )
 		{
 			$('#block-views-real-time-block-3 .view-empty').addClass('view-content');
+			addNewGameRows();
 			addOldGameRows();	
 		}
 	}	

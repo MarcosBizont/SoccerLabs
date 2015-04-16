@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="15.04.2015 00:41:00" sport="soccer" country="oceania"><league country="oceania" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="16.04.2015 00:40:59" sport="soccer" country="oceania"><league country="oceania" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
 <home goals="1" id="2342078" name="Germany"></home>
 <away goals="0" id="2337719" name="Argentina"></away>
 <events>
@@ -633,16 +633,23 @@
 <event id="17458191" minute="81" player="Mikel J. O." playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="oceania" name="Australia and Oceania: Ofc Champions League" cup="False" id="3537" sub_id=""><match alternate_id="4102913" alternate_id_2="4306493" date="15.04.2015" id="4220471" static_id="15041523486642349336" status="07:00" time="07:00">
-<home goals="?" id="2348664" name="Tefana (Tah)"></home>
-<away goals="?" id="2349336" name="Tafea (Van)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102912" alternate_id_2="4306492" date="15.04.2015" id="4102912" static_id="15041523456982345380" status="04:30" time="04:30">
-<home goals="?" id="2345698" name="Hekari Utd (Pap)"></home>
-<away goals="?" id="2345380" name="Team Wellington (Nzl)"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="oceania" name="Australia and Oceania: Ofc Champions League" cup="False" id="3537" sub_id=""><match alternate_id="4102913" alternate_id_2="4306493" date="15.04.2015" id="4220471" static_id="15041523486642349336" status="FT" time="07:00">
+<home goals="1" id="2348664" name="Tefana (Tah)"></home>
+<away goals="1" id="2349336" name="Tafea (Van)"></away>
+<events>
+<event id="20042634" minute="36" player="Kaltack" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20042635" minute="67" player="Chong Hue" playerid="" result="" team="home" type="redcard"></event>
+<event id="20042636" minute="85" player="Tchen" playerid="2493714" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4102912" alternate_id_2="4306492" date="15.04.2015" id="4102912" static_id="15041523456982345380" status="FT" time="04:30">
+<home goals="0" id="2345698" name="Hekari Utd (Pap)"></home>
+<away goals="2" id="2345380" name="Team Wellington (Nzl)"></away>
+<events>
+<event id="20042624" minute="22" player="Corrales" playerid="2400649" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20042625" minute="45" player="Robertson" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4102910" alternate_id_2="4306491" date="14.04.2015" id="4220468" static_id="14041523502252348661" status="FT" time="07:30">
 <home goals="5" id="2350225" name="Gaitcha (Nca)"></home>
 <away goals="2" id="2348661" name="Pirae (Tah)"></away>
@@ -764,18 +771,6 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="oceania" name="Australia and Oceania: Ofc Champions League" cup="False" id="3537" sub_id=""><match alternate_id="3862771" alternate_id_2="4061721" date="15.04.2014" id="3981312" static_id="15041423486612345382" status="FT" time="04:00">
-<home goals="3" id="2348661" name="Pirae (Tah)"></home>
-<away goals="1" id="2345382" name="Waitakere United (Nzl)"></away>
-<events>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="3987443" alternate_id_2="4082231" date="15.04.2014" id="3987443" static_id="15041423523422353395" status="FT" time="01:00">
-<home goals="0" id="2352342" name="Kiwi (Sam)"></home>
-<away goals="8" id="2353395" name="Solomon Warriors (Sol)"></away>
-<events>
-</events>
-<ht score="[0-5]"></ht>
 </match></league><league country="oceania" name="Australia and Oceania: Ofc Championship U19" cup="False" id="4992" sub_id=""><match alternate_id="" alternate_id_2="4114269" date="31.05.2014" id="" static_id="31051423551862355182" status="FT" time="07:30">
 <home goals="2" id="2355186" name="Fiji U19"></home>
 <away goals="1" id="2355182" name="Solomon Islands U19"></away>

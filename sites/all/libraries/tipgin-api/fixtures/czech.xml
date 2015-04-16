@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="14.04.2015 06:50:22" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4001352" alternate_id_2="4319177" date="18.04.2015" id="4118974" static_id="18041523403222340310" status="15:00" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="15.04.2015 06:50:21" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4001352" alternate_id_2="4319177" date="18.04.2015" id="4118974" static_id="18041523403222340310" status="15:00" time="15:00">
 <home id="2340322" name="Ceske Budejovice"></home>
 <away id="2340310" name="Bohemians 1905"></away>
 
@@ -78,7 +78,7 @@
 <away id="2340315" name="Brno"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325117" date="01.05.2015" id="" static_id="01051523403152340494" status="16:00" time="16:00">
+</match><match alternate_id="4001365" alternate_id_2="4325117" date="01.05.2015" id="4118987" static_id="01051523403152340494" status="16:00" time="16:00">
 <home id="2340315" name="Brno"></home>
 <away id="2340494" name="Jihlava"></away>
 
@@ -638,6 +638,11 @@
 <away id="2349732" name="Liskovec"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4319428" date="22.04.2015" id="" static_id="22041523404772340366" status="15:00" time="15:00">
+<home id="2340477" name="Valasske Mezirici"></home>
+<away id="2340366" name="Rymarov"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4323185" date="25.04.2015" id="" static_id="25041523403342340350" status="14:00" time="14:00">
 <home id="2340334" name="Dolni Benesov"></home>
 <away id="2340350" name="Havirov"></away>
@@ -693,27 +698,7 @@
 <away id="2349973" name="Novy Jicin"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325581" date="02.05.2015" id="" static_id="02051523404882340334" status="14:30" time="14:30">
-<home id="2340488" name="Vitkovice"></home>
-<away id="2340334" name="Dolni Benesov"></away>
-
-
-</match></league><league country="czech" name="Czech Republic: Pohar Ceske Posty" cup="False" id="3355" sub_id="33550"><match alternate_id="4090609" alternate_id_2="4296536" date="14.04.2015" id="4208176" static_id="14041523403922340438" status="15:00" time="15:00">
-<home id="2340392" name="Mlada Boleslav"></home>
-<away id="2340438" name="Slovacko"></away>
-
-
-</match><match alternate_id="4090612" alternate_id_2="4296534" date="14.04.2015" id="4208179" static_id="14041523403622340451" status="15:30" time="15:30">
-<home id="2340362" name="Jablonec"></home>
-<away id="2340451" name="Sparta Prague"></away>
-
-
-</match><match alternate_id="4090605" alternate_id_2="4296535" date="14.04.2015" id="4208172" static_id="14041523404402340471" status="15:30" time="15:30">
-<home id="2340440" name="Liberec"></home>
-<away id="2340471" name="Trinec"></away>
-
-
-</match><match alternate_id="4090607" alternate_id_2="4296537" date="15.04.2015" id="4208174" static_id="15041523404822340464" status="16:00" time="16:00">
+</match></league><league country="czech" name="Czech Republic: Pohar Ceske Posty" cup="False" id="3355" sub_id="33550"><match alternate_id="4090607" alternate_id_2="4296537" date="15.04.2015" id="4208174" static_id="15041523404822340464" status="16:00" time="16:00">
 <home id="2340482" name="Plzen"></home>
 <away id="2340464" name="Teplice"></away>
 
@@ -768,11 +753,6 @@
 <away id="2355910" name="Hradec Kralove U21"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325582" date="20.04.2015" id="" static_id="20041523559042355907" status="09:00" time="09:00">
-<home id="2355904" name="Ostrava U21"></home>
-<away id="2355907" name="Teplice U21"></away>
-
-
 </match><match alternate_id="" alternate_id_2="4325822" date="20.04.2015" id="" static_id="20041523559002340311" status="11:00" time="11:00">
 <home id="2355900" name="Ceske Budejovice U21"></home>
 <away id="2340311" name="Bohemians 1905 U21"></away>
@@ -816,6 +796,11 @@
 </match><match alternate_id="" alternate_id_2="4325830" date="20.04.2015" id="" static_id="20041523559152355901" status="15:00" time="15:00">
 <home id="2355915" name="Slavia Prague U21"></home>
 <away id="2355901" name="Sparta Prague U21"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4325582" date="21.04.2015" id="" static_id="21041523559042355907" status="09:00" time="09:00">
+<home id="2355904" name="Ostrava U21"></home>
+<away id="2355907" name="Teplice U21"></away>
 
 
 </match></league></fixtures>
