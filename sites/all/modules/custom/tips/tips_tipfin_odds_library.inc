@@ -17,7 +17,7 @@ function tips_tipfin_odds_library_check_odds_for_tip($tip)
 	
 	libraries_load('tipgin-api');
 	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
-	$odds = $tipgin->getOdds($country);
+	//$odds = $tipgin->getOdds($country);
 	
 	
 	if(isset($odds['league']['@attributes'])) $odds['league'] = array($odds['league']);

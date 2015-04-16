@@ -76,7 +76,9 @@ body {
 	background: url(../img/Ball.gif) no-repeat center top;
 }
 
-.loadingsidebarsmall
+.loadingsidebarsmall,
+#block-views-real-time-block-3 .gamerow.toploadingsidebarsmall.loadingnow div,
+#block-views-real-time-block-3 .gamerow.bottomloadingsidebarsmall.loadingnow div
 {
 	background: url(../img/Ball.gif) no-repeat center top;
 	background-size: 20px;

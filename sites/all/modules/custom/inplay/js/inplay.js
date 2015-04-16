@@ -319,6 +319,7 @@
 	function addNewGameRows()
 	{
 		var data_to_send = '';
+		$('.toploadingsidebarsmall').addClass('loadingnow');
 		$.post('/inplay/loadnew/gamerows', { data: {data_to_send} } ,function(data) {
 			data = jQuery.parseHTML(data);
 			var first_element = $('#block-views-real-time-block-3 .view-content .views-row:eq(0)');
@@ -329,6 +330,7 @@
 			  layoutMode: 'fitRows',
 			});
 			filterInplay();
+			$('.toploadingsidebarsmall').removeClass('loadingnow');
 			if(first_element.size()>0)
 				$('.grid_8.alpha').scrollTop(first_element.position().top);
 		});
@@ -340,6 +342,7 @@
 		
 		if(localStorage['addingoldgames'] != 1)
 		{
+			$('.bottomloadingsidebarsmall').addClass('loadingnow');
 			localStorage['addingoldgames'] = 1;
 			$.post('/inplay/loadold/gamerows', { data: {data_to_send} } ,function(data) {
 				localStorage['addingoldgames'] = 1;
@@ -352,6 +355,7 @@
 				  layoutMode: 'fitRows',
 				});
 				filterInplay();
+				$('.bottomloadingsidebarsmall').removeClass('loadingnow');
 				localStorage['addingoldgames'] = 0;
 				$('.grid_8.alpha').scrollTop(currenttop);
 			});
@@ -363,7 +367,7 @@
 		if($('#block-views-real-time-block-3 .view-empty').size() >= 1 || ( $('#block-views-real-time-block-3 .view-content .gamerow').size() < 20 ) )
 		{
 			$('#block-views-real-time-block-3 .view-empty').addClass('view-content');
-			addNewGameRows();
+			//addNewGameRows();
 			addOldGameRows();	
 		}
 	}	

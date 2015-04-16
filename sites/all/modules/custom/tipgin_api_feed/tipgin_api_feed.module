@@ -474,9 +474,18 @@ function tipgin_api_feed_cronapi() {
 	$items['tipgin_api_feed_action_processmatchdata'] = array();
 	$items['tipgin_api_feed_action_gethistory'] = array();
 	
+	$items['tipgin_api_feed_action_getoddsfile'] = array();
+	
 	return $items;
 }
 
+
+function tipgin_api_feed_action_getoddsfile()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$tipgin->getOddsFile();
+}
 
 function tipgin_api_feed_action_gethistory()
 {
@@ -657,7 +666,7 @@ function tipgin_api_feed_action_fillmatchesd1()
 {
 	libraries_load('tipgin-api');
 	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
-	$tipgin->getLivescoreFile();
+	
 	$totalcount = 0 ;
 	$livescore = $tipgin->getLivescore('d-1');
 	

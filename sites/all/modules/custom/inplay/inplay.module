@@ -34,6 +34,12 @@ function inplay_init() {
 		$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
 	}
 	
+	if(isset($_GET['competition']))
+	{
+		if(is_numeric($_GET['competition']))
+			$_SESSION['inplay_competitions'] = array($_GET['competition']);	
+	}
+	
 	if (current_path() == "node/4629") {
 		
 		_inplay_start_session_time();
