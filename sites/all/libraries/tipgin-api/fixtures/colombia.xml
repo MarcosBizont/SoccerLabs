@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="16.04.2015 06:50:19" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4120075" alternate_id_2="4312946" date="15.04.2015" id="4237619" static_id="15041523399802339983" status="Postp." time="23:00">
-<home id="2339980" name="La Equidad"></home>
-<away id="2339983" name="Atl. Nacional"></away>
-
-
-</match><match alternate_id="4123500" alternate_id_2="4321776" date="16.04.2015" id="4241044" static_id="16041523399822339956" status="01:00" time="01:00">
-<home id="2339982" name="Millonarios"></home>
-<away id="2339956" name="Petrolera"></away>
-
-
-</match><match alternate_id="4099625" alternate_id_2="4323556" date="18.04.2015" id="4217184" static_id="18041523399802339960" status="19:00" time="19:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="19.04.2015 06:50:20" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4099625" alternate_id_2="4323556" date="18.04.2015" id="4217184" static_id="18041523399802339960" status="19:00" time="19:00">
 <home id="2339980" name="La Equidad"></home>
 <away id="2339960" name="Huila"></away>
 
@@ -78,6 +68,11 @@
 <away id="2339982" name="Millonarios"></away>
 
 
+</match><match alternate_id="4123394" alternate_id_2="4325378" date="26.04.2015" id="4240938" static_id="26041523399602339971" status="20:00" time="20:00">
+<home id="2339960" name="Huila"></home>
+<away id="2339971" name="Dep. Pasto"></away>
+
+
 </match><match alternate_id="4123397" alternate_id_2="4325384" date="26.04.2015" id="4240941" static_id="26041523399762339978" status="20:00" time="20:00">
 <home id="2339976" name="Ind. Medellin"></home>
 <away id="2339978" name="Junior"></away>
@@ -96,6 +91,11 @@
 </match><match alternate_id="4123398" alternate_id_2="4325400" date="26.04.2015" id="4240942" static_id="26041523399902353561" status="20:00" time="20:00">
 <home id="2339990" name="Santa Fe"></home>
 <away id="2353561" name="Jaguares de Cordoba"></away>
+
+
+</match><match alternate_id="4123396" alternate_id_2="4325380" date="26.04.2015" id="4240940" static_id="26041523505242339969" status="20:00" time="20:00">
+<home id="2350524" name="Uniautónoma"></home>
+<away id="2339969" name="Deportes Tolima"></away>
 
 
 </match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4123504" alternate_id_2="4307192" date="19.04.2015" id="4241048" static_id="19041523399642339972" status="16:30" time="16:30">
@@ -198,67 +198,7 @@
 <away id="2339992" name="Valledupar"></away>
 
 
-</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4114336" alternate_id_2="4316180" date="15.04.2015" id="4231884" static_id="15041523399602339972" status="20:00" time="20:00">
-<home id="2339960" name="Huila"></home>
-<away id="2339972" name="Pereira"></away>
-
-
-</match><match alternate_id="4111619" alternate_id_2="4314146" date="15.04.2015" id="4229170" static_id="15041523399922339971" status="20:00" time="20:00">
-<home id="2339992" name="Valledupar"></home>
-<away id="2339971" name="Dep. Pasto"></away>
-
-
-</match><match alternate_id="4113362" alternate_id_2="4315685" date="15.04.2015" id="4230910" static_id="15041523399702347570" status="20:30" time="20:30">
-<home id="2339970" name="Dep. Cali"></home>
-<away id="2347570" name="Depor"></away>
-
-
-</match><match alternate_id="4112642" alternate_id_2="4315477" date="15.04.2015" id="4230190" static_id="15041523399692339968" status="20:30" time="20:30">
-<home id="2339969" name="Deportes Tolima"></home>
-<away id="2339968" name="Quindio"></away>
-
-
-</match><match alternate_id="4111618" alternate_id_2="4314145" date="15.04.2015" id="4229169" static_id="15041523399742347826" status="22:00" time="22:00">
-<home id="2339974" name="Envigado"></home>
-<away id="2347826" name="Leones"></away>
-
-
-</match><match alternate_id="4107503" alternate_id_2="4314335" date="16.04.2015" id="4225058" static_id="16041523535612339976" status="00:00" time="00:00">
-<home id="2353561" name="Jaguares de Cordoba"></home>
-<away id="2339976" name="Ind. Medellin"></away>
-
-
-</match><match alternate_id="4107507" alternate_id_2="4314338" date="16.04.2015" id="4225062" static_id="16041523505242339978" status="00:00" time="00:00">
-<home id="2350524" name="Uniautónoma"></home>
-<away id="2339978" name="Junior"></away>
-
-
-</match><match alternate_id="4123503" alternate_id_2="4315686" date="16.04.2015" id="4241047" static_id="16041523391412349376" status="20:00" time="20:00">
-<home id="2339141" name="Fortaleza"></home>
-<away id="2349376" name="Llaneros"></away>
-
-
-</match><match alternate_id="4107500" alternate_id_2="4314143" date="17.04.2015" id="4225055" static_id="17041523399592339966" status="00:00" time="00:00">
-<home id="2339959" name="Bucaramanga"></home>
-<away id="2339966" name="Cucuta"></away>
-
-
-</match><match alternate_id="4124038" alternate_id_2="4318243" date="17.04.2015" id="4241582" static_id="17041523399862339963" status="00:00" time="00:00">
-<home id="2339986" name="Patriotas"></home>
-<away id="2339963" name="Chico"></away>
-
-
-</match><match alternate_id="4107506" alternate_id_2="4314144" date="17.04.2015" id="4225061" static_id="17041523475602339961" status="00:30" time="00:30">
-<home id="2347560" name="Cartagena"></home>
-<away id="2339961" name="Barranquilla"></away>
-
-
-</match><match alternate_id="4107499" alternate_id_2="4318122" date="17.04.2015" id="4225054" static_id="17041523496322339957" status="00:45" time="00:45">
-<home id="2349632" name="Cortulua"></home>
-<away id="2339957" name="America De Cali"></away>
-
-
-</match><match alternate_id="4107501" alternate_id_2="4314336" date="22.04.2015" id="4225056" static_id="22041523399562339989" status="20:30" time="20:30">
+</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4107501" alternate_id_2="4314336" date="22.04.2015" id="4225056" static_id="22041523399562339989" status="20:30" time="20:30">
 <home id="2339956" name="Petrolera"></home>
 <away id="2339989" name="Real Santander"></away>
 
@@ -268,14 +208,44 @@
 <away id="2339982" name="Millonarios"></away>
 
 
+</match><match alternate_id="4116113" alternate_id_2="4318408" date="29.04.2015" id="4233661" static_id="29041523399572339970" status="20:00" time="20:00">
+<home id="2339957" name="America De Cali"></home>
+<away id="2339970" name="Dep. Cali"></away>
+
+
+</match><match alternate_id="4116114" alternate_id_2="4318409" date="29.04.2015" id="4233662" static_id="29041523399612347560" status="20:00" time="20:00">
+<home id="2339961" name="Barranquilla"></home>
+<away id="2347560" name="Cartagena"></away>
+
+
 </match><match alternate_id="4116125" alternate_id_2="4318422" date="29.04.2015" id="4233673" static_id="29041523399552339980" status="20:00" time="20:00">
 <home id="2339955" name="Bogota"></home>
 <away id="2339980" name="La Equidad"></away>
 
 
+</match><match alternate_id="4116100" alternate_id_2="4318387" date="29.04.2015" id="4233648" static_id="29041523399632349376" status="20:00" time="20:00">
+<home id="2339963" name="Chico"></home>
+<away id="2349376" name="Llaneros"></away>
+
+
+</match><match alternate_id="4116115" alternate_id_2="4318410" date="29.04.2015" id="4233663" static_id="29041523496322347570" status="20:00" time="20:00">
+<home id="2349632" name="Cortulua"></home>
+<away id="2347570" name="Depor"></away>
+
+
 </match><match alternate_id="4116101" alternate_id_2="4318388" date="29.04.2015" id="4233649" static_id="29041523399712339992" status="20:00" time="20:00">
 <home id="2339971" name="Dep. Pasto"></home>
 <away id="2339992" name="Valledupar"></away>
+
+
+</match><match alternate_id="4116105" alternate_id_2="4318396" date="29.04.2015" id="4233653" static_id="29041523391412339986" status="20:00" time="20:00">
+<home id="2339141" name="Fortaleza"></home>
+<away id="2339986" name="Patriotas"></away>
+
+
+</match><match alternate_id="4116119" alternate_id_2="4318415" date="29.04.2015" id="4233667" static_id="29041523399602339968" status="20:00" time="20:00">
+<home id="2339960" name="Huila"></home>
+<away id="2339968" name="Quindio"></away>
 
 
 </match><match alternate_id="4116102" alternate_id_2="4318389" date="29.04.2015" id="4233650" static_id="29041523399762339974" status="20:00" time="20:00">
@@ -288,14 +258,44 @@
 <away id="2347826" name="Leones"></away>
 
 
+</match><match alternate_id="4116116" alternate_id_2="4318411" date="29.04.2015" id="4233664" static_id="29041523399782350524" status="20:00" time="20:00">
+<home id="2339978" name="Junior"></home>
+<away id="2350524" name="Uniautónoma"></away>
+
+
 </match><match alternate_id="4116103" alternate_id_2="4318390" date="29.04.2015" id="4233651" static_id="29041523399822339975" status="20:00" time="20:00">
 <home id="2339982" name="Millonarios"></home>
 <away id="2339975" name="Expreso Rojo"></away>
 
 
+</match><match alternate_id="4116120" alternate_id_2="4318416" date="29.04.2015" id="4233668" static_id="29041523399722339969" status="20:00" time="20:00">
+<home id="2339972" name="Pereira"></home>
+<away id="2339969" name="Deportes Tolima"></away>
+
+
+</match><match alternate_id="4116121" alternate_id_2="4318417" date="29.04.2015" id="4233669" static_id="29041523399562339966" status="20:00" time="20:00">
+<home id="2339956" name="Petrolera"></home>
+<away id="2339966" name="Cucuta"></away>
+
+
 </match><match alternate_id="4116122" alternate_id_2="4318418" date="29.04.2015" id="4233670" static_id="29041523399892339959" status="20:00" time="20:00">
 <home id="2339989" name="Real Santander"></home>
 <away id="2339959" name="Bucaramanga"></away>
+
+
+</match><match alternate_id="4116106" alternate_id_2="4318397" date="29.04.2015" id="4233654" static_id="29041523399912339964" status="20:00" time="20:00">
+<home id="2339991" name="U. Magdalena"></home>
+<away id="2339964" name="Popayan"></away>
+
+
+</match><match alternate_id="4124301" alternate_id_2="4326459" date="06.05.2015" id="4241845" static_id="06051523399712339991" status="20:00" time="20:00">
+<home id="2339971" name="Dep. Pasto"></home>
+<away id="2339991" name="U. Magdalena"></away>
+
+
+</match><match alternate_id="4124378" alternate_id_2="4326713" date="06.05.2015" id="4241921" static_id="06051523493762339986" status="20:00" time="20:00">
+<home id="2349376" name="Llaneros"></home>
+<away id="2339986" name="Patriotas"></away>
 
 
 </match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4123504" alternate_id_2="4307192" date="19.04.2015" id="4241048" static_id="19041523399642339972" status="16:30" time="16:30">

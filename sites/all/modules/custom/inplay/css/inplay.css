@@ -91,6 +91,19 @@ body {
 	
 }
 
+.loadingsidebarsimbet
+{
+	background: url("../img/Ball.gif") no-repeat scroll center center / 50px auto rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100px;
+	zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	
+}
+
+
+
 #block-views-real-time-block-3 .gamerow.toploadingsidebarsmall,
 #block-views-real-time-block-3 .gamerow.bottomloadingsidebarsmall
 {
@@ -695,4 +708,29 @@ caption
     line-height: 200%;
     width: 100%;
 	
+}
+
+/* simulated bets */
+
+.containerforsimbet {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 20px;
+    display: none;
+}
+
+.containerforsimbet a {
+    color: green !important;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 50%;
+}
+
+.containerforsimbet i {
+    font-size: 24px;
 }

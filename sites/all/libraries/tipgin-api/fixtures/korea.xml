@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="16.04.2015 06:50:32" sport="soccer" country="korea"><league country="korea" name="South Korea: K-League Classic" cup="False" id="3115" sub_id="31150"><match alternate_id="4106687" alternate_id_2="4319325" date="18.04.2015" id="4224242" static_id="18041523441732344172" status="05:00" time="05:00">
-<home id="2344173" name="Jeonbuk"></home>
-<away id="2344172" name="Jeju Utd"></away>
-
-
-</match><match alternate_id="4106686" alternate_id_2="4319326" date="18.04.2015" id="4224241" static_id="18041523441912344156" status="06:00" time="06:00">
-<home id="2344191" name="Suwon"></home>
-<away id="2344156" name="Seoul"></away>
-
-
-</match><match alternate_id="4106688" alternate_id_2="4322459" date="18.04.2015" id="4224243" static_id="18041523441622344185" status="07:00" time="07:00">
-<home id="2344162" name="Gwangju FC"></home>
-<away id="2344185" name="Seongnam"></away>
-
-
-</match><match alternate_id="4106689" alternate_id_2="4322460" date="19.04.2015" id="4224244" static_id="19041523441702344193" status="05:00" time="05:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="19.04.2015 06:50:31" sport="soccer" country="korea"><league country="korea" name="South Korea: K-League Classic" cup="False" id="3115" sub_id="31150"><match alternate_id="4106689" alternate_id_2="4322460" date="19.04.2015" id="4224244" static_id="19041523441702344193" status="05:00" time="05:00">
 <home id="2344170" name="Incheon"></home>
 <away id="2344193" name="Ulsan Hyundai"></away>
 
@@ -28,7 +13,7 @@
 <away id="2344183" name="Pohang"></away>
 
 
-</match><match alternate_id="4106692" alternate_id_2="4322963" date="25.04.2015" id="4224247" static_id="25041523441702344183" status="06:00" time="06:00">
+</match><match alternate_id="4106692" alternate_id_2="4322963" date="25.04.2015" id="4224247" static_id="25041523441702344183" status="05:00" time="05:00">
 <home id="2344170" name="Incheon"></home>
 <away id="2344183" name="Pohang"></away>
 
@@ -98,17 +83,22 @@
 <away id="2344154" name="Daejeon"></away>
 
 
-</match></league><league country="korea" name="South Korea: K League Challenge" cup="False" id="4190" sub_id="41900"><match alternate_id="4116284" alternate_id_2="4318694" date="18.04.2015" id="4233830" static_id="18041523522562356189" status="05:00" time="05:00">
-<home id="2352256" name="Ansan Police"></home>
-<away id="2356189" name="Seoul E."></away>
+</match><match alternate_id="4106706" alternate_id_2="4326849" date="09.05.2015" id="4224261" static_id="09051523441702344172" status="07:00" time="07:00">
+<home id="2344170" name="Incheon"></home>
+<away id="2344172" name="Jeju Utd"></away>
 
 
-</match><match alternate_id="4116285" alternate_id_2="4318695" date="18.04.2015" id="4233831" static_id="18041523441432344163" status="07:00" time="07:00">
-<home id="2344143" name="Bucheon FC 1995"></home>
-<away id="2344163" name="Sangju Sangmu"></away>
+</match><match alternate_id="4106708" alternate_id_2="4326850" date="10.05.2015" id="4224263" static_id="10051523441442344156" status="05:00" time="05:00">
+<home id="2344144" name="Busan"></home>
+<away id="2344156" name="Seoul"></away>
 
 
-</match><match alternate_id="4116286" alternate_id_2="4318696" date="19.04.2015" id="4233832" static_id="19041523441812344140" status="05:00" time="05:00">
+</match><match alternate_id="4106707" alternate_id_2="4326851" date="10.05.2015" id="4224262" static_id="10051523441932344173" status="05:00" time="05:00">
+<home id="2344193" name="Ulsan Hyundai"></home>
+<away id="2344173" name="Jeonbuk"></away>
+
+
+</match></league><league country="korea" name="South Korea: K League Challenge" cup="False" id="4190" sub_id="41900"><match alternate_id="4116286" alternate_id_2="4318696" date="19.04.2015" id="4233832" static_id="19041523441812344140" status="05:00" time="05:00">
 <home id="2344181" name="Hummel"></home>
 <away id="2344140" name="Anyang"></away>
 
@@ -196,6 +186,16 @@
 </match><match alternate_id="4124012" alternate_id_2="4326101" date="10.05.2015" id="4241556" static_id="10051523441432352256" status="07:00" time="07:00">
 <home id="2344143" name="Bucheon FC 1995"></home>
 <away id="2352256" name="Ansan Police"></away>
+
+
+</match><match alternate_id="4124466" alternate_id_2="4326914" date="13.05.2015" id="4242009" static_id="13051523522562344153" status="10:00" time="10:00">
+<home id="2352256" name="Ansan Police"></home>
+<away id="2344153" name="Daegu"></away>
+
+
+</match><match alternate_id="4124454" alternate_id_2="4326852" date="13.05.2015" id="4241997" static_id="13051523441402344143" status="10:00" time="10:00">
+<home id="2344140" name="Anyang"></home>
+<away id="2344143" name="Bucheon FC 1995"></away>
 
 
 </match></league></fixtures>

@@ -1,0 +1,523 @@
+<?php
+
+define("N_BETS_BY_DAY", 5);	
+	
+/**
+ * Implements hook_cronapi().
+ */
+function simbet_cronapi() {
+  $items = array();
+  $items['simbet_close_simbets'] = array();
+  
+  return $items;
+}
+
+function simbet_close_simbets()
+{
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	
+	// ToDo : Select query para traer los aprtidos que ya hayan pasado 
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_win_simbet', 'value', '0', '=');
+	
+	$result = $query->execute();
+	
+	if (isset($result['node'])) 
+	{
+		$betsids = array_keys($result['node']);
+		foreach($betsids as $idbet)
+		{
+			$simbet = node_load($idbet);
+			$match = node_load($simbet->field_match_simbet[LANGUAGE_NONE][0]['target_id']);
+			if($match->field_match_status[LANGUAGE_NONE][0]['value']=='FT'
+				|| $match->field_match_status[LANGUAGE_NONE][0]['value']=='Pen.')
+			{
+				simbet_close_simbets_bytype($simbet);
+			}
+			elseif($match->field_match_status[LANGUAGE_NONE][0]['value']=='Postp.')
+			{
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 3;
+				node_save($simbet);	
+			}
+			
+		}
+	}
+	
+		
+}
+
+function simbet_close_simbets_bytype($simbet)
+{
+	$match = node_load($simbet->field_match_simbet[LANGUAGE_NONE][0]['target_id']);
+	switch($simbet->field_tip_type_simbet[LANGUAGE_NONE][0]['target_id'])
+	{
+		case 571:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			else
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			
+			if($score < 1.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;
+		case 572:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			else
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			
+			if($score > 1.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;
+		case 798:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			else
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			
+			if($score < 2.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;
+		case 799:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			else
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			
+			if($score > 2.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;
+		case 573:
+			if($match->field_local_team_score[LANGUAGE_NONE][0]['value'] > 0 && $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'] > 0) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		
+		case 578:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) < 1.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 772:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) > 0.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 773:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) > 1.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 753:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) > 1.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 576:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) < 2.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 577:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) > 2.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 754:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) < 3.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 755:
+			if(($match->field_local_team_score[LANGUAGE_NONE][0]['value'] + $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) > 3.5) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			node_save($simbet);
+		break;
+		case 575:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			else
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			
+			if($score == 0) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;		
+		case 787:
+		case 788:
+			if($match->field_local_team_score[LANGUAGE_NONE][0]['value'] == $match->field_visitor_team_score[LANGUAGE_NONE][0]['value']) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;
+		case 832:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+			{	
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+				$scorevs = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			}
+			else
+			{
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+				$scorevs = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			}
+			
+			if($score > $scorevs) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;
+		
+	}
+				
+		
+}
+
+/**
+ * Implements hook_view_menu().
+ */
+ 
+ function simbet_menu(){
+    
+    $items['simbet/create'] = array(
+		'title' => 'Display screen to simulate a bet',
+		'page callback' => '_simbet_create',
+		'access arguments' => array('make a simulated bet'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['simbet/generate'] = array(
+		'title' => 'Generate bet',
+		'page callback' => '_simbet_generate',
+		'access arguments' => array('make a simulated bet'),  
+		'type' => MENU_CALLBACK
+    );
+    
+	return $items;
+}
+
+function simbet_permission() {
+  return array(
+    'make a simulated bet' => array(
+      'title' => t('Can make a simulated bet'),
+      'description' => t('User with permissions to make a simulated bet .'),
+    ),
+    'make only n simulated bet' => array(
+      'title' => t('Can make a simulated bet, but only n bets'),
+      'description' => t('User with permissions to make N simulated bets .'),
+    ),
+  );
+}
+
+
+function _simbet_generate()
+{
+	$matchid = $_GET['matchid'];
+	$teamid = $_GET['teamid'];
+	$odds = $_GET['odds'];
+	$tipid = $_GET['tipid'];
+	$bookmakername = $_GET['bookmakername'];
+	
+	if(!simbet_user_isvalid())
+		exit();
+	
+	if(!simbet_bet_isvalid($matchid, $odds, $bookmakername, $teamid, $message))
+		exit();
+	
+	// Generate bet
+	global $user;
+	$tip = node_load($tipid);
+	$tiptype = taxonomy_term_load($tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
+	
+	_simbet_create_simbet($user,$matchid,$bookmakername,$teamid,$tip->field_tip_type[LANGUAGE_NONE][0]['target_id'],$odds);
+	
+	echo '<i class="fa fa-check-circle" ></i>';
+	
+	exit();
+	
+}
+
+function _simbet_create_simbet($usersimbet,$matchid,$bookmakername,$teamid,$tiptypeid,$odds,$stake=1)
+{
+	$match = node_load($matchid);
+	$term = taxonomy_get_term_by_name($bookmakername);
+	$term = reset($term);
+	
+	$nc = new stdClass();
+	$nc->type = 'simbet';
+	$nc->status = 1;
+	$nc->uid = $usersimbet->uid;
+	$nc->title = 'Simulated bet : ' . $match->title;
+	$nc->promote = 0;
+	$nc->created = time();
+	$nc->timestamp = $nc->created;
+	$nc->changed = $nc->created;
+	$nc->sticky = 0;
+	$nc->revision = 0;
+	$nc->language = 'und';
+	
+	//$tip->body[LANGUAGE_NONE][0]['value'] = $body;
+	$nc->field_tip_type_simbet[LANGUAGE_NONE][0]['target_id'] = $tiptypeid;
+	$nc->field_team_simbet[LANGUAGE_NONE][0]['target_id'] = $teamid;
+	
+	$nc->field_odds_simbet[LANGUAGE_NONE][0]['value'] = $odds;
+	$nc->field_stake_simbet[LANGUAGE_NONE][0]['value'] = $stake;
+	
+	$nc->field_bookmaker_simbet[LANGUAGE_NONE][0]['target_id'] = $term->tid;
+	$nc->field_win_simbet[LANGUAGE_NONE][0]['value'] = 0;
+	$nc->field_match_simbet[LANGUAGE_NONE][0]['target_id'] = $matchid;
+	
+	node_save($nc);
+}
+
+
+function _simbet_create()
+{
+	$matchid = $_GET['matchid'];
+	$teamid = $_GET['teamid'];
+	$odds = $_GET['odds'];
+	$tipid = $_GET['tipid'];
+	$bookmakername = $_GET['bookmakername'];
+	$tip = node_load($tipid);
+	$tiptype = taxonomy_term_load($tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
+	
+	if(!simbet_user_isvalid())
+	{
+		echo t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time');
+		exit();
+	}
+	
+	if(!simbet_bet_isvalid($matchid, $odds, $bookmakername, $teamid, $message))
+	{
+		echo $message;
+		exit();
+	}
+	if(!simbet_bet_isvalid_in_confirmation($matchid, $odds, $bookmakername, $teamid,
+				$tip->field_tip_type[LANGUAGE_NONE][0]['target_id'], $message))
+	{
+		echo $message;
+		exit();
+	}
+	
+	$matchnode = node_load($matchid);
+	$local_team = node_load($matchnode->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	$visitor_team = node_load($matchnode->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	$matchname = $local_team->title . ' - ' . $visitor_team->title;
+	$team = node_load($tip->field_team[LANGUAGE_NONE][0]['target_id']);
+	
+	// $teamid
+	if(intval($teamid) > 0)
+		echo t("Are you sure you want to bet <strong>@tiptypename</strong> for <strong>@teamname</strong> in <strong>@matchname</strong>?<br/> Odds: <strong>@odds</strong>", 
+					array('@tiptypename' => $tiptype->name, '@teamname' => $team->title, 
+							'@matchname' => $matchname, '@odds' => $bookmakername . ' | ' . $odds));
+	else
+		echo t("Are you sure you want to bet <strong>@tiptypename</strong> in <strong>@matchname</strong>?<br/> Odds: <strong>@odds</strong>", 
+					array('@tiptypename' => $tiptype->name, 
+							'@matchname' => $matchname, '@odds' => $bookmakername . ' | ' . $odds));
+		
+	
+	$params['matchid'] = $matchid;
+	$params['teamid'] = $teamid;
+	$params['tipid'] = $tipid;
+	$params['odds'] = $odds;
+	$params['bookmakername'] = $bookmakername;
+	
+	
+	$urltobet = url('simbet/generate', array('query' => $params));
+	echo '<a href="#' . $matchid . '"  class="simbetaccept" url="' . $urltobet . '" >' . t('Yes') . '</a>';
+	
+						
+	exit();
+}
+
+
+/*
+	Simulate bets
+	
+*/
+function simbet_format_list_offers($obj, $odds_suggested, $tip)
+{
+	$teamid = $tip->field_team[LANGUAGE_NONE][0]['target_id'];
+	$matchid = $tip->field_match[LANGUAGE_NONE][0]['target_id'];
+	$is_bet_valid = simbet_bet_isvalid($matchid, $odds_suggested, $teamid, $message);
+	$is_user_valid = simbet_user_isvalid();
+	
+	$odd = array();
+	foreach ($obj as $key => $row)
+	{
+	    $odd[$key] = $row['odd'];
+	}
+	array_multisort($odd, SORT_DESC, $obj);
+	
+	foreach($obj as $value) 
+	{
+		$prelink = '';
+		$postlink = '';
+		if($is_bet_valid && $is_user_valid)
+		{
+			// Add link to callback to print bet option
+			$params['matchid'] = $matchid;
+			$params['teamid'] = $teamid;
+			$params['tipid'] = $tip->nid;
+			$params['odds'] = $value['odd'];
+			$params['bookmakername'] = $value['bookmakername'];
+			
+			$urltobet = url('simbet/create', array('query' => $params));
+			$prelink = '<a href="#' . $matchid . '"  class="simbetpopover" url="' . $urltobet . '" >';
+			$postlink = '</a>';
+		}
+		
+		if($value['odd'] >= $odds_suggested)
+			echo $prelink . '<span class="stand">' . $value['bookmakername'] . " : " . $value['odd'] . '</span>' . $postlink . ' | ' ;
+		else
+			echo $prelink . $value['bookmakername'] . " : " . $value['odd']  . $postlink . ' | ';
+			
+	}	
+	
+	// Container
+	if(count($obj)>0 && ($is_bet_valid && $is_user_valid))
+		echo "<div class='containerforsimbet'></div>";
+}
+
+// Function to validate if this user is able to make a bet
+function simbet_user_isvalid(&$message='')
+{
+	// ToDo : Change validation to permission again, check permission to bet if is a member but no rol
+	if(!user_access('make a simulated bet'))
+	{
+		$message = 
+			t('You need to be a member to bet, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time');
+		return false;
+	} 
+	
+	return true;
+}
+
+// Function to validate if this bet is posible
+function simbet_bet_isvalid($matchid, $odds, $bookmakername,  $teamid, &$message='')
+{
+	$match = node_load($matchid);
+	$match_date = new DateTime($match->field_match_date[LANGUAGE_NONE][0]['value'],new DateTimeZone('UTC'));
+	
+	$now = new DateTime('now',new DateTimeZone('UTC'));
+	$now = $now->modify('+10 minutes'); 
+	if($now >= $match_date)
+	{
+		$message = t('This game is already started');
+		return false;	
+	}
+	
+	// ToDo : Check if the odds sugested are valid, security with not friendly calls
+	// ToDo : If is a team bet validate, for bets with team included, security with not friendly calls
+	
+	return true;
+}
+
+function simbet_bet_isvalid_in_confirmation($matchid, $odds, $bookmakername,  $teamid, $tiptypeid, &$message='')
+{
+	global $user;
+	$user = user_load($user->uid);
+	
+	// ToDo : Slow it down baby, avoid abuse with multiple simulate bets
+	// One bet by ?
+
+	if(user_access('make only n simulated bet'))
+	{
+		
+		if(_simbet_getcount_bets_by_user_last24h($user) >= N_BETS_BY_DAY)
+		{
+			$message = t('You only can make @numbetbyday bet by day, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time', array('@numbetbyday' => N_BETS_BY_DAY));
+			return false;
+		}
+	}
+		
+	if(_simbet_bet_alredy_exists($user, $matchid, $teamid, $tiptypeid))
+	{
+		$message = t('You already made this bet');
+		return false;
+	}
+	
+	return true;
+	
+}
+
+function _simbet_bet_alredy_exists($user, $matchid, $teamid, $tiptypeid)
+{
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_tip_type_simbet', 'target_id', $tiptypeid, '=')
+		  ->fieldCondition('field_match_simbet', 'target_id', $matchid, '=')
+		  ->fieldCondition('field_team_simbet', 'target_id', $teamid, '=')
+		  ->propertyCondition('uid', $user->uid);
+    
+	return ($query->count()->execute() >= 1);
+	
+}
+
+function _simbet_getcount_bets_by_user_last24h($user)
+{
+	
+	$from = new DateTime();
+	$from = $from->modify('-24 hours'); 
+	
+	$now = new DateTime();
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->propertyCondition('created', $from->getTimestamp(), '>=')
+		  ->propertyCondition('created', $now->getTimestamp(), '<=')
+		  ->propertyCondition('uid', $user->uid);
+	
+	return $query->count()->execute();
+	
+	
+}

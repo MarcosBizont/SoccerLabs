@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="16.04.2015 06:50:42" sport="soccer" country="scotland"><league country="scotland" name="Scotland: Premiership" cup="False" id="3203" sub_id="32030"><match alternate_id="" alternate_id_2="4301328" date="18.04.2015" id="" static_id="18041523468662346897" status="14:00" time="14:00">
-<home id="2346866" name="Aberdeen"></home>
-<away id="2346897" name="Dundee Utd"></away>
-
-
-</match><match alternate_id="3970254" alternate_id_2="4309106" date="22.04.2015" id="4087907" static_id="22041523468962346882" status="18:45" time="18:45">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="19.04.2015 06:50:40" sport="soccer" country="scotland"><league country="scotland" name="Scotland: Premiership" cup="False" id="3203" sub_id="32030"><match alternate_id="3970254" alternate_id_2="4309106" date="22.04.2015" id="4087907" static_id="22041523468962346882" status="18:45" time="18:45">
 <home id="2346896" name="Dundee FC"></home>
 <away id="2346882" name="Celtic"></away>
 
@@ -68,7 +63,12 @@
 <away id="2346953" name="St. Mirren"></away>
 
 
-</match><match alternate_id="4123835" alternate_id_2="4326213" date="08.05.2015" id="4241379" static_id="08051523469352346928" status="18:45" time="18:45">
+</match></league><league country="scotland" name="Scotland: Premiership" cup="False" id="3203" sub_id="32030"><match alternate_id="3970255" alternate_id_2="4308973" date="05.05.2015" id="4087908" static_id="05051523469232346897" status="18:45" time="18:45">
+<home id="2346923" name="Inverness"></home>
+<away id="2346897" name="Dundee Utd"></away>
+
+
+</match></league><league country="scotland" name="Scotland: Premiership - Relegation Group" cup="False" id="3203" sub_id=""><match alternate_id="4123835" alternate_id_2="4326213" date="08.05.2015" id="4241379" static_id="08051523469352346928" status="18:45" time="18:45">
 <home id="2346935" name="Motherwell"></home>
 <away id="2346928" name="Kilmarnock"></away>
 
@@ -128,17 +128,17 @@
 <away id="2346935" name="Motherwell"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4326225" date="23.05.2015" id="" static_id="23051523469172346953" status="14:00" time="14:00">
+</match><match alternate_id="4123847" alternate_id_2="4326225" date="23.05.2015" id="4241391" static_id="23051523469172346953" status="14:00" time="14:00">
 <home id="2346917" name="Hamilton"></home>
 <away id="2346953" name="St. Mirren"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4326226" date="23.05.2015" id="" static_id="23051523469282346947" status="14:00" time="14:00">
+</match><match alternate_id="4123848" alternate_id_2="4326226" date="23.05.2015" id="4241392" static_id="23051523469282346947" status="14:00" time="14:00">
 <home id="2346928" name="Kilmarnock"></home>
 <away id="2346947" name="Ross County"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4326227" date="23.05.2015" id="" static_id="23051523469352346938" status="14:00" time="14:00">
+</match><match alternate_id="4123849" alternate_id_2="4326227" date="23.05.2015" id="4241393" static_id="23051523469352346938" status="14:00" time="14:00">
 <home id="2346935" name="Motherwell"></home>
 <away id="2346938" name="Partick"></away>
 
@@ -158,22 +158,7 @@
 <away id="2346896" name="Dundee FC"></away>
 
 
-</match></league><league country="scotland" name="Scotland: Championship" cup="False" id="3206" sub_id="32060"><match alternate_id="4003465" alternate_id_2="4320463" date="18.04.2015" id="4121087" static_id="18041523468692346943" status="14:00" time="14:00">
-<home id="2346869" name="Alloa"></home>
-<away id="2346943" name="Queen of South"></away>
-
-
-</match><match alternate_id="4003467" alternate_id_2="4320464" date="18.04.2015" id="4121089" static_id="18041523468952346946" status="14:00" time="14:00">
-<home id="2346895" name="Dumbarton"></home>
-<away id="2346946" name="Rangers"></away>
-
-
-</match><match alternate_id="4003466" alternate_id_2="4320465" date="18.04.2015" id="4121088" static_id="18041523469192346945" status="14:00" time="14:00">
-<home id="2346919" name="Hearts"></home>
-<away id="2346945" name="Raith"></away>
-
-
-</match><match alternate_id="4003464" alternate_id_2="4320466" date="22.04.2015" id="4121086" static_id="22041523469302346921" status="18:45" time="18:45">
+</match></league><league country="scotland" name="Scotland: Championship" cup="False" id="3206" sub_id="32060"><match alternate_id="4003464" alternate_id_2="4320466" date="22.04.2015" id="4121086" static_id="22041523469302346921" status="18:45" time="18:45">
 <home id="2346930" name="Livingston"></home>
 <away id="2346921" name="Hibernian"></away>
 
@@ -203,57 +188,32 @@
 <away id="2346905" name="Falkirk"></away>
 
 
-</match><match alternate_id="4003473" alternate_id_2="4323850" date="02.05.2015" id="4121095" static_id="02051523468692346889" status="14:00" time="14:00">
+</match><match alternate_id="4003473" alternate_id_2="4323850" date="02.05.2015" id="4121095" static_id="02051523468692346889" status="11:15" time="11:15">
 <home id="2346869" name="Alloa"></home>
 <away id="2346889" name="Cowdenbeath"></away>
 
 
-</match><match alternate_id="4003476" alternate_id_2="4323815" date="02.05.2015" id="4121098" static_id="02051523468952346945" status="14:00" time="14:00">
+</match><match alternate_id="4003476" alternate_id_2="4323815" date="02.05.2015" id="4121098" static_id="02051523468952346945" status="11:15" time="11:15">
 <home id="2346895" name="Dumbarton"></home>
 <away id="2346945" name="Raith"></away>
 
 
-</match><match alternate_id="4003474" alternate_id_2="4323816" date="02.05.2015" id="4121096" static_id="02051523469052346921" status="14:00" time="14:00">
+</match><match alternate_id="4003474" alternate_id_2="4323816" date="02.05.2015" id="4121096" static_id="02051523469052346921" status="11:15" time="11:15">
 <home id="2346905" name="Falkirk"></home>
 <away id="2346921" name="Hibernian"></away>
 
 
-</match><match alternate_id="4003475" alternate_id_2="4323818" date="02.05.2015" id="4121097" static_id="02051523469302346943" status="14:00" time="14:00">
-<home id="2346930" name="Livingston"></home>
-<away id="2346943" name="Queen of South"></away>
-
-
-</match><match alternate_id="4003477" alternate_id_2="4323817" date="03.05.2015" id="4121099" static_id="03051523469192346946" status="11:30" time="11:30">
+</match><match alternate_id="4003477" alternate_id_2="4323817" date="02.05.2015" id="4121099" static_id="02051523469192346946" status="11:15" time="11:15">
 <home id="2346919" name="Hearts"></home>
 <away id="2346946" name="Rangers"></away>
 
 
-</match></league><league country="scotland" name="Scotland: League One" cup="False" id="3209" sub_id="32090"><match alternate_id="4005033" alternate_id_2="4318718" date="18.04.2015" id="4122655" static_id="18041523468672346873" status="14:00" time="14:00">
-<home id="2346867" name="Airdrieonians"></home>
-<away id="2346873" name="Ayr"></away>
+</match><match alternate_id="4003475" alternate_id_2="4323818" date="02.05.2015" id="4121097" static_id="02051523469302346943" status="11:15" time="11:15">
+<home id="2346930" name="Livingston"></home>
+<away id="2346943" name="Queen of South"></away>
 
 
-</match><match alternate_id="4005034" alternate_id_2="4318719" date="18.04.2015" id="4122656" static_id="18041523468782346898" status="14:00" time="14:00">
-<home id="2346878" name="Brechin"></home>
-<away id="2346898" name="Dunfermline"></away>
-
-
-</match><match alternate_id="4005035" alternate_id_2="4318720" date="18.04.2015" id="4122657" static_id="18041523469402346906" status="14:00" time="14:00">
-<home id="2346940" name="Peterhead"></home>
-<away id="2346906" name="Forfar Athletic"></away>
-
-
-</match><match alternate_id="4005036" alternate_id_2="4318721" date="18.04.2015" id="4122658" static_id="18041523469552346915" status="14:00" time="14:00">
-<home id="2346955" name="Stirling"></home>
-<away id="2346915" name="Morton"></away>
-
-
-</match><match alternate_id="4005037" alternate_id_2="4318754" date="18.04.2015" id="4122659" static_id="18041523469562346954" status="14:00" time="14:00">
-<home id="2346956" name="Stranraer"></home>
-<away id="2346954" name="Stenhousemuir"></away>
-
-
-</match><match alternate_id="4005042" alternate_id_2="4320467" date="25.04.2015" id="4122664" static_id="25041523468732346955" status="14:00" time="14:00">
+</match></league><league country="scotland" name="Scotland: League One" cup="False" id="3209" sub_id="32090"><match alternate_id="4005042" alternate_id_2="4320467" date="25.04.2015" id="4122664" static_id="25041523468732346955" status="14:00" time="14:00">
 <home id="2346873" name="Ayr"></home>
 <away id="2346955" name="Stirling"></away>
 
@@ -303,32 +263,7 @@
 <away id="2346954" name="Stenhousemuir"></away>
 
 
-</match></league><league country="scotland" name="Scotland: League Two" cup="False" id="3208" sub_id="32080"><match alternate_id="4005212" alternate_id_2="4318722" date="18.04.2015" id="4122834" static_id="18041523468702346899" status="14:00" time="14:00">
-<home id="2346870" name="Annan"></home>
-<away id="2346899" name="East Fife"></away>
-
-
-</match><match alternate_id="4005214" alternate_id_2="4318755" date="18.04.2015" id="4122836" static_id="18041523468712346944" status="14:00" time="14:00">
-<home id="2346871" name="Arbroath"></home>
-<away id="2346944" name="Queen's Park"></away>
-
-
-</match><match alternate_id="4005210" alternate_id_2="4318723" date="18.04.2015" id="4122832" static_id="18041523468852346868" status="14:00" time="14:00">
-<home id="2346885" name="Clyde"></home>
-<away id="2346868" name="Albion Rovers"></away>
-
-
-</match><match alternate_id="4005211" alternate_id_2="4318724" date="18.04.2015" id="4122833" static_id="18041523469002346876" status="14:00" time="14:00">
-<home id="2346900" name="East Stirlingshire"></home>
-<away id="2346876" name="Berwick"></away>
-
-
-</match><match alternate_id="4005213" alternate_id_2="4318756" date="18.04.2015" id="4122835" static_id="18041523469342346904" status="14:00" time="14:00">
-<home id="2346934" name="Montrose"></home>
-<away id="2346904" name="Elgin City"></away>
-
-
-</match><match alternate_id="4005216" alternate_id_2="4320472" date="25.04.2015" id="4122838" static_id="25041523468682346871" status="14:00" time="14:00">
+</match></league><league country="scotland" name="Scotland: League Two" cup="False" id="3208" sub_id="32080"><match alternate_id="4005216" alternate_id_2="4320472" date="25.04.2015" id="4122838" static_id="25041523468682346871" status="14:00" time="14:00">
 <home id="2346868" name="Albion Rovers"></home>
 <away id="2346871" name="Arbroath"></away>
 
@@ -378,12 +313,7 @@
 <away id="2346868" name="Albion Rovers"></away>
 
 
-</match></league><league country="scotland" name="Scotland: Fa Cup" cup="True" id="3204" sub_id="32040"><match alternate_id="4113763" alternate_id_2="4315446" date="18.04.2015" id="4231311" static_id="18041523469212346905" status="11:15" time="11:15">
-<home id="2346921" name="Hibernian"></home>
-<away id="2346905" name="Falkirk"></away>
-
-
-</match><match alternate_id="4116045" alternate_id_2="4318123" date="19.04.2015" id="4233593" static_id="19041523469232346882" status="11:15" time="11:15">
+</match></league><league country="scotland" name="Scotland: Fa Cup" cup="True" id="3204" sub_id="32040"><match alternate_id="4116045" alternate_id_2="4318123" date="19.04.2015" id="4233593" static_id="19041523469232346882" status="11:15" time="11:15">
 <home id="2346923" name="Inverness"></home>
 <away id="2346882" name="Celtic"></away>
 

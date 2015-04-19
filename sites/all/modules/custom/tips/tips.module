@@ -411,7 +411,8 @@ function tips_close_tips()
 		{
 			$tip = node_load($idtip);
 			$match = node_load($tip->field_match[LANGUAGE_NONE][0]['target_id']);
-			if($match->field_match_status[LANGUAGE_NONE][0]['value']=='FT')
+			if($match->field_match_status[LANGUAGE_NONE][0]['value']=='FT' 
+				|| $match->field_match_status[LANGUAGE_NONE][0]['value']=='Pen.')
 			{
 				tips_close_tips_poisson($tip);
 				tips_close_tips_posessiontime($tip);

@@ -319,7 +319,7 @@ function tips_check_poisson_tips_creation_processmatch()
 			}	
 		
 		$queue->deleteItem($item);
-		if($i>=50) return;
+		if($i>=100) return;
 		$i++;
 	}	
 }

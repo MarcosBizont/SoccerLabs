@@ -5627,6 +5627,11 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 	display: none;
 }
 
+#layout .sf-menu ul.res_mode
+{
+	width: 250px;
+}
+
 
 @media screen and (max-width:1040px) {
 	.review-desc { width: 71%;}

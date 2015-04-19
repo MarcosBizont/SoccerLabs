@@ -203,10 +203,39 @@
 						
 		});
 		
-		$( ".sidebarleft .content-inblock").hide();
-		
+		$(".sidebarleft .content-inblock").hide();
 		
 	}
+	// Add betclicks if links are availables
+	$('a.simbetpopover').live('click',function()
+	{
+		var anchor = $(this);
+		anchor.parent().find('.containerforsimbet').addClass('loadingsidebarsimbet').show();
+		var urltobet = anchor.attr('url');
+		data_to_send = '';
+		$.post(urltobet, { data: {data_to_send} } ,function(data) {
+			anchor.parent().find('.containerforsimbet').html(data);
+			anchor.parent().find('.containerforsimbet').removeClass('loadingsidebarsimbet');	
+		});
+	});
+	$('a.simbetaccept').live('click',function()
+	{
+		var anchor = $(this);
+		anchor.parent().parent().find('.containerforsimbet').addClass('loadingsidebarsimbet');
+		var urltobet = anchor.attr('url');
+		data_to_send = '';
+		$.post(urltobet, { data: {data_to_send} } ,function(data) {
+			anchor.parent().parent().find('.containerforsimbet').removeClass('loadingsidebarsimbet');
+			anchor.parent().parent().find('.containerforsimbet').html(data);
+			setTimeout(function()
+			{
+				$('.containerforsimbet').slideUp();	
+			},2000);
+			
+		});
+	});	
+	
+	
 	$('.views-field-nothing-1 .views-label').live('click',function()
 	{
 		$('.webui-popover-inner .' + $(this).parent().parent().attr('openclass')).slideToggle('slow');

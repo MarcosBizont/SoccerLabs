@@ -26,17 +26,7 @@ $termcurrent = $row->_field_data['taxonomy_term_data_field_data_field_tip_type_t
 $tip = node_load($row->nid);
 $obj = tips_tipfin_odds_library_check_odds_for_tip($tip);
 
-//
-if(is_array($obj))
-	if(count($obj)>0)
-		echo '<span class="stand">' . t('Soon you gonna be able to simulate you bets here!').'</span><br>';
+simbet_format_list_offers($obj, $termcurrent->field_odds_suggested['und'][0]['value'], $tip);
 
-foreach($obj as $value) 
-{
-	if($value['odd'] >= $termcurrent->field_odds_suggested['und'][0]['value'])
-		echo '<span class="stand">' . $value['bookmakername'] . " : " . $value['odd'] . '</span> | ';
-	else
-		echo $value['bookmakername'] . " : " . $value['odd'] . ' | ';
-}
 
 ?>
