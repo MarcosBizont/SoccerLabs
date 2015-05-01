@@ -5633,6 +5633,11 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 }
 
 
+.onlyformobile
+{
+	display: none !important;
+}
+
 @media screen and (max-width:1040px) {
 	.review-desc { width: 71%;}
 	/* Match */
@@ -5703,6 +5708,21 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 	#block-views-header-in-match-block .views-field.views-field-field-competition
 	{
 		font-size: 20px;
+	}
+	
+	#block-md-megamenu-1
+	{
+		display: none;
+	}
+	
+	.onlyformobile
+	{
+		display: block !important;
+	}
+	
+	.hideinmobile
+	{
+		display: none !important;
 	}
 	
 }

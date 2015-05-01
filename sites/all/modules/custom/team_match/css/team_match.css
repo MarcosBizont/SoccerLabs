@@ -45,6 +45,7 @@
 {
 	cursor: pointer;
 	font-size: 14px;
+	display: block;
 }
 
 .view-tips-blocks .views-field-field-why-this-match-and-or-team .views-label:hover,
@@ -100,4 +101,29 @@
 #block-views-tips-blocks-block .views-label
 {
 	color: #000;
+}
+
+/* simulated bets */
+
+.containerforsimbet {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 20px;
+    display: none;
+}
+
+.containerforsimbet a {
+    color: green !important;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 50%;
+}
+
+.containerforsimbet i {
+    font-size: 24px;
 }

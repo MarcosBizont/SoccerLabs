@@ -12,7 +12,7 @@ function sevenmag_preprocess_html(&$variables) {
 	drupal_add_css(base_path().path_to_theme().'/css/icons.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/animate.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/responsive.css', array('type' => 'external'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Montserrat', array('type' => 'external'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Montserrat', array('type' => 'external'));
 	
 	//RTL version
 	$styling = theme_get_setting('styling', 'sevenmag');

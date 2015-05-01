@@ -1,7 +1,7 @@
 <?PHP
 
 
-function _inplay_start_session_time()
+function _inplay_start_session_time($hour = 3)
 {
 	if (($cache_start = cache_get('inplay_session_time_start', 'cache')) 
 				&& ($cache_end = cache_get('inplay_session_time_end', 'cache')) )  {
@@ -10,8 +10,8 @@ function _inplay_start_session_time()
 	}
 	else 
 	{
-		$_SESSION['inplay_session_time_start'] = strtotime('now -3 hours');
-		$_SESSION['inplay_session_time_end'] = strtotime('now +3 hours');
+		$_SESSION['inplay_session_time_start'] = strtotime('now -' . $hour . ' hours');
+		$_SESSION['inplay_session_time_end'] = strtotime('now +' . $hour . ' hours');
 		cache_set('inplay_session_time_start', $_SESSION['inplay_session_time_start'], 'cache', time() + 60 * 2);
 		cache_set('inplay_session_time_end', $_SESSION['inplay_session_time_end'], 'cache', time() + 60 * 2);
 	}
@@ -29,20 +29,26 @@ function _inplay_start_session_time()
 function inplay_init() {
 	
 	
-	if(!isset($_SESSION['inplay_competitions']))
-	{
-		$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
-	}
 	
-	if(isset($_GET['competition']))
-	{
-		if(is_numeric($_GET['competition']))
-			$_SESSION['inplay_competitions'] = array($_GET['competition']);	
-	}
 	
 	if (current_path() == "node/4629") {
 		
-		_inplay_start_session_time();
+		if(isset($_GET['competition']))
+		{
+			if($_GET['competition']=='')
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
+			if(is_numeric($_GET['competition']))
+				$_SESSION['inplay_competitions'] = array($_GET['competition']);	
+		}
+		else
+		{
+			$_SESSION['inplay_competitions'] = '';	
+		}
+	
+	
+	
+
+		_inplay_start_session_time(3);
 		
 	
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/isotope.pkgd.min.js', array('scope' => 'footer'));
@@ -62,7 +68,19 @@ function inplay_init() {
 	
 	if(current_path() == "node/99865")
 	{
-		_inplay_start_session_time();
+		if(isset($_GET['competition']))
+		{
+			if($_GET['competition']=='')
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
+			if(is_numeric($_GET['competition']))
+				$_SESSION['inplay_competitions'] = array($_GET['competition']);	
+		}
+		else
+		{
+			$_SESSION['inplay_competitions'] = '';	
+		}
+		
+		_inplay_start_session_time(9);
 			
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay_mobile.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay_mobile.css', array('weight' => 11));
@@ -290,19 +308,22 @@ function _inplay_autocomplete_competition($string)
 
 function inplay_search_api_views_query_alter(&$query)
 {
-	$query->query->where[1]['conditions'][1][1] = $_SESSION['inplay_session_time_start'];
-	$query->query->where[1]['conditions'][2][1] = $_SESSION['inplay_session_time_end'];
-	
-	if(isset($_SESSION['inplay_session_remove_start'])) 
-		if($_SESSION['inplay_session_remove_start']) 
-			unset($query->query->where[1]['conditions'][1]);
-	if(isset($_SESSION['inplay_session_remove_end']))
-		if($_SESSION['inplay_session_remove_end']) 
-		{
-			unset($query->sort['field_match_date']->options['order']);
-			$query->query->sort('field_match_date', 'ASC');
-			unset($query->query->where[1]['conditions'][2]);
-		}
+	if($query->name=='real_time')
+	{
+		$query->query->where[1]['conditions'][1][1] = $_SESSION['inplay_session_time_start'];
+		$query->query->where[1]['conditions'][2][1] = $_SESSION['inplay_session_time_end'];
+		
+		if(isset($_SESSION['inplay_session_remove_start'])) 
+			if($_SESSION['inplay_session_remove_start']) 
+				unset($query->query->where[1]['conditions'][1]);
+		if(isset($_SESSION['inplay_session_remove_end']))
+			if($_SESSION['inplay_session_remove_end']) 
+			{
+				unset($query->sort['field_match_date']->options['order']);
+				$query->query->sort('field_match_date', 'ASC');
+				unset($query->query->where[1]['conditions'][2]);
+			}
+	}
 }
 
 

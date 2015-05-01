@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="19.04.2015 12:40:57" sport="soccer" country="latvia"><league country="latvia" name="Latvia: Virsliga" cup="False" id="3120" sub_id="31200"><match alternate_id="4110751" alternate_id_2="4313632" date="19.04.2015" id="4228302" static_id="19041523442912344243" status="81" time="11:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:40:54" sport="soccer" country="latvia"><league country="latvia" name="Latvia: Virsliga" cup="False" id="3120" sub_id="31200"><match alternate_id="4110751" alternate_id_2="4313632" date="19.04.2015" id="4228302" static_id="19041523442912344243" status="FT" time="11:00">
 <home goals="0" id="2344291" name="Spartaks"></home>
 <away goals="0" id="2344243" name="Jelgava"></away>
 <events>
@@ -176,12 +176,17 @@
 <event id="21802127" minute="82" player="" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3958400" alternate_id_2="4278870" date="08.11.2014" id="4076085" static_id="08111423442912344264" status="FT" time="12:00">
-<home goals="0" id="2344291" name="Spartaks"></home>
-<away goals="0" id="2344264" name="FK Liepaja"></away>
+</match><match alternate_id="3958398" alternate_id_2="4278801" date="08.11.2014" id="4076083" static_id="08111423442602352258" status="FT" time="12:00">
+<home goals="4" id="2344260" name="Skonto"></home>
+<away goals="1" id="2352258" name="Daugava Riga"></away>
 <events>
+<event id="21801514" minute="12" player="N. Berenfelds" playerid="2547431" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21801515" minute="28" player="E. Knapsis" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21801516" minute="48" player="V. Gutkovskis" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21801517" minute="63" player="V. Gutkovskis" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="21801518" minute="82" player="V. Gutkovskis" playerid="" result="[4 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="3958396" alternate_id_2="4278846" date="08.11.2014" id="4076081" static_id="08111423442492344231" status="FT" time="12:00">
 <home goals="4" id="2344249" name="Ventspils"></home>
 <away goals="0" id="2344231" name="FC Daugava"></away>
@@ -192,7 +197,25 @@
 <event id="21801967" minute="89" player="J. Zigajevs" playerid="2361384" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="latvia" name="Latvia: Latvian Cup" cup="True" id="3622" sub_id="36220"><match alternate_id="4115590" alternate_id_2="4313780" date="05.04.2015" id="4233138" static_id="05041523442492349980" status="FT" time="13:00">
+</match></league><league country="latvia" name="Latvia: Latvian Cup" cup="True" id="3622" sub_id="36220"><match alternate_id="4124246" alternate_id_2="4323777" date="26.04.2015" id="4241790" static_id="26041523442912344249" status="Pen." time="13:00">
+<home goals="1" id="2344291" name="Spartaks"></home>
+<away goals="1" id="2344249" name="Ventspils"></away>
+<events>
+<event id="22251274" minute="65" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22251275" minute="90+2" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22251276" minute="110" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="1" visitorteam="3"></penalty>
+</match><match alternate_id="4119504" alternate_id_2="4323776" date="25.04.2015" id="4237048" static_id="25041523442432344264" status="FT" time="12:00">
+<home goals="2" id="2344243" name="Jelgava"></home>
+<away goals="0" id="2344264" name="FK Liepaja"></away>
+<events>
+<event id="22251264" minute="77" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22251265" minute="87" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4115590" alternate_id_2="4313780" date="05.04.2015" id="4233138" static_id="05041523442492349980" status="FT" time="13:00">
 <home goals="3" id="2344249" name="Ventspils"></home>
 <away goals="0" id="2349980" name="BFC Daugavpils"></away>
 <events>
@@ -561,15 +584,4 @@
 <event id="20766604" minute="74" player="" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="3997564" alternate_id_2="4122170" date="06.07.2014" id="4115186" static_id="06071423442292355224" status="WO" time="14:00">
-<home goals="?" id="2344229" name="Rezekne"></home>
-<away goals="?" id="2355224" name="Monarhs"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3997562" alternate_id_2="4122165" date="06.07.2014" id="4115184" static_id="06071423538002355221" status="FT" time="12:00">
-<home goals="5" id="2353800" name="Grobina"></home>
-<away goals="2" id="2355221" name="Bandava"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match></league></recent_results>

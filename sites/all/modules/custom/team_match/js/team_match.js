@@ -41,7 +41,7 @@
 		});
 		$( '.container_group').hide();
 		
-		$('.views-field-nothing-1 .views-label').live('click',function()
+		$('.views-field-nothing-1 .views-label').click(function()
 		{
 			$('.' + $(this).parent().parent().attr('openclass')).slideToggle('slow');
 		});
@@ -72,6 +72,51 @@
 		    });
 		}
 		
+		// Add betclicks if links are availables
+
+		$('a.simbetpopover').click(function()
+		{
+
+			var anchor = $(this);
+			anchor.parent().find('.containerforsimbet').addClass('loadingsidebarsimbet').show();
+			var urltobet = anchor.attr('url');
+			data_to_send = '';
+			$.ajax({
+			  type: "POST",
+			  url: urltobet,
+			  data: data_to_send,
+			  success: function(data) {
+					anchor.parent().find('.containerforsimbet').html(data);
+					anchor.parent().find('.containerforsimbet').removeClass('loadingsidebarsimbet');	
+				},
+			});
+
+		});
+
+		$('a.simbetaccept').live('click', function()
+		{
+			var anchor = $(this);
+			anchor.parent().parent().find('.containerforsimbet').addClass('loadingsidebarsimbet');
+			var urltobet = anchor.attr('url');
+			data_to_send = '';
+			$.ajax({
+			  type: "POST",
+			  url: urltobet,
+			  data: data_to_send,
+			  success: function(data) {
+					anchor.parent().parent().find('.containerforsimbet').removeClass('loadingsidebarsimbet');
+					anchor.parent().parent().find('.containerforsimbet').html(data);
+					setTimeout(function()
+					{
+						$('.containerforsimbet').slideUp();	
+					},2000);
+					
+				},
+			});
+		});	
+
+		
+
 
 
 })(jQuery);

@@ -78,7 +78,7 @@ function tips_generate_tweet_tips()
 {
 	$from = new DateTime('now',new DateTimeZone('UTC'));
 	//$from = $from->modify('-15 minutes');
-	$from = $from->modify('-30 minutes');
+	$from = $from->modify('-120 minutes');
 	
 	$to = new DateTime('now',new DateTimeZone('UTC'));
 	$to = $to->modify('+15 minutes');
@@ -124,6 +124,9 @@ function tips_process_tweet_tips()
 	{
 		$data = $item->data;
 		
+		// lets remove it first to avoid retry
+		$queue->deleteItem($item);
+		
 		$tip = node_load($data);
 		if(isset($tip->field_team[LANGUAGE_NONE][0]['target_id']))
 			$tip_team = node_load($tip->field_team[LANGUAGE_NONE][0]['target_id']);
@@ -133,7 +136,7 @@ function tips_process_tweet_tips()
 		
 		$tiptype = taxonomy_term_load($tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
 		$i18n_object = i18n_get_object('taxonomy_term', $tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
-		$target_langcode = 'es';
+		$target_langcode = 'en';
 		$translated_tiptype = $i18n_object->localize($target_langcode);
 		
 		$oddssuggested = $tiptype->field_odds_suggested[LANGUAGE_NONE][0]['value'];
@@ -144,7 +147,8 @@ function tips_process_tweet_tips()
 		{
 			$tiptitle = $translated_tiptype->name;
 			if(isset($tip->field_team[LANGUAGE_NONE][0]['target_id']))
-				$tiptitle .= ' ' . $tip_team->title;	
+				if(intval($tip->field_team[LANGUAGE_NONE][0]['target_id']) > 0)
+					$tiptitle .= ' ' . $tip_team->title;	
 			
 			$tiptitle = '[' .  trim($tiptitle) . ']';
 			
@@ -155,15 +159,16 @@ function tips_process_tweet_tips()
 											'utm_medium' => 'twitter',
 											'utm_campaign' => 'general' ),
 						'language' => (object)array(
-							  'language' => 'es',
+							  'language' => 'en',
 							)
 						)));
-			
-			$status = twitter_set_status($twitter_account, $node_local_team->title  . ' vs ' . $node_visitor_team->title 
-						. ' ' . $tiptitle . ' ' . $url);			
+						
+			$tweet = substr($node_local_team->title  . ' vs ' . $node_visitor_team->title . ' ' . $tiptitle . '...' , 0, 110 );
+			watchdog('debug tweet', $tweet . $url );
+			$status = twitter_set_status($twitter_account, $tweet . $url);			
 		}
 		
-		$queue->deleteItem($item);
+		
 		if($i>=0) return;
 		$i++;
 	}	

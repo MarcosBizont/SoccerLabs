@@ -1,8 +1,19 @@
 <?php
+	$arroutput = explode('||',$output);
 	
-	print $output;
+	$toprint = $arroutput[0];
+	if(trim($arroutput[1])=='HT') 
+	{
+		$toprint = $arroutput[1] . '<i class="fa fa-play" title="' . t('Game in progress') . '"></i>';
+	}
+	if(is_numeric($arroutput[1])) 
+	{
+		$toprint = $arroutput[1]."'" . '<i class="fa fa-play" title="' . t('Game in progress') . '"></i>';
+	}
+
+	print $toprint;
 	
-	print '<i class="fa fa-play" title="' . t('Game in progress') . '"></i>';
+	
 	
 	 module_load_include('inc', 'commentaries', 'commentaries_strategies');
 	 $nodegame = node_load($row->entity);

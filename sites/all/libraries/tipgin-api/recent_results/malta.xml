@@ -1,20 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="19.04.2015 12:41:00" sport="soccer" country="malta"><league country="malta" name="Malta: Premier League - Second Stage" cup="False" id="3139" sub_id="31392"><match alternate_id="4107300" alternate_id_2="4318270" date="19.04.2015" id="4224855" static_id="19041523446972344696" status="16:00" time="16:00">
-<home goals="?" id="2344697" name="Pieta Hotspurs"></home>
-<away goals="?" id="2344696" name="Naxxar Lions"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4107299" alternate_id_2="4318269" date="19.04.2015" id="4107299" static_id="19041523446792344678" status="14:00" time="14:00">
-<home goals="?" id="2344679" name="Zebbug"></home>
-<away goals="?" id="2344678" name="Birkirkara"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:40:56" sport="soccer" country="malta"><league country="malta" name="Malta: Premier League - Second Stage" cup="False" id="3139" sub_id="31392"><match alternate_id="4107306" alternate_id_2="4322751" date="26.04.2015" id="4224861" static_id="26041523446862344677" status="FT" time="17:00">
+<home goals="1" id="2344686" name="Hibernians"></home>
+<away goals="3" id="2344677" name="Balzan Youths"></away>
+<events>
+<event id="20086564" minute="19" player="Triganza J. P." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20086565" minute="73" player="Bonello H." playerid="" result="" team="home" type="redcard"></event>
+<event id="20086566" minute="75" player="Piccioni G. (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20086567" minute="83" player="Failla C." playerid="2366990" result="[1 - 2]" team="home" type="goal"></event>
+<event id="20086568" minute="90+7" player="Sciberras L." playerid="2379929" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4107305" alternate_id_2="4322750" date="26.04.2015" id="4107305" static_id="26041523446812344696" status="FT" time="15:00">
+<home goals="4" id="2344681" name="Floriana"></home>
+<away goals="1" id="2344696" name="Naxxar Lions"></away>
+<events>
+<event id="20086554" minute="19" player="Falzon D." playerid="2550234" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20086555" minute="38" player="Coronado I." playerid="2521828" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20086556" minute="45" player="Coronado I." playerid="2521828" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20086557" minute="55" player="Coronado I." playerid="2521828" result="[3 - 1]" team="home" type="goal"></event>
+<event id="20086558" minute="59" player="Picciolo M." playerid="" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4107304" alternate_id_2="4322749" date="25.04.2015" id="4224859" static_id="25041523447082344698" status="FT" time="17:15">
+<home goals="0" id="2344708" name="Tarxien"></home>
+<away goals="4" id="2344698" name="Qormi"></away>
+<events>
+<event id="20086544" minute="2" player="Marcelinho" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20086545" minute="9" player="Nilsson A." playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20086546" minute="45+1" player="Grech L." playerid="2395656" result="[0 - 3]" team="away" type="goal"></event>
+<event id="20086547" minute="90+2" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-3]"></ht>
+</match><match alternate_id="4107303" alternate_id_2="4322748" date="25.04.2015" id="4107303" static_id="25041523447092344678" status="FT" time="17:00">
+<home goals="2" id="2344709" name="Valletta"></home>
+<away goals="1" id="2344678" name="Birkirkara"></away>
+<events>
+<event id="20086534" minute="17" player="Borg S." playerid="2414931" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20086535" minute="54" player="Scicluna R." playerid="2466416" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20086536" minute="81" player="Hamza B." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4107302" alternate_id_2="4318502" date="25.04.2015" id="4107302" static_id="25041523446972344679" status="FT" time="15:00">
+<home goals="3" id="2344697" name="Pieta Hotspurs"></home>
+<away goals="1" id="2344679" name="Zebbug"></away>
+<events>
+<event id="20086524" minute="25" player="Cesare K." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20086525" minute="44" player="Montebello L." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20086526" minute="76" player="Frances C." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20086527" minute="81" player="Gabriel" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4107301" alternate_id_2="4318503" date="25.04.2015" id="4107301" static_id="25041523447062351312" status="FT" time="15:00">
+<home goals="5" id="2344706" name="Sliema"></home>
+<away goals="1" id="2351312" name="Mosta"></away>
+<events>
+<event id="20086514" minute="12" player="Pedrinho" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20086515" minute="41" player="Muscat A." playerid="2380654" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20086516" minute="61" player="Mateus" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="20086517" minute="64" player="Pedrinho" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="20086518" minute="77" player="Muscat A." playerid="2380654" result="[5 - 0]" team="home" type="goal"></event>
+<event id="20086519" minute="84" player="Borg A." playerid="" result="[5 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4107300" alternate_id_2="4318270" date="19.04.2015" id="4224855" static_id="19041523446972344696" status="FT" time="16:00">
+<home goals="0" id="2344697" name="Pieta Hotspurs"></home>
+<away goals="0" id="2344696" name="Naxxar Lions"></away>
+<events>
+<event id="20086504" minute="90" player="Grech C." playerid="2465960" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4107299" alternate_id_2="4318269" date="19.04.2015" id="4107299" static_id="19041523446792344678" status="FT" time="14:00">
+<home goals="1" id="2344679" name="Zebbug"></home>
+<away goals="3" id="2344678" name="Birkirkara"></away>
+<events>
+<event id="20086494" minute="40" player="Bissi M." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20086495" minute="80" player="Britto M." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20086496" minute="90+3" player="Camenzuli R." playerid="2501615" result="[1 - 2]" team="away" type="goal"></event>
+<event id="20086497" minute="90+4" player="Liliu" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4107298" alternate_id_2="4318268" date="18.04.2015" id="4224853" static_id="18041523447082351312" status="FT" time="16:00">
 <home goals="2" id="2344708" name="Tarxien"></home>
 <away goals="1" id="2351312" name="Mosta"></away>
 <events>
 <event id="20086484" minute="20" player="Obinna A. D." playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="20086485" minute="30" player="Obinna A. D." playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20086486" minute="45" player="Babangida H." playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="20086486" minute="45+2" player="Babangida H." playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match><match alternate_id="4107297" alternate_id_2="4318267" date="18.04.2015" id="4107297" static_id="18041523446812344686" status="FT" time="14:00">
@@ -26,7 +96,7 @@
 <event id="20086476" minute="26" player="Calleja Cremona M." playerid="" result="" team="home" type="redcard"></event>
 <event id="20086477" minute="27" player="Failla C. (pen.)" playerid="2366990" result="[1 - 2]" team="away" type="goal"></event>
 <event id="20086478" minute="45" player="Pereira J." playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="20086479" minute="73" player="Pisani S." playerid="2465975" result="" team="home" type="redcard"></event>
+<event id="20086479" minute="73" player="Pisani S." playerid="2465975" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[1-3]"></ht>
 </match><match alternate_id="4107296" alternate_id_2="4317427" date="17.04.2015" id="4224851" static_id="17041523447062344709" status="FT" time="18:00">
@@ -50,7 +120,7 @@
 <event id="20086456" minute="23" player="Piccioni G." playerid="" result="[0 - 3]" team="away" type="goal"></event>
 <event id="20086457" minute="42" player="Serrano E." playerid="" result="[0 - 4]" team="away" type="goal"></event>
 <event id="20086458" minute="68" player="Effiong A. (pen.)" playerid="2388361" result="[1 - 4]" team="home" type="goal"></event>
-<event id="20086459" minute="90+2" player="" playerid="" result="[1 - 5]" team="away" type="goal"></event>
+<event id="20086459" minute="90" player="Arab S." playerid="" result="[1 - 5]" team="away" type="goal"></event>
 </events>
 <ht score="[0-4]"></ht>
 </match><match alternate_id="4107294" alternate_id_2="4317425" date="13.04.2015" id="4224849" static_id="13041523446962344708" status="FT" time="18:15">
@@ -64,8 +134,8 @@
 <home goals="4" id="2344677" name="Balzan Youths"></home>
 <away goals="1" id="2344679" name="Zebbug"></away>
 <events>
-<event id="20086434" minute="10" player="Muchardi R. M." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20086435" minute="12" player="Serrano E. O." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20086434" minute="10" player="Muchardi M." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20086435" minute="12" player="Serrano E." playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="20086436" minute="17" player="Kaljevic B." playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="20086437" minute="28" player="Grima D." playerid="2414932" result="[3 - 1]" team="home" type="goal"></event>
 <event id="20086438" minute="84" player="Triganza J. P." playerid="" result="[4 - 1]" team="home" type="goal"></event>
@@ -88,7 +158,7 @@
 <away goals="0" id="2344681" name="Floriana"></away>
 <events>
 <event id="20086414" minute="2" player="Dimech L." playerid="2372349" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20086415" minute="90+1" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="20086415" minute="89" player="Picciolo M." playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4107290" alternate_id_2="4315228" date="10.04.2015" id="4224845" static_id="10041523446782344698" status="FT" time="18:00">
@@ -125,72 +195,15 @@
 <events>
 <event id="20086374" minute="23" player="Piccioni G." playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20086375" minute="77" player="Micallef L." playerid="2496931" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20086376" minute="89" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="20086376" minute="89" player="Kaljevic B." playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4107286" alternate_id_2="4314787" date="04.04.2015" id="4224841" static_id="04041523513122344686" status="FT" time="16:00">
-<home goals="0" id="2351312" name="Mosta"></home>
-<away goals="5" id="2344686" name="Hibernians"></away>
-<events>
-<event id="20086364" minute="25" player="Pereira J." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20086365" minute="39" player="Farrugia J." playerid="2395657" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20086366" minute="44" player="Soares R." playerid="2448564" result="[0 - 3]" team="away" type="goal"></event>
-<event id="20086367" minute="83" player="Degabriele J." playerid="2601847" result="[0 - 4]" team="away" type="goal"></event>
-<event id="20086368" minute="87" player="Pereira J." playerid="" result="[0 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="4107285" alternate_id_2="4314788" date="04.04.2015" id="4107285" static_id="04041523446982344706" status="FT" time="16:00">
-<home goals="0" id="2344698" name="Qormi"></home>
-<away goals="0" id="2344706" name="Sliema"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4107283" alternate_id_2="4313073" date="04.04.2015" id="4107283" static_id="04041523447082344678" status="FT" time="14:00">
-<home goals="0" id="2344708" name="Tarxien"></home>
-<away goals="2" id="2344678" name="Birkirkara"></away>
-<events>
-<event id="20086334" minute="26" player="Vukanac N." playerid="2442816" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20086335" minute="39" player="Shodiya S." playerid="2542013" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4107284" alternate_id_2="4313074" date="04.04.2015" id="4107284" static_id="04041523446792344681" status="FT" time="14:00">
-<home goals="1" id="2344679" name="Zebbug"></home>
-<away goals="3" id="2344681" name="Floriana"></away>
-<events>
-<event id="20086344" minute="28" player="Plut V." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20086345" minute="31" player="Picciolo M." playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20086346" minute="49" player="Yussuff R." playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="20086347" minute="86" player="Briffa E." playerid="" result="[1 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4107282" alternate_id_2="4312711" date="20.03.2015" id="4224837" static_id="20031523447062344679" status="FT" time="19:15">
-<home goals="3" id="2344706" name="Sliema"></home>
-<away goals="2" id="2344679" name="Zebbug"></away>
-<events>
-<event id="20086324" minute="20" player="Camilleri Y." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20086325" minute="41" player="Djumo B." playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20086326" minute="47" player="Scerri M." playerid="2380661" result="[2 - 1]" team="home" type="goal"></event>
-<event id="20086327" minute="52" player="Djumo B." playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="20086328" minute="60" player="Mintoff J. (o.g.)" playerid="" result="[3 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4107281" alternate_id_2="4312710" date="20.03.2015" id="4224836" static_id="20031523446772344708" status="FT" time="17:00">
-<home goals="3" id="2344677" name="Balzan Youths"></home>
-<away goals="2" id="2344708" name="Tarxien"></away>
-<events>
-<event id="20086314" minute="1" player="Grima D." playerid="2414932" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20086315" minute="38" player="Grioli J. (o.g.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="20086316" minute="52" player="Soly M." playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="20086317" minute="69" player="Kaljevic B." playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="20086318" minute="82" player="Kaljevic B." playerid="" result="[3 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - First Stage" cup="False" id="3139" sub_id=""><match alternate_id="4107257" alternate_id_2="4302577" date="08.02.2015" id="4107257" static_id="08021523446782344709" status="FT" time="15:00">
+</match></league><league country="malta" name="Malta: Premier League - First Stage" cup="False" id="3139" sub_id=""><match alternate_id="4040839" alternate_id_2="4302577" date="08.02.2015" id="4158453" static_id="08021523446782344709" status="FT" time="15:00">
 <home goals="1" id="2344678" name="Birkirkara"></home>
 <away goals="1" id="2344709" name="Valletta"></away>
 <events>
-<event id="20086074" minute="77" player="Vukanac N." playerid="2442816" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20086075" minute="90+1" player="Briffa R." playerid="2380663" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19421894" minute="77" player="Vukanac N." playerid="2442816" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19421895" minute="90+1" player="Briffa R." playerid="2380663" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4040838" alternate_id_2="4302576" date="08.02.2015" id="4040838" static_id="08021523446812344698" status="FT" time="13:00">
@@ -375,129 +388,13 @@
 <event id="19421708" minute="87" player="Degabriele J." playerid="2601847" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - Championship Group" cup="False" id="3139" sub_id=""><match alternate_id="3862102" alternate_id_2="4085625" date="26.04.2014" id="3980832" static_id="26041423446782344709" status="FT" time="15:00">
-<home goals="0" id="2344678" name="Birkirkara"></home>
-<away goals="2" id="2344709" name="Valletta"></away>
-<events>
-<event id="17634524" minute="2" player="Bajada S." playerid="2372830" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17634525" minute="90+4" player="Briffa R." playerid="2380663" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - Relegation Group" cup="False" id="3139" sub_id=""><match alternate_id="3862084" alternate_id_2="4083586" date="25.04.2014" id="3980814" static_id="25041423447102344696" status="FT" time="17:00">
-<home goals="1" id="2344710" name="Vittoriosa"></home>
-<away goals="3" id="2344696" name="Naxxar Lions"></away>
-<events>
-<event id="17634344" minute="16" player="Gilmar" playerid="2458032" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17634345" minute="24" player="Stojanovic F." playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="17634346" minute="43" player="Reano D." playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="17634347" minute="69" player="Pereira M." playerid="2377611" result="[1 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="3862082" alternate_id_2="4083585" date="24.04.2014" id="3980812" static_id="24041423446982344708" status="FT" time="18:15">
-<home goals="2" id="2344698" name="Qormi"></home>
-<away goals="4" id="2344708" name="Tarxien"></away>
-<events>
-<event id="17634324" minute="28" player="Barbosa W. X." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17634325" minute="43" player="Barbosa W. X." playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="17634326" minute="56" player="Toure D." playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="17634327" minute="58" player="Cantoro L." playerid="" result="[1 - 3]" team="home" type="goal"></event>
-<event id="17634328" minute="64" player="Toure D." playerid="" result="[1 - 4]" team="away" type="goal"></event>
-<event id="17634329" minute="84" player="Effiong A." playerid="2388361" result="[2 - 4]" team="home" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - Championship Group" cup="False" id="3139" sub_id=""><match alternate_id="3862100" alternate_id_2="4084186" date="24.04.2014" id="3862100" static_id="24041423446862344706" status="FT" time="17:00">
-<home goals="1" id="2344686" name="Hibernians"></home>
-<away goals="3" id="2344706" name="Sliema"></away>
-<events>
-<event id="17634504" minute="60" player="Degabriele J." playerid="2601847" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17634505" minute="64" player="Barbetti P. (pen.)" playerid="2505331" result="[1 - 1]" team="away" type="goal"></event>
-<event id="17634506" minute="66" player="Ohawuchi S." playerid="2428850" result="[1 - 2]" team="away" type="goal"></event>
-<event id="17634507" minute="84" player="Ohawuchi S." playerid="2428850" result="[1 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3862101" alternate_id_2="4084187" date="24.04.2014" id="3862101" static_id="24041423513122344677" status="FT" time="17:00">
-<home goals="3" id="2351312" name="Mosta"></home>
-<away goals="1" id="2344677" name="Balzan Youths"></away>
-<events>
-<event id="17634514" minute="29" player="Micallef M." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17634515" minute="60" player="Zammit K. I" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="17634516" minute="80" player="Kaljevic B." playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="17634517" minute="87" player="Magro K." playerid="" result="[3 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - Relegation Group" cup="False" id="3139" sub_id=""><match alternate_id="3862083" alternate_id_2="4083180" date="24.04.2014" id="3862083" static_id="24041423446812344699" status="FT" time="16:00">
-<home goals="2" id="2344681" name="Floriana"></home>
-<away goals="1" id="2344699" name="Rabat Ajax"></away>
-<events>
-<event id="17634334" minute="19" player="Diogo" playerid="2482113" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17634335" minute="50" player="Coronado I." playerid="2521828" result="[2 - 0]" team="home" type="goal"></event>
-<event id="17634336" minute="85" player="Gauci S." playerid="2560600" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - Championship Group" cup="False" id="3139" sub_id=""><match alternate_id="3862101" alternate_id_2="4083179" date="21.04.2014" id="3862101" static_id="21041423447092344677" status="FT" time="18:00">
-<home goals="1" id="2344709" name="Valletta"></home>
-<away goals="0" id="2344677" name="Balzan Youths"></away>
-<events>
-<event id="17634514" minute="51" player="Denni" playerid="2349395" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17634515" minute="90+3" player="Pedrinho" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3862098" alternate_id_2="4080651" date="21.04.2014" id="3862098" static_id="21041423447062351312" status="FT" time="16:00">
-<home goals="0" id="2344706" name="Sliema"></home>
-<away goals="0" id="2351312" name="Mosta"></away>
-<events>
-<event id="17634484" minute="90+2" player="Ekani J." playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3862097" alternate_id_2="4080650" date="19.04.2014" id="3980827" static_id="19041423446862344678" status="FT" time="16:00">
-<home goals="1" id="2344686" name="Hibernians"></home>
-<away goals="4" id="2344678" name="Birkirkara"></away>
-<events>
-<event id="17634474" minute="28" player="Jhonnattann" playerid="2512577" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17634475" minute="61" player="Muscat Z." playerid="2465962" result="[0 - 2]" team="away" type="goal"></event>
-<event id="17634476" minute="73" player="Obiefule O." playerid="2411279" result="" team="home" type="redcard"></event>
-<event id="17634477" minute="74" player="Herrera E." playerid="2388389" result="[0 - 3]" team="away" type="goal"></event>
-<event id="17634478" minute="82" player="Jhonnattann" playerid="2512577" result="[0 - 4]" team="away" type="goal"></event>
-<event id="17634479" minute="87" player="Lima J." playerid="2443464" result="[1 - 4]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="malta" name="Malta: Premier League - Relegation Group" cup="False" id="3139" sub_id=""><match alternate_id="3862080" alternate_id_2="4085626" date="19.04.2014" id="3862080" static_id="19041423447082344699" status="FT" time="16:00">
-<home goals="7" id="2344708" name="Tarxien"></home>
-<away goals="1" id="2344699" name="Rabat Ajax"></away>
-<events>
-<event id="17634304" minute="9" player="Toure D. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17634305" minute="16" player="Silva J." playerid="2358686" result="[2 - 0]" team="home" type="goal"></event>
-<event id="17634306" minute="22" player="Bonnici S." playerid="2388388" result="[3 - 0]" team="home" type="goal"></event>
-<event id="17634307" minute="28" player="Barbosa W. X." playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="17634308" minute="39" player="Toure D." playerid="" result="[5 - 0]" team="home" type="goal"></event>
-<event id="17634309" minute="42" player="Pulo K." playerid="2433047" result="[6 - 0]" team="home" type="goal"></event>
-<event id="17634310" minute="48" player="Bueno" playerid="2395504" result="[7 - 0]" team="home" type="goal"></event>
-<event id="17634311" minute="69" player="Carrillo D." playerid="2537658" result="[7 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[6-0]"></ht>
-</match><match alternate_id="3862079" alternate_id_2="4080549" date="19.04.2014" id="3862079" static_id="19041423446962344681" status="FT" time="14:00">
-<home goals="0" id="2344696" name="Naxxar Lions"></home>
-<away goals="2" id="2344681" name="Floriana"></away>
-<events>
-<event id="17634294" minute="58" player="Emeka J." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17634295" minute="68" player="Diogo" playerid="2482113" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3862081" alternate_id_2="4080470" date="19.04.2014" id="3862081" static_id="19041423447102344698" status="FT" time="14:00">
-<home goals="2" id="2344710" name="Vittoriosa"></home>
-<away goals="0" id="2344698" name="Qormi"></away>
-<events>
-<event id="17634314" minute="87" player="Pereira M." playerid="2377611" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17634315" minute="90+4" player="Guerrero O." playerid="2469647" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match></league><league country="malta" name="Malta: Fa Trophy" cup="False" id="3577" sub_id=""><match alternate_id="3914002" alternate_id_2="4306983" date="14.02.2015" id="3914002" static_id="14021523446782344697" status="FT" time="15:00">
+</match></league><league country="malta" name="Malta: Fa Trophy" cup="False" id="3577" sub_id=""><match alternate_id="3946107" alternate_id_2="4306983" date="14.02.2015" id="3946107" static_id="14021523446782344697" status="FT" time="15:00">
 <home goals="3" id="2344678" name="Birkirkara"></home>
 <away goals="0" id="2344697" name="Pieta Hotspurs"></away>
 <events>
-<event id="18153524" minute="12" player="Maachi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="18153525" minute="76" player="Maachi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="18153526" minute="83" player="Zammit" playerid="2466417" result="[3 - 0]" team="home" type="goal"></event>
+<event id="18474574" minute="12" player="Maachi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="18474575" minute="76" player="Maachi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="18474576" minute="83" player="Zammit" playerid="2466417" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[-]"></ht>
 </match><match alternate_id="4103079" alternate_id_2="4306982" date="14.02.2015" id="4103079" static_id="14021523446982353352" status="FT" time="13:00">
@@ -564,16 +461,16 @@
 <event id="19962729" minute="70" player="Kaljevic" playerid="" result="[6 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4096052" alternate_id_2="4302028" date="21.01.2015" id="4096052" static_id="21011523527852353352" status="FT" time="17:00">
+</match><match alternate_id="4094923" alternate_id_2="4302028" date="21.01.2015" id="4094923" static_id="21011523527852353352" status="FT" time="17:00">
 <home goals="0" id="2352785" name="Gudja"></home>
 <away goals="6" id="2353352" name="Sirens"></away>
 <events>
-<event id="19974024" minute="17" player="Cremona" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19974025" minute="30" player="Sciberras" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="19974026" minute="36" player="Schembri" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="19974027" minute="49" player="Schembri" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="19974028" minute="68" player="Sciberras" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="19974029" minute="85" player="Obinwanne" playerid="" result="[0 - 6]" team="away" type="goal"></event>
+<event id="19962734" minute="17" player="Cremona" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19962735" minute="30" player="Sciberras" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="19962736" minute="36" player="Schembri" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="19962737" minute="49" player="Schembri" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="19962738" minute="68" player="Sciberras" playerid="" result="[0 - 5]" team="away" type="goal"></event>
+<event id="19962739" minute="85" player="Obinwanne" playerid="" result="[0 - 6]" team="away" type="goal"></event>
 </events>
 <ht score="[0-3]"></ht>
 </match><match alternate_id="4094924" alternate_id_2="4302029" date="21.01.2015" id="4094924" static_id="21011523543762344697" status="FT" time="17:00">
@@ -634,13 +531,13 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4124575" alternate_id_2="4293314" date="02.12.2014" id="4124575" static_id="02121423446962344690" status="FT" time="19:15">
+</match><match alternate_id="3861473" alternate_id_2="4293314" date="02.12.2014" id="3861473" static_id="02121423446962344690" status="FT" time="19:15">
 <home goals="1" id="2344696" name="Naxxar Lions"></home>
 <away goals="2" id="2344690" name="Melita FC"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4124566" alternate_id_2="4293315" date="02.12.2014" id="4124566" static_id="02121423533592344697" status="AET" time="19:15">
+</match><match alternate_id="3861474" alternate_id_2="4293315" date="02.12.2014" id="3861474" static_id="02121423533592344697" status="AET" time="19:15">
 <home goals="0" id="2353359" name="Pembroke"></home>
 <away goals="1" id="2344697" name="Pieta Hotspurs"></away>
 <events>

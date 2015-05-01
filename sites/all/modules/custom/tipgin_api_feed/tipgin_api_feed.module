@@ -657,7 +657,7 @@ function tipgin_api_feed_action_fillmatcheslastweek()
 	}
 	
 	// To avoid last day problem
-	tipgin_api_feed_action_fillmatchesd1();
+	//tipgin_api_feed_action_fillmatchesd1();
 		
 }
 
@@ -717,7 +717,9 @@ function tipgin_api_feed_action_fillmatchesinprogress()
 			}
 		}
 	
-	tipgin_api_feed_action_fillmatchesd1();
+	// ToDo : Meter logica que evita sobreescribir resultados a medias
+	// Solo meter d1 cuando sean partidos terminados
+	//tipgin_api_feed_action_fillmatchesd1();
 		
 }
 

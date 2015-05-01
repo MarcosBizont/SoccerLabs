@@ -1,23 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="19.04.2015 12:41:24" sport="soccer" country="uruguay"><league country="uruguay" name="Uruguay: Primera Division - Clausura" cup="False" id="3274" sub_id="32741"><match alternate_id="4104713" alternate_id_2="4321460" date="19.04.2015" id="4222268" static_id="19041523492492349273" status="18:30" time="18:30">
-<home goals="?" id="2349249" name="Atenas"></home>
-<away goals="?" id="2349273" name="Penarol"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4104714" alternate_id_2="4321461" date="19.04.2015" id="4222269" static_id="19041523492582349256" status="18:30" time="18:30">
-<home goals="?" id="2349258" name="Danubio"></home>
-<away goals="?" id="2349256" name="CA Cerro"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4104716" alternate_id_2="4321505" date="19.04.2015" id="4222271" static_id="19041523492632349282" status="18:30" time="18:30">
-<home goals="?" id="2349263" name="Sisley"></home>
-<away goals="?" id="2349282" name="Tacuarembo"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4104715" alternate_id_2="4321462" date="19.04.2015" id="4222270" static_id="19041523492792349266" status="13:30" time="13:30">
-<home goals="?" id="2349279" name="River Plate"></home>
-<away goals="?" id="2349266" name="Juventud"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:41:21" sport="soccer" country="uruguay"><league country="uruguay" name="Uruguay: Primera Division - Clausura" cup="False" id="3274" sub_id="32741"><match alternate_id="4104725" alternate_id_2="4323344" date="26.04.2015" id="4222280" static_id="26041523492532349271" status="FT" time="21:00">
+<home goals="2" id="2349253" name="Rentistas"></home>
+<away goals="4" id="2349271" name="Club Nacional"></away>
+<events>
+<event id="22246944" minute="3" player="N. Rodriguez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22246945" minute="5" player="C. De Pena" playerid="2580539" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22246946" minute="16" player="L. Barcia" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22246947" minute="31" player="L. Barcia" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22246948" minute="32" player="G. Pereiro" playerid="2616048" result="" team="away" type="yellowcard"></event>
+<event id="22246949" minute="45" player="A. Espino" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246950" minute="56" player="L. Rodriguez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246951" minute="62" player="L. De Los Santos" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246952" minute="69" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201482943" minute="83" player="S. Fernandez" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="201482944" minute="85" player="S. Sellanes" playerid="2634365" result="" team="home" type="yellowcard"></event>
+<event id="201482945" minute="89" player="F. Laens" playerid="" result="[2 - 4]" team="home" type="goal"></event>
+</events>
+<ht score="[1-3]"></ht>
+</match><match alternate_id="4104722" alternate_id_2="4323298" date="26.04.2015" id="4222277" static_id="26041523492562349249" status="FT" time="18:30">
+<home goals="2" id="2349256" name="CA Cerro"></home>
+<away goals="1" id="2349249" name="Atenas"></away>
+<events>
+<event id="22246484" minute="41" player="H. Silveira" playerid="2611123" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22246485" minute="49" player="A. Hernandez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22246486" minute="53" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246487" minute="53" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246488" minute="57" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246489" minute="61" player="F. Peraza" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22246490" minute="65" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4104719" alternate_id_2="4323299" date="26.04.2015" id="4222274" static_id="26041523492592349263" status="FT" time="18:30">
+<home goals="2" id="2349259" name="Defensor Sp."></home>
+<away goals="2" id="2349263" name="Sisley"></away>
+<events>
+<event id="22246494" minute="14" player="S. Fosgt" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246495" minute="18" player="M. Lemos" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246496" minute="23" player="J. Pendola" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246497" minute="25" player="A. Luna" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22246498" minute="32" player="J. Burgueno" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22246499" minute="73" player="R. Arias" playerid="2434899" result="" team="home" type="yellowcard"></event>
+<event id="22246500" minute="75" player="P. Lima" playerid="2562338" result="" team="away" type="yellowcard"></event>
+<event id="22246501" minute="79" player="F. Gino" playerid="2579475" result="" team="home" type="yellowcard"></event>
+<event id="22246502" minute="90+2" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="201478443" minute="90+5" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4104724" alternate_id_2="4323343" date="26.04.2015" id="4222279" static_id="26041523492642349278" status="FT" time="18:30">
+<home goals="1" id="2349264" name="Fenix"></home>
+<away goals="0" id="2349278" name="Rampla Juniors"></away>
+<events>
+<event id="22246934" minute="34" player="M. Liguera" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22246935" minute="45" player="M. Perg" playerid="2532061" result="" team="home" type="yellowcard"></event>
+<event id="22246936" minute="62" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246937" minute="62" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246938" minute="82" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246939" minute="84" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246940" minute="90+5" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246941" minute="90+6" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4104721" alternate_id_2="4323300" date="26.04.2015" id="4222276" static_id="26041523492662349258" status="FT" time="18:30">
+<home goals="0" id="2349266" name="Juventud"></home>
+<away goals="1" id="2349258" name="Danubio"></away>
+<events>
+<event id="22246504" minute="40" player="F. Ricca" playerid="2633846" result="" team="away" type="yellowcard"></event>
+<event id="22246505" minute="46" player="A. Pastoriza" playerid="2586555" result="" team="home" type="yellowcard"></event>
+<event id="22246506" minute="48" player="E. Romero" playerid="2522364" result="" team="home" type="yellowcard"></event>
+<event id="22246507" minute="51" player="M. Castro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246508" minute="60" player="J. Pereyra" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22246509" minute="66" player="C. Palacios" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246510" minute="68" player="A. Balboa" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4104720" alternate_id_2="4323301" date="26.04.2015" id="4222275" static_id="26041523492822349279" status="FT" time="18:30">
+<home goals="1" id="2349282" name="Tacuarembo"></home>
+<away goals="3" id="2349279" name="River Plate"></away>
+<events>
+<event id="22246514" minute="16" player="S. Assis" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246515" minute="17" player="F. Bastidas" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22246516" minute="44" player="N. Fagundez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22246517" minute="56" player="J. Ramirez" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22246518" minute="77" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22246519" minute="90+3" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4104723" alternate_id_2="4323356" date="25.04.2015" id="4222278" static_id="25041523492732349270" status="FT" time="19:00">
+<home goals="2" id="2349273" name="Penarol"></home>
+<away goals="1" id="2349270" name="Wanderers"></away>
+<events>
+<event id="22247064" minute="3" player="M. Olivera" playerid="2498451" result="" team="away" type="yellowcard"></event>
+<event id="22247065" minute="16" player="G. Bueno" playerid="2474922" result="" team="away" type="redcard"></event>
+<event id="22247066" minute="18" player="E. MacEachen" playerid="2509959" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22247067" minute="45+2" player="J. Rodriguez" playerid="2379728" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22247068" minute="82" player="L. Reymundez" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22247069" minute="88" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22247070" minute="90" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4104718" alternate_id_2="4323345" date="25.04.2015" id="4222273" static_id="25041523492812349277" status="FT" time="18:30">
+<home goals="3" id="2349281" name="Sud America"></home>
+<away goals="1" id="2349277" name="Racing Montevideo"></away>
+<events>
+<event id="22246954" minute="9" player="M. Franco" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22246955" minute="17" player="M. Franco (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22246956" minute="26" player="R. Pellejero" playerid="2388894" result="" team="home" type="yellowcard"></event>
+<event id="22246957" minute="63" player="A. Luna" playerid="2572247" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22246958" minute="78" player="J. Rodriguez" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22246959" minute="81" player="J. Perujo" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4104712" alternate_id_2="4321463" date="21.04.2015" id="4222267" static_id="21041523492702349264" status="FT" time="18:30">
+<home goals="0" id="2349270" name="Wanderers"></home>
+<away goals="1" id="2349264" name="Fenix"></away>
+<events>
+<event id="22228134" minute="21" player="R. Ferro" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22228135" minute="27" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22228136" minute="33" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22228137" minute="72" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4104713" alternate_id_2="4321460" date="19.04.2015" id="4222268" static_id="19041523492492349273" status="FT" time="18:30">
+<home goals="1" id="2349249" name="Atenas"></home>
+<away goals="1" id="2349273" name="Penarol"></away>
+<events>
+<event id="22228104" minute="8" player="G. Trinidad" playerid="2422277" result="" team="home" type="yellowcard"></event>
+<event id="22228105" minute="33" player="E. MacEachen" playerid="2509959" result="" team="away" type="yellowcard"></event>
+<event id="22228106" minute="51" player="M. Acosta" playerid="2422259" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22228107" minute="68" player="J. Urreta" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22228108" minute="73" player="M. Acosta" playerid="2422259" result="" team="home" type="yellowcard"></event>
+<event id="22228109" minute="82" player="C. Keosseian" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4104714" alternate_id_2="4321461" date="19.04.2015" id="4222269" static_id="19041523492582349256" status="FT" time="18:30">
+<home goals="1" id="2349258" name="Danubio"></home>
+<away goals="0" id="2349256" name="CA Cerro"></away>
+<events>
+<event id="22228114" minute="36" player="J. Gravi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22228115" minute="36" player="C. Gonzalez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22228116" minute="40" player="A. Hernandez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22228117" minute="66" player="A. Balboa" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22228118" minute="80" player="A. Viana" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22228119" minute="81" player="F. Torgnascioli" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22228120" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22228121" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4104716" alternate_id_2="4321505" date="19.04.2015" id="4222271" static_id="19041523492632349282" status="FT" time="18:30">
+<home goals="1" id="2349263" name="Sisley"></home>
+<away goals="1" id="2349282" name="Tacuarembo"></away>
+<events>
+<event id="22228554" minute="8" player="J. Pendola (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22228555" minute="14" player="O. Castro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22228556" minute="58" player="M. R. Gonzalez Ortega" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22228557" minute="70" player="J. Pendola" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22228558" minute="90+1" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22228559" minute="90+2" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4104715" alternate_id_2="4321462" date="19.04.2015" id="4222270" static_id="19041523492792349266" status="FT" time="13:30">
+<home goals="2" id="2349279" name="River Plate"></home>
+<away goals="0" id="2349266" name="Juventud"></away>
+<events>
+<event id="22228124" minute="22" player="C. Latorre" playerid="2503084" result="" team="away" type="yellowcard"></event>
+<event id="22228125" minute="24" player="M. Santos (pen.)" playerid="2508352" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22228126" minute="32" player="L. Machado" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22228127" minute="37" player="A. Agustin" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22228128" minute="43" player="M. Santos" playerid="2508352" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22228129" minute="49" player="M. Soto" playerid="2582078" result="" team="away" type="yellowcard"></event>
+<event id="22228130" minute="56" player="A. Rodriguez" playerid="2550115" result="" team="home" type="yellowcard"></event>
+<event id="22228131" minute="74" player="B. Montelongo" playerid="2379716" result="" team="home" type="yellowcard"></event>
+<event id="22228132" minute="88" player="C. Palacios" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201294743" minute="89" player="A. Reyes" playerid="2388987" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4104710" alternate_id_2="4321517" date="18.04.2015" id="4222265" static_id="18041523492772349271" status="FT" time="18:30">
 <home goals="2" id="2349277" name="Racing Montevideo"></home>
 <away goals="4" id="2349271" name="Club Nacional"></away>
@@ -101,136 +256,9 @@
 <event id="22211484" minute="13" player="S. Bellini" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22211485" minute="28" player="M. Quagliotti" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22211486" minute="31" player="G. Rodriguez" playerid="2540085" result="" team="away" type="yellowcard"></event>
-<event id="22211487" minute="70" player="N. Rodriguez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22211487" minute="69" player="N. Rodriguez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22211488" minute="80" player="S. Sellanes" playerid="2634365" result="" team="home" type="yellowcard"></event>
 <event id="22211489" minute="89" player="S. Sellanes" playerid="2634365" result="" team="home" type="yellowred"></event>
-<event id="22211490" minute="90+1" player="" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4104703" alternate_id_2="4319833" date="12.04.2015" id="4222258" static_id="12041523492822349281" status="FT" time="18:30">
-<home goals="2" id="2349282" name="Tacuarembo"></home>
-<away goals="2" id="2349281" name="Sud America"></away>
-<events>
-<event id="22211834" minute="16" player="A. Diaz (pen.)" playerid="2388963" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22211835" minute="29" player="M. Rodriguez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22211836" minute="36" player="J. Perujo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22211837" minute="70" player="F. Arismendi" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="22211838" minute="77" player="G. Colman" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4104704" alternate_id_2="4319832" date="12.04.2015" id="4222259" static_id="12041523492662349263" status="FT" time="13:00">
-<home goals="1" id="2349266" name="Juventud"></home>
-<away goals="1" id="2349263" name="Sisley"></away>
-<events>
-<event id="22211824" minute="5" player="J. Aguirre" playerid="2558413" result="" team="away" type="yellowcard"></event>
-<event id="22211825" minute="19" player="M. Murillo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22211826" minute="34" player="G. Puerari" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22211827" minute="40" player="D. Viera" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22211828" minute="45+1" player="J. Surraco" playerid="" result="" team="away" type="redcard"></event>
-<event id="22211829" minute="45+1" player="C. Latorre" playerid="2503084" result="" team="home" type="yellowcard"></event>
-<event id="22211830" minute="58" player="J. Martinez" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22211831" minute="87" player="M. Zunino" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22211832" minute="88" player="R. Cabrera" playerid="2423231" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4104706" alternate_id_2="4319827" date="11.04.2015" id="4222261" static_id="11041523492732349258" status="FT" time="19:00">
-<home goals="2" id="2349273" name="Penarol"></home>
-<away goals="3" id="2349258" name="Danubio"></away>
-<events>
-<event id="22211774" minute="4" player="H. Pereira" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22211775" minute="9" player="M. Tabarez (pen.)" playerid="2622505" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22211776" minute="18" player="F. Formiliano" playerid="2535182" result="" team="away" type="yellowcard"></event>
-<event id="22211777" minute="36" player="M. De Los Santos" playerid="2625969" result="" team="away" type="yellowcard"></event>
-<event id="22211778" minute="38" player="L. Sosa" playerid="2533540" result="" team="away" type="yellowcard"></event>
-<event id="22211779" minute="38" player="M. Zalayeta" playerid="2349512" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22211780" minute="45" player="N. Nandez" playerid="2636794" result="" team="home" type="yellowcard"></event>
-<event id="22211781" minute="51" player="D. Bittencourt" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22211782" minute="55" player="C. Gonzalez" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="201131243" minute="64" player="S. Piriz" playerid="2455158" result="" team="home" type="yellowcard"></event>
-<event id="201131244" minute="66" player="A. Viana" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="201131245" minute="72" player="G. Viera" playerid="2474904" result="" team="home" type="yellowcard"></event>
-<event id="201131246" minute="76" player="M. De Los Santos" playerid="2625969" result="" team="away" type="yellowred"></event>
-<event id="201131247" minute="90" player="C. Valdez" playerid="2342217" result="" team="home" type="yellowcard"></event>
-<event id="201131248" minute="90+3" player="J. Gravi" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4104707" alternate_id_2="4319822" date="11.04.2015" id="4222262" static_id="11041523492642349249" status="FT" time="18:30">
-<home goals="3" id="2349264" name="Fenix"></home>
-<away goals="2" id="2349249" name="Atenas"></away>
-<events>
-<event id="22211724" minute="29" player="G. Castillo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22211725" minute="33" player="R. Ferro" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22211726" minute="33" player="G. Trinidad" playerid="2422277" result="" team="away" type="yellowcard"></event>
-<event id="22211727" minute="44" player="L. Cavallini" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22211728" minute="45" player="M. Liguera" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22211729" minute="57" player="M. Acosta" playerid="2422259" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22211730" minute="57" player="M. Liguera" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22211731" minute="61" player="F. Peraza (pen.)" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="22211732" minute="70" player="C. Waterman" playerid="2487753" result="[3 - 2]" team="home" type="goal"></event>
-<event id="201130743" minute="72" player="" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4104696" alternate_id_2="4317715" date="05.04.2015" id="4222251" static_id="05041523492492349253" status="FT" time="19:00">
-<home goals="1" id="2349249" name="Atenas"></home>
-<away goals="0" id="2349253" name="Rentistas"></away>
-<events>
-<event id="22190654" minute="22" player="E. Cabaco" playerid="2639389" result="" team="away" type="yellowcard"></event>
-<event id="22190655" minute="25" player="M. Acosta" playerid="2422259" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22190656" minute="30" player="Gerson" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22190657" minute="32" player="N. Raguso" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22190658" minute="52" player="L. Sosa" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22190659" minute="63" player="M. Acosta" playerid="2422259" result="" team="home" type="yellowcard"></event>
-<event id="22190660" minute="67" player="A. Silva" playerid="2428891" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4104697" alternate_id_2="4317716" date="05.04.2015" id="4222252" static_id="05041523492582349264" status="FT" time="19:00">
-<home goals="3" id="2349258" name="Danubio"></home>
-<away goals="0" id="2349264" name="Fenix"></away>
-<events>
-<event id="22190664" minute="23" player="A. Schettino" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22190665" minute="36" player="H. Pereira" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22190666" minute="55" player="B. Fornaroli" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22190667" minute="57" player="J. Pallas" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22190668" minute="72" player="L. Cavallini" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22190669" minute="88" player="I. Gonzalez (pen.)" playerid="2609090" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22190670" minute="90+2" player="" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4104701" alternate_id_2="4317741" date="05.04.2015" id="4222256" static_id="05041523492592349282" status="FT" time="19:00">
-<home goals="1" id="2349259" name="Defensor Sp."></home>
-<away goals="0" id="2349282" name="Tacuarembo"></away>
-<events>
-<event id="22190914" minute="31" player="E. Ferreira" playerid="2560564" result="" team="away" type="yellowcard"></event>
-<event id="22190915" minute="58" player="I. Risso" playerid="2399971" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4104698" alternate_id_2="4317717" date="05.04.2015" id="4222253" static_id="05041523492792349273" status="FT" time="19:00">
-<home goals="1" id="2349279" name="River Plate"></home>
-<away goals="2" id="2349273" name="Penarol"></away>
-<events>
-<event id="22190674" minute="9" player="J. Rodriguez" playerid="2379728" result="" team="away" type="yellowcard"></event>
-<event id="22190675" minute="15" player="G. Leyes" playerid="2508350" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22190676" minute="31" player="C. Techera" playerid="2457718" result="" team="home" type="yellowcard"></event>
-<event id="22190677" minute="41" player="S. Piriz" playerid="2455158" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22190678" minute="45" player="A. Rodriguez" playerid="2550115" result="" team="home" type="yellowcard"></event>
-<event id="22190679" minute="46" player="S. Piriz" playerid="2455158" result="" team="away" type="yellowcard"></event>
-<event id="22190680" minute="46" player="S. Garcia" playerid="2523060" result="" team="home" type="yellowcard"></event>
-<event id="22190681" minute="51" player="G. Leyes" playerid="2508350" result="" team="away" type="yellowcard"></event>
-<event id="22190682" minute="55" player="P. Migliore" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="200920243" minute="58" player="S. Garcia" playerid="2523060" result="[1 - 2]" team="home" type="goal"></event>
-<event id="200920244" minute="83" player="A. Agustin" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="200920245" minute="88" player="J. Sandoval" playerid="2477808" result="" team="away" type="yellowcard"></event>
-<event id="200920246" minute="90+4" player="H. Novick" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4104699" alternate_id_2="4317718" date="05.04.2015" id="4222254" static_id="05041523492632349256" status="FT" time="19:00">
-<home goals="1" id="2349263" name="Sisley"></home>
-<away goals="2" id="2349256" name="CA Cerro"></away>
-<events>
-<event id="22190684" minute="45" player="A. Hernandez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22190685" minute="51" player="F. Barcelo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22190686" minute="79" player="H. Silveira (pen.)" playerid="2611123" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22190687" minute="90+2" player="J. Burgueno" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match></league><league country="uruguay" name="Uruguay: Primera Division - Apertura" cup="False" id="3274" sub_id="32740"><match alternate_id="4046142" alternate_id_2="4289618" date="07.12.2014" id="4163755" static_id="07121423492732349277" status="FT" time="21:00">
@@ -485,22 +513,16 @@
 <event id="21852251" minute="90+3" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4046133" alternate_id_2="4283863" date="16.11.2014" id="4163746" static_id="16111423492632349279" status="FT" time="19:30">
-<home goals="1" id="2349263" name="Sisley"></home>
-<away goals="0" id="2349279" name="River Plate"></away>
+</match><match alternate_id="4046129" alternate_id_2="4283894" date="16.11.2014" id="4163742" static_id="16111423492662349278" status="FT" time="19:30">
+<home goals="2" id="2349266" name="Juventud"></home>
+<away goals="0" id="2349278" name="Rampla Juniors"></away>
 <events>
-<event id="21852134" minute="10" player="J. Burgueno" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21852135" minute="30" player="F. Bastidas" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21852136" minute="38" player="J. Aguirre" playerid="2558413" result="" team="home" type="yellowcard"></event>
-<event id="21852137" minute="58" player="J. Fagundez" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21852138" minute="69" player="F. J. Rodriguez V." playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21852139" minute="75" player="D. Casas" playerid="2620249" result="" team="away" type="yellowcard"></event>
-<event id="21852140" minute="76" player="W. Martinez" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21852141" minute="84" player="F. Cordoba" playerid="2399665" result="" team="away" type="yellowcard"></event>
-<event id="21852142" minute="86" player="F. Cordoba" playerid="2399665" result="" team="away" type="yellowred"></event>
-<event id="197534843" minute="88" player="M. Gonzalez" playerid="2423567" result="" team="home" type="yellowcard"></event>
-<event id="197534844" minute="90" player="G. Marques" playerid="2423421" result="" team="away" type="yellowcard"></event>
-<event id="197534845" minute="90" player="C. Techera" playerid="2457718" result="" team="away" type="yellowcard"></event>
+<event id="21852444" minute="40" player="H. D. Cuatrin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21852445" minute="47" player="F. Vargas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21852446" minute="59" player="P. Dzeruvs" playerid="2423494" result="" team="away" type="yellowcard"></event>
+<event id="21852447" minute="61" player="H. D. Cuatrin" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21852448" minute="79" player="E. Garcia" playerid="" result="" team="away" type="redcard"></event>
+<event id="21852449" minute="89" player="G. Malan" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4046130" alternate_id_2="4283891" date="16.11.2014" id="4163743" static_id="16111423492822349270" status="FT" time="19:30">

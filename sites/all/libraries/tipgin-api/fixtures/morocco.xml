@@ -1,179 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="19.04.2015 06:50:35" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4035357" alternate_id_2="4317422" date="19.04.2015" id="4152972" static_id="19041523449472344953" status="14:00" time="14:00">
-<home id="2344947" name="KAC Kenitra"></home>
-<away id="2344953" name="Olympique de Safi"></away>
-
-
-</match><match alternate_id="4035362" alternate_id_2="4317572" date="19.04.2015" id="4152977" static_id="19041523449332344932" status="14:30" time="14:30">
-<home id="2344933" name="Hoceima"></home>
-<away id="2344932" name="Chabab Atlas Khenifra"></away>
-
-
-</match><match alternate_id="4035361" alternate_id_2="4319450" date="22.04.2015" id="4152976" static_id="22041523449482344950" status="17:00" time="17:00">
-<home id="2344948" name="Kawkab Marrakech"></home>
-<away id="2344950" name="Moghreb Tétouan"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4319573" date="25.04.2015" id="" static_id="25041523449322344960" status="15:00" time="15:00">
-<home id="2344932" name="Chabab Atlas Khenifra"></home>
-<away id="2344960" name="Berkane"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4319451" date="25.04.2015" id="" static_id="25041523449372344970" status="15:00" time="15:00">
-<home id="2344937" name="Difaâ El Jadidi"></home>
-<away id="2344970" name="Wydad Casablanca"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4319452" date="25.04.2015" id="" static_id="25041523449382344939" status="15:00" time="15:00">
-<home id="2344938" name="FAR Rabat"></home>
-<away id="2344939" name="FUS Rabat"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4319623" date="25.04.2015" id="" static_id="25041523449412344947" status="15:00" time="15:00">
-<home id="2344941" name="Hassania Agadir"></home>
-<away id="2344947" name="KAC Kenitra"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4319624" date="25.04.2015" id="" static_id="25041523449532344949" status="15:00" time="15:00">
-<home id="2344953" name="Olympique de Safi"></home>
-<away id="2344949" name="Maghreb Fez"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324954" date="25.04.2015" id="" static_id="25041523449442344952" status="16:00" time="16:00">
-<home id="2344944" name="Ittihad Khemisset"></home>
-<away id="2344952" name="Olympique Khouribga"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325100" date="25.04.2015" id="" static_id="25041523449502344933" status="16:00" time="16:00">
-<home id="2344950" name="Moghreb Tétouan"></home>
-<away id="2344933" name="Hoceima"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324955" date="25.04.2015" id="" static_id="25041523449572344948" status="16:00" time="16:00">
-<home id="2344957" name="Raja Casablanca"></home>
-<away id="2344948" name="Kawkab Marrakech"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325665" date="02.05.2015" id="" static_id="02051523449392344937" status="15:00" time="15:00">
-<home id="2344939" name="FUS Rabat"></home>
-<away id="2344937" name="Difaâ El Jadidi"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325595" date="02.05.2015" id="" static_id="02051523449332344957" status="15:00" time="15:00">
-<home id="2344933" name="Hoceima"></home>
-<away id="2344957" name="Raja Casablanca"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325451" date="02.05.2015" id="" static_id="02051523449472344952" status="15:00" time="15:00">
-<home id="2344947" name="KAC Kenitra"></home>
-<away id="2344952" name="Olympique Khouribga"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325452" date="02.05.2015" id="" static_id="02051523449492344941" status="15:00" time="15:00">
-<home id="2344949" name="Maghreb Fez"></home>
-<away id="2344941" name="Hassania Agadir"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325666" date="02.05.2015" id="" static_id="02051523449702344953" status="15:00" time="15:00">
-<home id="2344970" name="Wydad Casablanca"></home>
-<away id="2344953" name="Olympique de Safi"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4327284" date="02.05.2015" id="" static_id="02051523449602344950" status="16:00" time="16:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="30.04.2015 06:50:34" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="" alternate_id_2="4327284" date="02.05.2015" id="" static_id="02051523449602344950" status="10:00" time="10:00">
 <home id="2344960" name="Berkane"></home>
 <away id="2344950" name="Moghreb Tétouan"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4327285" date="02.05.2015" id="" static_id="02051523449322344944" status="16:00" time="16:00">
-<home id="2344932" name="Chabab Atlas Khenifra"></home>
-<away id="2344944" name="Ittihad Khemisset"></away>
+</match><match alternate_id="" alternate_id_2="4325665" date="02.05.2015" id="" static_id="02051523449392344937" status="10:00" time="10:00">
+<home id="2344939" name="FUS Rabat"></home>
+<away id="2344937" name="Difaâ El Jadidi"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4327286" date="02.05.2015" id="" static_id="02051523449482344938" status="16:00" time="16:00">
+</match><match alternate_id="" alternate_id_2="4325595" date="02.05.2015" id="" static_id="02051523449332344957" status="10:00" time="10:00">
+<home id="2344933" name="Hoceima"></home>
+<away id="2344957" name="Raja Casablanca"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4325451" date="02.05.2015" id="" static_id="02051523449472344952" status="10:00" time="10:00">
+<home id="2344947" name="KAC Kenitra"></home>
+<away id="2344952" name="Olympique Khouribga"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4327286" date="02.05.2015" id="" static_id="02051523449482344938" status="10:00" time="10:00">
 <home id="2344948" name="Kawkab Marrakech"></home>
 <away id="2344938" name="FAR Rabat"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4327441" date="09.05.2015" id="" static_id="09051523449532344939" status="15:00" time="15:00">
+</match><match alternate_id="" alternate_id_2="4325452" date="02.05.2015" id="" static_id="02051523449492344941" status="10:00" time="10:00">
+<home id="2344949" name="Maghreb Fez"></home>
+<away id="2344941" name="Hassania Agadir"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4325666" date="02.05.2015" id="" static_id="02051523449702344953" status="10:00" time="10:00">
+<home id="2344970" name="Wydad Casablanca"></home>
+<away id="2344953" name="Olympique de Safi"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4327285" date="02.05.2015" id="" static_id="02051523449322344944" status="14:00" time="14:00">
+<home id="2344932" name="Chabab Atlas Khenifra"></home>
+<away id="2344944" name="Ittihad Khemisset"></away>
+
+
+</match><match alternate_id="4035371" alternate_id_2="4319573" date="03.05.2015" id="4152986" static_id="03051523449322344960" status="Postp." time="16:00">
+<home id="2344932" name="Chabab Atlas Khenifra"></home>
+<away id="2344960" name="Berkane"></away>
+
+
+</match><match alternate_id="4035360" alternate_id_2="4317554" date="07.05.2015" id="4152975" static_id="07051523449392344957" status="Postp." time="16:00">
+<home id="2344939" name="FUS Rabat"></home>
+<away id="2344957" name="Raja Casablanca"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4328539" date="12.05.2015" id="" static_id="12051523449372344948" status="16:00" time="16:00">
+<home id="2344937" name="Difaâ El Jadidi"></home>
+<away id="2344948" name="Kawkab Marrakech"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4327392" date="12.05.2015" id="" static_id="12051523449382344933" status="16:00" time="16:00">
+<home id="2344938" name="FAR Rabat"></home>
+<away id="2344933" name="Hoceima"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4327427" date="12.05.2015" id="" static_id="12051523449412344970" status="16:00" time="16:00">
+<home id="2344941" name="Hassania Agadir"></home>
+<away id="2344970" name="Wydad Casablanca"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4328537" date="12.05.2015" id="" static_id="12051523449472344944" status="16:00" time="16:00">
+<home id="2344947" name="KAC Kenitra"></home>
+<away id="2344944" name="Ittihad Khemisset"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4328538" date="12.05.2015" id="" static_id="12051523449502344932" status="16:00" time="16:00">
+<home id="2344950" name="Moghreb Tétouan"></home>
+<away id="2344932" name="Chabab Atlas Khenifra"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4327441" date="12.05.2015" id="" static_id="12051523449532344939" status="16:00" time="16:00">
 <home id="2344953" name="Olympique de Safi"></home>
 <away id="2344939" name="FUS Rabat"></away>
 
 
-</match></league><league country="morocco" name="Morocco: Elite 2" cup="False" id="3150" sub_id="31500"><match alternate_id="" alternate_id_2="4322866" date="25.04.2015" id="" static_id="25041523449312344930" status="14:00" time="14:00">
-<home id="2344931" name="Chabab Houara"></home>
-<away id="2344930" name="Youssoufia Berrechid"></away>
+</match><match alternate_id="" alternate_id_2="4327287" date="12.05.2015" id="" static_id="12051523449522344949" status="16:00" time="16:00">
+<home id="2344952" name="Olympique Khouribga"></home>
+<away id="2344949" name="Maghreb Fez"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322745" date="25.04.2015" id="" static_id="25041523556472344967" status="14:00" time="14:00">
-<home id="2355647" name="Dcheira"></home>
-<away id="2344967" name="Union de Mohammédia"></away>
+</match><match alternate_id="" alternate_id_2="4327430" date="12.05.2015" id="" static_id="12051523449572344960" status="16:00" time="16:00">
+<home id="2344957" name="Raja Casablanca"></home>
+<away id="2344960" name="Berkane"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322853" date="25.04.2015" id="" static_id="25041523449462344971" status="14:00" time="14:00">
-<home id="2344946" name="Jeunesse Massira"></home>
-<away id="2344971" name="Wydad Fes"></away>
+</match><match alternate_id="" alternate_id_2="4329919" date="16.05.2015" id="" static_id="16051523449392344941" status="15:00" time="15:00">
+<home id="2344939" name="FUS Rabat"></home>
+<away id="2344941" name="Hassania Agadir"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322867" date="25.04.2015" id="" static_id="" status="14:00" time="14:00">
-<home id="2344945" name="Kasba Tadla"></home>
-<away id="" name="IR Tanger"></away>
+</match><match alternate_id="" alternate_id_2="4329892" date="16.05.2015" id="" static_id="16051523449702344952" status="15:00" time="15:00">
+<home id="2344970" name="Wydad Casablanca"></home>
+<away id="2344952" name="Olympique Khouribga"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322746" date="25.04.2015" id="" static_id="25041523449562344935" status="14:00" time="14:00">
-<home id="2344956" name="RAC Casablanca"></home>
-<away id="2344935" name="Meknes"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322868" date="25.04.2015" id="" static_id="25041523449292344951" status="14:00" time="14:00">
-<home id="2344929" name="Sale"></home>
-<away id="2344951" name="Mouloudia Oujda"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322747" date="25.04.2015" id="" static_id="25041523449652351877" status="14:00" time="14:00">
-<home id="2344965" name="Union Ait Melloul"></home>
-<away id="2351877" name="Raja Beni Mellal"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322879" date="25.04.2015" id="" static_id="25041523449682355648" status="14:00" time="14:00">
-<home id="2344968" name="US Témara"></home>
-<away id="2355648" name="Widad Temara"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325596" date="03.05.2015" id="" static_id="" status="14:00" time="14:00">
+</match></league><league country="morocco" name="Morocco: Elite 2" cup="False" id="3150" sub_id="31500"><match alternate_id="4047365" alternate_id_2="4325596" date="03.05.2015" id="4164977" static_id="" status="15:00" time="15:00">
 <home id="" name="IR Tanger"></home>
 <away id="2344929" name="Sale"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325453" date="03.05.2015" id="" static_id="03051523449352344946" status="14:00" time="14:00">
+</match><match alternate_id="4047360" alternate_id_2="4325453" date="03.05.2015" id="4164972" static_id="03051523449352344946" status="15:00" time="15:00">
 <home id="2344935" name="Meknes"></home>
 <away id="2344946" name="Jeunesse Massira"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325667" date="03.05.2015" id="" static_id="03051523449512344968" status="14:00" time="14:00">
+</match><match alternate_id="4047364" alternate_id_2="4325667" date="03.05.2015" id="4164976" static_id="03051523449512344968" status="15:00" time="15:00">
 <home id="2344951" name="Mouloudia Oujda"></home>
 <away id="2344968" name="US Témara"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325454" date="03.05.2015" id="" static_id="03051523518772344956" status="14:00" time="14:00">
+</match><match alternate_id="4047361" alternate_id_2="4325454" date="03.05.2015" id="4164973" static_id="03051523518772344956" status="15:00" time="15:00">
 <home id="2351877" name="Raja Beni Mellal"></home>
 <away id="2344956" name="RAC Casablanca"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325605" date="03.05.2015" id="" static_id="03051523449672344965" status="14:00" time="14:00">
+</match><match alternate_id="4047362" alternate_id_2="4325605" date="03.05.2015" id="4164974" static_id="03051523449672344965" status="15:00" time="15:00">
 <home id="2344967" name="Union de Mohammédia"></home>
 <away id="2344965" name="Union Ait Melloul"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325606" date="03.05.2015" id="" static_id="03051523556482355647" status="14:00" time="14:00">
+</match><match alternate_id="4047363" alternate_id_2="4325606" date="03.05.2015" id="4164975" static_id="03051523556482355647" status="15:00" time="15:00">
 <home id="2355648" name="Widad Temara"></home>
 <away id="2355647" name="Dcheira"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325455" date="03.05.2015" id="" static_id="03051523449712344931" status="14:00" time="14:00">
+</match><match alternate_id="4047367" alternate_id_2="4325455" date="03.05.2015" id="4164979" static_id="03051523449712344931" status="15:00" time="15:00">
 <home id="2344971" name="Wydad Fes"></home>
 <away id="2344931" name="Chabab Houara"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325456" date="03.05.2015" id="" static_id="03051523449302344945" status="14:00" time="14:00">
+</match><match alternate_id="4047366" alternate_id_2="4325456" date="03.05.2015" id="4164978" static_id="03051523449302344945" status="15:00" time="15:00">
 <home id="2344930" name="Youssoufia Berrechid"></home>
 <away id="2344945" name="Kasba Tadla"></away>
 

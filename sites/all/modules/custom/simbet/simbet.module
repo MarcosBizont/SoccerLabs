@@ -383,6 +383,7 @@ function simbet_format_list_offers($obj, $odds_suggested, $tip)
 {
 	$teamid = $tip->field_team[LANGUAGE_NONE][0]['target_id'];
 	$matchid = $tip->field_match[LANGUAGE_NONE][0]['target_id'];
+	$message = '';
 	$is_bet_valid = simbet_bet_isvalid($matchid, $odds_suggested, $teamid, $message);
 	$is_user_valid = simbet_user_isvalid();
 	

@@ -1,13 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="19.04.2015 12:40:53" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115683" alternate_id_2="4317864" date="19.04.2015" id="4233231" static_id="19041523434832343509" status="17:55" time="17:55">
-<home goals="?" id="2343483" name="H. Beer Sheva"></home>
-<away goals="?" id="2343509" name="Shmona"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4115682" alternate_id_2="4317866" date="19.04.2015" id="4233230" static_id="19041523435392343464" status="17:15" time="17:15">
-<home goals="?" id="2343539" name="Maccabi Tel Aviv"></home>
-<away goals="?" id="2343464" name="Beitar Jerusalem"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:40:50" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115684" alternate_id_2="4317869" date="27.04.2015" id="4233232" static_id="27041523435092343525" status="FT" time="17:30">
+<home goals="1" id="2343509" name="Shmona"></home>
+<away goals="0" id="2343525" name="Maccabi Haifa"></away>
+<events>
+<event id="22192194" minute="66" player="R. Kola" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4115685" alternate_id_2="4317867" date="26.04.2015" id="4233233" static_id="26041523434642343483" status="FT" time="17:55">
+<home goals="1" id="2343464" name="Beitar Jerusalem"></home>
+<away goals="1" id="2343483" name="H. Beer Sheva"></away>
+<events>
+<event id="22192174" minute="2" player="O. Kriaf" playerid="2540144" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192175" minute="77" player="E. Barda" playerid="2345576" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match></league><league country="israel" name="Israel: Ligat Ha'Al - Relegation Group" cup="False" id="3094" sub_id="30944"><match alternate_id="4115716" alternate_id_2="4317890" date="25.04.2015" id="4233264" static_id="25041523435362343469" status="FT" time="17:00">
+<home goals="2" id="2343536" name="Netanya"></home>
+<away goals="3" id="2343469" name="Sakhnin"></away>
+<events>
+<event id="22192404" minute="12" player="M. Ghadir (pen.)" playerid="2416360" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22192405" minute="37" player="A. Jaber" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22192406" minute="48" player="E. Levi (pen.)" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22192407" minute="89" player="Kaioda L" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22192408" minute="90+3" player="D. Kachuba" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115686" alternate_id_2="4317868" date="25.04.2015" id="4233234" static_id="25041523435372343539" status="FT" time="17:00">
+<home goals="1" id="2343537" name="Maccabi Petah Tikva"></home>
+<away goals="1" id="2343539" name="Maccabi Tel Aviv"></away>
+<events>
+<event id="22192184" minute="37" player="O. Ben Harush" playerid="2423822" result="" team="away" type="redcard"></event>
+<event id="22192185" minute="38" player="D. D. Ben (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192186" minute="41" player="E. Zehavi (pen.)" playerid="2373982" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match></league><league country="israel" name="Israel: Ligat Ha'Al - Relegation Group" cup="False" id="3094" sub_id="30944"><match alternate_id="4115714" alternate_id_2="4317889" date="25.04.2015" id="4233262" static_id="25041523434602343489" status="FT" time="14:45">
+<home goals="0" id="2343460" name="Moadon Sport Ashdod"></home>
+<away goals="0" id="2343489" name="Hapoel Haifa"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4115717" alternate_id_2="4317888" date="25.04.2015" id="4233265" static_id="25041523435022343504" status="FT" time="13:00">
+<home goals="2" id="2343502" name="H. Raanana"></home>
+<away goals="2" id="2343504" name="Hapoel Tel Aviv"></away>
+<events>
+<event id="22192384" minute="42" player="S. Gozlan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192385" minute="45+1" player="E. Babayev" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22192386" minute="73" player="S. Abutbul" playerid="2352214" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22192387" minute="89" player="I. Abonima" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4115715" alternate_id_2="4317887" date="25.04.2015" id="4233263" static_id="25041523435012343478" status="FT" time="12:30">
+<home goals="0" id="2343501" name="Hapoel Petah Tikva"></home>
+<away goals="2" id="2343478" name="H. Akko"></away>
+<events>
+<event id="22192374" minute="42" player="B. Jovanovic" playerid="2415870" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22192375" minute="86" player="A. Gotlieb" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115681" alternate_id_2="4317865" date="20.04.2015" id="4233229" static_id="20041523435252343537" status="FT" time="17:00">
+<home goals="0" id="2343525" name="Maccabi Haifa"></home>
+<away goals="0" id="2343537" name="Maccabi Petah Tikva"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4115683" alternate_id_2="4317864" date="19.04.2015" id="4233231" static_id="19041523434832343509" status="FT" time="17:55">
+<home goals="2" id="2343483" name="H. Beer Sheva"></home>
+<away goals="2" id="2343509" name="Shmona"></away>
+<events>
+<event id="22192144" minute="21" player="R. Gordana" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192145" minute="45+2" player="R. Kola" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22192146" minute="67" player="V. Brown" playerid="" result="" team="away" type="redcard"></event>
+<event id="22192147" minute="72" player="S. Nassar" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22192148" minute="82" player="O. Mizrachi" playerid="2610403" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4115682" alternate_id_2="4317866" date="19.04.2015" id="4233230" static_id="19041523435392343464" status="FT" time="17:15">
+<home goals="4" id="2343539" name="Maccabi Tel Aviv"></home>
+<away goals="1" id="2343464" name="Beitar Jerusalem"></away>
+<events>
+<event id="22192164" minute="56" player="D. Micha" playerid="2492453" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192165" minute="58" player="I. Cohen" playerid="2493551" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22192166" minute="68" player="R. Prica" playerid="2343428" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22192167" minute="71" player="D. Micha" playerid="2492453" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22192168" minute="80" player="S. Malul" playerid="" result="" team="away" type="redcard"></event>
+<event id="22192169" minute="81" player="E. Zehavi" playerid="2373982" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al - Relegation Group" cup="False" id="3094" sub_id="30944"><match alternate_id="4115710" alternate_id_2="4317885" date="18.04.2015" id="4233258" static_id="18041523435362343460" status="FT" time="17:00">
 <home goals="0" id="2343536" name="Netanya"></home>
 <away goals="0" id="2343460" name="Moadon Sport Ashdod"></away>
@@ -18,28 +96,26 @@
 <home goals="1" id="2343469" name="Sakhnin"></home>
 <away goals="1" id="2343502" name="H. Raanana"></away>
 <events>
-<event id="22192364" minute="59" player="F. Mugrabi" playerid="2427226" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22192365" minute="88" player="B. Vahaba" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22192364" minute="58" player="F. Mugrabi" playerid="2427226" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192365" minute="87" player="B. Vahaba" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4115713" alternate_id_2="4317883" date="18.04.2015" id="4233261" static_id="18041523434782343489" status="FT" time="15:00">
 <home goals="1" id="2343478" name="H. Akko"></home>
 <away goals="0" id="2343489" name="Hapoel Haifa"></away>
 <events>
-<event id="22192334" minute="77" player="E. Seidere" playerid="2642332" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22192335" minute="90+2" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22192334" minute="79" player="E. Seidere" playerid="2642332" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192335" minute="90" player="O. Roash" playerid="2423782" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4115712" alternate_id_2="4317884" date="18.04.2015" id="4233260" static_id="18041523435042343501" status="FT" time="14:20">
 <home goals="1" id="2343504" name="Hapoel Tel Aviv"></home>
 <away goals="2" id="2343501" name="Hapoel Petah Tikva"></away>
 <events>
-<event id="22192344" minute="33" player="B. Reichert" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22192345" minute="50" player="B. Reichert" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22192346" minute="60" player="H. Abu Zaid" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22192347" minute="69" player="B. Reichert" playerid="" result="" team="home" type="redcard"></event>
-<event id="22192348" minute="75" player="L. Sasha" playerid="2454039" result="" team="home" type="yellowcard"></event>
-<event id="22192349" minute="85" player="M. Oremus" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22192344" minute="51" player="B. Reichert" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192345" minute="60" player="H. Abu Zaid" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22192346" minute="69" player="B. Reichert" playerid="" result="" team="home" type="yellowred"></event>
+<event id="22192347" minute="85" player="M. Oremus" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115679" alternate_id_2="4317863" date="13.04.2015" id="4233227" static_id="13041523435092343539" status="FT" time="17:55">
@@ -66,11 +142,11 @@
 <home goals="2" id="2343501" name="Hapoel Petah Tikva"></home>
 <away goals="3" id="2343469" name="Sakhnin"></away>
 <events>
-<event id="22192304" minute="53" player="Arel" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22192305" minute="61" player="D. Kachuba" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22192304" minute="53" player="G. Arel" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22192305" minute="61" player="K. Moosa (o.g.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22192306" minute="67" player="D. Kachuba" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22192307" minute="82" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22192308" minute="90+1" player="" playerid="" result="[2 - 3]" team="home" type="goal"></event>
+<event id="22192307" minute="82" player="F. Mugrabi" playerid="2427226" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22192308" minute="90+1" player="S. Hirsh" playerid="" result="[2 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4115706" alternate_id_2="4317882" date="11.04.2015" id="4233254" static_id="11041523434602343478" status="FT" time="16:00">
@@ -86,14 +162,14 @@
 <event id="22192314" minute="17" player="O. Peretz" playerid="2373000" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22192315" minute="54" player="M. Thiam" playerid="2537310" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22192316" minute="76" player="Y. Lavi" playerid="2372226" result="" team="home" type="redcard"></event>
-<event id="22192317" minute="90+4" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22192317" minute="90" player="Kaioda L" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4115707" alternate_id_2="4317879" date="11.04.2015" id="4233255" static_id="11041523434892343504" status="FT" time="14:00">
 <home goals="0" id="2343489" name="Hapoel Haifa"></home>
 <away goals="1" id="2343504" name="Hapoel Tel Aviv"></away>
 <events>
-<event id="22192294" minute="85" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22192294" minute="84" player="A. Lazmi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115677" alternate_id_2="4317860" date="06.04.2015" id="4233225" static_id="06041523435392343483" status="FT" time="17:55">
@@ -127,14 +203,14 @@
 <events>
 <event id="22192074" minute="1" player="N. Igiebor" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22192075" minute="61" player="E. Atar" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22192076" minute="89" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22192076" minute="89" player="E. Zehavi" playerid="2373982" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4115673" alternate_id_2="4317856" date="22.03.2015" id="4233221" static_id="22031523435092343464" status="FT" time="18:15">
 <home goals="1" id="2343509" name="Shmona"></home>
 <away goals="2" id="2343464" name="Beitar Jerusalem"></away>
 <events>
-<event id="22192064" minute="18" player="L. Antal" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22192064" minute="19" player="L. Antal" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22192065" minute="27" player="L. Antal" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="22192066" minute="79" player="R. Kahat" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
@@ -146,7 +222,7 @@
 <event id="22192284" minute="32" player="O. Barouch" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22192285" minute="48" player="D. Saba" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22192286" minute="50" player="G. Giurgiu" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22192287" minute="58" player="G. Giurgiu" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22192287" minute="56" player="O. Altman (pen.)" playerid="" result="[3 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115672" alternate_id_2="4317855" date="21.03.2015" id="4233220" static_id="21031523434832343537" status="FT" time="17:20">
@@ -182,14 +258,14 @@
 <event id="22192254" minute="8" player="A. Nwakaeme" playerid="2485742" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22192255" minute="41" player="E. Kangwa" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22192256" minute="66" player="A. Nwakaeme" playerid="2485742" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22192257" minute="75" player="S. Gozlan" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22192257" minute="74" player="S. Gozlan" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al" cup="False" id="3094" sub_id="30940"><match alternate_id="4032422" alternate_id_2="4310851" date="16.03.2015" id="4150040" static_id="16031523435392343501" status="FT" time="18:55">
 <home goals="2" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="0" id="2343501" name="Hapoel Petah Tikva"></away>
 <events>
-<event id="22122014" minute="10" player="E. Zehavi" playerid="2373982" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22122014" minute="12" player="E. Zehavi" playerid="2373982" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22122015" minute="19" player="D. Micha" playerid="2492453" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
@@ -197,7 +273,7 @@
 <home goals="2" id="2343483" name="H. Beer Sheva"></home>
 <away goals="0" id="2343469" name="Sakhnin"></away>
 <events>
-<event id="22120994" minute="52" player="E. Barda" playerid="2345576" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22120994" minute="51" player="E. Barda" playerid="2345576" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22120995" minute="56" player="E. Barda" playerid="2345576" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
@@ -221,18 +297,18 @@
 <home goals="2" id="2343537" name="Maccabi Petah Tikva"></home>
 <away goals="1" id="2343504" name="Hapoel Tel Aviv"></away>
 <events>
-<event id="22121934" minute="83" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22121935" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
-<event id="22121936" minute="90+1" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22121937" minute="90+5" player="" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22121934" minute="85" player="G. Melamed" playerid="2542763" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22121935" minute="89" player="S. Falach" playerid="" result="" team="away" type="redcard"></event>
+<event id="22121936" minute="90+1" player="G. Kanuk" playerid="2549304" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22121937" minute="90+5" player="L. Sasha (pen.)" playerid="2454039" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4032418" alternate_id_2="4310748" date="14.03.2015" id="4150036" static_id="14031523434782343509" status="FT" time="17:00">
 <home goals="2" id="2343478" name="H. Akko"></home>
 <away goals="0" id="2343509" name="Shmona"></away>
 <events>
-<event id="22120984" minute="52" player="Y. Papadopoulos" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22120985" minute="68" player="A. Kasoum" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22120984" minute="52" player="G. Papadopoulos" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22120985" minute="68" player="A. Kasum" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4032417" alternate_id_2="4310840" date="14.03.2015" id="4150035" static_id="14031523434602343536" status="FT" time="17:00">
@@ -240,9 +316,9 @@
 <away goals="3" id="2343536" name="Netanya"></away>
 <events>
 <event id="22121904" minute="10" player="D. Saba" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22121905" minute="39" player="T. Richmond" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22121905" minute="39" player="T. Mond" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22121906" minute="49" player="G. Kinda" playerid="2559574" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22121907" minute="61" player="O. Shitrit" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22121907" minute="60" player="O. Shitrit" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 <event id="22121908" minute="88" player="A. Abaid" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
@@ -264,10 +340,10 @@
 <home goals="3" id="2343504" name="Hapoel Tel Aviv"></home>
 <away goals="1" id="2343460" name="Moadon Sport Ashdod"></away>
 <events>
-<event id="22108634" minute="19" player="T. Mond" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22108634" minute="21" player="T. Mond" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22108635" minute="45" player="P. Yeye Lenkebe (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22108636" minute="86" player="S. Yehezkal" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22108637" minute="90+4" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22108636" minute="87" player="S. Yehezkal" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22108637" minute="90+4" player="D. Biton" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4032409" alternate_id_2="4308950" date="07.03.2015" id="4150027" static_id="07031523435012343537" status="FT" time="17:00">
@@ -288,17 +364,17 @@
 <home goals="2" id="2343469" name="Sakhnin"></home>
 <away goals="0" id="2343502" name="H. Raanana"></away>
 <events>
-<event id="22102994" minute="17" player="M. Ghadir" playerid="2416360" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22102994" minute="18" player="M. Ghadir" playerid="2416360" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22102995" minute="42" player="F. Mugrabi" playerid="2427226" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22102996" minute="73" player="B. Vehava" playerid="" result="" team="away" type="redcard"></event>
+<event id="22102996" minute="73" player="B. Vahaba" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4032412" alternate_id_2="4308948" date="07.03.2015" id="4150030" static_id="07031523434892343483" status="FT" time="15:00">
 <home goals="1" id="2343489" name="Hapoel Haifa"></home>
 <away goals="1" id="2343483" name="H. Beer Sheva"></away>
 <events>
-<event id="22102984" minute="11" player="M. Abu Ria" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22102985" minute="81" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22102984" minute="9" player="M. Al Lala" playerid="2373991" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22102985" minute="81" player="D. Gabay" playerid="2387832" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4032404" alternate_id_2="4308947" date="02.03.2015" id="4150022" static_id="02031523435252343536" status="FT" time="17:45">
@@ -314,8 +390,8 @@
 <home goals="2" id="2343483" name="H. Beer Sheva"></home>
 <away goals="1" id="2343509" name="Shmona"></away>
 <events>
-<event id="22093604" minute="15" player="E. Barda" playerid="2345576" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22093605" minute="17" player="R. Kehat" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22093604" minute="16" player="E. Barda" playerid="2345576" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22093605" minute="18" player="R. Kahat" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22093606" minute="41" player="E. Barda" playerid="2345576" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
@@ -330,7 +406,7 @@
 <home goals="2" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="0" id="2343469" name="Sakhnin"></away>
 <events>
-<event id="22086004" minute="45+3" player="E. Zehavi" playerid="2373982" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22086004" minute="45+2" player="E. Zehavi" playerid="2373982" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22086005" minute="83" player="D. Micha" playerid="2492453" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
@@ -338,8 +414,8 @@
 <home goals="2" id="2343502" name="H. Raanana"></home>
 <away goals="0" id="2343489" name="Hapoel Haifa"></away>
 <events>
-<event id="22085984" minute="50" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22085985" minute="60" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22085984" minute="50" player="M. Abutbul" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22085985" minute="61" player="S. Gozlan" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4032402" alternate_id_2="4307249" date="28.02.2015" id="4150020" static_id="28021523434602343537" status="FT" time="16:30">
@@ -353,19 +429,19 @@
 <away goals="2" id="2343509" name="Shmona"></away>
 <events>
 <event id="20006314" minute="7" player="L. Sasha" playerid="2454039" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20006315" minute="23" player="G. Vermouth" playerid="2345407" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20006315" minute="25" player="G. Vermouth" playerid="2345407" result="[2 - 0]" team="home" type="goal"></event>
 <event id="20006316" minute="42" player="U. Cohen" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="20006317" minute="51" player="G. Vermouth" playerid="2345407" result="[4 - 0]" team="home" type="goal"></event>
-<event id="20006318" minute="52" player="R. Kahat" playerid="" result="[4 - 1]" team="away" type="goal"></event>
-<event id="20006319" minute="90+1" player="" playerid="" result="[4 - 2]" team="away" type="goal"></event>
+<event id="20006317" minute="50" player="G. Vermouth" playerid="2345407" result="[4 - 0]" team="home" type="goal"></event>
+<event id="20006318" minute="51" player="R. Kahat" playerid="" result="[4 - 1]" team="away" type="goal"></event>
+<event id="20006319" minute="90" player="R. Kola" playerid="" result="[4 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
 </match><match alternate_id="3956623" alternate_id_2="4099423" date="17.05.2014" id="4074308" static_id="17051423434832343525" status="FT" time="17:00">
 <home goals="1" id="2343483" name="H. Beer Sheva"></home>
 <away goals="1" id="2343525" name="Maccabi Haifa"></away>
 <events>
-<event id="20007734" minute="37" player="G. Plet" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20007735" minute="44" player="R. Rayos" playerid="2394630" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20007734" minute="38" player="G. Plet" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20007735" minute="43" player="R. Rayos" playerid="2394630" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="3956624" alternate_id_2="4099378" date="17.05.2014" id="4074309" static_id="17051423435392343469" status="FT" time="17:00">
@@ -373,10 +449,10 @@
 <away goals="1" id="2343469" name="Sakhnin"></away>
 <events>
 <event id="20007284" minute="3" player="Y. Ziv" playerid="2378936" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20007285" minute="21" player="Zahavi" playerid="2373982" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20007286" minute="28" player="Zahavi" playerid="2373982" result="[3 - 0]" team="home" type="goal"></event>
-<event id="20007287" minute="33" player="M. Libau" playerid="2620775" result="[3 - 1]" team="away" type="goal"></event>
-<event id="20007288" minute="86" player="" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="20007285" minute="20" player="E. Zehavi" playerid="2373982" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20007286" minute="27" player="E. Zehavi" playerid="2373982" result="[3 - 0]" team="home" type="goal"></event>
+<event id="20007287" minute="31" player="M. Kalibat" playerid="2534867" result="[3 - 1]" team="away" type="goal"></event>
+<event id="20007288" minute="86" player="E. Zehavi (pen.)" playerid="2373982" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[3-1]"></ht>
 </match><match alternate_id="3952632" alternate_id_2="4097264" date="14.05.2014" id="4070331" static_id="14051423435252343539" status="FT" time="16:30">
@@ -384,9 +460,9 @@
 <away goals="2" id="2343539" name="Maccabi Tel Aviv"></away>
 <events>
 <event id="19986144" minute="22" player="R. Rayos (pen.)" playerid="2394630" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19986145" minute="25" player="E. Zahavi" playerid="2373982" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19986145" minute="25" player="E. Zehavi" playerid="2373982" result="[1 - 1]" team="away" type="goal"></event>
 <event id="19986146" minute="41" player="R. Rayos" playerid="2394630" result="[2 - 1]" team="home" type="goal"></event>
-<event id="19986147" minute="86" player="E. Zahavi" playerid="2373982" result="[2 - 2]" team="away" type="goal"></event>
+<event id="19986147" minute="86" player="E. Zehavi" playerid="2373982" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match><match alternate_id="3952631" alternate_id_2="4096970" date="14.05.2014" id="4070330" static_id="14051423435092343483" status="FT" time="16:00">
@@ -395,115 +471,134 @@
 <events>
 <event id="19983204" minute="25" player="A. Rochet" playerid="2372234" result="[1 - 0]" team="home" type="goal"></event>
 <event id="19983205" minute="30" player="Y. Chejanovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="19983206" minute="90+3" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="19983206" minute="90+3" player="R. Kola" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="3952633" alternate_id_2="4097151" date="13.05.2014" id="4070332" static_id="13051423434692343504" status="FT" time="17:55">
-<home goals="1" id="2343469" name="Sakhnin"></home>
-<away goals="3" id="2343504" name="Hapoel Tel Aviv"></away>
-<events>
-<event id="19985014" minute="20" player="O. Damari (pen.)" playerid="2387950" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19985015" minute="36" player="B. Abdurahimi" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="19985016" minute="60" player="O. Damari" playerid="2387950" result="[0 - 3]" team="away" type="goal"></event>
-<event id="19985017" minute="62" player="M. Shushan (o.g.)" playerid="2481074" result="[1 - 3]" team="home" type="goal"></event>
-<event id="19985018" minute="90" player="M. Ghadir" playerid="2416360" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="3952629" alternate_id_2="4092389" date="11.05.2014" id="4070328" static_id="11051423435392343509" status="FT" time="16:30">
-<home goals="3" id="2343539" name="Maccabi Tel Aviv"></home>
-<away goals="1" id="2343509" name="Shmona"></away>
-<events>
-<event id="19937394" minute="15" player="D. Einbinder" playerid="2423900" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19937395" minute="24" player="D. Micha" playerid="2492453" result="[2 - 0]" team="home" type="goal"></event>
-<event id="19937396" minute="30" player="(pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="19937397" minute="74" player="A. Zahavi" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[2-1]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al - Relegation Group" cup="False" id="3094" sub_id="30944"><match alternate_id="3952968" alternate_id_2="4099278" date="10.05.2014" id="4070664" static_id="10051423434782343510" status="FT" time="17:00">
-<home goals="1" id="2343478" name="H. Acre"></home>
+<home goals="1" id="2343478" name="H. Akko"></home>
 <away goals="2" id="2343510" name="Ramat Hasharon"></away>
 <events>
 <event id="20006284" minute="4" player="E. Hadzic" playerid="2367186" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20006285" minute="28" player="H. Salihi (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20006286" minute="90+3" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="20006286" minute="90+3" player="E. Hadzic" playerid="2367186" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="3952969" alternate_id_2="4099279" date="10.05.2014" id="4070665" static_id="10051423435022343464" status="FT" time="17:00">
 <home goals="0" id="2343502" name="H. Raanana"></home>
 <away goals="2" id="2343464" name="Beitar Jerusalem"></away>
 <events>
-<event id="20006294" minute="72" player="Y. Lerman" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20006295" minute="88" player="(pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20006294" minute="71" player="Y. Lerman" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20006295" minute="87" player="S. Azulay (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="3952970" alternate_id_2="4099280" date="10.05.2014" id="4070666" static_id="10051423435372343489" status="FT" time="17:00">
-<home goals="2" id="2343537" name="Maccabi Petach Tikva"></home>
+<home goals="2" id="2343537" name="Maccabi Petah Tikva"></home>
 <away goals="1" id="2343489" name="Hapoel Haifa"></away>
 <events>
 <event id="20006304" minute="59" player="R. Dayan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="20006305" minute="68" player="Z. Korac" playerid="2379021" result="[1 - 1]" team="away" type="goal"></event>
-<event id="20006306" minute="90" player="R. Dayan (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="20006307" minute="90+4" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="20006306" minute="90+1" player="R. Dayan (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20006307" minute="90+2" player="R. Dayan" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="3952971" alternate_id_2="4099405" date="10.05.2014" id="4070667" static_id="10051423434702343460" status="FT" time="17:00">
 <home goals="1" id="2343470" name="Yehuda"></home>
 <away goals="1" id="2343460" name="Moadon Sport Ashdod"></away>
 <events>
-<event id="20007554" minute="74" player="I. Zion" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20007555" minute="85" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20007554" minute="74" player="B. Moshal" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20007555" minute="85" player="A. Agajev" playerid="2466784" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="3952630" alternate_id_2="4092374" date="10.05.2014" id="4070329" static_id="10051423434692343525" status="FT" time="14:45">
-<home goals="0" id="2343469" name="Sakhnin"></home>
-<away goals="2" id="2343525" name="Maccabi Haifa"></away>
+</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119226" alternate_id_2="4322033" date="27.04.2015" id="4236770" static_id="27041523435122352855" status="FT" time="16:00">
+<home goals="0" id="2343512" name="H. Ironi Rishon"></home>
+<away goals="0" id="2352855" name="Beitar Tel Aviv"></away>
 <events>
-<event id="19937244" minute="35" player="R. Rayos" playerid="2394630" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19937245" minute="69" player="A. Turgeman" playerid="2466318" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3952628" alternate_id_2="4092228" date="10.05.2014" id="4070327" static_id="10051423435042343483" status="FT" time="12:30">
-<home goals="1" id="2343504" name="Hapoel Tel Aviv"></home>
-<away goals="2" id="2343483" name="H. Beer Sheva"></away>
-<events>
-<event id="19935784" minute="33" player="M. Buzaglo" playerid="2390196" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19935785" minute="78" player="G. Plet" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="19935786" minute="80" player="" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="19935787" minute="85" player="" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="israel" name="Israel: Ligat Ha'Al - Relegation Group" cup="False" id="3094" sub_id="30944"><match alternate_id="3950332" alternate_id_2="4096968" date="03.05.2014" id="4068039" static_id="03051423434892343502" status="FT" time="17:00">
-<home goals="0" id="2343489" name="Hapoel Haifa"></home>
-<away goals="2" id="2343502" name="H. Raanana"></away>
-<events>
-<event id="19983184" minute="55" player="G. Lipka" playerid="2470229" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19983185" minute="76" player="S. Benbenisti" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3950331" alternate_id_2="4096967" date="03.05.2014" id="4068038" static_id="03051423434642343478" status="FT" time="15:30">
-<home goals="0" id="2343464" name="Beitar Jerusalem"></home>
-<away goals="2" id="2343478" name="H. Acre"></away>
+</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118714" alternate_id_2="4322031" date="27.04.2015" id="4236258" static_id="27041523434862355635" status="FT" time="15:00">
+<home goals="1" id="2343486" name="Hapoel Bnei Lod"></home>
+<away goals="0" id="2355635" name="Kiryat Gat"></away>
 <events>
-<event id="19983174" minute="30" player="H. Salihi (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19983175" minute="83" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22233814" minute="54" player="Mawuli" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3950333" alternate_id_2="4096969" date="03.05.2014" id="4068040" static_id="03051423434602343537" status="FT" time="15:30">
-<home goals="0" id="2343460" name="Moadon Sport Ashdod"></home>
-<away goals="5" id="2343537" name="Maccabi Petach Tikva"></away>
+<ht score="[0-0]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119225" alternate_id_2="4322032" date="27.04.2015" id="4236769" static_id="27041523434712343499" status="FT" time="15:00">
+<home goals="1" id="2343471" name="Hak. Ramat Gan"></home>
+<away goals="0" id="2343499" name="H. Nazareth"></away>
 <events>
-<event id="19983194" minute="17" player="R. Dayan (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19983195" minute="31" player="R. Dayan" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="19983196" minute="42" player="O. Perez" playerid="2488432" result="[0 - 3]" team="away" type="goal"></event>
-<event id="19983197" minute="48" player="R. Dayan" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="19983198" minute="80" player="L. Cohen" playerid="2536995" result="[0 - 5]" team="away" type="goal"></event>
+<event id="22233824" minute="13" player="Elihen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="3950334" alternate_id_2="4097067" date="03.05.2014" id="4068041" static_id="03051423435102343470" status="FT" time="15:30">
-<home goals="0" id="2343510" name="Ramat Hasharon"></home>
+<ht score="[1-0]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118713" alternate_id_2="4322028" date="24.04.2015" id="4236257" static_id="24041523434942343470" status="FT" time="13:00">
+<home goals="0" id="2343494" name="Hapoel Kfar-Saba"></home>
 <away goals="1" id="2343470" name="Yehuda"></away>
 <events>
-<event id="19984174" minute="62" player="O. Kadusi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233784" minute="90" player="Zamir" playerid="2462230" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4118711" alternate_id_2="4322026" date="24.04.2015" id="4236255" static_id="24041523434792343541" status="FT" time="12:00">
+<home goals="4" id="2343479" name="Hapoel Afula"></home>
+<away goals="2" id="2343541" name="Maccabi Yavne"></away>
+<events>
+<event id="22233764" minute="14" player="Lambin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233765" minute="64" player="Kahinda (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22233766" minute="71" player="Kahinda" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22233767" minute="75" player="Kahinda" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22233768" minute="87" player="Nachmani" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22233769" minute="90" player="Varenne" playerid="" result="[4 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4118712" alternate_id_2="4322027" date="24.04.2015" id="4236256" static_id="24041523435032343523" status="FT" time="12:00">
+<home goals="3" id="2343503" name="Hap. Ramat Gan"></home>
+<away goals="3" id="2343523" name="M. Nazareth"></away>
+<events>
+<event id="22233774" minute="1" player="Cohen" playerid="2479253" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22233775" minute="8" player="Nahia" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22233776" minute="14" player="Lingane" playerid="2636774" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22233777" minute="55" player="Gomez" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22233778" minute="61" player="Exbard" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22233779" minute="90" player="Diamant" playerid="2479235" result="[3 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119224" alternate_id_2="4322029" date="24.04.2015" id="4236768" static_id="24041523434912355177" status="FT" time="12:00">
+<home goals="2" id="2343491" name="Hapoel Jerusalem"></home>
+<away goals="0" id="2355177" name="Ironi Tiberias"></away>
+<events>
+<event id="22233794" minute="34" player="Cohen" playerid="2423843" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22233795" minute="73" player="Sofer" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4119223" alternate_id_2="4322030" date="24.04.2015" id="4236767" static_id="24041523435272343510" status="FT" time="12:00">
+<home goals="0" id="2343527" name="M. Herzliya"></home>
+<away goals="0" id="2343510" name="Ramat Hasharon"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118710" alternate_id_2="4322024" date="20.04.2015" id="4236254" static_id="20041523435412343494" status="FT" time="16:00">
+<home goals="0" id="2343541" name="Maccabi Yavne"></home>
+<away goals="4" id="2343494" name="Hapoel Kfar-Saba"></away>
+<events>
+<event id="22233744" minute="17" player="Nissim" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233745" minute="34" player="Mihajlovic" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22233746" minute="63" player="David" playerid="2465738" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22233747" minute="85" player="Itzhak" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4118709" alternate_id_2="4322023" date="20.04.2015" id="4236253" static_id="20041523556352343503" status="FT" time="15:00">
+<home goals="0" id="2355635" name="Kiryat Gat"></home>
+<away goals="0" id="2343503" name="Hap. Ramat Gan"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="4119222" alternate_id_2="4322025" date="20.04.2015" id="4236766" static_id="20041523435102343512" status="FT" time="15:00">
+<home goals="4" id="2343510" name="Ramat Hasharon"></home>
+<away goals="1" id="2343512" name="H. Ironi Rishon"></away>
+<events>
+<event id="22233754" minute="51" player="Edri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22233755" minute="62" player="Dvora" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22233756" minute="62" player="Nachum" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22233757" minute="67" player="Dvora" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22233758" minute="75" player="Azubel" playerid="" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118707" alternate_id_2="4322018" date="17.04.2015" id="4236251" static_id="17041523435232343479" status="FT" time="13:00">
@@ -532,7 +627,7 @@
 <event id="22233716" minute="79" player="Avinu" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="22233717" minute="84" player="" playerid="" result="" team="away" type="redcard"></event>
 <event id="22233718" minute="89" player="" playerid="" result="" team="away" type="redcard"></event>
-<event id="22233719" minute="90" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22233719" minute="90" player="Schramm" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4119221" alternate_id_2="4322022" date="17.04.2015" id="4236765" static_id="17041523551772343527" status="FT" time="13:00">
@@ -540,14 +635,14 @@
 <away goals="2" id="2343527" name="M. Herzliya"></away>
 <events>
 <event id="22233724" minute="71" player="Eliyahu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22233725" minute="90" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22233725" minute="90" player="Faucher" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4119219" alternate_id_2="4322020" date="17.04.2015" id="4236763" static_id="17041523434992343491" status="FT" time="12:00">
-<home goals="0" id="2343499" name="H. Nazareth"></home>
-<away goals="1" id="2343491" name="Hapoel Jerusalem"></away>
+<home goals="1" id="2343499" name="H. Nazareth"></home>
+<away goals="0" id="2343491" name="Hapoel Jerusalem"></away>
 <events>
-<event id="22233704" minute="59" player="Deri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22233704" minute="59" player="Deri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="4118706" alternate_id_2="4322016" date="13.04.2015" id="4236250" static_id="13041523434702355635" status="FT" time="16:30">
@@ -667,7 +762,7 @@
 <event id="22154744" minute="27" player="Abudi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22154745" minute="51" player="Malkin" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="22154746" minute="57" player="Baldout" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22154747" minute="84" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22154747" minute="84" player="Haziza" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4045676" alternate_id_2="4314149" date="27.03.2015" id="4163289" static_id="27031523528552343494" status="FT" time="12:00">
@@ -692,13 +787,14 @@
 <event id="22135274" minute="17" player="Nussbaum" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22135275" minute="29" player="Nissim" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22135276" minute="78" player="Fadida" playerid="2396383" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22135277" minute="80" player="Fadida" playerid="2396383" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4045666" alternate_id_2="4312179" date="23.03.2015" id="4163279" static_id="23031523556352343523" status="FT" time="17:00">
 <home goals="0" id="2355635" name="Kiryat Gat"></home>
 <away goals="1" id="2343523" name="M. Nazareth"></away>
 <events>
-<event id="22135294" minute="82" player="Alain Masudi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22135294" minute="82" player="Masudi" playerid="2395832" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4045671" alternate_id_2="4312363" date="23.03.2015" id="4163284" static_id="23031523551772343486" status="FT" time="16:00">
@@ -736,9 +832,9 @@
 <event id="22135164" minute="7" player="Atar" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22135165" minute="58" player="Biancardini" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22135166" minute="69" player="Nachum" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22135167" minute="71" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="22135167" minute="71" player="Menahem" playerid="" result="" team="home" type="redcard"></event>
 <event id="22135168" minute="75" player="Elkaslasy" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22135169" minute="80" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22135169" minute="80" player="Gomberg" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4045665" alternate_id_2="4312178" date="20.03.2015" id="4163278" static_id="20031523435412343479" status="FT" time="12:30">
@@ -749,6 +845,7 @@
 <event id="22135285" minute="65" player="Turgeman" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22135286" minute="69" player="Tubul" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="22135287" minute="76" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22135288" minute="90" player="" playerid="" result="[3 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4045659" alternate_id_2="4310529" date="16.03.2015" id="4163272" static_id="16031523434712343499" status="FT" time="16:00">
@@ -757,6 +854,7 @@
 <events>
 <event id="22118794" minute="18" player="Deri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22118795" minute="21" player="Mordechai" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22118796" minute="88" player="Passos (pen.)" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
 </match><match alternate_id="4045662" alternate_id_2="4310537" date="16.03.2015" id="4163275" static_id="16031523434792355635" status="FT" time="16:00">
@@ -773,6 +871,7 @@
 <event id="22130285" minute="41" player="Exbard" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22130286" minute="48" player="Bouzaglo" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 <event id="22130287" minute="77" player="Bouzaglo" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22130288" minute="88" player="Brossou" playerid="2463478" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4045658" alternate_id_2="4310514" date="13.03.2015" id="4163271" static_id="13031523528552343527" status="FT" time="13:00">
@@ -794,8 +893,8 @@
 </events>
 <ht score="[0-2]"></ht>
 </match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="3957638" alternate_id_2="4101065" date="19.05.2014" id="4075323" static_id="19051423435032343501" status="FT" time="15:00">
-<home goals="2" id="2343503" name="Hapoel Ramat Gan"></home>
-<away goals="2" id="2343501" name="Hapoel Petach Tikva"></away>
+<home goals="2" id="2343503" name="Hap. Ramat Gan"></home>
+<away goals="2" id="2343501" name="Hapoel Petah Tikva"></away>
 <events>
 </events>
 <ht score="[1-1]"></ht>
@@ -813,7 +912,7 @@
 <ht score="[0-1]"></ht>
 </match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="3957317" alternate_id_2="4101068" date="16.05.2014" id="4075002" static_id="16051423434812343471" status="FT" time="13:00">
 <home goals="4" id="2343481" name="Ashkelon"></home>
-<away goals="1" id="2343471" name="Hakoach Ramat Gan"></away>
+<away goals="1" id="2343471" name="Hak. Ramat Gan"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
@@ -849,7 +948,7 @@
 <ht score="[0-1]"></ht>
 </match><match alternate_id="3953064" alternate_id_2="4098969" date="12.05.2014" id="4070760" static_id="12051423435362343503" status="FT" time="15:00">
 <home goals="2" id="2343536" name="Netanya"></home>
-<away goals="0" id="2343503" name="Hapoel Ramat Gan"></away>
+<away goals="0" id="2343503" name="Hap. Ramat Gan"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
@@ -860,13 +959,13 @@
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="3953503" alternate_id_2="4098968" date="09.05.2014" id="4071199" static_id="09051423435012343499" status="FT" time="13:00">
-<home goals="3" id="2343501" name="Hapoel Petach Tikva"></home>
+<home goals="3" id="2343501" name="Hapoel Petah Tikva"></home>
 <away goals="0" id="2343499" name="H. Nazareth"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
 </match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="3953839" alternate_id_2="4098983" date="09.05.2014" id="4071535" static_id="09051423434712343492" status="FT" time="13:00">
-<home goals="1" id="2343471" name="Hakoach Ramat Gan"></home>
+<home goals="1" id="2343471" name="Hak. Ramat Gan"></home>
 <away goals="2" id="2343492" name="Hapoel Katamon"></away>
 <events>
 </events>
@@ -889,78 +988,34 @@
 <events>
 </events>
 <ht score="[2-1]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="3947785" alternate_id_2="4098304" date="03.05.2014" id="4065497" static_id="03051423435032343479" status="FT" time="15:00">
-<home goals="3" id="2343503" name="Hapoel Ramat Gan"></home>
-<away goals="1" id="2343479" name="Hapoel Afula"></away>
+</match></league><league country="israel" name="Israel: State Cup" cup="True" id="3382" sub_id="33820"><match alternate_id="4113799" alternate_id_2="4315835" date="29.04.2015" id="4231347" static_id="29041523435392343523" status="FT" time="17:30">
+<home goals="3" id="2343539" name="Maccabi Tel Aviv"></home>
+<away goals="0" id="2343523" name="M. Nazareth"></away>
 <events>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="3947782" alternate_id_2="4098303" date="02.05.2014" id="4065494" static_id="02051423434862352855" status="FT" time="13:00">
-<home goals="4" id="2343486" name="Hapoel Bnei Lod"></home>
-<away goals="1" id="2352855" name="Beitar Tel Aviv"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="3947784" alternate_id_2="4098305" date="02.05.2014" id="4065496" static_id="02051423434992343536" status="FT" time="13:00">
-<home goals="1" id="2343499" name="H. Nazareth"></home>
-<away goals="2" id="2343536" name="Netanya"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3947783" alternate_id_2="4098306" date="02.05.2014" id="4065495" static_id="02051423435232343501" status="FT" time="13:00">
-<home goals="1" id="2343523" name="M. Nazareth"></home>
-<away goals="2" id="2343501" name="Hapoel Petach Tikva"></away>
-<events>
+<event id="22171854" minute="2" player="E. Zehavi" playerid="2373982" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22171855" minute="82" player="R. Prica" playerid="2343428" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22171856" minute="89" player="N. Mitrovic" playerid="2377379" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="3948289" alternate_id_2="4098323" date="02.05.2014" id="4066001" static_id="02051423434812343527" status="FT" time="13:00">
-<home goals="0" id="2343481" name="Ashkelon"></home>
-<away goals="0" id="2343527" name="M. Herzliya"></away>
+</match><match alternate_id="4113798" alternate_id_2="4315834" date="29.04.2015" id="4231346" static_id="29041523434792343483" status="FT" time="15:00">
+<home goals="0" id="2343479" name="Hapoel Afula"></home>
+<away goals="7" id="2343483" name="H. Beer Sheva"></away>
 <events>
+<event id="22171844" minute="3" player="D. Gabay" playerid="2387832" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22171845" minute="7" player="S. Arbeitman" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22171846" minute="30" player="S. Arbeitman" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22171847" minute="44" player="M. Melikson" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="22171848" minute="67" player="D. Gabay" playerid="2387832" result="[0 - 5]" team="away" type="goal"></event>
+<event id="22171849" minute="70" player="A. Iluz" playerid="" result="[0 - 6]" team="away" type="goal"></event>
+<event id="22171850" minute="80" player="D. Gabay" playerid="2387832" result="[0 - 7]" team="away" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3948288" alternate_id_2="4098324" date="02.05.2014" id="4066000" static_id="02051423434712351327" status="FT" time="13:00">
-<home goals="6" id="2343471" name="Hakoach Ramat Gan"></home>
-<away goals="0" id="2351327" name="Maccabi Umm al-Fahm"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="3948290" alternate_id_2="4098325" date="02.05.2014" id="4066002" static_id="02051423434912343541" status="FT" time="13:00">
-<home goals="0" id="2343491" name="Hapoel Jerusalem"></home>
-<away goals="0" id="2343541" name="Maccabi Yavne"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3948755" alternate_id_2="4098326" date="01.05.2014" id="4066465" static_id="01051423434922343512" status="FT" time="16:00">
-<home goals="0" id="2343492" name="Hapoel Katamon"></home>
-<away goals="2" id="2343512" name="H. Ironi Rishon"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Promotion Group" cup="False" id="3093" sub_id=""><match alternate_id="3936014" alternate_id_2="4098300" date="28.04.2014" id="4053749" static_id="28041423434792343499" status="FT" time="17:30">
-<home goals="2" id="2343479" name="Hapoel Afula"></home>
-<away goals="2" id="2343499" name="H. Nazareth"></away>
-<events>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="3936013" alternate_id_2="4098302" date="28.04.2014" id="4053748" static_id="28041423435362343523" status="FT" time="17:30">
-<home goals="2" id="2343536" name="Netanya"></home>
-<away goals="2" id="2343523" name="M. Nazareth"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League - Relegation Group" cup="False" id="3093" sub_id=""><match alternate_id="3935077" alternate_id_2="4098320" date="28.04.2014" id="4052812" static_id="28041423513272343491" status="FT" time="17:30">
-<home goals="0" id="2351327" name="Maccabi Umm al-Fahm"></home>
-<away goals="2" id="2343491" name="Hapoel Jerusalem"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="israel" name="Israel: State Cup" cup="True" id="3382" sub_id="33820"><match alternate_id="4109433" alternate_id_2="4308254" date="04.03.2015" id="4226985" static_id="04031523435392343509" status="FT" time="18:30">
+<ht score="[0-4]"></ht>
+</match><match alternate_id="4109433" alternate_id_2="4308254" date="04.03.2015" id="4226985" static_id="04031523435392343509" status="FT" time="18:30">
 <home goals="3" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="0" id="2343509" name="Shmona"></away>
 <events>
-<event id="22096044" minute="25" player="B. Badash" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22096045" minute="29" player="E. Zehavi" playerid="2373982" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22096044" minute="26" player="B. Badash" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22096045" minute="30" player="E. Zehavi" playerid="2373982" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22096046" minute="68" player="E. Zehavi (pen.)" playerid="2373982" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
@@ -968,34 +1023,34 @@
 <home goals="1" id="2343483" name="H. Beer Sheva"></home>
 <away goals="1" id="2343541" name="Maccabi Yavne"></away>
 <events>
-<event id="22096024" minute="62" player="D. Gabay" playerid="2387832" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22096025" minute="90+2" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22096024" minute="64" player="D. Gabay" playerid="2387832" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22096025" minute="90" player="D. Ifergan" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4109431" alternate_id_2="4308255" date="04.03.2015" id="4226983" static_id="04031523435232343494" status="FT" time="17:25">
 <home goals="1" id="2343523" name="M. Nazareth"></home>
 <away goals="0" id="2343494" name="Hapoel Kfar-Saba"></away>
 <events>
-<event id="22096054" minute="13" player="I. Exbard" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22096055" minute="90+4" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22096054" minute="15" player="I. Exbard" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22096055" minute="90" player="B. Khawaz" playerid="" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4109430" alternate_id_2="4308253" date="04.03.2015" id="4226982" static_id="04031523435372343479" status="FT" time="17:20">
 <home goals="2" id="2343537" name="Maccabi Petah Tikva"></home>
 <away goals="2" id="2343479" name="Hapoel Afula"></away>
 <events>
-<event id="22096034" minute="9" player="H. Goldenberg" playerid="2391131" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22096035" minute="53" player="R. Peretz" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22096036" minute="62" player="N. Kainda" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="22096037" minute="65" player="S. Hanuka" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22096034" minute="11" player="H. Goldenberg" playerid="2391131" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22096035" minute="54" player="R. Peretz" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22096036" minute="63" player="O. Kehinde" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22096037" minute="66" player="S. Hanuka" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4105064" alternate_id_2="4306120" date="25.02.2015" id="4222619" static_id="25021523435092343539" status="FT" time="17:30">
 <home goals="1" id="2343509" name="Shmona"></home>
 <away goals="1" id="2343539" name="Maccabi Tel Aviv"></away>
 <events>
-<event id="22074704" minute="45" player="E. Zehavi" playerid="2373982" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22074705" minute="90+3" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22074704" minute="44" player="E. Zehavi" playerid="2373982" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22074705" minute="90+2" player="S. Abuhatzira" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4101642" alternate_id_2="4306119" date="10.02.2015" id="4219200" static_id="10021523435412343483" status="FT" time="19:00">
@@ -1004,7 +1059,7 @@
 <events>
 <event id="22074694" minute="50" player="S. Arbeitman" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22074695" minute="75" player="S. Nassar" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22074696" minute="80" player="M. Buzaglo" playerid="2390196" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22074696" minute="80" player="M. Melikson" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4101864" alternate_id_2="4306118" date="10.02.2015" id="4219422" static_id="10021523434792343537" status="FT" time="17:00">
@@ -1017,8 +1072,8 @@
 <home goals="1" id="2343494" name="Hapoel Kfar-Saba"></home>
 <away goals="1" id="2343523" name="M. Nazareth"></away>
 <events>
-<event id="22074674" minute="9" player="D. Gomez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22074675" minute="45+2" player="E. Simon" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22074674" minute="11" player="D. Pimenta" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22074675" minute="45" player="E. Simon" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4095770" alternate_id_2="4302988" date="29.01.2015" id="4213333" static_id="29011523435232343460" status="FT" time="18:30">
@@ -1026,7 +1081,7 @@
 <away goals="1" id="2343460" name="Moadon Sport Ashdod"></away>
 <events>
 <event id="22043384" minute="31" player="I. Exbard" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22043385" minute="74" player="D. Gomez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22043385" minute="75" player="D. Pimenta" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22043386" minute="89" player="M. Ohana" playerid="2488442" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
@@ -1034,29 +1089,29 @@
 <home goals="5" id="2343541" name="Maccabi Yavne"></home>
 <away goals="1" id="2355994" name="Shikun Hamizrah"></away>
 <events>
-<event id="22043324" minute="17" player="Cordoba (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22043325" minute="47" player="E. Salami" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22043324" minute="19" player="A. Cordova (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22043325" minute="48" player="A. Ezra" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22043326" minute="61" player="Y. Ofir" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="22043327" minute="72" player="Y. Asayag" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="22043328" minute="85" player="" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="22043329" minute="86" player="D. Greene" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+<event id="22043328" minute="84" player="R. B. Shiimon" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22043329" minute="87" player="Y. Turgeman" playerid="" result="[5 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4095768" alternate_id_2="4302981" date="29.01.2015" id="4213331" static_id="29011523434792354761" status="FT" time="17:45">
 <home goals="3" id="2343479" name="Hapoel Afula"></home>
 <away goals="0" id="2354761" name="Maccabi Maalot"></away>
 <events>
-<event id="22043314" minute="24" player="B. Twito" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22043315" minute="37" player="L. Kahinda" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22043316" minute="43" player="L. Kahinda (pen.)" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22043314" minute="23" player="B. Twito" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22043315" minute="37" player="O. Kehinde" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22043316" minute="43" player="O. Kehinde (pen.)" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
 </match><match alternate_id="4095767" alternate_id_2="4302985" date="28.01.2015" id="4213330" static_id="28011523435252343509" status="Pen." time="19:00">
 <home goals="1" id="2343525" name="Maccabi Haifa"></home>
 <away goals="1" id="2343509" name="Shmona"></away>
 <events>
-<event id="22043354" minute="103" player="R. Kahat (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22043355" minute="111" player="R. Rayos (pen.)" playerid="2394630" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22043354" minute="102" player="R. Kahat (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22043355" minute="110" player="R. Rayos (pen.)" playerid="2394630" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="1" visitorteam="3"></penalty>
@@ -1065,38 +1120,38 @@
 <away goals="2" id="2343494" name="Hapoel Kfar-Saba"></away>
 <events>
 <event id="22043334" minute="9" player="E. Simon" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22043335" minute="82" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22043335" minute="83" player="O. Fadida" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4095765" alternate_id_2="4302984" date="28.01.2015" id="4213328" static_id="28011523435022343483" status="AET" time="16:55">
 <home goals="0" id="2343502" name="H. Raanana"></home>
 <away goals="1" id="2343483" name="H. Beer Sheva"></away>
 <events>
-<event id="22043344" minute="115" player="S. Nassar" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22043344" minute="116" player="S. Nassar" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4095641" alternate_id_2="4302987" date="27.01.2015" id="4213204" static_id="27011523435392343481" status="FT" time="19:00">
 <home goals="1" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="0" id="2343481" name="Ashkelon"></away>
 <events>
-<event id="22043374" minute="83" player="B. Itzhaki" playerid="2352958" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22043374" minute="84" player="B. Itzhaki" playerid="2352958" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4095640" alternate_id_2="4302986" date="27.01.2015" id="4213203" static_id="27011523435372343501" status="FT" time="17:00">
 <home goals="1" id="2343537" name="Maccabi Petah Tikva"></home>
 <away goals="0" id="2343501" name="Hapoel Petah Tikva"></away>
 <events>
-<event id="22043364" minute="90" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22043364" minute="90" player="I. Shemesh" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4092892" alternate_id_2="4299257" date="15.01.2015" id="4210458" static_id="15011523434812343464" status="Pen." time="19:00">
 <home goals="3" id="2343481" name="Ashkelon"></home>
 <away goals="3" id="2343464" name="Beitar Jerusalem"></away>
 <events>
-<event id="22006074" minute="27" player="S. Revivo (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22006075" minute="39" player="D. Matovic" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22006074" minute="25" player="S. Revivo (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22006075" minute="38" player="D. Matovic" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22006076" minute="52" player="Claudemir" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22006077" minute="78" player="M. Asulin" playerid="2423716" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22006077" minute="78" player="L. Asulin" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 <event id="22006078" minute="108" player="B. Dego" playerid="" result="[3 - 2]" team="home" type="goal"></event>
 <event id="22006079" minute="113" player="Y. Azulay Shlomy" playerid="" result="[3 - 3]" team="away" type="goal"></event>
 </events>
@@ -1106,37 +1161,18 @@
 <home goals="1" id="2343512" name="H. Ironi Rishon"></home>
 <away goals="2" id="2343504" name="Hapoel Tel Aviv"></away>
 <events>
-<event id="22006144" minute="16" player="G. Vermouth" playerid="2345407" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22006145" minute="58" player="Y. Zaguri" playerid="2387896" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22006146" minute="61" player="S. Zoabi" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22006144" minute="15" player="G. Vermouth" playerid="2345407" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22006145" minute="56" player="Y. Zaguri" playerid="2387896" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22006146" minute="59" player="S. Zoabi" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4092890" alternate_id_2="4299268" date="15.01.2015" id="4210456" static_id="15011523435412343469" status="FT" time="16:30">
-<home goals="1" id="2343541" name="Maccabi Yavne"></home>
-<away goals="0" id="2343469" name="Sakhnin"></away>
-<events>
-<event id="22006184" minute="23" player="T. Avitan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22006185" minute="68" player="A. Kassum" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4092889" alternate_id_2="4299258" date="14.01.2015" id="4210455" static_id="14011523528552343539" status="FT" time="19:00">
-<home goals="1" id="2352855" name="Beitar Tel Aviv"></home>
-<away goals="4" id="2343539" name="Maccabi Tel Aviv"></away>
-<events>
-<event id="22006084" minute="3" player="B. Itzhaki" playerid="2352958" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22006085" minute="25" player="A. Avinu" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22006086" minute="29" player="B. Badash" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22006087" minute="52" player="B. Itzhaki" playerid="2352958" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22006088" minute="72" player="B. Reichert" playerid="" result="[1 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
 </match></league><league country="israel" name="Israel: Toto Cup - Play Offs" cup="True" id="3095" sub_id=""><match alternate_id="4091588" alternate_id_2="4298911" date="31.12.2014" id="4209154" static_id="31121423435392343525" status="FT" time="17:30">
 <home goals="2" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="1" id="2343525" name="Maccabi Haifa"></away>
 <events>
-<event id="22002614" minute="41" player="M. Ohayon (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22002614" minute="47" player="M. Ohayon (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22002615" minute="53" player="E. Tibi (o.g.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22002616" minute="81" player="N. Mitrovic (pen.)" playerid="2377379" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22002616" minute="84" player="N. Mitrovic (pen.)" playerid="2377379" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4086915" alternate_id_2="4290303" date="17.12.2014" id="4204482" static_id="17121423435392343489" status="FT" time="19:00">
@@ -1153,21 +1189,21 @@
 <event id="21916524" minute="4" player="R. Rayos" playerid="2394630" result="[1 - 0]" team="home" type="goal"></event>
 <event id="21916525" minute="19" player="H. Ezra" playerid="2387920" result="[2 - 0]" team="home" type="goal"></event>
 <event id="21916526" minute="59" player="A. Turgeman" playerid="2466318" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21916527" minute="90" player="" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="21916527" minute="90" player="M. A. Anza" playerid="" result="[3 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4072221" alternate_id_2="4271012" date="23.09.2014" id="4189830" static_id="23091423435042343460" status="FT" time="17:30">
 <home goals="1" id="2343504" name="Hapoel Tel Aviv"></home>
 <away goals="2" id="2343460" name="Moadon Sport Ashdod"></away>
 <events>
-<event id="21723624" minute="26" player="S. Abutbul" playerid="2352214" result="" team="home" type="redcard"></event>
-<event id="21723625" minute="30" player="A. Anza" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21723626" minute="39" player="A. Anza" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21723624" minute="25" player="S. Abutbul" playerid="2352214" result="" team="home" type="redcard"></event>
+<event id="21723625" minute="30" player="M. A. Anza" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21723626" minute="40" player="M. A. Anza" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="21723627" minute="57" player="M. A. El Hija" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
 </match><match alternate_id="4072222" alternate_id_2="4271011" date="17.09.2014" id="4189831" static_id="17091423435012343539" status="FT" time="16:45">
-<home goals="0" id="2343501" name="Hapoel Petach Tikva"></home>
+<home goals="0" id="2343501" name="Hapoel Petah Tikva"></home>
 <away goals="2" id="2343539" name="Maccabi Tel Aviv"></away>
 <events>
 <event id="21723614" minute="23" player="O. Ben Harush" playerid="2423822" result="[0 - 1]" team="away" type="goal"></event>
@@ -1176,23 +1212,23 @@
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4061690" alternate_id_2="4270099" date="10.09.2014" id="4179299" static_id="10091423435392343501" status="FT" time="17:30">
 <home goals="6" id="2343539" name="Maccabi Tel Aviv"></home>
-<away goals="0" id="2343501" name="Hapoel Petach Tikva"></away>
+<away goals="0" id="2343501" name="Hapoel Petah Tikva"></away>
 <events>
 <event id="21714494" minute="5" player="G. Margolis" playerid="2612314" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21714495" minute="17" player="E. Tibi" playerid="2423892" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21714495" minute="18" player="E. Tibi" playerid="2423892" result="[2 - 0]" team="home" type="goal"></event>
 <event id="21714496" minute="22" player="O. Ben Harush" playerid="2423822" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21714497" minute="25" player="E. Zahavi" playerid="2373982" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21714498" minute="52" player="E. Ben Basat (pen.)" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="21714497" minute="24" player="E. Zehavi" playerid="2373982" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21714498" minute="51" player="E. Ben Basat (pen.)" playerid="" result="[5 - 0]" team="home" type="goal"></event>
 <event id="21714499" minute="63" player="D. Peretz" playerid="" result="[6 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[4-0]"></ht>
 </match><match alternate_id="4063446" alternate_id_2="4270841" date="10.09.2014" id="4181055" static_id="10091423434892343537" status="FT" time="17:20">
 <home goals="2" id="2343489" name="Hapoel Haifa"></home>
-<away goals="1" id="2343537" name="Maccabi Petach Tikva"></away>
+<away goals="1" id="2343537" name="Maccabi Petah Tikva"></away>
 <events>
 <event id="21721914" minute="40" player="O. Ostaynd" playerid="2491820" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21721915" minute="48" player="I. Shemesh" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21721916" minute="90+1" player="M. Kalonas" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21721915" minute="47" player="I. Shemesh" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21721916" minute="90" player="M. Kalonas" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4063447" alternate_id_2="4270842" date="10.09.2014" id="4181056" static_id="10091423435252343469" status="FT" time="17:15">
@@ -1206,7 +1242,7 @@
 <event id="21721928" minute="52" player="M. Idrissou" playerid="" result="[3 - 2]" team="home" type="goal"></event>
 <event id="21721929" minute="65" player="A. Paz" playerid="2390776" result="[3 - 3]" team="away" type="goal"></event>
 <event id="21721930" minute="86" player="R. Rayos" playerid="2394630" result="[4 - 3]" team="home" type="goal"></event>
-<event id="21721931" minute="90+3" player="" playerid="" result="[5 - 3]" team="home" type="goal"></event>
+<event id="21721931" minute="90+3" player="I. Vered" playerid="2387787" result="[5 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match><match alternate_id="4058304" alternate_id_2="4269465" date="09.09.2014" id="4175913" static_id="09091423434602343504" status="FT" time="17:00">
@@ -1218,11 +1254,11 @@
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4058369" alternate_id_2="4269464" date="07.09.2014" id="4175978" static_id="07091423435372343489" status="FT" time="17:30">
-<home goals="1" id="2343537" name="Maccabi Petach Tikva"></home>
+<home goals="1" id="2343537" name="Maccabi Petah Tikva"></home>
 <away goals="2" id="2343489" name="Hapoel Haifa"></away>
 <events>
-<event id="21708144" minute="16" player="M. Lala" playerid="2373991" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21708145" minute="28" player="M. Lala" playerid="2373991" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21708144" minute="16" player="M. Al Lala" playerid="2373991" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21708145" minute="28" player="M. Al Lala" playerid="2373991" result="[0 - 2]" team="away" type="goal"></event>
 <event id="21708146" minute="31" player="K. Hazurov" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-2]"></ht>
@@ -1230,23 +1266,23 @@
 <home goals="1" id="2343469" name="Sakhnin"></home>
 <away goals="1" id="2343525" name="Maccabi Haifa"></away>
 <events>
-<event id="21708134" minute="60" player="M. Feras" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21708134" minute="60" player="F. Mugrabi" playerid="2427226" result="[1 - 0]" team="home" type="goal"></event>
 <event id="21708135" minute="66" player="E. Cocalic" playerid="2424016" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="israel" name="Israel: Toto Cup" cup="True" id="3095" sub_id=""><match alternate_id="4057342" alternate_id_2="4261126" date="06.09.2014" id="4174952" static_id="06091423435012343460" status="FT" time="17:15">
-<home goals="4" id="2343501" name="Hapoel Petach Tikva"></home>
+<home goals="4" id="2343501" name="Hapoel Petah Tikva"></home>
 <away goals="0" id="2343460" name="Moadon Sport Ashdod"></away>
 <events>
 <event id="21624764" minute="60" player="T. Ben-Zaken (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21624765" minute="71" player="G. Dayan" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21624766" minute="74" player="G. Dayan" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21624767" minute="90" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21624765" minute="70" player="G. Dayan" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21624766" minute="73" player="G. Dayan" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21624767" minute="90" player="D. Kochav" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4057023" alternate_id_2="4261011" date="02.09.2014" id="4174633" static_id="02091423434832343537" status="FT" time="17:35">
 <home goals="0" id="2343483" name="H. Beer Sheva"></home>
-<away goals="0" id="2343537" name="Maccabi Petach Tikva"></away>
+<away goals="0" id="2343537" name="Maccabi Petah Tikva"></away>
 <events>
 <event id="21623614" minute="78" player="B. Bitton" playerid="2466312" result="" team="home" type="redcard"></event>
 </events>
@@ -1272,40 +1308,40 @@
 <events>
 <event id="20238054" minute="10" player="L. Cohen" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20238055" minute="14" player="L. Cohen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20238056" minute="83" player="O. Atzily" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="20238056" minute="82" player="O. Atzily" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
 </match><match alternate_id="4051997" alternate_id_2="4261110" date="30.08.2014" id="4169608" static_id="30081423435092343489" status="FT" time="16:50">
 <home goals="1" id="2343509" name="Shmona"></home>
 <away goals="3" id="2343489" name="Hapoel Haifa"></away>
 <events>
-<event id="21624604" minute="25" player="O. Mizrachi" playerid="2610403" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21624605" minute="54" player="S. Cohen" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21624604" minute="24" player="O. Mizrachi" playerid="2610403" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21624605" minute="53" player="S. Cohen" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="21624606" minute="60" player="T. Kijanskas" playerid="2413615" result="[1 - 2]" team="away" type="goal"></event>
-<event id="21624607" minute="90" player="M. Lala" playerid="2373991" result="[1 - 3]" team="away" type="goal"></event>
+<event id="21624607" minute="90" player="M. Al Lala" playerid="2373991" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="3997413" alternate_id_2="4261010" date="30.08.2014" id="4115035" static_id="30081423434782343469" status="FT" time="16:00">
-<home goals="2" id="2343478" name="H. Acre"></home>
+<home goals="2" id="2343478" name="H. Akko"></home>
 <away goals="3" id="2343469" name="Sakhnin"></away>
 <events>
-<event id="21623604" minute="18" player="E. Seidere" playerid="2642332" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21623604" minute="17" player="E. Seidere" playerid="2642332" result="[1 - 0]" team="home" type="goal"></event>
 <event id="21623605" minute="35" player="M. Ghadir" playerid="2416360" result="[1 - 1]" team="away" type="goal"></event>
 <event id="21623606" minute="51" player="J. Spadacio" playerid="2348960" result="[2 - 1]" team="home" type="goal"></event>
-<event id="21623607" minute="55" player="M. Bojovic" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="21623607" minute="57" player="M. Bojovic" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 <event id="21623608" minute="73" player="H. Ghanayim" playerid="2371106" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="3944249" alternate_id_2="4122467" date="30.08.2014" id="4061970" static_id="30081423435372343501" status="FT" time="15:00">
-<home goals="1" id="2343537" name="Maccabi Petach Tikva"></home>
-<away goals="0" id="2343501" name="Hapoel Petach Tikva"></away>
+<home goals="1" id="2343537" name="Maccabi Petah Tikva"></home>
+<away goals="0" id="2343501" name="Hapoel Petah Tikva"></away>
 <events>
 <event id="20238174" minute="20" player="K. Bazarov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4049226" alternate_id_2="4122466" date="27.08.2014" id="4166837" static_id="27081423434892343478" status="FT" time="16:45">
 <home goals="2" id="2343489" name="Hapoel Haifa"></home>
-<away goals="0" id="2343478" name="H. Acre"></away>
+<away goals="0" id="2343478" name="H. Akko"></away>
 <events>
 <event id="20238164" minute="13" player="T. Ricketts" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="20238165" minute="55" player="M. Kalonas" playerid="" result="[2 - 0]" team="home" type="goal"></event>
@@ -1314,7 +1350,7 @@
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4049320" alternate_id_2="4122460" date="27.08.2014" id="4166931" static_id="27081423434642343537" status="FT" time="16:35">
 <home goals="0" id="2343464" name="Beitar Jerusalem"></home>
-<away goals="0" id="2343537" name="Maccabi Petach Tikva"></away>
+<away goals="0" id="2343537" name="Maccabi Petah Tikva"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -1330,7 +1366,7 @@
 <away goals="0" id="2343525" name="Maccabi Haifa"></away>
 <events>
 <event id="20238234" minute="5" player="I. Raiyan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20238235" minute="63" player="M. Ghadir" playerid="2416360" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20238235" minute="63" player="A. Habashi (o.g.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4049230" alternate_id_2="4122451" date="26.08.2014" id="4166841" static_id="26081423434602343483" status="FT" time="16:35">
@@ -1343,12 +1379,12 @@
 <home goals="2" id="2343525" name="Maccabi Haifa"></home>
 <away goals="0" id="2343489" name="Hapoel Haifa"></away>
 <events>
-<event id="20238154" minute="79" player="R. Rayos" playerid="2394630" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20238154" minute="78" player="R. Rayos" playerid="2394630" result="[1 - 0]" team="home" type="goal"></event>
 <event id="20238155" minute="90" player="R. Rayos" playerid="2394630" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4044247" alternate_id_2="4122461" date="19.08.2014" id="4161860" static_id="19081423434782343509" status="FT" time="16:30">
-<home goals="1" id="2343478" name="H. Acre"></home>
+<home goals="1" id="2343478" name="H. Akko"></home>
 <away goals="1" id="2343509" name="Shmona"></away>
 <events>
 <event id="20238114" minute="13" player="B. Jovanovic (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
@@ -1356,12 +1392,12 @@
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4046737" alternate_id_2="4122462" date="17.08.2014" id="4164349" static_id="17081423435012343483" status="FT" time="18:00">
-<home goals="1" id="2343501" name="Hapoel Petach Tikva"></home>
+<home goals="1" id="2343501" name="Hapoel Petah Tikva"></home>
 <away goals="1" id="2343483" name="H. Beer Sheva"></away>
 <events>
-<event id="20238124" minute="30" player="A. Shkalim" playerid="2387845" result="" team="home" type="redcard"></event>
+<event id="20238124" minute="30" player="A. Shkalim" playerid="2387845" result="" team="home" type="yellowred"></event>
 <event id="20238125" minute="45+1" player="E. Barda" playerid="2345576" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20238126" minute="78" player="R. Gordana" playerid="" result="" team="away" type="redcard"></event>
+<event id="20238126" minute="79" player="R. Gordana" playerid="" result="" team="away" type="redcard"></event>
 <event id="20238127" minute="90+1" player="O. Altman (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
@@ -1369,15 +1405,18 @@
 <home goals="0" id="2343536" name="Netanya"></home>
 <away goals="2" id="2343504" name="Hapoel Tel Aviv"></away>
 <events>
-<event id="20238084" minute="38" player="S. Gozlan" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20238085" minute="54" player="O. Kayode" playerid="" result="" team="home" type="redcard"></event>
+<event id="20238084" minute="39" player="S. Gozlan" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20238085" minute="53" player="O. Kayode" playerid="" result="" team="home" type="redcard"></event>
 <event id="20238086" minute="62" player="Y. Zaguri" playerid="2387896" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4044239" alternate_id_2="4122456" date="17.08.2014" id="4161852" static_id="17081423435372343460" status="FT" time="14:30">
-<home goals="0" id="2343537" name="Maccabi Petach Tikva"></home>
+<home goals="0" id="2343537" name="Maccabi Petah Tikva"></home>
 <away goals="3" id="2343460" name="Moadon Sport Ashdod"></away>
 <events>
+<event id="20238064" minute="39" player="Murad Abu-Anza" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20238065" minute="63" player="Yero Bello" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20238066" minute="70" player="Aleksandar Davidov" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4044246" alternate_id_2="4122457" date="16.08.2014" id="4161859" static_id="16081423435392343502" status="FT" time="17:30">
@@ -1393,9 +1432,9 @@
 <away goals="2" id="2343469" name="Sakhnin"></away>
 <events>
 <event id="20238044" minute="17" player="I. Raiyan" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20238045" minute="45+1" player="M. Kalonas" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20238046" minute="74" player="T. Ricketts" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="20238047" minute="86" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="20238045" minute="45" player="M. Kalonas" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20238046" minute="73" player="T. Ricketts" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20238047" minute="85" player="M. Ghadir" playerid="2416360" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match></league></recent_results>
