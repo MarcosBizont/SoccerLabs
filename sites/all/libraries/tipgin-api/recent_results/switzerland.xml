@@ -1,12 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:41:16" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="4002829" alternate_id_2="4322422" date="30.04.2015" id="4120451" static_id="30041523485722348607" status="HT" time="17:45">
-<home goals="3" id="2348572" name="Luzern"></home>
-<away goals="1" id="2348607" name="St. Gallen"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:41:12" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="4002829" alternate_id_2="4322422" date="30.04.2015" id="4120451" static_id="30041523485722348607" status="FT" time="17:45">
+<home goals="6" id="2348572" name="Luzern"></home>
+<away goals="2" id="2348607" name="St. Gallen"></away>
 <events>
 <event id="22237724" minute="2" player="N. Kapiloto" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22237725" minute="3" player="J. Jantscher (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22237726" minute="7" player="D. Cavusevic" playerid="2370516" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22237727" minute="12" player="J. Jantscher" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="22237728" minute="42" player="S. Sarr" playerid="2404049" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22237729" minute="61" player="M. Schneuwly" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22237730" minute="69" player="S. Sarr" playerid="2404049" result="" team="home" type="yellowcard"></event>
+<event id="22237731" minute="76" player="F. Affolter" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+<event id="22237732" minute="81" player="D. Lezcano" playerid="2378923" result="[6 - 1]" team="home" type="goal"></event>
+<event id="201390743" minute="82" player="G. Karanovic" playerid="2369231" result="[6 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[3-1]"></ht>
 </match><match alternate_id="4002827" alternate_id_2="4322421" date="29.04.2015" id="4120449" static_id="29041523486262348435" status="FT" time="18:30">
@@ -278,20 +283,31 @@
 <event id="22163550" minute="90+3" player="A. Gonzalez" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="switzerland" name="Switzerland: Challenge League" cup="False" id="3245" sub_id="32450"><match alternate_id="4005839" alternate_id_2="4322423" date="30.04.2015" id="4123461" static_id="30041523484492348602" status="HT" time="17:45">
+</match></league><league country="switzerland" name="Switzerland: Challenge League" cup="False" id="3245" sub_id="32450"><match alternate_id="4005839" alternate_id_2="4322423" date="30.04.2015" id="4123461" static_id="30041523484492348602" status="FT" time="17:45">
 <home goals="0" id="2348449" name="Biel"></home>
-<away goals="0" id="2348602" name="Servette"></away>
+<away goals="1" id="2348602" name="Servette"></away>
 <events>
 <event id="22237734" minute="28" player="S. Ukoh" playerid="2466070" result="" team="home" type="yellowcard"></event>
 <event id="22237735" minute="41" player="S. Ukoh" playerid="2466070" result="" team="home" type="yellowred"></event>
+<event id="22237736" minute="59" player="A. Sauthier" playerid="2369241" result="" team="away" type="yellowcard"></event>
+<event id="22237737" minute="87" player="G. Morello" playerid="2369044" result="" team="home" type="yellowcard"></event>
+<event id="22237738" minute="89" player="R. Kamber" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4005840" alternate_id_2="4322424" date="30.04.2015" id="4123462" static_id="30041523485672348620" status="HT" time="17:45">
-<home goals="1" id="2348567" name="Le Mont"></home>
+</match><match alternate_id="4005840" alternate_id_2="4322424" date="30.04.2015" id="4123462" static_id="30041523485672348620" status="FT" time="17:45">
+<home goals="4" id="2348567" name="Le Mont"></home>
 <away goals="0" id="2348620" name="Wil"></away>
 <events>
 <event id="22237744" minute="37" player="J. Cha" playerid="2392814" result="" team="away" type="yellowcard"></event>
 <event id="22237745" minute="42" player="F. Matri (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22237746" minute="47" player="N. Getaz" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22237747" minute="53" player="B. Dubajic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22237748" minute="57" player="H. Sessolo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22237749" minute="57" player="J. Cha" playerid="2392814" result="" team="away" type="yellowred"></event>
+<event id="22237750" minute="64" player="B. Kololli" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22237751" minute="80" player="M. Muslin" playerid="2345145" result="" team="away" type="yellowcard"></event>
+<event id="22237752" minute="86" player="N. N'Diaye" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201390943" minute="90+2" player="I. Audino" playerid="2400510" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4005841" alternate_id_2="4321746" date="29.04.2015" id="4123463" static_id="29041523485642348455" status="FT" time="17:45">

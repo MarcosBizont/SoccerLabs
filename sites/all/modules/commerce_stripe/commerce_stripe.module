@@ -240,26 +240,16 @@ function commerce_stripe_submit_form_submit($payment_method, $pane_form, $pane_v
   if(isset($charge['currency_code'])){
     $currency_code = $charge['currency_code'];
   }
-/*
-  $c = array(
-    'amount' => $charge['amount'],
-    'currency' => $currency_code,
-    'card' => $_POST['stripeToken'],
-    'description' => t('Order Number: @order_number', array('@order_number' => $order->order_number)),
-  );
-*/
-  
-  $c = array(
-    'plan' => 'Silver1month',
-    'card' => $_POST['stripeToken'],
-    'description' => t('Order Number: @order_number', array('@order_number' => $order->order_number)),
-  );
-  // email
-  // Change description related to user
-  // plan related to productid
-  
-  //Silver1month
 
+  $line = commerce_line_item_load($order->commerce_line_items['und'][0]['line_item_id']);
+
+  $c = array(
+    'plan' => $line->line_item_label,
+    'card' => $_POST['stripeToken'],
+    'description' => t('User started with order number: @order_number', array('@order_number' => $order->order_number)),
+    'email' => $order->mail
+  );
+  
   // To later store the card with all required fields, carry out necessary steps before making the charge request.
   if (module_exists('commerce_cardonfile') && !empty($payment_method['settings']['cardonfile']) &&
     !empty($pane_values['credit_card']['cardonfile_store']) && $pane_values['credit_card']['cardonfile_store']) {

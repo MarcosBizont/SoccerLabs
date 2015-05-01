@@ -1,6 +1,6 @@
 <?php
 
-/*if(inplay_is_anonymus())
+if(inplay_is_anonymus())
 {
 	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please <a href="/">register</a> and enjoy your free trial') . "</div>";
 }
@@ -11,7 +11,7 @@ if(!inplay_is_member())
 	//exit();
 }
 else
-{*/
+{
 
 /**
  * @file
@@ -102,4 +102,4 @@ else
 
 </div><?php /* class view */ ?>
 <?php
-	//}
+	}

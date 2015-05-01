@@ -1,17 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:41:02" sport="soccer" country="norway"><league country="norway" name="Norway: Tippeligaen" cup="False" id="3168" sub_id="31680"><match alternate_id="4089171" alternate_id_2="4326766" date="30.04.2015" id="4206738" static_id="30041523455792345569" status="26" time="18:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:40:57" sport="soccer" country="norway"><league country="norway" name="Norway: Tippeligaen" cup="False" id="3168" sub_id="31680"><match alternate_id="4089171" alternate_id_2="4326766" date="30.04.2015" id="4206738" static_id="30041523455792345569" status="FT" time="18:00">
 <home goals="1" id="2345579" name="Mjondalen"></home>
-<away goals="0" id="2345569" name="Lillestrom"></away>
+<away goals="4" id="2345569" name="Lillestrom"></away>
 <events>
 <event id="22281164" minute="10" player="M. S. Olsen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22281165" minute="39" player="F. Friday" playerid="2637819" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22281166" minute="49" player="F. Friday" playerid="2637819" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22281167" minute="60" player="F. Friday" playerid="2637819" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22281168" minute="68" player="M. Fofana" playerid="2596154" result="[1 - 4]" team="away" type="goal"></event>
+<event id="22281169" minute="86" player="A. Pellegrino" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4089173" alternate_id_2="4326956" date="30.04.2015" id="4206740" static_id="30041523456002345617" status="27" time="18:00">
-<home goals="0" id="2345600" name="Rosenborg"></home>
-<away goals="1" id="2345617" name="Start"></away>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4089173" alternate_id_2="4326956" date="30.04.2015" id="4206740" static_id="30041523456002345617" status="FT" time="18:00">
+<home goals="3" id="2345600" name="Rosenborg"></home>
+<away goals="2" id="2345617" name="Start"></away>
 <events>
 <event id="22283064" minute="4" player="E. Borufsen" playerid="2339695" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22283065" minute="23" player="R. Vikstol" playerid="2365356" result="" team="away" type="yellowcard"></event>
-<event id="22283066" minute="25" player="G. Kristjansson" playerid="2341383" result="" team="away" type="yellowcard"></event>
+<event id="22283066" minute="24" player="G. Kristjansson" playerid="2341383" result="" team="away" type="yellowcard"></event>
+<event id="22283067" minute="35" player="M. Dorsin" playerid="2339734" result="" team="home" type="yellowcard"></event>
+<event id="22283068" minute="48" player="R. Sandnes" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22283069" minute="57" player="A. Soderlund" playerid="2410447" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22283070" minute="62" player="R. Sandnes" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22283071" minute="74" player="A. Soderlund" playerid="2410447" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22283072" minute="86" player="L. Henderson" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="201844143" minute="90+3" player="K. Ajer" playerid="" result="[3 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4089169" alternate_id_2="4325173" date="30.04.2015" id="4206736" static_id="30041523455272345556" status="FT" time="16:00">
@@ -516,7 +528,17 @@
 <event id="21898700" minute="90+6" player="T. Nguen" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="norway" name="Norway: Division 2 - Group 1" cup="False" id="3397" sub_id="33970"><match alternate_id="4121072" alternate_id_2="4299025" date="27.04.2015" id="4238616" static_id="27041523537122345634" status="FT" time="17:00">
+</match></league><league country="norway" name="Norway: Division 2 - Group 1" cup="False" id="3397" sub_id="33970"><match alternate_id="4121075" alternate_id_2="4299033" date="01.05.2015" id="4238619" static_id="01051523456102345573" status="14:00" time="14:00">
+<home goals="?" id="2345610" name="Skeid"></home>
+<away goals="?" id="2345573" name="Lyn"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4121074" alternate_id_2="4299032" date="01.05.2015" id="4238618" static_id="01051523455412345542" status="12:00" time="12:00">
+<home goals="?" id="2345541" name="Mjolner"></home>
+<away goals="?" id="2345542" name="Senja"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4121072" alternate_id_2="4299025" date="27.04.2015" id="4238616" static_id="27041523537122345634" status="FT" time="17:00">
 <home goals="2" id="2353712" name="Holmen"></home>
 <away goals="2" id="2345634" name="Valerenga 2"></away>
 <events>
@@ -660,14 +682,6 @@
 <event id="21805638" minute="80" player="D. Dreshaj" playerid="" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match><match alternate_id="3893048" alternate_id_2="4279214" date="25.10.2014" id="4010815" static_id="25101423455622345540" status="FT" time="11:00">
-<home goals="2" id="2345562" name="Kongsvinger"></home>
-<away goals="0" id="2345540" name="Arendal"></away>
-<events>
-<event id="21805644" minute="18" player="M. Solum" playerid="2515693" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21805645" minute="45" player="M. Solum" playerid="2515693" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
 </match><match alternate_id="3893051" alternate_id_2="4279334" date="25.10.2014" id="4010818" static_id="25101423455872352117" status="FT" time="11:00">
 <home goals="0" id="2345587" name="Notodden"></home>
 <away goals="2" id="2352117" name="Jerv"></away>
@@ -676,18 +690,6 @@
 <event id="21806845" minute="67" player="A. Hagen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="3893053" alternate_id_2="4279215" date="25.10.2014" id="4010820" static_id="25101423455912345625" status="FT" time="11:00">
-<home goals="5" id="2345591" name="Odds 2"></home>
-<away goals="1" id="2345625" name="Stromsgodset 2"></away>
-<events>
-<event id="21805654" minute="26" player="H. Johansen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21805655" minute="41" player="A. Pellegrino" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21805656" minute="58" player="H. Johansen" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="21805657" minute="67" player="S. Krogsgard" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="21805658" minute="72" player="H. Johansen" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="21805659" minute="74" player="H. Johansen" playerid="" result="[5 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match><match alternate_id="3893050" alternate_id_2="4279335" date="25.10.2014" id="4010817" static_id="25101423460742345544" status="FT" time="11:00">
 <home goals="2" id="2346074" name="Orn"></home>
 <away goals="0" id="2345544" name="Flekkeroy"></away>
@@ -848,7 +850,17 @@
 <event id="22003938" minute="84" player="K. Onsrud" playerid="2571816" result="[5 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match></league><league country="norway" name="Norway: Division 2 - Group 2" cup="False" id="3397" sub_id="33971"><match alternate_id="3954439" alternate_id_2="4279216" date="25.10.2014" id="4072134" static_id="25101423455682351838" status="FT" time="11:00">
+</match></league><league country="norway" name="Norway: Division 2 - Group 2" cup="False" id="3397" sub_id="33971"><match alternate_id="3893214" alternate_id_2="4279337" date="25.10.2014" id="4010981" static_id="25101423506102345599" status="FT" time="11:00">
+<home goals="4" id="2350610" name="Elverum"></home>
+<away goals="0" id="2345599" name="Raufoss"></away>
+<events>
+<event id="21806874" minute="9" player="P. Nersveen" playerid="2571680" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21806875" minute="15" player="P. Nersveen" playerid="2571680" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21806876" minute="47" player="U. Balstad" playerid="2571684" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21806877" minute="52" player="M. Mbye" playerid="2408645" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="3954439" alternate_id_2="4279216" date="25.10.2014" id="4072134" static_id="25101423455682351838" status="FT" time="11:00">
 <home goals="2" id="2345568" name="Levanger"></home>
 <away goals="2" id="2351838" name="Nardo"></away>
 <events>
@@ -866,16 +878,6 @@
 <event id="21805675" minute="35" player="D. P. Pate" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="3954438" alternate_id_2="4279338" date="25.10.2014" id="4072133" static_id="25101423455892349792" status="FT" time="11:00">
-<home goals="2" id="2345589" name="Nybergsund"></home>
-<away goals="2" id="2349792" name="Brumunddal"></away>
-<events>
-<event id="21806884" minute="6" player="P. Aracil" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21806885" minute="16" player="R. Pettersen" playerid="2571600" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21806886" minute="45" player="A. N. Martin" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="21806887" minute="90" player="A. N. Martin" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
 </match><match alternate_id="3895974" alternate_id_2="4279339" date="25.10.2014" id="4013738" static_id="25101423549412350611" status="FT" time="11:00">
 <home goals="6" id="2354941" name="Rodde"></home>
 <away goals="2" id="2350611" name="Herd"></away>
@@ -912,7 +914,17 @@
 <event id="21805685" minute="76" player="T. Brekken" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="norway" name="Norway: Division 2 - Group 3" cup="False" id="3397" sub_id="33972"><match alternate_id="4121434" alternate_id_2="4299390" date="27.04.2015" id="4238978" static_id="27041523456352345591" status="FT" time="16:00">
+</match></league><league country="norway" name="Norway: Division 2 - Group 3" cup="False" id="3397" sub_id="33972"><match alternate_id="4121436" alternate_id_2="4299395" date="01.05.2015" id="4238980" static_id="01051523455382345635" status="13:00" time="13:00">
+<home goals="?" id="2345538" name="Fana"></home>
+<away goals="?" id="2345635" name="V. Haugesund"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4121435" alternate_id_2="4299397" date="01.05.2015" id="4238979" static_id="01051523456362345639" status="13:00" time="13:00">
+<home goals="?" id="2345636" name="Vidar"></home>
+<away goals="?" id="2345639" name="Vindbjart"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4121434" alternate_id_2="4299390" date="27.04.2015" id="4238978" static_id="27041523456352345591" status="FT" time="16:00">
 <home goals="2" id="2345635" name="V. Haugesund"></home>
 <away goals="1" id="2345591" name="Odds 2"></away>
 <events>
@@ -1048,15 +1060,19 @@
 <event id="22007347" minute="90+3" player="P. Nag" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match></league><league country="norway" name="Norway: Division 2 - Group 3" cup="False" id="3397" sub_id="33972"><match alternate_id="3893366" alternate_id_2="4279340" date="25.10.2014" id="4011133" static_id="25101423509002345621" status="FT" time="11:00">
-<home goals="2" id="2350900" name="Egersunds"></home>
-<away goals="1" id="2345621" name="Stord"></away>
+</match></league><league country="norway" name="Norway: Division 2 - Group 3" cup="False" id="3397" sub_id="33972"><match alternate_id="3893369" alternate_id_2="4279219" date="25.10.2014" id="4011136" static_id="25101423521162345615" status="FT" time="11:00">
+<home goals="7" id="2352116" name="Brann 2"></home>
+<away goals="0" id="2345615" name="Stabaek 2"></away>
 <events>
-<event id="21806904" minute="37" player="V. Nesse" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21806905" minute="40" player="K. Grande" playerid="2457279" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21806906" minute="76" player="C. Andreasen" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21805694" minute="5" player="F. Knutsen" playerid="2629896" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21805695" minute="11" player="H. Lorentzen" playerid="2627874" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21805696" minute="35" player="O. Rotihaug" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21805697" minute="50" player="O. Rotihaug" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21805698" minute="77" player="O. Rotihaug" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="21805699" minute="83" player="J. Soltvedt" playerid="2565313" result="[6 - 0]" team="home" type="goal"></event>
+<event id="21805700" minute="85" player="J. Soltvedt" playerid="2565313" result="[7 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="3893364" alternate_id_2="4279220" date="25.10.2014" id="4011131" static_id="25101423455382349667" status="FT" time="11:00">
 <home goals="2" id="2345538" name="Fana"></home>
 <away goals="4" id="2349667" name="Forde"></away>
@@ -1078,28 +1094,6 @@
 <event id="21805716" minute="47" player="S. Nygard" playerid="2535693" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="3893367" alternate_id_2="4279341" date="25.10.2014" id="4011134" static_id="25101423455732352324" status="FT" time="11:00">
-<home goals="2" id="2345573" name="Lyn"></home>
-<away goals="2" id="2352324" name="Floro"></away>
-<events>
-<event id="21806914" minute="1" player="V. Dyrstad" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21806915" minute="10" player="J. Richardsen (o.g.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21806916" minute="15" player="A. Sistek" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="21806917" minute="28" player="R. Isaksen" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[2-2]"></ht>
-</match><match alternate_id="3893365" alternate_id_2="4279342" date="25.10.2014" id="4011132" static_id="25101423456352345518" status="FT" time="11:00">
-<home goals="2" id="2345635" name="V. Haugesund"></home>
-<away goals="3" id="2345518" name="Algard"></away>
-<events>
-<event id="21806924" minute="45" player="T. Motland" playerid="2339638" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21806925" minute="52" player="C. Powell" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21806926" minute="61" player="E. Drivenes" playerid="2572197" result="[2 - 1]" team="home" type="goal"></event>
-<event id="21806927" minute="76" player="K. Bjarnason" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="21806928" minute="76" player="Powell" playerid="" result="" team="home" type="redcard"></event>
-<event id="21806929" minute="87" player="K. Novak" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="3893368" alternate_id_2="4279359" date="25.10.2014" id="4011135" static_id="25101423456362352115" status="FT" time="11:00">
 <home goals="6" id="2345636" name="Vidar"></home>
 <away goals="0" id="2352115" name="Fyllingsdalen"></away>
@@ -1112,7 +1106,17 @@
 <event id="21807099" minute="77" player="P. Erland" playerid="" result="[6 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match></league><league country="norway" name="Norway: Division 2 - Group 4" cup="False" id="3397" sub_id="33973"><match alternate_id="4121616" alternate_id_2="4299405" date="27.04.2015" id="4239160" static_id="27041523498572352324" status="FT" time="17:00">
+</match></league><league country="norway" name="Norway: Division 2 - Group 4" cup="False" id="3397" sub_id="33973"><match alternate_id="4121618" alternate_id_2="4299415" date="01.05.2015" id="4239162" static_id="01051523455832345622" status="15:00" time="15:00">
+<home goals="?" id="2345583" name="Molde 2"></home>
+<away goals="?" id="2345622" name="Strindheim"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4121617" alternate_id_2="4299416" date="01.05.2015" id="4239161" static_id="01051523549412349667" status="12:00" time="12:00">
+<home goals="?" id="2354941" name="Rodde"></home>
+<away goals="?" id="2349667" name="Forde"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4121616" alternate_id_2="4299405" date="27.04.2015" id="4239160" static_id="27041523498572352324" status="FT" time="17:00">
 <home goals="3" id="2349857" name="Aalesund 2"></home>
 <away goals="1" id="2352324" name="Floro"></away>
 <events>
@@ -1244,16 +1248,13 @@
 <event id="21805725" minute="85" player="T. I. Kristiansen" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="3896023" alternate_id_2="4279360" date="25.10.2014" id="4013787" static_id="25101423455452345566" status="FT" time="11:00">
-<home goals="4" id="2345545" name="Follo"></home>
-<away goals="0" id="2345566" name="Halden"></away>
+</match><match alternate_id="3896026" alternate_id_2="4279350" date="25.10.2014" id="4013790" static_id="25101423455612345555" status="FT" time="11:00">
+<home goals="1" id="2345561" name="Kjelsas"></home>
+<away goals="0" id="2345555" name="Harstad"></away>
 <events>
-<event id="21807104" minute="26" player="F. Levorstad" playerid="2487764" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21807105" minute="51" player="C. Bwamy" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21807106" minute="66" player="F. Levorstad" playerid="2487764" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21807107" minute="80" player="F. Azemi" playerid="2572409" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21807004" minute="90" player="S. Rosted" playerid="2571932" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="3896020" alternate_id_2="4279343" date="25.10.2014" id="4013784" static_id="25101423455722345536" status="FT" time="11:00">
 <home goals="1" id="2345572" name="Lorenskog"></home>
 <away goals="3" id="2345536" name="Eidsvold"></away>
@@ -1265,14 +1266,6 @@
 <event id="21806938" minute="89" player="J. Enkerud" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-8]"></ht>
-</match><match alternate_id="3896021" alternate_id_2="4279344" date="25.10.2014" id="4013785" static_id="25101423455802345535" status="FT" time="11:00">
-<home goals="2" id="2345580" name="MO IL"></home>
-<away goals="0" id="2345535" name="Drobak-Frogn"></away>
-<events>
-<event id="21806944" minute="57" player="A. Opdal" playerid="2572593" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21806945" minute="85" player="R. Jakobsen" playerid="2572591" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="3896024" alternate_id_2="4279223" date="25.10.2014" id="4013788" static_id="25101423456102354981" status="FT" time="11:00">
 <home goals="5" id="2345610" name="Skeid"></home>
 <away goals="0" id="2354981" name="Medkila"></away>
@@ -1284,16 +1277,6 @@
 <event id="21805738" minute="90" player="I. El Hafedi" playerid="" result="[5 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="3896022" alternate_id_2="4279384" date="25.10.2014" id="4013786" static_id="25101423456342345584" status="FT" time="11:00">
-<home goals="1" id="2345634" name="Valerenga 2"></home>
-<away goals="2" id="2345584" name="Moss"></away>
-<events>
-<event id="21807344" minute="27" player="E. Kaldheim" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21807345" minute="59" player="H. Stokkebo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21807346" minute="69" player="G. Tega" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="21807347" minute="90" player="Amarh" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="norway" name="Norway: Nm Cup" cup="True" id="3166" sub_id="31660"><match alternate_id="4124900" alternate_id_2="4326140" date="23.04.2015" id="4242443" static_id="23041523523282345542" status="FT" time="17:00">
 <home goals="1" id="2352328" name="Salangen"></home>
 <away goals="3" id="2345542" name="Senja"></away>
@@ -1442,87 +1425,69 @@
 <event id="201744846" minute="88" player="Jo Sondre Aas" playerid="" result="[0 - 13]" team="away" type="goal"></event>
 </events>
 <ht score="[0-5]"></ht>
-</match><match alternate_id="4124871" alternate_id_2="4325973" date="22.04.2015" id="4242414" static_id="22041523455442345639" status="Pen." time="16:00">
-<home goals="1" id="2345544" name="Flekkeroy"></home>
-<away goals="1" id="2345639" name="Vindbjart"></away>
+</match><match alternate_id="4124894" alternate_id_2="4325985" date="22.04.2015" id="4242437" static_id="22041523507882345519" status="FT" time="16:00">
+<home goals="1" id="2350788" name="Floya"></home>
+<away goals="0" id="2345519" name="Alta"></away>
 <events>
-<event id="22273234" minute="55" player="Vindfjell" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22273235" minute="79" player="Birkeland" playerid="2572361" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22273354" minute="49" player="Oyvind Veseth Olsen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-<penalty localteam="4" visitorteam="5"></penalty>
-</match><match alternate_id="4124859" alternate_id_2="4325975" date="22.04.2015" id="4242402" static_id="22041523523122345559" status="FT" time="16:00">
-<home goals="2" id="2352312" name="Hauerseter"></home>
-<away goals="4" id="2345559" name="K. Oslo"></away>
+</match><match alternate_id="4124854" alternate_id_2="4325987" date="22.04.2015" id="4242397" static_id="22041523455612345613" status="FT" time="16:00">
+<home goals="3" id="2345561" name="Kjelsas"></home>
+<away goals="1" id="2345613" name="Jeloy"></away>
 <events>
-<event id="22273254" minute="3" player="Skaga" playerid="2572075" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22273255" minute="14" player="Zamble" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22273256" minute="21" player="Hovland (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22273257" minute="37" player="Obeng" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="22273258" minute="53" player="Aase" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="22273259" minute="72" player="Aase (pen.)" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+<event id="22273374" minute="14" player="Pettersen" playerid="2526050" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22273375" minute="31" player="Cham" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22273376" minute="79" player="Moller" playerid="2526048" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22273377" minute="86" player="Ramadani" playerid="" result="[3 - 1]" team="away" type="goal"></event>
 </events>
-<ht score="[2-2]"></ht>
-</match><match alternate_id="4124879" alternate_id_2="4325976" date="22.04.2015" id="4242422" static_id="22041523562452345612" status="FT" time="16:00">
-<home goals="1" id="2356245" name="Lysekloster"></home>
-<away goals="5" id="2345612" name="Sogndal"></away>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4124889" alternate_id_2="4325988" date="22.04.2015" id="4242432" static_id="22041523518382350916" status="FT" time="16:00">
+<home goals="0" id="2351838" name="Nardo"></home>
+<away goals="1" id="2350916" name="Stjordals Blink"></away>
 <events>
-<event id="22273264" minute="18" player="Lars Christian Kjemhus" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22273265" minute="23" player="Mahatma Otoo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22273266" minute="27" player="Kristian Fardal Opseth" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22273267" minute="67" player="Lars Christian Kjemhus" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22273268" minute="75" player="Liseth" playerid="" result="[1 - 4]" team="home" type="goal"></event>
-<event id="22273269" minute="90" player="Ulrik Flo" playerid="" result="[1 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="4124834" alternate_id_2="4325977" date="22.04.2015" id="4242377" static_id="22041523455842352113" status="AET" time="16:00">
-<home goals="1" id="2345584" name="Moss"></home>
-<away goals="2" id="2352113" name="Grorud"></away>
-<events>
-<event id="22273274" minute="93" player="Rune Isaksen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22273275" minute="101" player="Morten Slorby" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22273276" minute="109" player="Tim Reinback" playerid="" result="" team="home" type="redcard"></event>
-<event id="22273277" minute="110" player="Emilio Garcia" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4124836" alternate_id_2="4325978" date="22.04.2015" id="4242379" static_id="22041523537102345566" status="Pen." time="16:00">
-<home goals="5" id="2353710" name="Oppsal"></home>
-<away goals="5" id="2345566" name="Halden"></away>
-<events>
-<event id="22273284" minute="12" player="Suka" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22273285" minute="18" player="Bjorseth" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22273286" minute="24" player="Jensen" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22273287" minute="40" player="Jensen" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="22273288" minute="44" player="Mufoncol" playerid="2630261" result="[3 - 2]" team="away" type="goal"></event>
-<event id="22273289" minute="50" player="Jensen" playerid="" result="[4 - 2]" team="home" type="goal"></event>
-<event id="22273290" minute="55" player="Stromsborg" playerid="" result="[4 - 3]" team="away" type="goal"></event>
-<event id="22273291" minute="89" player="Taletovic" playerid="2630263" result="[4 - 4]" team="away" type="goal"></event>
-<event id="22273292" minute="96" player="Ola eloranta" playerid="" result="" team="home" type="redcard"></event>
-<event id="201746343" minute="100" player="Kristian bjorseth (pen.)" playerid="" result="[5 - 4]" team="home" type="goal"></event>
-<event id="201746344" minute="115" player="Bjorn berglund" playerid="" result="[5 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[-]"></ht>
-<penalty localteam="4" visitorteam="5"></penalty>
-</match><match alternate_id="4124887" alternate_id_2="4325981" date="22.04.2015" id="4242430" static_id="22041523537132345622" status="FT" time="16:00">
-<home goals="0" id="2353713" name="Tynset"></home>
-<away goals="3" id="2345622" name="Strindheim"></away>
-<events>
-<event id="22273314" minute="9" player="Krogstad" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22273315" minute="55" player="Andersen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22273316" minute="63" player="Osafo" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22273384" minute="40" player="Sisic (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4124866" alternate_id_2="4325983" date="22.04.2015" id="4242409" static_id="22041523562422345579" status="FT" time="16:00">
-<home goals="0" id="2356242" name="Vestfossen"></home>
-<away goals="7" id="2345579" name="Mjondalen"></away>
+</match><match alternate_id="4124881" alternate_id_2="4325989" date="22.04.2015" id="4242424" static_id="22041523523312345521" status="FT" time="16:00">
+<home goals="0" id="2352331" name="Oystese"></home>
+<away goals="2" id="2345521" name="Asane"></away>
 <events>
-<event id="22273334" minute="14" player="Ingebretsen" playerid="2408512" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22273335" minute="26" player="Tim Andre Nilsen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22273336" minute="29" player="Alagie Sosseh" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22273337" minute="55" player="Alagie Sosseh" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22273338" minute="61" player="Joachim Olsen Solberg (pen.)" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="22273339" minute="71" player="Alagie Sosseh" playerid="" result="[0 - 6]" team="away" type="goal"></event>
-<event id="22273340" minute="77" player="Joachim Olsen Solberg" playerid="" result="[0 - 7]" team="away" type="goal"></event>
+<event id="22273394" minute="48" player="Pereira" playerid="" result="" team="home" type="redcard"></event>
+<event id="22273395" minute="61" player="Magnus Nyborg" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22273396" minute="68" player="Marcus Stueland" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4124873" alternate_id_2="4325990" date="22.04.2015" id="4242416" static_id="22041523455972345556" status="FT" time="16:00">
+<home goals="0" id="2345597" name="Randaberg"></home>
+<away goals="4" id="2345556" name="Haugesund"></away>
+<events>
+<event id="22273404" minute="30" player="David Myrestam" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22273405" minute="32" player="Gytkjaer" playerid="2374325" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22273406" minute="41" player="Gytkjaer" playerid="2374325" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22273407" minute="53" player="Gytkjaer" playerid="2374325" result="[0 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-3]"></ht>
+</match><match alternate_id="4124853" alternate_id_2="4325991" date="22.04.2015" id="4242396" static_id="22041523562382345526" status="FT" time="16:00">
+<home goals="0" id="2356238" name="Rilindja"></home>
+<away goals="2" id="2345526" name="Baerum"></away>
+<events>
+<event id="22273414" minute="84" player="Jan Aubert" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22273415" minute="85" player="Riki Alba" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22273416" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4124861" alternate_id_2="4325994" date="22.04.2015" id="4242404" static_id="22041523562412345623" status="FT" time="16:00">
+<home goals="1" id="2356241" name="Sander"></home>
+<away goals="6" id="2345623" name="Strommen"></away>
+<events>
+<event id="22273444" minute="8" player="Radford (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22273445" minute="11" player="Martin Ramsland" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22273446" minute="20" player="Madiou Konate" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22273447" minute="22" player="Aleksander Melgalvis" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22273448" minute="36" player="Martin Ramsland" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="22273449" minute="53" player="Madiou Konate" playerid="" result="[1 - 5]" team="away" type="goal"></event>
+<event id="22273450" minute="79" player="Madiou Konate" playerid="" result="[1 - 6]" team="away" type="goal"></event>
+</events>
+<ht score="[1-4]"></ht>
 </match></league></recent_results>

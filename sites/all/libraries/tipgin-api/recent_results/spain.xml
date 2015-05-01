@@ -1,13 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.04.2015 18:40:11" sport="soccer" country="spain"><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4033173" alternate_id_2="4328119" date="30.04.2015" id="4150791" static_id="30041523478582347842" status="20:00" time="20:00">
-<home goals="?" id="2347858" name="Granada CF"></home>
-<away goals="?" id="2347842" name="Espanyol"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:40:09" sport="soccer" country="spain"><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4033181" alternate_id_2="4328491" date="01.05.2015" id="4150799" static_id="01051523479502347876" status="18:45" time="18:45">
+<home goals="?" id="2347950" name="Real Sociedad"></home>
+<away goals="?" id="2347876" name="Levante"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4033174" alternate_id_2="4327738" date="30.04.2015" id="4150792" static_id="30041523479312348094" status="41" time="18:00">
+</match><match alternate_id="4033173" alternate_id_2="4328119" date="30.04.2015" id="4150791" static_id="30041523478582347842" status="FT" time="20:00">
+<home goals="1" id="2347858" name="Granada CF"></home>
+<away goals="2" id="2347842" name="Espanyol"></away>
+<events>
+<event id="22294694" minute="32" player="J. R. Fuentes" playerid="2428594" result="" team="away" type="yellowcard"></event>
+<event id="22294695" minute="38" player="S. Garcia" playerid="2335657" result="" team="away" type="yellowcard"></event>
+<event id="22294696" minute="45" player="S. Garcia" playerid="2335657" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22294697" minute="62" player="D. Candeias" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22294698" minute="73" player="D. Mainz" playerid="2390659" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22294699" minute="77" player="Martins L. (Not on pitch, Unsportsmanlike conduct)" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22294700" minute="79" player="F. Casilla" playerid="2353306" result="" team="away" type="yellowcard"></event>
+<event id="22294701" minute="84" player="P. Montanes" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4033174" alternate_id_2="4327738" date="30.04.2015" id="4150792" static_id="30041523479312348094" status="FT" time="18:00">
 <home goals="1" id="2347931" name="Rayo Vallecano"></home>
-<away goals="0" id="2348094" name="Valencia"></away>
+<away goals="1" id="2348094" name="Valencia"></away>
 <events>
 <event id="22290884" minute="19" player="A. Embarba" playerid="2641779" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22290885" minute="63" player="Morcillo" playerid="" result="" team="home" type="redcard"></event>
+<event id="22290886" minute="63" player="Tono" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22290887" minute="66" player="D. Parejo" playerid="2383111" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22290888" minute="74" player="S. Feghouli" playerid="2371287" result="" team="away" type="yellowcard"></event>
+<event id="22290889" minute="77" player="Rodrigo" playerid="" result="" team="away" type="redcard"></event>
+<event id="22290890" minute="80" player="M. Fatau" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4033168" alternate_id_2="4327736" date="29.04.2015" id="4150786" static_id="29041523478402347832" status="FT" time="20:00">
@@ -238,18 +258,6 @@
 <event id="201633145" minute="90+2" player="H. Moreno" playerid="2346992" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4033161" alternate_id_2="4324845" date="24.04.2015" id="4150779" static_id="24041523478112347512" status="FT" time="18:45">
-<home goals="0" id="2347811" name="Cordoba"></home>
-<away goals="1" id="2347512" name="Ath Bilbao"></away>
-<events>
-<event id="22261954" minute="3" player="I. Williams" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22261955" minute="47" player="X. Etxeita" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22261956" minute="56" player="B. Etxebarria" playerid="2391922" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22261957" minute="58" player="F. Andone" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22261958" minute="81" player="F. Vico" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22261959" minute="85" player="M. San Jose" playerid="2379760" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="spain" name="Spain: Segunda Division" cup="False" id="3231" sub_id="32310"><match alternate_id="4033637" alternate_id_2="4327084" date="26.04.2015" id="4151255" static_id="26041523476662347891" status="FT" time="19:00">
 <home goals="0" id="2347666" name="Leganes"></home>
 <away goals="0" id="2347891" name="Mirandes"></away>

@@ -158,7 +158,7 @@ function simple_fb_connect_login() {
         $login_url_params = array(
           'scope' => $scope_string,
           'fbconnect' => 1,
-          'redirect_uri' => 'http://' . $_SERVER['HTTP_HOST'] . request_uri(),
+          'redirect_uri' => 'https://' . $_SERVER['HTTP_HOST'] . request_uri(),
         );
         $login_url = $facebook->getLoginUrl($login_url_params);
         drupal_goto($login_url);
