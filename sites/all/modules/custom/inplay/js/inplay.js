@@ -213,7 +213,7 @@
 		anchor.parent().find('.containerforsimbet').addClass('loadingsidebarsimbet').show();
 		var urltobet = anchor.attr('url');
 		data_to_send = '';
-		$.post(urltobet, { data: {data_to_send} } ,function(data) {
+		$.post(urltobet, { data: data_to_send } ,function(data) {
 			anchor.parent().find('.containerforsimbet').html(data);
 			anchor.parent().find('.containerforsimbet').removeClass('loadingsidebarsimbet');	
 		});
@@ -224,7 +224,7 @@
 		anchor.parent().parent().find('.containerforsimbet').addClass('loadingsidebarsimbet');
 		var urltobet = anchor.attr('url');
 		data_to_send = '';
-		$.post(urltobet, { data: {data_to_send} } ,function(data) {
+		$.post(urltobet, { data: data_to_send } ,function(data) {
 			anchor.parent().parent().find('.containerforsimbet').removeClass('loadingsidebarsimbet');
 			anchor.parent().parent().find('.containerforsimbet').html(data);
 			setTimeout(function()
@@ -321,7 +321,7 @@
 	function updateInplayGameRows()
 	{
 		var data_to_send = '';
-		$.post('/inplay/loadinplay/gamerows', { data: {data_to_send} } ,function(data) {
+		$.post('/inplay/loadinplay/gamerows', { data: data_to_send } ,function(data) {
 			//console.log(data);
 			if(data=='') return;
 			data = jQuery.parseHTML(data);
@@ -349,7 +349,7 @@
 	{
 		var data_to_send = '';
 		$('.toploadingsidebarsmall').addClass('loadingnow');
-		$.post('/inplay/loadnew/gamerows', { data: {data_to_send} } ,function(data) {
+		$.post('/inplay/loadnew/gamerows', { data: data_to_send } ,function(data) {
 			data = jQuery.parseHTML(data);
 			var first_element = $('#block-views-real-time-block-3 .view-content .views-row:eq(0)');
 			$('#block-views-real-time-block-3 .view-content').prepend($('.view-content',data).html());
@@ -373,7 +373,7 @@
 		{
 			$('.bottomloadingsidebarsmall').addClass('loadingnow');
 			localStorage['addingoldgames'] = 1;
-			$.post('/inplay/loadold/gamerows', { data: {data_to_send} } ,function(data) {
+			$.post('/inplay/loadold/gamerows', { data: data_to_send } ,function(data) {
 				localStorage['addingoldgames'] = 1;
 				data = jQuery.parseHTML(data);
 				currenttop = $('.grid_8.alpha').scrollTop();
@@ -405,7 +405,7 @@
 	{
 		var data_to_send = $(this).val();
 		$('#block-views-real-time-block-3').addClass('loadingsidebar');
-		$.post('/inplay/refresh/competition', { data: {data_to_send} } ,function(data) {
+		$.post('/inplay/refresh/competition', { data: data_to_send } ,function(data) {
 			$('#block-views-real-time-block-3').html(data);
 			containter = $('#block-views-real-time-block-3').isotope('destroy').isotope({
 			  itemSelector: '.gamerow',

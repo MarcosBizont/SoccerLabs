@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="30.04.2015 06:50:46" sport="soccer" country="usa"><league country="usa" name="Usa: Mls" cup="False" id="3273" sub_id="32730"><match alternate_id="4096654" alternate_id_2="4325941" date="29.04.2015" id="4214216" static_id="29041523491862349137" status="23:30" time="23:30">
-<home id="2349186" name="New York Red Bulls"></home>
-<away id="2349137" name="Colorado Rapids"></away>
-
-
-</match><match alternate_id="4096540" alternate_id_2="4326419" date="02.05.2015" id="4214102" static_id="02051523491602349141" status="00:00" time="00:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="02.05.2015 06:50:48" sport="soccer" country="usa"><league country="usa" name="Usa: Mls" cup="False" id="3273" sub_id="32730"><match alternate_id="4096540" alternate_id_2="4326419" date="02.05.2015" id="4214102" static_id="02051523491602349141" status="00:00" time="00:00">
 <home id="2349160" name="Houston Dynamo"></home>
 <away id="2349141" name="FC Dallas"></away>
 
@@ -93,9 +88,14 @@
 <away id="2349218" name="Seattle Sounders"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4330051" date="10.05.2015" id="" static_id="10051523491412349170" status="00:30" time="00:30">
+</match><match alternate_id="4096964" alternate_id_2="4330051" date="10.05.2015" id="4214525" static_id="10051523491412349170" status="00:30" time="00:30">
 <home id="2349141" name="FC Dallas"></home>
 <away id="2349170" name="Los Angeles Galaxy"></away>
+
+
+</match><match alternate_id="4096555" alternate_id_2="4299992" date="10.05.2015" id="4214117" static_id="10051523397732349160" status="21:00" time="21:00">
+<home id="2339773" name="Toronto FC"></home>
+<away id="2349160" name="Houston Dynamo"></away>
 
 
 </match></league><league country="usa" name="Usa: North American Soccer League - Spring Season" cup="False" id="4841" sub_id="48413"><match alternate_id="4089617" alternate_id_2="4322445" date="02.05.2015" id="4207184" static_id="02051523539322349194" status="23:00" time="23:00">
@@ -298,17 +298,12 @@
 <away id="2353932" name="New York Cosmos"></away>
 
 
-</match></league><league country="usa" name="Usa: Usl" cup="False" id="3860" sub_id=""><match alternate_id="" alternate_id_2="4327573" date="30.04.2015" id="" static_id="" status="01:05" time="01:05">
-<home id="" name="Real Monarchs"></home>
-<away id="2355169" name="Sacramento Republic"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4327574" date="02.05.2015" id="" static_id="02051523491062355158" status="01:00" time="01:00">
+</match></league><league country="usa" name="Usa: Usl" cup="False" id="3860" sub_id=""><match alternate_id="" alternate_id_2="4327574" date="02.05.2015" id="" static_id="02051523491062355158" status="01:00" time="01:00">
 <home id="2349106" name="Austin"></home>
 <away id="2355158" name="Oklahoma City Energy"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4327575" date="02.05.2015" id="" static_id="" status="02:30" time="02:30">
+</match><match alternate_id="" alternate_id_2="4327575" date="02.05.2015" id="" static_id="" status="02:45" time="02:45">
 <home id="" name="Seattle 2"></home>
 <away id="2350817" name="Orange County Blues"></away>
 
@@ -396,6 +391,11 @@
 </match><match alternate_id="" alternate_id_2="4330052" date="10.05.2015" id="" static_id="" status="02:30" time="02:30">
 <home id="2355154" name="Arizona United"></home>
 <away id="" name="Tulsa Roughnecks"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4330104" date="10.05.2015" id="" static_id="" status="02:30" time="02:30">
+<home id="2355169" name="Sacramento Republic"></home>
+<away id="" name="Seattle 2"></away>
 
 
 </match></league><league country="usa" name="Usa: Us Open Cup" cup="True" id="3406" sub_id=""><match alternate_id="4124287" alternate_id_2="4326236" date="13.05.2015" id="4241831" static_id="13051523562212356222" status="23:00" time="23:00">

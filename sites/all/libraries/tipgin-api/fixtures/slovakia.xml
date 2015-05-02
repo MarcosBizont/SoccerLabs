@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="30.04.2015 06:50:42" sport="soccer" country="slovakia"><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4003868" alternate_id_2="4322407" date="04.05.2015" id="4121490" static_id="04051523472702347264" status="15:15" time="15:15">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="02.05.2015 06:50:44" sport="soccer" country="slovakia"><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4003868" alternate_id_2="4322407" date="04.05.2015" id="4121490" static_id="04051523472702347264" status="15:15" time="15:15">
 <home id="2347270" name="Slovan Bratislava"></home>
 <away id="2347264" name="Senica"></away>
 
@@ -38,6 +38,11 @@
 <away id="2355699" name="Trnava"></away>
 
 
+</match><match alternate_id="4003874" alternate_id_2="4326897" date="08.05.2015" id="4121496" static_id="08051523472752347270" status="17:00" time="17:00">
+<home id="2347275" name="Myjava"></home>
+<away id="2347270" name="Slovan Bratislava"></away>
+
+
 </match><match alternate_id="3957388" alternate_id_2="4326895" date="08.05.2015" id="4075073" static_id="08051523472612347254" status="17:00" time="17:00">
 <home id="2347261" name="Ruzomberok"></home>
 <away id="2347254" name="Podbrezova"></away>
@@ -46,11 +51,6 @@
 </match><match alternate_id="4003873" alternate_id_2="4326896" date="08.05.2015" id="4121495" static_id="08051523472642347287" status="17:00" time="17:00">
 <home id="2347264" name="Senica"></home>
 <away id="2347287" name="Trencin"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4326897" date="09.05.2015" id="" static_id="09051523472752347270" status="15:30" time="15:30">
-<home id="2347275" name="Myjava"></home>
-<away id="2347270" name="Slovan Bratislava"></away>
 
 
 </match><match alternate_id="4003876" alternate_id_2="4326898" date="09.05.2015" id="4121498" static_id="09051523472922347294" status="18:15" time="18:15">
@@ -98,12 +98,7 @@
 <away id="2347223" name="Dun. Streda"></away>
 
 
-</match></league><league country="slovakia" name="Slovakia: 2. Liga - West - Relegation Group" cup="False" id="4371" sub_id=""><match alternate_id="" alternate_id_2="4321414" date="01.05.2015" id="" static_id="01051523500622347271" status="15:00" time="15:00">
-<home id="2350062" name="Samorin"></home>
-<away id="2347271" name="S. Bratislava B"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4321413" date="02.05.2015" id="" static_id="02051523472272352969" status="14:30" time="14:30">
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - West - Relegation Group" cup="False" id="4371" sub_id=""><match alternate_id="" alternate_id_2="4321413" date="02.05.2015" id="" static_id="02051523472272352969" status="14:30" time="14:30">
 <home id="2347227" name="Dubnica"></home>
 <away id="2352969" name="Pohronie"></away>
 
@@ -188,12 +183,7 @@
 <away id="2350062" name="Samorin"></away>
 
 
-</match></league><league country="slovakia" name="Slovakia: 2. Liga - East - Relegation Group" cup="False" id="4370" sub_id=""><match alternate_id="4118241" alternate_id_2="4321430" date="01.05.2015" id="4235785" static_id="01051523472212347260" status="15:00" time="15:00">
-<home id="2347221" name="Moldava"></home>
-<away id="2347260" name="Rimavska Sobota"></away>
-
-
-</match><match alternate_id="4118242" alternate_id_2="4321431" date="02.05.2015" id="4235786" static_id="02051523472252347269" status="14:30" time="14:30">
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - East - Relegation Group" cup="False" id="4370" sub_id=""><match alternate_id="4118242" alternate_id_2="4321431" date="02.05.2015" id="4235786" static_id="02051523472252347269" status="14:30" time="14:30">
 <home id="2347225" name="D. Kubin"></home>
 <away id="2347269" name="Trebisov"></away>
 
@@ -368,19 +358,14 @@
 <away id="2347282" name="Presov"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4329471" date="23.05.2015" id="" static_id="23051523472812354099" status="15:00" time="15:00">
-<home id="2347281" name="L. Mikulas"></home>
-<away id="2354099" name="Skalica"></away>
+</match><match alternate_id="" alternate_id_2="4329009" date="23.05.2015" id="" static_id="23051523472822347293" status="15:00" time="15:00">
+<home id="2347282" name="Presov"></home>
+<away id="2347293" name="Zilina B"></away>
 
 
 </match><match alternate_id="" alternate_id_2="4328969" date="23.05.2015" id="" static_id="23051523474882355707" status="15:00" time="15:00">
 <home id="2347488" name="Sala"></home>
 <away id="2355707" name="Michalovce"></away>
-
-
-</match></league><league country="slovakia" name="Slovakia: Slovak Cup" cup="True" id="3218" sub_id="32180"><match alternate_id="" alternate_id_2="4328208" date="01.05.2015" id="" static_id="01051523472872347264" status="16:15" time="16:15">
-<home id="2347287" name="Trencin"></home>
-<away id="2347264" name="Senica"></away>
 
 
 </match></league></fixtures>

@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:40:50" sport="soccer" country="latvia"><league country="latvia" name="Latvia: Virsliga" cup="False" id="3120" sub_id="31200"><match alternate_id="4110753" alternate_id_2="4313634" date="01.05.2015" id="4228304" static_id="01051523442512344264" status="13:00" time="13:00">
-<home goals="?" id="2344251" name="Gulbene"></home>
-<away goals="?" id="2344264" name="FK Liepaja"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4110752" alternate_id_2="4313633" date="01.05.2015" id="4228303" static_id="01051523442502344243" status="11:00" time="11:00">
-<home goals="?" id="2344250" name="Metta/LU"></home>
-<away goals="?" id="2344243" name="Jelgava"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:56" sport="soccer" country="latvia"><league country="latvia" name="Latvia: Virsliga" cup="False" id="3120" sub_id="31200"><match alternate_id="4110753" alternate_id_2="4313634" date="01.05.2015" id="4228304" static_id="01051523442512344264" status="FT" time="13:00">
+<home goals="0" id="2344251" name="Gulbene"></home>
+<away goals="2" id="2344264" name="FK Liepaja"></away>
+<events>
+<event id="22149844" minute="57" player="V. Afanasjevs" playerid="2361295" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22149845" minute="61" player="D. Ikaunieks" playerid="2457972" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4110752" alternate_id_2="4313633" date="01.05.2015" id="4228303" static_id="01051523442502344243" status="FT" time="11:00">
+<home goals="1" id="2344250" name="Metta/LU"></home>
+<away goals="1" id="2344243" name="Jelgava"></away>
+<events>
+<event id="22149834" minute="3" player="G. Kluskins" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22149835" minute="18" player="K. Sevelovs" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4110751" alternate_id_2="4313632" date="19.04.2015" id="4228302" static_id="19041523442912344243" status="FT" time="11:00">
 <home goals="0" id="2344291" name="Spartaks"></home>
 <away goals="0" id="2344243" name="Jelgava"></away>

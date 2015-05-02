@@ -1,13 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:41:07" sport="soccer" country="singapore"><league country="singapore" name="Singapore: S.League" cup="False" id="3215" sub_id="32150"><match alternate_id="4099123" alternate_id_2="4322457" date="01.05.2015" id="4216682" static_id="01051523471972347195" status="12:15" time="12:15">
-<home goals="?" id="2347197" name="Brunei DPMM"></home>
-<away goals="?" id="2347195" name="Balestier Khalsa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4099121" alternate_id_2="4322120" date="01.05.2015" id="4216680" static_id="01051523471932347204" status="11:30" time="11:30">
-<home goals="?" id="2347193" name="Albirex Niigata"></home>
-<away goals="?" id="2347204" name="Hougang"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:41:14" sport="soccer" country="singapore"><league country="singapore" name="Singapore: S.League" cup="False" id="3215" sub_id="32150"><match alternate_id="4099124" alternate_id_2="4322458" date="02.05.2015" id="4216683" static_id="02051523471982347192" status="50" time="11:30">
+<home goals="2" id="2347198" name="Geylang"></home>
+<away goals="0" id="2347192" name="Warriors"></away>
+<events>
+<event id="22238084" minute="14" player="J. Kaplan" playerid="2496279" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22238085" minute="37" player="B. Castanheira" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4099123" alternate_id_2="4322457" date="01.05.2015" id="4216682" static_id="01051523471972347195" status="FT" time="12:15">
+<home goals="1" id="2347197" name="Brunei DPMM"></home>
+<away goals="2" id="2347195" name="Balestier Khalsa"></away>
+<events>
+<event id="22238074" minute="9" player="M. Kristic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22238075" minute="46" player="R. Pericic" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22238076" minute="71" player="R. Ramazotti" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4099121" alternate_id_2="4322120" date="01.05.2015" id="4216680" static_id="01051523471932347204" status="FT" time="11:30">
+<home goals="2" id="2347193" name="Albirex Niigata"></home>
+<away goals="1" id="2347204" name="Hougang"></away>
+<events>
+<event id="22234704" minute="20" player="R. Kumada" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22234705" minute="33" player="K. Yamashita" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22234706" minute="52" player="H. Mizuno" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4099166" alternate_id_2="4322119" date="28.04.2015" id="4216725" static_id="28041523472002347211" status="FT" time="13:00">
 <home goals="0" id="2347200" name="Home Utd"></home>
 <away goals="1" id="2347211" name="Young Lions"></away>
@@ -155,17 +171,6 @@
 <event id="22148078" minute="55" player="K. Ramdani" playerid="" result="[1 - 4]" team="home" type="goal"></event>
 </events>
 <ht score="[0-4]"></ht>
-</match><match alternate_id="4099101" alternate_id_2="4313458" date="04.04.2015" id="4216660" static_id="04041523472042347197" status="FT" time="12:45">
-<home goals="2" id="2347204" name="Hougang"></home>
-<away goals="3" id="2347197" name="Brunei DPMM"></away>
-<events>
-<event id="22148084" minute="1" player="K. Yamashita" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22148085" minute="13" player="P. Sergio" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22148086" minute="19" player="P. Sergio" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22148087" minute="57" player="B. McLean" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22148088" minute="87" player="Chupe" playerid="" result="[2 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
 </match></league><league country="singapore" name="Singapore: S.League - Championship Group" cup="False" id="3215" sub_id="32152"><match alternate_id="4072619" alternate_id_2="4271108" date="31.10.2014" id="4190228" static_id="31101423471952347200" status="FT" time="11:30">
 <home goals="0" id="2347195" name="Balestier Khalsa"></home>
 <away goals="1" id="2347200" name="Home United"></away>

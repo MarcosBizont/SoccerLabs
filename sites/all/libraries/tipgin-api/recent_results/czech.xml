@@ -1,8 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:40:35" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4001365" alternate_id_2="4325117" date="01.05.2015" id="4118987" static_id="01051523403152340494" status="16:00" time="16:00">
-<home goals="?" id="2340315" name="Brno"></home>
-<away goals="?" id="2340494" name="Jihlava"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:39" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4001364" alternate_id_2="4325118" date="02.05.2015" id="4118986" static_id="02051523404822340438" status="15:30" time="15:30">
+<home goals="?" id="2340482" name="Plzen"></home>
+<away goals="?" id="2340438" name="Slovacko"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4001369" alternate_id_2="4324906" date="02.05.2015" id="4118991" static_id="02051523403372340358" status="13:00" time="13:00">
+<home goals="?" id="2340337" name="Dukla Prague"></home>
+<away goals="?" id="2340358" name="Hradec Kralove"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4001363" alternate_id_2="4324907" date="02.05.2015" id="4118985" static_id="02051523404402340310" status="13:00" time="13:00">
+<home goals="?" id="2340440" name="Liberec"></home>
+<away goals="?" id="2340310" name="Bohemians 1905"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4001367" alternate_id_2="4325031" date="02.05.2015" id="4118989" static_id="02051523403022340413" status="13:00" time="13:00">
+<home goals="?" id="2340302" name="Ostrava"></home>
+<away goals="?" id="2340413" name="Pribram"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4001365" alternate_id_2="4325117" date="01.05.2015" id="4118987" static_id="01051523403152340494" status="FT" time="16:00">
+<home goals="3" id="2340315" name="Brno"></home>
+<away goals="2" id="2340494" name="Jihlava"></away>
+<events>
+<event id="22264674" minute="25" player="T. Marek" playerid="2348388" result="" team="away" type="yellowcard"></event>
+<event id="22264675" minute="33" player="M. Jungr" playerid="2346759" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22264676" minute="38" player="M. Jungr" playerid="2346759" result="" team="away" type="yellowcard"></event>
+<event id="22264677" minute="42" player="P. Zavadil (pen.)" playerid="2362861" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22264678" minute="51" player="D. Pasek" playerid="2398387" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22264679" minute="62" player="A. Janos" playerid="2438375" result="" team="away" type="yellowcard"></event>
+<event id="22264680" minute="63" player="D. Pasek" playerid="2398387" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22264681" minute="73" player="M. Jungr" playerid="2346759" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22264682" minute="74" player="T. Kucera" playerid="2346704" result="" team="away" type="yellowcard"></event>
+<event id="201660243" minute="80" player="K. Kopunek" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="3931441" alternate_id_2="4322849" date="26.04.2015" id="4049176" static_id="26041523404512340315" status="FT" time="15:45">
 <home goals="4" id="2340451" name="Sparta Prague"></home>
 <away goals="0" id="2340315" name="Brno"></away>
@@ -169,14 +200,6 @@
 <event id="22205282" minute="79" player="J. Rada" playerid="2374329" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4001355" alternate_id_2="4319188" date="18.04.2015" id="4118977" static_id="18041523403372340362" status="FT" time="15:00">
-<home goals="1" id="2340337" name="Dukla Prague"></home>
-<away goals="0" id="2340362" name="Jablonec"></away>
-<events>
-<event id="22205384" minute="11" player="T. Berger" playerid="2418079" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22205385" minute="90+2" player="J. Povazanec" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4001353" alternate_id_2="4319160" date="18.04.2015" id="4118975" static_id="18041523403022340438" status="FT" time="15:00">
 <home goals="0" id="2340302" name="Ostrava"></home>
 <away goals="2" id="2340438" name="Slovacko"></away>
@@ -199,47 +222,51 @@
 <event id="22205120" minute="90+2" player="J. Fulnek" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4001351" alternate_id_2="4317508" date="12.04.2015" id="4118973" static_id="12041523404822340315" status="FT" time="12:45">
-<home goals="4" id="2340482" name="Plzen"></home>
-<away goals="1" id="2340315" name="Brno"></away>
+</match></league><league country="czech" name="Czech Republic: Division 2" cup="False" id="3016" sub_id="30160"><match alternate_id="4005603" alternate_id_2="4327240" date="02.05.2015" id="4123225" static_id="02051523405012340300" status="16:00" time="16:00">
+<home goals="?" id="2340501" name="Zlin"></home>
+<away goals="?" id="2340300" name="Most"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4005607" alternate_id_2="4326167" date="02.05.2015" id="4123229" static_id="02051523404552340490" status="15:00" time="15:00">
+<home goals="?" id="2340455" name="Mas Taborsko"></home>
+<away goals="?" id="2340490" name="Vlasim"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4005602" alternate_id_2="4325568" date="02.05.2015" id="4123224" static_id="02051523512072340476" status="FT" time="08:15">
+<home goals="3" id="2351207" name="FK Pardubice"></home>
+<away goals="2" id="2340476" name="Usti nad Labem"></away>
 <events>
-<event id="22188584" minute="12" player="A. Mahmutovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22188585" minute="19" player="P. Buchta" playerid="2531527" result="" team="away" type="yellowcard"></event>
-<event id="22188586" minute="24" player="A. Mahmutovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22188587" minute="54" player="J. Kovarik" playerid="2380618" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22188588" minute="72" player="T. Horava" playerid="2363810" result="[4 - 0]" team="home" type="goal"></event>
-<event id="22188589" minute="76" player="M. Markovic" playerid="2471084" result="[4 - 1]" team="away" type="goal"></event>
+<event id="22269184" minute="10" player="L. Vrastil" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22269185" minute="21" player="J. Bederka" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22269186" minute="61" player="J. Jerabek" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22269187" minute="64" player="M. Kratky" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22269188" minute="67" player="R. Veverka" playerid="2410842" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22269189" minute="68" player="A. Melunovic" playerid="" result="" team="away" type="redcard"></event>
+<event id="22269190" minute="87" player="F. Kopriva" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22269191" minute="90" player="F. Kopriva" playerid="" result="[3 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4001347" alternate_id_2="4317542" date="11.04.2015" id="4118969" static_id="11041523404512340432" status="FT" time="17:15">
-<home goals="2" id="2340451" name="Sparta Prague"></home>
-<away goals="1" id="2340432" name="Slavia Prague"></away>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4005606" alternate_id_2="4325569" date="02.05.2015" id="4123228" static_id="02051523403692340347" status="FT" time="08:15">
+<home goals="1" id="2340369" name="Karvina"></home>
+<away goals="0" id="2340347" name="Frydek-Mistek"></away>
 <events>
-<event id="22188924" minute="4" player="M. Skoda" playerid="2346533" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22188925" minute="13" player="M. Latka" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22188926" minute="43" player="V. Kadlec" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22188927" minute="61" player="A. Baez" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22188928" minute="66" player="D. Lafata" playerid="2342817" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22188929" minute="69" player="L. Kenia" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22188930" minute="81" player="M. Berkovec" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22188931" minute="87" player="R. Hruby" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22188932" minute="89" player="J. Brabec" playerid="2411928" result="[2 - 1]" team="home" type="goal"></event>
-<event id="200902743" minute="90+3" player="T. Konate" playerid="2562486" result="" team="home" type="yellowcard"></event>
+<event id="22269194" minute="47" player="J. Ruzicka" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4001350" alternate_id_2="4317507" date="11.04.2015" id="4118972" static_id="11041523403922340440" status="FT" time="14:00">
-<home goals="1" id="2340392" name="Mlada Boleslav"></home>
-<away goals="1" id="2340440" name="Liberec"></away>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4005605" alternate_id_2="4325570" date="02.05.2015" id="4123227" static_id="02051523403042340503" status="FT" time="08:15">
+<home goals="3" id="2340304" name="Sokolov"></home>
+<away goals="1" id="2340503" name="Znojmo"></away>
 <events>
-<event id="22188574" minute="4" player="K. Luckassen" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22188575" minute="43" player="M. Bakos" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22188576" minute="59" player="J. Scuk" playerid="2521319" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22188577" minute="63" player="J. Skalak" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22188578" minute="72" player="J. Sural" playerid="2394873" result="" team="away" type="yellowcard"></event>
-<event id="22188579" minute="79" player="J. Fleisman" playerid="2418239" result="" team="away" type="yellowcard"></event>
+<event id="22269204" minute="23" player="S. Hofmann" playerid="2385785" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22269205" minute="53" player="B. Stana" playerid="2635954" result="" team="away" type="yellowcard"></event>
+<event id="22269206" minute="64" player="D. Ledecky" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22269207" minute="79" player="R. Nepozitek" playerid="2398378" result="" team="away" type="yellowcard"></event>
+<event id="22269208" minute="80" player="B. Stana" playerid="2635954" result="" team="away" type="yellowred"></event>
+<event id="22269209" minute="83" player="J. Kosak (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22269210" minute="90" player="Dvorak J. II" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
-</match></league><league country="czech" name="Czech Republic: Division 2" cup="False" id="3016" sub_id="30160"><match alternate_id="4005597" alternate_id_2="4324910" date="26.04.2015" id="4123219" static_id="26041523403002351207" status="FT" time="15:30">
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4005597" alternate_id_2="4324910" date="26.04.2015" id="4123219" static_id="26041523403002351207" status="FT" time="15:30">
 <home goals="2" id="2340300" name="Most"></home>
 <away goals="5" id="2351207" name="FK Pardubice"></away>
 <events>
@@ -425,70 +452,50 @@
 <event id="22224911" minute="90+2" player="A. Barak" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4005586" alternate_id_2="4321138" date="18.04.2015" id="4123208" static_id="18041523512072340403" status="FT" time="08:15">
-<home goals="0" id="2351207" name="FK Pardubice"></home>
-<away goals="0" id="2340403" name="Opava"></away>
-<events>
-<event id="22224884" minute="36" player="R. Fikejz" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22224885" minute="47" player="T. Pospisil" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22224886" minute="78" player="M. Klatil" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22224887" minute="86" player="F. Metelka" playerid="2346521" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4005572" alternate_id_2="4319053" date="15.04.2015" id="4123194" static_id="15041523404432340304" status="FT" time="14:30">
-<home goals="1" id="2340443" name="Varnsdorf"></home>
-<away goals="1" id="2340304" name="Sokolov"></away>
-<events>
-<event id="22204034" minute="16" player="J. Kosak" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22204035" minute="18" player="J. Kvida" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22204036" minute="30" player="R. Jurca" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22204037" minute="30" player="J. Belan" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22204038" minute="47" player="M. Kratochvil" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22204039" minute="90+1" player="S. Hofmann" playerid="2385785" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4005583" alternate_id_2="4319054" date="12.04.2015" id="4123205" static_id="12041523404762340374" status="FT" time="16:00">
-<home goals="5" id="2340476" name="Usti nad Labem"></home>
-<away goals="1" id="2340374" name="Kolin"></away>
-<events>
-<event id="22204044" minute="12" player="M. Zeman" playerid="2455450" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22204045" minute="22" player="M. Jelinek" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22204046" minute="25" player="A. Zukic" playerid="2460547" result="" team="home" type="yellowcard"></event>
-<event id="22204047" minute="33" player="J. Picha" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22204048" minute="35" player="A. Melunovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22204049" minute="52" player="A. Melunovic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22204050" minute="62" player="V. Jezdik" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22204051" minute="65" player="M. Zeman" playerid="2455450" result="[4 - 0]" team="home" type="goal"></event>
-<event id="22204052" minute="69" player="J. Teply" playerid="" result="[4 - 1]" team="away" type="goal"></event>
-<event id="201053943" minute="77" player="A. Melunovic" playerid="" result="[5 - 1]" team="home" type="goal"></event>
-<event id="201053944" minute="89" player="" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4005580" alternate_id_2="4320834" date="12.04.2015" id="4123202" static_id="12041523405032340443" status="FT" time="14:30">
-<home goals="0" id="2340503" name="Znojmo"></home>
-<away goals="1" id="2340443" name="Varnsdorf"></away>
-<events>
-<event id="22221844" minute="57" player="R. Nepozitek" playerid="2398378" result="" team="home" type="yellowcard"></event>
-<event id="22221845" minute="59" player="R. Jurca" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22221846" minute="69" player="N. Danicek" playerid="2470106" result="" team="away" type="yellowcard"></event>
-<event id="22221847" minute="79" player="F. Durdevic" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4005582" alternate_id_2="4320833" date="12.04.2015" id="4123204" static_id="12041523403002340426" status="FT" time="13:00">
-<home goals="0" id="2340300" name="Most"></home>
-<away goals="2" id="2340426" name="Sigma Olomouc"></away>
-<events>
-<event id="22221834" minute="16" player="T. Zahradnicek" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22221835" minute="37" player="T. Divkovic" playerid="2426591" result="" team="home" type="yellowcard"></event>
-<event id="22221836" minute="86" player="M. Reichl" playerid="2636020" result="" team="away" type="yellowcard"></event>
-<event id="22221837" minute="90+1" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="czech" name="Czech Republic: Division A" cup="False" id="3015" sub_id="30150"><match alternate_id="4086435" alternate_id_2="4325699" date="01.05.2015" id="4204002" static_id="01051523512102340335" status="15:00" time="15:00">
-<home goals="?" id="2351210" name="Cizova"></home>
-<away goals="?" id="2340335" name="Doubravka"></away>
+</match></league><league country="czech" name="Czech Republic: Division A" cup="False" id="3015" sub_id="30150"><match alternate_id="4086428" alternate_id_2="4327246" date="02.05.2015" id="4203995" static_id="02051523403572340390" status="15:00" time="15:00">
+<home goals="?" id="2340357" name="Horovicko"></home>
+<away goals="?" id="2340390" name="Milevsko"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4086431" alternate_id_2="4327247" date="02.05.2015" id="4203998" static_id="02051523512092350052" status="15:00" time="15:00">
+<home goals="?" id="2351209" name="Rokycany"></home>
+<away goals="?" id="2350052" name="Cesky Krumlov"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086432" alternate_id_2="4327244" date="02.05.2015" id="4203999" static_id="02051523553912340372" status="Pen." time="08:30">
+<home goals="2" id="2355391" name="Marianske Lazne"></home>
+<away goals="2" id="2340372" name="Klatovy"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
+<penalty localteam="4" visitorteam="2"></penalty>
+</match><match alternate_id="4086433" alternate_id_2="4327245" date="02.05.2015" id="4204000" static_id="02051523497272340386" status="Pen." time="08:30">
+<home goals="2" id="2349727" name="Zlicin"></home>
+<away goals="2" id="2340386" name="Malse Roudne"></away>
+<events>
+</events>
+<ht score="[1-2]"></ht>
+<penalty localteam="4" visitorteam="2"></penalty>
+</match><match alternate_id="4086434" alternate_id_2="4325574" date="02.05.2015" id="4204001" static_id="02051523500572340462" status="Pen." time="08:15">
+<home goals="1" id="2350057" name="Aritma Prague"></home>
+<away goals="1" id="2340462" name="Tachov"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
+<penalty localteam="0" visitorteam="3"></penalty>
+</match><match alternate_id="4086430" alternate_id_2="4325575" date="02.05.2015" id="4203997" static_id="02051523403452353838" status="Pen." time="08:15">
+<home goals="3" id="2340345" name="Hvezda Cheb"></home>
+<away goals="3" id="2353838" name="Susice"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
+<penalty localteam="5" visitorteam="6"></penalty>
+</match><match alternate_id="4086435" alternate_id_2="4325699" date="01.05.2015" id="4204002" static_id="01051523512102340335" status="FT" time="15:00">
+<home goals="0" id="2351210" name="Cizova"></home>
+<away goals="1" id="2340335" name="Doubravka"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4086425" alternate_id_2="4325573" date="26.04.2015" id="4203992" static_id="26041523538382351209" status="Pen." time="15:00">
 <home goals="1" id="2353838" name="Susice"></home>
 <away goals="1" id="2351209" name="Rokycany"></away>
@@ -569,44 +576,39 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="4" visitorteam="2"></penalty>
-</match><match alternate_id="4086415" alternate_id_2="4321142" date="18.04.2015" id="4203982" static_id="18041523553912353838" status="FT" time="13:00">
-<home goals="2" id="2355391" name="Marianske Lazne"></home>
-<away goals="7" id="2353838" name="Susice"></away>
-<events>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="4086416" alternate_id_2="4321141" date="18.04.2015" id="4203983" static_id="18041523497272350052" status="FT" time="08:30">
-<home goals="2" id="2349727" name="Zlicin"></home>
-<away goals="1" id="2350052" name="Cesky Krumlov"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4086417" alternate_id_2="4320838" date="18.04.2015" id="4203984" static_id="18041523500572340372" status="FT" time="08:15">
-<home goals="3" id="2350057" name="Aritma Prague"></home>
-<away goals="2" id="2340372" name="Klatovy"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4086413" alternate_id_2="4320839" date="18.04.2015" id="4203980" static_id="18041523403452340390" status="FT" time="08:15">
-<home goals="0" id="2340345" name="Hvezda Cheb"></home>
-<away goals="1" id="2340390" name="Milevsko"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4086401" alternate_id_2="4317543" date="15.04.2015" id="4203968" static_id="15041523512102350052" status="Pen." time="15:00">
-<home goals="0" id="2351210" name="Cizova"></home>
-<away goals="0" id="2350052" name="Cesky Krumlov"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="6" visitorteam="5"></penalty>
-</match><match alternate_id="4086410" alternate_id_2="4320836" date="12.04.2015" id="4203977" static_id="12041523403902351209" status="FT" time="14:30">
-<home goals="2" id="2340390" name="Milevsko"></home>
-<away goals="0" id="2351209" name="Rokycany"></away>
+</match></league><league country="czech" name="Czech Republic: Division B" cup="False" id="3015" sub_id="30151"><match alternate_id="4086550" alternate_id_2="4327252" date="02.05.2015" id="4204117" static_id="02051523552922350055" status="15:00" time="15:00">
+<home goals="?" id="2355292" name="Krupka"></home>
+<away goals="?" id="2350055" name="Lovosice"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086552" alternate_id_2="4327253" date="02.05.2015" id="4204119" static_id="02051523497262340445" status="15:00" time="15:00">
+<home goals="?" id="2349726" name="Litol"></home>
+<away goals="?" id="2340445" name="Brozany"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086554" alternate_id_2="4327254" date="02.05.2015" id="4204121" static_id="02051523525832340399" status="15:00" time="15:00">
+<home goals="?" id="2352583" name="Nove Straseci"></home>
+<away goals="?" id="2340399" name="Neratovice"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086553" alternate_id_2="4327255" date="02.05.2015" id="4204120" static_id="02051523404022340395" status="15:00" time="15:00">
+<home goals="?" id="2340402" name="Novy Bor"></home>
+<away goals="?" id="2340395" name="Motorlet Prague"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086549" alternate_id_2="4325576" date="02.05.2015" id="4204116" static_id="02051523403702353837" status="FT" time="08:15">
+<home goals="2" id="2340370" name="Kladno"></home>
+<away goals="1" id="2353837" name="Litomerice"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="czech" name="Czech Republic: Division B" cup="False" id="3015" sub_id="30151"><match alternate_id="4086520" alternate_id_2="4317590" date="29.04.2015" id="4204087" static_id="29041523525832350055" status="FT" time="15:00">
+</match><match alternate_id="4086548" alternate_id_2="4325577" date="02.05.2015" id="4204115" static_id="02051523525892351204" status="FT" time="08:15">
+<home goals="2" id="2352589" name="Libis"></home>
+<away goals="1" id="2351204" name="Sous"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4086520" alternate_id_2="4317590" date="29.04.2015" id="4204087" static_id="29041523525832350055" status="FT" time="15:00">
 <home goals="1" id="2352583" name="Nove Straseci"></home>
 <away goals="0" id="2350055" name="Lovosice"></away>
 <events>
@@ -686,50 +688,33 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4086533" alternate_id_2="4320879" date="18.04.2015" id="4204100" static_id="18041523552922351204" status="FT" time="15:00">
-<home goals="1" id="2355292" name="Krupka"></home>
-<away goals="5" id="2351204" name="Sous"></away>
-<events>
-</events>
-<ht score="[0-4]"></ht>
-</match><match alternate_id="4086535" alternate_id_2="4320890" date="18.04.2015" id="4204102" static_id="18041523497262350055" status="FT" time="15:00">
-<home goals="1" id="2349726" name="Litol"></home>
-<away goals="8" id="2350055" name="Lovosice"></away>
-<events>
-</events>
-<ht score="[0-4]"></ht>
 </match><match alternate_id="" alternate_id_2="4320844" date="18.04.2015" id="" static_id="18041523525832340445" status="FT" time="15:00">
 <home goals="3" id="2352583" name="Nove Straseci"></home>
 <away goals="1" id="2340445" name="Brozany"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4086536" alternate_id_2="4320845" date="18.04.2015" id="4204103" static_id="18041523404022354041" status="FT" time="15:00">
-<home goals="2" id="2340402" name="Novy Bor"></home>
-<away goals="1" id="2354041" name="LoKo Chomutov"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4086532" alternate_id_2="4320843" date="18.04.2015" id="4204099" static_id="18041523525892340370" status="FT" time="08:15">
-<home goals="3" id="2352589" name="Libis"></home>
-<away goals="2" id="2340370" name="Kladno"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4086526" alternate_id_2="4320840" date="12.04.2015" id="4204093" static_id="12041523404452351206" status="FT" time="14:30">
-<home goals="5" id="2340445" name="Brozany"></home>
-<away goals="1" id="2351206" name="Zatec"></away>
-<events>
-</events>
-<ht score="[3-1]"></ht>
-</match><match alternate_id="4086524" alternate_id_2="4320842" date="12.04.2015" id="4204091" static_id="12041523403992352589" status="Pen." time="14:30">
-<home goals="0" id="2340399" name="Neratovice"></home>
-<away goals="0" id="2352589" name="Libis"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="7" visitorteam="8"></penalty>
-</match></league><league country="czech" name="Czech Republic: Division C" cup="False" id="3015" sub_id="30152"><match alternate_id="4086641" alternate_id_2="4317389" date="29.04.2015" id="4204208" static_id="29041523553932340368" status="FT" time="15:00">
+</match></league><league country="czech" name="Czech Republic: Division C" cup="False" id="3015" sub_id="30152"><match alternate_id="4086675" alternate_id_2="4327257" date="02.05.2015" id="4204242" static_id="02051523553932340472" status="15:00" time="15:00">
+<home goals="?" id="2355393" name="Ceska Trebova"></home>
+<away goals="?" id="2340472" name="Tyniste n. Orl."></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086670" alternate_id_2="4327258" date="02.05.2015" id="4204237" static_id="02051523403332340381" status="15:00" time="15:00">
+<home goals="?" id="2340333" name="Dobrovice"></home>
+<away goals="?" id="2340381" name="Letohrad"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086672" alternate_id_2="4327352" date="02.05.2015" id="4204239" static_id="02051523527782351207" status="15:00" time="15:00">
+<home goals="?" id="2352778" name="Jablonec n. Jiz."></home>
+<away goals="?" id="2351207" name="Pardubice B"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086674" alternate_id_2="4327259" date="02.05.2015" id="4204241" static_id="02051523404492353832" status="15:00" time="15:00">
+<home goals="?" id="2340449" name="Zivanice"></home>
+<away goals="?" id="2353832" name="Vysoké Mýto"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4086641" alternate_id_2="4317389" date="29.04.2015" id="4204208" static_id="29041523553932340368" status="FT" time="15:00">
 <home goals="0" id="2355393" name="Ceska Trebova"></home>
 <away goals="1" id="2340368" name="Usti nad Orlici"></away>
 <events>
@@ -814,12 +799,6 @@
 <events>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4086656" alternate_id_2="4322709" date="19.04.2015" id="4204223" static_id="19041523553922340368" status="FT" time="15:00">
-<home goals="1" id="2355392" name="Benatky"></home>
-<away goals="0" id="2340368" name="Usti nad Orlici"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4086652" alternate_id_2="4322710" date="19.04.2015" id="4204219" static_id="19041523403392349648" status="FT" time="15:00">
 <home goals="2" id="2340339" name="Dvur Kralove"></home>
 <away goals="1" id="2349648" name="Trutnov"></away>
@@ -832,27 +811,32 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4086658" alternate_id_2="4320909" date="18.04.2015" id="4204225" static_id="18041523553932340324" status="Pen." time="15:00">
-<home goals="1" id="2355393" name="Ceska Trebova"></home>
-<away goals="1" id="2340324" name="Cesky Brod"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-<penalty localteam="4" visitorteam="3"></penalty>
-</match><match alternate_id="4086659" alternate_id_2="4320912" date="18.04.2015" id="4204226" static_id="18041523404722353832" status="FT" time="15:00">
-<home goals="0" id="2340472" name="Tyniste n. Orl."></home>
-<away goals="3" id="2353832" name="Vysoké Mýto"></away>
-<events>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4086657" alternate_id_2="4320901" date="18.04.2015" id="4204224" static_id="18041523404492351207" status="Pen." time="15:00">
-<home goals="1" id="2340449" name="Zivanice"></home>
-<away goals="1" id="2351207" name="Pardubice B"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-<penalty localteam="5" visitorteam="4"></penalty>
-</match></league><league country="czech" name="Czech Republic: Division D" cup="False" id="3015" sub_id="30153"><match alternate_id="4015415" alternate_id_2="4291092" date="29.04.2015" id="4133035" static_id="29041523497312340398" status="FT" time="15:00">
+</match></league><league country="czech" name="Czech Republic: Division D" cup="False" id="3015" sub_id="30153"><match alternate_id="4015450" alternate_id_2="4325657" date="02.05.2015" id="4133070" static_id="02051523403072340473" status="14:30" time="14:30">
+<home goals="?" id="2340307" name="Blansko"></home>
+<away goals="?" id="2340473" name="Uhersky Brod"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4327415" date="02.05.2015" id="" static_id="02051523552952340406" status="14:30" time="14:30">
+<home goals="?" id="2355295" name="Havlickuv Brod"></home>
+<away goals="?" id="2340406" name="Pelhrimov"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015444" alternate_id_2="4325602" date="02.05.2015" id="4133064" static_id="02051523403982349730" status="14:30" time="14:30">
+<home goals="?" id="2340398" name="Napajedla"></home>
+<away goals="?" id="2349730" name="Tasovice"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015443" alternate_id_2="4325641" date="02.05.2015" id="4133063" static_id="02051523404812352602" status="14:30" time="14:30">
+<home goals="?" id="2340481" name="Otrokovice"></home>
+<away goals="?" id="2352602" name="Bystrice n. P."></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015449" alternate_id_2="4325579" date="02.05.2015" id="4133069" static_id="02051523404422340498" status="14:30" time="14:30">
+<home goals="?" id="2340442" name="Rosice"></home>
+<away goals="?" id="2340498" name="Zdar na Sazavou"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015415" alternate_id_2="4291092" date="29.04.2015" id="4133035" static_id="29041523497312340398" status="FT" time="15:00">
 <home goals="2" id="2349731" name="Vrchovina"></home>
 <away goals="0" id="2340398" name="Napajedla"></away>
 <events>
@@ -936,43 +920,38 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4015433" alternate_id_2="4321144" date="18.04.2015" id="4133053" static_id="18041523403072353836" status="FT" time="14:00">
-<home goals="1" id="2340307" name="Blansko"></home>
-<away goals="1" id="2353836" name="Stara Rise"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="4015432" alternate_id_2="4321145" date="18.04.2015" id="4133052" static_id="18041523404422340406" status="FT" time="14:00">
 <home goals="3" id="2340442" name="Rosice"></home>
 <away goals="1" id="2340406" name="Pelhrimov"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4015434" alternate_id_2="4321146" date="18.04.2015" id="4133054" static_id="18041523404732340498" status="FT" time="14:00">
-<home goals="3" id="2340473" name="Uhersky Brod"></home>
-<away goals="0" id="2340498" name="Zdar na Sazavou"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4015427" alternate_id_2="4321143" date="18.04.2015" id="4133047" static_id="18041523404812340398" status="FT" time="13:00">
-<home goals="4" id="2340481" name="Otrokovice"></home>
-<away goals="1" id="2340398" name="Napajedla"></away>
-<events>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4015418" alternate_id_2="4291056" date="15.04.2015" id="4133038" static_id="15041523404422340421" status="FT" time="14:30">
-<home goals="0" id="2340442" name="Rosice"></home>
-<away goals="0" id="2340421" name="Hodonin"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4015425" alternate_id_2="4319424" date="12.04.2015" id="4133045" static_id="12041523497302355295" status="FT" time="13:30">
-<home goals="2" id="2349730" name="Tasovice"></home>
-<away goals="0" id="2355295" name="Havlickuv Brod"></away>
-<events>
-</events>
-<ht score="[2-0]"></ht>
-</match></league><league country="czech" name="Czech Republic: Division E" cup="False" id="3015" sub_id="30154"><match alternate_id="4015632" alternate_id_2="4291107" date="29.04.2015" id="4133252" static_id="29041523404792340477" status="FT" time="14:30">
+</match></league><league country="czech" name="Czech Republic: Division E" cup="False" id="3015" sub_id="30154"><match alternate_id="4015663" alternate_id_2="4325580" date="02.05.2015" id="4133283" static_id="02051523512122340435" status="14:30" time="14:30">
+<home goals="?" id="2351212" name="Prerov"></home>
+<away goals="?" id="2340435" name="Slavicin"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015665" alternate_id_2="4325619" date="02.05.2015" id="4133285" static_id="02051523403662349732" status="14:30" time="14:30">
+<home goals="?" id="2340366" name="Rymarov"></home>
+<away goals="?" id="2349732" name="Liskovec"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015664" alternate_id_2="4325603" date="02.05.2015" id="4133284" static_id="02051523404772340361" status="14:30" time="14:30">
+<home goals="?" id="2340477" name="Valasske Mezirici"></home>
+<away goals="?" id="2340361" name="Hranice"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015666" alternate_id_2="4325620" date="02.05.2015" id="4133286" static_id="02051523404792349973" status="14:30" time="14:30">
+<home goals="?" id="2340479" name="Velke Karlovice"></home>
+<away goals="?" id="2349973" name="Novy Jicin"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015668" alternate_id_2="4325581" date="02.05.2015" id="4133288" static_id="02051523404882340334" status="14:30" time="14:30">
+<home goals="?" id="2340488" name="Vitkovice"></home>
+<away goals="?" id="2340334" name="Dolni Benesov"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015632" alternate_id_2="4291107" date="29.04.2015" id="4133252" static_id="29041523404792340477" status="FT" time="14:30">
 <home goals="1" id="2340479" name="Velke Karlovice"></home>
 <away goals="1" id="2340477" name="Valasske Mezirici"></away>
 <events>
@@ -1056,42 +1035,12 @@
 <events>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4015647" alternate_id_2="4320881" date="18.04.2015" id="4133267" static_id="18041523512122340477" status="FT" time="14:00">
-<home goals="0" id="2351212" name="Prerov"></home>
-<away goals="2" id="2340477" name="Valasske Mezirici"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4015648" alternate_id_2="4320891" date="18.04.2015" id="4133268" static_id="18041523403662340435" status="FT" time="14:00">
-<home goals="4" id="2340366" name="Rymarov"></home>
-<away goals="0" id="2340435" name="Slavicin"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4015654" alternate_id_2="4320853" date="18.04.2015" id="4133274" static_id="18041523540432340394" status="FT" time="14:00">
 <home goals="0" id="2354043" name="Urcice"></home>
 <away goals="1" id="2340394" name="Mohelnice"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4015649" alternate_id_2="4320854" date="18.04.2015" id="4133269" static_id="18041523404792340361" status="FT" time="14:00">
-<home goals="1" id="2340479" name="Velke Karlovice"></home>
-<away goals="0" id="2340361" name="Hranice"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4015651" alternate_id_2="4320855" date="18.04.2015" id="4133271" static_id="18041523404882349973" status="FT" time="14:00">
-<home goals="1" id="2340488" name="Vitkovice"></home>
-<away goals="1" id="2349973" name="Novy Jicin"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4015643" alternate_id_2="4320852" date="12.04.2015" id="4133263" static_id="12041523497322340488" status="FT" time="13:30">
-<home goals="1" id="2349732" name="Liskovec"></home>
-<away goals="0" id="2340488" name="Vitkovice"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="czech" name="Czech Republic: Pohar Ceske Posty" cup="False" id="3355" sub_id="33550"><match alternate_id="4124965" alternate_id_2="4326363" date="29.04.2015" id="4242508" static_id="29041523403922340362" status="FT" time="17:10">
 <home goals="1" id="2340392" name="Mlada Boleslav"></home>
 <away goals="2" id="2340362" name="Jablonec"></away>
@@ -1849,16 +1798,13 @@
 <event id="21929817" minute="82" player="M. Sivric" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4083887" alternate_id_2="4291630" date="10.01.2015" id="4201456" static_id="10011523403372340322" status="FT" time="10:00">
-<home goals="6" id="2340337" name="Dukla Prague"></home>
-<away goals="0" id="2340322" name="Ceske Budejovice"></away>
+</match><match alternate_id="4083886" alternate_id_2="4291629" date="10.01.2015" id="4201455" static_id="10011523403152340426" status="FT" time="10:00">
+<home goals="0" id="2340315" name="Brno"></home>
+<away goals="2" id="2340426" name="Sigma Olomouc"></away>
 <events>
-<event id="21929804" minute="27" player="J. Mares" playerid="2346690" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21929805" minute="35" player="R. Polom" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21929806" minute="45+1" player="T. Berger" playerid="2418079" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21929807" minute="67" player="J. Mares" playerid="2346690" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21929808" minute="76" player="T. Berger" playerid="2418079" result="[5 - 0]" team="home" type="goal"></event>
-<event id="21929809" minute="82" player="T. Berger" playerid="2418079" result="[6 - 0]" team="home" type="goal"></event>
+<event id="21929794" minute="45" player="D. Cana" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21929795" minute="75" player="L. Buchvaldek" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21929796" minute="85" player="T. Chory (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[3-0]"></ht>
+<ht score="[0-0]"></ht>
 </match></league></recent_results>

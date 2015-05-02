@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.05.2015 00:40:18" sport="soccer" country="holland"><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="3988329" alternate_id_2="4325168" date="26.04.2015" id="4105951" static_id="26041523452932345030" status="FT" time="14:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:20" sport="soccer" country="holland"><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="3988329" alternate_id_2="4325168" date="26.04.2015" id="4105951" static_id="26041523452932345030" status="FT" time="14:45">
 <home goals="0" id="2345293" name="Twente"></home>
 <away goals="2" id="2345030" name="AZ Alkmaar"></away>
 <events>
@@ -295,56 +295,123 @@
 <event id="20137536" minute="88" player="L. Burnet" playerid="2466713" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="holland" name="Netherlands: Eerste Divisie" cup="False" id="3156" sub_id="31560"><match alternate_id="4002109" alternate_id_2="4326409" date="01.05.2015" id="4119731" static_id="01051523451892345227" status="18:00" time="18:00">
-<home goals="?" id="2345189" name="Almere City"></home>
-<away goals="?" id="2345227" name="Roda"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3905919" alternate_id_2="4326435" date="01.05.2015" id="4023672" static_id="01051523450832345280" status="18:00" time="18:00">
-<home goals="?" id="2345083" name="Emmen"></home>
-<away goals="?" id="2345280" name="Telstar"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002106" alternate_id_2="4326444" date="01.05.2015" id="4119728" static_id="01051523450552345102" status="18:00" time="18:00">
-<home goals="?" id="2345055" name="Graafschap"></home>
-<away goals="?" id="2345102" name="Sittard"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002111" alternate_id_2="4326436" date="01.05.2015" id="4119733" static_id="01051523451262345007" status="18:00" time="18:00">
-<home goals="?" id="2345126" name="Helmond"></home>
-<away goals="?" id="2345007" name="Achilles 29"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002110" alternate_id_2="4326410" date="01.05.2015" id="4119732" static_id="01051523451472345082" status="18:00" time="18:00">
-<home goals="?" id="2345147" name="Jong FC Twente"></home>
-<away goals="?" id="2345082" name="Eindhoven FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002105" alternate_id_2="4326445" date="01.05.2015" id="4119727" static_id="01051523451712345062" status="18:00" time="18:00">
-<home goals="?" id="2345171" name="Maastricht"></home>
-<away goals="?" id="2345062" name="Den Bosch"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002107" alternate_id_2="4326453" date="01.05.2015" id="4119729" static_id="01051523451732345144" status="18:00" time="18:00">
-<home goals="?" id="2345173" name="Nijmegen"></home>
-<away goals="?" id="2345144" name="Jong Ajax"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002108" alternate_id_2="4326411" date="01.05.2015" id="4119730" static_id="01051523451922345251" status="18:00" time="18:00">
-<home goals="?" id="2345192" name="Oss"></home>
-<away goals="?" id="2345251" name="Sparta Rotterdam"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002103" alternate_id_2="4326412" date="01.05.2015" id="4119725" static_id="01051523453052345314" status="18:00" time="18:00">
-<home goals="?" id="2345305" name="Volendam"></home>
-<away goals="?" id="2345314" name="Venlo"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002104" alternate_id_2="4326437" date="01.05.2015" id="4119726" static_id="01051523452122345150" status="18:00" time="18:00">
-<home goals="?" id="2345212" name="Waalwijk"></home>
-<away goals="?" id="2345150" name="Jong PSV"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="holland" name="Netherlands: Eerste Divisie" cup="False" id="3156" sub_id="31560"><match alternate_id="4002109" alternate_id_2="4326409" date="01.05.2015" id="4119731" static_id="01051523451892345227" status="FT" time="18:00">
+<home goals="0" id="2345189" name="Almere City"></home>
+<away goals="1" id="2345227" name="Roda"></away>
+<events>
+<event id="22277594" minute="8" player="M. Paulissen" playerid="2547554" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22277595" minute="77" player="B. Biemans" playerid="2404214" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="3905919" alternate_id_2="4326435" date="01.05.2015" id="4023672" static_id="01051523450832345280" status="FT" time="18:00">
+<home goals="4" id="2345083" name="Emmen"></home>
+<away goals="0" id="2345280" name="Telstar"></away>
+<events>
+<event id="22277854" minute="46" player="A. Bannink" playerid="2435374" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22277855" minute="51" player="T. Siekman" playerid="2381726" result="" team="home" type="yellowcard"></event>
+<event id="22277856" minute="57" player="B. Deul" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22277857" minute="60" player="B. Deul" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22277858" minute="76" player="L. Resida" playerid="2578141" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002106" alternate_id_2="4326444" date="01.05.2015" id="4119728" static_id="01051523450552345102" status="FT" time="18:00">
+<home goals="3" id="2345055" name="Graafschap"></home>
+<away goals="0" id="2345102" name="Sittard"></away>
+<events>
+<event id="22277944" minute="17" player="K. Vida" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22277945" minute="36" player="V. Vermeij" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22277946" minute="49" player="K. Tarfi" playerid="2448056" result="" team="home" type="yellowcard"></event>
+<event id="22277947" minute="59" player="V. Vermeij" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22277948" minute="82" player="R. Propper" playerid="2547061" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4002111" alternate_id_2="4326436" date="01.05.2015" id="4119733" static_id="01051523451262345007" status="FT" time="18:00">
+<home goals="3" id="2345126" name="Helmond"></home>
+<away goals="1" id="2345007" name="Achilles 29"></away>
+<events>
+<event id="22277864" minute="56" player="O. Diouck" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22277865" minute="56" player="S. Edwards" playerid="2475850" result="" team="away" type="yellowcard"></event>
+<event id="22277866" minute="73" player="S. Elbers" playerid="2524605" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22277867" minute="84" player="O. Diouck" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22277868" minute="86" player="K. Visser" playerid="2468953" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22277869" minute="90+1" player="S. Edwards" playerid="2475850" result="[3 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002110" alternate_id_2="4326410" date="01.05.2015" id="4119732" static_id="01051523451472345082" status="FT" time="18:00">
+<home goals="0" id="2345147" name="Jong FC Twente"></home>
+<away goals="1" id="2345082" name="Eindhoven FC"></away>
+<events>
+<event id="22277604" minute="43" player="S. De Wilde" playerid="2598864" result="" team="away" type="yellowcard"></event>
+<event id="22277605" minute="49" player="J. van Son" playerid="2381448" result="" team="away" type="yellowcard"></event>
+<event id="22277606" minute="84" player="L. Bleker" playerid="2601094" result="" team="home" type="yellowcard"></event>
+<event id="22277607" minute="86" player="T. Swinnen" playerid="2638596" result="" team="away" type="yellowcard"></event>
+<event id="22277608" minute="90" player="J. Sleegers" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002105" alternate_id_2="4326445" date="01.05.2015" id="4119727" static_id="01051523451712345062" status="FT" time="18:00">
+<home goals="3" id="2345171" name="Maastricht"></home>
+<away goals="0" id="2345062" name="Den Bosch"></away>
+<events>
+<event id="22277954" minute="53" player="M. van Huijgevoort" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277955" minute="73" player="M. Veldmate" playerid="2381391" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22277956" minute="75" player="J. Thomassen" playerid="2624805" result="" team="away" type="yellowcard"></event>
+<event id="22277957" minute="76" player="M. Veldmate" playerid="2381391" result="" team="home" type="yellowcard"></event>
+<event id="22277958" minute="76" player="T. Hofstede" playerid="2396858" result="" team="away" type="yellowcard"></event>
+<event id="22277959" minute="83" player="B. Maguire" playerid="2393174" result="" team="away" type="redcard"></event>
+<event id="22277960" minute="85" player="B. Smeets" playerid="2429138" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22277961" minute="88" player="N. Vorthoren" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002107" alternate_id_2="4326453" date="01.05.2015" id="4119729" static_id="01051523451732345144" status="FT" time="18:00">
+<home goals="2" id="2345173" name="Nijmegen"></home>
+<away goals="1" id="2345144" name="Jong Ajax"></away>
+<events>
+<event id="22278034" minute="16" player="C. Santos" playerid="2435187" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22278035" minute="33" player="N. Foor" playerid="2488911" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22278036" minute="85" player="T. Noordhoff" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22278037" minute="87" player="D. van Bruggen" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4002108" alternate_id_2="4326411" date="01.05.2015" id="4119730" static_id="01051523451922345251" status="FT" time="18:00">
+<home goals="1" id="2345192" name="Oss"></home>
+<away goals="5" id="2345251" name="Sparta Rotterdam"></away>
+<events>
+<event id="22277614" minute="23" player="P. Gladon" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22277615" minute="33" player="I. Bakx" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22277616" minute="44" player="L. Koopmans" playerid="2480892" result="" team="home" type="redcard"></event>
+<event id="22277617" minute="45+3" player="P. Gladon (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22277618" minute="45+4" player="J. Mathieu" playerid="" result="" team="home" type="redcard"></event>
+<event id="22277619" minute="45+5" player="R. Kortsmit" playerid="2532829" result="" team="away" type="redcard"></event>
+<event id="22277620" minute="62" player="P. Gladon" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22277621" minute="66" player="J. Falkenstein" playerid="2435258" result="[1 - 3]" team="home" type="goal"></event>
+<event id="22277622" minute="68" player="D. Mahmudov" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="201789643" minute="77" player="T. Verhaar" playerid="" result="[1 - 5]" team="away" type="goal"></event>
+<event id="201789644" minute="84" player="G. Snijders" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4002103" alternate_id_2="4326412" date="01.05.2015" id="4119725" static_id="01051523453052345314" status="FT" time="18:00">
+<home goals="1" id="2345305" name="Volendam"></home>
+<away goals="1" id="2345314" name="Venlo"></away>
+<events>
+<event id="22277624" minute="20" player="G. Joppen" playerid="2381549" result="" team="away" type="yellowcard"></event>
+<event id="22277625" minute="62" player="M. Platje" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22277626" minute="64" player="S. Akouili" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22277627" minute="73" player="Q. Kruijsen" playerid="2469436" result="" team="away" type="yellowcard"></event>
+<event id="22277628" minute="73" player="R. Voorn" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277629" minute="74" player="K. Brands" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002104" alternate_id_2="4326437" date="01.05.2015" id="4119726" static_id="01051523452122345150" status="FT" time="18:00">
+<home goals="2" id="2345212" name="Waalwijk"></home>
+<away goals="2" id="2345150" name="Jong PSV"></away>
+<events>
+<event id="22277874" minute="11" player="F. Marquet" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22277875" minute="63" player="S. Bergwijn" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22277876" minute="69" player="S. van Zeelst" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22277877" minute="90" player="F. van Mosselveld" playerid="2334239" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22277878" minute="90+3" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="3905878" alternate_id_2="4324195" date="24.04.2015" id="4023632" static_id="24041523450072345055" status="FT" time="18:00">
 <home goals="1" id="2345007" name="Achilles 29"></home>
 <away goals="3" id="2345055" name="Graafschap"></away>
@@ -866,20 +933,25 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="4" visitorteam="5"></penalty>
-</match><match alternate_id="4077309" alternate_id_2="4276639" date="29.10.2014" id="4194917" static_id="29101423450442345276" status="AET" time="19:00">
-<home goals="2" id="2345044" name="Cambuur"></home>
-<away goals="0" id="2345276" name="Scheveningen"></away>
+</match><match alternate_id="4077311" alternate_id_2="4276641" date="29.10.2014" id="4194919" static_id="29101423451012345113" status="FT" time="19:00">
+<home goals="1" id="2345101" name="Flevo Boys"></home>
+<away goals="8" id="2345113" name="Groningen"></away>
 <events>
-<event id="21779894" minute="7" player="D. Slijngard" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21779895" minute="59" player="M. Ros" playerid="2535919" result="" team="away" type="yellowcard"></event>
-<event id="21779896" minute="60" player="L. Schwiebbe" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21779897" minute="90+2" player="L. Schwiebbe" playerid="" result="" team="away" type="yellowred"></event>
-<event id="21779898" minute="94" player="W. Goeman" playerid="2587912" result="" team="away" type="yellowcard"></event>
-<event id="21779899" minute="105+1" player="B. Ogbeche" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21779900" minute="106" player="M. Nieuwlaat" playerid="2535926" result="" team="away" type="yellowcard"></event>
-<event id="21779901" minute="120+1" player="B. Schepers" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21779914" minute="8" player="Botteghin" playerid="2381491" result="" team="away" type="yellowcard"></event>
+<event id="21779915" minute="16" player="A. Post" playerid="2475912" result="" team="home" type="yellowcard"></event>
+<event id="21779916" minute="22" player="D. Hoesen" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21779917" minute="28" player="Y. van Nieff" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21779918" minute="40" player="M. de Leeuw" playerid="2419658" result="[0 - 3]" team="away" type="goal"></event>
+<event id="21779919" minute="44" player="P. Bergtop" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="21779920" minute="66" player="D. Islamovic" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="21779921" minute="67" player="M. de Leeuw" playerid="2419658" result="[1 - 5]" team="away" type="goal"></event>
+<event id="21779922" minute="69" player="D. van der Wal" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="196812643" minute="70" player="M. de Leeuw" playerid="2419658" result="[1 - 6]" team="away" type="goal"></event>
+<event id="196812644" minute="72" player="M. de Leeuw" playerid="2419658" result="[1 - 7]" team="away" type="goal"></event>
+<event id="196812645" minute="81" player="D. Islamovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="196812646" minute="90" player="J. Kappelhof" playerid="2472989" result="[1 - 8]" team="away" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-3]"></ht>
 </match><match alternate_id="4077318" alternate_id_2="4276651" date="29.10.2014" id="4194926" static_id="29101423453052345254" status="FT" time="19:00">
 <home goals="3" id="2345305" name="Volendam"></home>
 <away goals="0" id="2345254" name="Sportlust"></away>

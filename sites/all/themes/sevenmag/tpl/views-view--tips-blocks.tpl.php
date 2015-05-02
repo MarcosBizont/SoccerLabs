@@ -3,12 +3,11 @@
 if(inplay_is_anonymus())
 {
 	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please <a href="/">register</a> and enjoy your free trial') . "</div>";
+	// ToDo : Randomly shows tips, try to take in consideration session
 }
 elseif(!inplay_is_member())
-if(!inplay_is_member())
 {
-	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";	
-	//exit();
+	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
 }
 else
 {
