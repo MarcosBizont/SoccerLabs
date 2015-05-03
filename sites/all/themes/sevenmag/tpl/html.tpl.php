@@ -86,6 +86,9 @@
 	$layout_temp = theme_get_setting('layout', 'sevenmag');
 	if(!empty($layout_temp))
 		$layout = $layout_temp;
+
+if(current_path() != "node/99865")
+{
 ?>
 <!--Start of Zopim Live Chat Script-->
 <script type="text/javascript">
@@ -97,6 +100,9 @@ $.src='//v2.zopim.com/?2xsZOzHP9YWvmlc2aDuA2dRCwhWlNpry';z.t=+new Date;$.
 type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 <!--End of Zopim Live Chat Script-->
+<?php 
+	}
+?>
 <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];

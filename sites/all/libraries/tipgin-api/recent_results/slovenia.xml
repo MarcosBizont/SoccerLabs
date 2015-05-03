@@ -1,28 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:41:16" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002703" alternate_id_2="4324157" date="02.05.2015" id="4120325" static_id="02051523473022347353" status="18:05" time="18:05">
-<home goals="?" id="2347302" name="Domzale"></home>
-<away goals="?" id="2347353" name="Velenje"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002704" alternate_id_2="4324158" date="02.05.2015" id="4120326" static_id="02051523473482347335" status="18:00" time="18:00">
-<home goals="?" id="2347348" name="Zavrc"></home>
-<away goals="?" id="2347335" name="NK Krka"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002705" alternate_id_2="4324473" date="02.05.2015" id="4120327" static_id="02051523473012347311" status="16:00" time="16:00">
-<home goals="?" id="2347301" name="Celje"></home>
-<away goals="?" id="2347311" name="Koper"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002706" alternate_id_2="4324209" date="02.05.2015" id="4120328" static_id="02051523473052347314" status="15:00" time="15:00">
-<home goals="?" id="2347305" name="ND Gorica"></home>
-<away goals="?" id="2347314" name="Maribor"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002707" alternate_id_2="4324201" date="02.05.2015" id="4120329" static_id="02051523473502351276" status="14:00" time="14:00">
-<home goals="?" id="2347350" name="O. Ljubljana"></home>
-<away goals="?" id="2351276" name="Radomlje"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:12" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002703" alternate_id_2="4324157" date="02.05.2015" id="4120325" static_id="02051523473022347353" status="FT" time="18:05">
+<home goals="4" id="2347302" name="Domzale"></home>
+<away goals="0" id="2347353" name="Velenje"></away>
+<events>
+<event id="22255074" minute="2" player="D. Zec" playerid="2370500" result="" team="home" type="yellowcard"></event>
+<event id="22255075" minute="23" player="D. Klinar" playerid="2468207" result="" team="away" type="redcard"></event>
+<event id="22255076" minute="26" player="A. Sisic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255077" minute="30" player="R. Vancas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22255078" minute="32" player="R. Vancas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255079" minute="38" player="D. Zec" playerid="2370500" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22255080" minute="63" player="M. Crnic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255081" minute="81" player="B. Morel" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22255082" minute="89" player="A. Ozbolt" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4002704" alternate_id_2="4324158" date="02.05.2015" id="4120326" static_id="02051523473482347335" status="FT" time="18:00">
+<home goals="0" id="2347348" name="Zavrc"></home>
+<away goals="1" id="2347335" name="NK Krka"></away>
+<events>
+<event id="22255084" minute="28" player="N. Zizic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22255085" minute="31" player="A. Vuckic" playerid="2415990" result="" team="away" type="yellowcard"></event>
+<event id="22255086" minute="71" player="J. Ihbeisheh" playerid="2467749" result="" team="away" type="yellowcard"></event>
+<event id="22255087" minute="80" player="L. Bogdan" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255088" minute="82" player="J. Ihbeisheh" playerid="2467749" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002705" alternate_id_2="4324473" date="02.05.2015" id="4120327" static_id="02051523473012347311" status="FT" time="16:00">
+<home goals="3" id="2347301" name="Celje"></home>
+<away goals="2" id="2347311" name="Koper"></away>
+<events>
+<event id="22258234" minute="4" player="G. Galesic" playerid="2366960" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22258235" minute="13" player="D. Crnigoj" playerid="2574643" result="" team="away" type="yellowcard"></event>
+<event id="22258236" minute="15" player="J. Andrejasic" playerid="2634375" result="" team="away" type="yellowcard"></event>
+<event id="22258237" minute="34" player="A. Rahmanovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22258238" minute="36" player="M. Gregoric" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22258239" minute="45" player="A. Rahmanovic" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22258240" minute="45+1" player="A. Rahmanovic" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22258241" minute="45+3" player="M. Gregoric" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22258242" minute="56" player="G. Galesic" playerid="2366960" result="" team="away" type="yellowcard"></event>
+<event id="201595843" minute="61" player="J. Sporn" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="201595844" minute="66" player="S. Omoregie" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="201595845" minute="79" player="M. Pucko" playerid="2475087" result="" team="away" type="yellowcard"></event>
+<event id="201595846" minute="81" player="S. Gobec" playerid="2352962" result="" team="home" type="yellowcard"></event>
+<event id="201595847" minute="85" player="S. Gobec" playerid="2352962" result="[3 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4002706" alternate_id_2="4324209" date="02.05.2015" id="4120328" static_id="02051523473052347314" status="FT" time="15:00">
+<home goals="1" id="2347305" name="ND Gorica"></home>
+<away goals="1" id="2347314" name="Maribor"></away>
+<events>
+<event id="22255594" minute="9" player="A. Mertelj" playerid="2376205" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22255595" minute="16" player="M. Sirok" playerid="2451993" result="" team="home" type="redcard"></event>
+<event id="22255596" minute="22" player="J. Mendy" playerid="2343843" result="" team="away" type="yellowcard"></event>
+<event id="22255597" minute="37" player="L. Pasqualini" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255598" minute="47" player="M. Johnson" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255599" minute="65" player="S. Napoli" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255600" minute="73" player="D. Vrsic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22255601" minute="74" player="B. Eleke" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22255602" minute="90+3" player="G. Sorcan" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4002707" alternate_id_2="4324201" date="02.05.2015" id="4120329" static_id="02051523473502351276" status="FT" time="14:00">
+<home goals="3" id="2347350" name="O. Ljubljana"></home>
+<away goals="1" id="2351276" name="Radomlje"></away>
+<events>
+<event id="22255514" minute="11" player="R. Baskera" playerid="2543052" result="" team="home" type="yellowcard"></event>
+<event id="22255515" minute="28" player="A. D. Mlinar" playerid="2415872" result="" team="home" type="yellowcard"></event>
+<event id="22255516" minute="31" player="A. Sporar" playerid="2532167" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22255517" minute="31" player="A. Zukic" playerid="2436692" result="" team="away" type="yellowcard"></event>
+<event id="22255518" minute="45" player="S. Babic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22255519" minute="58" player="E. Henty" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22255520" minute="68" player="A. Sporar" playerid="2532167" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22255521" minute="73" player="I. Barukcic" playerid="2532199" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22255522" minute="88" player="L. Vrhunc" playerid="2435674" result="" team="away" type="yellowcard"></event>
+<event id="201568643" minute="90+3" player="E. Henty" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4002702" alternate_id_2="4322536" date="29.04.2015" id="4120324" static_id="29041523473022347348" status="FT" time="18:00">
 <home goals="2" id="2347302" name="Domzale"></home>
 <away goals="3" id="2347348" name="Zavrc"></away>
@@ -237,21 +289,38 @@
 <away goals="?" id="2351276" name="Radomlje"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="slovenia" name="Slovenia: 2. Snl" cup="False" id="3220" sub_id="32200"><match alternate_id="4119309" alternate_id_2="4322415" date="02.05.2015" id="4236853" static_id="02051523473122347345" status="17:00" time="17:00">
-<home goals="?" id="2347312" name="Krsko"></home>
-<away goals="?" id="2347345" name="Tolmin"></away>
+</match></league><league country="slovenia" name="Slovenia: 2. Snl" cup="False" id="3220" sub_id="32200"><match alternate_id="4119307" alternate_id_2="4322416" date="03.05.2015" id="4236851" static_id="03051523496732347360" status="15:00" time="15:00">
+<home goals="?" id="2349673" name="NK Smartno"></home>
+<away goals="?" id="2347360" name="Sencur"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4119310" alternate_id_2="4322413" date="02.05.2015" id="4236854" static_id="02051523472972347322" status="15:00" time="15:00">
-<home goals="?" id="2347297" name="Aluminij"></home>
-<away goals="?" id="2347322" name="Ankaran Hrvatini"></away>
+</match><match alternate_id="4119311" alternate_id_2="4322417" date="03.05.2015" id="4236855" static_id="03051523473652347326" status="15:00" time="15:00">
+<home goals="?" id="2347365" name="Triglav"></home>
+<away goals="?" id="2347326" name="Dob"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4119308" alternate_id_2="4322414" date="02.05.2015" id="4236852" static_id="02051523473042347356" status="15:00" time="15:00">
-<home goals="?" id="2347304" name="Dravinja"></home>
-<away goals="?" id="2347356" name="Verzej"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4119309" alternate_id_2="4322415" date="02.05.2015" id="4236853" static_id="02051523473122347345" status="FT" time="17:00">
+<home goals="0" id="2347312" name="Krsko"></home>
+<away goals="1" id="2347345" name="Tolmin"></away>
+<events>
+<event id="22237654" minute="70" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4119310" alternate_id_2="4322413" date="02.05.2015" id="4236854" static_id="02051523472972347322" status="FT" time="15:00">
+<home goals="2" id="2347297" name="Aluminij"></home>
+<away goals="0" id="2347322" name="Ankaran Hrvatini"></away>
+<events>
+<event id="22237634" minute="38" player="Bizjak" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22237635" minute="43" player="Bizjak" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4119308" alternate_id_2="4322414" date="02.05.2015" id="4236852" static_id="02051523473042347356" status="FT" time="15:00">
+<home goals="0" id="2347304" name="Dravinja"></home>
+<away goals="1" id="2347356" name="Verzej"></away>
+<events>
+<event id="22237644" minute="84" player="Vinkovic" playerid="2638359" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4119303" alternate_id_2="4321252" date="25.04.2015" id="4236847" static_id="25041523473222347365" status="FT" time="15:00">
 <home goals="2" id="2347322" name="Ankaran Hrvatini"></home>
 <away goals="1" id="2347365" name="Triglav"></away>
@@ -355,29 +424,6 @@
 <home goals="2" id="2347356" name="Verzej"></home>
 <away goals="1" id="2347365" name="Triglav"></away>
 <events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4118140" alternate_id_2="4321240" date="04.04.2015" id="4235684" static_id="04041523473122349673" status="FT" time="17:00">
-<home goals="5" id="2347312" name="Krsko"></home>
-<away goals="0" id="2349673" name="NK Smartno"></away>
-<events>
-<event id="22225904" minute="38" player="Pezovnik" playerid="" result="" team="away" type="redcard"></event>
-<event id="22225905" minute="46" player="Jurecic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22225906" minute="54" player="Dvorancic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22225907" minute="58" player="Dvorancic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22225908" minute="65" player="Ceh" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="22225909" minute="69" player="Pavic" playerid="" result="[5 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4118138" alternate_id_2="4321239" date="04.04.2015" id="4235682" static_id="04041523473262347356" status="FT" time="14:00">
-<home goals="5" id="2347326" name="Dob"></home>
-<away goals="0" id="2347356" name="Verzej"></away>
-<events>
-<event id="22225894" minute="16" player="Mirtic" playerid="2475098" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22225895" minute="54" player="Lunder" playerid="2532201" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22225896" minute="77" player="Lunder" playerid="2532201" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22225897" minute="80" player="Mirtic" playerid="2475098" result="[4 - 0]" team="home" type="goal"></event>
-<event id="22225898" minute="85" player="Krcic" playerid="" result="[5 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league><league country="slovenia" name="Slovenia: Slovenian Cup" cup="True" id="3221" sub_id="32210"><match alternate_id="4108158" alternate_id_2="4302972" date="22.04.2015" id="4225712" static_id="22041523473022347311" status="FT" time="15:00">

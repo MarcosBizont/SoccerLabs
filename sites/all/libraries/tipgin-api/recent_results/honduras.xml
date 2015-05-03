@@ -1,28 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:46" sport="soccer" country="honduras"><league country="honduras" name="Honduras: Liga Nacional - Clausura" cup="False" id="3075" sub_id="30752"><match alternate_id="" alternate_id_2="4325469" date="02.05.2015" id="" static_id="02051523392962337866" status="21:30" time="21:30">
-<home goals="?" id="2339296" name="Olimpia"></home>
-<away goals="?" id="2337866" name="Platense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4093536" alternate_id_2="4325470" date="02.05.2015" id="4093536" static_id="02051523541042342859" status="21:30" time="21:30">
-<home goals="?" id="2354104" name="Parrillas O."></home>
-<away goals="?" id="2342859" name="Victoria"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4093688" alternate_id_2="4325471" date="02.05.2015" id="4093688" static_id="02051523428562355506" status="21:30" time="21:30">
-<home goals="?" id="2342856" name="Real Espana"></home>
-<away goals="?" id="2355506" name="CD Honduras"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4093535" alternate_id_2="4324980" date="02.05.2015" id="4093535" static_id="02051523479502342853" status="21:30" time="21:30">
-<home goals="?" id="2347950" name="Real Sociedad"></home>
-<away goals="?" id="2342853" name="Motagua"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4093537" alternate_id_2="4325472" date="02.05.2015" id="4093537" static_id="02051523428602342852" status="21:30" time="21:30">
-<home goals="?" id="2342860" name="Vida"></home>
-<away goals="?" id="2342852" name="Marathon"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:45" sport="soccer" country="honduras"><league country="honduras" name="Honduras: Liga Nacional - Clausura" cup="False" id="3075" sub_id="30752"><match alternate_id="" alternate_id_2="4325469" date="02.05.2015" id="" static_id="02051523392962337866" status="FT" time="21:30">
+<home goals="2" id="2339296" name="Olimpia"></home>
+<away goals="0" id="2337866" name="Platense"></away>
+<events>
+<event id="2331834" minute="16" player="Estupinan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="90" player="Lozano" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4093536" alternate_id_2="4325470" date="02.05.2015" id="4093536" static_id="02051523541042342859" status="FT" time="21:30">
+<home goals="2" id="2354104" name="Parrillas O."></home>
+<away goals="1" id="2342859" name="Victoria"></away>
+<events>
+<event id="19948864" minute="8" player="Rodriguez (pen.)" playerid="2639353" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19948865" minute="12" player="Hernandez" playerid="2375775" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19948866" minute="50" player="Zuniga" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4093688" alternate_id_2="4325471" date="02.05.2015" id="4211254" static_id="02051523428562355506" status="FT" time="21:30">
+<home goals="2" id="2342856" name="Real Espana"></home>
+<away goals="4" id="2355506" name="CD Honduras"></away>
+<events>
+<event id="19950384" minute="20" player="Alvarado (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19950385" minute="22" player="Ocampo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="19950386" minute="44" player="Nunez" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="19950387" minute="54" player="Acosta (pen.)" playerid="2446890" result="[2 - 2]" team="home" type="goal"></event>
+<event id="19950388" minute="67" player="Lobo" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="19950389" minute="90" player="Morales" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4093535" alternate_id_2="4324980" date="02.05.2015" id="4093535" static_id="02051523479502342853" status="FT" time="21:30">
+<home goals="1" id="2347950" name="Real Sociedad"></home>
+<away goals="0" id="2342853" name="Motagua"></away>
+<events>
+<event id="19948854" minute="16" player="Batiz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4093537" alternate_id_2="4325472" date="02.05.2015" id="4093537" static_id="02051523428602342852" status="FT" time="21:30">
+<home goals="0" id="2342860" name="Vida"></home>
+<away goals="1" id="2342852" name="Marathon"></away>
+<events>
+<event id="19948874" minute="22" player="Vega" playerid="2531523" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19948875" minute="83" player="Santos" playerid="2571495" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4315146" date="26.04.2015" id="" static_id="26041523428562347950" status="FT" time="01:00">
 <home goals="1" id="2342856" name="Real Espana"></home>
 <away goals="1" id="2347950" name="Real Sociedad"></away>

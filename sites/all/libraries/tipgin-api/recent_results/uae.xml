@@ -1,18 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:41:22" sport="soccer" country="uae"><league country="uae" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="3929124" alternate_id_2="4325121" date="02.05.2015" id="4046864" static_id="02051523490622349085" status="16:45" time="16:45">
-<home goals="?" id="2349062" name="Ajman"></home>
-<away goals="?" id="2349085" name="Emirates Club"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4003014" alternate_id_2="4325122" date="02.05.2015" id="4120636" static_id="02051523490822349080" status="16:45" time="16:45">
-<home goals="?" id="2349082" name="Al Fujairah"></home>
-<away goals="?" id="2349080" name="Al Wasl"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4003012" alternate_id_2="4325162" date="02.05.2015" id="4120634" static_id="02051523490662349089" status="14:15" time="14:15">
-<home goals="?" id="2349066" name="Al Dhafra"></home>
-<away goals="?" id="2349089" name="Al Sharjah"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:18" sport="soccer" country="uae"><league country="uae" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="3929124" alternate_id_2="4325121" date="02.05.2015" id="4046864" static_id="02051523490622349085" status="FT" time="16:45">
+<home goals="2" id="2349062" name="Ajman"></home>
+<away goals="4" id="2349085" name="Emirates Club"></away>
+<events>
+<event id="18304744" minute="19" player="Alexandro" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="18304745" minute="27" player="Hussain J. I." playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="18304746" minute="32" player="Kabi B." playerid="2397107" result="[1 - 2]" team="home" type="goal"></event>
+<event id="18304747" minute="41" player="Malalla A.Abdulhadi N." playerid="" result="" team="home" type=""></event>
+<event id="18304748" minute="41" player="Mubarek W." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="18304749" minute="42" player="Alexandro" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="18304750" minute="45+2" player="Fettouhi D." playerid="2374102" result="[2 - 3]" team="home" type="goal"></event>
+<event id="18304751" minute="57" player="Saleh Abdulla Basheer" playerid="2395978" result="" team="home" type="yellowcard"></event>
+<event id="18304752" minute="62" player="Abbas M. M.Al Antaly M." playerid="" result="" team="home" type=""></event>
+<event id="162060943" minute="72" player="Fettouhi D." playerid="2374102" result="" team="home" type="yellowcard"></event>
+<event id="162060944" minute="72" player="Abdalla T.Saleh Abdulla Basheer" playerid="" result="" team="home" type=""></event>
+<event id="162060945" minute="75" player="Kabi B." playerid="2397107" result="" team="home" type="yellowcard"></event>
+<event id="162060946" minute="83" player="Alexandro" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+<event id="162060947" minute="86" player="Ali A.Hussain J. I." playerid="" result="" team="away" type=""></event>
+<event id="162060948" minute="87" player="Ali H.Sami Anbar" playerid="" result="" team="away" type=""></event>
+<event id="162060949" minute="90" player="Waleed Ahmed Hassan" playerid="2544832" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-3]"></ht>
+</match><match alternate_id="4003014" alternate_id_2="4325122" date="02.05.2015" id="4120636" static_id="02051523490822349080" status="FT" time="16:45">
+<home goals="1" id="2349082" name="Al Fujairah"></home>
+<away goals="4" id="2349080" name="Al Wasl"></away>
+<events>
+<event id="19043644" minute="3" player="Lima F." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19043645" minute="6" player="Al Hammadi H." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="19043646" minute="32" player="Bougherra M." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="19043647" minute="46" player="Khalfan M.Kazim A." playerid="" result="" team="away" type=""></event>
+<event id="19043648" minute="50" player="Caio" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="19043649" minute="73" player="Yousuf H.Saeed M." playerid="" result="" team="home" type=""></event>
+<event id="19043650" minute="77" player="Ederson" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="19043651" minute="78" player="Khameis E.Maatouk H." playerid="" result="" team="home" type=""></event>
+<event id="19043652" minute="81" player="Khameis E." playerid="2600009" result="" team="home" type="yellowcard"></event>
+<event id="169449943" minute="90+2" player="Lima F." playerid="" result="[1 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4003012" alternate_id_2="4325162" date="02.05.2015" id="4120634" static_id="02051523490662349089" status="FT" time="14:15">
+<home goals="2" id="2349066" name="Al Dhafra"></home>
+<away goals="0" id="2349089" name="Al Sharjah"></away>
+<events>
+<event id="19043624" minute="14" player="Ali Al Hammadi" playerid="2518395" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19043625" minute="15" player="Al N. A." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="19043626" minute="23" player="Abdulraheem Jumaa" playerid="2411453" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19043627" minute="59" player="Juma O.Surour M." playerid="" result="" team="away" type=""></event>
+<event id="19043628" minute="66" player="Abdulraheem Jumaa" playerid="2411453" result="" team="home" type="yellowcard"></event>
+<event id="19043629" minute="73" player="Al Khoory M.Ali Al Hammadi" playerid="" result="" team="home" type=""></event>
+<event id="19043630" minute="83" player="Ahmed E.Darwish A." playerid="" result="" team="away" type=""></event>
+<event id="19043631" minute="85" player="Zayed H.Jumaa Ab." playerid="" result="" team="home" type=""></event>
+<event id="19043632" minute="89" player="Qassim M.Saif Mohamed" playerid="" result="" team="home" type=""></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4003010" alternate_id_2="4324969" date="01.05.2015" id="4120632" static_id="01051523490632349079" status="FT" time="16:45">
 <home goals="1" id="2349063" name="Al Ahli Dubai"></home>
 <away goals="1" id="2349079" name="Al Wahda"></away>

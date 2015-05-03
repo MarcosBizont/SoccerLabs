@@ -1,18 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:43" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4122772" alternate_id_2="4324564" date="02.05.2015" id="4240316" static_id="02051523413422341350" status="16:00" time="16:00">
-<home goals="?" id="2341342" name="Kalju"></home>
-<away goals="?" id="2341350" name="Narva"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124692" alternate_id_2="4324565" date="02.05.2015" id="4242235" static_id="02051523413152350920" status="16:00" time="16:00">
-<home goals="?" id="2341315" name="Paide Linnameeskond"></home>
-<away goals="?" id="2350920" name="Tulevik"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4098602" alternate_id_2="4324563" date="02.05.2015" id="4216162" static_id="02051523413292341363" status="13:30" time="13:30">
-<home goals="?" id="2341329" name="Flora"></home>
-<away goals="?" id="2341363" name="Levadia"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:41" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4122772" alternate_id_2="4324564" date="02.05.2015" id="4240316" static_id="02051523413422341350" status="FT" time="16:00">
+<home goals="4" id="2341342" name="Kalju"></home>
+<away goals="1" id="2341350" name="Narva"></away>
+<events>
+<event id="22259144" minute="14" player="A. Kimbaloula" playerid="2488660" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22259145" minute="34" player="M. Reginald" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22259146" minute="49" player="V. Andrejev" playerid="2357709" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22259147" minute="54" player="R. Nesterovski" playerid="2357705" result="" team="away" type="yellowcard"></event>
+<event id="22259148" minute="54" player="H. Wakui (pen.)" playerid="2418770" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22259149" minute="56" player="J. Lindpere" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22259150" minute="61" player="V. Zils" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22259151" minute="66" player="V. Zils" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22259152" minute="69" player="R. Nesterovski" playerid="2357705" result="" team="away" type="yellowred"></event>
+<event id="201604943" minute="86" player="T. Neemelo" playerid="2403730" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4124692" alternate_id_2="4324565" date="02.05.2015" id="4242235" static_id="02051523413152350920" status="FT" time="16:00">
+<home goals="0" id="2341315" name="Paide Linnameeskond"></home>
+<away goals="3" id="2350920" name="Tulevik"></away>
+<events>
+<event id="22259154" minute="4" player="J. Tamm" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22259155" minute="30" player="G. Juhkam" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22259156" minute="65" player="J. Tamm" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22259157" minute="65" player="J. Tamm" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22259158" minute="77" player="J. Tamm" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4098602" alternate_id_2="4324563" date="02.05.2015" id="4216162" static_id="02051523413292341363" status="FT" time="13:30">
+<home goals="0" id="2341329" name="Flora"></home>
+<away goals="1" id="2341363" name="Levadia"></away>
+<events>
+<event id="22259134" minute="34" player="K. Luigend" playerid="2452718" result="" team="home" type="yellowcard"></event>
+<event id="22259135" minute="45" player="P. Marin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22259136" minute="62" player="I. Teever" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22259137" minute="76" player="R. Peetson" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22259138" minute="90+2" player="J. Laitinen" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4098601" alternate_id_2="4324133" date="01.05.2015" id="4216161" static_id="01051523413382341383" status="FT" time="16:00">
 <home goals="4" id="2341338" name="Sillamäe Kalev"></home>
 <away goals="0" id="2341383" name="Tammeka Tartu"></away>
@@ -195,7 +218,12 @@
 <event id="22175882" minute="86" player="D. Ratnikov" playerid="2357668" result="[3 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[1-2]"></ht>
-</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4325292" date="01.05.2015" id="" static_id="01051523560832353651" status="FT" time="11:00">
+</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4323617" date="03.05.2015" id="" static_id="03051523413432341330" status="16:00" time="16:00">
+<home goals="?" id="2341343" name="Nomme Kalju II"></home>
+<away goals="?" id="2341330" name="Flora II"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4325292" date="01.05.2015" id="" static_id="01051523560832353651" status="FT" time="11:00">
 <home goals="2" id="2356083" name="Infonet II"></home>
 <away goals="1" id="2353651" name="Vandra Vaprus"></away>
 <events>
@@ -363,14 +391,6 @@
 <event id="22178878" minute="78" player="Saaremets" playerid="" result="[5 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4314959" date="12.04.2015" id="" static_id="12041523413302341357" status="FT" time="13:30">
-<home goals="1" id="2341330" name="Flora II"></home>
-<away goals="1" id="2341357" name="Kivioli Irbis"></away>
-<events>
-<event id="22163094" minute="47" player="Gussev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22163095" minute="88" player="Ounap" playerid="2491944" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="estonia" name="Estonia: Esi Liiga - Promotion" cup="False" id="3802" sub_id=""><match alternate_id="" alternate_id_2="4290678" date="22.11.2014" id="" static_id="22111423413552350920" status="FT" time="11:00">
 <home goals="1" id="2341355" name="Johvi Lokomotiv"></home>
 <away goals="1" id="2350920" name="Tulevik"></away>

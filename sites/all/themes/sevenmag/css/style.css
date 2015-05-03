@@ -5726,6 +5726,38 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 		display: none !important;
 	}
 	
+	/* Fixed header */
+	.head {
+	    position: fixed;
+	    width: 100%;
+	    z-index: 999;
+	    top: 0px;
+	}
+	.precontentinhome {
+		padding-top: 145px;
+	}
+	.not-front .page-content
+	{
+		padding-top: 50px;
+	}
+	
+	#header .logo img {
+	    height: 40px !important;
+	    margin: 5px !important;
+	}
+	
+	a.btn_canvas.mymenuone {
+	    display: block;
+	    float: right;
+	    height: 5px;
+	    margin: 20px 0 0;
+	}
+
+	a.btn_canvas.mymenuone i {
+	    display: block;
+	    font-size: 14px;
+	    padding: 0;
+	}
 }
 .bar-point .review-result { background-color: #55b2f3; }
 .review-wrapper, .review-title, .review-desc p{ color: #3f3f3f;}

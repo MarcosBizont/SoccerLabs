@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:41:15" sport="soccer" country="slovakia"><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4003847" alternate_id_2="4314128" date="29.04.2015" id="4121469" static_id="29041523472542347275" status="FT" time="14:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:12" sport="soccer" country="slovakia"><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4003847" alternate_id_2="4314128" date="29.04.2015" id="4121469" static_id="29041523472542347275" status="FT" time="14:30">
 <home goals="2" id="2347254" name="Podbrezova"></home>
 <away goals="1" id="2347275" name="Myjava"></away>
 <events>
@@ -248,11 +248,18 @@
 <event id="22157419" minute="77" player="M. Dobrotka" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="slovakia" name="Slovakia: 2. Liga - West - Relegation Group" cup="False" id="4371" sub_id=""><match alternate_id="" alternate_id_2="4321413" date="02.05.2015" id="" static_id="02051523472272352969" status="14:30" time="14:30">
-<home goals="?" id="2347227" name="Dubnica"></home>
-<away goals="?" id="2352969" name="Pohronie"></away>
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - West - Relegation Group" cup="False" id="4371" sub_id=""><match alternate_id="" alternate_id_2="4321415" date="03.05.2015" id="" static_id="03051523472772347250" status="08:30" time="08:30">
+<home goals="?" id="2347277" name="Trnava B"></home>
+<away goals="?" id="2347250" name="Nove Mesto"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4321413" date="02.05.2015" id="" static_id="02051523472272352969" status="FT" time="14:30">
+<home goals="1" id="2347227" name="Dubnica"></home>
+<away goals="0" id="2352969" name="Pohronie"></away>
+<events>
+<event id="22227634" minute="68" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4321414" date="01.05.2015" id="" static_id="01051523500622347271" status="FT" time="15:00">
 <home goals="0" id="2350062" name="Samorin"></home>
 <away goals="6" id="2347271" name="S. Bratislava B"></away>
@@ -535,11 +542,21 @@
 <event id="21904095" minute="90" player="A. Ngeyitala" playerid="" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="slovakia" name="Slovakia: 2. Liga - East - Relegation Group" cup="False" id="4370" sub_id=""><match alternate_id="4118242" alternate_id_2="4321431" date="02.05.2015" id="4235786" static_id="02051523472252347269" status="14:30" time="14:30">
-<home goals="?" id="2347225" name="D. Kubin"></home>
-<away goals="?" id="2347269" name="Trebisov"></away>
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - East - Relegation Group" cup="False" id="4370" sub_id=""><match alternate_id="4118243" alternate_id_2="4321432" date="03.05.2015" id="4235787" static_id="03051523472392351128" status="14:30" time="14:30">
+<home goals="?" id="2347239" name="Kosice B"></home>
+<away goals="?" id="2351128" name="Lok. Kosice"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4118242" alternate_id_2="4321431" date="02.05.2015" id="4235786" static_id="02051523472252347269" status="FT" time="14:30">
+<home goals="4" id="2347225" name="D. Kubin"></home>
+<away goals="0" id="2347269" name="Trebisov"></away>
+<events>
+<event id="22227814" minute="2" player="Jurky" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22227815" minute="50" player="Sani" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22227816" minute="70" player="Jurky" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22227817" minute="79" player="Sani" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4118241" alternate_id_2="4321430" date="01.05.2015" id="4235785" static_id="01051523472212347260" status="FT" time="15:00">
 <home goals="1" id="2347221" name="Moldava"></home>
 <away goals="0" id="2347260" name="Rimavska Sobota"></away>
@@ -800,31 +817,48 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="slovakia" name="Slovakia: 2. Liga - Promotion Group" cup="False" id="3619" sub_id=""><match alternate_id="" alternate_id_2="4324499" date="02.05.2015" id="" static_id="02051523472482347256" status="15:30" time="15:30">
-<home goals="?" id="2347248" name="Nitra"></home>
-<away goals="?" id="2347256" name="Poprad"></away>
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - Promotion Group" cup="False" id="3619" sub_id=""><match alternate_id="" alternate_id_2="4324500" date="03.05.2015" id="" static_id="03051523483232347281" status="14:30" time="14:30">
+<home goals="?" id="2348323" name="Sered"></home>
+<away goals="?" id="2347281" name="L. Mikulas"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4323077" date="02.05.2015" id="" static_id="02051523500592347266" status="14:30" time="14:30">
-<home goals="?" id="2350059" name="Bardejov"></home>
-<away goals="?" id="2347266" name="SK Senec"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4322911" date="02.05.2015" id="" static_id="02051523472822347488" status="14:30" time="14:30">
-<home goals="?" id="2347282" name="Presov"></home>
-<away goals="?" id="2347488" name="Sala"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4323070" date="02.05.2015" id="" static_id="02051523472932355707" status="14:30" time="14:30">
-<home goals="?" id="2347293" name="Zilina B"></home>
-<away goals="?" id="2355707" name="Michalovce"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4323191" date="02.05.2015" id="" static_id="02051523472442354099" status="14:30" time="14:30">
-<home goals="?" id="2347244" name="Zvolen"></home>
-<away goals="?" id="2354099" name="Skalica"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4324499" date="02.05.2015" id="" static_id="02051523472482347256" status="FT" time="15:30">
+<home goals="3" id="2347248" name="Nitra"></home>
+<away goals="1" id="2347256" name="Poprad"></away>
+<events>
+<event id="22258494" minute="29" player="Smehyl" playerid="2486368" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22258495" minute="71" player="Urblik" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22258496" minute="80" player="Paukner" playerid="2514044" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22258497" minute="87" player="Orenic" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4323077" date="02.05.2015" id="" static_id="02051523500592347266" status="FT" time="14:30">
+<home goals="1" id="2350059" name="Bardejov"></home>
+<away goals="1" id="2347266" name="SK Senec"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4322911" date="02.05.2015" id="" static_id="02051523472822347488" status="FT" time="14:30">
+<home goals="1" id="2347282" name="Presov"></home>
+<away goals="1" id="2347488" name="Sala"></away>
+<events>
+<event id="22242614" minute="23" player="Gesnabel" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22242615" minute="45" player="Tubonemi" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4323070" date="02.05.2015" id="" static_id="02051523472932355707" status="FT" time="14:30">
+<home goals="0" id="2347293" name="Zilina B"></home>
+<away goals="1" id="2355707" name="Michalovce"></away>
+<events>
+<event id="22244204" minute="35" player="Bayon" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4323191" date="02.05.2015" id="" static_id="02051523472442354099" status="FT" time="14:30">
+<home goals="0" id="2347244" name="Zvolen"></home>
+<away goals="1" id="2354099" name="Skalica"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4328390" date="28.04.2015" id="" static_id="28041523472932347244" status="FT" time="15:00">
 <home goals="1" id="2347293" name="Zilina B"></home>
 <away goals="1" id="2347244" name="Zvolen"></away>
@@ -923,16 +957,6 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4321440" date="11.04.2015" id="" static_id="11041523557072347488" status="FT" time="13:30">
-<home goals="4" id="2355707" name="Michalovce"></home>
-<away goals="0" id="2347488" name="Sala"></away>
-<events>
-<event id="22227904" minute="12" player="Bayon" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22227905" minute="22" player="Kunca" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22227906" minute="68" player="Perez" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22227907" minute="85" player="Bayon" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
 </match></league><league country="slovakia" name="Slovakia: 2. Liga - Relegation" cup="False" id="3619" sub_id=""><match alternate_id="" alternate_id_2="4119657" date="18.06.2014" id="" static_id="18061423472812347233" status="Pen." time="15:00">
 <home goals="0" id="2347281" name="L. Mikulas"></home>
 <away goals="0" id="2347233" name="Humenne"></away>

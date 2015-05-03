@@ -172,11 +172,6 @@
     margin-left: 5px;
 }
 
-.views-row-last
-{
-	margin-bottom: 40px;
-}
-
 
 /**/
 
@@ -201,5 +196,21 @@
 {
 	display: none;
 }
+
+/* loading */
+
+#block-views-in-play-mobile-block-3 .gamerow.toploadingsidebarsmall.loadingnow div,
+#block-views-in-play-mobile-block-3 .gamerow.bottomloadingsidebarsmall.loadingnow div
+{
+	background: url(../img/Ball.gif) no-repeat center top;
+	background-size: 20px;
+	width: 20px;
+	height: 20px;
+	margin: 0px auto 0px auto;
+	zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	
+
 
 

@@ -80,7 +80,7 @@ function inplay_init() {
 			$_SESSION['inplay_competitions'] = '';	
 		}
 		
-		_inplay_start_session_time(9);
+		_inplay_start_session_time(3);
 			
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay_mobile.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay_mobile.css', array('weight' => 11));
@@ -129,6 +129,27 @@ function inplay_init() {
 		'type' => MENU_CALLBACK
     );
     
+    $items['inplaym/loadnew/gamerows'] = array(
+		'title' => 'Add new rows on scroll (mobile)',
+		'page callback' => '_inplaym_loadnew_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplaym/loadold/gamerows'] = array(
+		'title' => 'Add old rows on scroll (mobile)',
+		'page callback' => '_inplaym_loadold_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplaym/loadinplay/gamerows'] = array(
+		'title' => 'Add in play rows on scroll (mobile)',
+		'page callback' => '_inplaym_loadinplay_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
     $items['admin/config/inplay'] = array(
 		'title' => 'Inplay settings',
 		'description' => 'Settings for inplay',
@@ -168,7 +189,9 @@ function inplay_settings_admin() {
   return system_settings_form($form);
 }
 
-function _inplay_loadnew_gamerows()
+
+// Functions to load rows
+function _inplay_loadnew_gamerows($viewname = 'real_time')
 {
 	$rowsbyload = 15;
 	$original_start = $_SESSION['inplay_session_time_start'];
@@ -177,7 +200,7 @@ function _inplay_loadnew_gamerows()
 	$_SESSION['inplay_session_time_start'] = $_SESSION['inplay_session_time_end'];
 	$_SESSION['inplay_session_remove_end'] = 1;	
 	
-	$view = views_get_view('real_time');
+	$view = views_get_view($viewname);
 	$view->get_total_rows = TRUE;
 	$view->set_display('block_3');
 	$view->set_items_per_page($rowsbyload);
@@ -195,9 +218,13 @@ function _inplay_loadnew_gamerows()
 	echo $rettext;
 	
 }
+function _inplaym_loadnew_gamerows()
+{
+	_inplay_loadnew_gamerows('in_play_mobile');
+}
 
 
-function _inplay_loadold_gamerows()
+function _inplay_loadold_gamerows($viewname = 'real_time')
 {
 	$rowsbyload = 20;
 	$original_start = $_SESSION['inplay_session_time_start'];
@@ -206,7 +233,7 @@ function _inplay_loadold_gamerows()
 	$_SESSION['inplay_session_time_end'] = $_SESSION['inplay_session_time_start'];
 	$_SESSION['inplay_session_remove_start'] = 1;	
 	
-	$view = views_get_view('real_time');
+	$view = views_get_view($viewname);
 	$view->get_total_rows = TRUE;
 	$view->set_display('block_3');
 	$view->set_items_per_page($rowsbyload);
@@ -222,8 +249,12 @@ function _inplay_loadold_gamerows()
 	
 	echo $rettext;	
 }
+function _inplaym_loadold_gamerows()
+{
+	_inplay_loadold_gamerows('in_play_mobile');	
+}
 
-function _inplay_loadinplay_gamerows()
+function _inplay_loadinplay_gamerows($viewname = 'real_time')
 {
 	$rowsbyload = 500;
 	
@@ -258,7 +289,7 @@ function _inplay_loadinplay_gamerows()
 	
 	$_SESSION['inplay_inplay_nids'] = $nids;
 	
-	$view = views_get_view('real_time');
+	$view = views_get_view($viewname);
 	$view->get_total_rows = TRUE;
 	$view->set_display('block_3');
 	$view->set_items_per_page($rowsbyload);
@@ -270,6 +301,10 @@ function _inplay_loadinplay_gamerows()
 	
 	echo $rettext;		
 	
+}
+function _inplaym_loadinplay_gamerows()
+{
+	_inplay_loadinplay_gamerows('in_play_mobile');		
 }
 
 
@@ -308,7 +343,7 @@ function _inplay_autocomplete_competition($string)
 
 function inplay_search_api_views_query_alter(&$query)
 {
-	if($query->name=='real_time')
+	if($query->name=='real_time' || $query->name=='in_play_mobile' )
 	{
 		$query->query->where[1]['conditions'][1][1] = $_SESSION['inplay_session_time_start'];
 		$query->query->where[1]['conditions'][2][1] = $_SESSION['inplay_session_time_end'];

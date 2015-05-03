@@ -1,8 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:40" sport="soccer" country="denmark"><league country="denmark" name="Denmark: Superliga" cup="False" id="3018" sub_id="30180"><match alternate_id="3997051" alternate_id_2="4323751" date="02.05.2015" id="4114673" static_id="02051523406242340638" status="15:00" time="15:00">
-<home goals="?" id="2340624" name="Silkeborg"></home>
-<away goals="?" id="2340638" name="Sonderjyske"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:39" sport="soccer" country="denmark"><league country="denmark" name="Denmark: Superliga" cup="False" id="3018" sub_id="30180"><match alternate_id="3997050" alternate_id_2="4325583" date="03.05.2015" id="4114672" static_id="03051523406122340539" status="17:00" time="17:00">
+<home goals="?" id="2340612" name="Odense"></home>
+<away goals="?" id="2340539" name="Brondby"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="3997054" alternate_id_2="4324918" date="03.05.2015" id="4114676" static_id="03051523405902340547" status="15:00" time="15:00">
+<home goals="?" id="2340590" name="FC Copenhagen"></home>
+<away goals="?" id="2340547" name="Esbjerg"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="3997055" alternate_id_2="4324437" date="03.05.2015" id="4114677" static_id="03051523406492340606" status="12:00" time="12:00">
+<home goals="?" id="2340649" name="Vestsjaelland"></home>
+<away goals="?" id="2340606" name="Nordsjaelland"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="3997051" alternate_id_2="4323751" date="02.05.2015" id="4114673" static_id="02051523406242340638" status="FT" time="15:00">
+<home goals="2" id="2340624" name="Silkeborg"></home>
+<away goals="2" id="2340638" name="Sonderjyske"></away>
+<events>
+<event id="22251014" minute="39" player="M. Pourie" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22251015" minute="62" player="E. Marxen" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22251016" minute="69" player="M. Beck Andersen" playerid="2398919" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22251017" minute="73" player="N. Madsen" playerid="2374192" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22251018" minute="84" player="P. Kanstrup (o.g.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22251019" minute="90" player="S. Songani" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="3997052" alternate_id_2="4323430" date="01.05.2015" id="4114674" static_id="01051523405062340575" status="FT" time="16:30">
 <home goals="5" id="2340506" name="Aalborg"></home>
 <away goals="0" id="2340575" name="Hobro"></away>
@@ -192,48 +214,34 @@
 <event id="22181688" minute="90+3" player="J. Poulsen" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="3997035" alternate_id_2="4316490" date="12.04.2015" id="4114657" static_id="12041523406062340612" status="FT" time="12:00">
-<home goals="1" id="2340606" name="Nordsjaelland"></home>
-<away goals="2" id="2340612" name="Odense"></away>
-<events>
-<event id="22178404" minute="25" player="A. Busuladzic" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22178405" minute="28" player="M. Spelmann" playerid="2343512" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22178406" minute="40" player="M. Vingaard" playerid="2344853" result="" team="home" type="yellowcard"></event>
-<event id="22178407" minute="90" player="U. Bech" playerid="2470686" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22178408" minute="90+2" player="M. Spelmann" playerid="2343512" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3997033" alternate_id_2="4315659" date="11.04.2015" id="4114655" static_id="11041523406182340649" status="FT" time="15:00">
-<home goals="1" id="2340618" name="Randers FC"></home>
-<away goals="1" id="2340649" name="Vestsjaelland"></away>
-<events>
-<event id="22170094" minute="14" player="R. Festersen" playerid="2427187" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22170095" minute="34" player="M. Ishak" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22170096" minute="90" player="A. Vellios" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="3997034" alternate_id_2="4315198" date="10.04.2015" id="4114656" static_id="10041523405752340547" status="FT" time="16:30">
-<home goals="3" id="2340575" name="Hobro"></home>
-<away goals="1" id="2340547" name="Esbjerg"></away>
-<events>
-<event id="22165484" minute="12" player="D. Larsson" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22165485" minute="22" player="M. Jakobsen" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22165486" minute="23" player="Q. Antipas" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22165487" minute="25" player="M. Hvilsom" playerid="2408509" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22165488" minute="27" player="J. Tjornelund" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22165489" minute="33" player="M. Almeback" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22165490" minute="55" player="M. Lekven" playerid="2339719" result="" team="away" type="yellowcard"></event>
-<event id="22165491" minute="71" player="Q. Antipas" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="22165492" minute="72" player="E. Friberg" playerid="" result="" team="away" type="redcard"></event>
-<event id="200668343" minute="90+1" player="M. Fellah" playerid="2339844" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[2-1]"></ht>
-</match></league><league country="denmark" name="Denmark: Nordicbet Ligaen" cup="False" id="3022" sub_id="30220"><match alternate_id="4033889" alternate_id_2="4324919" date="02.05.2015" id="4151507" static_id="02051523405742340596" status="5" time="12:30">
-<home goals="0" id="2340574" name="Vendsyssel FF"></home>
+</match></league><league country="denmark" name="Denmark: Nordicbet Ligaen" cup="False" id="3022" sub_id="30220"><match alternate_id="4033890" alternate_id_2="4325586" date="03.05.2015" id="4151508" static_id="03051523405162340541" status="13:30" time="13:30">
+<home goals="?" id="2340516" name="Aarhus"></home>
+<away goals="?" id="2340541" name="Bronshoj"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4033888" alternate_id_2="4324920" date="03.05.2015" id="4151506" static_id="03051523405562340514" status="13:00" time="13:00">
+<home goals="?" id="2340556" name="Fredericia"></home>
+<away goals="?" id="2340514" name="AB Copenhagen"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4033891" alternate_id_2="4325138" date="03.05.2015" id="4151509" static_id="03051523405922340577" status="13:00" time="13:00">
+<home goals="?" id="2340592" name="Koge"></home>
+<away goals="?" id="2340577" name="Horsens"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4033887" alternate_id_2="4324921" date="03.05.2015" id="4151505" static_id="03051523406232340627" status="13:00" time="13:00">
+<home goals="?" id="2340623" name="Roskilde"></home>
+<away goals="?" id="2340627" name="Skive"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4033889" alternate_id_2="4324919" date="02.05.2015" id="4151507" static_id="02051523405742340596" status="FT" time="12:30">
+<home goals="2" id="2340574" name="Vendsyssel FF"></home>
 <away goals="0" id="2340596" name="Lyngby"></away>
 <events>
+<event id="22262694" minute="16" player="E. Murga" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22262695" minute="76" player="B. Munk" playerid="2466969" result="[2 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4033886" alternate_id_2="4323992" date="30.04.2015" id="4151504" static_id="30041523406502340647" status="FT" time="16:00">
 <home goals="3" id="2340650" name="Viborg"></home>
 <away goals="3" id="2340647" name="Vejle"></away>
@@ -363,49 +371,36 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4033874" alternate_id_2="4320366" date="12.04.2015" id="4151492" static_id="12041523405142340627" status="FT" time="13:00">
-<home goals="2" id="2340514" name="AB Copenhagen"></home>
-<away goals="1" id="2340627" name="Skive"></away>
-<events>
-<event id="22217164" minute="35" player="R. Hansen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22217165" minute="65" player="L. Olsson" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22217166" minute="82" player="D. Arrieta" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4033875" alternate_id_2="4320397" date="12.04.2015" id="4151493" static_id="12041523405772340516" status="FT" time="13:00">
-<home goals="1" id="2340577" name="Horsens"></home>
-<away goals="1" id="2340516" name="Aarhus"></away>
-<events>
-<event id="22217474" minute="38" player="K. Aabech (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22217475" minute="84" player="A. Bjerregaard" playerid="2487617" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4033872" alternate_id_2="4319652" date="11.04.2015" id="4151490" static_id="11041523405412340623" status="FT" time="13:00">
-<home goals="0" id="2340541" name="Bronshoj"></home>
-<away goals="2" id="2340623" name="Roskilde"></away>
-<events>
-<event id="22210024" minute="45" player="J. Andreasen (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22210025" minute="55" player="S. Crone" playerid="" result="" team="home" type="redcard"></event>
-<event id="22210026" minute="57" player="B. Fetai (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4033871" alternate_id_2="4319434" date="11.04.2015" id="4151489" static_id="11041523406472340556" status="FT" time="13:00">
-<home goals="4" id="2340647" name="Vejle"></home>
-<away goals="0" id="2340556" name="Fredericia"></away>
-<events>
-<event id="22207844" minute="25" player="H. Redzep" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22207845" minute="38" player="V. Davidsen" playerid="2461920" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22207846" minute="52" player="A. Nielsen" playerid="2426849" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22207847" minute="59" player="C. Ege Nielsen" playerid="" result="" team="away" type="redcard"></event>
-<event id="22207848" minute="72" player="J. Rasmussen" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match></league><league country="denmark" name="Denmark: 2nd Division East" cup="False" id="3020" sub_id="30201"><match alternate_id="4015870" alternate_id_2="4326190" date="02.05.2015" id="4133490" static_id="02051523406222340562" status="13:00" time="13:00">
-<home goals="?" id="2340622" name="Rishoj"></home>
-<away goals="?" id="2340562" name="Gentofte-Vangede"></away>
+</match></league><league country="denmark" name="Denmark: 2nd Division East" cup="False" id="3020" sub_id="30201"><match alternate_id="4015875" alternate_id_2="4327267" date="03.05.2015" id="4133495" static_id="03051523406082340579" status="13:00" time="13:00">
+<home goals="?" id="2340608" name="Nykobing"></home>
+<away goals="?" id="2340579" name="Hvidovre"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4015868" alternate_id_2="4325587" date="02.05.2015" id="4133488" static_id="02051523405672340637" status="81" time="11:00">
+</match><match alternate_id="4015874" alternate_id_2="4327266" date="03.05.2015" id="4133494" static_id="03051523552552340526" status="11:30" time="11:30">
+<home goals="?" id="2355255" name="Holbaek"></home>
+<away goals="?" id="2340526" name="B.93"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015871" alternate_id_2="4327264" date="03.05.2015" id="4133491" static_id="03051523405312340560" status="11:00" time="11:00">
+<home goals="?" id="2340531" name="F. Amager"></home>
+<away goals="?" id="2340560" name="BK Frem"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015872" alternate_id_2="4327265" date="03.05.2015" id="4133492" static_id="03051523405462340525" status="11:00" time="11:00">
+<home goals="?" id="2340546" name="Helsingor"></home>
+<away goals="?" id="2340525" name="B 1908"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4015870" alternate_id_2="4326190" date="02.05.2015" id="4133490" static_id="02051523406222340562" status="FT" time="13:00">
+<home goals="2" id="2340622" name="Rishoj"></home>
+<away goals="1" id="2340562" name="Gentofte-Vangede"></away>
+<events>
+<event id="22275404" minute="2" player="J. Bagger" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22275405" minute="46" player="M. Carlsen" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22275406" minute="67" player="M. Nygaard" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4015868" alternate_id_2="4325587" date="02.05.2015" id="4133488" static_id="02051523405672340637" status="FT" time="11:00">
 <home goals="8" id="2340567" name="Hellerup"></home>
 <away goals="0" id="2340637" name="Sollerod-Ved."></away>
 <events>
@@ -416,15 +411,15 @@
 <event id="22269378" minute="37" player="A. Smed" playerid="" result="[5 - 0]" team="home" type="goal"></event>
 <event id="22269379" minute="48" player="N. Christensen" playerid="" result="[6 - 0]" team="home" type="goal"></event>
 <event id="22269380" minute="58" player="A. Smed" playerid="" result="[7 - 0]" team="home" type="goal"></event>
-<event id="22269381" minute="79" player="" playerid="" result="[8 - 0]" team="home" type="goal"></event>
+<event id="22269381" minute="79" player="K. Thinter" playerid="" result="[8 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[5-0]"></ht>
-</match><match alternate_id="4015869" alternate_id_2="4325588" date="02.05.2015" id="4133489" static_id="02051523405712340523" status="79" time="11:00">
+</match><match alternate_id="4015869" alternate_id_2="4325588" date="02.05.2015" id="4133489" static_id="02051523405712340523" status="FT" time="11:00">
 <home goals="1" id="2340571" name="Herlev"></home>
 <away goals="1" id="2340523" name="Avarta"></away>
 <events>
 <event id="22269384" minute="30" player="C. Offenberg" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22269385" minute="66" player="Y. Nadao" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22269385" minute="66" player="Y. Nadau" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4015873" alternate_id_2="4324924" date="01.05.2015" id="4133493" static_id="01051523406352340524" status="FT" time="11:00">
@@ -543,56 +538,52 @@
 <event id="22247865" minute="66" player="N. Mortensen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4015853" alternate_id_2="4321954" date="18.04.2015" id="4133473" static_id="18041523405252340523" status="FT" time="11:00">
-<home goals="0" id="2340525" name="B 1908"></home>
-<away goals="0" id="2340523" name="Avarta"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4015852" alternate_id_2="4321897" date="18.04.2015" id="4133472" static_id="18041523405672340526" status="FT" time="11:00">
-<home goals="1" id="2340567" name="Hellerup"></home>
-<away goals="2" id="2340526" name="B.93"></away>
-<events>
-<event id="22232474" minute="14" player="N. Christensen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22232475" minute="20" player="D. Mirabel" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22232476" minute="30" player="O. Drost" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4015854" alternate_id_2="4321898" date="18.04.2015" id="4133474" static_id="18041523405712340524" status="FT" time="11:00">
-<home goals="0" id="2340571" name="Herlev"></home>
-<away goals="1" id="2340524" name="Avedore"></away>
-<events>
-<event id="22232484" minute="68" player="M. Wind" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4015857" alternate_id_2="4321899" date="18.04.2015" id="4133477" static_id="18041523406352340562" status="FT" time="11:00">
-<home goals="0" id="2340635" name="Svebolle"></home>
-<away goals="3" id="2340562" name="Gentofte-Vangede"></away>
-<events>
-<event id="22232494" minute="29" player="L. Qvist" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22232495" minute="54" player="C. Petersen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22232496" minute="72" player="L. Qvist" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="denmark" name="Denmark: 2nd Division West" cup="False" id="3020" sub_id="30201"><match alternate_id="4016087" alternate_id_2="4325590" date="02.05.2015" id="4133707" static_id="02051523405332340614" status="13:00" time="13:00">
-<home goals="?" id="2340533" name="Jammerbugt"></home>
-<away goals="?" id="2340614" name="Odder"></away>
+</match></league><league country="denmark" name="Denmark: 2nd Division West" cup="False" id="3020" sub_id="30201"><match alternate_id="4016090" alternate_id_2="4327271" date="03.05.2015" id="4133710" static_id="03051523406102340640" status="12:00" time="12:00">
+<home goals="?" id="2340610" name="Naestved"></home>
+<away goals="?" id="2340640" name="Thisted FC"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4016086" alternate_id_2="4325604" date="02.05.2015" id="4133706" static_id="02051523406092340589" status="13:00" time="13:00">
-<home goals="?" id="2340609" name="Naesby"></home>
-<away goals="?" id="2340589" name="Kolding IF"></away>
+</match><match alternate_id="4016089" alternate_id_2="4327270" date="03.05.2015" id="4133709" static_id="03051523406202340645" status="11:30" time="11:30">
+<home goals="?" id="2340620" name="Ringkobing"></home>
+<away goals="?" id="2340645" name="Varde"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4016084" alternate_id_2="4325589" date="02.05.2015" id="4133704" static_id="02051523405862340532" status="51" time="11:30">
+</match><match alternate_id="4016088" alternate_id_2="4327269" date="03.05.2015" id="4133708" static_id="03051523540452349683" status="11:00" time="11:00">
+<home goals="?" id="2354045" name="Kolding BK"></home>
+<away goals="?" id="2349683" name="Sydvest"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4016087" alternate_id_2="4325590" date="02.05.2015" id="4133707" static_id="02051523405332340614" status="FT" time="13:00">
+<home goals="3" id="2340533" name="Jammerbugt"></home>
+<away goals="1" id="2340614" name="Odder"></away>
+<events>
+<event id="22269404" minute="26" player="S. Gavranovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22269405" minute="35" player="S. Pingel" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22269406" minute="81" player="E. Haucke" playerid="2393061" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22269407" minute="81" player="C. Hansen" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4016086" alternate_id_2="4325604" date="02.05.2015" id="4133706" static_id="02051523406092340589" status="FT" time="13:00">
+<home goals="3" id="2340609" name="Naesby"></home>
+<away goals="2" id="2340589" name="Kolding IF"></away>
+<events>
+<event id="22269544" minute="22" player="M. Orbech" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22269545" minute="45" player="J. Erhenede" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22269546" minute="47" player="M. Orbech" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22269547" minute="65" player="N. Ragus" playerid="2343588" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22269548" minute="78" player="R. Nautrup" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4016084" alternate_id_2="4325589" date="02.05.2015" id="4133704" static_id="02051523405862340532" status="FT" time="11:30">
 <home goals="1" id="2340586" name="Kjellerup"></home>
-<away goals="1" id="2340532" name="Marienlyst"></away>
+<away goals="2" id="2340532" name="Marienlyst"></away>
 <events>
 <event id="22269394" minute="2" player="C. Denius Nielsen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22269395" minute="19" player="E. Petersen" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22269396" minute="79" player="L. Pedersen" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4016083" alternate_id_2="4324930" date="02.05.2015" id="4133703" static_id="02051523406302340636" status="84" time="11:00">
+</match><match alternate_id="4016083" alternate_id_2="4324930" date="02.05.2015" id="4133703" static_id="02051523406302340636" status="FT" time="11:00">
 <home goals="1" id="2340630" name="Skovbakken"></home>
 <away goals="1" id="2340636" name="Svendborg"></away>
 <events>
@@ -709,14 +700,6 @@
 <event id="22247937" minute="90" player="M. Agger" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4016069" alternate_id_2="4321907" date="18.04.2015" id="4133689" static_id="18041523406092340645" status="FT" time="13:00">
-<home goals="1" id="2340609" name="Naesby"></home>
-<away goals="1" id="2340645" name="Varde"></away>
-<events>
-<event id="22232574" minute="35" player="M. Smidt" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22232575" minute="61" player="A. Lagoni" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="4016071" alternate_id_2="4321955" date="18.04.2015" id="4133691" static_id="18041523406142340636" status="FT" time="13:00">
 <home goals="1" id="2340614" name="Odder"></home>
 <away goals="1" id="2340636" name="Svendborg"></away>
@@ -725,24 +708,6 @@
 <event id="22233055" minute="75" player="A. Ullerup Hansen" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4016068" alternate_id_2="4321906" date="18.04.2015" id="4133688" static_id="18041523405382349683" status="FT" time="12:00">
-<home goals="1" id="2340538" name="Brabrand"></home>
-<away goals="1" id="2349683" name="Sydvest"></away>
-<events>
-<event id="22232564" minute="47" player="L. Enevoldsen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22232565" minute="52" player="N. Jensen" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4016067" alternate_id_2="4321905" date="18.04.2015" id="4133687" static_id="18041523406302340589" status="FT" time="11:00">
-<home goals="2" id="2340630" name="Skovbakken"></home>
-<away goals="2" id="2340589" name="Kolding IF"></away>
-<events>
-<event id="22232554" minute="28" player="J. Rittig" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22232555" minute="56" player="R. Nautrup" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22232556" minute="62" player="J. Rittig" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22232557" minute="85" player="M. Fogh" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="denmark" name="Denmark: Landspokal Cup" cup="True" id="3358" sub_id="33580"><match alternate_id="4112015" alternate_id_2="4314120" date="30.04.2015" id="4229565" static_id="30041523405472340590" status="FT" time="17:30">
 <home goals="0" id="2340547" name="Esbjerg"></home>
 <away goals="1" id="2340590" name="FC Copenhagen"></away>

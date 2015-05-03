@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:27" sport="soccer" country="azerbaijan"><league country="azerbaijan" name="Azerbaijan: Premier League" cup="False" id="2927" sub_id="29270"><match alternate_id="4040297" alternate_id_2="4323163" date="02.05.2015" id="4157911" static_id="02051523384222338406" status="14:00" time="14:00">
-<home goals="?" id="2338422" name="Gabala"></home>
-<away goals="?" id="2338406" name="Qarabag"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:26" sport="soccer" country="azerbaijan"><league country="azerbaijan" name="Azerbaijan: Premier League" cup="False" id="2927" sub_id="29270"><match alternate_id="" alternate_id_2="4323164" date="03.05.2015" id="" static_id="" status="Cancl." time="14:00">
+<home goals="?" id="" name="AZAL PFC"></home>
+<away goals="?" id="2354686" name="Araz"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4040296" alternate_id_2="4323162" date="02.05.2015" id="4040296" static_id="02051523513252338410" status="41" time="12:00">
+</match><match alternate_id="4040297" alternate_id_2="4323163" date="02.05.2015" id="4157911" static_id="02051523384222338406" status="FT" time="14:00">
+<home goals="1" id="2338422" name="Gabala"></home>
+<away goals="1" id="2338406" name="Qarabag"></away>
+<events>
+<event id="19416474" minute="55" player="Reynaldo" playerid="2403639" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19416475" minute="90" player="Huseynov C. (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4040296" alternate_id_2="4323162" date="02.05.2015" id="4040296" static_id="02051523513252338410" status="FT" time="12:00">
 <home goals="2" id="2351325" name="FK Baku"></home>
-<away goals="0" id="2338410" name="Khazar Lenkoran"></away>
+<away goals="1" id="2338410" name="Khazar Lenkoran"></away>
 <events>
 <event id="19416464" minute="15" player="Novruzov N. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19416465" minute="23" player=" Novruzov N." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19416465" minute="23" player="Novruzov N." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19416466" minute="56" player="Sadio T." playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="19416467" minute="60" player="" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4040295" alternate_id_2="4323160" date="01.05.2015" id="4157909" static_id="01051523384182338401" status="FT" time="15:00">
@@ -151,14 +161,6 @@
 <away goals="?" id="2354686" name="Araz"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4040274" alternate_id_2="4312699" date="05.04.2015" id="4157888" static_id="05041523384032338410" status="FT" time="13:00">
-<home goals="2" id="2338403" name="Inter Baku"></home>
-<away goals="0" id="2338410" name="Khazar Lenkoran"></away>
-<events>
-<event id="19416244" minute="53" player="Meza C. D. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19416245" minute="76" player="Stankovic V." playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="azerbaijan" name="Azerbaijan: Azerbaijan Cup" cup="True" id="3919" sub_id="39190"><match alternate_id="4124124" alternate_id_2="4318050" date="21.04.2015" id="4124124" static_id="21041523384032338418" status="FT" time="14:00">
 <home goals="2" id="2338403" name="Inter Baku"></home>
 <away goals="1" id="2338418" name="Neftci Baku"></away>

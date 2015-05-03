@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.05.2015 12:40:34" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104026" alternate_id_2="4326422" date="02.05.2015" id="4221581" static_id="02051523398862352222" status="HT" time="11:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:33" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104028" alternate_id_2="4326467" date="03.05.2015" id="4221583" static_id="03051523398852339911" status="11:35" time="11:35">
+<home goals="?" id="2339885" name="Hangzhou Greentown"></home>
+<away goals="?" id="2339911" name="Shanghai SIPG"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4104027" alternate_id_2="4326424" date="03.05.2015" id="4221582" static_id="03051523399182339873" status="11:35" time="11:35">
+<home goals="?" id="2339918" name="Tianjin Teda"></home>
+<away goals="?" id="2339873" name="Changchun Yatai"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4104026" alternate_id_2="4326422" date="02.05.2015" id="4221581" static_id="02051523398862352222" status="FT" time="11:45">
 <home goals="1" id="2339886" name="Henan Jianye"></home>
 <away goals="1" id="2352222" name="Guizhou Renhe"></away>
 <events>
@@ -7,24 +17,41 @@
 <event id="22277726" minute="26" player="Hyuri" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22277727" minute="33" player="Gu Cao" playerid="2360552" result="" team="home" type="yellowcard"></event>
 <event id="22277728" minute="44" player="Hyuri" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22277729" minute="50" player="Rao Weihui" playerid="2455884" result="" team="away" type="yellowcard"></event>
+<event id="22277730" minute="69" player="Shi Liang" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277731" minute="77" player="Ivo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22277732" minute="81" player="E. Gomes" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201790743" minute="84" player="K. Maczynski" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4104022" alternate_id_2="4326423" date="02.05.2015" id="4221577" static_id="02051523398892339893" status="HT" time="11:45">
-<home goals="0" id="2339889" name="Jiangsu Sainty"></home>
+</match><match alternate_id="4104022" alternate_id_2="4326423" date="02.05.2015" id="4221577" static_id="02051523398892339893" status="FT" time="11:45">
+<home goals="1" id="2339889" name="Jiangsu Sainty"></home>
 <away goals="0" id="2339893" name="Shanghai Shenxin"></away>
 <events>
 <event id="22277734" minute="21" player="Shen Xin" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22277735" minute="43" player="K. Sun" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22277736" minute="45+2" player="Sun Ke" playerid="2409245" result="" team="home" type="yellowcard"></event>
+<event id="22277737" minute="55" player="Zou Zhongting" playerid="2360644" result="" team="away" type="yellowcard"></event>
+<event id="22277738" minute="63" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277739" minute="69" player="S. Escudero" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22277740" minute="76" player="Ye Chongqiu" playerid="2455617" result="" team="away" type="yellowcard"></event>
+<event id="22277741" minute="82" player="Yang Xiaotian" playerid="2455827" result="" team="home" type="yellowcard"></event>
+<event id="22277742" minute="90+1" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201790843" minute="90+5" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="201790844" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4104016" alternate_id_2="4325725" date="02.05.2015" id="4221571" static_id="02051523398762339910" status="HT" time="11:35">
-<home goals="1" id="2339876" name="Chongqing Lifan"></home>
-<away goals="1" id="2339910" name="Shandong Luneng"></away>
+</match><match alternate_id="4104016" alternate_id_2="4325725" date="02.05.2015" id="4221571" static_id="02051523398762339910" status="FT" time="11:35">
+<home goals="2" id="2339876" name="Chongqing Lifan"></home>
+<away goals="2" id="2339910" name="Shandong Luneng"></away>
 <events>
 <event id="22270754" minute="6" player="Guto" playerid="2364685" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22270755" minute="21" player="Liu Binbin" playerid="2564965" result="" team="away" type="yellowcard"></event>
 <event id="22270756" minute="26" player="Aloisio" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22270757" minute="49" player="Wang Dong" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22270758" minute="57" player="Liu Binbin" playerid="2564965" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22270759" minute="60" player="E. Gigliotti" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22270760" minute="66" player="Liu Yu" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4104020" alternate_id_2="4325263" date="01.05.2015" id="4221575" static_id="01051523399132339882" status="FT" time="11:45">
@@ -231,33 +258,27 @@
 <event id="22234654" minute="57" player="Mao Jianqing" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4103995" alternate_id_2="4319315" date="18.04.2015" id="4221550" static_id="18041523398932339873" status="FT" time="07:30">
-<home goals="1" id="2339893" name="Shanghai Shenxin"></home>
-<away goals="4" id="2339873" name="Changchun Yatai"></away>
-<events>
-<event id="22206654" minute="59" player="S. Huszti" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22206655" minute="66" player="M. Moreno" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22206656" minute="75" player="S. Huszti" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22206657" minute="80" player="D. Chima Chukwu" playerid="" result="[1 - 3]" team="home" type="goal"></event>
-<event id="22206658" minute="87" player="Yang Jiawei" playerid="2455632" result="" team="home" type="yellowcard"></event>
-<event id="22206659" minute="90+3" player="Z. Du" playerid="" result="[1 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4103989" alternate_id_2="4319314" date="17.04.2015" id="4221544" static_id="17041523398822339885" status="FT" time="12:00">
-<home goals="1" id="2339882" name="Guangzhou Evergrande"></home>
-<away goals="0" id="2339885" name="Hangzhou Greentown"></away>
-<events>
-<event id="22206644" minute="14" player="Elkeson" playerid="2403662" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22206645" minute="63" player="Zhao Xuri" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22206646" minute="76" player="Fang Mei" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22206647" minute="80" player="R. Goulart" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match></league><league country="china" name="China: Jia League" cup="False" id="2995" sub_id=""><match alternate_id="4114657" alternate_id_2="4330649" date="02.05.2015" id="4232205" static_id="02051523399162356141" status="11:30" time="11:30">
-<home goals="?" id="2339916" name="Shenzhen"></home>
-<away goals="?" id="2356141" name="Nei Mongol"></away>
+</match></league><league country="china" name="China: Jia League" cup="False" id="2995" sub_id=""><match alternate_id="4114659" alternate_id_2="4330977" date="03.05.2015" id="4232207" static_id="03051523398702354994" status="07:00" time="07:00">
+<home goals="?" id="2339870" name="Beijing Technology"></home>
+<away goals="?" id="2354994" name="Qingdao Hainiu"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4114658" alternate_id_2="4330978" date="03.05.2015" id="4232206" static_id="03051523550812339868" status="07:00" time="07:00">
+<home goals="?" id="2355081" name="Jiangxi Liansheng"></home>
+<away goals="?" id="2339868" name="Beijing"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4114657" alternate_id_2="4330649" date="02.05.2015" id="4232205" static_id="02051523399162356141" status="FT" time="11:30">
+<home goals="3" id="2339916" name="Shenzhen"></home>
+<away goals="2" id="2356141" name="Nei Mongol"></away>
+<events>
+<event id="22319994" minute="5" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22319995" minute="30" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22319996" minute="68" player="" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22319997" minute="80" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22319998" minute="85" player="" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
 </match><match alternate_id="4114656" alternate_id_2="4330650" date="02.05.2015" id="4232204" static_id="02051523399002349647" status="FT" time="07:30">
 <home goals="1" id="2339900" name="Qingdao Jonoon"></home>
 <away goals="0" id="2349647" name="Wuhan Zall"></away>
@@ -405,27 +426,6 @@
 <event id="22281226" minute="52" player="Adi (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4114637" alternate_id_2="4326773" date="19.04.2015" id="4232185" static_id="19041523398702339926" status="FT" time="06:30">
-<home goals="2" id="2339870" name="Beijing Technology"></home>
-<away goals="4" id="2339926" name="Yanbian"></away>
-<events>
-<event id="22281234" minute="8" player="Steve" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22281235" minute="22" player="Li Xiangbin" playerid="" result="" team="home" type="redcard"></event>
-<event id="22281236" minute="61" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22281237" minute="68" player="(pen.)" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22281238" minute="77" player="" playerid="" result="[1 - 3]" team="home" type="goal"></event>
-<event id="22281239" minute="89" player="" playerid="" result="[2 - 3]" team="home" type="goal"></event>
-<event id="22281240" minute="90" player="" playerid="" result="[2 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4114643" alternate_id_2="4326380" date="18.04.2015" id="4232191" static_id="18041523399162339927" status="FT" time="11:30">
-<home goals="1" id="2339916" name="Shenzhen"></home>
-<away goals="1" id="2339927" name="Harbin Yiteng"></away>
-<events>
-<event id="22277304" minute="44" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22277305" minute="57" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="china" name="China: Fa Cup" cup="True" id="4077" sub_id="40770"><match alternate_id="4119131" alternate_id_2="4321478" date="16.04.2015" id="4236675" static_id="16041523561602350924" status="FT" time="07:30">
 <home goals="0" id="2356160" name="Hangzhou Ange"></home>
 <away goals="2" id="2350924" name="Dalian Aerbin"></away>
