@@ -1,48 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:44" sport="soccer" country="greece"><league country="greece" name="Greece: Super League" cup="False" id="3065" sub_id="30650"><match alternate_id="4007649" alternate_id_2="4326120" date="03.05.2015" id="4125270" static_id="03051523426082342679" status="16:00" time="16:00">
-<home goals="?" id="2342608" name="Atromitos"></home>
-<away goals="?" id="2342679" name="Panionios"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4007648" alternate_id_2="4326122" date="03.05.2015" id="4125269" static_id="03051523426872342622" status="16:00" time="16:00">
-<home goals="?" id="2342687" name="Giannina"></home>
-<away goals="?" id="2342622" name="Ergotelis"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4007646" alternate_id_2="4326121" date="03.05.2015" id="4125267" static_id="03051523426662342676" status="16:00" time="16:00">
-<home goals="?" id="2342666" name="Kerkyra"></home>
-<away goals="?" id="2342676" name="Panathinaikos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4326123" date="03.05.2015" id="" static_id="03051523426602342693" status="Cancl." time="16:00">
-<home goals="?" id="2342660" name="OFI Crete"></home>
-<away goals="?" id="2342693" name="Platanias FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4007647" alternate_id_2="4326119" date="03.05.2015" id="4125268" static_id="03051523426622349811" status="16:00" time="16:00">
-<home goals="?" id="2342662" name="Olympiakos Piraeus"></home>
-<away goals="?" id="2349811" name="Kalloni"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4007650" alternate_id_2="4326878" date="03.05.2015" id="4125271" static_id="03051523426852342650" status="16:00" time="16:00">
-<home goals="?" id="2342685" name="PAOK"></home>
-<away goals="?" id="2342650" name="Levadiakos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4007644" alternate_id_2="4326106" date="03.05.2015" id="4125265" static_id="03051523427142342605" status="16:00" time="16:00">
-<home goals="?" id="2342714" name="Skoda Xanthi"></home>
-<away goals="?" id="2342605" name="Asteras Tripolis"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3953748" alternate_id_2="4326118" date="03.05.2015" id="4071444" static_id="03051523427112342682" status="16:00" time="16:00">
-<home goals="?" id="2342711" name="Veria"></home>
-<away goals="?" id="2342682" name="Panthrakikos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4007643" alternate_id_2="4323313" date="02.05.2015" id="4125264" static_id="02051523426742342658" status="Cancl." time="22:00">
-<home goals="?" id="2342674" name="Panetolikos"></home>
-<away goals="?" id="2342658" name="Niki Volos"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:43" sport="soccer" country="greece"><league country="greece" name="Greece: Super League" cup="False" id="3065" sub_id="30650"><match alternate_id="4007649" alternate_id_2="4326120" date="03.05.2015" id="4125270" static_id="03051523426082342679" status="FT" time="16:00">
+<home goals="3" id="2342608" name="Atromitos"></home>
+<away goals="1" id="2342679" name="Panionios"></away>
+<events>
+<event id="22274704" minute="37" player="S. Napoleoni" playerid="2344597" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22274705" minute="39" player="A. Bakasetas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274706" minute="40" player="P. Mitropoulos" playerid="2480818" result="" team="away" type="yellowcard"></event>
+<event id="22274707" minute="40" player="N. Lazaridis" playerid="2350763" result="" team="home" type="yellowcard"></event>
+<event id="22274708" minute="83" player="L. Agouazi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274709" minute="90+7" player="S. Napoleoni" playerid="2344597" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22274710" minute="90+12" player="S. Napoleoni" playerid="2344597" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22274711" minute="90+15" player="D. Kolovos" playerid="2480823" result="[3 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4007648" alternate_id_2="4326122" date="03.05.2015" id="4125269" static_id="03051523426872342622" status="FT" time="16:00">
+<home goals="0" id="2342687" name="Giannina"></home>
+<away goals="0" id="2342622" name="Ergotelis"></away>
+<events>
+<event id="22274724" minute="82" player="T. Tzimopoulos" playerid="2351469" result="" team="home" type="yellowcard"></event>
+<event id="22274725" minute="86" player="T. Berios" playerid="2429787" result="" team="home" type="yellowcard"></event>
+<event id="22274726" minute="90+3" player="B. Saranov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274727" minute="90+5" player="M. Vellidis" playerid="2402206" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4007646" alternate_id_2="4326121" date="03.05.2015" id="4125267" static_id="03051523426662342676" status="FT" time="16:00">
+<home goals="1" id="2342666" name="Kerkyra"></home>
+<away goals="1" id="2342676" name="Panathinaikos"></away>
+<events>
+<event id="22274714" minute="22" player="N. Karelis" playerid="2360807" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22274715" minute="37" player="S. Ninis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274716" minute="49" player="A. Ajagun" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274717" minute="52" player="J. Diogo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274718" minute="61" player="C. Bourbos" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274719" minute="62" player="A. Kontos (pen.)" playerid="2397199" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22274720" minute="75" player="D. Mendes" playerid="2334043" result="" team="away" type="yellowcard"></event>
+<event id="22274721" minute="78" player="V. Dimitrovski" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4326123" date="03.05.2015" id="" static_id="03051523426602342693" status="Awarded" time="16:00">
+<home goals="0" id="2342660" name="OFI Crete"></home>
+<away goals="3" id="2342693" name="Platanias FC"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4007647" alternate_id_2="4326119" date="03.05.2015" id="4125268" static_id="03051523426622349811" status="FT" time="16:00">
+<home goals="5" id="2342662" name="Olympiakos Piraeus"></home>
+<away goals="0" id="2349811" name="Kalloni"></away>
+<events>
+<event id="22274694" minute="12" player="L. Stevanovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274695" minute="13" player="J. Benitez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22274696" minute="39" player="Fortounis K. (Milivojevic L.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22274697" minute="57" player="A. Dominguez" playerid="2338695" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22274698" minute="72" player="M. Goianira" playerid="2433097" result="" team="away" type="yellowcard"></event>
+<event id="22274699" minute="80" player="K. Mitroglou" playerid="2350958" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22274700" minute="85" player="K. Mitroglou (pen.)" playerid="2350958" result="[5 - 0]" team="home" type="goal"></event>
+<event id="22274701" minute="88" player="J. Durmaz" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4007650" alternate_id_2="4326878" date="03.05.2015" id="4125271" static_id="03051523426852342650" status="FT" time="16:00">
+<home goals="1" id="2342685" name="PAOK"></home>
+<away goals="0" id="2342650" name="Levadiakos"></away>
+<events>
+<event id="22282284" minute="42" player="Zito" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282285" minute="43" player="D. Papadopoulos (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22282286" minute="60" player="E. Kotsios" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282287" minute="87" player="R. Costa" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22282288" minute="88" player="R. Mak" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4007644" alternate_id_2="4326106" date="03.05.2015" id="4125265" static_id="03051523427142342605" status="FT" time="16:00">
+<home goals="0" id="2342714" name="Skoda Xanthi"></home>
+<away goals="0" id="2342605" name="Asteras Tripolis"></away>
+<events>
+<event id="22274564" minute="31" player="F. Alloco" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274565" minute="52" player="Cleyton" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274566" minute="61" player="F. Parra" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274567" minute="65" player="D. Goian" playerid="2336359" result="" team="away" type="yellowcard"></event>
+<event id="22274568" minute="70" player="D. Goian" playerid="2336359" result="" team="away" type="yellowred"></event>
+<event id="22274569" minute="73" player="G. Gianniotas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274570" minute="87" player="B. Lluy" playerid="2405447" result="" team="away" type="yellowcard"></event>
+<event id="22274571" minute="89" player="M. Rolle" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274572" minute="90" player="T. Vasilakakis" playerid="2357270" result="" team="home" type="yellowcard"></event>
+<event id="201759143" minute="90+1" player="N. Fernandez" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="3953748" alternate_id_2="4326118" date="03.05.2015" id="4071444" static_id="03051523427112342682" status="FT" time="16:00">
+<home goals="0" id="2342711" name="Veria"></home>
+<away goals="1" id="2342682" name="Panthrakikos"></away>
+<events>
+<event id="22274684" minute="25" player="Neto" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274685" minute="53" player="G. Kantimiris" playerid="2431071" result="" team="home" type="yellowcard"></event>
+<event id="22274686" minute="82" player="Neto" playerid="" result="" team="home" type="yellowred"></event>
+<event id="22274687" minute="84" player="Igor (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22274688" minute="87" player="N. Kaltsas" playerid="2402238" result="" team="home" type="redcard"></event>
+<event id="22274689" minute="89" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274690" minute="90" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274691" minute="90+4" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274692" minute="90+6" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4007643" alternate_id_2="4323313" date="02.05.2015" id="4125264" static_id="02051523426742342658" status="Awarded" time="22:00">
+<home goals="3" id="2342674" name="Panetolikos"></home>
+<away goals="0" id="2342658" name="Niki Volos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4007642" alternate_id_2="4322981" date="27.04.2015" id="4125263" static_id="27041523426222342666" status="FT" time="16:30">
 <home goals="1" id="2342622" name="Ergotelis"></home>
 <away goals="2" id="2342666" name="Kerkyra"></away>
@@ -330,21 +391,34 @@
 <event id="20086198" minute="90+3" player="G. N'Daw" playerid="2333190" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="greece" name="Greece: Football League - Group 1 - Play Out" cup="False" id="4447" sub_id=""><match alternate_id="" alternate_id_2="4328232" date="03.05.2015" id="" static_id="03051523545442342578" status="14:00" time="14:00">
-<home goals="?" id="2354544" name="Ermionidas-Ermis"></home>
-<away goals="?" id="2342578" name="Acharnaikos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328233" date="03.05.2015" id="" static_id="03051523426732342630" status="14:00" time="14:00">
-<home goals="?" id="2342673" name="Panegialios FC"></home>
-<away goals="?" id="2342630" name="Kallithea"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328234" date="03.05.2015" id="" static_id="03051523498092353360" status="14:00" time="14:00">
-<home goals="?" id="2349809" name="Psachna"></home>
-<away goals="?" id="2353360" name="Episkopi"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="greece" name="Greece: Football League - Group 1 - Play Out" cup="False" id="4447" sub_id=""><match alternate_id="" alternate_id_2="4328232" date="03.05.2015" id="" static_id="03051523545442342578" status="FT" time="14:00">
+<home goals="3" id="2354544" name="Ermionidas-Ermis"></home>
+<away goals="1" id="2342578" name="Acharnaikos"></away>
+<events>
+<event id="22295824" minute="4" player="P. Symelidis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22295825" minute="14" player="A. Papatolios" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22295826" minute="65" player="C. Koutsospyros" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22295827" minute="89" player="S. Omo" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4328233" date="03.05.2015" id="" static_id="03051523426732342630" status="FT" time="14:00">
+<home goals="3" id="2342673" name="Panegialios FC"></home>
+<away goals="1" id="2342630" name="Kallithea"></away>
+<events>
+<event id="22295834" minute="16" player="M. Giannitsis" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22295835" minute="57" player="G. Bourlakis" playerid="2547625" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22295836" minute="77" player="Furtado" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22295837" minute="89" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4328234" date="03.05.2015" id="" static_id="03051523498092353360" status="FT" time="14:00">
+<home goals="2" id="2349809" name="Psachna"></home>
+<away goals="0" id="2353360" name="Episkopi"></away>
+<events>
+<event id="22295844" minute="32" player="Randy" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22295845" minute="90" player="Enrico" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4328229" date="26.04.2015" id="" static_id="26041523425782349809" status="FT" time="14:00">
 <home goals="1" id="2342578" name="Acharnaikos"></home>
 <away goals="0" id="2349809" name="Psachna"></away>
@@ -540,21 +614,30 @@
 <event id="22134314" minute="71" player="J. Gkotsoulias" playerid="" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="greece" name="Greece: Football League - Group 2 - Play Out" cup="False" id="4447" sub_id=""><match alternate_id="" alternate_id_2="4328252" date="03.05.2015" id="" static_id="03051523426942342705" status="14:00" time="14:00">
-<home goals="?" id="2342694" name="A. Asteras"></home>
-<away goals="?" id="2342705" name="Pierikos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328253" date="03.05.2015" id="" static_id="03051523533632342715" status="14:00" time="14:00">
-<home goals="?" id="2353363" name="Aiginiakos"></home>
-<away goals="?" id="2342715" name="Zakynthos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328254" date="03.05.2015" id="" static_id="03051523545342351976" status="14:00" time="14:00">
-<home goals="?" id="2354534" name="Karditsa"></home>
-<away goals="?" id="2351976" name="Tyrnavos"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="greece" name="Greece: Football League - Group 2 - Play Out" cup="False" id="4447" sub_id=""><match alternate_id="" alternate_id_2="4328252" date="03.05.2015" id="" static_id="03051523426942342705" status="FT" time="14:00">
+<home goals="1" id="2342694" name="A. Asteras"></home>
+<away goals="0" id="2342705" name="Pierikos"></away>
+<events>
+<event id="22296024" minute="21" player="D. Skliopidis" playerid="" result="" team="home" type="redcard"></event>
+<event id="22296025" minute="53" player="A. Tsemperidis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328253" date="03.05.2015" id="" static_id="03051523533632342715" status="FT" time="14:00">
+<home goals="1" id="2353363" name="Aiginiakos"></home>
+<away goals="0" id="2342715" name="Zakynthos"></away>
+<events>
+<event id="22296034" minute="44" player="P. Giatsitsoglou" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328254" date="03.05.2015" id="" static_id="03051523545342351976" status="FT" time="14:00">
+<home goals="2" id="2354534" name="Karditsa"></home>
+<away goals="1" id="2351976" name="Tyrnavos"></away>
+<events>
+<event id="22296044" minute="23" player="D. Tzekos" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22296045" minute="30" player="D. Karamanlis" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22296046" minute="58" player="D. Tzekos" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4328249" date="26.04.2015" id="" static_id="26041523427052354534" status="FT" time="13:30">
 <home goals="0" id="2342705" name="Pierikos"></home>
 <away goals="0" id="2354534" name="Karditsa"></away>
@@ -748,7 +831,22 @@
 <event id="22133245" minute="69" player="G. Loukinas" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="greece" name="Greece: Football League - Play Offs" cup="False" id="3068" sub_id=""><match alternate_id="4125090" alternate_id_2="4328209" date="26.04.2015" id="4242633" static_id="26041523426382342580" status="FT" time="15:00">
+</match></league><league country="greece" name="Greece: Football League - Play Offs" cup="False" id="3068" sub_id=""><match alternate_id="4125094" alternate_id_2="4328212" date="04.05.2015" id="4242637" static_id="04051523425802342672" status="15:00" time="15:00">
+<home goals="?" id="2342580" name="AEK"></home>
+<away goals="?" id="2342672" name="Panachaiki"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4125093" alternate_id_2="4328213" date="04.05.2015" id="4242636" static_id="04051523426482342599" status="15:00" time="15:00">
+<home goals="?" id="2342648" name="AEL Larissa"></home>
+<away goals="?" id="2342599" name="Smyrnis"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4125092" alternate_id_2="4328214" date="04.05.2015" id="4242635" static_id="04051523426022342638" status="15:00" time="15:00">
+<home goals="?" id="2342602" name="O. Volos"></home>
+<away goals="?" id="2342638" name="Iraklis"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4125090" alternate_id_2="4328209" date="26.04.2015" id="4242633" static_id="26041523426382342580" status="FT" time="15:00">
 <home goals="2" id="2342638" name="Iraklis"></home>
 <away goals="1" id="2342580" name="AEK"></away>
 <events>
@@ -895,71 +993,53 @@
 <event id="20127315" minute="77" player="S. Marangos" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="3957620" alternate_id_2="4111379" date="20.05.2014" id="4075305" static_id="20051423533632342638" status="FT" time="14:00">
-<home goals="2" id="2353363" name="Aiginiakos"></home>
-<away goals="2" id="2342638" name="Iraklis"></away>
-<events>
-<event id="20127294" minute="45" player="N. Zourkos (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20127295" minute="48" player="N. Pourtoulidis" playerid="2350771" result="" team="away" type="yellowred"></event>
-<event id="20127296" minute="62" player="P. Konteon (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20127297" minute="66" player="K. Tsilianidis" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="20127298" minute="87" player="C. Koutsospiros" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="20127299" minute="88" player="Huanderson" playerid="2468669" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3957622" alternate_id_2="4111382" date="20.05.2014" id="4075307" static_id="20051423426022349809" status="FT" time="14:00">
-<home goals="0" id="2342602" name="O. Volos"></home>
-<away goals="0" id="2349809" name="Psachna"></away>
+</match></league><league country="greece" name="Greece: Football League 2 - Group A" cup="False" id="3067" sub_id="30672"><match alternate_id="4074244" alternate_id_2="4322563" date="03.05.2015" id="4191853" static_id="03051523545132342613" status="FT" time="14:00">
+<home goals="1" id="2354513" name="Akropotamos"></home>
+<away goals="1" id="2342613" name="Dramas"></away>
 <events>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3956985" alternate_id_2="4110658" date="14.05.2014" id="4074670" static_id="14051423426382349810" status="FT" time="16:30">
-<home goals="0" id="2342638" name="Iraklis"></home>
-<away goals="0" id="2349810" name="Chania"></away>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074238" alternate_id_2="4322484" date="03.05.2015" id="4191847" static_id="03051523558272340262" status="FT" time="14:00">
+<home goals="0" id="2355827" name="Alexandroupoli"></home>
+<away goals="1" id="2340262" name="Aris"></away>
 <events>
-<event id="20120084" minute="86" player="V. Lima" playerid="" result="" team="home" type="yellowred"></event>
 </events>
-<ht score="[0-0]"></ht>
-</match></league><league country="greece" name="Greece: Football League 2 - Group A" cup="False" id="3067" sub_id="30672"><match alternate_id="4074244" alternate_id_2="4322563" date="03.05.2015" id="4191853" static_id="03051523545132342613" status="14:00" time="14:00">
-<home goals="?" id="2354513" name="Akropotamos"></home>
-<away goals="?" id="2342613" name="Dramas"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074238" alternate_id_2="4322484" date="03.05.2015" id="4191847" static_id="03051523558272340262" status="14:00" time="14:00">
-<home goals="?" id="2355827" name="Alexandroupoli"></home>
-<away goals="?" id="2340262" name="Aris"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074240" alternate_id_2="4322564" date="03.05.2015" id="4191849" static_id="03051523558282354523" status="14:00" time="14:00">
-<home goals="?" id="2355828" name="Apollon Arnaia"></home>
-<away goals="?" id="2354523" name="Kampaniakos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074241" alternate_id_2="4322545" date="03.05.2015" id="4191850" static_id="03051523545102354517" status="14:00" time="14:00">
-<home goals="?" id="2354510" name="Byzantio"></home>
-<away goals="?" id="2354517" name="Ethnikos N. A."></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074242" alternate_id_2="4322485" date="03.05.2015" id="4191851" static_id="03051523545152342641" status="14:00" time="14:00">
-<home goals="?" id="2354515" name="Evros S."></home>
-<away goals="?" id="2342641" name="Kavala"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074245" alternate_id_2="4322565" date="03.05.2015" id="4191854" static_id="03051523425912354520" status="14:00" time="14:00">
-<home goals="?" id="2342591" name="Giannitsa"></home>
-<away goals="?" id="2354520" name="Ampelokipoi"></away>
-<events></events>
-<ht score=""></ht>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074240" alternate_id_2="4322564" date="03.05.2015" id="4191849" static_id="03051523558282354523" status="FT" time="14:00">
+<home goals="3" id="2355828" name="Apollon Arnaia"></home>
+<away goals="4" id="2354523" name="Kampaniakos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074241" alternate_id_2="4322545" date="03.05.2015" id="4191850" static_id="03051523545102354517" status="FT" time="14:00">
+<home goals="5" id="2354510" name="Byzantio"></home>
+<away goals="2" id="2354517" name="Ethnikos N. A."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074242" alternate_id_2="4322485" date="03.05.2015" id="4191851" static_id="03051523545152342641" status="FT" time="14:00">
+<home goals="1" id="2354515" name="Evros S."></home>
+<away goals="3" id="2342641" name="Kavala"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074245" alternate_id_2="4322565" date="03.05.2015" id="4191854" static_id="03051523425912354520" status="FT" time="14:00">
+<home goals="1" id="2342591" name="Giannitsa"></home>
+<away goals="2" id="2354520" name="Ampelokipoi"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074243" alternate_id_2="4322486" date="03.05.2015" id="4191852" static_id="03051523426812342664" status="14:00" time="14:00">
 <home goals="?" id="2342681" name="Panserraikos"></home>
 <away goals="?" id="2342664" name="Kastoria"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4074239" alternate_id_2="4322487" date="03.05.2015" id="4191848" static_id="03051523558262354519" status="14:00" time="14:00">
-<home goals="?" id="2355826" name="Thyella F."></home>
-<away goals="?" id="2354519" name="Eleftheroupolis"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4074239" alternate_id_2="4322487" date="03.05.2015" id="4191848" static_id="03051523558262354519" status="FT" time="14:00">
+<home goals="2" id="2355826" name="Thyella F."></home>
+<away goals="0" id="2354519" name="Eleftheroupolis"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074231" alternate_id_2="4320925" date="26.04.2015" id="4191840" static_id="26041523558272355826" status="FT" time="14:00">
 <home goals="0" id="2355827" name="Alexandroupoli"></home>
 <away goals="0" id="2355826" name="Thyella F."></away>
@@ -1008,12 +1088,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4074224" alternate_id_2="4319354" date="19.04.2015" id="4191833" static_id="19041523545132342664" status="Awarded" time="13:30">
-<home goals="3" id="2354513" name="Akropotamos"></home>
-<away goals="0" id="2342664" name="Kastoria"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="4074227" alternate_id_2="4319355" date="19.04.2015" id="4191836" static_id="19041523558282355827" status="FT" time="13:30">
 <home goals="1" id="2355828" name="Apollon Arnaia"></home>
 <away goals="1" id="2355827" name="Alexandroupoli"></away>
@@ -1026,53 +1100,66 @@
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="4074222" alternate_id_2="4319212" date="19.04.2015" id="4191831" static_id="19041523426812354515" status="FT" time="13:30">
+<home goals="1" id="2342681" name="Panserraikos"></home>
+<away goals="0" id="2354515" name="Evros S."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074226" alternate_id_2="4319213" date="19.04.2015" id="4191835" static_id="19041523558262340262" status="FT" time="13:30">
 <home goals="0" id="2355826" name="Thyella F."></home>
 <away goals="2" id="2340262" name="Aris"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="greece" name="Greece: Football League 2 - Group B" cup="False" id="3067" sub_id="30673"><match alternate_id="4074478" alternate_id_2="4323068" date="03.05.2015" id="4192087" static_id="03051523545322355830" status="14:00" time="14:00">
-<home goals="?" id="2354532" name="Agias"></home>
-<away goals="?" id="2355830" name="Pyrasos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074474" alternate_id_2="4323069" date="03.05.2015" id="4192083" static_id="03051523520412351977" status="14:00" time="14:00">
-<home goals="?" id="2352041" name="Anagennisi Arta"></home>
-<away goals="?" id="2351977" name="Tsaritsani"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074471" alternate_id_2="4322982" date="03.05.2015" id="4192080" static_id="03051523545392342710" status="14:00" time="14:00">
-<home goals="?" id="2354539" name="Feraios"></home>
-<away goals="?" id="2342710" name="Trikala F.C."></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074476" alternate_id_2="4323042" date="03.05.2015" id="4192085" static_id="03051523426242354533" status="14:00" time="14:00">
-<home goals="?" id="2342624" name="Filippiada"></home>
-<away goals="?" id="2354533" name="Makrochori"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="greece" name="Greece: Football League 2 - Group B" cup="False" id="3067" sub_id="30673"><match alternate_id="4074478" alternate_id_2="4323068" date="03.05.2015" id="4192087" static_id="03051523545322355830" status="FT" time="14:00">
+<home goals="2" id="2354532" name="Agias"></home>
+<away goals="0" id="2355830" name="Pyrasos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074474" alternate_id_2="4323069" date="03.05.2015" id="4192083" static_id="03051523520412351977" status="FT" time="14:00">
+<home goals="0" id="2352041" name="Anagennisi Arta"></home>
+<away goals="0" id="2351977" name="Tsaritsani"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074471" alternate_id_2="4322982" date="03.05.2015" id="4192080" static_id="03051523545392342710" status="FT" time="14:00">
+<home goals="0" id="2354539" name="Feraios"></home>
+<away goals="3" id="2342710" name="Trikala F.C."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074476" alternate_id_2="4323042" date="03.05.2015" id="4192085" static_id="03051523426242354533" status="FT" time="14:00">
+<home goals="3" id="2342624" name="Filippiada"></home>
+<away goals="0" id="2354533" name="Makrochori"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074475" alternate_id_2="4322983" date="03.05.2015" id="4192084" static_id="03051523545362342646" status="Awarded" time="14:00">
 <home goals="0" id="2354536" name="Lefkadia"></home>
 <away goals="3" id="2342646" name="Kozani FC"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4074472" alternate_id_2="4323025" date="03.05.2015" id="4192081" static_id="03051523545292354546" status="14:00" time="14:00">
-<home goals="?" id="2354529" name="Neokaisareias"></home>
-<away goals="?" id="2354546" name="Karaiskakis"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074473" alternate_id_2="4322984" date="03.05.2015" id="4192082" static_id="03051523558292354527" status="14:00" time="14:00">
-<home goals="?" id="2355829" name="Opountios Martinou"></home>
-<away goals="?" id="2354527" name="Thesprotos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074477" alternate_id_2="4322985" date="03.05.2015" id="4192086" static_id="03051523427012351979" status="Cancl." time="14:00">
-<home goals="?" id="2342701" name="Pyrsos"></home>
-<away goals="?" id="2351979" name="Vataniakos"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4074472" alternate_id_2="4323025" date="03.05.2015" id="4192081" static_id="03051523545292354546" status="FT" time="14:00">
+<home goals="0" id="2354529" name="Neokaisareias"></home>
+<away goals="2" id="2354546" name="Karaiskakis"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074473" alternate_id_2="4322984" date="03.05.2015" id="4192082" static_id="03051523558292354527" status="FT" time="14:00">
+<home goals="1" id="2355829" name="Opountios Martinou"></home>
+<away goals="1" id="2354527" name="Thesprotos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074477" alternate_id_2="4322985" date="03.05.2015" id="4192086" static_id="03051523427012351979" status="Awarded" time="14:00">
+<home goals="0" id="2342701" name="Pyrsos"></home>
+<away goals="3" id="2351979" name="Vataniakos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074463" alternate_id_2="4320987" date="26.04.2015" id="4192072" static_id="26041523545392354529" status="FT" time="14:00">
 <home goals="0" id="2354539" name="Feraios"></home>
 <away goals="0" id="2354529" name="Neokaisareias"></away>
@@ -1121,12 +1208,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4074457" alternate_id_2="4319357" date="19.04.2015" id="4192066" static_id="19041523545322354533" status="FT" time="13:30">
-<home goals="2" id="2354532" name="Agias"></home>
-<away goals="0" id="2354533" name="Makrochori"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="4074461" alternate_id_2="4319358" date="19.04.2015" id="4192070" static_id="19041523520412354546" status="FT" time="13:30">
 <home goals="0" id="2352041" name="Anagennisi Arta"></home>
 <away goals="2" id="2354546" name="Karaiskakis"></away>
@@ -1145,41 +1226,53 @@
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="4074456" alternate_id_2="4319217" date="19.04.2015" id="4192065" static_id="19041523427012342646" status="Awarded" time="13:30">
+<home goals="0" id="2342701" name="Pyrsos"></home>
+<away goals="3" id="2342646" name="Kozani FC"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match></league><league country="greece" name="Greece: Football League 2 - Group C" cup="False" id="3067" sub_id="30674"><match alternate_id="4074692" alternate_id_2="4322986" date="03.05.2015" id="4192301" static_id="03051523427002354564" status="Cancl." time="14:00">
 <home goals="?" id="2342700" name="Kalamata"></home>
 <away goals="?" id="2354564" name="Mandraikos"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4074687" alternate_id_2="4322987" date="03.05.2015" id="4192296" static_id="03051523545352355832" status="Cancl." time="14:00">
-<home goals="?" id="2354535" name="Kymi"></home>
-<away goals="?" id="2355832" name="Ermis Kiveriou"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074689" alternate_id_2="4323026" date="03.05.2015" id="4192298" static_id="03051523558332342684" status="14:00" time="14:00">
-<home goals="?" id="2355833" name="Loutraki"></home>
-<away goals="?" id="2342684" name="PAO Varda"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074686" alternate_id_2="4322988" date="03.05.2015" id="4192295" static_id="03051523545432342577" status="14:00" time="14:00">
-<home goals="?" id="2354543" name="Neas M."></home>
-<away goals="?" id="2342577" name="Achaiki"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074690" alternate_id_2="4322991" date="03.05.2015" id="4192299" static_id="03051523427132355831" status="12:00" time="12:00">
-<home goals="?" id="2342713" name="Vyzas FC"></home>
-<away goals="?" id="2355831" name="Zakynthiakos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074691" alternate_id_2="4322989" date="03.05.2015" id="4192300" static_id="03051523426752342587" status="10:00" time="10:00">
-<home goals="?" id="2342675" name="Panargiakos"></home>
-<away goals="?" id="2342587" name="Aiolikos FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074688" alternate_id_2="4322990" date="03.05.2015" id="4192297" static_id="03051523545482354557" status="10:00" time="10:00">
-<home goals="?" id="2354548" name="Panarkadikos"></home>
-<away goals="?" id="2354557" name="Panelefsiniakos F.C."></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4074687" alternate_id_2="4322987" date="03.05.2015" id="4192296" static_id="03051523545352355832" status="Awarded" time="14:00">
+<home goals="0" id="2354535" name="Kymi"></home>
+<away goals="3" id="2355832" name="Ermis Kiveriou"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074689" alternate_id_2="4323026" date="03.05.2015" id="4192298" static_id="03051523558332342684" status="FT" time="14:00">
+<home goals="3" id="2355833" name="Loutraki"></home>
+<away goals="1" id="2342684" name="PAO Varda"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074686" alternate_id_2="4322988" date="03.05.2015" id="4192295" static_id="03051523545432342577" status="FT" time="14:00">
+<home goals="3" id="2354543" name="Neas M."></home>
+<away goals="2" id="2342577" name="Achaiki"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074690" alternate_id_2="4322991" date="03.05.2015" id="4192299" static_id="03051523427132355831" status="FT" time="12:00">
+<home goals="1" id="2342713" name="Vyzas FC"></home>
+<away goals="2" id="2355831" name="Zakynthiakos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074691" alternate_id_2="4322989" date="03.05.2015" id="4192300" static_id="03051523426752342587" status="FT" time="10:00">
+<home goals="1" id="2342675" name="Panargiakos"></home>
+<away goals="0" id="2342587" name="Aiolikos FC"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074688" alternate_id_2="4322990" date="03.05.2015" id="4192297" static_id="03051523545482354557" status="FT" time="10:00">
+<home goals="0" id="2354548" name="Panarkadikos"></home>
+<away goals="2" id="2354557" name="Panelefsiniakos F.C."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074679" alternate_id_2="4320990" date="26.04.2015" id="4192288" static_id="26041523425772342713" status="FT" time="14:00">
 <home goals="1" id="2342577" name="Achaiki"></home>
 <away goals="2" id="2342713" name="Vyzas FC"></away>
@@ -1257,41 +1350,47 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="greece" name="Greece: Football League 2 - Group D" cup="False" id="3067" sub_id="30675"><match alternate_id="4074881" alternate_id_2="4322992" date="03.05.2015" id="4192490" static_id="03051523425942354561" status="14:00" time="14:00">
-<home goals="?" id="2342594" name="AO Ilisiakos"></home>
-<away goals="?" id="2354561" name="Kifisias"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074880" alternate_id_2="4323027" date="03.05.2015" id="4192489" static_id="03051523545512354553" status="14:00" time="14:00">
-<home goals="?" id="2354551" name="Atromitos P."></home>
-<away goals="?" id="2354553" name="Kissamikos"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="greece" name="Greece: Football League 2 - Group D" cup="False" id="3067" sub_id="30675"><match alternate_id="4074881" alternate_id_2="4322992" date="03.05.2015" id="4192490" static_id="03051523425942354561" status="FT" time="14:00">
+<home goals="1" id="2342594" name="AO Ilisiakos"></home>
+<away goals="1" id="2354561" name="Kifisias"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074876" alternate_id_2="4322993" date="03.05.2015" id="4192485" static_id="03051523426672342668" status="14:00" time="14:00">
 <home goals="?" id="2342667" name="Ethnikos Piraeus"></home>
 <away goals="?" id="2342668" name="Ionikos"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4074878" alternate_id_2="4322994" date="03.05.2015" id="4192487" static_id="03051523519742354552" status="14:00" time="14:00">
-<home goals="?" id="2351974" name="Glyfada"></home>
-<away goals="?" id="2354552" name="Giouchtas"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074877" alternate_id_2="4322996" date="03.05.2015" id="4192486" static_id="03051523545622342639" status="14:00" time="14:00">
-<home goals="?" id="2354562" name="Kroussonas"></home>
-<away goals="?" id="2342639" name="Irodotos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074879" alternate_id_2="4322997" date="03.05.2015" id="4192488" static_id="03051523545552354563" status="14:00" time="14:00">
-<home goals="?" id="2354555" name="Nea I."></home>
-<away goals="?" id="2354563" name="Kyanos A. V."></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4074875" alternate_id_2="4322995" date="03.05.2015" id="4192484" static_id="03051523426352354569" status="13:00" time="13:00">
-<home goals="?" id="2342635" name="Ierapetra"></home>
-<away goals="?" id="2354569" name="Triglia R."></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4074878" alternate_id_2="4322994" date="03.05.2015" id="4192487" static_id="03051523519742354552" status="FT" time="14:00">
+<home goals="3" id="2351974" name="Glyfada"></home>
+<away goals="0" id="2354552" name="Giouchtas"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074877" alternate_id_2="4322996" date="03.05.2015" id="4192486" static_id="03051523545622342639" status="FT" time="14:00">
+<home goals="1" id="2354562" name="Kroussonas"></home>
+<away goals="3" id="2342639" name="Irodotos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074879" alternate_id_2="4322997" date="03.05.2015" id="4192488" static_id="03051523545552354563" status="FT" time="14:00">
+<home goals="2" id="2354555" name="Nea I."></home>
+<away goals="1" id="2354563" name="Kyanos A. V."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074880" alternate_id_2="4323027" date="03.05.2015" id="4192489" static_id="03051523545512354553" status="FT" time="13:30">
+<home goals="3" id="2354551" name="Atromitos P."></home>
+<away goals="0" id="2354553" name="Kissamikos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4074875" alternate_id_2="4322995" date="03.05.2015" id="4192484" static_id="03051523426352354569" status="FT" time="13:00">
+<home goals="1" id="2342635" name="Ierapetra"></home>
+<away goals="1" id="2354569" name="Triglia R."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4074871" alternate_id_2="4320938" date="26.04.2015" id="4192480" static_id="26041523545522342635" status="FT" time="14:00">
 <home goals="4" id="2354552" name="Giouchtas"></home>
 <away goals="0" id="2342635" name="Ierapetra"></away>
@@ -1358,18 +1457,18 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4074867" alternate_id_2="4317238" date="19.04.2015" id="4192476" static_id="19041523545532342639" status="FT" time="13:30">
-<home goals="1" id="2354553" name="Kissamikos"></home>
-<away goals="0" id="2342639" name="Irodotos"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="4074862" alternate_id_2="4317259" date="19.04.2015" id="4192471" static_id="19041523545622354569" status="FT" time="13:30">
 <home goals="1" id="2354562" name="Kroussonas"></home>
 <away goals="2" id="2354569" name="Triglia R."></away>
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="4074864" alternate_id_2="4317239" date="19.04.2015" id="4192473" static_id="19041523545552354552" status="FT" time="13:30">
+<home goals="1" id="2354555" name="Nea I."></home>
+<away goals="1" id="2354552" name="Giouchtas"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
 </match></league><league country="greece" name="Greece: Football League 2 - Group E" cup="False" id="3067" sub_id=""><match alternate_id="3825687" alternate_id_2="4112572" date="08.06.2014" id="3919189" static_id="08061423426102354559" status="FT" time="14:00">
 <home goals="2" id="2342610" name="Atsalenios FC"></home>
 <away goals="3" id="2354559" name="Alimos"></away>

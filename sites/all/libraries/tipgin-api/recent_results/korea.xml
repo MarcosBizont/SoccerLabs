@@ -1,13 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:53" sport="soccer" country="korea"><league country="korea" name="South Korea: K-League Classic" cup="False" id="3115" sub_id="31150"><match alternate_id="4106700" alternate_id_2="4326091" date="03.05.2015" id="4224255" static_id="03051523441542344170" status="05:00" time="05:00">
-<home goals="?" id="2344154" name="Daejeon"></home>
-<away goals="?" id="2344170" name="Incheon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4106701" alternate_id_2="4326092" date="03.05.2015" id="4224256" static_id="03051523441622344152" status="04:30" time="04:30">
-<home goals="?" id="2344162" name="Gwangju FC"></home>
-<away goals="?" id="2344152" name="Jeonnam"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:52" sport="soccer" country="korea"><league country="korea" name="South Korea: K-League Classic" cup="False" id="3115" sub_id="31150"><match alternate_id="4106700" alternate_id_2="4326091" date="03.05.2015" id="4224255" static_id="03051523441542344170" status="FT" time="05:00">
+<home goals="1" id="2344154" name="Daejeon"></home>
+<away goals="2" id="2344170" name="Incheon"></away>
+<events>
+<event id="22274414" minute="11" player="Kim In-Sung" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22274415" minute="17" player="C. A. de Sousa Cruz" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22274416" minute="45+1" player="D. Park" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22274417" minute="67" player="Kim Jin-Hwan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274418" minute="72" player="K. Kim" playerid="2348943" result="" team="home" type="yellowcard"></event>
+<event id="22274419" minute="76" player="Sassa" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274420" minute="87" player="Lee Chun-Soo" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4106701" alternate_id_2="4326092" date="03.05.2015" id="4224256" static_id="03051523441622344152" status="FT" time="04:30">
+<home goals="3" id="2344162" name="Gwangju FC"></home>
+<away goals="2" id="2344152" name="Jeonnam"></away>
+<events>
+<event id="22274424" minute="15" player="Kim Young-Bin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22274425" minute="19" player="F. Neves" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22274426" minute="27" player="Kim Young-Wook" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22274427" minute="29" player="Kim Dong-Cheol" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274428" minute="42" player="Kim Young-Bin" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274429" minute="68" player="Lim Sun-Young" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22274430" minute="89" player="J. Hyeon Woo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274431" minute="90+1" player="Jeon Hyeon-Chul" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="4106699" alternate_id_2="4325274" date="02.05.2015" id="4224254" static_id="02051523441732344191" status="FT" time="06:00">
 <home goals="2" id="2344173" name="Jeonbuk"></home>
 <away goals="0" id="2344191" name="Suwon"></away>
@@ -602,11 +619,13 @@
 <event id="21878940" minute="85" player="Lee Jong-Ho" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="korea" name="South Korea: K League Challenge" cup="False" id="4190" sub_id="41900"><match alternate_id="4118994" alternate_id_2="4322965" date="03.05.2015" id="4236538" static_id="03051523441392344143" status="07:00" time="07:00">
-<home goals="?" id="2344139" name="Goyang Hi"></home>
-<away goals="?" id="2344143" name="Bucheon FC 1995"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="korea" name="South Korea: K League Challenge" cup="False" id="4190" sub_id="41900"><match alternate_id="4118994" alternate_id_2="4322965" date="03.05.2015" id="4236538" static_id="03051523441392344143" status="FT" time="07:00">
+<home goals="1" id="2344139" name="Goyang Hi"></home>
+<away goals="0" id="2344143" name="Bucheon FC 1995"></away>
+<events>
+<event id="22243154" minute="2" player="Yoon Seok Hee" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4118910" alternate_id_2="4322465" date="02.05.2015" id="4236454" static_id="02051523441582344140" status="FT" time="07:00">
 <home goals="0" id="2344158" name="Gangwon"></home>
 <away goals="0" id="2344140" name="Anyang"></away>

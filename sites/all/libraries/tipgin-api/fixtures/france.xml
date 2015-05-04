@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="02.05.2015 06:50:07" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="3985279" alternate_id_2="4327393" date="02.05.2015" id="4102901" static_id="02051523418732341763" status="15:00" time="15:00">
-<home id="2341873" name="Lyon"></home>
-<away id="2341763" name="Evian TG"></away>
-
-
-</match><match alternate_id="3985275" alternate_id_2="4327135" date="02.05.2015" id="4102897" static_id="02051523416982341918" status="18:00" time="18:00">
-<home id="2341698" name="Bastia"></home>
-<away id="2341918" name="St Etienne"></away>
-
-
-</match><match alternate_id="3985276" alternate_id_2="4327136" date="02.05.2015" id="4102898" static_id="02051523418062341906" status="18:00" time="18:00">
-<home id="2341806" name="Guingamp"></home>
-<away id="2341906" name="Reims"></away>
-
-
-</match><match alternate_id="3985278" alternate_id_2="4327357" date="02.05.2015" id="4102900" static_id="02051523418402341708" status="18:00" time="18:00">
-<home id="2341840" name="Lorient"></home>
-<away id="2341708" name="Bordeaux"></away>
-
-
-</match><match alternate_id="3985282" alternate_id_2="4327138" date="02.05.2015" id="4102904" static_id="02051523418572341955" status="18:00" time="18:00">
-<home id="2341857" name="Montpellier"></home>
-<away id="2341955" name="Rennes"></away>
-
-
-</match><match alternate_id="3985284" alternate_id_2="4327140" date="02.05.2015" id="4102906" static_id="02051523418662341716" status="18:00" time="18:00">
-<home id="2341866" name="Nice"></home>
-<away id="2341716" name="Caen"></away>
-
-
-</match><match alternate_id="3985277" alternate_id_2="4328444" date="03.05.2015" id="4102899" static_id="03051523418372341831" status="12:00" time="12:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="03.05.2015 06:50:07" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="3985277" alternate_id_2="4328444" date="03.05.2015" id="4102899" static_id="03051523418372341831" status="12:00" time="12:00">
 <home id="2341837" name="Lille"></home>
 <away id="2341831" name="Lens"></away>
 
@@ -93,17 +63,42 @@
 <away id="2341853" name="Monaco"></away>
 
 
+</match><match alternate_id="3985295" alternate_id_2="4330964" date="16.05.2015" id="4102917" static_id="16051523416982341716" status="19:00" time="19:00">
+<home id="2341698" name="Bastia"></home>
+<away id="2341716" name="Caen"></away>
+
+
+</match><match alternate_id="3974235" alternate_id_2="4330959" date="16.05.2015" id="4091878" static_id="16051523417632341918" status="19:00" time="19:00">
+<home id="2341763" name="Evian TG"></home>
+<away id="2341918" name="St Etienne"></away>
+
+
+</match><match alternate_id="3985296" alternate_id_2="4330957" date="16.05.2015" id="4102918" static_id="16051523418062341967" status="19:00" time="19:00">
+<home id="2341806" name="Guingamp"></home>
+<away id="2341967" name="Toulouse"></away>
+
+
 </match><match alternate_id="3985297" alternate_id_2="4330950" date="16.05.2015" id="4102919" static_id="16051523418372341875" status="19:00" time="19:00">
 <home id="2341837" name="Lille"></home>
 <away id="2341875" name="Marseille"></away>
 
 
-</match></league><league country="france" name="France: Ligue 2" cup="False" id="3050" sub_id="30500"><match alternate_id="4001728" alternate_id_2="4328702" date="02.05.2015" id="4119350" static_id="02051523418672341973" status="12:00" time="12:00">
-<home id="2341867" name="Nimes"></home>
-<away id="2341973" name="Troyes"></away>
+</match><match alternate_id="3985298" alternate_id_2="4330914" date="16.05.2015" id="4102920" static_id="16051523418732341708" status="19:00" time="19:00">
+<home id="2341873" name="Lyon"></home>
+<away id="2341708" name="Bordeaux"></away>
 
 
-</match><match alternate_id="4001724" alternate_id_2="4329138" date="04.05.2015" id="4119346" static_id="04051523417132341742" status="18:30" time="18:30">
+</match><match alternate_id="3985302" alternate_id_2="4331323" date="16.05.2015" id="4102924" static_id="16051523418662341831" status="19:00" time="19:00">
+<home id="2341866" name="Nice"></home>
+<away id="2341831" name="Lens"></away>
+
+
+</match><match alternate_id="3974243" alternate_id_2="4331324" date="16.05.2015" id="4091886" static_id="16051523419062341955" status="19:00" time="19:00">
+<home id="2341906" name="Reims"></home>
+<away id="2341955" name="Rennes"></away>
+
+
+</match></league><league country="france" name="France: Ligue 2" cup="False" id="3050" sub_id="30500"><match alternate_id="4001724" alternate_id_2="4329138" date="04.05.2015" id="4119346" static_id="04051523417132341742" status="18:30" time="18:30">
 <home id="2341713" name="Brest"></home>
 <away id="2341742" name="Dijon"></away>
 
@@ -163,14 +158,19 @@
 <away id="2341878" name="Orleans"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4330845" date="15.05.2015" id="" static_id="15051523416932341738" status="18:00" time="18:00">
-<home id="2341693" name="Auxerre"></home>
-<away id="2341738" name="Creteil"></away>
-
-
 </match><match alternate_id="" alternate_id_2="4330846" date="15.05.2015" id="" static_id="15051523417132341973" status="18:00" time="18:00">
 <home id="2341713" name="Brest"></home>
 <away id="2341973" name="Troyes"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4330847" date="15.05.2015" id="" static_id="15051523417252341825" status="18:00" time="18:00">
+<home id="2341725" name="Chateauroux"></home>
+<away id="2341825" name="Le Havre"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4330848" date="15.05.2015" id="" static_id="15051523417992341869" status="18:00" time="18:00">
+<home id="2341799" name="GFC Ajaccio"></home>
+<away id="2341869" name="Niort"></away>
 
 
 </match><match alternate_id="" alternate_id_2="4330849" date="15.05.2015" id="" static_id="15051523418242341729" status="18:00" time="18:00">
@@ -288,52 +288,17 @@
 <away id="2341711" name="Bourg Peronnas"></away>
 
 
-</match><match alternate_id="4031390" alternate_id_2="4330951" date="22.05.2015" id="4149008" static_id="22051523416962342000" status="18:00" time="18:00">
-<home id="2341696" name="Avranches"></home>
-<away id="2342000" name="Lucon"></away>
+</match><match alternate_id="4031388" alternate_id_2="4330960" date="22.05.2015" id="4149006" static_id="22051523418292341752" status="18:00" time="18:00">
+<home id="2341829" name="Le Poire Sur Vie"></home>
+<away id="2341752" name="Epinal"></away>
 
 
-</match><match alternate_id="4031391" alternate_id_2="4330918" date="22.05.2015" id="4149009" static_id="22051523419052341659" status="18:00" time="18:00">
-<home id="2341905" name="Red Star"></home>
-<away id="2341659" name="Amiens"></away>
+</match><match alternate_id="4031389" alternate_id_2="4330958" date="22.05.2015" id="4149007" static_id="22051523419572341734" status="18:00" time="18:00">
+<home id="2341957" name="Strasbourg"></home>
+<away id="2341734" name="Colomiers"></away>
 
 
-</match></league><league country="france" name="France: Cfa - Group A" cup="False" id="4311" sub_id="43110"><match alternate_id="" alternate_id_2="4323980" date="02.05.2015" id="" static_id="02051523418322341895" status="14:00" time="14:00">
-<home id="2341832" name="Lens II"></home>
-<away id="2341895" name="Paris SG II"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324091" date="02.05.2015" id="" static_id="02051523417012341718" status="16:00" time="16:00">
-<home id="2341701" name="Beauvais"></home>
-<away id="2341718" name="Calais"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324131" date="02.05.2015" id="" static_id="02051523417762341660" status="16:00" time="16:00">
-<home id="2341776" name="Dieppe"></home>
-<away id="2341660" name="Amiens AC"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4323981" date="02.05.2015" id="" static_id="02051523418382341812" status="16:00" time="16:00">
-<home id="2341838" name="Lille II"></home>
-<away id="2341812" name="Ivry"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324179" date="02.05.2015" id="" static_id="02051523418442341749" status="16:00" time="16:00">
-<home id="2341844" name="Mantes"></home>
-<away id="2341749" name="Sannois"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4323892" date="02.05.2015" id="" static_id="02051523388182341669" status="16:00" time="16:00">
-<home id="2338818" name="Roye"></home>
-<away id="2341669" name="Arras"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324990" date="02.05.2015" id="" static_id="02051523419112341896" status="17:00" time="17:00">
-<home id="2341911" name="Romorantin"></home>
-<away id="2341896" name="Quevilly"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325112" date="08.05.2015" id="" static_id="08051523419312341701" status="16:00" time="16:00">
+</match></league><league country="france" name="France: Cfa - Group A" cup="False" id="4311" sub_id="43110"><match alternate_id="" alternate_id_2="4325112" date="08.05.2015" id="" static_id="08051523419312341701" status="16:00" time="16:00">
 <home id="2341931" name="Sedan"></home>
 <away id="2341701" name="Beauvais"></away>
 
@@ -383,6 +348,11 @@
 <away id="2338818" name="Roye"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4329357" date="16.05.2015" id="" static_id="16051523513812341669" status="16:00" time="16:00">
+<home id="2351381" name="IC Croix"></home>
+<away id="2341669" name="Arras"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4329140" date="16.05.2015" id="" static_id="16051523418322341749" status="16:00" time="16:00">
 <home id="2341832" name="Lens II"></home>
 <away id="2341749" name="Sannois"></away>
@@ -393,49 +363,44 @@
 <away id="2341718" name="Calais"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4329358" date="16.05.2015" id="" static_id="16051523418442341931" status="16:00" time="16:00">
+<home id="2341844" name="Mantes"></home>
+<away id="2341931" name="Sedan"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4329142" date="16.05.2015" id="" static_id="16051523418952341911" status="16:00" time="16:00">
+<home id="2341895" name="Paris SG II"></home>
+<away id="2341911" name="Romorantin"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4329143" date="16.05.2015" id="" static_id="16051523418962341812" status="16:00" time="16:00">
 <home id="2341896" name="Quevilly"></home>
 <away id="2341812" name="Ivry"></away>
 
 
-</match></league><league country="france" name="France: Cfa - Group B" cup="False" id="4311" sub_id="43111"><match alternate_id="" alternate_id_2="4322856" date="02.05.2015" id="" static_id="02051523417582341990" status="14:30" time="14:30">
-<home id="2341758" name="Troyes II"></home>
-<away id="2341990" name="Sarre Union"></away>
+</match><match alternate_id="" alternate_id_2="4331326" date="23.05.2015" id="" static_id="23051523418122341895" status="16:00" time="16:00">
+<home id="2341812" name="Ivry"></home>
+<away id="2341895" name="Paris SG II"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4324993" date="02.05.2015" id="" static_id="02051523418522351384" status="15:00" time="15:00">
-<home id="2341852" name="Metz II"></home>
-<away id="2351384" name="Fleury-Merogis"></away>
+</match><match alternate_id="" alternate_id_2="4331327" date="23.05.2015" id="" static_id="23051523419112341776" status="16:00" time="16:00">
+<home id="2341911" name="Romorantin"></home>
+<away id="2341776" name="Dieppe"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4324992" date="02.05.2015" id="" static_id="02051523418602346968" status="15:00" time="15:00">
-<home id="2341860" name="Moulins"></home>
-<away id="2346968" name="Jeanne d Arc"></away>
+</match><match alternate_id="" alternate_id_2="4331328" date="23.05.2015" id="" static_id="23051523388182351381" status="16:00" time="16:00">
+<home id="2338818" name="Roye"></home>
+<away id="2351381" name="IC Croix"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322793" date="02.05.2015" id="" static_id="02051523416882342010" status="16:00" time="16:00">
-<home id="2341688" name="Belfort"></home>
-<away id="2342010" name="Yzeure"></away>
+</match><match alternate_id="" alternate_id_2="4331437" date="23.05.2015" id="" static_id="23051523419312341838" status="16:00" time="16:00">
+<home id="2341931" name="Sedan"></home>
+<away id="2341838" name="Lille II"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322794" date="02.05.2015" id="" static_id="02051523418172341689" status="16:00" time="16:00">
-<home id="2341817" name="Jura Sud"></home>
-<away id="2341689" name="Aubervilliers"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322855" date="02.05.2015" id="" static_id="02051523418992341861" status="16:00" time="16:00">
-<home id="2341899" name="Raon L Etape"></home>
-<away id="2341861" name="Mulhouse"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324995" date="03.05.2015" id="" static_id="" status="13:00" time="13:00">
+</match></league><league country="france" name="France: Cfa - Group B" cup="False" id="4311" sub_id="43111"><match alternate_id="" alternate_id_2="4324995" date="03.05.2015" id="" static_id="" status="13:00" time="13:00">
 <home id="" name="St Etienne II"></home>
 <away id="2341855" name="Montceau"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324994" date="03.05.2015" id="" static_id="03051523419392342007" status="14:00" time="14:00">
-<home id="2341939" name="Sochaux II"></home>
-<away id="2342007" name="Viry-Chatillon"></away>
 
 
 </match><match alternate_id="" alternate_id_2="4324996" date="09.05.2015" id="" static_id="09051523416892341758" status="16:00" time="16:00">
@@ -478,9 +443,29 @@
 <away id="2341899" name="Raon L Etape"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4329154" date="16.05.2015" id="" static_id="16051523416882351384" status="16:00" time="16:00">
+<home id="2341688" name="Belfort"></home>
+<away id="2351384" name="Fleury-Merogis"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4329156" date="16.05.2015" id="" static_id="16051523469682342007" status="16:00" time="16:00">
 <home id="2346968" name="Jeanne d Arc"></home>
 <away id="2342007" name="Viry-Chatillon"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4330111" date="16.05.2015" id="" static_id="16051523418522341689" status="16:00" time="16:00">
+<home id="2341852" name="Metz II"></home>
+<away id="2341689" name="Aubervilliers"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4329159" date="16.05.2015" id="" static_id="16051523418552341860" status="16:00" time="16:00">
+<home id="2341855" name="Montceau"></home>
+<away id="2341860" name="Moulins"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4329359" date="16.05.2015" id="" static_id="16051523418992341990" status="16:00" time="16:00">
+<home id="2341899" name="Raon L Etape"></home>
+<away id="2341990" name="Sarre Union"></away>
 
 
 </match><match alternate_id="" alternate_id_2="4329426" date="16.05.2015" id="" static_id="16051523419392341861" status="16:00" time="16:00">
@@ -498,47 +483,22 @@
 <away id="2341817" name="Jura Sud"></away>
 
 
-</match></league><league country="france" name="France: Cfa - Group C" cup="False" id="4311" sub_id="43112"><match alternate_id="" alternate_id_2="4322872" date="02.05.2015" id="" static_id="02051523418462341874" status="13:00" time="13:00">
-<home id="2341846" name="Marignane"></home>
-<away id="2341874" name="Lyon II"></away>
+</match><match alternate_id="" alternate_id_2="4331403" date="23.05.2015" id="" static_id="23051523416892341899" status="16:00" time="16:00">
+<home id="2341689" name="Aubervilliers"></home>
+<away id="2341899" name="Raon L Etape"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322797" date="02.05.2015" id="" static_id="02051523416732341809" status="15:00" time="15:00">
-<home id="2341673" name="Beziers"></home>
-<away id="2341809" name="Hyeres"></away>
+</match><match alternate_id="" alternate_id_2="4331450" date="23.05.2015" id="" static_id="23051523418172341852" status="16:00" time="16:00">
+<home id="2341817" name="Jura Sud"></home>
+<away id="2341852" name="Metz II"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322798" date="02.05.2015" id="" static_id="02051523418542341850" status="16:00" time="16:00">
-<home id="2341854" name="Monaco II"></home>
-<away id="2341850" name="Martigues"></away>
+</match><match alternate_id="" alternate_id_2="4331451" date="23.05.2015" id="" static_id="23051523418602341758" status="16:00" time="16:00">
+<home id="2341860" name="Moulins"></home>
+<away id="2341758" name="Troyes II"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322857" date="02.05.2015" id="" static_id="" status="16:00" time="16:00">
-<home id="" name="Montpellier 2"></home>
-<away id="2341920" name="Saint Priest"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322858" date="02.05.2015" id="" static_id="02051523418712341843" status="16:00" time="16:00">
-<home id="2341871" name="Nice II"></home>
-<away id="2341843" name="Lyon Duchere"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4324998" date="02.05.2015" id="" static_id="02051523418302341802" status="16:00" time="16:00">
-<home id="2341830" name="Pontet"></home>
-<away id="2341802" name="Grenoble"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322859" date="02.05.2015" id="" static_id="02051523419332341910" status="16:00" time="16:00">
-<home id="2341933" name="Sete"></home>
-<away id="2341910" name="Rodez"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4322799" date="02.05.2015" id="" static_id="02051523420052341859" status="16:00" time="16:00">
-<home id="2342005" name="Villefranche"></home>
-<away id="2341859" name="Monts"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325131" date="08.05.2015" id="" static_id="08051523418742341933" status="14:00" time="14:00">
+</match></league><league country="france" name="France: Cfa - Group C" cup="False" id="4311" sub_id="43112"><match alternate_id="" alternate_id_2="4325131" date="08.05.2015" id="" static_id="08051523418742341933" status="14:00" time="14:00">
 <home id="2341874" name="Lyon II"></home>
 <away id="2341933" name="Sete"></away>
 
@@ -578,9 +538,19 @@
 <away id="" name="Montpellier 2"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4329360" date="16.05.2015" id="" static_id="16051523416732341850" status="16:00" time="16:00">
+<home id="2341673" name="Beziers"></home>
+<away id="2341850" name="Martigues"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4329162" date="16.05.2015" id="" static_id="16051523418432341802" status="16:00" time="16:00">
 <home id="2341843" name="Lyon Duchere"></home>
 <away id="2341802" name="Grenoble"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4329361" date="16.05.2015" id="" static_id="16051523418462341859" status="16:00" time="16:00">
+<home id="2341846" name="Marignane"></home>
+<away id="2341859" name="Monts"></away>
 
 
 </match><match alternate_id="" alternate_id_2="4329427" date="16.05.2015" id="" static_id="" status="16:00" time="16:00">
@@ -593,42 +563,42 @@
 <away id="2341874" name="Lyon II"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4329165" date="16.05.2015" id="" static_id="16051523419202341871" status="16:00" time="16:00">
+<home id="2341920" name="Saint Priest"></home>
+<away id="2341871" name="Nice II"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4329166" date="16.05.2015" id="" static_id="16051523419332341809" status="16:00" time="16:00">
+<home id="2341933" name="Sete"></home>
+<away id="2341809" name="Hyeres"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4329449" date="16.05.2015" id="" static_id="16051523420052341854" status="16:00" time="16:00">
 <home id="2342005" name="Villefranche"></home>
 <away id="2341854" name="Monaco II"></away>
 
 
-</match></league><league country="france" name="France: Cfa - Group D" cup="False" id="4311" sub_id="43113"><match alternate_id="" alternate_id_2="4322891" date="02.05.2015" id="" static_id="02051523417832341884" status="15:00" time="15:00">
-<home id="2341783" name="Lorient II"></home>
-<away id="2341884" name="Pau"></away>
+</match><match alternate_id="" alternate_id_2="4331441" date="23.05.2015" id="" static_id="23051523418022341920" status="16:00" time="16:00">
+<home id="2341802" name="Grenoble"></home>
+<away id="2341920" name="Saint Priest"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322873" date="02.05.2015" id="" static_id="02051523417852341981" status="16:00" time="16:00">
-<home id="2341785" name="Nantes II"></home>
-<away id="2341981" name="Concarneau"></away>
+</match><match alternate_id="" alternate_id_2="4331331" date="23.05.2015" id="" static_id="23051523418502341846" status="16:00" time="16:00">
+<home id="2341850" name="Martigues"></home>
+<away id="2341846" name="Marignane"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322860" date="02.05.2015" id="" static_id="02051523418922341972" status="16:00" time="16:00">
-<home id="2341892" name="Pontivy"></home>
-<away id="2341972" name="Trelissac"></away>
+</match><match alternate_id="" alternate_id_2="4331452" date="23.05.2015" id="" static_id="23051523418542341673" status="16:00" time="16:00">
+<home id="2341854" name="Monaco II"></home>
+<away id="2341673" name="Beziers"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4322804" date="02.05.2015" id="" static_id="02051523419482349752" status="16:00" time="16:00">
-<home id="2341948" name="Stade Bordelais"></home>
-<away id="2349752" name="Mont-de-Marsan"></away>
+</match><match alternate_id="" alternate_id_2="4331333" date="23.05.2015" id="" static_id="23051523418712342005" status="16:00" time="16:00">
+<home id="2341871" name="Nice II"></home>
+<away id="2342005" name="Villefranche"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4325002" date="02.05.2015" id="" static_id="02051523418332349755" status="16:30" time="16:30">
-<home id="2341833" name="Les Herbiers"></home>
-<away id="2349755" name="Saint-Malo"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325004" date="02.05.2015" id="" static_id="02051523513942341999" status="17:00" time="17:00">
-<home id="2351394" name="Limoges"></home>
-<away id="2341999" name="Fontenay"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4325006" date="08.05.2015" id="" static_id="08051523420082341887" status="16:00" time="16:00">
+</match></league><league country="france" name="France: Cfa - Group D" cup="False" id="4311" sub_id="43113"><match alternate_id="" alternate_id_2="4325006" date="08.05.2015" id="" static_id="08051523420082341887" status="16:00" time="16:00">
 <home id="2342008" name="Vitre"></home>
 <away id="2341887" name="Plabennec"></away>
 
@@ -693,9 +663,39 @@
 <away id="2341981" name="Concarneau"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4329428" date="16.05.2015" id="" static_id="16051523497552342008" status="16:00" time="16:00">
+<home id="2349755" name="Saint-Malo"></home>
+<away id="2342008" name="Vitre"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4329363" date="16.05.2015" id="" static_id="16051523419482341884" status="16:00" time="16:00">
 <home id="2341948" name="Stade Bordelais"></home>
 <away id="2341884" name="Pau"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4329451" date="16.05.2015" id="" static_id="16051523419632349752" status="16:00" time="16:00">
+<home id="2341963" name="Tarbes"></home>
+<away id="2349752" name="Mont-de-Marsan"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4331335" date="23.05.2015" id="" static_id="23051523419812341948" status="16:00" time="16:00">
+<home id="2341981" name="Concarneau"></home>
+<away id="2341948" name="Stade Bordelais"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4331337" date="23.05.2015" id="" static_id="23051523418332341783" status="16:00" time="16:00">
+<home id="2341833" name="Les Herbiers"></home>
+<away id="2341783" name="Lorient II"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4331453" date="23.05.2015" id="" static_id="23051523417852341892" status="16:00" time="16:00">
+<home id="2341785" name="Nantes II"></home>
+<away id="2341892" name="Pontivy"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4331446" date="23.05.2015" id="" static_id="23051523420082341709" status="16:00" time="16:00">
+<home id="2342008" name="Vitre"></home>
+<away id="2341709" name="Bordeaux II"></away>
 
 
 </match></league><league country="france" name="France: Coupe De France" cup="False" id="3051" sub_id="30510"><match alternate_id="4119583" alternate_id_2="4323867" date="30.05.2015" id="4237127" static_id="30051523416932341894" status="19:00" time="19:00">

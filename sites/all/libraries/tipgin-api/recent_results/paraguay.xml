@@ -1,12 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:03" sport="soccer" country="paraguay"><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101060" alternate_id_2="4325708" date="02.05.2015" id="4218618" static_id="02051523506182345714" status="70" time="23:10">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:41:02" sport="soccer" country="paraguay"><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101058" alternate_id_2="4325758" date="03.05.2015" id="4218616" static_id="03051523457202345708" status="FT" time="20:30">
+<home goals="1" id="2345720" name="Olimpia Asuncion"></home>
+<away goals="1" id="2345708" name="Cerro Porteno"></away>
+<events>
+<event id="22271084" minute="10" player="V. Mareco" playerid="2350266" result="" team="away" type="yellowcard"></event>
+<event id="22271085" minute="13" player="S. Diaz" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22271086" minute="15" player="J. Salgueiro" playerid="2345772" result="" team="home" type="yellowcard"></event>
+<event id="22271087" minute="18" player="F. Oviedo" playerid="2404776" result="" team="away" type="yellowcard"></event>
+<event id="22271088" minute="20" player="C. Caballero" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22271089" minute="83" player="J. Salinas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22271090" minute="87" player="C. Ovelar" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4101060" alternate_id_2="4325708" date="02.05.2015" id="4218618" static_id="02051523506182345714" status="FT" time="23:10">
 <home goals="1" id="2350618" name="Deportivo Capiata"></home>
-<away goals="1" id="2345714" name="Diaz"></away>
+<away goals="2" id="2345714" name="Diaz"></away>
 <events>
 <event id="22270584" minute="39" player="J. Irrazabal" playerid="2360406" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22270585" minute="56" player="C. Sosa" playerid="2447259" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22270586" minute="73" player="J. Doldan" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4101057" alternate_id_2="4325778" date="02.05.2015" id="4218615" static_id="02051523457152345717" status="73" time="23:10">
+</match><match alternate_id="4101057" alternate_id_2="4325778" date="02.05.2015" id="4218615" static_id="02051523457152345717" status="FT" time="23:10">
 <home goals="1" id="2345715" name="Guarani"></home>
 <away goals="0" id="2345717" name="Libertad Asuncion"></away>
 <events>
@@ -15,7 +29,7 @@
 <event id="22271286" minute="33" player="L. De la Cruz" playerid="2508590" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22271287" minute="58" player="J. Patino Martinez" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22271288" minute="68" player="M. Palau" playerid="" result="" team="home" type="yellowred"></event>
-<event id="22271289" minute="73" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22271289" minute="72" player="G. Mencia" playerid="2355455" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4101059" alternate_id_2="4325766" date="02.05.2015" id="4218617" static_id="02051523457192337878" status="FT" time="21:00">
@@ -243,17 +257,6 @@
 <event id="22228101" minute="83" player="R. Caceres" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22228102" minute="90+2" player="" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="201294443" minute="90+2" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4101038" alternate_id_2="4320140" date="16.04.2015" id="4218596" static_id="16041523506182345720" status="FT" time="23:10">
-<home goals="0" id="2350618" name="Deportivo Capiata"></home>
-<away goals="1" id="2345720" name="Olimpia Asuncion"></away>
-<events>
-<event id="22214904" minute="18" player="J. Achucarro" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22214905" minute="21" player="J. Irrazabal" playerid="2360406" result="" team="home" type="yellowcard"></event>
-<event id="22214906" minute="36" player="J. Salgueiro" playerid="2345772" result="" team="away" type="yellowcard"></event>
-<event id="22214907" minute="77" player="W. Candia" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22214908" minute="90+3" player="J. Salinas" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="paraguay" name="Paraguay: Primera Division - Clausura" cup="False" id="3171" sub_id="31711"><match alternate_id="4034718" alternate_id_2="4290752" date="06.12.2014" id="4152336" static_id="06121423457192345717" status="FT" time="22:30">

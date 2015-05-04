@@ -1,23 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:36" sport="soccer" country="cyprus"><league country="cyprus" name="Cyprus: First Division - Championship Group" cup="False" id="3012" sub_id="30124"><match alternate_id="4110899" alternate_id_2="4313412" date="03.05.2015" id="4228450" static_id="03051523402722340256" status="14:00" time="14:00">
-<home goals="?" id="2340272" name="Ermis"></home>
-<away goals="?" id="2340256" name="Anorthosis"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="cyprus" name="Cyprus: First Division - Relegation Group" cup="False" id="3012" sub_id="30125"><match alternate_id="4113817" alternate_id_2="4314122" date="03.05.2015" id="4231365" static_id="03051523402732340281" status="14:00" time="14:00">
-<home goals="?" id="2340273" name="Achnas"></home>
-<away goals="?" id="2340281" name="Nea Salamis"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4113816" alternate_id_2="4314116" date="03.05.2015" id="4231364" static_id="03051523402572340248" status="14:00" time="14:00">
-<home goals="?" id="2340257" name="Ayia Napa"></home>
-<away goals="?" id="2340248" name="AEL Limassol"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4113815" alternate_id_2="4314117" date="03.05.2015" id="4231363" static_id="03051523402672340289" status="14:00" time="14:00">
-<home goals="?" id="2340267" name="Doxa"></home>
-<away goals="?" id="2340289" name="Othellos Athienou"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:35" sport="soccer" country="cyprus"><league country="cyprus" name="Cyprus: First Division - Championship Group" cup="False" id="3012" sub_id="30124"><match alternate_id="4110899" alternate_id_2="4313412" date="03.05.2015" id="4228450" static_id="03051523402722340256" status="FT" time="14:00">
+<home goals="1" id="2340272" name="Ermis"></home>
+<away goals="1" id="2340256" name="Anorthosis"></away>
+<events>
+<event id="22147624" minute="13" player="I. Onyilov (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22147625" minute="23" player="J. Rezek" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22147626" minute="52" player="Manu" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22147627" minute="53" player="E. Goncalves (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22147628" minute="59" player="G. Makos" playerid="2350631" result="" team="away" type="yellowcard"></event>
+<event id="22147629" minute="77" player="M. Christofi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22147630" minute="79" player="D. Stylianou" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match></league><league country="cyprus" name="Cyprus: First Division - Relegation Group" cup="False" id="3012" sub_id="30125"><match alternate_id="4113817" alternate_id_2="4314122" date="03.05.2015" id="4231365" static_id="03051523402732340281" status="FT" time="14:00">
+<home goals="2" id="2340273" name="Achnas"></home>
+<away goals="1" id="2340281" name="Nea Salamis"></away>
+<events>
+<event id="22154724" minute="17" player="E. Pincelli" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22154725" minute="22" player="K. Belfort" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22154726" minute="83" player="S. Grimes" playerid="2402290" result="" team="away" type="yellowcard"></event>
+<event id="22154727" minute="84" player="Pedrito" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22154728" minute="90+1" player="G. Tall" playerid="2418007" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4113816" alternate_id_2="4314116" date="03.05.2015" id="4231364" static_id="03051523402572340248" status="FT" time="14:00">
+<home goals="1" id="2340257" name="Ayia Napa"></home>
+<away goals="0" id="2340248" name="AEL Limassol"></away>
+<events>
+<event id="22154664" minute="34" player="M. Felgate" playerid="2403053" result="" team="home" type="yellowcard"></event>
+<event id="22154665" minute="49" player="G. Eleftheriou" playerid="2403020" result="" team="away" type="yellowcard"></event>
+<event id="22154666" minute="54" player="E. A. Fusco" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22154667" minute="58" player="V. Panayotov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22154668" minute="90" player="G. Antoniou" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22154669" minute="90+2" player="B. Markoski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22154670" minute="90+4" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4113815" alternate_id_2="4314117" date="03.05.2015" id="4231363" static_id="03051523402672340289" status="FT" time="14:00">
+<home goals="3" id="2340267" name="Doxa"></home>
+<away goals="3" id="2340289" name="Othellos Athienou"></away>
+<events>
+<event id="22154674" minute="12" player="R. Diogo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22154675" minute="15" player="T. Santos" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22154676" minute="34" player="I. Sassi" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22154677" minute="40" player="R. Lobo" playerid="2415793" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22154678" minute="43" player="J. Vera" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22154679" minute="70" player="A. Vasilliou" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22154680" minute="78" player="T. Santos" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22154681" minute="84" player="B. Vasconcelos" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22154682" minute="90" player="R. Diogo" playerid="" result="[3 - 3]" team="home" type="goal"></event>
+<event id="200560243" minute="90+1" player="F. Monzo" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-2]"></ht>
 </match></league><league country="cyprus" name="Cyprus: First Division - Championship Group" cup="False" id="3012" sub_id="30124"><match alternate_id="4110900" alternate_id_2="4313411" date="02.05.2015" id="4228451" static_id="02051523402472340260" status="FT" time="14:00">
 <home goals="2" id="2340247" name="AEK Larnaca"></home>
 <away goals="0" id="2340260" name="Apollon"></away>
@@ -491,14 +524,14 @@
 <away goals="1" id="2340289" name="Othellos Athienou"></away>
 <events>
 <event id="22147284" minute="16" player="U. D. Ndong" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22147285" minute="16" player="Valdo (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22147285" minute="17" player="Valdo (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22147286" minute="18" player="L. Chmaladze" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22147287" minute="37" player="C. Christofi" playerid="2414893" result="" team="home" type="yellowcard"></event>
+<event id="22147287" minute="36" player="C. Christofi" playerid="2414893" result="" team="home" type="yellowcard"></event>
 <event id="22147288" minute="49" player="I. Pereira" playerid="2393291" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22147289" minute="62" player="A. Argyriou" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22147290" minute="65" player="M. Poutziouris" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22147290" minute="64" player="M. Poutziouris" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22147291" minute="76" player="K. Belfort" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22147292" minute="86" player="E. Grigalashvili" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22147292" minute="85" player="I. Sassi" playerid="" result="[3 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4110497" alternate_id_2="4313380" date="08.03.2015" id="4228048" static_id="08031523402672340248" status="FT" time="14:00">

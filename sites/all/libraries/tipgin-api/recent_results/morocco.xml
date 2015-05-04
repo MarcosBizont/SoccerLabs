@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:59" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4035371" alternate_id_2="4319573" date="03.05.2015" id="4152986" static_id="03051523449322344960" status="16:00" time="16:00">
-<home goals="?" id="2344932" name="Chabab Atlas Khenifra"></home>
-<away goals="?" id="2344960" name="Berkane"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:59" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4035371" alternate_id_2="4319573" date="03.05.2015" id="4152986" static_id="03051523449322344960" status="FT" time="16:00">
+<home goals="1" id="2344932" name="Chabab Atlas Khenifra"></home>
+<away goals="1" id="2344960" name="Berkane"></away>
+<events>
+<event id="19367214" minute="82" player="El Kass" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19367215" minute="88" player="Mahha" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4035370" alternate_id_2="4325100" date="26.04.2015" id="4152985" static_id="26041523449502344933" status="FT" time="18:15">
 <home goals="0" id="2344950" name="Moghreb Tétouan"></home>
 <away goals="0" id="2344933" name="Hoceima"></away>
@@ -146,46 +149,54 @@
 <event id="19367014" minute="78" player="Naghmi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="morocco" name="Morocco: Elite 2" cup="False" id="3150" sub_id="31500"><match alternate_id="4047365" alternate_id_2="4325596" date="03.05.2015" id="4047365" static_id="" status="15:00" time="15:00">
-<home goals="?" id="" name="IR Tanger"></home>
-<away goals="?" id="2344929" name="Sale"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047360" alternate_id_2="4325453" date="03.05.2015" id="4047360" static_id="03051523449352344946" status="15:00" time="15:00">
-<home goals="?" id="2344935" name="Meknes"></home>
-<away goals="?" id="2344946" name="Jeunesse Massira"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047364" alternate_id_2="4325667" date="03.05.2015" id="4047364" static_id="03051523449512344968" status="15:00" time="15:00">
-<home goals="?" id="2344951" name="Mouloudia Oujda"></home>
-<away goals="?" id="2344968" name="US Témara"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047361" alternate_id_2="4325454" date="03.05.2015" id="4047361" static_id="03051523518772344956" status="15:00" time="15:00">
-<home goals="?" id="2351877" name="Raja Beni Mellal"></home>
-<away goals="?" id="2344956" name="RAC Casablanca"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047362" alternate_id_2="4325605" date="03.05.2015" id="4047362" static_id="03051523449672344965" status="15:00" time="15:00">
-<home goals="?" id="2344967" name="Union de Mohammédia"></home>
-<away goals="?" id="2344965" name="Union Ait Melloul"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047363" alternate_id_2="4325606" date="03.05.2015" id="4047363" static_id="03051523556482355647" status="15:00" time="15:00">
-<home goals="?" id="2355648" name="Widad Temara"></home>
-<away goals="?" id="2355647" name="Dcheira"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047367" alternate_id_2="4325455" date="03.05.2015" id="4047367" static_id="03051523449712344931" status="15:00" time="15:00">
-<home goals="?" id="2344971" name="Wydad Fes"></home>
-<away goals="?" id="2344931" name="Chabab Houara"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4047366" alternate_id_2="4325456" date="03.05.2015" id="4047366" static_id="03051523449302344945" status="15:00" time="15:00">
-<home goals="?" id="2344930" name="Youssoufia Berrechid"></home>
-<away goals="?" id="2344945" name="Kasba Tadla"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="morocco" name="Morocco: Elite 2" cup="False" id="3150" sub_id="31500"><match alternate_id="4047365" alternate_id_2="4325596" date="03.05.2015" id="4164977" static_id="" status="FT" time="15:00">
+<home goals="1" id="" name="IR Tanger"></home>
+<away goals="1" id="2344929" name="Sale"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4047360" alternate_id_2="4325453" date="03.05.2015" id="4047360" static_id="03051523449352344946" status="FT" time="15:00">
+<home goals="1" id="2344935" name="Meknes"></home>
+<away goals="0" id="2344946" name="Jeunesse Massira"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4047364" alternate_id_2="4325667" date="03.05.2015" id="4047364" static_id="03051523449512344968" status="FT" time="15:00">
+<home goals="1" id="2344951" name="Mouloudia Oujda"></home>
+<away goals="0" id="2344968" name="US Témara"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4047361" alternate_id_2="4325454" date="03.05.2015" id="4047361" static_id="03051523518772344956" status="FT" time="15:00">
+<home goals="0" id="2351877" name="Raja Beni Mellal"></home>
+<away goals="0" id="2344956" name="RAC Casablanca"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4047362" alternate_id_2="4325605" date="03.05.2015" id="4047362" static_id="03051523449672344965" status="FT" time="15:00">
+<home goals="2" id="2344967" name="Union de Mohammédia"></home>
+<away goals="4" id="2344965" name="Union Ait Melloul"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4047363" alternate_id_2="4325606" date="03.05.2015" id="4047363" static_id="03051523556482355647" status="FT" time="15:00">
+<home goals="2" id="2355648" name="Widad Temara"></home>
+<away goals="1" id="2355647" name="Dcheira"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4047367" alternate_id_2="4325455" date="03.05.2015" id="4047367" static_id="03051523449712344931" status="FT" time="15:00">
+<home goals="1" id="2344971" name="Wydad Fes"></home>
+<away goals="3" id="2344931" name="Chabab Houara"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4047366" alternate_id_2="4325456" date="03.05.2015" id="4047366" static_id="03051523449302344945" status="FT" time="15:00">
+<home goals="1" id="2344930" name="Youssoufia Berrechid"></home>
+<away goals="1" id="2344945" name="Kasba Tadla"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4047359" alternate_id_2="4322866" date="26.04.2015" id="4047359" static_id="26041523449312344930" status="FT" time="15:00">
 <home goals="2" id="2344931" name="Chabab Houara"></home>
 <away goals="2" id="2344930" name="Youssoufia Berrechid"></away>
@@ -234,21 +245,21 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4047367" alternate_id_2="4319146" date="18.04.2015" id="4047367" static_id="" status="FT" time="15:00">
-<home goals="1" id="" name="IR Tanger"></home>
-<away goals="1" id="2344931" name="Chabab Houara"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4047362" alternate_id_2="4319084" date="18.04.2015" id="4047362" static_id="18041523449352344965" status="FT" time="15:00">
+</match><match alternate_id="4047345" alternate_id_2="4319084" date="18.04.2015" id="4164957" static_id="18041523449352344965" status="FT" time="15:00">
 <home goals="3" id="2344935" name="Meknes"></home>
 <away goals="1" id="2344965" name="Union Ait Melloul"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4047349" alternate_id_2="4319194" date="18.04.2015" id="4047349" static_id="18041523449512344945" status="FT" time="15:00">
-<home goals="0" id="2344951" name="Mouloudia Oujda"></home>
-<away goals="0" id="2344945" name="Kasba Tadla"></away>
+</match><match alternate_id="4047346" alternate_id_2="4319169" date="18.04.2015" id="4164958" static_id="18041523518772355647" status="FT" time="15:00">
+<home goals="0" id="2351877" name="Raja Beni Mellal"></home>
+<away goals="0" id="2355647" name="Dcheira"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4047347" alternate_id_2="4319170" date="18.04.2015" id="4047347" static_id="18041523449672344968" status="FT" time="15:00">
+<home goals="2" id="2344967" name="Union de Mohammédia"></home>
+<away goals="1" id="2344968" name="US Témara"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>

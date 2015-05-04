@@ -1,13 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:46" sport="soccer" country="hungary"><league country="hungary" name="Hungary: Otp Bank Liga" cup="False" id="3081" sub_id="30810"><match alternate_id="4014897" alternate_id_2="4326883" date="03.05.2015" id="4132517" static_id="03051523430322342965" status="16:30" time="16:30">
-<home goals="?" id="2343032" name="Pecsi MFC"></home>
-<away goals="?" id="2342965" name="Ferencvaros"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4014901" alternate_id_2="4326882" date="03.05.2015" id="4132521" static_id="03051523430782342971" status="14:30" time="14:30">
-<home goals="?" id="2343078" name="Ujpest"></home>
-<away goals="?" id="2342971" name="Gyor"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:45" sport="soccer" country="hungary"><league country="hungary" name="Hungary: Otp Bank Liga" cup="False" id="3081" sub_id="30810"><match alternate_id="4014897" alternate_id_2="4326883" date="03.05.2015" id="4132517" static_id="03051523430322342965" status="FT" time="16:30">
+<home goals="2" id="2343032" name="Pecsi MFC"></home>
+<away goals="2" id="2342965" name="Ferencvaros"></away>
+<events>
+<event id="22282334" minute="7" player="D. Bode" playerid="2365661" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22282335" minute="8" player="D. Bode" playerid="2365661" result="" team="away" type="yellowcard"></event>
+<event id="22282336" minute="10" player="L. Szatmari" playerid="2393257" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22282337" minute="25" player="L. Szatmari" playerid="2393257" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22282338" minute="37" player="D. Mateos" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22282339" minute="61" player="D. Markvart" playerid="2604866" result="" team="home" type="yellowcard"></event>
+<event id="22282340" minute="79" player="D. Makriev" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22282341" minute="90" player="E. Uzoma" playerid="2351975" result="" team="home" type="yellowcard"></event>
+<event id="22282342" minute="90+3" player="I. Weitzer" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4014901" alternate_id_2="4326882" date="03.05.2015" id="4132521" static_id="03051523430782342971" status="FT" time="14:30">
+<home goals="1" id="2343078" name="Ujpest"></home>
+<away goals="0" id="2342971" name="Gyor"></away>
+<events>
+<event id="22282324" minute="33" player="M. Patkai" playerid="2365408" result="" team="away" type="yellowcard"></event>
+<event id="22282325" minute="37" player="K. Ojo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22282326" minute="55" player="T. Priskin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282327" minute="69" player="M. Perovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22282328" minute="82" player="A. Lang" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282329" minute="85" player="L. Nego" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4014903" alternate_id_2="4325349" date="02.05.2015" id="4132523" static_id="02051523429492343030" status="FT" time="16:30">
 <home goals="2" id="2342949" name="DVTK"></home>
 <away goals="1" id="2343030" name="Lombard Papa"></away>
@@ -239,11 +256,13 @@
 <event id="22205779" minute="90" player="B. Pauljevic" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="hungary" name="Hungary: Merkantil Bank Liga" cup="False" id="3078" sub_id=""><match alternate_id="4046395" alternate_id_2="4326886" date="03.05.2015" id="4164008" static_id="03051523541282343052" status="15:30" time="15:30">
-<home goals="?" id="2354128" name="Balmazujvaros Sport"></home>
-<away goals="?" id="2343052" name="Soroksar"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="hungary" name="Hungary: Merkantil Bank Liga" cup="False" id="3078" sub_id=""><match alternate_id="4046395" alternate_id_2="4326886" date="03.05.2015" id="4164008" static_id="03051523541282343052" status="FT" time="15:30">
+<home goals="1" id="2354128" name="Balmazujvaros Sport"></home>
+<away goals="0" id="2343052" name="Soroksar"></away>
+<events>
+<event id="22282364" minute="75" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4046390" alternate_id_2="4324573" date="02.05.2015" id="4164003" static_id="02051523429202343061" status="FT" time="17:00">
 <home goals="2" id="2342920" name="Bekescsaba 1912"></home>
 <away goals="0" id="2343061" name="Szolnoki MAV"></away>

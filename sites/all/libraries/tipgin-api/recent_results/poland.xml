@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:04" sport="soccer" country="poland"><league country="poland" name="Poland: Ekstraklasa" cup="False" id="3177" sub_id="31770"><match alternate_id="4000487" alternate_id_2="4324639" date="29.04.2015" id="4118109" static_id="29041523458082345794" status="FT" time="18:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:41:04" sport="soccer" country="poland"><league country="poland" name="Poland: Ekstraklasa" cup="False" id="3177" sub_id="31770"><match alternate_id="4000487" alternate_id_2="4324639" date="29.04.2015" id="4118109" static_id="29041523458082345794" status="FT" time="18:30">
 <home goals="3" id="2345808" name="Cracovia"></home>
 <away goals="1" id="2345794" name="GKS Belchatow"></away>
 <events>
@@ -762,21 +762,48 @@
 <event id="20084551" minute="88" player="J. Slowik" playerid="2469247" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="poland" name="Poland: Division 1" cup="False" id="3181" sub_id="31810"><match alternate_id="4003253" alternate_id_2="4327484" date="03.05.2015" id="4120875" static_id="03051523460422345792" status="17:00" time="17:00">
-<home goals="?" id="2346042" name="Suwalki"></home>
-<away goals="?" id="2345792" name="Arka Gdynia"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4003255" alternate_id_2="4327483" date="03.05.2015" id="4120877" static_id="03051523458042345919" status="15:00" time="15:00">
-<home goals="?" id="2345804" name="Chojniczanka"></home>
-<away goals="?" id="2345919" name="Legnica"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3937232" alternate_id_2="4326787" date="03.05.2015" id="4054966" static_id="03051523459852346005" status="10:30" time="10:30">
-<home goals="?" id="2345985" name="Pogon Siedlce"></home>
-<away goals="?" id="2346005" name="Sandecja Nowy S."></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="poland" name="Poland: Division 1" cup="False" id="3181" sub_id="31810"><match alternate_id="4003253" alternate_id_2="4327484" date="03.05.2015" id="4120875" static_id="03051523460422345792" status="FT" time="17:00">
+<home goals="1" id="2346042" name="Suwalki"></home>
+<away goals="0" id="2345792" name="Arka Gdynia"></away>
+<events>
+<event id="22288344" minute="24" player="B. Lawa" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22288345" minute="38" player="L. Moneta" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22288346" minute="83" player="B. Widejko" playerid="2587356" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4003255" alternate_id_2="4327483" date="03.05.2015" id="4120877" static_id="03051523458042345919" status="FT" time="15:00">
+<home goals="3" id="2345804" name="Chojniczanka"></home>
+<away goals="0" id="2345919" name="Legnica"></away>
+<events>
+<event id="22288334" minute="10" player="K. Feciuch" playerid="2374455" result="" team="home" type="yellowcard"></event>
+<event id="22288335" minute="10" player="M. Garuch" playerid="2483104" result="" team="away" type="yellowcard"></event>
+<event id="22288336" minute="21" player="M. Gancarczyk" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22288337" minute="25" player="T. Mikolajczak" playerid="2418833" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22288338" minute="43" player="T. Mikolajczak" playerid="2418833" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22288339" minute="44" player="R. Bartoszewicz" playerid="2375074" result="" team="away" type="yellowcard"></event>
+<event id="22288340" minute="54" player="P. Kieruzel" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22288341" minute="71" player="A. Cierpka" playerid="2545735" result="" team="away" type="yellowcard"></event>
+<event id="22288342" minute="78" player="R. Grzelak" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201896843" minute="82" player="D. Podlesny" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201896844" minute="84" player="W. Lisowski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201896845" minute="89" player="B. Niedziela" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match><match alternate_id="3937232" alternate_id_2="4326787" date="03.05.2015" id="4054966" static_id="03051523459852346005" status="FT" time="10:30">
+<home goals="1" id="2345985" name="Pogon Siedlce"></home>
+<away goals="2" id="2346005" name="Sandecja Nowy S."></away>
+<events>
+<event id="22281374" minute="28" player="B. Dudzic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22281375" minute="34" player="T. Lewandowski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281376" minute="41" player="C. Demianiuk" playerid="2529026" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22281377" minute="49" player="M. Nather" playerid="2376966" result="" team="away" type="yellowcard"></event>
+<event id="22281378" minute="59" player="P. Szarek" playerid="2621705" result="" team="away" type="yellowcard"></event>
+<event id="22281379" minute="77" player="A. Calderon" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281380" minute="79" player="C. Niane" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22281381" minute="82" player="R. Urban (pen.)" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22281382" minute="90" player="K. Wojcik" playerid="2418558" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="3937226" alternate_id_2="4326785" date="02.05.2015" id="4054960" static_id="02051523459672345969" status="FT" time="11:00">
 <home goals="2" id="2345967" name="Olsztyn"></home>
 <away goals="1" id="2345969" name="Ol. Grudziadz"></away>

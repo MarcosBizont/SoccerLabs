@@ -1,3 +1,4 @@
+
 .title-p, .b_title
 {
 	display: none;
@@ -178,9 +179,13 @@
 .view-in-play-mobile .tips-fieldset
 {
 	display: none;
+	-webkit-transform: translateZ(0);
 }
 
-
+#mm-mymenuone
+{
+	-webkit-transform: translateZ(0);
+}
 
 
 
@@ -206,11 +211,62 @@
 	background-size: 20px;
 	width: 20px;
 	height: 20px;
-	margin: 0px auto 0px auto;
+	margin: 5px auto 5px auto;
 	zoom: 1;
 	filter: alpha(opacity=70);
 	opacity: 0.7;
+		
+}
+
+/* General Scroll */
+
+#block-views-in-play-mobile-block-3
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+/* Gamebox */
+
+.webui-popover-content
+{
+	padding: 10px;
+	box-sizing: border-box;
+	clear: both;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	padding-bottom: 75px;
+}
+
+.webui-popover-inner .close 
+{
+	font-size: 30px;
+    line-height: 40px;
+}	
+
+.loadinggamebox
+{
+	background: url(../img/Ball.gif) no-repeat center center;
+	background-size: 100px;
+}
+
+.webui-popover-content .title-p, .webui-popover-content .b_title 
+{
+	display: block;
+	margin-top: 30px;
+}
+
+html .webui-popover-content  fieldset.collapsible, html .webui-popover-content  fieldset.collapsed
+{
+	height: auto;
+}
+
+/* Legend */
+
+.webui-popover-content .fieldset-legend
+{
+	display: block;
+	cursor: pointer;
+	color: #000;
 	
-
-
+}
 

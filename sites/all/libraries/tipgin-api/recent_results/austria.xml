@@ -1,8 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:25" sport="soccer" country="austria"><league country="austria" name="Austria: Tipico Bundesliga" cup="False" id="2926" sub_id="29260"><match alternate_id="3996920" alternate_id_2="4324863" date="03.05.2015" id="4114542" static_id="03051523383362338287" status="14:30" time="14:30">
-<home goals="?" id="2338336" name="Sturm Graz"></home>
-<away goals="?" id="2338287" name="Rapid Vienna"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:24" sport="soccer" country="austria"><league country="austria" name="Austria: Tipico Bundesliga" cup="False" id="2926" sub_id="29260"><match alternate_id="3996920" alternate_id_2="4324863" date="03.05.2015" id="4114542" static_id="03051523383362338287" status="FT" time="14:30">
+<home goals="2" id="2338336" name="Sturm Graz"></home>
+<away goals="2" id="2338287" name="Rapid Vienna"></away>
+<events>
+<event id="22262134" minute="8" player="P. Schobesberger" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22262135" minute="12" player="T. Petsos" playerid="2454655" result="" team="away" type="yellowcard"></event>
+<event id="22262136" minute="16" player="S. Piesinger" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22262137" minute="18" player="R. Kienast" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22262138" minute="42" player="S. Piesinger" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22262139" minute="44" player="M. Madl" playerid="2342800" result="" team="home" type="yellowcard"></event>
+<event id="22262140" minute="51" player="A. Hadzic" playerid="2343080" result="" team="home" type="yellowcard"></event>
+<event id="22262141" minute="54" player="T. Petsos" playerid="2454655" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22262142" minute="60" player="I. Oschypko" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201634843" minute="70" player="D. Beichler" playerid="2343090" result="[2 - 2]" team="home" type="goal"></event>
+<event id="201634844" minute="76" player="D. Beichler" playerid="2343090" result="" team="home" type="yellowcard"></event>
+<event id="201634845" minute="84" player="T. Schick" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201634846" minute="87" player="R. Kienast" playerid="" result="" team="home" type="yellowred"></event>
+<event id="201634847" minute="90+5" player="M. Madl" playerid="2342800" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="3996922" alternate_id_2="4322655" date="02.05.2015" id="4114544" static_id="02051523381322338296" status="FT" time="16:30">
 <home goals="1" id="2338132" name="Admira"></home>
 <away goals="0" id="2338296" name="Ried"></away>
@@ -541,26 +556,45 @@
 <event id="20181817" minute="90+2" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="austria" name="Austria: Regionalliga East" cup="False" id="2925" sub_id="29251"><match alternate_id="4011937" alternate_id_2="4328810" date="03.05.2015" id="4129558" static_id="03051523382602338137" status="14:30" time="14:30">
-<home goals="?" id="2338260" name="Mattersburg (Am)"></home>
-<away goals="?" id="2338137" name="Amstetten"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4011935" alternate_id_2="4328809" date="03.05.2015" id="4129556" static_id="03051523383322338153" status="13:30" time="13:30">
-<home goals="?" id="2338332" name="Stegersbach"></home>
-<away goals="?" id="2338153" name="Austria (Am)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4011934" alternate_id_2="4328808" date="03.05.2015" id="4129555" static_id="03051523383212338372" status="12:30" time="12:30">
-<home goals="?" id="2338321" name="1. SC Sollenau"></home>
-<away goals="?" id="2338372" name="Wiener"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4011938" alternate_id_2="4327796" date="03.05.2015" id="4129559" static_id="03051523381732338133" status="08:15" time="08:15">
-<home goals="?" id="2338173" name="Donaufeld Wien"></home>
-<away goals="?" id="2338133" name="Admira (Am)"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="austria" name="Austria: Regionalliga East" cup="False" id="2925" sub_id="29251"><match alternate_id="4011937" alternate_id_2="4328810" date="03.05.2015" id="4129558" static_id="03051523382602338137" status="FT" time="14:30">
+<home goals="4" id="2338260" name="Mattersburg (Am)"></home>
+<away goals="0" id="2338137" name="Amstetten"></away>
+<events>
+<event id="22301604" minute="5" player="Ressler" playerid="2585426" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22301605" minute="11" player="Ressler" playerid="2585426" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22301606" minute="52" player="Doleschal" playerid="2368513" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22301607" minute="54" player="Doleschal" playerid="2368513" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4011935" alternate_id_2="4328809" date="03.05.2015" id="4129556" static_id="03051523383322338153" status="FT" time="13:30">
+<home goals="0" id="2338332" name="Stegersbach"></home>
+<away goals="2" id="2338153" name="Austria (Am)"></away>
+<events>
+<event id="22301594" minute="44" player="Frank" playerid="2532071" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4011934" alternate_id_2="4328808" date="03.05.2015" id="4129555" static_id="03051523383212338372" status="FT" time="12:30">
+<home goals="2" id="2338321" name="1. SC Sollenau"></home>
+<away goals="2" id="2338372" name="Wiener"></away>
+<events>
+<event id="22301584" minute="29" player="Topic" playerid="2370902" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22301585" minute="39" player="Grill" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22301586" minute="89" player="Prenner" playerid="2370931" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22301587" minute="90" player="Yunes" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4011938" alternate_id_2="4327796" date="03.05.2015" id="4129559" static_id="03051523381732338133" status="FT" time="08:15">
+<home goals="4" id="2338173" name="Donaufeld Wien"></home>
+<away goals="2" id="2338133" name="Admira (Am)"></away>
+<events>
+<event id="22291464" minute="33" player="Dlopst" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22291465" minute="44" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22291466" minute="48" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22291467" minute="51" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22291468" minute="72" player="" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22291469" minute="73" player="" playerid="" result="[4 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4011936" alternate_id_2="4327795" date="02.05.2015" id="4129557" static_id="02051523382972338186" status="FT" time="15:00">
 <home goals="1" id="2338297" name="Ritzing"></home>
 <away goals="1" id="2338186" name="First Vienna"></away>
@@ -863,23 +897,21 @@
 <event id="22240088" minute="85" player="Kolbl" playerid="2415711" result="[5 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4012137" alternate_id_2="4320363" date="17.04.2015" id="4129758" static_id="17041523381632338367" status="FT" time="17:00">
-<home goals="3" id="2338163" name="BW Linz"></home>
-<away goals="0" id="2338367" name="SC Weiz"></away>
+</match><match alternate_id="4012140" alternate_id_2="4320386" date="17.04.2015" id="4129761" static_id="17041523382262353950" status="FT" time="17:00">
+<home goals="1" id="2338226" name="Kalsdorf"></home>
+<away goals="2" id="2353950" name="Union Gurten"></away>
 <events>
-<event id="22217134" minute="35" player="Vaschauner" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22217135" minute="71" player="Gulajev" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22217136" minute="90" player="Schnabel" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22217364" minute="17" player="Hackinger (pen.)" playerid="2371808" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22217365" minute="61" player="Ocovan" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22217366" minute="67" player="Martin (pen.)" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4012142" alternate_id_2="4320385" date="17.04.2015" id="4129763" static_id="17041523390732338375" status="FT" time="17:00">
-<home goals="1" id="2339073" name="Florian"></home>
-<away goals="1" id="2338375" name="ATSV Wolfsberger"></away>
+</match><match alternate_id="3938371" alternate_id_2="4320381" date="17.04.2015" id="4056104" static_id="17041523383652338300" status="FT" time="17:00">
+<home goals="0" id="2338365" name="Wallern"></home>
+<away goals="0" id="2338300" name="SAK Klagenfurt"></away>
 <events>
-<event id="22217354" minute="6" player="Stojanovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22217355" minute="29" player="Fellinger" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="austria" name="Austria: Regionalliga West" cup="False" id="2925" sub_id="29252"><match alternate_id="4012698" alternate_id_2="4327208" date="02.05.2015" id="4130319" static_id="02051523382952338324" status="FT" time="15:00">
 <home goals="0" id="2338295" name="Altach (Am)"></home>
 <away goals="3" id="2338324" name="Johann"></away>

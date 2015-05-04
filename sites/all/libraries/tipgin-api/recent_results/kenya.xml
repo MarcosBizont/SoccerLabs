@@ -1,18 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:53" sport="soccer" country="kenya"><league country="kenya" name="Kenya: Premier League" cup="False" id="3112" sub_id="31120"><match alternate_id="3881097" alternate_id_2="4326187" date="03.05.2015" id="3881097" static_id="03051523441212344128" status="13:15" time="13:15">
-<home goals="?" id="2344121" name="Kenya CB"></home>
-<away goals="?" id="2344128" name="Thika Utd."></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4115500" alternate_id_2="4326186" date="03.05.2015" id="4115500" static_id="03051523441192354888" status="12:00" time="12:00">
-<home goals="?" id="2344119" name="Chemelil"></home>
-<away goals="?" id="2354888" name="Ushuru"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4115499" alternate_id_2="4326188" date="03.05.2015" id="4115499" static_id="03051523441222352122" status="11:00" time="11:00">
-<home goals="?" id="2344122" name="Mathare Utd."></home>
-<away goals="?" id="2352122" name="Muhoroni"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:52" sport="soccer" country="kenya"><league country="kenya" name="Kenya: Premier League" cup="False" id="3112" sub_id="31120"><match alternate_id="3881097" alternate_id_2="4326187" date="03.05.2015" id="3881097" static_id="03051523441212344128" status="FT" time="13:15">
+<home goals="1" id="2344121" name="Kenya CB"></home>
+<away goals="1" id="2344128" name="Thika Utd."></away>
+<events>
+<event id="17824474" minute="21" player="Luvutsi M." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="17824475" minute="40" player="Musana R." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="17824476" minute="58" player="Samuel MwanjeMichael Mutinda" playerid="" result="" team="away" type=""></event>
+<event id="17824477" minute="67" player="Yusuf JumaBernard Coulibally" playerid="" result="" team="home" type=""></event>
+<event id="17824478" minute="69" player="Collins Okumu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="17824479" minute="71" player="Paul Mungai KiongeraBenjamin Chaka" playerid="" result="" team="home" type=""></event>
+<event id="17824480" minute="74" player="Kepha AswaniRaymond Ochieng" playerid="" result="" team="away" type=""></event>
+<event id="17824481" minute="78" player="Michael Luvutsi" playerid="" result="" team="away" type="redcard"></event>
+<event id="17824482" minute="78" player="Ezekiel OderaKennedy Otieno" playerid="" result="" team="away" type=""></event>
+<event id="157258243" minute="81" player="John MachariaRonald Musana" playerid="" result="" team="home" type=""></event>
+<event id="157258244" minute="83" player="Kepha Aswani" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4115500" alternate_id_2="4326186" date="03.05.2015" id="4115500" static_id="03051523441192354888" status="FT" time="12:00">
+<home goals="1" id="2344119" name="Chemelil"></home>
+<away goals="0" id="2354888" name="Ushuru"></away>
+<events>
+<event id="20168504" minute="30" player="Karani M." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20168505" minute="46" player="Muhammed HassanCollins Omondi" playerid="" result="" team="away" type=""></event>
+<event id="20168506" minute="50" player="James Ominoh" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20168507" minute="52" player="David NaftaliEvans Kiwanuka" playerid="" result="" team="away" type=""></event>
+<event id="20168508" minute="64" player="Jackson OketchMwinyi Hamisi" playerid="" result="" team="home" type=""></event>
+<event id="20168509" minute="64" player="Moses AritaErasto Ndege" playerid="" result="" team="away" type=""></event>
+<event id="20168510" minute="70" player="Rodgers Ochieng" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4115499" alternate_id_2="4326188" date="03.05.2015" id="4115499" static_id="03051523441222352122" status="FT" time="11:00">
+<home goals="3" id="2344122" name="Mathare Utd."></home>
+<away goals="0" id="2352122" name="Muhoroni"></away>
+<events>
+<event id="20168494" minute="2" player="Syamba R." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20168495" minute="23" player="Nzuli A." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20168496" minute="41" player="Jeremiah WanjalaMike Khaduli" playerid="" result="" team="away" type=""></event>
+<event id="20168497" minute="58" player="Fred OchiengGeorge Mandela" playerid="" result="" team="away" type=""></event>
+<event id="20168498" minute="69" player="Harrison MwendwaAlphonce Nzuli" playerid="" result="" team="home" type=""></event>
+<event id="20168499" minute="84" player="Ibe E." playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="3906468" alternate_id_2="4326310" date="02.05.2015" id="3906468" static_id="02051523441202344130" status="FT" time="12:00">
 <home goals="2" id="2344120" name="Gor Mahia"></home>
 <away goals="0" id="2344130" name="Ulinzi Stars"></away>

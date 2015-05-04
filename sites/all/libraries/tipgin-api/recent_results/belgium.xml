@@ -1,13 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:28" sport="soccer" country="belgium"><league country="belgium" name="Belgium: Jupiler League - Championship Group" cup="False" id="2935" sub_id="29355"><match alternate_id="4115540" alternate_id_2="4317918" date="03.05.2015" id="4233088" static_id="03051523385842338573" status="16:00" time="16:00">
-<home goals="?" id="2338584" name="Charleroi"></home>
-<away goals="?" id="2338573" name="Anderlecht"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4115539" alternate_id_2="4317917" date="03.05.2015" id="4233087" static_id="03051523386462338609" status="12:30" time="12:30">
-<home goals="?" id="2338646" name="Kortrijk"></home>
-<away goals="?" id="2338609" name="Gent"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:27" sport="soccer" country="belgium"><league country="belgium" name="Belgium: Jupiler League - Championship Group" cup="False" id="2935" sub_id="29355"><match alternate_id="4115540" alternate_id_2="4317918" date="03.05.2015" id="4233088" static_id="03051523385842338573" status="FT" time="16:00">
+<home goals="0" id="2338584" name="Charleroi"></home>
+<away goals="1" id="2338573" name="Anderlecht"></away>
+<events>
+<event id="22192684" minute="21" player="A. Najar" playerid="2455781" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22192685" minute="23" player="A. Vanden Borre" playerid="2336418" result="" team="away" type="yellowcard"></event>
+<event id="22192686" minute="45" player="S. Defour" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22192687" minute="45" player="C. Mata" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22192688" minute="49" player="J. Martos" playerid="2392460" result="" team="home" type="yellowcard"></event>
+<event id="22192689" minute="63" player="F. N'Sakala" playerid="2395554" result="" team="away" type="yellowcard"></event>
+<event id="22192690" minute="90+1" player="D. Marcq" playerid="2369594" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4115539" alternate_id_2="4317917" date="03.05.2015" id="4233087" static_id="03051523386462338609" status="FT" time="12:30">
+<home goals="0" id="2338646" name="Kortrijk"></home>
+<away goals="1" id="2338609" name="Gent"></away>
+<events>
+<event id="22192674" minute="15" player="B. Raman" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22192675" minute="25" player="A. van Loo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22192676" minute="41" player="M. Chanot" playerid="2482965" result="" team="home" type="yellowcard"></event>
+<event id="22192677" minute="42" player="D. Milicevic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22192678" minute="65" player="M. Chanot (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22192679" minute="66" player="N. Pavlovic" playerid="2345116" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="belgium" name="Belgium: Jupiler League - Europa League Group" cup="False" id="2935" sub_id="29353"><match alternate_id="4115577" alternate_id_2="4328690" date="02.05.2015" id="4233125" static_id="02051523386082338689" status="FT" time="18:00">
 <home goals="7" id="2338608" name="Genk"></home>
 <away goals="1" id="2338689" name="Waasland-Beveren"></away>
@@ -742,20 +757,16 @@
 <event id="22106832" minute="87" player="T. Simons (pen.)" playerid="2334224" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3996769" alternate_id_2="4307798" date="28.02.2015" id="4114391" static_id="28021523387632338666" status="FT" time="19:00">
-<home goals="2" id="2338763" name="Waregem"></home>
-<away goals="3" id="2338666" name="Mechelen"></away>
+</match><match alternate_id="3996771" alternate_id_2="4307883" date="28.02.2015" id="4114393" static_id="28021523387562338677" status="FT" time="19:00">
+<home goals="3" id="2338756" name="Westerlo"></home>
+<away goals="0" id="2338677" name="Oostende"></away>
 <events>
-<event id="22091484" minute="5" player="G. Gimbert" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22091485" minute="16" player="S. Hanni" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22091486" minute="32" player="S. de Witte" playerid="2400848" result="" team="away" type="yellowcard"></event>
-<event id="22091487" minute="43" player="F. Mendy" playerid="2568645" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22091488" minute="59" player="S. de Witte" playerid="2400848" result="[2 - 2]" team="away" type="goal"></event>
-<event id="22091489" minute="73" player="R. Wolski" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22091490" minute="76" player="N. (Veselinovic D.) Verdier" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="22091491" minute="90" player="C. Aneke" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22092334" minute="25" player="K. Geudens" playerid="2345213" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22092335" minute="34" player="N. Schouterden (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22092336" minute="63" player="J. Lukaku" playerid="2512478" result="" team="away" type="yellowcard"></event>
+<event id="22092337" minute="82" player="M. Aoulad" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[2-1]"></ht>
+<ht score="[2-0]"></ht>
 </match></league><league country="belgium" name="Belgium: Jupiler League - Relegation" cup="False" id="2935" sub_id=""><match alternate_id="3954420" alternate_id_2="4112889" date="22.05.2014" id="4072116" static_id="22051423386722338601" status="FT" time="18:30">
 <home goals="2" id="2338672" name="Leuven"></home>
 <away goals="1" id="2338601" name="Eupen"></away>
@@ -1161,17 +1172,16 @@
 <event id="22203966" minute="70" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3950924" alternate_id_2="4317587" date="11.04.2015" id="4068631" static_id="11041523386722338739" status="FT" time="18:00">
-<home goals="1" id="2338672" name="Leuven"></home>
-<away goals="2" id="2338739" name="Tubize"></away>
+</match><match alternate_id="3950908" alternate_id_2="4317375" date="11.04.2015" id="4068615" static_id="11041523386012338746" status="FT" time="18:00">
+<home goals="4" id="2338601" name="Eupen"></home>
+<away goals="0" id="2338746" name="ASV Geel"></away>
 <events>
-<event id="22189374" minute="24" player="R. Reynaud" playerid="" result="" team="home" type="redcard"></event>
-<event id="22189375" minute="36" player="L. Doumbouya" playerid="2508830" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22189376" minute="40" player="G. Rossini" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22189377" minute="78" player="D. Ndabashinze" playerid="" result="" team="away" type="redcard"></event>
-<event id="22189378" minute="83" player="L. Doumbouya" playerid="2508830" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22187254" minute="1" player="V. Ortiz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22187255" minute="3" player="F. L. Garcia (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22187256" minute="20" player="V. Ortiz" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22187257" minute="51" player="F. Taulemesse" playerid="2479696" result="[4 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[3-0]"></ht>
 </match></league><league country="belgium" name="Belgium: Proximus League - Relegation" cup="False" id="2937" sub_id=""><match alternate_id="3960976" alternate_id_2="4116159" date="29.05.2014" id="4078652" static_id="29051423386822338742" status="FT" time="14:00">
 <home goals="2" id="2338682" name="Patro Eisden"></home>
 <away goals="0" id="2338742" name="St. Gilloise"></away>
@@ -1567,21 +1577,21 @@
 </events>
 <ht score="[-]"></ht>
 <penalty localteam="2" visitorteam="3"></penalty>
-</match><match alternate_id="4044069" alternate_id_2="4262041" date="17.08.2014" id="4161682" static_id="17081423386522338575" status="AET" time="14:00">
-<home goals="3" id="2338652" name="Bornem"></home>
-<away goals="2" id="2338575" name="Berchem"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4044054" alternate_id_2="4262043" date="17.08.2014" id="4161667" static_id="17081423386852351199" status="FT" time="14:00">
-<home goals="5" id="2338685" name="K.RC. Mechelen"></home>
-<away goals="0" id="2351199" name="Ethe Belmont"></away>
+</match><match alternate_id="4044068" alternate_id_2="4262042" date="17.08.2014" id="4161681" static_id="17081423504352338616" status="FT" time="14:00">
+<home goals="0" id="2350435" name="Knokke"></home>
+<away goals="1" id="2338616" name="Hasselt"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
 </match><match alternate_id="4044037" alternate_id_2="4262044" date="17.08.2014" id="4161650" static_id="17081423387302338574" status="AET" time="14:00">
 <home goals="1" id="2338730" name="Overijse"></home>
 <away goals="2" id="2338574" name="FC Antwerp"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4044052" alternate_id_2="4262045" date="17.08.2014" id="4161665" static_id="17081423386232338679" status="FT" time="14:00">
+<home goals="1" id="2338623" name="Westhoek"></home>
+<away goals="2" id="2338679" name="Oudenaarde"></away>
 <events>
 </events>
 <ht score="[-]"></ht>

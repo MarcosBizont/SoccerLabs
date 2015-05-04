@@ -1,13 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:33" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104028" alternate_id_2="4326467" date="03.05.2015" id="4221583" static_id="03051523398852339911" status="11:35" time="11:35">
-<home goals="?" id="2339885" name="Hangzhou Greentown"></home>
-<away goals="?" id="2339911" name="Shanghai SIPG"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4104027" alternate_id_2="4326424" date="03.05.2015" id="4221582" static_id="03051523399182339873" status="11:35" time="11:35">
-<home goals="?" id="2339918" name="Tianjin Teda"></home>
-<away goals="?" id="2339873" name="Changchun Yatai"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:31" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104028" alternate_id_2="4326467" date="03.05.2015" id="4221583" static_id="03051523398852339911" status="FT" time="11:35">
+<home goals="1" id="2339885" name="Hangzhou Greentown"></home>
+<away goals="1" id="2339911" name="Shanghai SIPG"></away>
+<events>
+<event id="22278174" minute="75" player="Xie Zhiyu" playerid="2360694" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22278175" minute="81" player="J. Kouassi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22278176" minute="82" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4104027" alternate_id_2="4326424" date="03.05.2015" id="4221582" static_id="03051523399182339873" status="FT" time="11:35">
+<home goals="1" id="2339918" name="Tianjin Teda"></home>
+<away goals="1" id="2339873" name="Changchun Yatai"></away>
+<events>
+<event id="22277744" minute="35" player="H. Barcos" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22277745" minute="60" player="Yan Feng" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277746" minute="84" player="A. Elek" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277747" minute="87" player="A. Elek" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22277748" minute="90" player="Li Weifeng" playerid="2342463" result="" team="home" type="yellowcard"></event>
+<event id="22277749" minute="90" player="M. Moreno" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22277750" minute="90+2" player="Yan Feng" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22277751" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4104026" alternate_id_2="4326422" date="02.05.2015" id="4221581" static_id="02051523398862352222" status="FT" time="11:45">
 <home goals="1" id="2339886" name="Henan Jianye"></home>
 <away goals="1" id="2352222" name="Guizhou Renhe"></away>
@@ -258,16 +271,28 @@
 <event id="22234654" minute="57" player="Mao Jianqing" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="china" name="China: Jia League" cup="False" id="2995" sub_id=""><match alternate_id="4114659" alternate_id_2="4330977" date="03.05.2015" id="4232207" static_id="03051523398702354994" status="07:00" time="07:00">
-<home goals="?" id="2339870" name="Beijing Technology"></home>
-<away goals="?" id="2354994" name="Qingdao Hainiu"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4114658" alternate_id_2="4330978" date="03.05.2015" id="4232206" static_id="03051523550812339868" status="07:00" time="07:00">
-<home goals="?" id="2355081" name="Jiangxi Liansheng"></home>
-<away goals="?" id="2339868" name="Beijing"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="china" name="China: Jia League" cup="False" id="2995" sub_id=""><match alternate_id="4114659" alternate_id_2="4330977" date="03.05.2015" id="4232207" static_id="03051523398702354994" status="FT" time="07:00">
+<home goals="3" id="2339870" name="Beijing Technology"></home>
+<away goals="1" id="2354994" name="Qingdao Hainiu"></away>
+<events>
+<event id="22323274" minute="32" player="Marquez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22323275" minute="44" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22323276" minute="48" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22323277" minute="67" player="" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4114658" alternate_id_2="4330978" date="03.05.2015" id="4232206" static_id="03051523550812339868" status="FT" time="07:00">
+<home goals="3" id="2355081" name="Jiangxi Liansheng"></home>
+<away goals="3" id="2339868" name="Beijing"></away>
+<events>
+<event id="22323284" minute="45" player="Demerson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22323285" minute="76" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22323286" minute="81" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22323287" minute="82" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22323288" minute="84" player="" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="22323289" minute="88" player="" playerid="" result="[3 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4114657" alternate_id_2="4330649" date="02.05.2015" id="4232205" static_id="02051523399162356141" status="FT" time="11:30">
 <home goals="3" id="2339916" name="Shenzhen"></home>
 <away goals="2" id="2356141" name="Nei Mongol"></away>

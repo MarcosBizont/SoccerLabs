@@ -1,13 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:13" sport="soccer" country="southafrica"><league country="southafrica" name="South Africa: Premier League" cup="False" id="3227" sub_id="32270"><match alternate_id="4036313" alternate_id_2="4326854" date="03.05.2015" id="4153927" static_id="03051523473882347377" status="13:00" time="13:00">
-<home goals="?" id="2347388" name="Bloem Celtic"></home>
-<away goals="?" id="2347377" name="Ajax Cape Town"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4036194" alternate_id_2="4287215" date="03.05.2015" id="4153808" static_id="03051523474332347415" status="13:00" time="13:00">
-<home goals="?" id="2347433" name="Platinum Stars"></home>
-<away goals="?" id="2347415" name="Mamelodi Sundowns"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:41:12" sport="soccer" country="southafrica"><league country="southafrica" name="South Africa: Premier League" cup="False" id="3227" sub_id="32270"><match alternate_id="4036313" alternate_id_2="4326854" date="03.05.2015" id="4153927" static_id="03051523473882347377" status="FT" time="13:00">
+<home goals="2" id="2347388" name="Bloem Celtic"></home>
+<away goals="3" id="2347377" name="Ajax Cape Town"></away>
+<events>
+<event id="22282044" minute="10" player="L. Lamola" playerid="2606535" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22282045" minute="38" player="T. Morena" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22282046" minute="54" player="G. Scott" playerid="2389583" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22282047" minute="68" player="B. Mzwakali" playerid="2643095" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22282048" minute="69" player="A. Ndengane" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22282049" minute="90+3" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4036194" alternate_id_2="4287215" date="03.05.2015" id="4153808" static_id="03051523474332347415" status="FT" time="13:00">
+<home goals="1" id="2347433" name="Platinum Stars"></home>
+<away goals="2" id="2347415" name="Mamelodi Sundowns"></away>
+<events>
+<event id="21885654" minute="15" player="H. Kekana" playerid="2400346" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21885655" minute="26" player="S. Mathe" playerid="2396442" result="" team="home" type="yellowcard"></event>
+<event id="21885656" minute="28" player="K. Mashego" playerid="2394402" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21885657" minute="45+1" player="L. Madubanya" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="21885658" minute="47" player="V. Mere" playerid="2396320" result="" team="home" type="yellowcard"></event>
+<event id="21885659" minute="53" player="K. Mashego" playerid="2394402" result="" team="away" type="yellowcard"></event>
+<event id="21885660" minute="56" player="M. Zongo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21885661" minute="65" player="S. Mathe" playerid="2396442" result="" team="home" type="redcard"></event>
+<event id="21885662" minute="77" player="B. Zunga" playerid="2593249" result="" team="away" type="yellowcard"></event>
+<event id="197870043" minute="80" player="R. Tshikovhi" playerid="2585962" result="" team="home" type="yellowcard"></event>
+<event id="197870044" minute="82" player="L. Madubanya" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="197870045" minute="87" player="G. Sithole" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-2]"></ht>
 </match><match alternate_id="4036312" alternate_id_2="4326427" date="02.05.2015" id="4153926" static_id="02051523473802347438" status="FT" time="18:15">
 <home goals="1" id="2347380" name="Amazulu"></home>
 <away goals="3" id="2347438" name="Supersport Utd"></away>
@@ -207,18 +227,16 @@
 <event id="22238166" minute="38" player="L. Lamola" playerid="2606535" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4036296" alternate_id_2="4318105" date="18.04.2015" id="4153910" static_id="18041523474382347422" status="FT" time="18:15">
-<home goals="1" id="2347438" name="Supersport Utd"></home>
-<away goals="1" id="2347422" name="Moroka Swallows"></away>
+</match><match alternate_id="4036290" alternate_id_2="4318104" date="18.04.2015" id="4153904" static_id="18041523474512350809" status="FT" time="18:15">
+<home goals="0" id="2347451" name="Bidvest Wits"></home>
+<away goals="0" id="2350809" name="Chippa Utd."></away>
 <events>
-<event id="22194554" minute="45+1" player="S. Nomvethe" playerid="2343423" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22194555" minute="46" player="C. Daniels" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22194556" minute="62" player="S. Nomvethe" playerid="2343423" result="" team="away" type="yellowcard"></event>
-<event id="22194557" minute="89" player="T. Phala" playerid="2394192" result="" team="home" type="yellowcard"></event>
-<event id="22194558" minute="90+1" player="C. Daniels" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22194559" minute="90+5" player="R. Chapman" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22194544" minute="23" player="C. Komane" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22194545" minute="41" player="S. Vilakazi" playerid="2427341" result="" team="home" type="yellowcard"></event>
+<event id="22194546" minute="43" player="S. Zuke" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22194547" minute="71" player="M. Cele" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="southafrica" name="South Africa: Premier League - Relegation Group" cup="False" id="3227" sub_id=""><match alternate_id="3957505" alternate_id_2="4114242" date="01.06.2014" id="4075190" static_id="01061423473862347382" status="FT" time="13:00">
 <home goals="1" id="2347386" name="Black Leopards"></home>
 <away goals="2" id="2347382" name="Polokwane"></away>
@@ -292,46 +310,63 @@
 <event id="20155875" minute="60" player="V. Mngqibisa" playerid="2586078" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="southafrica" name="South Africa: First Division" cup="False" id="4184" sub_id="41840"><match alternate_id="4124484" alternate_id_2="4326962" date="03.05.2015" id="4242027" static_id="03051523473762355653" status="13:00" time="13:00">
-<home goals="?" id="2347376" name="African Warriors"></home>
-<away goals="?" id="2355653" name="Highlands"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124458" alternate_id_2="4326858" date="03.05.2015" id="4242001" static_id="03051523508032339495" status="13:00" time="13:00">
-<home goals="?" id="2350803" name="Baroka"></home>
-<away goals="?" id="2339495" name="Vasco Da Gama"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124467" alternate_id_2="4326916" date="03.05.2015" id="4242010" static_id="03051523473992347386" status="13:00" time="13:00">
-<home goals="?" id="2347399" name="FC Cape Town"></home>
-<away goals="?" id="2347386" name="Black Leopards"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124468" alternate_id_2="4326917" date="03.05.2015" id="4242011" static_id="03051523474012352018" status="13:00" time="13:00">
-<home goals="?" id="2347401" name="Garankuwa"></home>
-<away goals="?" id="2352018" name="Royal Eagles"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124472" alternate_id_2="4326932" date="03.05.2015" id="4242015" static_id="03051523474022353645" status="13:00" time="13:00">
-<home goals="?" id="2347402" name="Golden Arrows"></home>
-<away goals="?" id="2353645" name="Cape Town All Stars"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124473" alternate_id_2="4326933" date="03.05.2015" id="4242016" static_id="03051523474082347440" status="13:00" time="13:00">
-<home goals="?" id="2347408" name="Jomo Cosmos"></home>
-<away goals="?" id="2347440" name="Thanda Royal Zulu"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124459" alternate_id_2="4326859" date="03.05.2015" id="4242002" static_id="03051523393932347420" status="13:00" time="13:00">
-<home goals="?" id="2339393" name="Santos"></home>
-<away goals="?" id="2347420" name="Milano Utd"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4124493" alternate_id_2="4326980" date="03.05.2015" id="4242036" static_id="03051523474492347414" status="13:00" time="13:00">
-<home goals="?" id="2347449" name="Witbank"></home>
-<away goals="?" id="2347414" name="Maluti Fet College"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="southafrica" name="South Africa: First Division" cup="False" id="4184" sub_id="41840"><match alternate_id="4124484" alternate_id_2="4326962" date="03.05.2015" id="4242027" static_id="03051523473762355653" status="FT" time="13:00">
+<home goals="2" id="2347376" name="African Warriors"></home>
+<away goals="1" id="2355653" name="Highlands"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4124458" alternate_id_2="4326858" date="03.05.2015" id="4242001" static_id="03051523508032339495" status="FT" time="13:00">
+<home goals="0" id="2350803" name="Baroka"></home>
+<away goals="0" id="2339495" name="Vasco Da Gama"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4124467" alternate_id_2="4326916" date="03.05.2015" id="4242010" static_id="03051523473992347386" status="FT" time="13:00">
+<home goals="0" id="2347399" name="FC Cape Town"></home>
+<away goals="2" id="2347386" name="Black Leopards"></away>
+<events>
+<event id="22282664" minute="30" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22282665" minute="65" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4124468" alternate_id_2="4326917" date="03.05.2015" id="4242011" static_id="03051523474012352018" status="FT" time="13:00">
+<home goals="2" id="2347401" name="Garankuwa"></home>
+<away goals="0" id="2352018" name="Royal Eagles"></away>
+<events>
+<event id="22282674" minute="35" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22282675" minute="38" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22282676" minute="53" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4124472" alternate_id_2="4326932" date="03.05.2015" id="4242015" static_id="03051523474022353645" status="FT" time="13:00">
+<home goals="1" id="2347402" name="Golden Arrows"></home>
+<away goals="1" id="2353645" name="Cape Town All Stars"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4124473" alternate_id_2="4326933" date="03.05.2015" id="4242016" static_id="03051523474082347440" status="FT" time="13:00">
+<home goals="1" id="2347408" name="Jomo Cosmos"></home>
+<away goals="2" id="2347440" name="Thanda Royal Zulu"></away>
+<events>
+<event id="22282834" minute="4" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22282835" minute="57" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22282836" minute="68" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="22282837" minute="83" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4124459" alternate_id_2="4326859" date="03.05.2015" id="4242002" static_id="03051523393932347420" status="FT" time="13:00">
+<home goals="0" id="2339393" name="Santos"></home>
+<away goals="0" id="2347420" name="Milano Utd"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4124493" alternate_id_2="4326980" date="03.05.2015" id="4242036" static_id="03051523474492347414" status="FT" time="13:00">
+<home goals="1" id="2347449" name="Witbank"></home>
+<away goals="1" id="2347414" name="Maluti Fet College"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4124456" alternate_id_2="4326856" date="30.04.2015" id="4241999" static_id="30041523474142347401" status="FT" time="13:00">
 <home goals="6" id="2347414" name="Maluti Fet College"></home>
 <away goals="3" id="2347401" name="Garankuwa"></away>
@@ -427,16 +462,20 @@
 <event id="22259027" minute="88" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4119550" alternate_id_2="4323859" date="25.04.2015" id="4237094" static_id="25041523473862339393" status="FT" time="13:00">
-<home goals="2" id="2347386" name="Black Leopards"></home>
-<away goals="0" id="2339393" name="Santos"></away>
+</match><match alternate_id="4119548" alternate_id_2="4323852" date="25.04.2015" id="4237092" static_id="25041523473762347440" status="FT" time="13:00">
+<home goals="2" id="2347376" name="African Warriors"></home>
+<away goals="1" id="2347440" name="Thanda Royal Zulu"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4119546" alternate_id_2="4323844" date="25.04.2015" id="4237090" static_id="25041523474022352018" status="FT" time="13:00">
-<home goals="4" id="2347402" name="Golden Arrows"></home>
-<away goals="2" id="2352018" name="Royal Eagles"></away>
+</match><match alternate_id="4119544" alternate_id_2="4323842" date="25.04.2015" id="4237088" static_id="25041523473992353645" status="FT" time="13:00">
+<home goals="2" id="2347399" name="FC Cape Town"></home>
+<away goals="2" id="2353645" name="Cape Town All Stars"></away>
 <events>
+<event id="22251924" minute="18" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22251925" minute="47" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22251926" minute="55" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22251927" minute="90" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[-]"></ht>
 </match></league><league country="southafrica" name="South Africa: Nedbank Cup" cup="True" id="4188" sub_id="41880"><match alternate_id="4123695" alternate_id_2="4325944" date="26.04.2015" id="4241239" static_id="26041523474152339495" status="FT" time="13:00">

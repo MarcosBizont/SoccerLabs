@@ -1,53 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:00" sport="soccer" country="nigeria"><league country="nigeria" name="Nigeria: Premier League" cup="False" id="3159" sub_id="31590"><match alternate_id="" alternate_id_2="4328356" date="03.05.2015" id="" static_id="03051523520272337676" status="15:00" time="15:00">
-<home goals="?" id="2352027" name="Dolphins"></home>
-<away goals="?" id="2337676" name="Lobi"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328333" date="03.05.2015" id="" static_id="03051523454272345422" status="15:00" time="15:00">
-<home goals="?" id="2345427" name="El Kanemi"></home>
-<away goals="?" id="2345422" name="Akwa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328334" date="03.05.2015" id="" static_id="03051523454312345429" status="15:00" time="15:00">
-<home goals="?" id="2345431" name="Gabros"></home>
-<away goals="?" id="2345429" name="Enyimba"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328335" date="03.05.2015" id="" static_id="03051523550212345423" status="15:00" time="15:00">
-<home goals="?" id="2355021" name="Giwa"></home>
-<away goals="?" id="2345423" name="Bayelsa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328336" date="03.05.2015" id="" static_id="03051523454342345450" status="15:00" time="15:00">
-<home goals="?" id="2345434" name="Heartland"></home>
-<away goals="?" id="2345450" name="Sunshine Stars"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328337" date="03.05.2015" id="" static_id="03051523454392345438" status="15:00" time="15:00">
-<home goals="?" id="2345439" name="Kwara"></home>
-<away goals="?" id="2345438" name="Kano"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328338" date="03.05.2015" id="" static_id="03051523454412355022" status="15:00" time="15:00">
-<home goals="?" id="2345441" name="Nasarawa"></home>
-<away goals="?" id="2355022" name="Abia Warriors"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328339" date="03.05.2015" id="" static_id="03051523550382355023" status="15:00" time="15:00">
-<home goals="?" id="2355038" name="Sharks"></home>
-<away goals="?" id="2355023" name="Taraba"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328340" date="03.05.2015" id="" static_id="03051523454492355022" status="15:00" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:41:00" sport="soccer" country="nigeria"><league country="nigeria" name="Nigeria: Premier League" cup="False" id="3159" sub_id="31590"><match alternate_id="" alternate_id_2="4328356" date="03.05.2015" id="" static_id="03051523520272337676" status="FT" time="15:00">
+<home goals="2" id="2352027" name="Dolphins"></home>
+<away goals="0" id="2337676" name="Lobi"></away>
+<events>
+<event id="2331834" minute="53" player="Elum S." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="59" player="Zikiye" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328333" date="03.05.2015" id="" static_id="03051523454272345422" status="FT" time="15:00">
+<home goals="1" id="2345427" name="El Kanemi"></home>
+<away goals="0" id="2345422" name="Akwa"></away>
+<events>
+<event id="2331834" minute="1" player="Adetunji S." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328334" date="03.05.2015" id="" static_id="03051523454312345429" status="FT" time="15:00">
+<home goals="2" id="2345431" name="Gabros"></home>
+<away goals="0" id="2345429" name="Enyimba"></away>
+<events>
+<event id="2331834" minute="52" player="Chukwudi S." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="90" player="Okonkwo C. (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328335" date="03.05.2015" id="" static_id="03051523550212345423" status="FT" time="15:00">
+<home goals="3" id="2355021" name="Giwa"></home>
+<away goals="1" id="2345423" name="Bayelsa"></away>
+<events>
+<event id="2331834" minute="29" player="Charles O." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="30" player="Ocheme E." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="2331836" minute="76" player="Shuaibu I." playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="2331837" minute="83" player="Tiongoli T." playerid="" result="[3 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328336" date="03.05.2015" id="" static_id="03051523454342345450" status="FT" time="15:00">
+<home goals="0" id="2345434" name="Heartland"></home>
+<away goals="3" id="2345450" name="Sunshine Stars"></away>
+<events>
+<event id="2331834" minute="43" player="Adeniji T." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="59" player="Ogbonnaya N." playerid="" result="" team="home" type="redcard"></event>
+<event id="2331836" minute="62" player="Adeniji T." playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="2331837" minute="90+4" player="Aggrey P." playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4328337" date="03.05.2015" id="" static_id="03051523454392345438" status="FT" time="15:00">
+<home goals="1" id="2345439" name="Kwara"></home>
+<away goals="0" id="2345438" name="Kano"></away>
+<events>
+<event id="2331834" minute="21" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328338" date="03.05.2015" id="" static_id="03051523454412355022" status="FT" time="15:00">
+<home goals="2" id="2345441" name="Nasarawa"></home>
+<away goals="0" id="2355022" name="Abia Warriors"></away>
+<events>
+<event id="2331834" minute="51" player="Malachy I." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="55" player="Ugochukwu L." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4328340" date="03.05.2015" id="" static_id="03051523454492355022" status="Postp." time="15:00">
 <home goals="?" id="2345449" name="Shooting"></home>
 <away goals="?" id="2355022" name="Warri"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4328341" date="03.05.2015" id="" static_id="03051523454522345428" status="15:00" time="15:00">
-<home goals="?" id="2345452" name="Wikki"></home>
-<away goals="?" id="2345428" name="Enugu"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4328341" date="03.05.2015" id="" static_id="03051523454522345428" status="FT" time="15:00">
+<home goals="4" id="2345452" name="Wikki"></home>
+<away goals="2" id="2345428" name="Enugu"></away>
+<events>
+<event id="2331834" minute="14" player="Waziri K." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="16" player="Aguda G." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="2331836" minute="26" player="Uche M." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="2331837" minute="33" player="Mubarak U." playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="2331838" minute="40" player="Mubarak U." playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="2331839" minute="42" player="Clement B." playerid="" result="[4 - 2]" team="away" type="goal"></event>
+<event id="2331840" minute="58" player="Etim M." playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[4-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4328339" date="03.05.2015" id="" static_id="03051523550382355023" status="FT" time="13:00">
+<home goals="2" id="2355038" name="Sharks"></home>
+<away goals="2" id="2355023" name="Taraba"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4327867" date="27.04.2015" id="" static_id="27041523550222345434" status="FT" time="07:00">
 <home goals="2" id="2355022" name="Warri"></home>
 <away goals="0" id="2345434" name="Heartland"></away>

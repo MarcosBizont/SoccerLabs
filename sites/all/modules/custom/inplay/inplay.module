@@ -80,8 +80,17 @@ function inplay_init() {
 			$_SESSION['inplay_competitions'] = '';	
 		}
 		
-		_inplay_start_session_time(3);
-			
+		_inplay_start_session_time(2);
+		
+		
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.js', array('scope' => 'footer'));
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.css');
+	    
+		
+		
+		//drupal_add_js(drupal_get_path('module', 'team_match') . '/js/team_match.js', array('scope' => 'footer'));
+		drupal_add_css(drupal_get_path('module', 'team_match') . '/css/team_match.css', array('weight' => 10));
+		
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay_mobile.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay_mobile.css', array('weight' => 11));
 	}

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:41" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4122772" alternate_id_2="4324564" date="02.05.2015" id="4240316" static_id="02051523413422341350" status="FT" time="16:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:41" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4122772" alternate_id_2="4324564" date="02.05.2015" id="4240316" static_id="02051523413422341350" status="FT" time="16:00">
 <home goals="4" id="2341342" name="Kalju"></home>
 <away goals="1" id="2341350" name="Narva"></away>
 <events>
@@ -218,11 +218,13 @@
 <event id="22175882" minute="86" player="D. Ratnikov" playerid="2357668" result="[3 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[1-2]"></ht>
-</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4323617" date="03.05.2015" id="" static_id="03051523413432341330" status="16:00" time="16:00">
-<home goals="?" id="2341343" name="Nomme Kalju II"></home>
-<away goals="?" id="2341330" name="Flora II"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4323617" date="03.05.2015" id="" static_id="03051523413432341330" status="FT" time="16:00">
+<home goals="0" id="2341343" name="Nomme Kalju II"></home>
+<away goals="1" id="2341330" name="Flora II"></away>
+<events>
+<event id="22249674" minute="49" player="Paavo (pen.)" playerid="2592531" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4325292" date="01.05.2015" id="" static_id="01051523560832353651" status="FT" time="11:00">
 <home goals="2" id="2356083" name="Infonet II"></home>
 <away goals="1" id="2353651" name="Vandra Vaprus"></away>

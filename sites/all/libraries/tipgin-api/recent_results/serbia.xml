@@ -1,43 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:10" sport="soccer" country="serbia"><league country="serbia" name="Serbia: Super Liga" cup="False" id="3214" sub_id="32140"><match alternate_id="4002548" alternate_id_2="4326926" date="03.05.2015" id="4120170" static_id="03051523471142346996" status="17:00" time="17:00">
-<home goals="?" id="2347114" name="Napredak"></home>
-<away goals="?" id="2346996" name="Borac"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002550" alternate_id_2="4326894" date="03.05.2015" id="4120172" static_id="03051523471712347122" status="17:00" time="17:00">
-<home goals="?" id="2347171" name="Vojvodina"></home>
-<away goals="?" id="2347122" name="Partizan"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002549" alternate_id_2="4326893" date="03.05.2015" id="4120171" static_id="03051523471582347172" status="15:30" time="15:30">
-<home goals="?" id="2347158" name="Sp. Subotica"></home>
-<away goals="?" id="2347172" name="FK Vozdovac"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002552" alternate_id_2="4326795" date="03.05.2015" id="4120174" static_id="03051523470062347133" status="15:00" time="15:00">
-<home goals="?" id="2347006" name="Crvena Zvezda"></home>
-<away goals="?" id="2347133" name="Rad Beograd"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002551" alternate_id_2="4326796" date="03.05.2015" id="4120173" static_id="03051523470832347022" status="15:00" time="15:00">
-<home goals="?" id="2347083" name="Jagodina"></home>
-<away goals="?" id="2347022" name="Donji Srem"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002553" alternate_id_2="4326797" date="03.05.2015" id="4120175" static_id="03051523445822347008" status="15:00" time="15:00">
-<home goals="?" id="2344582" name="Mladost"></home>
-<away goals="?" id="2347008" name="Cukaricki"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002554" alternate_id_2="4326958" date="03.05.2015" id="4120176" static_id="03051523471182347044" status="15:00" time="15:00">
-<home goals="?" id="2347118" name="OFK Beograd"></home>
-<away goals="?" id="2347044" name="Radnicki 1923"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4002547" alternate_id_2="4326959" date="03.05.2015" id="4120169" static_id="03051523471372347115" status="15:00" time="15:00">
-<home goals="?" id="2347137" name="Radnicki Nis"></home>
-<away goals="?" id="2347115" name="Novi Pazar"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:41:10" sport="soccer" country="serbia"><league country="serbia" name="Serbia: Super Liga" cup="False" id="3214" sub_id="32140"><match alternate_id="4002548" alternate_id_2="4326926" date="03.05.2015" id="4120170" static_id="03051523471142346996" status="FT" time="17:00">
+<home goals="2" id="2347114" name="Napredak"></home>
+<away goals="1" id="2346996" name="Borac"></away>
+<events>
+<event id="22282764" minute="43" player="S. Dimitrov" playerid="2475633" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22282765" minute="45" player="A. Gojkovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282766" minute="45" player="D. Lemajic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22282767" minute="54" player="Z. Djuro" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22282768" minute="70" player="D. Jovanovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282769" minute="76" player="R. Krunic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282770" minute="80" player="N. Trujic" playerid="2466476" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22282771" minute="82" player="N. Trujic" playerid="2466476" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4002550" alternate_id_2="4326894" date="03.05.2015" id="4120172" static_id="03051523471712347122" status="FT" time="17:00">
+<home goals="0" id="2347171" name="Vojvodina"></home>
+<away goals="4" id="2347122" name="Partizan"></away>
+<events>
+<event id="22282444" minute="34" player="L. Lukovic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22282445" minute="37" player="V. (Drincic N.) Volkov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22282446" minute="71" player="V. Volkov" playerid="2379193" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22282447" minute="90" player="N. Ninkovic" playerid="2520962" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22282448" minute="90+1" player="D. Brasanac" playerid="2453971" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4002549" alternate_id_2="4326893" date="03.05.2015" id="4120171" static_id="03051523471582347172" status="FT" time="15:30">
+<home goals="0" id="2347158" name="Sp. Subotica"></home>
+<away goals="1" id="2347172" name="FK Vozdovac"></away>
+<events>
+<event id="22282434" minute="21" player="M. Pavlovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282435" minute="33" player="T. Kitanovski" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22282436" minute="60" player="U. Sindic" playerid="2379148" result="" team="away" type="yellowcard"></event>
+<event id="22282437" minute="77" player="E. Obiora" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002552" alternate_id_2="4326795" date="03.05.2015" id="4120174" static_id="03051523470062347133" status="FT" time="15:00">
+<home goals="2" id="2347006" name="Crvena Zvezda"></home>
+<away goals="0" id="2347133" name="Rad Beograd"></away>
+<events>
+<event id="22281454" minute="12" player="P. Orlandic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22281455" minute="15" player="L. Jovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22281456" minute="47" player="N. Maras" playerid="2629748" result="" team="away" type="yellowcard"></event>
+<event id="22281457" minute="50" player="O. Gnjatic" playerid="2531888" result="" team="away" type="yellowcard"></event>
+<event id="22281458" minute="88" player="M. Grujic" playerid="2601838" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4002551" alternate_id_2="4326796" date="03.05.2015" id="4120173" static_id="03051523470832347022" status="FT" time="15:00">
+<home goals="0" id="2347083" name="Jagodina"></home>
+<away goals="0" id="2347022" name="Donji Srem"></away>
+<events>
+<event id="22281464" minute="25" player="D. Vukobrat" playerid="2476762" result="" team="away" type="yellowcard"></event>
+<event id="22281465" minute="36" player="N. Arsenijevic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281466" minute="40" player="D. Gasic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281467" minute="60" player="D. Gasic" playerid="" result="" team="home" type="yellowred"></event>
+<event id="22281468" minute="60" player="A. Filipovic" playerid="2520961" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4002553" alternate_id_2="4326797" date="03.05.2015" id="4120175" static_id="03051523445822347008" status="FT" time="15:00">
+<home goals="2" id="2344582" name="Mladost"></home>
+<away goals="2" id="2347008" name="Cukaricki"></away>
+<events>
+<event id="22281474" minute="5" player="O. (Mandic S.) Regan" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22281475" minute="27" player="L. Piasentin" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22281476" minute="30" player="L. Jovanovic" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22281477" minute="50" player="L. Jovanovic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281478" minute="65" player="N. Gavric" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281479" minute="68" player="P. Frajdej" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22281480" minute="77" player="I. Matic" playerid="2424525" result="" team="away" type="yellowcard"></event>
+<event id="22281481" minute="80" player="R. Milosavljevic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281482" minute="89" player="N. Jankovic" playerid="2513400" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4002554" alternate_id_2="4326958" date="03.05.2015" id="4120176" static_id="03051523471182347044" status="FT" time="15:00">
+<home goals="2" id="2347118" name="OFK Beograd"></home>
+<away goals="0" id="2347044" name="Radnicki 1923"></away>
+<events>
+<event id="22283084" minute="24" player="D. Micevski" playerid="2489515" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22283085" minute="26" player="F. Matovic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22283086" minute="34" player="M. Jankovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22283087" minute="36" player="L. Tiodorovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22283088" minute="49" player="G. Bonsu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22283089" minute="63" player="B. Planic" playerid="2523572" result="" team="home" type="yellowcard"></event>
+<event id="22283090" minute="67" player="M. Gajic" playerid="2525261" result="" team="home" type="yellowcard"></event>
+<event id="22283091" minute="72" player="B. Miljus" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22283092" minute="87" player="D. Miljus" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201844343" minute="90+1" player="A. Kaljevic" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4002547" alternate_id_2="4326959" date="03.05.2015" id="4120169" static_id="03051523471372347115" status="FT" time="15:00">
+<home goals="3" id="2347137" name="Radnicki Nis"></home>
+<away goals="1" id="2347115" name="Novi Pazar"></away>
+<events>
+<event id="22283094" minute="19" player="I. Pejcic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22283095" minute="45" player="S. Marjanovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22283096" minute="63" player="M. Culum" playerid="2379115" result="" team="home" type="yellowcard"></event>
+<event id="22283097" minute="68" player="M. Petrovic" playerid="2533347" result="" team="home" type="yellowcard"></event>
+<event id="22283098" minute="69" player="M. Culum (o.g.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22283099" minute="77" player="M. Borjan" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22283100" minute="82" player="V. Radivojevic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22283101" minute="89" player="Bruno" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22283102" minute="90" player="A. Jovanovic" playerid="2478594" result="" team="home" type="yellowcard"></event>
+<event id="201844443" minute="90+3" player="N. Asceric" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="201844444" minute="90+4" player="N. Asceric" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4002545" alternate_id_2="4325717" date="29.04.2015" id="4120167" static_id="29041523469962347158" status="FT" time="17:00">
 <home goals="1" id="2346996" name="Borac"></home>
 <away goals="0" id="2347158" name="Sp. Subotica"></away>
@@ -173,20 +238,16 @@
 <event id="22239201" minute="90+2" player="R. Krunic" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4002531" alternate_id_2="4322555" date="25.04.2015" id="4120153" static_id="25041523471372347114" status="FT" time="14:00">
-<home goals="2" id="2347137" name="Radnicki Nis"></home>
-<away goals="0" id="2347114" name="Napredak"></away>
+</match><match alternate_id="4002538" alternate_id_2="4322535" date="25.04.2015" id="4120160" static_id="25041523470442347008" status="FT" time="14:00">
+<home goals="0" id="2347044" name="Radnicki 1923"></home>
+<away goals="1" id="2347008" name="Cukaricki"></away>
 <events>
-<event id="22239054" minute="51" player="I. Pejcic" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22239055" minute="53" player="I. Radovic" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22239056" minute="56" player="T. Ivicic" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22239057" minute="57" player="R. Bulatovic" playerid="2416113" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22239058" minute="59" player="M. Culum" playerid="2379115" result="" team="home" type="yellowcard"></event>
-<event id="22239059" minute="65" player="I. Pejcic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22239060" minute="81" player="D. Kolarevic" playerid="2422123" result="" team="home" type="yellowcard"></event>
-<event id="22239061" minute="89" player="M. Mrkic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22238854" minute="10" player="D. Milovanovic" playerid="2379032" result="" team="home" type="yellowcard"></event>
+<event id="22238855" minute="40" player="Z. (Matic I.) Rendulic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22238856" minute="43" player="P. Bojic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22238857" minute="89" player="A. Keljevic" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[0-1]"></ht>
 </match></league><league country="serbia" name="Serbia: Super Liga - Relegation" cup="False" id="3214" sub_id=""><match alternate_id="3965470" alternate_id_2="4117185" date="12.06.2014" id="4083133" static_id="12061423471332347098" status="Awarded" time="17:00">
 <home goals="3" id="2347133" name="Rad Beograd"></home>
 <away goals="0" id="2347098" name="Metalac"></away>

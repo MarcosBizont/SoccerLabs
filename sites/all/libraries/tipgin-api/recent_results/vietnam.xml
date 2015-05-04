@@ -1,18 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:41:22" sport="soccer" country="vietnam"><league country="vietnam" name="Vietnam: V-League" cup="False" id="3282" sub_id="32820"><match alternate_id="4091398" alternate_id_2="4325652" date="03.05.2015" id="4208964" static_id="03051523494142349424" status="10:00" time="10:00">
-<home goals="?" id="2349414" name="Gia Lai"></home>
-<away goals="?" id="2349424" name="BHTS Quang Nam"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4091397" alternate_id_2="4325434" date="03.05.2015" id="4091397" static_id="03051523494292349410" status="10:00" time="10:00">
-<home goals="?" id="2349429" name="Song Lam Nghe An"></home>
-<away goals="?" id="2349410" name="Dong Nai"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4091396" alternate_id_2="4325433" date="03.05.2015" id="4091396" static_id="03051523494072349431" status="09:00" time="09:00">
-<home goals="?" id="2349407" name="Can Tho"></home>
-<away goals="?" id="2349431" name="Thanh Hoa"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:41:24" sport="soccer" country="vietnam"><league country="vietnam" name="Vietnam: V-League" cup="False" id="3282" sub_id="32820"><match alternate_id="4091398" alternate_id_2="4325652" date="03.05.2015" id="4208964" static_id="03051523494142349424" status="FT" time="10:00">
+<home goals="2" id="2349414" name="Gia Lai"></home>
+<away goals="2" id="2349424" name="BHTS Quang Nam"></away>
+<events>
+<event id="19927484" minute="21" player="Sanogo M." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19927485" minute="33" player="Tambwe P." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19927486" minute="45" player="Tambwe P." playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="19927487" minute="90+1" player="Tran D. D." playerid="" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4091397" alternate_id_2="4325434" date="03.05.2015" id="4208963" static_id="03051523494292349410" status="FT" time="10:00">
+<home goals="1" id="2349429" name="Song Lam Nghe An"></home>
+<away goals="2" id="2349410" name="Dong Nai"></away>
+<events>
+<event id="19927474" minute="6" player="Tran Phi Son" playerid="2564647" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19927475" minute="47" player="Nguyen Hai Anh" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19927476" minute="65" player="Nguyen Hong Viet" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091396" alternate_id_2="4325433" date="03.05.2015" id="4091396" static_id="03051523494072349431" status="FT" time="09:00">
+<home goals="1" id="2349407" name="Can Tho"></home>
+<away goals="1" id="2349431" name="Thanh Hoa"></away>
+<events>
+<event id="19927464" minute="28" player="Wasiu A." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19927465" minute="69" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4091394" alternate_id_2="4325431" date="02.05.2015" id="4208960" static_id="02051523494092349426" status="FT" time="10:00">
 <home goals="2" id="2349409" name="Da Nang"></home>
 <away goals="0" id="2349426" name="Than Quang Ninh"></away>

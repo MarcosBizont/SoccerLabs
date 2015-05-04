@@ -1,28 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:40" sport="soccer" country="elsalvador"><league country="elsalvador" name="El Salvador: Primera Division - Clausura" cup="False" id="3722" sub_id=""><match alternate_id="" alternate_id_2="4325438" date="03.05.2015" id="" static_id="03051523407982345687" status="21:00" time="21:00">
-<home goals="?" id="2340798" name="Aguila"></home>
-<away goals="?" id="2345687" name="Alianza FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4325439" date="03.05.2015" id="" static_id="03051523408012350228" status="21:00" time="21:00">
-<home goals="?" id="2340801" name="Atletico Marte"></home>
-<away goals="?" id="2350228" name="Dragon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4325440" date="03.05.2015" id="" static_id="" status="21:00" time="21:00">
-<home goals="?" id="" name="Juventud Ind."></home>
-<away goals="?" id="2340803" name="FAS"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4325441" date="03.05.2015" id="" static_id="03051523408062352433" status="21:00" time="21:00">
-<home goals="?" id="2340806" name="Metapan"></home>
-<away goals="?" id="2352433" name="Santa Tecla"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4325442" date="03.05.2015" id="" static_id="03051523499902355501" status="21:00" time="21:00">
-<home goals="?" id="2349990" name="UES"></home>
-<away goals="?" id="2355501" name="Pasaquina"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:40" sport="soccer" country="elsalvador"><league country="elsalvador" name="El Salvador: Primera Division - Clausura" cup="False" id="3722" sub_id=""><match alternate_id="" alternate_id_2="4325438" date="03.05.2015" id="" static_id="03051523407982345687" status="FT" time="21:00">
+<home goals="1" id="2340798" name="Aguila"></home>
+<away goals="1" id="2345687" name="Alianza FC"></away>
+<events>
+<event id="2331834" minute="38" player="Phillippe (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="44" player="Romero" playerid="2498609" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4325439" date="03.05.2015" id="" static_id="03051523408012350228" status="FT" time="21:00">
+<home goals="4" id="2340801" name="Atletico Marte"></home>
+<away goals="1" id="2350228" name="Dragon"></away>
+<events>
+<event id="2331834" minute="6" player="Blanco" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="48" player="Garcia" playerid="2529976" result="[2 - 0]" team="home" type="goal"></event>
+<event id="2331836" minute="62" player="Santos (pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="2331837" minute="67" player="Martinez" playerid="2342041" result="[3 - 1]" team="home" type="goal"></event>
+<event id="2331838" minute="82" player="Blanco" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4325440" date="03.05.2015" id="" static_id="" status="FT" time="21:00">
+<home goals="1" id="" name="Juventud Ind."></home>
+<away goals="0" id="2340803" name="FAS"></away>
+<events>
+<event id="2331834" minute="85" player="Rugamas" playerid="2437706" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4325441" date="03.05.2015" id="" static_id="03051523408062352433" status="FT" time="21:00">
+<home goals="1" id="2340806" name="Metapan"></home>
+<away goals="0" id="2352433" name="Santa Tecla"></away>
+<events>
+<event id="2331834" minute="39" player="Ramos" playerid="2489197" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4325442" date="03.05.2015" id="" static_id="03051523499902355501" status="FT" time="21:00">
+<home goals="0" id="2349990" name="UES"></home>
+<away goals="1" id="2355501" name="Pasaquina"></away>
+<events>
+<event id="2331834" minute="50" player="Hernandez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4324069" date="26.04.2015" id="" static_id="" status="FT" time="21:00">
 <home goals="2" id="2345687" name="Alianza FC"></home>
 <away goals="0" id="" name="Juventud Ind."></away>

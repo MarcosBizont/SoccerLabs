@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:19" sport="soccer" country="holland"><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="3988329" alternate_id_2="4325168" date="26.04.2015" id="4105951" static_id="26041523452932345030" status="FT" time="14:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:19" sport="soccer" country="holland"><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="3988329" alternate_id_2="4325168" date="26.04.2015" id="4105951" static_id="26041523452932345030" status="FT" time="14:45">
 <home goals="0" id="2345293" name="Twente"></home>
 <away goals="2" id="2345030" name="AZ Alkmaar"></away>
 <events>
@@ -676,11 +676,14 @@
 <event id="20137576" minute="87" player="F. van Mosselveld" playerid="2334239" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="holland" name="Netherlands: Knvb Beker" cup="True" id="3153" sub_id="31530"><match alternate_id="4124061" alternate_id_2="4323860" date="03.05.2015" id="4241605" static_id="03051523453292345113" status="16:00" time="16:00">
-<home goals="?" id="2345329" name="Zwolle"></home>
-<away goals="?" id="2345113" name="Groningen"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="holland" name="Netherlands: Knvb Beker" cup="True" id="3153" sub_id="31530"><match alternate_id="4124061" alternate_id_2="4323860" date="03.05.2015" id="4241605" static_id="03051523453292345113" status="FT" time="16:00">
+<home goals="0" id="2345329" name="Zwolle"></home>
+<away goals="2" id="2345113" name="Groningen"></away>
+<events>
+<event id="22252104" minute="64" player="A. Rusnak" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22252105" minute="75" player="A. Rusnak" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4099709" alternate_id_2="4305030" date="08.04.2015" id="4217268" static_id="08041523451132345086" status="FT" time="18:00">
 <home goals="3" id="2345113" name="Groningen"></home>
 <away goals="0" id="2345086" name="Excelsior"></away>
@@ -913,19 +916,25 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="4" visitorteam="5"></penalty>
-</match><match alternate_id="4077320" alternate_id_2="4276653" date="29.10.2014" id="4194928" static_id="29101423453292345128" status="FT" time="19:00">
-<home goals="6" id="2345329" name="Zwolle"></home>
-<away goals="1" id="2345128" name="HHC"></away>
+</match><match alternate_id="4077311" alternate_id_2="4276641" date="29.10.2014" id="4194919" static_id="29101423451012345113" status="FT" time="19:00">
+<home goals="1" id="2345101" name="Flevo Boys"></home>
+<away goals="8" id="2345113" name="Groningen"></away>
 <events>
-<event id="21780034" minute="13" player="T. Lam" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21780035" minute="14" player="T. Lam" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21780036" minute="31" player="T. Lam" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21780037" minute="33" player="S. Gouriye" playerid="2477463" result="[3 - 1]" team="away" type="goal"></event>
-<event id="21780038" minute="37" player="T. Karagounis" playerid="2422782" result="[4 - 1]" team="home" type="goal"></event>
-<event id="21780039" minute="52" player="B. van Hintum" playerid="2381680" result="[5 - 1]" team="home" type="goal"></event>
-<event id="21780040" minute="78" player="B. Rienstra" playerid="" result="[6 - 1]" team="home" type="goal"></event>
+<event id="21779914" minute="8" player="Botteghin" playerid="2381491" result="" team="away" type="yellowcard"></event>
+<event id="21779915" minute="16" player="A. Post" playerid="2475912" result="" team="home" type="yellowcard"></event>
+<event id="21779916" minute="22" player="D. Hoesen" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21779917" minute="28" player="Y. van Nieff" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21779918" minute="40" player="M. de Leeuw" playerid="2419658" result="[0 - 3]" team="away" type="goal"></event>
+<event id="21779919" minute="44" player="P. Bergtop" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="21779920" minute="66" player="D. Islamovic" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="21779921" minute="67" player="M. de Leeuw" playerid="2419658" result="[1 - 5]" team="away" type="goal"></event>
+<event id="21779922" minute="69" player="D. van der Wal" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="196812643" minute="70" player="M. de Leeuw" playerid="2419658" result="[1 - 6]" team="away" type="goal"></event>
+<event id="196812644" minute="72" player="M. de Leeuw" playerid="2419658" result="[1 - 7]" team="away" type="goal"></event>
+<event id="196812645" minute="81" player="D. Islamovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="196812646" minute="90" player="J. Kappelhof" playerid="2472989" result="[1 - 8]" team="away" type="goal"></event>
 </events>
-<ht score="[4-1]"></ht>
+<ht score="[1-3]"></ht>
 </match></league><league country="holland" name="Netherlands: Super Cup" cup="True" id="3469" sub_id=""><match alternate_id="3953348" alternate_id_2="4113039" date="03.08.2014" id="4071044" static_id="03081423453292345016" status="FT" time="16:00">
 <home goals="1" id="2345329" name="Zwolle"></home>
 <away goals="0" id="2345016" name="Ajax"></away>

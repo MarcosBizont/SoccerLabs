@@ -1,33 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:44" sport="soccer" country="guatemala"><league country="guatemala" name="Guatemala: Liga Nacional - Clausura" cup="False" id="3070" sub_id="30703"><match alternate_id="4111466" alternate_id_2="4327367" date="03.05.2015" id="4229017" static_id="03051523377002342769" status="17:00" time="17:00">
-<home goals="?" id="2337700" name="Antigua"></home>
-<away goals="?" id="2342769" name="Malacateco"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4111462" alternate_id_2="4327283" date="03.05.2015" id="4111462" static_id="03051523427702342785" status="17:00" time="17:00">
-<home goals="?" id="2342770" name="Coatepeque"></home>
-<away goals="?" id="2342785" name="Halcones"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4111467" alternate_id_2="4327426" date="03.05.2015" id="4111467" static_id="03051523427732342780" status="17:00" time="17:00">
-<home goals="?" id="2342773" name="Guastatoya"></home>
-<away goals="?" id="2342780" name="Marquense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4111464" alternate_id_2="4327438" date="03.05.2015" id="4111464" static_id="03051523427832342786" status="17:00" time="17:00">
-<home goals="?" id="2342783" name="Municipal"></home>
-<away goals="?" id="2342786" name="Petapa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4111465" alternate_id_2="4327440" date="03.05.2015" id="4111465" static_id="03051523427902342793" status="17:00" time="17:00">
-<home goals="?" id="2342790" name="Suchitepequez"></home>
-<away goals="?" id="2342793" name="Xelaju"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4111463" alternate_id_2="4327391" date="03.05.2015" id="4111463" static_id="03051523427922342772" status="17:00" time="17:00">
-<home goals="?" id="2342792" name="Universidad SC"></home>
-<away goals="?" id="2342772" name="Comunicaciones"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:44" sport="soccer" country="guatemala"><league country="guatemala" name="Guatemala: Liga Nacional - Clausura" cup="False" id="3070" sub_id="30703"><match alternate_id="4111466" alternate_id_2="4327367" date="03.05.2015" id="4229017" static_id="03051523377002342769" status="FT" time="17:00">
+<home goals="2" id="2337700" name="Antigua"></home>
+<away goals="2" id="2342769" name="Malacateco"></away>
+<events>
+<event id="20128164" minute="7" player="Ordoñez B." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20128165" minute="33" player="Castellanos M." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20128166" minute="50" player="Pena R." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20128167" minute="69" player="Garcia W." playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4111462" alternate_id_2="4327283" date="03.05.2015" id="4111462" static_id="03051523427702342785" status="FT" time="17:00">
+<home goals="2" id="2342770" name="Coatepeque"></home>
+<away goals="1" id="2342785" name="Halcones"></away>
+<events>
+<event id="20128124" minute="18" player="Ruiz G." playerid="2342023" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20128125" minute="31" player="Escobar M." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20128126" minute="65" player="De Mata H." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4111467" alternate_id_2="4327426" date="03.05.2015" id="4111467" static_id="03051523427732342780" status="FT" time="17:00">
+<home goals="3" id="2342773" name="Guastatoya"></home>
+<away goals="0" id="2342780" name="Marquense"></away>
+<events>
+<event id="20128174" minute="17" player="Solalinde V." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20128175" minute="59" player="Chub E." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20128176" minute="65" player="Solalinde V." playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4111464" alternate_id_2="4327438" date="03.05.2015" id="4111464" static_id="03051523427832342786" status="FT" time="17:00">
+<home goals="4" id="2342783" name="Municipal"></home>
+<away goals="1" id="2342786" name="Petapa"></away>
+<events>
+<event id="20128144" minute="46" player="Oliva D." playerid="2443982" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20128145" minute="65" player="Aceituno F." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20128146" minute="72" player="Lopez D." playerid="2530781" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20128147" minute="76" player="Archila H." playerid="2374635" result="[3 - 1]" team="home" type="goal"></event>
+<event id="20128148" minute="79" player="Santamaria K." playerid="" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4111465" alternate_id_2="4327440" date="03.05.2015" id="4111465" static_id="03051523427902342793" status="FT" time="17:00">
+<home goals="1" id="2342790" name="Suchitepequez"></home>
+<away goals="0" id="2342793" name="Xelaju"></away>
+<events>
+<event id="20128154" minute="70" player="Baena J." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4111463" alternate_id_2="4327391" date="03.05.2015" id="4111463" static_id="03051523427922342772" status="FT" time="17:00">
+<home goals="1" id="2342792" name="Universidad SC"></home>
+<away goals="2" id="2342772" name="Comunicaciones"></away>
+<events>
+<event id="20128134" minute="14" player="Herrera A." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20128135" minute="45+1" player="Contreras J." playerid="2342012" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20128136" minute="70" player="Betancur G." playerid="" result="[1 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
 </match><match alternate_id="4111461" alternate_id_2="4326306" date="01.05.2015" id="4229012" static_id="01051523427932342792" status="FT" time="02:00">
 <home goals="0" id="2342793" name="Xelaju"></home>
 <away goals="0" id="2342792" name="Universidad SC"></away>
@@ -472,25 +497,4 @@
 <event id="18530607" minute="90" player="Giron J." playerid="2374755" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="3951708" alternate_id_2="4111060" date="03.05.2014" id="4069411" static_id="03051423427742342785" status="FT" time="21:00">
-<home goals="6" id="2342774" name="Heredia"></home>
-<away goals="1" id="2342785" name="Halcones"></away>
-<events>
-<event id="18530584" minute="45" player="Lopez O." playerid="2374597" result="[1 - 0]" team="home" type="goal"></event>
-<event id="18530585" minute="48" player="Isaula O." playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="18530586" minute="50" player="Espinoza D." playerid="2438854" result="[3 - 0]" team="home" type="goal"></event>
-<event id="18530587" minute="67" player="Isaula O." playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="18530588" minute="79" player="Torres J." playerid="2527748" result="" team="away" type="yellowred"></event>
-<event id="18530589" minute="85" player="Ruiz G." playerid="2342023" result="[4 - 1]" team="away" type="goal"></event>
-<event id="18530590" minute="86" player="Ardon V." playerid="2527736" result="[5 - 1]" team="home" type="goal"></event>
-<event id="18530591" minute="88" player="Palacios M." playerid="" result="[6 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="3952263" alternate_id_2="4111061" date="03.05.2014" id="3952263" static_id="03051423427902342783" status="FT" time="18:30">
-<home goals="0" id="2342790" name="Suchitepequez"></home>
-<away goals="1" id="2342783" name="Municipal"></away>
-<events>
-<event id="18536134" minute="51" player="Avila M." playerid="2342021" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league></recent_results>

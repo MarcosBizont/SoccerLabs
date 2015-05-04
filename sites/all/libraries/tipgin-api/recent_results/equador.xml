@@ -1,19 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:39" sport="soccer" country="equador"><league country="equador" name="Ecuador: Serie A - First Stage" cup="False" id="3024" sub_id="30244"><match alternate_id="4112565" alternate_id_2="4326200" date="03.05.2015" id="4230113" static_id="03051523407102340699" status="17:00" time="17:00">
-<home goals="?" id="2340710" name="U. Catolica"></home>
-<away goals="?" id="2340699" name="LDU Quito"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4112561" alternate_id_2="4326116" date="03.05.2015" id="4230109" static_id="03051523406902340685" status="16:30" time="16:30">
-<home goals="?" id="2340690" name="Dep. Cuenca"></home>
-<away goals="?" id="2340685" name="Barcelona SC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4112563" alternate_id_2="4326117" date="03.05.2015" id="4230111" static_id="03051523406912350529" status="40" time="00:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:39" sport="soccer" country="equador"><league country="equador" name="Ecuador: Serie A - First Stage" cup="False" id="3024" sub_id="30244"><match alternate_id="4112562" alternate_id_2="4326077" date="03.05.2015" id="4230110" static_id="03051523406932340692" status="FT" time="21:00">
+<home goals="2" id="2340693" name="Emelec"></home>
+<away goals="0" id="2340692" name="EL Nacional"></away>
+<events>
+<event id="22274274" minute="28" player="E. Morante" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274275" minute="34" player="A. Chala" playerid="2632827" result="" team="away" type="yellowcard"></event>
+<event id="22274276" minute="36" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274277" minute="47" player="P. Quinonez" playerid="2354953" result="" team="home" type="yellowcard"></event>
+<event id="22274278" minute="48" player="F. Bagui" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274279" minute="72" player="M. Bolanos" playerid="2373992" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22274280" minute="74" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274281" minute="88" player="B. Mina" playerid="2489467" result="" team="home" type="yellowcard"></event>
+<event id="22274282" minute="90+2" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4112565" alternate_id_2="4326200" date="03.05.2015" id="4230113" static_id="03051523407102340699" status="FT" time="17:00">
+<home goals="1" id="2340710" name="U. Catolica"></home>
+<away goals="1" id="2340699" name="LDU Quito"></away>
+<events>
+<event id="22275504" minute="1" player="P. Estupinan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22275505" minute="54" player="H. Canga" playerid="2440445" result="" team="home" type="yellowcard"></event>
+<event id="22275506" minute="67" player="A. Godoy" playerid="2477022" result="" team="home" type="yellowcard"></event>
+<event id="22275507" minute="70" player="J. Cevallos" playerid="2354798" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22275508" minute="75" player="P. Estupinan" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22275509" minute="76" player="J. Delgado" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4112561" alternate_id_2="4326116" date="03.05.2015" id="4230109" static_id="03051523406902340685" status="FT" time="16:30">
+<home goals="3" id="2340690" name="Dep. Cuenca"></home>
+<away goals="2" id="2340685" name="Barcelona SC"></away>
+<events>
+<event id="22274664" minute="16" player="A. Lamas" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22274665" minute="28" player="A. Lamas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274666" minute="40" player="A. Lamas" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22274667" minute="46" player="W. Zea" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22274668" minute="49" player="L. Bolanos" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22274669" minute="59" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274670" minute="61" player="L. Checa" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274671" minute="78" player="B. Ona" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22274672" minute="90+3" player="J. Solis (o.g.)" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4112563" alternate_id_2="4326117" date="03.05.2015" id="4230111" static_id="03051523406912350529" status="FT" time="00:00">
 <home goals="1" id="2340691" name="Dep. Quito"></home>
-<away goals="0" id="2350529" name="River Plate Ecuador"></away>
+<away goals="1" id="2350529" name="River Plate Ecuador"></away>
 <events>
 <event id="22274674" minute="5" player="R. Calderon" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22274675" minute="20" player="R. Calderon" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274676" minute="50" player="E. Caicedo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274677" minute="60" player="D. Neculman" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22274678" minute="75" player="G. Zumba" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274679" minute="76" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22274680" minute="84" player="J. Hernandez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22274681" minute="90+1" player="J. Hernandez" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4112564" alternate_id_2="4326198" date="02.05.2015" id="4230112" static_id="02051523406982340708" status="FT" time="22:00">
@@ -221,19 +259,6 @@
 <event id="22223178" minute="90+2" player="J. Molina" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4112546" alternate_id_2="4320968" date="18.04.2015" id="4230094" static_id="18041523406982340690" status="FT" time="22:00">
-<home goals="2" id="2340698" name="Ind. del Valle"></home>
-<away goals="2" id="2340690" name="Dep. Cuenca"></away>
-<events>
-<event id="22223184" minute="30" player="D. Arroyo (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22223185" minute="33" player="J. Solis" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22223186" minute="36" player="L. Caicedo" playerid="2497799" result="" team="home" type="yellowcard"></event>
-<event id="22223187" minute="48" player="D. Angulo" playerid="2506449" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22223188" minute="49" player="C. Garces" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22223189" minute="79" player="D. Angulo (pen.)" playerid="2506449" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22223190" minute="80" player="C. Nunez" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="equador" name="Ecuador: Serie A - Third Stage" cup="False" id="3024" sub_id=""><match alternate_id="" alternate_id_2="4297525" date="21.12.2014" id="" static_id="21121423406932340685" status="FT" time="21:30">
 <home goals="3" id="2340693" name="Emelec"></home>
 <away goals="0" id="2340685" name="Barcelona SC"></away>

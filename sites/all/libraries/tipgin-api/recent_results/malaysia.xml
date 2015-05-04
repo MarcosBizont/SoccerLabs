@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:56" sport="soccer" country="malaysia"><league country="malaysia" name="Malaysia: Super League" cup="False" id="3135" sub_id="31350"><match alternate_id="4096140" alternate_id_2="4322870" date="03.05.2015" id="4213703" static_id="03051523446132344611" status="12:45" time="12:45">
-<home goals="?" id="2344613" name="Johor DT"></home>
-<away goals="?" id="2344611" name="FELDA"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:55" sport="soccer" country="malaysia"><league country="malaysia" name="Malaysia: Super League" cup="False" id="3135" sub_id="31350"><match alternate_id="4096140" alternate_id_2="4322870" date="03.05.2015" id="4213703" static_id="03051523446132344611" status="FT" time="12:45">
+<home goals="1" id="2344613" name="Johor DT"></home>
+<away goals="0" id="2344611" name="FELDA"></away>
+<events>
+<event id="19974904" minute="38" player="Marcos A." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="19974905" minute="44" player="Adan S." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19974906" minute="45" player="Rodriguez P. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19974907" minute="90+4" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4096144" alternate_id_2="4322885" date="02.05.2015" id="4213707" static_id="" status="FT" time="12:45">
 <home goals="3" id="2344607" name="ATM FA"></home>
 <away goals="1" id="" name="PDRM FA"></away>
@@ -207,7 +212,7 @@
 <event id="19974749" minute="72" player="Leandro (pen.)" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4096125" alternate_id_2="4311223" date="11.04.2015" id="4213688" static_id="11041523446172344633" status="FT" time="12:45">
+</match><match alternate_id="4096125" alternate_id_2="4311223" date="11.04.2015" id="4096125" static_id="11041523446172344633" status="FT" time="12:45">
 <home goals="0" id="2344617" name="Kelantan"></home>
 <away goals="2" id="2344633" name="Pahang"></away>
 <events>
@@ -848,30 +853,36 @@
 </events>
 <ht score="[1-0]"></ht>
 <penalty localteam="4" visitorteam="2"></penalty>
-</match><match alternate_id="" alternate_id_2="4300854" date="28.02.2015" id="" static_id="28021523446422344639" status="FT" time="12:45">
-<home goals="1" id="2344642" name="Penang"></home>
-<away goals="0" id="2344639" name="Perlis"></away>
+</match><match alternate_id="" alternate_id_2="4300846" date="28.02.2015" id="" static_id="28021523446112344646" status="Pen." time="12:45">
+<home goals="2" id="2344611" name="FELDA"></home>
+<away goals="2" id="2344646" name="Selangor"></away>
 <events>
-<event id="2331834" minute="70" player=" Subri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331834" minute="47" player="Miladinovic (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="51" player=" Yahya" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="2331836" minute="78" player=" Bakri" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="2331837" minute="88" player=" Bakri" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4300856" date="28.02.2015" id="" static_id="28021523443142344637" status="FT" time="12:45">
-<home goals="1" id="2344314" name="SHA"></home>
-<away goals="3" id="2344637" name="Perak"></away>
+<penalty localteam="2" visitorteam="4"></penalty>
+</match><match alternate_id="" alternate_id_2="4306107" date="28.02.2015" id="" static_id="28021523446142344640" status="FT" time="12:45">
+<home goals="2" id="2344614" name="Johor DT II"></home>
+<away goals="1" id="2344640" name="PKNS FC"></away>
 <events>
-<event id="2331834" minute="5" player=" Woong" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="2331835" minute="30" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="2331836" minute="45" player=" Tulio" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="2331837" minute="48" player=" Woong" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="2331834" minute="1" player=" Ogawa" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="61" player=" Valazquez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="2331836" minute="65" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="2331837" minute="89" player=" Ishak" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="2331838" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4300859" date="28.02.2015" id="" static_id="28021523446352344607" status="AET" time="12:45">
-<home goals="3" id="2344635" name="T-Team"></home>
-<away goals="0" id="2344607" name="ATM FA"></away>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4300848" date="28.02.2015" id="" static_id="28021523446292344655" status="FT" time="12:45">
+<home goals="1" id="2344629" name="Melaka United"></home>
+<away goals="3" id="2344655" name="Terengganu"></away>
 <events>
-<event id="2331834" minute="101" player=" Farhod" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="2331835" minute="110" player=" Safawi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="2331836" minute="113" player=" Farhod" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="2331834" minute="47" player="Mamat" playerid="2401648" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="52" player="Rangel" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="2331836" minute="72" player="Rangel (pen.)" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="2331837" minute="88" player="Ghani (pen.)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league></recent_results>

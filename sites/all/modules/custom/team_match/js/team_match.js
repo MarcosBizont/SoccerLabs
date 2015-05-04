@@ -1,19 +1,5 @@
 (function($) {
 	
-		function getUrlParameter(sParam)
-		{
-		    var sPageURL = window.location.search.substring(1);
-		    var sURLVariables = sPageURL.split('&');
-		    for (var i = 0; i < sURLVariables.length; i++) 
-		    {
-		        var sParameterName = sURLVariables[i].split('=');
-		        if (sParameterName[0] == sParam) 
-		        {
-		            return sParameterName[1];
-		        }
-		    }
-		}    
-	
 		// Load tips by group 
 		var id = 0;
 		$('.view-tips-blocks h3').each(function()
@@ -52,25 +38,6 @@
 			$(this).next().toggle();		
 		});
 		
-		
-		if(getUrlParameter('backtoinplay')=='1' && $('.backtoinplay').size() > 0)
-		{
-			$('.backtoinplay').css('margin-top','100px');
-			$('.backtoinplay').show();	
-			$(document).scroll(function() {
-			  var y = $(this).scrollTop();
-			  if (y > 100) {
-			    $('.backtoinplay').css('margin-top','0px');
-			  } else {
-				var marginTop = 100 - y;  
-			    $('.backtoinplay').css('margin-top', marginTop + 'px');
-			  }
-			});
-			$('.backtoinplay').click(function(){
-		        parent.history.back();
-		        return false;
-		    });
-		}
 		
 		// Add betclicks if links are availables
 

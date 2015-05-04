@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:51" sport="soccer" country="japan"><league country="japan" name="Japan: J-League - First Stage" cup="False" id="3104" sub_id="31043"><match alternate_id="4100199" alternate_id_2="4328728" date="02.05.2015" id="4217757" static_id="02051523440052344023" status="FT" time="10:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:50" sport="soccer" country="japan"><league country="japan" name="Japan: J-League - First Stage" cup="False" id="3104" sub_id="31043"><match alternate_id="4100199" alternate_id_2="4328728" date="02.05.2015" id="4217757" static_id="02051523440052344023" status="FT" time="10:00">
 <home goals="1" id="2344005" name="Tosu"></home>
 <away goals="1" id="2344023" name="Kobe"></away>
 <events>
@@ -440,61 +440,131 @@
 <event id="21872219" minute="84" player="P. Carlinhos" playerid="" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="japan" name="Japan: J-League Division 2" cup="False" id="3107" sub_id="31070"><match alternate_id="4102126" alternate_id_2="4329157" date="03.05.2015" id="4219684" static_id="03051523439792344027" status="07:00" time="07:00">
-<home goals="?" id="2343979" name="Chiba"></home>
-<away goals="?" id="2344027" name="Yokohama"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102125" alternate_id_2="4329158" date="03.05.2015" id="4219683" static_id="03051523440012343967" status="07:00" time="07:00">
-<home goals="?" id="2344001" name="Omiya Ardija"></home>
-<away goals="?" id="2343967" name="Ehime"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102124" alternate_id_2="4329155" date="03.05.2015" id="4219682" static_id="03051523439982343969" status="06:00" time="06:00">
-<home goals="?" id="2343998" name="Giravanz Kitakyushu"></home>
-<away goals="?" id="2343969" name="Gifu"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102122" alternate_id_2="4329151" date="03.05.2015" id="4219680" static_id="03051523439892344013" status="05:00" time="05:00">
-<home goals="?" id="2343989" name="Kyoto"></home>
-<away goals="?" id="2344013" name="Kusatsu"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102123" alternate_id_2="4329153" date="03.05.2015" id="4219681" static_id="03051523439992344017" status="05:00" time="05:00">
-<home goals="?" id="2343999" name="Oita"></home>
-<away goals="?" id="2344017" name="Tokushima"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102120" alternate_id_2="4329144" date="03.05.2015" id="4219678" static_id="03051523439642343965" status="04:00" time="04:00">
-<home goals="?" id="2343964" name="Avispa Fukuoka"></home>
-<away goals="?" id="2343965" name="C-Osaka"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102119" alternate_id_2="4329145" date="03.05.2015" id="4219677" static_id="03051523501622344018" status="04:00" time="04:00">
-<home goals="?" id="2350162" name="Kamatamare"></home>
-<away goals="?" id="2344018" name="Verdy"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102118" alternate_id_2="4329146" date="03.05.2015" id="4219676" static_id="03051523440282343994" status="04:00" time="04:00">
-<home goals="?" id="2344028" name="Kanazawa"></home>
-<away goals="?" id="2343994" name="Mito"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102116" alternate_id_2="4329147" date="03.05.2015" id="4219674" static_id="03051523439662343981" status="04:00" time="04:00">
-<home goals="?" id="2343966" name="Sapporo"></home>
-<away goals="?" id="2343981" name="Iwata"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102117" alternate_id_2="4329148" date="03.05.2015" id="4219675" static_id="03051523440142355273" status="04:00" time="04:00">
-<home goals="?" id="2344014" name="Tochigi"></home>
-<away goals="?" id="2355273" name="Kumamoto"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4102121" alternate_id_2="4329149" date="03.05.2015" id="4219679" static_id="03051523440202343968" status="04:00" time="04:00">
-<home goals="?" id="2344020" name="V-Varen Nagasaki"></home>
-<away goals="?" id="2343968" name="Okayama"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="japan" name="Japan: J-League Division 2" cup="False" id="3107" sub_id="31070"><match alternate_id="4102126" alternate_id_2="4329157" date="03.05.2015" id="4219684" static_id="03051523439792344027" status="FT" time="07:00">
+<home goals="3" id="2343979" name="Chiba"></home>
+<away goals="0" id="2344027" name="Yokohama"></away>
+<events>
+<event id="22305074" minute="17" player="T. Kanai" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22305075" minute="17" player="K. Sato" playerid="2509985" result="" team="away" type="yellowcard"></event>
+<event id="22305076" minute="24" player="T. Nakazato" playerid="2464081" result="" team="away" type="yellowcard"></event>
+<event id="22305077" minute="33" player="T. Nakajima" playerid="2337191" result="" team="away" type="yellowcard"></event>
+<event id="22305078" minute="43" player="A. Ichimura" playerid="2357031" result="" team="away" type="yellowcard"></event>
+<event id="22305079" minute="51" player="A. Ichimura" playerid="2357031" result="" team="away" type="yellowred"></event>
+<event id="22305080" minute="53" player="T. Nakamura" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22305081" minute="72" player="Y. Tanaka" playerid="2437378" result="" team="home" type="yellowcard"></event>
+<event id="22305082" minute="80" player="T. Nakamura" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="202064243" minute="90+2" player="Y. Tanaka" playerid="2437378" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4102125" alternate_id_2="4329158" date="03.05.2015" id="4219683" static_id="03051523440012343967" status="FT" time="07:00">
+<home goals="1" id="2344001" name="Omiya Ardija"></home>
+<away goals="0" id="2343967" name="Ehime"></away>
+<events>
+<event id="22305084" minute="38" player="J. Izumisawa" playerid="2640436" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22305085" minute="66" player="S. Shimizu" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22305086" minute="69" player="S. Kanazawa" playerid="2357869" result="" team="home" type="yellowcard"></event>
+<event id="22305087" minute="77" player="J. Izumisawa" playerid="2640436" result="" team="home" type="yellowcard"></event>
+<event id="22305088" minute="80" player="S. Shimizu" playerid="" result="" team="home" type="yellowred"></event>
+<event id="22305089" minute="82" player="K. Kondo" playerid="2460720" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4102124" alternate_id_2="4329155" date="03.05.2015" id="4219682" static_id="03051523439982343969" status="FT" time="06:00">
+<home goals="2" id="2343998" name="Giravanz Kitakyushu"></home>
+<away goals="1" id="2343969" name="Gifu"></away>
+<events>
+<event id="22305054" minute="49" player="D. Watari" playerid="2565632" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22305055" minute="64" player="S. Nogaito" playerid="2406705" result="" team="away" type="yellowcard"></event>
+<event id="22305056" minute="72" player="R. Komatsu" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22305057" minute="87" player="Henik" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22305058" minute="90+4" player="M. Abe" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102122" alternate_id_2="4329151" date="03.05.2015" id="4219680" static_id="03051523439892344013" status="FT" time="05:00">
+<home goals="0" id="2343989" name="Kyoto"></home>
+<away goals="1" id="2344013" name="Kusatsu"></away>
+<events>
+<event id="22305014" minute="84" player="L. Aparecido" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102123" alternate_id_2="4329153" date="03.05.2015" id="4219681" static_id="03051523439992344017" status="FT" time="05:00">
+<home goals="1" id="2343999" name="Oita"></home>
+<away goals="1" id="2344017" name="Tokushima"></away>
+<events>
+<event id="22305034" minute="25" player="Y. Goto" playerid="2569145" result="" team="home" type="yellowcard"></event>
+<event id="22305035" minute="35" player="M. Wakasa" playerid="2569925" result="" team="home" type="yellowcard"></event>
+<event id="22305036" minute="63" player="A. Santos" playerid="2362859" result="" team="away" type="yellowcard"></event>
+<event id="22305037" minute="71" player="Y. Kimura" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22305038" minute="73" player="E. Paulista" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102120" alternate_id_2="4329144" date="03.05.2015" id="4219678" static_id="03051523439642343965" status="FT" time="04:00">
+<home goals="1" id="2343964" name="Avispa Fukuoka"></home>
+<away goals="0" id="2343965" name="C-Osaka"></away>
+<events>
+<event id="22304944" minute="10" player="J. Ando" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22304945" minute="13" player="N. Sakai" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22304946" minute="42" player="D. Forlan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22304947" minute="82" player="T. Yamashita" playerid="2356902" result="" team="away" type="yellowcard"></event>
+<event id="22304948" minute="90+3" player="R. Kamiyama" playerid="2356865" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4102119" alternate_id_2="4329145" date="03.05.2015" id="4219677" static_id="03051523501622344018" status="FT" time="04:00">
+<home goals="1" id="2350162" name="Kamatamare"></home>
+<away goals="0" id="2344018" name="Verdy"></away>
+<events>
+<event id="22304954" minute="8" player="A. Pinheiro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22304955" minute="10" player="T. Tsunada" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22304956" minute="30" player="Y. Takahashi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22304957" minute="58" player="R. Nagata" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22304958" minute="83" player="R. Fukui" playerid="2453830" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102118" alternate_id_2="4329146" date="03.05.2015" id="4219676" static_id="03051523440282343994" status="FT" time="04:00">
+<home goals="1" id="2344028" name="Kanazawa"></home>
+<away goals="0" id="2343994" name="Mito"></away>
+<events>
+<event id="22304964" minute="90+3" player="J. Moser" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22304965" minute="90+3" player="J. Moser" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102116" alternate_id_2="4329147" date="03.05.2015" id="4219674" static_id="03051523439662343981" status="FT" time="04:00">
+<home goals="3" id="2343966" name="Sapporo"></home>
+<away goals="0" id="2343981" name="Iwata"></away>
+<events>
+<event id="22304974" minute="10" player="K. Tokura" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22304975" minute="40" player="J. Inamoto" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22304976" minute="45" player="K. Kushibiki" playerid="2511750" result="" team="home" type="yellowcard"></event>
+<event id="22304977" minute="45+1" player="Y. Kobayashi" playerid="2454436" result="" team="away" type="yellowcard"></event>
+<event id="22304978" minute="71" player="K. Tokura" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22304979" minute="75" player="Y. Uchimura" playerid="2356916" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4102117" alternate_id_2="4329148" date="03.05.2015" id="4219675" static_id="03051523440142355273" status="FT" time="04:00">
+<home goals="2" id="2344014" name="Tochigi"></home>
+<away goals="2" id="2355273" name="Kumamoto"></away>
+<events>
+<event id="22304984" minute="42" player="Kweon Han-Jin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22304985" minute="47" player="K. Saito" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22304986" minute="64" player="K. Nakami" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22304987" minute="88" player="K. Nakami" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4102121" alternate_id_2="4329149" date="03.05.2015" id="4219679" static_id="03051523440202343968" status="FT" time="04:00">
+<home goals="2" id="2344020" name="V-Varen Nagasaki"></home>
+<away goals="2" id="2343968" name="Okayama"></away>
+<events>
+<event id="22304994" minute="16" player="H. Azuma" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22304995" minute="37" player="Y. Maeda" playerid="2619111" result="" team="home" type="yellowcard"></event>
+<event id="22304996" minute="47" player="Lee Yong-Jae" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22304997" minute="51" player="R. Takasugi" playerid="2356932" result="" team="home" type="yellowcard"></event>
+<event id="22304998" minute="52" player="Lee Yong-Jae" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22304999" minute="57" player="E. Katayama" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22305000" minute="65" player="R. Ueda" playerid="2337358" result="" team="away" type="redcard"></event>
+<event id="22305001" minute="75" player="D. Kanzaki" playerid="2357198" result="" team="home" type="yellowcard"></event>
+<event id="22305002" minute="76" player="K. Watanabe" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="202063443" minute="90" player="D. Iwamasa" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4102107" alternate_id_2="4328184" date="29.04.2015" id="4219665" static_id="29041523440282343966" status="FT" time="10:30">
 <home goals="1" id="2344028" name="Kanazawa"></home>
 <away goals="1" id="2343966" name="Sapporo"></away>
@@ -573,23 +643,25 @@
 <event id="22289407" minute="90+1" player="H. Komoto" playerid="" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4102105" alternate_id_2="4327587" date="29.04.2015" id="4219663" static_id="29041523439942343968" status="FT" time="04:00">
-<home goals="1" id="2343994" name="Mito"></home>
-<away goals="0" id="2343968" name="Okayama"></away>
+</match><match alternate_id="4102109" alternate_id_2="4327585" date="29.04.2015" id="4219667" static_id="29041523439692344020" status="FT" time="04:00">
+<home goals="1" id="2343969" name="Gifu"></home>
+<away goals="0" id="2344020" name="V-Varen Nagasaki"></away>
 <events>
-<event id="22289374" minute="20" player="K. Funatani" playerid="2337707" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22289375" minute="24" player="K. Iwao" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22289376" minute="60" player="R. Shinzato" playerid="2619079" result="" team="home" type="yellowcard"></event>
+<event id="22289354" minute="15" player="K. Sato" playerid="2406813" result="" team="away" type="yellowcard"></event>
+<event id="22289355" minute="17" player="Y. Inoue" playerid="2406303" result="" team="away" type="yellowcard"></event>
+<event id="22289356" minute="26" player="K. Takagi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289357" minute="30" player="Henik" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289358" minute="53" player="L. Mineiro" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22289359" minute="90" player="K. Ota" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289360" minute="90+2" player="K. Takachi" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4102106" alternate_id_2="4327588" date="29.04.2015" id="4219664" static_id="29041523440182344027" status="FT" time="04:00">
-<home goals="0" id="2344018" name="Verdy"></home>
-<away goals="1" id="2344027" name="Yokohama"></away>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4102108" alternate_id_2="4327586" date="29.04.2015" id="4219666" static_id="29041523439812343964" status="FT" time="04:00">
+<home goals="0" id="2343981" name="Iwata"></home>
+<away goals="1" id="2343964" name="Avispa Fukuoka"></away>
 <events>
-<event id="22289384" minute="54" player="T. Okubo" playerid="2337605" result="" team="away" type="yellowcard"></event>
-<event id="22289385" minute="59" player="K. Sato" playerid="2509985" result="" team="away" type="yellowcard"></event>
-<event id="22289386" minute="84" player="T. Nakazato" playerid="2464081" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22289387" minute="90+1" player="T. Uchida" playerid="2337196" result="" team="away" type="yellowcard"></event>
+<event id="22289364" minute="51" player="N. Sakai" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22289365" minute="76" player="H. Tanaka" playerid="2619759" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="japan" name="Japan: J-League Division 2 - Promotion - Play Offs" cup="False" id="3107" sub_id=""><match alternate_id="4085230" alternate_id_2="4294262" date="07.12.2014" id="4202799" static_id="07121423439792343996" status="FT" time="06:30">
@@ -806,17 +878,6 @@
 <event id="22061817" minute="73" player="R. Sakai" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4101947" alternate_id_2="4304825" date="28.03.2015" id="4219505" static_id="28031523439612344008" status="FT" time="05:00">
-<home goals="0" id="2343961" name="Albirex Niigata"></home>
-<away goals="0" id="2344008" name="Hiroshima"></away>
-<events>
-<event id="22061754" minute="38" player="K. Chiba" playerid="2337349" result="" team="away" type="yellowcard"></event>
-<event id="22061755" minute="61" player="B. Cortez" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22061756" minute="78" player="R. Yamazaki" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22061757" minute="84" player="L. Silva" playerid="2340809" result="" team="home" type="yellowcard"></event>
-<event id="22061758" minute="87" player="Y. Kobayashi" playerid="2337428" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4101946" alternate_id_2="4304826" date="28.03.2015" id="4219504" static_id="28031523440222343985" status="Postp." time="05:00">
 <home goals="?" id="2344022" name="Kofu"></home>
 <away goals="?" id="2343985" name="Kashiwa"></away>
@@ -835,6 +896,15 @@
 <event id="22061780" minute="71" player="K. Hachisuka" playerid="2585567" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[3-0]"></ht>
+</match><match alternate_id="4101948" alternate_id_2="4304828" date="28.03.2015" id="4219506" static_id="28031523440262344009" status="FT" time="05:00">
+<home goals="2" id="2344026" name="Yokohama M."></home>
+<away goals="0" id="2344009" name="Shimizu"></away>
+<events>
+<event id="22061784" minute="59" player="R. Takeuchi (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22061785" minute="69" player="Fabio" playerid="2403802" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22061786" minute="85" player="K. Usui" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="japan" name="Japan: Nabisco Cup - Play Offs" cup="True" id="3105" sub_id="31050"><match alternate_id="4079230" alternate_id_2="4281819" date="08.11.2014" id="4196825" static_id="08111423440082343976" status="FT" time="04:05">
 <home goals="2" id="2344008" name="Hiroshima"></home>
 <away goals="3" id="2343976" name="G-Osaka"></away>

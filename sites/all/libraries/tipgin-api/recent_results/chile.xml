@@ -1,27 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:32" sport="soccer" country="chile"><league country="chile" name="Chile: Primera Division - Clausura" cup="False" id="2992" sub_id="29923"><match alternate_id="4091314" alternate_id_2="4327550" date="03.05.2015" id="4208880" static_id="03051523398242339806" status="18:30" time="18:30">
-<home goals="?" id="2339824" name="Nublense"></home>
-<away goals="?" id="2339806" name="Cobreloa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4091311" alternate_id_2="4327547" date="03.05.2015" id="4208877" static_id="03051523398402339799" status="18:30" time="18:30">
-<home goals="?" id="2339840" name="O'Higgins"></home>
-<away goals="?" id="2339799" name="Antofagasta"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4091312" alternate_id_2="4327548" date="03.05.2015" id="4208878" static_id="03051523398472339797" status="18:30" time="18:30">
-<home goals="?" id="2339847" name="San Marcos de Arica"></home>
-<away goals="?" id="2339797" name="A. Italiano"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4091307" alternate_id_2="4325721" date="03.05.2015" id="4208873" static_id="03051523398532339858" status="15:00" time="15:00">
-<home goals="?" id="2339853" name="Union La Calera"></home>
-<away goals="?" id="2339858" name="U. De Chile"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4091306" alternate_id_2="4325233" date="03.05.2015" id="4208872" static_id="03051523398522339807" status="41" time="00:00">
-<home goals="0" id="2339852" name="U. Espanola"></home>
-<away goals="0" id="2339807" name="Cobresal"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:31" sport="soccer" country="chile"><league country="chile" name="Chile: Primera Division - Clausura" cup="False" id="2992" sub_id="29923"><match alternate_id="4091314" alternate_id_2="4327550" date="03.05.2015" id="4208880" static_id="03051523398242339806" status="FT" time="18:30">
+<home goals="3" id="2339824" name="Nublense"></home>
+<away goals="2" id="2339806" name="Cobreloa"></away>
 <events>
+<event id="22289004" minute="6" player="G. Cristaldo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22289005" minute="31" player="J. Cisternas" playerid="2353912" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22289006" minute="33" player="M. Sanhueza" playerid="2423954" result="" team="away" type="redcard"></event>
+<event id="22289007" minute="60" player="S. Barboza" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22289008" minute="64" player="M. Riquero" playerid="2404294" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22289009" minute="66" player="B. Sagredo" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="22289010" minute="79" player="J. Lorca" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4091311" alternate_id_2="4327547" date="03.05.2015" id="4208877" static_id="03051523398402339799" status="FT" time="18:30">
+<home goals="2" id="2339840" name="Oandapos;Higgins"></home>
+<away goals="2" id="2339799" name="Antofagasta"></away>
+<events>
+<event id="22288974" minute="10" player="S. A. Pinto P." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22288975" minute="28" player="G. Martinez Arredondo" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22288976" minute="32" player="Cristian Manuel Rojas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22288977" minute="43" player="Juan Eduardo Fuentes" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22288978" minute="47" player="Pablo Aurrecochea" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22288979" minute="57" player="R. Riquelme" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22288980" minute="58" player="B. Leal" playerid="2353538" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22288981" minute="65" player="Pablo Ignacio Calandria" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4091312" alternate_id_2="4327548" date="03.05.2015" id="4208878" static_id="03051523398472339797" status="FT" time="18:30">
+<home goals="3" id="2339847" name="San Marcos de Arica"></home>
+<away goals="0" id="2339797" name="A. Italiano"></away>
+<events>
+<event id="22288984" minute="20" player="Carlos Alfredo Labrin Candia" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22288985" minute="29" player="Ivan Gonzalo Vasquez Quilodran" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22288986" minute="37" player="Jaime Alejandro Bravo Jeffery" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22288987" minute="45+1" player="E. Renteria" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22288988" minute="50" player="E. Renteria" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22288989" minute="88" player="K. Harbottle" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091307" alternate_id_2="4325721" date="03.05.2015" id="4208873" static_id="03051523398532339858" status="FT" time="15:00">
+<home goals="2" id="2339853" name="Union La Calera"></home>
+<away goals="1" id="2339858" name="U. De Chile"></away>
+<events>
+<event id="22270714" minute="11" player="J. Pineda" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22270715" minute="26" player="T. Charles" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22270716" minute="49" player="L. Benegas" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22270717" minute="90+2" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4091306" alternate_id_2="4325233" date="03.05.2015" id="4208872" static_id="03051523398522339807" status="FT" time="00:00">
+<home goals="1" id="2339852" name="U. Espanola"></home>
+<away goals="1" id="2339807" name="Cobresal"></away>
+<events>
+<event id="22265834" minute="55" player="Jorge Ampuero" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22265835" minute="62" player="F. Saavedra" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22265836" minute="66" player="Federico Martorell Rigo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22265837" minute="66" player="E. Cantero" playerid="2353928" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4091308" alternate_id_2="4326820" date="02.05.2015" id="4208874" static_id="02051523398002339849" status="FT" time="18:30">
@@ -547,7 +580,32 @@
 <event id="20125529" minute="77" player="A. Contreras" playerid="2595056" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="chile" name="Chile: Primera B - Clausura" cup="False" id="2993" sub_id="29933"><match alternate_id="4115434" alternate_id_2="4325236" date="02.05.2015" id="4232982" static_id="02051523398272339813" status="FT" time="22:00">
+</match></league><league country="chile" name="Chile: Primera B - Clausura" cup="False" id="2993" sub_id="29933"><match alternate_id="4115432" alternate_id_2="4325751" date="03.05.2015" id="4232980" static_id="03051523398112339833" status="FT" time="19:30">
+<home goals="0" id="2339811" name="Curico Unido"></home>
+<away goals="2" id="2339833" name="Magallanes"></away>
+<events>
+<event id="22271014" minute="14" player="Barrera (pen.)" playerid="2440113" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22271015" minute="45" player="Troncoso" playerid="2620912" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4115431" alternate_id_2="4325785" date="03.05.2015" id="4232979" static_id="03051523469462339809" status="FT" time="19:30">
+<home goals="1" id="2346946" name="Rangers"></home>
+<away goals="1" id="2339809" name="Coquimbo"></away>
+<events>
+<event id="22271354" minute="44" player="Taribeno" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22271355" minute="51" player="Falcone" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4115430" alternate_id_2="4325765" date="03.05.2015" id="4232978" static_id="03051523398552339848" status="FT" time="19:30">
+<home goals="1" id="2339855" name="San Felipe"></home>
+<away goals="1" id="2339848" name="S. Morning"></away>
+<events>
+<event id="22271154" minute="14" player="Felix Gonzalo Cortes Jimenez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22271155" minute="49" player="Ortega" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22271156" minute="82" player="Felix Gonzalo Cortes Jimenez" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4115434" alternate_id_2="4325236" date="02.05.2015" id="4232982" static_id="02051523398272339813" status="FT" time="22:00">
 <home goals="2" id="2339827" name="Iberia"></home>
 <away goals="0" id="2339813" name="Copiapo"></away>
 <events>
@@ -694,31 +752,6 @@
 <event id="22237927" minute="76" player="Campos" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4115418" alternate_id_2="4321458" date="18.04.2015" id="4232966" static_id="18041523398092339833" status="FT" time="19:30">
-<home goals="3" id="2339809" name="Coquimbo"></home>
-<away goals="1" id="2339833" name="Magallanes"></away>
-<events>
-<event id="22228084" minute="36" player="Perez" playerid="2634720" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22228085" minute="53" player="Torres" playerid="2512035" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22228086" minute="79" player="Monje (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22228087" minute="89" player="Fiorina" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4115414" alternate_id_2="4320963" date="18.04.2015" id="4232962" static_id="18041523398212339831" status="FT" time="18:30">
-<home goals="1" id="2339821" name="Deportes Temuco"></home>
-<away goals="1" id="2339831" name="L. Schwager"></away>
-<events>
-<event id="22223134" minute="44" player="Paez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22223135" minute="58" player="Lopez" playerid="2526535" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22223136" minute="66" player="Lopez" playerid="2526535" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4115416" alternate_id_2="4321456" date="18.04.2015" id="4232964" static_id="18041523398252339811" status="FT" time="15:00">
-<home goals="0" id="2339825" name="Everton"></home>
-<away goals="0" id="2339811" name="Curico Unido"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="chile" name="Chile: Primera B - Apertura" cup="False" id="2993" sub_id="29931"><match alternate_id="4075490" alternate_id_2="4294290" date="21.12.2014" id="4193099" static_id="21121423398122339855" status="FT" time="21:00">
 <home goals="2" id="2339812" name="D. Concepcion"></home>
 <away goals="0" id="2339855" name="San Felipe"></away>

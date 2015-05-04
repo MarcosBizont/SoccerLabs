@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:22" sport="soccer" country="africa"><league country="africa" name="Africa: Africa Cup Of Nations - Play Offs" cup="True" id="2892" sub_id=""><match alternate_id="4102971" alternate_id_2="4306725" date="08.02.2015" id="4220529" static_id="08021523400542342532" status="Pen." time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:22" sport="soccer" country="africa"><league country="africa" name="Africa: Africa Cup Of Nations - Play Offs" cup="True" id="2892" sub_id=""><match alternate_id="4102971" alternate_id_2="4306725" date="08.02.2015" id="4220529" static_id="08021523400542342532" status="Pen." time="19:00">
 <home goals="0" id="2340054" name="Ivory Coast"></home>
 <away goals="0" id="2342532" name="Ghana"></away>
 <events>
@@ -891,26 +891,39 @@
 <away goals="?" id="2337591" name="Eulma (Alg)"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4119274" alternate_id_2="4323053" date="03.05.2015" id="4236818" static_id="03051523481642352063" status="17:00" time="17:00">
-<home goals="?" id="2348164" name="Al-Hilal Omdurman (Sud)"></home>
-<away goals="?" id="2352063" name="Sanga Balende (Drc)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119268" alternate_id_2="4323056" date="03.05.2015" id="4236812" static_id="03051523427972337644" status="17:00" time="17:00">
-<home goals="?" id="2342797" name="Kaloum Star (Gui)"></home>
-<away goals="?" id="2337644" name="USM Alger (Alg)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119282" alternate_id_2="4323054" date="03.05.2015" id="4236826" static_id="03051523487662348177" status="15:00" time="15:00">
-<home goals="?" id="2348766" name="Esperance Tunis (Tun)"></home>
-<away goals="?" id="2348177" name="Al-Merreikh (Sud)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119272" alternate_id_2="4323057" date="03.05.2015" id="4236816" static_id="03051523400122352379" status="13:30" time="13:30">
-<home goals="?" id="2340012" name="Mazembe (Drc)"></home>
-<away goals="?" id="2352379" name="Stade Malien (Mli)"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4119274" alternate_id_2="4323053" date="03.05.2015" id="4236818" static_id="03051523481642352063" status="FT" time="17:00">
+<home goals="1" id="2348164" name="Al-Hilal Omdurman (Sud)"></home>
+<away goals="0" id="2352063" name="Sanga Balende (Drc)"></away>
+<events>
+<event id="22244034" minute="62" player="Masawi" playerid="2373166" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4119268" alternate_id_2="4323056" date="03.05.2015" id="4236812" static_id="03051523427972337644" status="FT" time="17:00">
+<home goals="1" id="2342797" name="Kaloum Star (Gui)"></home>
+<away goals="1" id="2337644" name="USM Alger (Alg)"></away>
+<events>
+<event id="22244064" minute="54" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22244065" minute="76" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4119282" alternate_id_2="4323054" date="03.05.2015" id="4236826" static_id="03051523487662348177" status="FT" time="15:00">
+<home goals="2" id="2348766" name="Esperance Tunis (Tun)"></home>
+<away goals="1" id="2348177" name="Al-Merreikh (Sud)"></away>
+<events>
+<event id="22244044" minute="14" player="Dufor" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22244045" minute="69" player="Ndjeng" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22244046" minute="90" player="Jabeur" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4119272" alternate_id_2="4323057" date="03.05.2015" id="4236816" static_id="03051523400122352379" status="FT" time="13:30">
+<home goals="2" id="2340012" name="Mazembe (Drc)"></home>
+<away goals="1" id="2352379" name="Stade Malien (Mli)"></away>
+<events>
+<event id="22244074" minute="20" player="Kasusula" playerid="2373112" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22244075" minute="63" player="Diabate" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22244076" minute="66" player="Assale" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4119280" alternate_id_2="4323052" date="02.05.2015" id="4236824" static_id="02051523407162344950" status="Pen." time="18:00">
 <home goals="1" id="2340716" name="Al Ahly (Egy)"></home>
 <away goals="0" id="2344950" name="Moghreb Tétouan (Mar)"></away>
@@ -1252,21 +1265,43 @@
 <event id="20130146" minute="81" player="S. M. Abdel" playerid="2419223" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="africa" name="Africa: Caf Confederations Cup - Qualification" cup="True" id="3468" sub_id="34682"><match alternate_id="4119288" alternate_id_2="4323013" date="03.05.2015" id="4236832" static_id="03051523400602353487" status="15:30" time="15:30">
-<home goals="?" id="2340060" name="ASEC Mimosas (Civ)"></home>
-<away goals="?" id="2353487" name="Onze Créateurs (Mli)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119290" alternate_id_2="4323017" date="03.05.2015" id="4236834" static_id="03051523425472344673" status="15:00" time="15:00">
-<home goals="?" id="2342547" name="Hearts of Oak (Gha)"></home>
-<away goals="?" id="2344673" name="Djoliba (Mli)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4119296" alternate_id_2="4323020" date="03.05.2015" id="4236840" static_id="03051523400072348229" status="14:30" time="14:30">
-<home goals="?" id="2340007" name="Vita Club (Drc)"></home>
-<away goals="?" id="2348229" name="Royal Leopards (Swa)"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="africa" name="Africa: Caf Confederations Cup - Qualification" cup="True" id="3468" sub_id="34682"><match alternate_id="4119292" alternate_id_2="4323016" date="03.05.2015" id="4236836" static_id="03051523449392340792" status="FT" time="19:30">
+<home goals="2" id="2344939" name="FUS Rabat (Mar)"></home>
+<away goals="3" id="2340792" name="Zamalek (Egy)"></away>
+<events>
+<event id="22243664" minute="15" player="Morsi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22243665" minute="40" player="Saadane" playerid="2620731" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22243666" minute="72" player="Batna" playerid="2617180" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22243667" minute="84" player="Gaber" playerid="2470775" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22243668" minute="90" player="Emam" playerid="2365730" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4119288" alternate_id_2="4323013" date="03.05.2015" id="4236832" static_id="03051523400602353487" status="FT" time="15:30">
+<home goals="2" id="2340060" name="ASEC Mimosas (Civ)"></home>
+<away goals="0" id="2353487" name="Onze Créateurs (Mli)"></away>
+<events>
+<event id="22243634" minute="11" player="Bangaly" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22243635" minute="88" player="Traore" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4119290" alternate_id_2="4323017" date="03.05.2015" id="4236834" static_id="03051523425472344673" status="FT" time="15:00">
+<home goals="0" id="2342547" name="Hearts of Oak (Gha)"></home>
+<away goals="1" id="2344673" name="Djoliba (Mli)"></away>
+<events>
+<event id="22243674" minute="85" player="Ndiaye" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4119296" alternate_id_2="4323020" date="03.05.2015" id="4236840" static_id="03051523400072348229" status="FT" time="14:30">
+<home goals="4" id="2340007" name="Vita Club (Drc)"></home>
+<away goals="1" id="2348229" name="Royal Leopards (Swa)"></away>
+<events>
+<event id="22243704" minute="8" player="Ngudikama" playerid="2569264" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22243705" minute="45" player="Lusadisu" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22243706" minute="57" player="Mubele" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22243707" minute="72" player="Mubele" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22243708" minute="85" player="" playerid="" result="[4 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4119284" alternate_id_2="4323019" date="02.05.2015" id="4236828" static_id="02051523474282350540" status="FT" time="18:15">
 <home goals="3" id="2347428" name="Orlando Pirates (Rsa)"></home>
 <away goals="0" id="2350540" name="CF Mounana (Gab)"></away>
@@ -1390,15 +1425,6 @@
 <events>
 <event id="22147214" minute="7" player="Bounedjah" playerid="2539944" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22147215" minute="33" player="Elliot (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4110695" alternate_id_2="4313374" date="05.04.2015" id="4228246" static_id="05041523467932340792" status="FT" time="13:30">
-<home goals="0" id="2346793" name="Rayon Sport (Rwa)"></home>
-<away goals="3" id="2340792" name="Zamalek (Egy)"></away>
-<events>
-<event id="22147244" minute="32" player="Eid" playerid="2383960" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22147245" minute="53" player="Ali Gabr" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22147246" minute="56" player="Salah" playerid="2419258" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[-]"></ht>
 </match></league><league country="africa" name="Africa: Caf Confederations Cup - Play Offs" cup="True" id="3468" sub_id="34681"><match alternate_id="3891674" alternate_id_2="4277617" date="06.12.2014" id="4009442" static_id="06121423407162340071" status="FT" time="16:00">

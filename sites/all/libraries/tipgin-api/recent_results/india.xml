@@ -1,13 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:47" sport="soccer" country="india"><league country="india" name="India: I-League" cup="False" id="3083" sub_id="30830"><match alternate_id="4092860" alternate_id_2="4324956" date="03.05.2015" id="4210426" static_id="03051523545082343158" status="13:30" time="13:30">
-<home goals="?" id="2354508" name="Bengaluru"></home>
-<away goals="?" id="2343158" name="East Bengal"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4092859" alternate_id_2="4324957" date="03.05.2015" id="4092859" static_id="03051523560522345176" status="11:00" time="11:00">
-<home goals="?" id="2356052" name="Royal Wahingdoh"></home>
-<away goals="?" id="2345176" name="Salgaocar SC"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:47" sport="soccer" country="india"><league country="india" name="India: I-League" cup="False" id="3083" sub_id="30830"><match alternate_id="4092860" alternate_id_2="4324956" date="03.05.2015" id="4210426" static_id="03051523545082343158" status="FT" time="13:30">
+<home goals="3" id="2354508" name="Bengaluru"></home>
+<away goals="0" id="2343158" name="East Bengal"></away>
+<events>
+<event id="19942104" minute="31" player="Rooney S." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19942105" minute="41" player="Singh R.Rooney S." playerid="" result="" team="home" type=""></event>
+<event id="19942106" minute="46" player="Lobo C.Dhanrajan R." playerid="" result="" team="away" type=""></event>
+<event id="19942107" minute="60" player="Chhetri S." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19942108" minute="64" player="Singh U.Vineeth C." playerid="" result="" team="home" type=""></event>
+<event id="19942109" minute="67" player="Rafique M.Malsawmatulanga S." playerid="" result="" team="away" type=""></event>
+<event id="19942110" minute="72" player="Beingaichho B.Chhetri S." playerid="" result="" team="home" type=""></event>
+<event id="19942111" minute="74" player="Singh Junior B.Ruidas A." playerid="" result="" team="away" type=""></event>
+<event id="19942112" minute="83" player="Khabra H." playerid="2400144" result="" team="away" type="yellowcard"></event>
+<event id="178434543" minute="87" player="Anto R." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="178434544" minute="88" player="Singh R." playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4092859" alternate_id_2="4324957" date="03.05.2015" id="4092859" static_id="03051523560522345176" status="FT" time="11:00">
+<home goals="4" id="2356052" name="Royal Wahingdoh"></home>
+<away goals="2" id="2345176" name="Salgaocar SC"></away>
+<events>
+<event id="19942094" minute="10" player="Singh S." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19942095" minute="29" player="Mundampara Z.Vales J." playerid="" result="" team="away" type=""></event>
+<event id="19942096" minute="48" player="Kim S.Singh N." playerid="" result="" team="home" type=""></event>
+<event id="19942097" minute="51" player="Baleid Khaled H.Singh T." playerid="" result="" team="away" type=""></event>
+<event id="19942098" minute="55" player="Singh R." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="19942099" minute="56" player="Douhou P." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19942100" minute="59" player="Theobald D." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="19942101" minute="67" player="Singh S." playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="19942102" minute="74" player="Pradhan S.Kumar P." playerid="" result="" team="away" type=""></event>
+<event id="178434443" minute="75" player="Bernard N." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="178434444" minute="80" player="Mundampara Z." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="178434445" minute="82" player="Singh S." playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="178434446" minute="87" player="Singh S.Franco G." playerid="" result="" team="home" type=""></event>
+<event id="178434447" minute="90+3" player="Duffy D." playerid="" result="[4 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4092852" alternate_id_2="4324080" date="02.05.2015" id="4210418" static_id="02051523532972353299" status="FT" time="13:30">
 <home goals="1" id="2353297" name="Mumbai"></home>
 <away goals="1" id="2353299" name="Mohun Bagan"></away>

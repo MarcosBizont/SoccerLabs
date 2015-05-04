@@ -1,4 +1,10 @@
 <?php
+	
+if(isset($_GET['onlycontent'])) 
+{
+	print $page;
+	exit();
+} 
 
 /**
  * @file html.tpl.php
@@ -111,11 +117,6 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
 </head>
 <body class="<?php print $classes;?>"  <?php print $attributes;?>>
-	<?php 
-		if(stripos($_SERVER['HTTP_REFERER'], 'in-play-m') && stripos($_SERVER['HTTP_REFERER'], 'soccer-labs.com'))
-			print "<div class='backtoinplay'><a href='#'>" . t('Back to In Play') .  "</a></div>"; 	
-		
-		?>
 <div id="skip-link"><a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a></div>
 <div id="layout" class="<?php print $layout;?>"><?php print $page_top; ?><?php print $page; ?><?php print $page_bottom; ?></div>
 <div id="toTop"><i class="icon-arrow-thin-up"></i></div>

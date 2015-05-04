@@ -1,35 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:57" sport="soccer" country="mexico"><league country="mexico" name="Mexico: Primera Division - Clausura" cup="False" id="3141" sub_id="31414"><match alternate_id="4089719" alternate_id_2="4327557" date="03.05.2015" id="4207286" static_id="03051523447942344761" status="17:00" time="17:00">
-<home goals="?" id="2344794" name="U.N.A.M.- Pumas"></home>
-<away goals="?" id="2344761" name="Cruz Azul"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4089718" alternate_id_2="4327556" date="03.05.2015" id="4207285" static_id="03051523447742344781" status="02:00" time="02:00">
-<home goals="?" id="2344774" name="Chiapas"></home>
-<away goals="?" id="2344781" name="Monterrey"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4089717" alternate_id_2="4327555" date="03.05.2015" id="4207284" static_id="03051523447892344797" status="01:06" time="01:06">
-<home goals="?" id="2344789" name="Pachuca"></home>
-<away goals="?" id="2344797" name="Santos Laguna"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4089715" alternate_id_2="4326822" date="03.05.2015" id="4207282" static_id="03051523447492344809" status="41" time="00:00">
-<home goals="1" id="2344749" name="Club America"></home>
-<away goals="0" id="2344809" name="Toluca"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:57" sport="soccer" country="mexico"><league country="mexico" name="Mexico: Primera Division - Clausura" cup="False" id="3141" sub_id="31414"><match alternate_id="4089720" alternate_id_2="4327558" date="03.05.2015" id="4207287" static_id="03051523448112344812" status="FT" time="22:00">
+<home goals="1" id="2344811" name="Leones Negros"></home>
+<away goals="2" id="2344812" name="Veracruz"></away>
+<events>
+<event id="22289084" minute="23" player="E. Hernandez (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22289085" minute="42" player="G. Penalba" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22289086" minute="43" player="H. Reynoso" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289087" minute="54" player="F. Araujo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289088" minute="56" player="J. Furch" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22289089" minute="59" player="J. Albin" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22289090" minute="62" player="J. Paganoni" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22289091" minute="86" player="E. Garcia" playerid="2468012" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4089719" alternate_id_2="4327557" date="03.05.2015" id="4207286" static_id="03051523447942344761" status="FT" time="17:00">
+<home goals="0" id="2344794" name="U.N.A.M.- Pumas"></home>
+<away goals="1" id="2344761" name="Cruz Azul"></away>
+<events>
+<event id="22289074" minute="34" player="C. R. Santa" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22289075" minute="68" player="G. Alcoba" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289076" minute="90" player="F. Pinto" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4089718" alternate_id_2="4327556" date="03.05.2015" id="4207285" static_id="03051523447742344781" status="FT" time="02:00">
+<home goals="0" id="2344774" name="Chiapas"></home>
+<away goals="2" id="2344781" name="Monterrey"></away>
+<events>
+<event id="22289064" minute="30" player="D. Pabon" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22289065" minute="44" player="D. Pabon" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22289066" minute="69" player="N. Cardozo" playerid="2345710" result="" team="away" type="yellowcard"></event>
+<event id="22289067" minute="77" player="S. Meza" playerid="2347128" result="" team="away" type="yellowcard"></event>
+<event id="22289068" minute="84" player="A. Andrade" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289069" minute="88" player="E. Cardona" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4089717" alternate_id_2="4327555" date="03.05.2015" id="4207284" static_id="03051523447892344797" status="FT" time="01:06">
+<home goals="2" id="2344789" name="Pachuca"></home>
+<away goals="3" id="2344797" name="Santos Laguna"></away>
+<events>
+<event id="22289054" minute="10" player="A. Aldrete" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22289055" minute="36" player="J. Sornoza" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22289056" minute="38" player="H. Lozano" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22289057" minute="40" player="R. Salinas" playerid="2346427" result="" team="away" type="yellowcard"></event>
+<event id="22289058" minute="44" player="N. Calderon (pen.)" playerid="2375986" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22289059" minute="61" player="J. Abella" playerid="2570509" result="" team="away" type="yellowcard"></event>
+<event id="22289060" minute="64" player="J. Hernandez" playerid="2401268" result="" team="home" type="yellowcard"></event>
+<event id="22289061" minute="69" player="Djaniny" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22289062" minute="73" player="C. Izquierdoz" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201904043" minute="76" player="R. Pizarro" playerid="2585769" result="" team="home" type="yellowcard"></event>
+<event id="201904044" minute="77" player="N. Calderon (pen.)" playerid="2375986" result="[1 - 2]" team="away" type="goal"></event>
+<event id="201904045" minute="90+0" player="J. Escoboza" playerid="2528541" result="[1 - 3]" team="away" type="goal"></event>
+<event id="201904046" minute="90+3" player="" playerid="" result="[2 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4089715" alternate_id_2="4326822" date="03.05.2015" id="4207282" static_id="03051523447492344809" status="FT" time="00:00">
+<home goals="3" id="2344749" name="Club America"></home>
+<away goals="1" id="2344809" name="Toluca"></away>
 <events>
 <event id="22281724" minute="3" player="P. Aguilar" playerid="2346183" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22281725" minute="22" player="A. Galindo" playerid="2343340" result="" team="away" type="yellowcard"></event>
+<event id="22281726" minute="59" player="M. Samudio" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281727" minute="62" player="M. Munoz" playerid="2346332" result="" team="home" type="yellowcard"></event>
+<event id="22281728" minute="64" player="P. da Silva" playerid="2332226" result="" team="away" type="yellowcard"></event>
+<event id="22281729" minute="65" player="W. Guisao (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22281730" minute="74" player="A. Talavera" playerid="2346961" result="" team="away" type="yellowcard"></event>
+<event id="22281731" minute="75" player="O. Martinez (pen.)" playerid="2359793" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22281732" minute="80" player="P. Aguilar" playerid="2346183" result="" team="home" type="yellowcard"></event>
+<event id="201830743" minute="82" player="P. Goltz" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4089716" alternate_id_2="4326824" date="03.05.2015" id="4207283" static_id="03051523448042344769" status="41" time="00:00">
+</match><match alternate_id="4089716" alternate_id_2="4326824" date="03.05.2015" id="4207283" static_id="03051523448042344769" status="FT" time="00:00">
 <home goals="2" id="2344804" name="U.A.N.L.- Tigres"></home>
-<away goals="0" id="2344769" name="Guadalajara Chivas"></away>
+<away goals="1" id="2344769" name="Guadalajara Chivas"></away>
 <events>
 <event id="22281744" minute="8" player="E. Esqueda" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22281745" minute="16" player="O. Bravo" playerid="2332265" result="" team="away" type="yellowcard"></event>
 <event id="22281746" minute="34" player="E. Lugo" playerid="2347086" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22281747" minute="37" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22281748" minute="38" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22281747" minute="36" player="M. Fabian" playerid="2354703" result="" team="away" type="yellowcard"></event>
+<event id="22281748" minute="38" player="G. Pizarro" playerid="2435714" result="" team="home" type="yellowcard"></event>
+<event id="22281749" minute="76" player="J. Enriquez" playerid="2450578" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22281750" minute="78" player="C. Salcedo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22281751" minute="85" player="M. Ponce" playerid="2399996" result="" team="away" type="yellowcard"></event>
+<event id="22281752" minute="86" player="J. Pereira" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="201830943" minute="86" player="R. Sobis" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="201830944" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4089714" alternate_id_2="4326823" date="02.05.2015" id="4207281" static_id="02051523447922344777" status="FT" time="22:00">
@@ -219,18 +272,6 @@
 <event id="22242888" minute="78" player="C. Izquierdoz" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4089551" alternate_id_2="4322936" date="19.04.2015" id="4207118" static_id="19041523447772344809" status="FT" time="01:06">
-<home goals="1" id="2344777" name="Club Leon"></home>
-<away goals="1" id="2344809" name="Toluca"></away>
-<events>
-<event id="22242864" minute="53" player="W. Guisao" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22242865" minute="54" player="W. Guisao" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22242866" minute="61" player="J. Magallon" playerid="2341910" result="" team="home" type="yellowcard"></event>
-<event id="22242867" minute="78" player="C. Pena" playerid="2458238" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22242868" minute="82" player="C. G. Rodriguez" playerid="2352027" result="" team="away" type="yellowcard"></event>
-<event id="22242869" minute="85" player="A. Galindo" playerid="2343340" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="mexico" name="Mexico: Primera Division - Apertura - Play Offs" cup="False" id="3141" sub_id=""><match alternate_id="4086926" alternate_id_2="4296372" date="15.12.2014" id="4204493" static_id="15121423447492344804" status="FT" time="00:00">
 <home goals="3" id="2344749" name="Club America"></home>
 <away goals="0" id="2344804" name="U.A.N.L.- Tigres"></away>
@@ -823,11 +864,16 @@
 <event id="180251846" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura - Play Offs" cup="False" id="3142" sub_id=""><match alternate_id="4126023" alternate_id_2="4330108" date="03.05.2015" id="4243566" static_id="03051523447652354124" status="01:00" time="01:00">
-<home goals="?" id="2344765" name="Dorados de Sinaloa"></home>
-<away goals="?" id="2354124" name="Atl. San Luis"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="mexico" name="Mexico: Liga De Ascenso - Clausura - Play Offs" cup="False" id="3142" sub_id=""><match alternate_id="4126023" alternate_id_2="4330108" date="03.05.2015" id="4243566" static_id="03051523447652354124" status="FT" time="01:00">
+<home goals="3" id="2344765" name="Dorados de Sinaloa"></home>
+<away goals="0" id="2354124" name="Atl. San Luis"></away>
+<events>
+<event id="22314584" minute="45" player="Enriquez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22314585" minute="51" player="Esqueda" playerid="" result="" team="away" type="redcard"></event>
+<event id="22314586" minute="54" player="Mejia" playerid="2589019" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22314587" minute="75" player="Prieto" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4124925" alternate_id_2="4328142" date="27.04.2015" id="4242468" static_id="27041523447652344784" status="FT" time="01:00">
 <home goals="2" id="2344765" name="Dorados de Sinaloa"></home>
 <away goals="1" id="2344784" name="Necaxa"></away>

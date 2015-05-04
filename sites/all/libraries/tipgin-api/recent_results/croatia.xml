@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.05.2015 00:40:36" sport="soccer" country="croatia"><league country="croatia" name="Croatia: 1. Hnl" cup="False" id="3005" sub_id="30050"><match alternate_id="4004013" alternate_id_2="4324904" date="03.05.2015" id="4121635" static_id="03051523402142340096" status="17:00" time="17:00">
-<home goals="?" id="2340214" name="Zadar"></home>
-<away goals="?" id="2340096" name="Hajduk Split"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:35" sport="soccer" country="croatia"><league country="croatia" name="Croatia: 1. Hnl" cup="False" id="3005" sub_id="30050"><match alternate_id="4004015" alternate_id_2="4325565" date="04.05.2015" id="4121637" static_id="04051523401912340184" status="17:00" time="17:00">
+<home goals="?" id="2340191" name="Belupo"></home>
+<away goals="?" id="2340184" name="Rijeka"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4004014" alternate_id_2="4325564" date="04.05.2015" id="4121636" static_id="04051523401152340107" status="15:00" time="15:00">
+<home goals="?" id="2340115" name="Lok. Zagreb"></home>
+<away goals="?" id="2340107" name="Istra 1961"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4004013" alternate_id_2="4324904" date="03.05.2015" id="4121635" static_id="03051523402142340096" status="FT" time="17:00">
+<home goals="2" id="2340214" name="Zadar"></home>
+<away goals="0" id="2340096" name="Hajduk Split"></away>
+<events>
+<event id="22262544" minute="16" player="I. Frane" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22262545" minute="69" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22262546" minute="90+2" player="I. Krstanovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22262547" minute="90+4" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22262548" minute="90+4" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4004011" alternate_id_2="4324903" date="02.05.2015" id="4121633" static_id="02051523402002340088" status="FT" time="17:00">
 <home goals="1" id="2340200" name="RNK Split"></home>
 <away goals="5" id="2340088" name="D. Zagreb"></away>
@@ -221,28 +237,6 @@
 <event id="22178607" minute="77" player="S. Grzan" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4003999" alternate_id_2="4314731" date="12.04.2015" id="4121621" static_id="12041523401842340217" status="FT" time="17:00">
-<home goals="4" id="2340184" name="Rijeka"></home>
-<away goals="1" id="2340217" name="NK Zagreb"></away>
-<events>
-<event id="22160814" minute="36" player="I. Tomecak" playerid="2408376" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22160815" minute="42" player="B. Balaj" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22160816" minute="57" player="J. Jurendic" playerid="2369338" result="[2 - 1]" team="away" type="goal"></event>
-<event id="22160817" minute="59" player="M. Mitrovic" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="22160818" minute="74" player="M. Leskovic" playerid="2466471" result="" team="home" type="yellowcard"></event>
-<event id="22160819" minute="82" player="M. Tomasov" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="22160820" minute="83" player="I. Ljubicic" playerid="2547523" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4003998" alternate_id_2="4314878" date="12.04.2015" id="4121620" static_id="12041523401912340088" status="FT" time="15:00">
-<home goals="0" id="2340191" name="Belupo"></home>
-<away goals="0" id="2340088" name="D. Zagreb"></away>
-<events>
-<event id="22162284" minute="36" player="L. Sigali" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22162285" minute="65" player="P. Machado" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22162286" minute="74" player="J. Simunovic" playerid="2488092" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="croatia" name="Croatia: 1. Hnl - Relegation" cup="False" id="3005" sub_id=""><match alternate_id="3961445" alternate_id_2="4115692" date="29.05.2014" id="4079118" static_id="29051423401912340081" status="FT" time="17:00">
 <home goals="2" id="2340191" name="Belupo"></home>
 <away goals="1" id="2340081" name="Cibalia"></away>
@@ -263,11 +257,12 @@
 <event id="20170417" minute="82" player="J. Puljic" playerid="2552197" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="croatia" name="Croatia: 2. Hnl" cup="False" id="3008" sub_id="30080"><match alternate_id="4117022" alternate_id_2="4323749" date="03.05.2015" id="4234568" static_id="03051523401332353138" status="15:00" time="15:00">
-<home goals="?" id="2340133" name="Dugopolje"></home>
-<away goals="?" id="2353138" name="NK Bistra"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="croatia" name="Croatia: 2. Hnl" cup="False" id="3008" sub_id="30080"><match alternate_id="4117022" alternate_id_2="4323749" date="03.05.2015" id="4234568" static_id="03051523401332353138" status="FT" time="15:00">
+<home goals="0" id="2340133" name="Dugopolje"></home>
+<away goals="0" id="2353138" name="NK Bistra"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4117018" alternate_id_2="4323745" date="01.05.2015" id="4234564" static_id="01051523401022340116" status="FT" time="15:00">
 <home goals="0" id="2340102" name="Dragovoljac"></home>
 <away goals="0" id="2340116" name="Lucko"></away>
