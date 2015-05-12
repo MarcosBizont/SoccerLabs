@@ -115,13 +115,16 @@ var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0032/8084.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
+
 </head>
 <body class="<?php print $classes;?>"  <?php print $attributes;?>>
+
 <div id="skip-link"><a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a></div>
 <div id="layout" class="<?php print $layout;?>"><?php print $page_top; ?><?php print $page; ?><?php print $page_bottom; ?></div>
 <div id="toTop"><i class="icon-arrow-thin-up"></i></div>
 <?php include_once('switcher.tpl.php');?>
 
 <div class='betaversion'><img src='/sites/all/themes/sevenmag/images/beta_label.png' /></div>
+
 </body>
 </html>

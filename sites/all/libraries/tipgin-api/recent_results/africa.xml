@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="04.05.2015 00:40:22" sport="soccer" country="africa"><league country="africa" name="Africa: Africa Cup Of Nations - Play Offs" cup="True" id="2892" sub_id=""><match alternate_id="4102971" alternate_id_2="4306725" date="08.02.2015" id="4220529" static_id="08021523400542342532" status="Pen." time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:40:20" sport="soccer" country="africa"><league country="africa" name="Africa: Africa Cup Of Nations - Play Offs" cup="True" id="2892" sub_id=""><match alternate_id="4102971" alternate_id_2="4306725" date="08.02.2015" id="4220529" static_id="08021523400542342532" status="Pen." time="19:00">
 <home goals="0" id="2340054" name="Ivory Coast"></home>
 <away goals="0" id="2342532" name="Ghana"></away>
 <events>
@@ -886,11 +886,14 @@
 <event id="20123887" minute="55" player="W. Katsande" playerid="2494218" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="africa" name="Africa: Caf Champions League - Qualification" cup="False" id="3346" sub_id="33464"><match alternate_id="4119270" alternate_id_2="4323058" date="03.05.2015" id="4236814" static_id="03051523487492337591" status="18:15" time="18:15">
-<home goals="?" id="2348749" name="Sfaxien (Tun)"></home>
-<away goals="?" id="2337591" name="Eulma (Alg)"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="africa" name="Africa: Caf Champions League - Qualification" cup="False" id="3346" sub_id="33464"><match alternate_id="4119270" alternate_id_2="4323058" date="03.05.2015" id="4236814" static_id="03051523487492337591" status="Pen." time="18:15">
+<home goals="1" id="2348749" name="Sfaxien (Tun)"></home>
+<away goals="0" id="2337591" name="Eulma (Alg)"></away>
+<events>
+<event id="22244084" minute="48" player="Hannechi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="6" visitorteam="7"></penalty>
 </match><match alternate_id="4119274" alternate_id_2="4323053" date="03.05.2015" id="4236818" static_id="03051523481642352063" status="FT" time="17:00">
 <home goals="1" id="2348164" name="Al-Hilal Omdurman (Sud)"></home>
 <away goals="0" id="2352063" name="Sanga Balende (Drc)"></away>

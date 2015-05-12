@@ -195,7 +195,7 @@
 				settings.height = ((windowheight / 16) * 14) - 50 ;
 				settings.content = mydiv.html();
 				settings.title = $(this).html();
-				$(this).webuiPopover(settings).click(function(){ 
+				$(this).webuiPopover(settings).click(function(){
 					var posheader = $(this).position();
 					$('.webui-popover .arrow').css({ top: (posheader.top + 50) + 'px' }); 
 				});	
@@ -204,6 +204,7 @@
 		});
 		
 		$(".sidebarleft .content-inblock").hide();
+		
 		
 	}
 	// Add betclicks if links are availables
@@ -391,7 +392,8 @@
 	
 	$("#edit-competition").chosen().change(function()
 	{
-		var data_to_send = $(this).val();
+		var data_to_send = new Object();
+		data_to_send.data_to_send = $(this).val();
 		$('#block-views-real-time-block-3').addClass('loadingsidebar');
 		$.post('/inplay/refresh/competition', { data: data_to_send } ,function(data) {
 			$('#block-views-real-time-block-3').html(data);

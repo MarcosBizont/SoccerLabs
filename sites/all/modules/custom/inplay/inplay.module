@@ -318,7 +318,7 @@ function _inplaym_loadinplay_gamerows()
 
 
 
-function _inplay_refresh_competition($data)
+function _inplay_refresh_competition()
 {
 	$_SESSION['inplay_competitions'] = $_POST['data']["data_to_send"];
 

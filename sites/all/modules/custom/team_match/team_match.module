@@ -4,14 +4,53 @@
  * Implements hook_init().
  */
 function team_match_init() {
+	global $language;
+	global $user;
+	
 	$node = menu_get_object();
 	if (isset($node->type))
 		if ($node->type == 'match') {
 			drupal_add_js(drupal_get_path('module', 'team_match') . '/js/team_match.js', array('scope' => 'footer'));
 		    drupal_add_css(drupal_get_path('module', 'team_match') . '/css/team_match.css', array('weight' => 10));
+		    
+		    team_match_addmeta('twitter:card', 'summary', 'meta_twitter_card');
+			team_match_addmeta('twitter:site', t('@soccer_labsen'), 'meta_twitter_site');
+			team_match_addmeta('twitter:title', 'Soccer Labs', 'meta_twitter_title');
+			team_match_addmeta('twitter:description', t('Soccer Labs is a portal that provides statistical information to predict results of soccer games'), 'meta_twitter_description');
+			team_match_addmeta('twitter:image', 'https://soccer-labs.com/sites/all/themes/sevenmag/images/soccerlabsball.png', 'meta_twitter_image');
+		    
+		    
+		    $url = url('node/' . $node->nid, 
+				array('base_url' => 'https://soccer-labs.com/' . $language->language, 
+						'absolute' => true,
+						'query' => array(),
+						'language' => (object)array(
+							  'language' => $language->language,
+							)
+						));
+			
+			team_match_addmeta('og:url', $url, 'meta_og_url');
+		    team_match_addmeta('og:type', 'article', 'meta_og_type');
+		    team_match_addmeta('og:title', $node->title, 'meta_og_title');
+		    team_match_addmeta('og:description', t('Soccer Labs is a portal that provides statistical information to predict results of soccer games'), 'meta_og_description');
+		    team_match_addmeta('og:image', 'http://soccer-labs.com/sites/all/themes/sevenmag/images/soccerlabsball.png', 'meta_og_image');
+
 		}
 }
-	
+
+
+function team_match_addmeta($name, $content, $id)
+{
+	$meta_to_add = array(
+		'#type' => 'html_tag',
+		'#tag' => 'meta',
+		'#attributes' => array(
+		  'name' =>  $name,
+		  'content' => $content,
+		)
+	);
+	drupal_add_html_head($meta_to_add, $id);	
+}	
 	
 /**
  * Implements hook_block_info().

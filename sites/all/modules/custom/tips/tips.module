@@ -37,13 +37,13 @@ define("OVER_2_5_BY_TEAM_PROBABILITY", .5);
 define("OVER_0_5_BY_MATCH_HT_PROBABILITY", .8);
 define("OVER_1_5_BY_MATCH_HT_PROBABILITY", .7);
 
-define("UNDER_1_5_BY_MATCH_PROBABILITY", .67);
+define("UNDER_1_5_BY_MATCH_PROBABILITY", .7);
 define("OVER_1_5_BY_MATCH_PROBABILITY", .8);
 
-define("UNDER_2_5_BY_MATCH_PROBABILITY", .80);
+define("UNDER_2_5_BY_MATCH_PROBABILITY", .85);
 define("OVER_2_5_BY_MATCH_PROBABILITY", .7);
 
-define("UNDER_3_5_BY_MATCH_PROBABILITY", .95);
+define("UNDER_3_5_BY_MATCH_PROBABILITY", .99);
 define("OVER_3_5_BY_MATCH_PROBABILITY", .45);
 
 define("WIN_BY_POISSON_PROBABILITY", .7);
@@ -58,6 +58,8 @@ define("DRAW_HOUSE_PROBABILITY", .4);
  */
 function tips_cronapi() {
   $items = array();
+  $items['tips_buffer'] = array();
+  
   $items['tips_generate_bets'] = array();
   $items['tips_generate_bets_inplay'] = array();
   $items['tips_generate_tips'] = array();
@@ -72,6 +74,12 @@ function tips_cronapi() {
   $items['tips_process_tweet_tips'] = array();
   
   return $items;
+}
+
+function tips_buffer()
+{
+	module_load_include('inc', 'tips', 'tips_buffer');
+	tips_buffer_generate();	
 }
 
 function tips_generate_tweet_tips()
@@ -99,10 +107,12 @@ function tips_generate_tweet_tips()
 		$queue = DrupalQueue::get('processTipsTweets');
 		foreach($tipsids as $idtip)
 		{
-			if (!($cache = cache_get('tips_generate_tweet_tips_' . $idtip, 'cache'))) 
+			$tip = node_load($idtip);
+			$id_match = $tip->field_match[LANGUAGE_NONE][0]['target_id'];
+			if (!($cache = cache_get('tips_generate_tweet_tips_' . $id_match, 'cache'))) 
 			{
 				$queue->createItem($idtip);
-				cache_set('tips_generate_tweet_tips_' . $idtip, $idtip, 'cache', time() + 60*60*48);
+				cache_set('tips_generate_tweet_tips_' . $id_match, $id_match, 'cache', time() + 60*60*48);
 			}
 			
 		}
@@ -110,14 +120,61 @@ function tips_generate_tweet_tips()
 	
 }
 
+function tips_get_tweet_tip($tipid, $languageprefix, $shorturl = false, &$urltoreturn = '', &$urltoreturnfull = '' , $addurl = true, $postfix = '',
+	$query = array('utm_source' => 'soccer_labstips', 'utm_medium' => 'twitter', 'utm_campaign' => 'general' ) )
+{
+	$tip = node_load($tipid);
+	if(isset($tip->field_team[LANGUAGE_NONE][0]['target_id']))
+		$tip_team = node_load($tip->field_team[LANGUAGE_NONE][0]['target_id']);
+	$matchnode = node_load($tip->field_match[LANGUAGE_NONE][0]['target_id']);
+	
+	$tiptype = taxonomy_term_load($tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
+	$i18n_object = i18n_get_object('taxonomy_term', $tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
+	$target_langcode = $languageprefix;
+	$translated_tiptype = $i18n_object->localize($target_langcode);
+	
+	$node_local_team = node_load($matchnode->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	$node_visitor_team = node_load($matchnode->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	
+	$tiptitle = $translated_tiptype->name;
+	if(isset($tip->field_team[LANGUAGE_NONE][0]['target_id']))
+		if(intval($tip->field_team[LANGUAGE_NONE][0]['target_id']) > 0)
+			$tiptitle .= ' ' . $tip_team->title;	
+	
+	$tiptitle = '[' .  trim($tiptitle) . ']';
+	
+	$url = url('node/' . $matchnode->nid . $postfix, 
+		array('base_url' => 'http://soccer-labs.com/' . $languageprefix, 
+				'absolute' => true,
+				'query' => $query,
+				'language' => (object)array(
+					  'language' => $languageprefix,
+					)
+				));
+	
+	$urltoreturnfull = $url;
+	if($shorturl) $url = twitter_shorten_url($url);
+	$urltoreturn = $url;
+	 
+	$tweet = substr($node_local_team->title  . ' vs ' . $node_visitor_team->title . ' ' . $tiptitle . '...' , 0, 110 );
+	
+	
+	if($addurl) 
+		return $tweet . $url;
+	else
+		return $tweet;
+}
+
+
 function tips_process_tweet_tips()
 {
 	module_load_include('inc', 'twitter');
 	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	module_load_include('inc', 'tips', 'tips_buffer');
 	$queue = DrupalQueue::get('processTipsTweets');
 	
-	$twitter_uid = _twitter_actions_get_twitter_id('soccer_labstips');
-	$twitter_account = entity_load_single('twitter_account', $twitter_uid);
+	//$twitter_uid = _twitter_actions_get_twitter_id('soccer_labstips');
+	//$twitter_account = entity_load_single('twitter_account', $twitter_uid);
 	
 	$i = 0;
 	while($item = $queue->claimItem()) 
@@ -128,44 +185,13 @@ function tips_process_tweet_tips()
 		$queue->deleteItem($item);
 		
 		$tip = node_load($data);
-		if(isset($tip->field_team[LANGUAGE_NONE][0]['target_id']))
-			$tip_team = node_load($tip->field_team[LANGUAGE_NONE][0]['target_id']);
-		$competition = node_load($tip->field_competition[LANGUAGE_NONE][0]['target_id']);
-		$matchnode = node_load($tip->field_match[LANGUAGE_NONE][0]['target_id']);
-		$country = $competition->field_country[LANGUAGE_NONE][0]['value'];
-		
 		$tiptype = taxonomy_term_load($tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
-		$i18n_object = i18n_get_object('taxonomy_term', $tip->field_tip_type[LANGUAGE_NONE][0]['target_id']);
-		$target_langcode = 'en';
-		$translated_tiptype = $i18n_object->localize($target_langcode);
 		
-		$oddssuggested = $tiptype->field_odds_suggested[LANGUAGE_NONE][0]['value'];
-		$node_local_team = node_load($matchnode->field_local_team[LANGUAGE_NONE][0]['target_id']);
-		$node_visitor_team = node_load($matchnode->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+		$tweet = tips_get_tweet_tip($data, 'en', false);
 		
 		if($tiptype->field_is_available[LANGUAGE_NONE][0]['value']=='1')
 		{
-			$tiptitle = $translated_tiptype->name;
-			if(isset($tip->field_team[LANGUAGE_NONE][0]['target_id']))
-				if(intval($tip->field_team[LANGUAGE_NONE][0]['target_id']) > 0)
-					$tiptitle .= ' ' . $tip_team->title;	
-			
-			$tiptitle = '[' .  trim($tiptitle) . ']';
-			
-			$url = twitter_shorten_url(url('node/' . $matchnode->nid, 
-				array('base_url' => 'http://soccer-labs.com/es', 
-						'absolute' => true,
-						'query' => array('utm_source' => 'soccer_labstips',
-											'utm_medium' => 'twitter',
-											'utm_campaign' => 'general' ),
-						'language' => (object)array(
-							  'language' => 'en',
-							)
-						)));
-						
-			$tweet = substr($node_local_team->title  . ' vs ' . $node_visitor_team->title . ' ' . $tiptitle . '...' , 0, 110 );
-			watchdog('debug tweet', $tweet . $url );
-			$status = twitter_set_status($twitter_account, $tweet . $url);			
+			tips_buffer_bufferapp_data(TRUE, NULL, $tweet, array(), TRUE, FALSE, '@soccer_labstips');
 		}
 		
 		
@@ -352,7 +378,7 @@ function tips_process_mark_tips()
 		
 		
 		$queue->deleteItem($item);
-		if($i>=50) return;
+		if($i>=25) return;
 		$i++;
 	}	
 	
