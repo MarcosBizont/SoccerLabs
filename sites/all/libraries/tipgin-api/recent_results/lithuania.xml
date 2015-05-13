@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:40:51" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4109302" alternate_id_2="4325713" date="12.05.2015" id="4226854" static_id="12051523444392344409" status="15:00" time="15:00">
-<home goals="?" id="2344439" name="Utenis"></home>
-<away goals="?" id="2344409" name="Kruoja"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.05.2015 00:40:55" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4109302" alternate_id_2="4325713" date="12.05.2015" id="4226854" static_id="12051523444392344409" status="FT" time="15:00">
+<home goals="0" id="2344439" name="Utenis"></home>
+<away goals="0" id="2344409" name="Kruoja"></away>
+<events>
+<event id="22270634" minute="0" player="A. Trucinskas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22270635" minute="38" player="R. Freidgeimas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22270636" minute="42" player="T. Birskys" playerid="" result="" team="away" type="redcard"></event>
+<event id="22270637" minute="42" player="A. Trucinskas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22270638" minute="50" player="J. Aleksandravicius" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22270639" minute="65" player="A. Skroblas" playerid="2359219" result="" team="away" type="yellowcard"></event>
+<event id="22270640" minute="84" player="D. Gouveia" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4109301" alternate_id_2="4325306" date="11.05.2015" id="4226853" static_id="11051523443982344449" status="FT" time="16:30">
 <home goals="1" id="2344398" name="Siauliai"></home>
 <away goals="6" id="2344449" name="Zalgiris"></away>
@@ -248,11 +256,27 @@
 <event id="22194180" minute="60" player="N. Prebiracevic" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="lithuania" name="Lithuania: Division 2" cup="False" id="3124" sub_id="31240"><match alternate_id="4117737" alternate_id_2="4328943" date="12.05.2015" id="4235281" static_id="12051523444132353734" status="15:00" time="15:00">
-<home goals="?" id="2344413" name="Jonava"></home>
-<away goals="?" id="2353734" name="Silas"></away>
+</match></league><league country="lithuania" name="Lithuania: Division 2" cup="False" id="3124" sub_id="31240"><match alternate_id="4117739" alternate_id_2="4329494" date="13.05.2015" id="4235283" static_id="13051523522612344416" status="17:00" time="17:00">
+<home goals="?" id="2352261" name="Palanga"></home>
+<away goals="?" id="2344416" name="Kretinga"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4117738" alternate_id_2="4328944" date="13.05.2015" id="4235282" static_id="" status="15:00" time="15:00">
+<home goals="?" id="2344400" name="Tauras Taurage"></home>
+<away goals="?" id="" name="Trakai 2"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4117737" alternate_id_2="4328943" date="12.05.2015" id="4235281" static_id="12051523444132353734" status="FT" time="15:00">
+<home goals="4" id="2344413" name="Jonava"></home>
+<away goals="0" id="2353734" name="Silas"></away>
+<events>
+<event id="22302934" minute="7" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22302935" minute="20" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22302936" minute="35" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22302937" minute="54" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22302938" minute="56" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4117736" alternate_id_2="4328940" date="10.05.2015" id="4235280" static_id="10051523443882344399" status="FT" time="16:00">
 <home goals="2" id="2344388" name="Banga"></home>
 <away goals="1" id="2344399" name="Silute"></away>
@@ -363,18 +387,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4325307" date="26.04.2015" id="" static_id="" status="FT" time="10:00">
-<home goals="0" id="" name="Kruoja 2"></home>
-<away goals="2" id="" name="Trakai 2"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4117718" alternate_id_2="4324194" date="25.04.2015" id="4235262" static_id="25041523537352344393" status="FT" time="17:30">
-<home goals="2" id="2353735" name="Zalgiris 3"></home>
-<away goals="0" id="2344393" name="FBK Kaunas"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="lithuania" name="Lithuania: Division 2 - Promotion Group" cup="False" id="3124" sub_id="31241"><match alternate_id="4082789" alternate_id_2="4273589" date="02.11.2014" id="4200372" static_id="02111423555342353734" status="FT" time="11:00">
 <home goals="5" id="2355534" name="MRU TiuMenas"></home>
 <away goals="1" id="2353734" name="Silas"></away>

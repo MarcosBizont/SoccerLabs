@@ -1,11 +1,7 @@
 <?php
 
-if(inplay_is_anonymus())
-{
-	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please <a href="/">register</a> and enjoy your free trial') . "</div>";
-	// ToDo : Randomly shows tips, try to take in consideration session
-}
-elseif(!inplay_is_member())
+
+if(!inplay_is_member() && !inplay_is_anonymus())
 {
 	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
 }
@@ -101,4 +97,18 @@ else
 
 </div><?php /* class view */ ?>
 <?php
+	
+	
+		if(inplay_is_anonymus())
+		{
+			echo "<div class='waitingtips'>" . t('We have more tips waiting for you, please register and enjoy your free trial') . "</div>";
+			
+			print l('<i class="fa fa-facebook"></i> | Connect with Facebook', 'user/simple-fb-connect', 
+				array('html' => true, 'attributes' => array('class' => 'matchsocial btnsocial btn-facebook') ) )
+			. l('<i class="fa fa-twitter"></i> | Connect with Twitter', 'twitter/redirect', 
+				array('html' => true, 'attributes' => array('class' => 'matchsocial btnsocial btn-twitter') ) );
+			
+			// ToDo : Randomly shows tips, try to take in consideration session
+		}
+		
 	}

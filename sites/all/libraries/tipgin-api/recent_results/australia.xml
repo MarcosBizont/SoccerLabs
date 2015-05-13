@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:40:19" sport="soccer" country="australia"><league country="australia" name="Australia: A-League - Play Offs" cup="False" id="2919" sub_id=""><match alternate_id="4126455" alternate_id_2="4330648" date="09.05.2015" id="4243998" static_id="09051523381032337977" status="FT" time="09:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.05.2015 00:40:20" sport="soccer" country="australia"><league country="australia" name="Australia: A-League - Play Offs" cup="False" id="2919" sub_id=""><match alternate_id="4126455" alternate_id_2="4330648" date="09.05.2015" id="4243998" static_id="09051523381032337977" status="FT" time="09:30">
 <home goals="4" id="2338103" name="Sydney FC"></home>
 <away goals="1" id="2337977" name="Adelaide United"></away>
 <events>
@@ -323,11 +323,14 @@
 <event id="22164099" minute="67" player="A. Mooy" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="australia" name="Australia: Brisbane Premier League" cup="False" id="3440" sub_id="34400"><match alternate_id="4084929" alternate_id_2="4293490" date="12.05.2015" id="4202498" static_id="12051523535422338107" status="09:30" time="09:30">
-<home goals="?" id="2353542" name="Logan Lightning"></home>
-<away goals="?" id="2338107" name="Taringa"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="australia" name="Australia: Brisbane Premier League" cup="False" id="3440" sub_id="34400"><match alternate_id="4084929" alternate_id_2="4293490" date="12.05.2015" id="4202498" static_id="12051523535422338107" status="FT" time="09:30">
+<home goals="1" id="2353542" name="Logan Lightning"></home>
+<away goals="1" id="2338107" name="Taringa"></away>
+<events>
+<event id="21948404" minute="19" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21948405" minute="46" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4089786" alternate_id_2="4326830" date="10.05.2015" id="4207353" static_id="10051523379922338017" status="FT" time="07:00">
 <home goals="1" id="2337992" name="Wolves FC"></home>
 <away goals="3" id="2338017" name="Eastern Suburbs"></away>
@@ -1056,11 +1059,22 @@
 <events>
 </events>
 <ht score="[0-4]"></ht>
-</match></league><league country="australia" name="Australia: Northern Nsw" cup="False" id="4362" sub_id="43620"><match alternate_id="4126996" alternate_id_2="4298962" date="12.05.2015" id="4244538" static_id="12051523379932355241" status="09:00" time="09:00">
-<home goals="?" id="2337993" name="Broadmeadow"></home>
-<away goals="?" id="2355241" name="Adamstown Rosebud"></away>
+</match></league><league country="australia" name="Australia: Northern Nsw" cup="False" id="4362" sub_id="43620"><match alternate_id="4127435" alternate_id_2="4298958" date="13.05.2015" id="4244977" static_id="13051523561912352170" status="09:00" time="09:00">
+<home goals="?" id="2356191" name="Maitland"></home>
+<away goals="?" id="2352170" name="Newcastle Jets U21"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4126379" alternate_id_2="4298956" date="13.05.2015" id="4243922" static_id="13051523534952349128" status="08:30" time="08:30">
+<home goals="?" id="2353495" name="Lambton J."></home>
+<away goals="?" id="2349128" name="Charleston"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4126996" alternate_id_2="4298962" date="12.05.2015" id="4244538" static_id="12051523379932355241" status="FT" time="09:00">
+<home goals="3" id="2337993" name="Broadmeadow"></home>
+<away goals="2" id="2355241" name="Adamstown Rosebud"></away>
+<events>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4122697" alternate_id_2="4324536" date="10.05.2015" id="4240241" static_id="10051523552412338019" status="FT" time="04:30">
 <home goals="0" id="2355241" name="Adamstown Rosebud"></home>
 <away goals="2" id="2338019" name="Edgeworth E."></away>
@@ -1155,24 +1169,12 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4090175" alternate_id_2="4298947" date="12.04.2015" id="4207742" static_id="12041523552412338121" status="FT" time="04:30">
-<home goals="0" id="2355241" name="Adamstown Rosebud"></home>
-<away goals="0" id="2338121" name="Weston Bears"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4090176" alternate_id_2="4298948" date="12.04.2015" id="4207743" static_id="12041523379932338030" status="FT" time="04:30">
 <home goals="0" id="2337993" name="Broadmeadow"></home>
 <away goals="0" id="2338030" name="Hamilton Olympic Warriors"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4090177" alternate_id_2="4298949" date="12.04.2015" id="4207744" static_id="12041523380912356191" status="FT" time="04:30">
-<home goals="2" id="2338091" name="South Cardiff"></home>
-<away goals="2" id="2356191" name="Maitland"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match></league><league country="australia" name="Australia: Northern Nsw - Play Offs" cup="False" id="4362" sub_id=""><match alternate_id="4063743" alternate_id_2="4270845" date="14.09.2014" id="4181352" static_id="14091423381212353495" status="FT" time="05:00">
 <home goals="0" id="2338121" name="Weston Bears"></home>
 <away goals="2" id="2353495" name="Lambton J."></away>

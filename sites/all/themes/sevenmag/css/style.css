@@ -5582,11 +5582,34 @@ a.notification-close {
 	visibility: hidden;
 }
 
+.not-logged-in.node-type-match .views-field-field-why-this-match-and-or-team,
+.not-logged-in.node-type-match .views-field-field-how-is-this-bet-works-
+{
+	display: none;
+}
+
 .tipsforyou
 {
 	font-size: 34px;
     line-height: 150%;
     text-align: center;
+}
+
+.waitingtips
+{
+	color: #000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.matchsocial
+{
+	max-width: 220px;
+}
+
+.socialmatchlinks a
+{
+	text-decoration: underline;
 }
 
 .tipsforyou a

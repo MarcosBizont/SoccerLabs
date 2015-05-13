@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:40:21" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4110607" alternate_id_2="4325423" date="09.05.2015" id="4228158" static_id="09051523375642337561" status="FT" time="17:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.05.2015 00:40:22" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4110607" alternate_id_2="4325423" date="09.05.2015" id="4228158" static_id="09051523375642337561" status="FT" time="17:00">
 <home goals="0" id="2337564" name="KF Tirana"></home>
 <away goals="0" id="2337561" name="Skenderbeu"></away>
 <events>
@@ -13,6 +13,7 @@
 <event id="20119596" minute="43" player="Ribaj" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="20119597" minute="44" player="Ribaj (pen.)" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 <event id="20119598" minute="45" player="Ruci" playerid="2551934" result="" team="away" type="redcard"></event>
+<event id="20119599" minute="80" player="" playerid="" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[3-1]"></ht>
 </match><match alternate_id="4110608" alternate_id_2="4325422" date="09.05.2015" id="4110608" static_id="09051523375212337556" status="FT" time="14:00">
@@ -29,6 +30,8 @@
 <event id="20119554" minute="12" player="Pejic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20119555" minute="41" player="Pejic (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="20119556" minute="45" player="Cota" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="20119557" minute="81" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="20119558" minute="81" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-2]"></ht>
 </match><match alternate_id="4110606" alternate_id_2="4325643" date="09.05.2015" id="4110606" static_id="09051523375652337554" status="FT" time="14:00">
@@ -42,7 +45,7 @@
 <home goals="2" id="2337556" name="Partizani"></home>
 <away goals="2" id="2337564" name="KF Tirana"></away>
 <events>
-<event id="19021204" minute="34" player="Bakaj" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19021204" minute="34" player="Elis Bakaj" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="19021205" minute="55" player="Fazliu" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="19021206" minute="82" player="Mazrekaj" playerid="2638933" result="[2 - 1]" team="home" type="goal"></event>
 <event id="19021207" minute="83" player="Morina" playerid="" result="[2 - 2]" team="away" type="goal"></event>
@@ -66,6 +69,7 @@
 <events>
 <event id="19021224" minute="65" player="Zeqiri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="19021225" minute="78" player="Hysa" playerid="2389310" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19021226" minute="90" player="Ribaj" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4000771" alternate_id_2="4322723" date="02.05.2015" id="4000771" static_id="02051523375542337521" status="FT" time="14:00">
@@ -74,6 +78,7 @@
 <events>
 <event id="19021214" minute="19" player="Xhejms" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="19021215" minute="43" player="Bregu" playerid="2576248" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19021216" minute="79" player="Xhejms (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4000774" alternate_id_2="4322721" date="02.05.2015" id="4000774" static_id="02051523375172337565" status="FT" time="12:00">
@@ -104,6 +109,7 @@
 <away goals="0" id="2337565" name="Vllaznia"></away>
 <events>
 <event id="19021194" minute="51" player="Dimo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19021195" minute="87" player="Ribaj (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4000768" alternate_id_2="4319071" date="25.04.2015" id="4000768" static_id="25041523558952337556" status="FT" time="15:00">
@@ -119,7 +125,7 @@
 <events>
 <event id="19021164" minute="5" player="Bregu" playerid="2576248" result="[1 - 0]" team="home" type="goal"></event>
 <event id="19021165" minute="67" player="Toci" playerid="2429967" result="[1 - 1]" team="away" type="goal"></event>
-<event id="19021166" minute="90" player="Shehaj" playerid="2389230" result="[2 - 1]" team="home" type="goal"></event>
+<event id="19021166" minute="90" player="Ardit Shehaj" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4000762" alternate_id_2="4317512" date="18.04.2015" id="4118384" static_id="18041523375562337546" status="FT" time="15:00">
@@ -127,7 +133,8 @@
 <away goals="1" id="2337546" name="Kukesi"></away>
 <events>
 <event id="19021124" minute="25" player="Racic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19021125" minute="72" player="Pejic (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="19021125" minute="72" player="Cuculi" playerid="" result="" team="home" type="redcard"></event>
+<event id="19021126" minute="72" player="Pejic (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4000764" alternate_id_2="4317612" date="18.04.2015" id="4000764" static_id="18041523375612337512" status="FT" time="15:00">

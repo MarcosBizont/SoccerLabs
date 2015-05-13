@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:40:28" sport="soccer" country="canada"><league country="canada" name="Canada: Csl" cup="False" id="2989" sub_id="29890"><match alternate_id="4126468" alternate_id_2="4328154" date="10.05.2015" id="4244011" static_id="10051523499862339772" status="FT" time="23:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.05.2015 00:40:30" sport="soccer" country="canada"><league country="canada" name="Canada: Csl" cup="False" id="2989" sub_id="29890"><match alternate_id="4126468" alternate_id_2="4328154" date="10.05.2015" id="4244011" static_id="10051523499862339772" status="FT" time="23:00">
 <home goals="0" id="2349986" name="York Region"></home>
 <away goals="3" id="2339772" name="Toronto Croatia"></away>
 <events>
@@ -44,12 +44,14 @@
 </events>
 <ht score="[-]"></ht>
 </match></league><league country="canada" name="Canada: Csl - Play Offs" cup="False" id="2989" sub_id="29891"><match alternate_id="4080345" alternate_id_2="4284266" date="26.10.2014" id="4197935" static_id="26101423499862339772" status="Pen." time="20:15">
-<home goals="2" id="2349986" name="York Region"></home>
+<home goals="1" id="2349986" name="York Region"></home>
 <away goals="1" id="2339772" name="Toronto Croatia"></away>
 <events>
+<event id="19816954" minute="110" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19816955" minute="116" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-<penalty localteam="" visitorteam=""></penalty>
+<penalty localteam="5" visitorteam="4"></penalty>
 </match><match alternate_id="4080345" alternate_id_2="4282259" date="19.10.2014" id="4080345" static_id="19101423499862339754" status="FT" time="22:00">
 <home goals="1" id="2349986" name="York Region"></home>
 <away goals="0" id="2339754" name="North York Astros"></away>

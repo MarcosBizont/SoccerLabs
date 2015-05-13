@@ -1,8 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:41:09" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002714" alternate_id_2="4328605" date="12.05.2015" id="4120336" static_id="12051523473022347311" status="16:00" time="16:00">
-<home goals="?" id="2347302" name="Domzale"></home>
-<away goals="?" id="2347311" name="Koper"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.05.2015 00:41:12" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002714" alternate_id_2="4328605" date="12.05.2015" id="4120336" static_id="12051523473022347311" status="FT" time="16:00">
+<home goals="3" id="2347302" name="Domzale"></home>
+<away goals="0" id="2347311" name="Koper"></away>
+<events>
+<event id="22299554" minute="6" player="M. Podlogar" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22299555" minute="20" player="X. Junior" playerid="2370506" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22299556" minute="30" player="G. Dobrovoljc" playerid="2515725" result="" team="home" type="yellowcard"></event>
+<event id="22299557" minute="35" player="D. Sme" playerid="2494382" result="" team="away" type="yellowcard"></event>
+<event id="22299558" minute="37" player="M. Podlogar" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22299559" minute="46" player="K. Horic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22299560" minute="60" player="L. Horvat" playerid="2370535" result="" team="home" type="yellowcard"></event>
+<event id="22299561" minute="74" player="D. Peshevski" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4002713" alternate_id_2="4328606" date="10.05.2015" id="4120335" static_id="10051523473352347353" status="FT" time="15:00">
 <home goals="2" id="2347335" name="NK Krka"></home>
 <away goals="0" id="2347353" name="Velenje"></away>

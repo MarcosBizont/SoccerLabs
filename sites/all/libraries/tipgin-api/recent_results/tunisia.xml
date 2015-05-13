@@ -1,39 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.05.2015 00:41:13" sport="soccer" country="tunisia"><league country="tunisia" name="Tunisia: Ligue Professionnelle 1" cup="False" id="3253" sub_id="32530"><match alternate_id="3956603" alternate_id_2="4329889" date="12.05.2015" id="3956603" static_id="12051523487762348767" status="15:00" time="15:00">
-<home goals="?" id="2348776" name="AS Marsa"></home>
-<away goals="?" id="2348767" name="Étoile Sahel"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.05.2015 00:41:17" sport="soccer" country="tunisia"><league country="tunisia" name="Tunisia: Ligue Professionnelle 1" cup="False" id="3253" sub_id="32530"><match alternate_id="3358194" alternate_id_2="4329781" date="13.05.2015" id="3358194" static_id="13051523487682348753" status="15:00" time="15:00">
+<home goals="?" id="2348768" name="Hammam-Lif"></home>
+<away goals="?" id="2348753" name="Bizertin"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4126162" alternate_id_2="4329779" date="12.05.2015" id="4126162" static_id="12051523487542348766" status="15:00" time="15:00">
-<home goals="?" id="2348754" name="Club Africain"></home>
-<away goals="?" id="2348766" name="Esperance Tunis"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4126163" alternate_id_2="4329939" date="12.05.2015" id="4126163" static_id="12051523487512348787" status="15:00" time="15:00">
-<home goals="?" id="2348751" name="Djerba"></home>
-<away goals="?" id="2348787" name="Stade Tunisien"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4126148" alternate_id_2="4329780" date="12.05.2015" id="4126148" static_id="12051523487622348752" status="15:00" time="15:00">
-<home goals="?" id="2348762" name="Gafsa"></home>
-<away goals="?" id="2348752" name="Gabes"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4126164" alternate_id_2="4329782" date="12.05.2015" id="4126164" static_id="12051523487742348777" status="15:00" time="15:00">
-<home goals="?" id="2348774" name="JS Kairouan"></home>
-<away goals="?" id="2348777" name="Monastir"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4126165" alternate_id_2="4330251" date="12.05.2015" id="4126165" static_id="12051523487492353506" status="15:00" time="15:00">
-<home goals="?" id="2348749" name="Sfaxien"></home>
-<away goals="?" id="2353506" name="Metlaoui"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4126150" alternate_id_2="4329890" date="12.05.2015" id="4126150" static_id="12051523487852348793" status="15:00" time="15:00">
-<home goals="?" id="2348785" name="Stade Gabèsien"></home>
-<away goals="?" id="2348793" name="Zarzis"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="3353903" alternate_id_2="4327940" date="09.05.2015" id="3353903" static_id="09051523487532348762" status="FT" time="15:00">
+</match><match alternate_id="3956603" alternate_id_2="4329889" date="12.05.2015" id="3956603" static_id="12051523487762348767" status="FT" time="15:00">
+<home goals="1" id="2348776" name="AS Marsa"></home>
+<away goals="3" id="2348767" name="Étoile Sahel"></away>
+<events>
+<event id="18579534" minute="12" player="Boughattas" playerid="2577926" result="[0 - 1]" team="away" type="goal"></event>
+<event id="18579535" minute="34" player="Mouihbi" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="18579536" minute="36" player="Bangoura" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="18579537" minute="75" player="Fhal (pen.)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[0-3]"></ht>
+</match><match alternate_id="4126162" alternate_id_2="4329779" date="12.05.2015" id="4126162" static_id="12051523487542348766" status="FT" time="15:00">
+<home goals="1" id="2348754" name="Club Africain"></home>
+<away goals="0" id="2348766" name="Esperance Tunis"></away>
+<events>
+<event id="20275124" minute="42" player="Meniaoui" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20275125" minute="69" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4126163" alternate_id_2="4329939" date="12.05.2015" id="4126163" static_id="12051523487512348787" status="FT" time="15:00">
+<home goals="1" id="2348751" name="Djerba"></home>
+<away goals="2" id="2348787" name="Stade Tunisien"></away>
+<events>
+<event id="20275134" minute="42" player="Jelassi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20275135" minute="51" player="Hiaf" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20275136" minute="59" player="Farhat" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4126148" alternate_id_2="4329780" date="12.05.2015" id="4126148" static_id="12051523487622348752" status="FT" time="15:00">
+<home goals="3" id="2348762" name="Gafsa"></home>
+<away goals="0" id="2348752" name="Gabes"></away>
+<events>
+<event id="20274984" minute="12" player="Doula" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20274985" minute="43" player="Ashante" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20274986" minute="55" player="Nafti (pen.)" playerid="2455504" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="3356462" alternate_id_2="4329782" date="12.05.2015" id="3356462" static_id="12051523487742348777" status="FT" time="15:00">
+<home goals="1" id="2348774" name="JS Kairouan"></home>
+<away goals="1" id="2348777" name="Monastir"></away>
+<events>
+<event id="12578124" minute="56" player="Aouichi" playerid="2554998" result="[1 - 0]" team="home" type="goal"></event>
+<event id="12578125" minute="75" player="Messaadi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4126165" alternate_id_2="4330251" date="12.05.2015" id="4126165" static_id="12051523487492353506" status="FT" time="15:00">
+<home goals="0" id="2348749" name="Sfaxien"></home>
+<away goals="0" id="2353506" name="Metlaoui"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4126150" alternate_id_2="4329890" date="12.05.2015" id="4126150" static_id="12051523487852348793" status="FT" time="15:00">
+<home goals="1" id="2348785" name="Stade Gabèsien"></home>
+<away goals="0" id="2348793" name="Zarzis"></away>
+<events>
+<event id="20275004" minute="43" player="Hosni" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4127751" alternate_id_2="4327940" date="09.05.2015" id="4127751" static_id="09051523487532348762" status="FT" time="15:00">
 <home goals="0" id="2348753" name="Bizertin"></home>
 <away goals="0" id="2348762" name="Gafsa"></away>
 <events>
@@ -48,14 +75,16 @@
 <event id="20273806" minute="27" player="Eduok" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 <event id="20273807" minute="52" player="Regued" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 <event id="20273808" minute="71" player="Eduok" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="20273809" minute="78" player="Eduok" playerid="" result="[6 - 0]" team="home" type="goal"></event>
+<event id="20273810" minute="80" player="Fouzai" playerid="" result="[6 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="3349106" alternate_id_2="4327967" date="09.05.2015" id="3349106" static_id="09051523487522348754" status="FT" time="15:00">
+</match><match alternate_id="4126159" alternate_id_2="4327967" date="09.05.2015" id="4126159" static_id="09051523487522348754" status="FT" time="15:00">
 <home goals="0" id="2348752" name="Gabes"></home>
 <away goals="1" id="2348754" name="Club Africain"></away>
 <events>
-<event id="12504564" minute="45" player="Khalifa" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="12504565" minute="53" player="Ndiour" playerid="" result="" team="home" type="redcard"></event>
+<event id="20275094" minute="45" player="Khalifa" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20275095" minute="53" player="Ndiour" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4126359" alternate_id_2="4327895" date="09.05.2015" id="4126359" static_id="09051523487742348776" status="FT" time="15:00">
@@ -87,6 +116,7 @@
 <event id="20275114" minute="21" player="Diakite" playerid="2566096" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20275115" minute="55" player="Machmoum" playerid="2561599" result="[1 - 1]" team="home" type="goal"></event>
 <event id="20275116" minute="70" player="Korbi" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20275117" minute="90" player="Bousnina" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4126360" alternate_id_2="4327959" date="09.05.2015" id="4126360" static_id="09051523487872348767" status="FT" time="15:00">
@@ -104,43 +134,31 @@
 <event id="20273815" minute="38" player="Mosrati" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="3358194" alternate_id_2="4325448" date="06.05.2015" id="3358194" static_id="06051523487542348753" status="FT" time="15:00">
-<home goals="3" id="2348754" name="Club Africain"></home>
-<away goals="0" id="2348753" name="Bizertin"></away>
-<events>
-<event id="12595444" minute="28" player="Rjaibi" playerid="2550580" result="" team="away" type="redcard"></event>
-<event id="12595445" minute="37" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="12595446" minute="44" player="Hmani" playerid="" result="" team="away" type="redcard"></event>
-<event id="12595447" minute="45" player="Meniaoui" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="12595448" minute="68" player="Khelifa" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="12595449" minute="81" player="Khelifa" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4126153" alternate_id_2="4325653" date="06.05.2015" id="4126153" static_id="06051523487672353506" status="FT" time="15:00">
+</match><match alternate_id="4127934" alternate_id_2="4325653" date="06.05.2015" id="4127934" static_id="06051523487672353506" status="FT" time="15:00">
 <home goals="3" id="2348767" name="Étoile Sahel"></home>
 <away goals="0" id="2353506" name="Metlaoui"></away>
 <events>
-<event id="20275034" minute="3" player="Bounjah" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20275035" minute="38" player="Mouihb" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20275036" minute="88" player="Brigui" playerid="2554819" result="[3 - 0]" team="home" type="goal"></event>
+<event id="20292844" minute="3" player="Bounjah" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20292845" minute="38" player="Mouihb" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20292846" minute="88" player="Brigui" playerid="2554819" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="3356462" alternate_id_2="4325449" date="06.05.2015" id="3356462" static_id="06051523487622348777" status="FT" time="15:00">
+</match><match alternate_id="4127933" alternate_id_2="4325449" date="06.05.2015" id="4127933" static_id="06051523487622348777" status="FT" time="15:00">
 <home goals="0" id="2348762" name="Gafsa"></home>
 <away goals="0" id="2348777" name="Monastir"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4126156" alternate_id_2="4325636" date="06.05.2015" id="4126156" static_id="06051523487682348774" status="FT" time="15:00">
+</match><match alternate_id="4115814" alternate_id_2="4325636" date="06.05.2015" id="4115814" static_id="06051523487682348774" status="FT" time="15:00">
 <home goals="1" id="2348768" name="Hammam-Lif"></home>
 <away goals="2" id="2348774" name="JS Kairouan"></away>
 <events>
-<event id="20275064" minute="17" player="Zekri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20275065" minute="73" player="Essifi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="20275066" minute="80" player="Jedaid" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="20171644" minute="17" player="Zekri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20171645" minute="73" player="Essifi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20171646" minute="80" player="Jedaid" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4126157" alternate_id_2="4325622" date="06.05.2015" id="4126157" static_id="06051523487492348766" status="FT" time="15:00">
+</match><match alternate_id="4127934" alternate_id_2="4325622" date="06.05.2015" id="4127934" static_id="06051523487492348766" status="FT" time="15:00">
 <home goals="0" id="2348749" name="Sfaxien"></home>
 <away goals="0" id="2348766" name="Esperance Tunis"></away>
 <events>

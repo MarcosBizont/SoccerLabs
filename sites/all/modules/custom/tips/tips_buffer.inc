@@ -137,9 +137,9 @@ function tips_buffer_generate()
 						$date = new DateTime($matchdate,new DateTimeZone('UTC'));
 						$date = $date->modify('+1 day');
 						
-						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyES($match,$textes), 
+						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowES($match,$textes), 
 									getImagesByMatch($match), TRUE, FALSE, '@soccer_labs');
-						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyEN($match,$texten), 
+						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowEN($match,$texten), 
 									getImagesByMatch($match), TRUE, FALSE, '@soccer_labsen');
 						
 						
@@ -226,7 +226,86 @@ function getImagesByMatch($match)
 }
 
 
-function getTweetTextES($match,&$oldtexts)
+function getMsgTextES($match,&$oldtexts,$nourl=false)
+{
+	$arraystr = array();
+	$arraystr[] = '[local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Descubre los tips para el partido [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Pronósticos [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Tenemos tips esperando para ti en el [local_team] contra [visitor_team] [url]';
+	$arraystr[] = 'Nuestros tips en el [local_team] contra [visitor_team] [url]';
+	$arraystr[] = 'Ya te enteraste de los tips de [local_team] vs [visitor_team] ? [url]';
+	
+	foreach($arraystr as $id => $str)
+		if(in_array($str, $oldtexts))
+			unset($arraystr[$id]);
+	
+	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	$url = url('node/' . $match->nid, 
+				array('base_url' => 'https://soccer-labs.com/es', 
+						'absolute' => true,
+						'query' => array('utm_source' => 'soccer_labs_es',
+											'utm_medium' => 'twitter',
+											'utm_campaign' => 'buffer' ),
+						'language' => (object)array(
+							  'language' => 'es',
+							)
+						));	
+	
+	
+	
+	$tweet = $arraystr[array_rand($arraystr)];
+	$oldtexts[] = $tweet;
+	$tweet = str_ireplace('[local_team]', $local_team->title, $tweet);
+	$tweet = str_ireplace('[visitor_team]', $visitor_team->title, $tweet);
+	if($nourl)
+		$tweet = str_ireplace('[url]', '', $tweet);
+	else
+		$tweet = str_ireplace('[url]', $url, $tweet);
+	return $tweet;
+}
+
+function getMsgTextEN($match,&$oldtexts,$nourl=false)
+{
+	$arraystr = array();
+	$arraystr[] = '[local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Check tips for [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Amazing tips for [local_team] vs [visitor_team] [url]';
+	
+	foreach($arraystr as $id => $str)
+		if(in_array($str, $oldtexts))
+			unset($arraystr[$id]);
+			
+			
+	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	$url = url('node/' . $match->nid, 
+				array('base_url' => 'https://soccer-labs.com/en', 
+						'absolute' => true,
+						'query' => array('utm_source' => 'soccer_labs_en',
+											'utm_medium' => 'twitter',
+											'utm_campaign' => 'buffer' ),
+						'language' => (object)array(
+							  'language' => 'en',
+							)
+						));	
+						
+	$tweet = $arraystr[array_rand($arraystr)];
+	$oldtexts[] = $tweet;
+	$tweet = str_ireplace('[local_team]', $local_team->title, $tweet);
+	$tweet = str_ireplace('[visitor_team]', $visitor_team->title, $tweet);
+	if($nourl)
+		$tweet = str_ireplace('[url]', '', $tweet);
+	else
+		$tweet = str_ireplace('[url]', $url, $tweet);
+	return $tweet;
+}
+
+
+
+function getTweetTextES($match,&$oldtexts,$nourl=false)
 {
 	$arraystr = array();
 	$arraystr[] = '[local_team] vs [visitor_team] [url]';
@@ -266,11 +345,14 @@ function getTweetTextES($match,&$oldtexts)
 	$oldtexts[] = $tweet;
 	$tweet = str_ireplace('[local_team]', $local_team->title, $tweet);
 	$tweet = str_ireplace('[visitor_team]', $visitor_team->title, $tweet);
-	$tweet = str_ireplace('[url]', $url, $tweet);
+	if($nourl)
+		$tweet = str_ireplace('[url]', '', $tweet);
+	else
+		$tweet = str_ireplace('[url]', $url, $tweet);
 	return $tweet;
 }
 
-function getTweetTextEN($match,&$oldtexts)
+function getTweetTextEN($match,&$oldtexts,$nourl=false)
 {
 	$arraystr = array();
 	$arraystr[] = '[local_team] vs [visitor_team] [url]';
@@ -304,7 +386,10 @@ function getTweetTextEN($match,&$oldtexts)
 	$oldtexts[] = $tweet;
 	$tweet = str_ireplace('[local_team]', $local_team->title, $tweet);
 	$tweet = str_ireplace('[visitor_team]', $visitor_team->title, $tweet);
-	$tweet = str_ireplace('[url]', $url, $tweet);
+	if($nourl)
+		$tweet = str_ireplace('[url]', '', $tweet);
+	else
+		$tweet = str_ireplace('[url]', $url, $tweet);
 	return $tweet;
 }
 
@@ -353,6 +438,78 @@ function getTweetTextAccuracyEN($match,&$oldtexts)
 	$arraystr[] = 'Check our successful tips for [local_team] vs [visitor_team] [url]';
 	$arraystr[] = 'Awesome successful tips yesterday for [local_team] vs [visitor_team] [url]';
 	$arraystr[] = 'Do you know about our successful tips yesterday? [local_team] vs [visitor_team] ! [url]';
+	
+	foreach($arraystr as $id => $str)
+		if(in_array($str, $oldtexts))
+			unset($arraystr[$id]);
+			
+			
+	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	$url = url('node/' . $match->nid, 
+				array('base_url' => 'https://soccer-labs.com/en', 
+						'absolute' => true,
+						'query' => array('utm_source' => 'soccer_labs_en',
+											'utm_medium' => 'twitter',
+											'utm_campaign' => 'buffer' ),
+						'language' => (object)array(
+							  'language' => 'en',
+							)
+						));	
+						
+	$tweet = $arraystr[array_rand($arraystr)];
+	$oldtexts[] = $tweet;
+	$tweet = str_ireplace('[local_team]', $local_team->title, $tweet);
+	$tweet = str_ireplace('[visitor_team]', $visitor_team->title, $tweet);
+	$tweet = str_ireplace('[url]', $url, $tweet);
+	return $tweet;
+}
+
+function getTweetTextAccuracyNowES($match,&$oldtexts)
+{
+	$arraystr = array();
+	$arraystr[] = 'Revisa los tips exitosos de para [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Pronósticos acertados en [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Nuestros tips fueron acertados en el [local_team] contra [visitor_team] [url]';
+	$arraystr[] = 'Ya te enteraste de los tips exitosos en [local_team] vs [visitor_team] ? [url]';
+	$arraystr[] = 'Dale click [url] para ver los tips acertados, [local_team] vs [visitor_team]';
+	$arraystr[] = '[url] Pronósticos acertados [local_team] vs [visitor_team]';
+	$arraystr[] = '[url] Tips acertados, [local_team] contra [visitor_team]';
+	
+	foreach($arraystr as $id => $str)
+		if(in_array($str, $oldtexts))
+			unset($arraystr[$id]);
+	
+	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
+	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+	$url = url('node/' . $match->nid, 
+				array('base_url' => 'https://soccer-labs.com/es', 
+						'absolute' => true,
+						'query' => array('utm_source' => 'soccer_labs_es',
+											'utm_medium' => 'twitter',
+											'utm_campaign' => 'buffer' ),
+						'language' => (object)array(
+							  'language' => 'es',
+							)
+						));	
+	
+	
+	
+	$tweet = $arraystr[array_rand($arraystr)];
+	$oldtexts[] = $tweet;
+	$tweet = str_ireplace('[local_team]', $local_team->title, $tweet);
+	$tweet = str_ireplace('[visitor_team]', $visitor_team->title, $tweet);
+	$tweet = str_ireplace('[url]', $url, $tweet);
+	return $tweet;
+}
+
+function getTweetTextAccuracyNowEN($match,&$oldtexts)
+{
+	$arraystr = array();
+	$arraystr[] = '[url] Successful Tips, [local_team] vs [visitor_team]';
+	$arraystr[] = 'Check our successful tips for [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Awesome successful tips for [local_team] vs [visitor_team] [url]';
+	$arraystr[] = 'Do you know about our successful tips? [local_team] vs [visitor_team] ! [url]';
 	
 	foreach($arraystr as $id => $str)
 		if(in_array($str, $oldtexts))

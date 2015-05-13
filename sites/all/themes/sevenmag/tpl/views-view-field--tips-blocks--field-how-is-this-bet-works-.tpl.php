@@ -1,3 +1,3 @@
 <?php
-	echo t($output);	
+	if(!inplay_is_anonymus()) echo t($output);	
 ?>

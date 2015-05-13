@@ -4,6 +4,7 @@
  * Implements hook_init().
  */
 function team_match_init() {
+	module_load_include('inc', 'tips', 'tips_buffer');
 	global $language;
 	global $user;
 	
@@ -29,9 +30,14 @@ function team_match_init() {
 							)
 						));
 			
+			if($language->language=='es')
+				$tweet = getMsgTextES($node,$oldtexts,true);
+			else
+				$tweet = getMsgTextEN($node,$oldtexts,true);
+				
 			team_match_addmeta('og:url', $url, 'meta_og_url');
 		    team_match_addmeta('og:type', 'article', 'meta_og_type');
-		    team_match_addmeta('og:title', $node->title, 'meta_og_title');
+		    team_match_addmeta('og:title', $tweet, 'meta_og_title');
 		    team_match_addmeta('og:description', t('Soccer Labs is a portal that provides statistical information to predict results of soccer games'), 'meta_og_description');
 		    team_match_addmeta('og:image', 'http://soccer-labs.com/sites/all/themes/sevenmag/images/soccerlabsball.png', 'meta_og_image');
 
