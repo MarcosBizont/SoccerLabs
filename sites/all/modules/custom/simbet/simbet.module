@@ -12,6 +12,43 @@ function simbet_cronapi() {
   return $items;
 }
 
+function simbet_form_alter(&$form, $form_state, $form_id) 
+{
+	if($form_id=='simbet_node_form')
+	{
+		//if(!isset($_GET['field_match_simbet'])) drupal_foto('/');
+		if(inplay_is_tipster())
+		{
+			$node_match = node_load($_GET['field_match_simbet']);
+			$form['title']['#default_value'] = 'Custom bet: ' . $node_match->title;
+			
+			$query = new EntityFieldQuery();
+			$query->entityCondition('entity_type', 'taxonomy_term')
+				  ->entityCondition('bundle', 'tip_type')
+				  ->addMetaData('account', user_load(1))
+				  ->fieldCondition('field_is_available_for_custom_be', 'value', '1', '=');
+			
+			$result = $query->execute();
+			$result = reset($result);
+			$optionstoallow = array();
+			foreach($result as $term) $optionstoallow[] = $term->tid;
+			foreach($form['field_tip_type_simbet']['und']['#options'] as $idoption =>  $option)
+				if($idoption!='_none' && !in_array($idoption, $optionstoallow)) 
+					unset($form['field_tip_type_simbet']['und']['#options'][$idoption]);
+			
+			$form['field_win_simbet']['und']['#default_value'] = 0;
+			unset($form['field_win_simbet']['und']['#options']['_none']);
+			unset($form['field_win_simbet']['und']['#options'][1]);
+			unset($form['field_win_simbet']['und']['#options'][2]);
+			unset($form['field_win_simbet']['und']['#options'][3]);
+			
+			
+			
+		}
+	}
+}
+	
+
 function simbet_close_simbets()
 {
 	module_load_include('inc', 'commentaries', 'commentaries_strategies');

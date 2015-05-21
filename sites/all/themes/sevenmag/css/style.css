@@ -5668,6 +5668,12 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 	z-index: 99999998;
 }
 
+.page-node-add-simbet input[type=text],
+.page-node-add-simbet select
+{
+	width: 100%;
+}
+
 @media screen and (max-width:1040px) {
 	.review-desc { width: 71%;}
 	/* Match */

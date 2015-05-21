@@ -379,6 +379,7 @@ function inplay_block_info() {
   $blocks['inplay_header'] = array('info' => t('Header in play'), );
   $blocks['inplay_stats'] = array('info' => t('Standings in play'), );
   $blocks['inplay_commentaries'] = array('info' => t('Commentaries in play'), );
+  $blocks['inplay_quickbet'] = array('info' => t('Quickbet'), );
   $blocks['inplay_tips'] = array('info' => t('Tips in play'), );
   $blocks['inplay_game_stats'] = array('info' => t('Game stats in play'), );
   $blocks['inplay_last5_game_stats'] = array('info' => t('Last 5 games stats in play'), );
@@ -408,6 +409,10 @@ function inplay_block_view($delta='') {
     case 'inplay_commentaries' :
       $block['subject'] = '<i class="fa fa-2x fa-comments"></i>' . t('Commentaries');
       $block['content'] = inplay_commentaries_view();
+      break;
+    case 'inplay_quickbet' :
+      $block['subject'] = '<i class="fa fa-2x fa-bullseye"></i>' . t('Quick bet');
+      $block['content'] = inplay_quickbet_view();
       break;
     case 'inplay_tips' :
       $block['subject'] = '<i class="fa fa-2x fa-lightbulb-o"></i>' . t('Tips');
@@ -685,6 +690,31 @@ function inplay_commentaries_view()
 	return '<div class="content-inblock"><div class="commentarieslist">'. $block . '</div></div>';	
 }
 
+// No Cache
+function inplay_quickbet_view()
+{
+	global $user;
+	global $language;
+	
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if(inplay_is_tipster())
+		{
+			
+			$link = '<a href="/node/add/simbet?field_match_simbet=' . $nid . '&destination=my-bets" target="_blank">' . t('Simulate a bet in this game') . '</a>';
+			$block = "<div class='b_block quickbet'>" . $link . "</div>";	
+			
+		}
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
 // Cache : Medium Cache, every 30 minutes or so 
 function inplay_tips_view()
 {
@@ -781,3 +811,11 @@ function inplay_is_member()
 	global $user;
 	return in_array(7, array_keys($user->roles)) || in_array(6, array_keys($user->roles)) || in_array(4, array_keys($user->roles)) || in_array(3, array_keys($user->roles));
 }
+
+function inplay_is_tipster()
+{
+	global $user;
+	return ( in_array(9, array_keys($user->roles)) || $user->uid == 1 );
+}
+
+

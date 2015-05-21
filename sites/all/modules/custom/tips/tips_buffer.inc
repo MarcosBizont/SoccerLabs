@@ -238,8 +238,9 @@ function getMsgTextES($match,&$oldtexts,$nourl=false)
 	$arraystr[] = 'Ya te enteraste de los tips de [local_team] vs [visitor_team] ? [url]';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 	
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
 	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
@@ -275,8 +276,9 @@ function getMsgTextEN($match,&$oldtexts,$nourl=false)
 	$arraystr[] = 'Amazing tips for [local_team] vs [visitor_team] [url]';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 			
 			
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
@@ -308,23 +310,24 @@ function getMsgTextEN($match,&$oldtexts,$nourl=false)
 function getTweetTextES($match,&$oldtexts,$nourl=false)
 {
 	$arraystr = array();
-	$arraystr[] = '[local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Descubre los tips para el partido [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Pronósticos [local_team] vs [visitor_team] [url]';
-	$arraystr[] = '[local_team] vs [visitor_team] se enfrentan hoy [url]';
-	$arraystr[] = 'Tenemos tips esperando para ti en el [local_team] contra [visitor_team] [url]';
-	$arraystr[] = 'Nuestros tips en el [local_team] contra [visitor_team] [url]';
-	$arraystr[] = 'Hoy [local_team] contra [visitor_team] [url]';
-	$arraystr[] = 'Ya te enteraste de los tips de [local_team] vs [visitor_team] ? [url]';
-	$arraystr[] = 'Dale click [url] para ver los tips, [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] , [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Pronósticos [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Tips, [local_team] contra [visitor_team]';
+	$arraystr[] = '[local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas RT pls';
+	$arraystr[] = 'Descubre los tips para el partido [local_team] vs [visitor_team] [url] #pronósticos #futbol #apuestas';
+	$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Pronósticos [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = '[local_team] vs [visitor_team] se enfrentan hoy [url] RT pls #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Tenemos tips esperando para ti en el [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Nuestros tips en el [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Hoy [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Ya te enteraste de los tips de [local_team] vs [visitor_team] ? [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Dale click [url] para ver los tips, [local_team] vs [visitor_team] #pronosticos #futbol #apuestas RT pls';
+	$arraystr[] = '[url] , [local_team] vs [visitor_team] #pronosticos #futbol #apuestas RT pls';
+	$arraystr[] = '[url] Pronósticos [local_team] vs [visitor_team] #pronosticos #futbol #apuestas RT pls';
+	$arraystr[] = '[url] Tips, [local_team] contra [visitor_team] #pronosticos #futbol #apuestas RT pls';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 	
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
 	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
@@ -355,18 +358,19 @@ function getTweetTextES($match,&$oldtexts,$nourl=false)
 function getTweetTextEN($match,&$oldtexts,$nourl=false)
 {
 	$arraystr = array();
-	$arraystr[] = '[local_team] vs [visitor_team] [url]';
-	$arraystr[] = '[url] , [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Tips, [local_team] vs [visitor_team]';
-	$arraystr[] = 'Check tips for [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Today [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Amazing tips for [local_team] vs [visitor_team] [url]';
-	$arraystr[] = '[local_team] is playing vs [visitor_team] today! [url]';
-	$arraystr[] = 'Who are you backing today? [local_team] vs [visitor_team] ! [url]';
+	$arraystr[] = '[local_team] vs [visitor_team] [url] #soccer #football';
+	$arraystr[] = '[url] , [local_team] vs [visitor_team] RT pls';
+	$arraystr[] = '[url] Tips, [local_team] vs [visitor_team] RT pls';
+	$arraystr[] = 'Check tips for [local_team] vs [visitor_team] [url] #soccer #football';
+	$arraystr[] = 'Today [local_team] vs [visitor_team] [url] RT pls';
+	$arraystr[] = 'Amazing tips for [local_team] vs [visitor_team] [url] RT pls';
+	$arraystr[] = '[local_team] is playing vs [visitor_team] today! [url] #soccer #football';
+	$arraystr[] = 'Who are you backing today? [local_team] vs [visitor_team] ! [url] RT pls';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 			
 			
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
@@ -396,17 +400,18 @@ function getTweetTextEN($match,&$oldtexts,$nourl=false)
 function getTweetTextAccuracyES($match,&$oldtexts)
 {
 	$arraystr = array();
-	$arraystr[] = 'Revisa los tips exitosos de ayer para [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Pronósticos acertados de ayer en [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Nuestros tips fueron acertados en el [local_team] contra [visitor_team] [url]';
-	$arraystr[] = 'Ya te enteraste de los tips exitosos de ayer en [local_team] vs [visitor_team] ? [url]';
-	$arraystr[] = 'Dale click [url] para ver los tips acertados, [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Pronósticos acertados [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Tips acertados, [local_team] contra [visitor_team]';
+	$arraystr[] = 'Revisa los tips exitosos de ayer para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas RT';
+	$arraystr[] = 'Pronósticos acertados de ayer en [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Nuestros tips fueron acertados en el [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas RT';
+	$arraystr[] = 'Ya te enteraste de los tips exitosos de ayer en [local_team] vs [visitor_team] ? [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Dale click [url] para ver los tips acertados, [local_team] vs [visitor_team] #pronosticos #futbol #apuestas RT pls';
+	$arraystr[] = '[url] Pronósticos acertados [local_team] vs [visitor_team] #pronosticos #futbol #apuestas';
+	$arraystr[] = '[url] Tips acertados, [local_team] contra [visitor_team] #pronosticos #futbol #apuestas ';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 	
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
 	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
@@ -434,14 +439,15 @@ function getTweetTextAccuracyES($match,&$oldtexts)
 function getTweetTextAccuracyEN($match,&$oldtexts)
 {
 	$arraystr = array();
-	$arraystr[] = '[url] Successful Tips, [local_team] vs [visitor_team]';
-	$arraystr[] = 'Check our successful tips for [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Awesome successful tips yesterday for [local_team] vs [visitor_team] [url]';
+	$arraystr[] = '[url] Successful Tips, [local_team] vs [visitor_team] #soccer #football';
+	$arraystr[] = 'Check our successful tips for [local_team] vs [visitor_team] [url] RT pls';
+	$arraystr[] = 'Awesome successful tips yesterday for [local_team] vs [visitor_team] [url] #soccer #football';
 	$arraystr[] = 'Do you know about our successful tips yesterday? [local_team] vs [visitor_team] ! [url]';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 			
 			
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
@@ -468,17 +474,18 @@ function getTweetTextAccuracyEN($match,&$oldtexts)
 function getTweetTextAccuracyNowES($match,&$oldtexts)
 {
 	$arraystr = array();
-	$arraystr[] = 'Revisa los tips exitosos de para [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Pronósticos acertados en [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Nuestros tips fueron acertados en el [local_team] contra [visitor_team] [url]';
+	$arraystr[] = 'Revisa los tips exitosos de para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Pronósticos acertados en [local_team] vs [visitor_team] [url] RT';
+	$arraystr[] = 'Nuestros tips fueron acertados en el [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas RT pls';
 	$arraystr[] = 'Ya te enteraste de los tips exitosos en [local_team] vs [visitor_team] ? [url]';
 	$arraystr[] = 'Dale click [url] para ver los tips acertados, [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Pronósticos acertados [local_team] vs [visitor_team]';
-	$arraystr[] = '[url] Tips acertados, [local_team] contra [visitor_team]';
+	$arraystr[] = '[url] Pronósticos acertados [local_team] vs [visitor_team] #pronosticos #futbol #apuestas';
+	$arraystr[] = '[url] Tips acertados, [local_team] contra [visitor_team] RT pls';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 	
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
 	$visitor_team = node_load($match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
@@ -506,14 +513,15 @@ function getTweetTextAccuracyNowES($match,&$oldtexts)
 function getTweetTextAccuracyNowEN($match,&$oldtexts)
 {
 	$arraystr = array();
-	$arraystr[] = '[url] Successful Tips, [local_team] vs [visitor_team]';
-	$arraystr[] = 'Check our successful tips for [local_team] vs [visitor_team] [url]';
+	$arraystr[] = '[url] Successful Tips, [local_team] vs [visitor_team] #soccer #football';
+	$arraystr[] = 'Check our successful tips for [local_team] vs [visitor_team] [url] #soccer #football';
 	$arraystr[] = 'Awesome successful tips for [local_team] vs [visitor_team] [url]';
-	$arraystr[] = 'Do you know about our successful tips? [local_team] vs [visitor_team] ! [url]';
+	$arraystr[] = 'Do you know about our successful tips? [local_team] vs [visitor_team] ! [url] RT pls';
 	
 	foreach($arraystr as $id => $str)
-		if(in_array($str, $oldtexts))
-			unset($arraystr[$id]);
+		if(is_array($oldtexts)) 
+			if(in_array($str, $oldtexts))
+				unset($arraystr[$id]);
 			
 			
 	$local_team = node_load($match->field_local_team[LANGUAGE_NONE][0]['target_id']);
