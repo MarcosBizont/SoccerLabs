@@ -110,8 +110,10 @@ function tips_buffer_generate()
 				}
 				
 				$date = new DateTime($matchdate,new DateTimeZone('UTC'));
+/*
 				tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date->getTimestamp(), '@soccer_labs');
 				tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextEN($match,$texten), getImagesByMatch($match), FALSE, $date->getTimestamp(), '@soccer_labsen');
+*/
 				
 				
 				$date = $date->modify('-15 minutes');
@@ -149,11 +151,13 @@ function tips_buffer_generate()
 						$date1100am->setTimezone(new DateTimeZone('UTC'));
 						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), '@soccer_labs');
 						
+/*
 						// ToDo : Random between 1 y 20 para los minutos
 						$date300pm = new DateTime($date->format('Y-m-d') . ' 15:00',new DateTimeZone('America/Mexico_City'));
 						$date300pm->setTimezone(new DateTimeZone('UTC'));
 						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date300pm->getTimestamp(), '@soccer_labs');
 						
+*/
 						$date->setTimezone(new DateTimeZone('Europe/London'));
 						// ToDo : Random between 1 y 20 para los minutos
 						$date1100am = new DateTime($date->format('Y-m-d') . ' 11:' . getRandomMinutesStr(0,20) ,new DateTimeZone('Europe/London'));
@@ -161,10 +165,12 @@ function tips_buffer_generate()
 						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyEN($match,$texten), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), '@soccer_labsen');
 						
 						// ToDo : Random between 1 y 20 para los minutos
+/*
 						$date300pm = new DateTime($date->format('Y-m-d') . ' 15:' . getRandomMinutesStr(0,20),new DateTimeZone('Europe/London'));
 						$date300pm->setTimezone(new DateTimeZone('UTC'));
 						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyEN($match,$texten), getImagesByMatch($match), FALSE, $date300pm->getTimestamp(), '@soccer_labsen');
 						
+*/
 						cache_set('tips_buffer_accuracy_' . $match->nid, 1, 'cache', time() + (7 * 24 * 60 * 60) );	
 					}
 				}
