@@ -1,33 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="29.05.2015 00:40:52" sport="soccer" country="kazakhstan"><league country="kazakhstan" name="Kazakhstan: Premier League" cup="False" id="3109" sub_id="31090"><match alternate_id="4109995" alternate_id_2="4331767" date="29.05.2015" id="4227547" static_id="29051523440812344069" status="13:00" time="13:00">
-<home goals="?" id="2344081" name="K. Almaty"></home>
-<away goals="?" id="2344069" name="Taraz"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4109998" alternate_id_2="4331660" date="29.05.2015" id="4109998" static_id="29051523440822344095" status="12:30" time="12:30">
-<home goals="?" id="2344082" name="Kaisar Kyzylorda"></home>
-<away goals="?" id="2344095" name="Shakhtar Karagandy"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4110000" alternate_id_2="4331820" date="29.05.2015" id="4110000" static_id="29051523441142344068" status="12:30" time="12:30">
-<home goals="?" id="2344114" name="Zhetysu Taldykorgan"></home>
-<away goals="?" id="2344068" name="Okzhetpes"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4109996" alternate_id_2="4331768" date="29.05.2015" id="4109996" static_id="29051523440912344051" status="12:00" time="12:00">
-<home goals="?" id="2344091" name="Ordabasy"></home>
-<away goals="?" id="2344051" name="Aktobe"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4109999" alternate_id_2="4331661" date="29.05.2015" id="4109999" static_id="29051523441002344079" status="12:00" time="12:00">
-<home goals="?" id="2344100" name="Tobol"></home>
-<away goals="?" id="2344079" name="I. Pavlodar"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4109997" alternate_id_2="4331834" date="29.05.2015" id="4109997" static_id="29051523440732344066" status="11:00" time="11:00">
-<home goals="?" id="2344073" name="FC Astana"></home>
-<away goals="?" id="2344066" name="Atyrau"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.06.2015 12:40:49" sport="soccer" country="kazakhstan"><league country="kazakhstan" name="Kazakhstan: Premier League" cup="False" id="3109" sub_id="31090"><match alternate_id="4109995" alternate_id_2="4331767" date="29.05.2015" id="4227547" static_id="29051523440812344069" status="FT" time="13:00">
+<home goals="2" id="2344081" name="K. Almaty"></home>
+<away goals="0" id="2344069" name="Taraz"></away>
+<events>
+<event id="20113454" minute="43" player="Dosmagambetov T." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113455" minute="58" player="Gohou G." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113456" minute="60" player="Zhumakhanov S.Yarovenko O." playerid="" result="" team="away" type=""></event>
+<event id="20113457" minute="65" player="Kukejev Z.Riera S." playerid="" result="" team="home" type=""></event>
+<event id="20113458" minute="70" player="Kozhamberdy Z.Sergienko E." playerid="" result="" team="away" type=""></event>
+<event id="20113459" minute="71" player="Gohou G." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20113460" minute="73" player="Markovic Z." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113461" minute="75" player="Rudoselskiy T.Sovetov K." playerid="" result="" team="home" type=""></event>
+<event id="20113462" minute="77" player="Pishchur O.Golic J." playerid="" result="" team="away" type=""></event>
+<event id="180148043" minute="86" player="Gohou G." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="180148044" minute="88" player="Darabaev A.Isael" playerid="" result="" team="home" type=""></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4109998" alternate_id_2="4331660" date="29.05.2015" id="4109998" static_id="29051523440822344095" status="FT" time="12:30">
+<home goals="2" id="2344082" name="Kaisar Kyzylorda"></home>
+<away goals="0" id="2344095" name="Shakhtar Karagandy"></away>
+<events>
+<event id="20113484" minute="34" player="Strukov S." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20113485" minute="57" player="Junuzovic E." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4110000" alternate_id_2="4331820" date="29.05.2015" id="4110000" static_id="29051523441142344068" status="FT" time="12:30">
+<home goals="0" id="2344114" name="Zhetysu Taldykorgan"></home>
+<away goals="1" id="2344068" name="Okzhetpes"></away>
+<events>
+<event id="20113504" minute="15" player="Sagyndykov S." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113505" minute="25" player="Amirseitov I.Sagyndykov S." playerid="" result="" team="home" type=""></event>
+<event id="20113506" minute="30" player="Rotkovic L." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20113507" minute="34" player="Despotovic Ð.Vicius G." playerid="" result="" team="home" type=""></event>
+<event id="20113508" minute="37" player="Kryukov V." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113509" minute="55" player="Sychev D.Di Chiara J." playerid="" result="" team="away" type=""></event>
+<event id="20113510" minute="61" player="Turysbek B." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113511" minute="66" player="Shakhmetov M.Sariyev S." playerid="" result="" team="home" type=""></event>
+<event id="20113512" minute="69" player="Despotovic Ð." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="180148543" minute="70" player="Nurzhanov E.Sakhalbaev R." playerid="" result="" team="away" type=""></event>
+<event id="180148544" minute="83" player="Nukebay D.Buleshev A." playerid="" result="" team="away" type=""></event>
+<event id="180148545" minute="90" player="Savic D." playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4109996" alternate_id_2="4331768" date="29.05.2015" id="4109996" static_id="29051523440912344051" status="FT" time="12:00">
+<home goals="0" id="2344091" name="Ordabasy"></home>
+<away goals="1" id="2344051" name="Aktobe"></away>
+<events>
+<event id="20113464" minute="27" player="Tagybergen A." playerid="2513856" result="" team="away" type="yellowcard"></event>
+<event id="20113465" minute="30" player="Tunggyshbayev Y." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113466" minute="49" player="Zhalmukan D." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20113467" minute="53" player="Kasyanov A.Beyssenov B." playerid="" result="" team="home" type=""></event>
+<event id="20113468" minute="62" player="Neco D.Pizzelli M." playerid="" result="" team="away" type=""></event>
+<event id="20113469" minute="64" player="Logvinenko J." playerid="2372017" result="" team="away" type="yellowcard"></event>
+<event id="20113470" minute="64" player="Bozic I.Petrov K." playerid="" result="" team="home" type=""></event>
+<event id="20113471" minute="70" player="Ashirbekov K.Tazhimbetov D." playerid="" result="" team="home" type=""></event>
+<event id="20113472" minute="71" player="Bozic I." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="180148143" minute="71" player="Khizhnichenko S.Danilo" playerid="" result="" team="away" type=""></event>
+<event id="180148144" minute="80" player="Nurgalijev A." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="180148145" minute="85" player="Ashirbekov K." playerid="2373209" result="" team="home" type="yellowcard"></event>
+<event id="180148146" minute="87" player="Chajrullin M." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="180148147" minute="90" player="Maliy S." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="180148148" minute="90+2" player="Levin Y.Chajrullin M." playerid="" result="" team="away" type=""></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4109999" alternate_id_2="4331661" date="29.05.2015" id="4109999" static_id="29051523441002344079" status="FT" time="12:00">
+<home goals="1" id="2344100" name="Tobol"></home>
+<away goals="0" id="2344079" name="I. Pavlodar"></away>
+<events>
+<event id="20113494" minute="28" player="Lorija D." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113495" minute="28" player="Kalu U. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20113496" minute="31" player="Aliyev P." playerid="" result="" team="away" type="redcard"></event>
+<event id="20113497" minute="32" player="Yurin I." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113498" minute="37" player="Gatagov A." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113499" minute="46" player="Begalyn K.Gatagov A." playerid="" result="" team="away" type=""></event>
+<event id="20113500" minute="64" player="Elmurzayev T.Dell A." playerid="" result="" team="home" type=""></event>
+<event id="20113501" minute="67" player="Nurgaliyev Y.Ersalimov A." playerid="" result="" team="away" type=""></event>
+<event id="20113502" minute="77" player="Nurgaliyev Y.Nedashkovskiy O." playerid="" result="" team="home" type=""></event>
+<event id="180148443" minute="90+1" player="Graf I.Nurgaliyev Y." playerid="" result="" team="away" type=""></event>
+<event id="180148444" minute="90+1" player="Anuar A.Krasic O." playerid="" result="" team="home" type=""></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4109997" alternate_id_2="4331834" date="29.05.2015" id="4109997" static_id="29051523440732344066" status="FT" time="11:00">
+<home goals="0" id="2344073" name="FC Astana"></home>
+<away goals="0" id="2344066" name="Atyrau"></away>
+<events>
+<event id="20113474" minute="13" player="Kuzmin V.Aytbaev B." playerid="" result="" team="away" type=""></event>
+<event id="20113475" minute="23" player="Esatov R." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113476" minute="36" player="Akhmetov E." playerid="2455020" result="" team="home" type="yellowcard"></event>
+<event id="20113477" minute="36" player="Essame G." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113478" minute="50" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113479" minute="60" player="Kasymov B.Kalmuratov K." playerid="" result="" team="away" type=""></event>
+<event id="20113480" minute="63" player="Schetkin A.Akhmetov E." playerid="" result="" team="home" type=""></event>
+<event id="20113481" minute="70" player="Baizhanov M.Ivanovic I." playerid="" result="" team="away" type=""></event>
+<event id="20113482" minute="73" player="Konysbajev U.Nuserbajev T." playerid="" result="" team="home" type=""></event>
+<event id="180148243" minute="90+4" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4109993" alternate_id_2="4329458" date="24.05.2015" id="4227545" static_id="24051523440662344091" status="FT" time="13:00">
 <home goals="1" id="2344066" name="Atyrau"></home>
 <away goals="1" id="2344091" name="Ordabasy"></away>
@@ -226,38 +293,39 @@
 <event id="180147044" minute="90" player="Ashirbekov K.Nurgalijev A." playerid="" result="" team="home" type=""></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4109999" alternate_id_2="4326195" date="07.05.2015" id="4109999" static_id="07051523441002344082" status="FT" time="11:00">
+</match><match alternate_id="4109977" alternate_id_2="4326175" date="07.05.2015" id="4227529" static_id="07051523440812344066" status="FT" time="11:00">
+<home goals="0" id="2344081" name="K. Almaty"></home>
+<away goals="1" id="2344066" name="Atyrau"></away>
+<events>
+<event id="20113274" minute="46" player="Kuantayev E.Isael" playerid="" result="" team="home" type=""></event>
+<event id="20113275" minute="52" player="Zarechniy K.Ivanovic I." playerid="" result="" team="away" type=""></event>
+<event id="20113276" minute="55" player="Parkhachev D." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20113277" minute="63" player="Ceesay M.Gorman M." playerid="" result="" team="home" type=""></event>
+<event id="20113278" minute="68" player="Odibe M.Parkhachev D." playerid="" result="" team="away" type=""></event>
+<event id="20113279" minute="70" player="Kukejev Z.Riera S." playerid="" result="" team="home" type=""></event>
+<event id="20113280" minute="70" player="Zarechniy K." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113281" minute="77" player="Markovic Z." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113282" minute="77" player="Arzhanov V." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="180146243" minute="81" player="Gohou G.(Penalty missed)" playerid="" result="" team="home" type=""></event>
+<event id="180146244" minute="90" player="Kuzmin V.Chichulin A." playerid="" result="" team="away" type=""></event>
+<event id="180146245" minute="90+3" player="Narzikulov J." playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4109982" alternate_id_2="4326195" date="07.05.2015" id="4227534" static_id="07051523441002344082" status="FT" time="11:00">
 <home goals="1" id="2344100" name="Tobol"></home>
 <away goals="0" id="2344082" name="Kaisar Kyzylorda"></away>
 <events>
-<event id="20113494" minute="43" player="Rozybakiev R." playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20113495" minute="44" player="Junuzovic E." playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20113496" minute="66" player="Kalu U.Dell A." playerid="" result="" team="home" type=""></event>
-<event id="20113497" minute="73" player="Narzildaev D.Nekhtiy V." playerid="" result="" team="away" type=""></event>
-<event id="20113498" minute="76" player="Strukov S.Skorych S." playerid="" result="" team="away" type=""></event>
-<event id="20113499" minute="77" player="Nurgaliyev Y.Kurgulin N." playerid="" result="" team="home" type=""></event>
-<event id="20113500" minute="81" player="Tsoy D.Vorogovskiy Y." playerid="" result="" team="away" type=""></event>
-<event id="20113501" minute="90" player="Sadovnichiy I." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20113502" minute="90+2" player="Elmurzayev T.Krasic O." playerid="" result="" team="home" type=""></event>
+<event id="20113324" minute="43" player="Rozybakiev R." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113325" minute="44" player="Junuzovic E." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113326" minute="66" player="Kalu U.Dell A." playerid="" result="" team="home" type=""></event>
+<event id="20113327" minute="73" player="Narzildaev D.Nekhtiy V." playerid="" result="" team="away" type=""></event>
+<event id="20113328" minute="76" player="Strukov S.Skorych S." playerid="" result="" team="away" type=""></event>
+<event id="20113329" minute="77" player="Nurgaliyev Y.Kurgulin N." playerid="" result="" team="home" type=""></event>
+<event id="20113330" minute="81" player="Tsoy D.Vorogovskiy Y." playerid="" result="" team="away" type=""></event>
+<event id="20113331" minute="90" player="Sadovnichiy I." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20113332" minute="90+2" player="Elmurzayev T.Krasic O." playerid="" result="" team="home" type=""></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4110000" alternate_id_2="4326196" date="07.05.2015" id="4110000" static_id="07051523441142344073" status="FT" time="11:00">
-<home goals="1" id="2344114" name="Zhetysu Taldykorgan"></home>
-<away goals="3" id="2344073" name="FC Astana"></away>
-<events>
-<event id="20113504" minute="27" player="Canas R." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20113505" minute="30" player="Despotovic Ð." playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20113506" minute="46" player="Shakhmetov M.Azovsky M." playerid="" result="" team="home" type=""></event>
-<event id="20113507" minute="46" player="Khairullin R.Temirlan A." playerid="" result="" team="home" type=""></event>
-<event id="20113508" minute="53" player="Cvetkovic I." playerid="" result="" team="home" type="redcard"></event>
-<event id="20113509" minute="57" player="Twumasi P." playerid="2567300" result="[1 - 2]" team="away" type="goal"></event>
-<event id="20113510" minute="61" player="Dzholchiev B.Kethevoama F." playerid="" result="" team="away" type=""></event>
-<event id="20113511" minute="74" player="Schetkin A.Nuserbajev T." playerid="" result="" team="away" type=""></event>
-<event id="20113512" minute="77" player="Beysebekov A." playerid="2455178" result="" team="away" type="yellowcard"></event>
-<event id="180148543" minute="88" player="Schetkin A." playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="180148544" minute="88" player="Shaikhov B.Zhukov G." playerid="" result="" team="away" type=""></event>
-</events>
-<ht score="[1-1]"></ht>
 </match></league><league country="kazakhstan" name="Kazakhstan: Premier League - Relegation" cup="False" id="3109" sub_id=""><match alternate_id="4109961" alternate_id_2="4290439" date="16.11.2014" id="4109961" static_id="16111423440692350923" status="Pen." time="09:00">
 <home goals="1" id="2344069" name="Taraz"></home>
 <away goals="1" id="2350923" name="FK Kyran"></away>
@@ -900,25 +968,25 @@
 <event id="173918748" minute="89" player="Lunin S.Islamhan B." playerid="" result="" team="home" type=""></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4047700" alternate_id_2="4249150" date="28.09.2014" id="4165312" static_id="28091423440952344091" status="FT" time="11:00">
+</match><match alternate_id="4109980" alternate_id_2="4249150" date="28.09.2014" id="4109980" static_id="28091423440952344091" status="FT" time="11:00">
 <home goals="2" id="2344095" name="Shakhtar Karagandy"></home>
 <away goals="3" id="2344091" name="Ordabasy"></away>
 <events>
-<event id="19490504" minute="31" player="Adyrbekov T." playerid="2455192" result="" team="away" type="yellowcard"></event>
-<event id="19490505" minute="42" player="Nurgalijev A." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19490506" minute="45" player="Tunggyshbayev Y." playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="19490507" minute="45" player="Maslo J." playerid="" result="" team="home" type="yellowcard"></event>
-<event id="19490508" minute="46" player="Topcagic M.Gabyshev M." playerid="" result="" team="home" type=""></event>
-<event id="19490509" minute="51" player="Nurgalijev A." playerid="" result="" team="away" type="yellowcard"></event>
-<event id="19490510" minute="61" player="Topcagic M." playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="19490511" minute="63" player="Murtazaev R.Zhangylyshbay T." playerid="" result="" team="home" type=""></event>
-<event id="19490512" minute="68" player="Beyssenov B." playerid="2458308" result="[1 - 3]" team="away" type="goal"></event>
-<event id="173918543" minute="76" player="Pokrivac N." playerid="" result="" team="home" type="yellowcard"></event>
-<event id="173918544" minute="78" player="Simcevic A.Kirov A." playerid="" result="" team="home" type=""></event>
-<event id="173918545" minute="82" player="Kozhabayev B.Tolebek M." playerid="" result="" team="away" type=""></event>
-<event id="173918546" minute="88" player="Vicius G." playerid="2399241" result="" team="home" type="yellowcard"></event>
-<event id="173918547" minute="90+1" player="Topcagic M. (pen.)" playerid="" result="[2 - 3]" team="home" type="goal"></event>
-<event id="173918548" minute="90+3" player="Gridin S.Tunggyshbayev Y." playerid="" result="" team="away" type=""></event>
+<event id="20113304" minute="31" player="Adyrbekov T." playerid="2455192" result="" team="away" type="yellowcard"></event>
+<event id="20113305" minute="42" player="Nurgalijev A." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20113306" minute="45" player="Tunggyshbayev Y." playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20113307" minute="45" player="Maslo J." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20113308" minute="46" player="Topcagic M.Gabyshev M." playerid="" result="" team="home" type=""></event>
+<event id="20113309" minute="51" player="Nurgalijev A." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20113310" minute="61" player="Topcagic M." playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="20113311" minute="63" player="Murtazaev R.Zhangylyshbay T." playerid="" result="" team="home" type=""></event>
+<event id="20113312" minute="68" player="Beyssenov B." playerid="2458308" result="[1 - 3]" team="away" type="goal"></event>
+<event id="180146543" minute="76" player="Pokrivac N." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="180146544" minute="78" player="Simcevic A.Kirov A." playerid="" result="" team="home" type=""></event>
+<event id="180146545" minute="82" player="Kozhabayev B.Tolebek M." playerid="" result="" team="away" type=""></event>
+<event id="180146546" minute="88" player="Vicius G." playerid="2399241" result="" team="home" type="yellowcard"></event>
+<event id="180146547" minute="90+1" player="Topcagic M. (pen.)" playerid="" result="[2 - 3]" team="home" type="goal"></event>
+<event id="180146548" minute="90+3" player="Gridin S.Tunggyshbayev Y." playerid="" result="" team="away" type=""></event>
 </events>
 <ht score="[0-2]"></ht>
 </match></league><league country="kazakhstan" name="Kazakhstan: Premier League - Relegation Group" cup="False" id="3109" sub_id="31092"><match alternate_id="4047717" alternate_id_2="4249403" date="28.09.2014" id="4047717" static_id="28091423440662344097" status="FT" time="11:00">

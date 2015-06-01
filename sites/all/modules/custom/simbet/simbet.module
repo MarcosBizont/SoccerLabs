@@ -14,13 +14,17 @@ function simbet_cronapi() {
 
 function simbet_form_alter(&$form, $form_state, $form_id) 
 {
+	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	
+	global $user;
 	if($form_id=='simbet_node_form')
 	{
 		//if(!isset($_GET['field_match_simbet'])) drupal_foto('/');
-		if(inplay_is_tipster())
+		if(inplay_is_tipster() || $user->uid == 1)
 		{
 			$node_match = node_load($_GET['field_match_simbet']);
 			$form['title']['#default_value'] = 'Custom bet: ' . $node_match->title;
+			$form['title']['#access'] = FALSE;
 			
 			$query = new EntityFieldQuery();
 			$query->entityCondition('entity_type', 'taxonomy_term')
@@ -37,12 +41,49 @@ function simbet_form_alter(&$form, $form_state, $form_id)
 					unset($form['field_tip_type_simbet']['und']['#options'][$idoption]);
 			
 			$form['field_win_simbet']['und']['#default_value'] = 0;
-			unset($form['field_win_simbet']['und']['#options']['_none']);
-			unset($form['field_win_simbet']['und']['#options'][1]);
-			unset($form['field_win_simbet']['und']['#options'][2]);
-			unset($form['field_win_simbet']['und']['#options'][3]);
+/*
+			unset($form['field_win_simbet'][LANGUAGE_NONE]['#options']['_none']);
+			unset($form['field_win_simbet'][LANGUAGE_NONE]['#options'][1]);
+			unset($form['field_win_simbet'][LANGUAGE_NONE]['#options'][2]);
+			unset($form['field_win_simbet'][LANGUAGE_NONE]['#options'][3]);
 			
+*/
+			$form['field_win_simbet']['#access'] = FALSE;
 			
+			$form['field_stake_simbet'][LANGUAGE_NONE][0]['value']['#type'] = 'select';
+			$form['field_stake_simbet'][LANGUAGE_NONE][0]['value']['#multiple'] = FALSE;
+			$form['field_stake_simbet'][LANGUAGE_NONE][0]['value']['#options'] = array(1,2,3,4,5,6,7,8,9,10);
+			$form['field_stake_simbet'][LANGUAGE_NONE][0]['value']['#size'] = 1;
+
+			// Si no es Tipster, en este caso solo el uid == 1. En caso real todos menos los tipster
+			//if(!inplay_is_tipster())
+			//{
+				
+				$tiptypekeys = array_keys($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options']);
+				array_shift($tiptypekeys);
+				$oddsavailable 
+					= tips_tipfin_odds_library_check_odds_for_match($_GET['field_match_simbet'], $tiptypekeys);
+				dpm($oddsavailable);
+					
+				// Tip type deben ser solamente los disponibles, si es tipster dejar que sean todos
+				foreach($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'] as $key => $value)
+					if(!isset($oddsavailable[$key]) && $key != '_none')
+						unset($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'][$key]);
+				
+				// Team obtener los equipos disponibles por medio del match y solamente cuando el tip type aplique
+				// Esconder siempre que no sea tipster
+				
+				// Bookmaker se llena una vez que se llene tip type
+				
+				// Esconder Odds
+				$form['field_odds_simbet']['#access'] = FALSE;
+				
+				// Odds se llena automaticamente con el tip type. Modificar texto para mostrar odds
+					
+			//}
+			
+			 
+			dpm($form);
 			
 		}
 	}

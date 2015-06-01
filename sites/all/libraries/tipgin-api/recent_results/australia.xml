@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="29.05.2015 00:40:19" sport="soccer" country="australia"><league country="australia" name="Australia: A-League - Play Offs" cup="False" id="2919" sub_id=""><match alternate_id="4127668" alternate_id_2="4332800" date="17.05.2015" id="4245210" static_id="17051523380492338103" status="FT" time="06:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.06.2015 12:40:19" sport="soccer" country="australia"><league country="australia" name="Australia: A-League - Play Offs" cup="False" id="2919" sub_id=""><match alternate_id="4127668" alternate_id_2="4332800" date="17.05.2015" id="4245210" static_id="17051523380492338103" status="FT" time="06:00">
 <home goals="3" id="2338049" name="Melbourne Victory"></home>
 <away goals="0" id="2338103" name="Sydney FC"></away>
 <events>
@@ -340,11 +340,75 @@
 <event id="22164099" minute="67" player="A. Mooy" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="australia" name="Australia: Brisbane Premier League" cup="False" id="3440" sub_id="34400"><match alternate_id="4089799" alternate_id_2="4331562" date="29.05.2015" id="4207366" static_id="29051523380512338075" status="10:30" time="10:30">
-<home goals="?" id="2338051" name="Mitchelton"></home>
-<away goals="?" id="2338075" name="Peninsula"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="australia" name="Australia: Brisbane Premier League" cup="False" id="3440" sub_id="34400"><match alternate_id="4089804" alternate_id_2="4332875" date="31.05.2015" id="4207371" static_id="31051523381072353541" status="FT" time="06:00">
+<home goals="1" id="2338107" name="Taringa"></home>
+<away goals="1" id="2353541" name="Albany Creek"></away>
+<events>
+<event id="22342254" minute="58" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22342255" minute="90" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4089803" alternate_id_2="4332874" date="31.05.2015" id="4207370" static_id="31051523535442338017" status="FT" time="05:15">
+<home goals="0" id="2353544" name="Ipswich Knights"></home>
+<away goals="2" id="2338017" name="Eastern Suburbs"></away>
+<events>
+<event id="22342244" minute="83" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22342245" minute="89" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22342246" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4089802" alternate_id_2="4332873" date="30.05.2015" id="4207369" static_id="30051523380032353542" status="FT" time="09:00">
+<home goals="2" id="2338003" name="Capalaba FC"></home>
+<away goals="5" id="2353542" name="Logan Lightning"></away>
+<events>
+<event id="22342234" minute="2" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22342235" minute="5" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="22342236" minute="6" player="(pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22342237" minute="18" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22342238" minute="42" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22342239" minute="72" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22342240" minute="79" player="" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+<event id="22342241" minute="84" player="" playerid="" result="[2 - 5]" team="away" type="goal"></event>
+<event id="22342242" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4089801" alternate_id_2="4332872" date="30.05.2015" id="4207368" static_id="30051523380882352033" status="FT" time="08:15">
+<home goals="1" id="2338088" name="Rochedale"></home>
+<away goals="4" id="2352033" name="Queensland Lions"></away>
+<events>
+<event id="22342224" minute="33" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22342225" minute="53" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22342226" minute="56" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22342227" minute="84" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22342228" minute="86" player="" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4089800" alternate_id_2="4331563" date="30.05.2015" id="4207367" static_id="30051523379922350296" status="FT" time="07:00">
+<home goals="3" id="2337992" name="Wolves FC"></home>
+<away goals="2" id="2350296" name="Queensland"></away>
+<events>
+<event id="22329134" minute="15" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22329135" minute="16" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22329136" minute="26" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22329137" minute="49" player="" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22329138" minute="68" player="" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22329139" minute="69" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match><match alternate_id="4089799" alternate_id_2="4331562" date="29.05.2015" id="4207366" static_id="29051523380512338075" status="FT" time="10:30">
+<home goals="4" id="2338051" name="Mitchelton"></home>
+<away goals="4" id="2338075" name="Peninsula"></away>
+<events>
+<event id="22329124" minute="4" player="Gaol" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22329125" minute="22" player="(pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22329126" minute="26" player="" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22329127" minute="44" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22329128" minute="49" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22329129" minute="60" player="" playerid="" result="[3 - 3]" team="home" type="goal"></event>
+<event id="22329130" minute="86" player="" playerid="" result="[4 - 3]" team="home" type="goal"></event>
+<event id="22329131" minute="90" player="" playerid="" result="[4 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[2-2]"></ht>
 </match><match alternate_id="4089798" alternate_id_2="4330985" date="24.05.2015" id="4207365" static_id="24051523535412337992" status="FT" time="08:00">
 <home goals="3" id="2353541" name="Albany Creek"></home>
 <away goals="1" id="2337992" name="Wolves FC"></away>
@@ -482,53 +546,6 @@
 <event id="22281807" minute="59" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4089785" alternate_id_2="4326829" date="09.05.2015" id="4207352" static_id="09051523381072352033" status="FT" time="09:15">
-<home goals="0" id="2338107" name="Taringa"></home>
-<away goals="1" id="2352033" name="Queensland Lions"></away>
-<events>
-<event id="22281794" minute="48" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4089784" alternate_id_2="4326827" date="09.05.2015" id="4207351" static_id="09051523380032338088" status="FT" time="09:00">
-<home goals="1" id="2338003" name="Capalaba FC"></home>
-<away goals="1" id="2338088" name="Rochedale"></away>
-<events>
-<event id="22281774" minute="11" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22281775" minute="66" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="22281776" minute="72" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4089783" alternate_id_2="4326828" date="09.05.2015" id="4207350" static_id="09051523535442338075" status="FT" time="09:00">
-<home goals="1" id="2353544" name="Ipswich Knights"></home>
-<away goals="2" id="2338075" name="Peninsula"></away>
-<events>
-<event id="22281784" minute="27" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22281785" minute="48" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22281786" minute="73" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4089781" alternate_id_2="4325256" date="09.05.2015" id="4207348" static_id="09051523380512353542" status="FT" time="08:00">
-<home goals="2" id="2338051" name="Mitchelton"></home>
-<away goals="2" id="2353542" name="Logan Lightning"></away>
-<events>
-<event id="22266064" minute="31" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22266065" minute="47" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22266066" minute="60" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22266067" minute="81" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22266068" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4089782" alternate_id_2="4325257" date="09.05.2015" id="4207349" static_id="09051523502962353541" status="FT" time="08:00">
-<home goals="1" id="2350296" name="Queensland"></home>
-<away goals="4" id="2353541" name="Albany Creek"></away>
-<events>
-<event id="22266074" minute="9" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22266075" minute="13" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22266076" minute="22" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22266077" minute="44" player="" playerid="" result="[1 - 3]" team="home" type="goal"></event>
-<event id="22266078" minute="72" player="" playerid="" result="[1 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[1-3]"></ht>
 </match></league><league country="australia" name="Australia: Brisbane Premier League - Play Offs" cup="False" id="3440" sub_id=""><match alternate_id="4072703" alternate_id_2="4272734" date="21.09.2014" id="4190312" static_id="21091423379922338075" status="FT" time="07:00">
 <home goals="0" id="2337992" name="Wolves FC"></home>
 <away goals="5" id="2338075" name="Peninsula"></away>
@@ -555,11 +572,69 @@
 <events>
 </events>
 <ht score="[3-0]"></ht>
-</match></league><league country="australia" name="Australia: Apl Premier League" cup="False" id="2918" sub_id="29180"><match alternate_id="4126598" alternate_id_2="4330987" date="29.05.2015" id="4244141" static_id="29051523380522337972" status="10:00" time="10:00">
-<home goals="?" id="2338052" name="Modbury Jets"></home>
-<away goals="?" id="2337972" name="Blue Eagles"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="australia" name="Australia: Apl Premier League" cup="False" id="2918" sub_id="29180"><match alternate_id="4128380" alternate_id_2="4334203" date="30.05.2015" id="4245922" static_id="30051523381222337973" status="FT" time="09:30">
+<home goals="0" id="2338122" name="White City"></home>
+<away goals="2" id="2337973" name="Adelaide City"></away>
+<events>
+<event id="22355534" minute="39" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22355535" minute="88" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4126599" alternate_id_2="4330988" date="30.05.2015" id="4244142" static_id="30051523521892338058" status="FT" time="05:30">
+<home goals="1" id="2352189" name="Adelaide Comets"></home>
+<away goals="2" id="2338058" name="NE Metrostars"></away>
+<events>
+<event id="22323384" minute="43" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22323385" minute="57" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22323386" minute="69" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4126600" alternate_id_2="4330989" date="30.05.2015" id="4244143" static_id="30051523379972338073" status="FT" time="05:30">
+<home goals="3" id="2337997" name="Campbelltown City"></home>
+<away goals="3" id="2338073" name="Para"></away>
+<events>
+<event id="22323394" minute="7" player="Emmanuel" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22323395" minute="8" player="Hara" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22323396" minute="12" player="Emmanuel" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22323397" minute="19" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22323398" minute="23" player="" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="22323399" minute="42" player="Marchioro" playerid="" result="[3 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[3-3]"></ht>
+</match><match alternate_id="4126601" alternate_id_2="4330990" date="30.05.2015" id="4244144" static_id="30051523380112356099" status="FT" time="05:30">
+<home goals="2" id="2338011" name="Croydon Kings"></home>
+<away goals="0" id="2356099" name="Port Adelaide Lion"></away>
+<events>
+<event id="22323404" minute="28" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22323405" minute="78" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4126602" alternate_id_2="4330991" date="30.05.2015" id="4244145" static_id="30051523548232337976" status="FT" time="05:30">
+<home goals="1" id="2354823" name="South Adelaide"></home>
+<away goals="4" id="2337976" name="Adelaide Raiders"></away>
+<events>
+<event id="22323414" minute="12" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22323415" minute="54" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22323416" minute="57" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22323417" minute="83" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="22323418" minute="90" player="" playerid="" result="[1 - 4]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4126603" alternate_id_2="4330992" date="30.05.2015" id="4244146" static_id="30051523521882354826" status="FT" time="05:30">
+<home goals="0" id="2352188" name="West Torrens"></home>
+<away goals="0" id="2354826" name="West Adelaide"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4126598" alternate_id_2="4330987" date="29.05.2015" id="4244141" static_id="29051523380522337972" status="FT" time="10:00">
+<home goals="2" id="2338052" name="Modbury Jets"></home>
+<away goals="1" id="2337972" name="Blue Eagles"></away>
+<events>
+<event id="22323374" minute="31" player="Lindsay" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22323375" minute="34" player="Boyokino" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22323376" minute="86" player="Mitchell" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4126597" alternate_id_2="4330986" date="23.05.2015" id="4244140" static_id="23051523381222337976" status="FT" time="09:30">
 <home goals="0" id="2338122" name="White City"></home>
 <away goals="4" id="2337976" name="Adelaide Raiders"></away>
@@ -688,61 +763,6 @@
 <event id="22258838" minute="77" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4122692" alternate_id_2="4324529" date="15.05.2015" id="4240236" static_id="15051523380582338052" status="FT" time="10:00">
-<home goals="2" id="2338058" name="NE Metrostars"></home>
-<away goals="0" id="2338052" name="Modbury Jets"></away>
-<events>
-<event id="22258794" minute="4" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4122691" alternate_id_2="4324528" date="02.05.2015" id="4240235" static_id="02051523381222337997" status="FT" time="09:30">
-<home goals="0" id="2338122" name="White City"></home>
-<away goals="0" id="2337997" name="Campbelltown City"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4119166" alternate_id_2="4323305" date="02.05.2015" id="4236710" static_id="02051523521892354823" status="FT" time="05:30">
-<home goals="4" id="2352189" name="Adelaide Comets"></home>
-<away goals="3" id="2354823" name="South Adelaide"></away>
-<events>
-<event id="22246554" minute="9" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22246555" minute="13" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22246556" minute="35" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22246557" minute="49" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22246558" minute="55" player="" playerid="" result="[3 - 2]" team="home" type="goal"></event>
-<event id="22246559" minute="74" player="" playerid="" result="[3 - 3]" team="away" type="goal"></event>
-<event id="22246560" minute="90" player="" playerid="" result="[4 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4119172" alternate_id_2="4323357" date="02.05.2015" id="4236716" static_id="02051523380112354826" status="FT" time="05:30">
-<home goals="1" id="2338011" name="Croydon Kings"></home>
-<away goals="3" id="2354826" name="West Adelaide"></away>
-<events>
-<event id="22247074" minute="60" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22247075" minute="76" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22247076" minute="88" player="" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22247077" minute="90" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4125923" alternate_id_2="4323304" date="02.05.2015" id="4243466" static_id="02051523380522338073" status="FT" time="05:30">
-<home goals="3" id="2338052" name="Modbury Jets"></home>
-<away goals="0" id="2338073" name="Para"></away>
-<events>
-<event id="22246544" minute="4" player="Lindsay" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22246545" minute="45" player="Lindsay" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22246546" minute="90" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4119168" alternate_id_2="4323307" date="02.05.2015" id="4236712" static_id="02051523560992338058" status="FT" time="05:30">
-<home goals="0" id="2356099" name="Port Adelaide Lion"></home>
-<away goals="4" id="2338058" name="NE Metrostars"></away>
-<events>
-<event id="22246574" minute="30" player="(pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22246575" minute="51" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22246576" minute="53" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22246577" minute="56" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="australia" name="Australia: Apl Premier League - Play Offs" cup="False" id="2918" sub_id=""><match alternate_id="4064050" alternate_id_2="4270846" date="13.09.2014" id="4181659" static_id="13091423380582338011" status="FT" time="07:30">
 <home goals="1" id="2338058" name="NE Metrostars"></home>
 <away goals="2" id="2338011" name="Croydon Kings"></away>
@@ -786,7 +806,31 @@
 <events>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="australia" name="Australia: T-League" cup="False" id="4364" sub_id="43640"><match alternate_id="" alternate_id_2="4322448" date="24.05.2015" id="" static_id="24051523380342338092" status="FT" time="04:00">
+</match></league><league country="australia" name="Australia: T-League" cup="False" id="4364" sub_id="43640"><match alternate_id="" alternate_id_2="4325258" date="31.05.2015" id="" static_id="31051523537022338034" status="FT" time="05:00">
+<home goals="1" id="2353702" name="Olympia Warriors"></home>
+<away goals="0" id="2338034" name="Hobart Zebras"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4324535" date="30.05.2015" id="" static_id="30051523380632338041" status="FT" time="09:00">
+<home goals="5" id="2338063" name="Northern Rangers"></home>
+<away goals="1" id="2338041" name="Launceston"></away>
+<events>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4324534" date="30.05.2015" id="" static_id="30051523380272338037" status="FT" time="06:30">
+<home goals="2" id="2338027" name="Glenorchy Knights"></home>
+<away goals="5" id="2338037" name="Kingborough Lions"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4324166" date="30.05.2015" id="" static_id="30051523380922338015" status="FT" time="04:00">
+<home goals="2" id="2338092" name="South Hobart"></home>
+<away goals="4" id="2338015" name="Devonport"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4322448" date="24.05.2015" id="" static_id="24051523380342338092" status="FT" time="04:00">
 <home goals="1" id="2338034" name="Hobart Zebras"></home>
 <away goals="2" id="2338092" name="South Hobart"></away>
 <events>
@@ -882,30 +926,6 @@
 <events>
 </events>
 <ht score="[0-4]"></ht>
-</match><match alternate_id="" alternate_id_2="4303450" date="12.04.2015" id="" static_id="12041523380922338041" status="FT" time="02:00">
-<home goals="3" id="2338092" name="South Hobart"></home>
-<away goals="2" id="2338041" name="Launceston"></away>
-<events>
-</events>
-<ht score="[2-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4303449" date="11.04.2015" id="" static_id="11041523537022338037" status="FT" time="05:00">
-<home goals="6" id="2353702" name="Olympia Warriors"></home>
-<away goals="0" id="2338037" name="Kingborough Lions"></away>
-<events>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4303448" date="11.04.2015" id="" static_id="11041523380152338063" status="FT" time="04:00">
-<home goals="1" id="2338015" name="Devonport"></home>
-<away goals="0" id="2338063" name="Northern Rangers"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4303447" date="10.04.2015" id="" static_id="10041523380342338027" status="FT" time="10:00">
-<home goals="6" id="2338034" name="Hobart Zebras"></home>
-<away goals="0" id="2338027" name="Glenorchy Knights"></away>
-<events>
-</events>
-<ht score="[3-0]"></ht>
 </match></league><league country="australia" name="Australia: T-League - Play Offs" cup="False" id="4364" sub_id=""><match alternate_id="" alternate_id_2="4270860" date="13.09.2014" id="" static_id="13091423380922338063" status="FT" time="07:00">
 <home goals="3" id="2338092" name="South Hobart"></home>
 <away goals="1" id="2338063" name="Northern Rangers"></away>
@@ -924,7 +944,36 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="australia" name="Australia: Capital Territory" cup="False" id="4363" sub_id="43630"><match alternate_id="" alternate_id_2="4327577" date="24.05.2015" id="" static_id="24051523380002338001" status="FT" time="05:00">
+</match></league><league country="australia" name="Australia: Capital Territory" cup="False" id="4363" sub_id="43630"><match alternate_id="" alternate_id_2="4328893" date="31.05.2015" id="" static_id="31051523380012338105" status="FT" time="05:00">
+<home goals="2" id="2338001" name="Canberra Olympic"></home>
+<away goals="3" id="2338105" name="Cooma"></away>
+<events>
+<event id="22302434" minute="22" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22302435" minute="23" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22302436" minute="40" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22302437" minute="56" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22302438" minute="76" player="" playerid="" result="[2 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4302078" date="31.05.2015" id="" static_id="31051523496182338125" status="FT" time="05:00">
+<home goals="2" id="2349618" name="Monaro Panthers"></home>
+<away goals="2" id="2338125" name="Woden Valley"></away>
+<events>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4302089" date="31.05.2015" id="" static_id="31051523381112337985" status="FT" time="05:00">
+<home goals="2" id="2338111" name="Tuggeranong Utd"></home>
+<away goals="3" id="2337985" name="Belconnen United"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4302073" date="30.05.2015" id="" static_id="30051523379822338000" status="FT" time="05:15">
+<home goals="6" id="2337982" name="Institute of Sport"></home>
+<away goals="3" id="2338000" name="Canberra FC"></away>
+<events>
+</events>
+<ht score="[4-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4327577" date="24.05.2015" id="" static_id="24051523380002338001" status="FT" time="05:00">
 <home goals="1" id="2338000" name="Canberra FC"></home>
 <away goals="2" id="2338001" name="Canberra Olympic"></away>
 <events>
@@ -1029,30 +1078,6 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4308566" date="26.04.2015" id="" static_id="26041523381052338000" status="FT" time="05:00">
-<home goals="5" id="2338105" name="Cooma"></home>
-<away goals="7" id="2338000" name="Canberra FC"></away>
-<events>
-</events>
-<ht score="[5-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4302079" date="25.04.2015" id="" static_id="25041523379852338001" status="FT" time="07:30">
-<home goals="3" id="2337985" name="Belconnen United"></home>
-<away goals="2" id="2338001" name="Canberra Olympic"></away>
-<events>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4310847" date="25.04.2015" id="" static_id="25041523379822356195" status="FT" time="05:00">
-<home goals="3" id="2337982" name="Institute of Sport"></home>
-<away goals="1" id="2356195" name="Gungahlin"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4302081" date="24.04.2015" id="" static_id="24041523381252338111" status="FT" time="09:20">
-<home goals="4" id="2338125" name="Woden Valley"></home>
-<away goals="0" id="2338111" name="Tuggeranong Utd"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="australia" name="Australia: Capital Territory - Play Offs" cup="False" id="4363" sub_id=""><match alternate_id="" alternate_id_2="4269967" date="13.09.2014" id="" static_id="13091423379852338000" status="Pen." time="07:00">
 <home goals="3" id="2337985" name="Belconnen United"></home>
 <away goals="3" id="2338000" name="Canberra FC"></away>
@@ -1078,7 +1103,37 @@
 <events>
 </events>
 <ht score="[0-4]"></ht>
-</match></league><league country="australia" name="Australia: Northern Nsw" cup="False" id="4362" sub_id="43620"><match alternate_id="4129116" alternate_id_2="4328610" date="25.05.2015" id="4246656" static_id="25051523521702337993" status="FT" time="09:00">
+</match></league><league country="australia" name="Australia: Northern Nsw" cup="False" id="4362" sub_id="43620"><match alternate_id="4127669" alternate_id_2="4333312" date="31.05.2015" id="4245211" static_id="31051523379932338121" status="FT" time="04:30">
+<home goals="3" id="2337993" name="Broadmeadow"></home>
+<away goals="4" id="2338121" name="Weston Bears"></away>
+<events>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4127670" alternate_id_2="4333313" date="31.05.2015" id="4245212" static_id="31051523380302349128" status="FT" time="04:30">
+<home goals="4" id="2338030" name="Hamilton Olympic Warriors"></home>
+<away goals="2" id="2349128" name="Charleston"></away>
+<events>
+</events>
+<ht score="[3-1]"></ht>
+</match><match alternate_id="4126735" alternate_id_2="4331567" date="30.05.2015" id="4244277" static_id="30051523380192352170" status="FT" time="04:45">
+<home goals="3" id="2338019" name="Edgeworth E."></home>
+<away goals="1" id="2352170" name="Newcastle Jets U21"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4126749" alternate_id_2="4331645" date="30.05.2015" id="4244291" static_id="30051523552412338091" status="FT" time="04:30">
+<home goals="3" id="2355241" name="Adamstown Rosebud"></home>
+<away goals="0" id="2338091" name="South Cardiff"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4126748" alternate_id_2="4331644" date="30.05.2015" id="4244290" static_id="30051523534952356191" status="FT" time="04:30">
+<home goals="2" id="2353495" name="Lambton J."></home>
+<away goals="1" id="2356191" name="Maitland"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4129116" alternate_id_2="4328610" date="25.05.2015" id="4246656" static_id="25051523521702337993" status="FT" time="09:00">
 <home goals="2" id="2352170" name="Newcastle Jets U21"></home>
 <away goals="5" id="2337993" name="Broadmeadow"></away>
 <events>
@@ -1168,36 +1223,6 @@
 <events>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4122697" alternate_id_2="4324536" date="10.05.2015" id="4240241" static_id="10051523552412338019" status="FT" time="04:30">
-<home goals="0" id="2355241" name="Adamstown Rosebud"></home>
-<away goals="2" id="2338019" name="Edgeworth E."></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4122885" alternate_id_2="4324603" date="10.05.2015" id="4240429" static_id="10051523561912338121" status="FT" time="04:30">
-<home goals="0" id="2356191" name="Maitland"></home>
-<away goals="1" id="2338121" name="Weston Bears"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4122894" alternate_id_2="4324630" date="10.05.2015" id="4240438" static_id="10051523521702349128" status="FT" time="04:30">
-<home goals="3" id="2352170" name="Newcastle Jets U21"></home>
-<away goals="1" id="2349128" name="Charleston"></away>
-<events>
-</events>
-<ht score="[2-1]"></ht>
-</match><match alternate_id="4122896" alternate_id_2="4324634" date="10.05.2015" id="4240440" static_id="10051523380912338030" status="FT" time="04:30">
-<home goals="2" id="2338091" name="South Cardiff"></home>
-<away goals="5" id="2338030" name="Hamilton Olympic Warriors"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4119947" alternate_id_2="4324167" date="09.05.2015" id="4237491" static_id="09051523534952337993" status="FT" time="04:30">
-<home goals="2" id="2353495" name="Lambton J."></home>
-<away goals="2" id="2337993" name="Broadmeadow"></away>
-<events>
-</events>
-<ht score="[2-2]"></ht>
 </match></league><league country="australia" name="Australia: Northern Nsw - Play Offs" cup="False" id="4362" sub_id=""><match alternate_id="4063743" alternate_id_2="4270845" date="14.09.2014" id="4181352" static_id="14091423381212353495" status="FT" time="05:00">
 <home goals="0" id="2338121" name="Weston Bears"></home>
 <away goals="2" id="2353495" name="Lambton J."></away>

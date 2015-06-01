@@ -130,10 +130,11 @@ h1.title-p{
 .comment-form input[type=text], .comment-form textarea, .contact-form input[type=text], .contact-form textarea,
 .entityform input[type=text], .entityform textarea,
 .page-user-complete-profile input[type=text], .page-user-complete-profile textarea,
-#user-profile-form input[type=text], #user-profile-form textarea
+#user-profile-form input[type=text], #user-profile-form textarea,
+#user-profile-form input[type=password]
 {
-	width:95%;
 	margin-bottom:10px;
+	width: 50%;
 }
 .comment-form textarea, .contact-form textarea, 
 .entityform textarea, .page-user-complete-profile textarea, #user-profile-form textarea
@@ -526,4 +527,45 @@ padding-bottom: 10px;
 	width: 33%;
 }
 
+#user-profile-form label
+{
+	color: #000;
+	display: block;
+}
 
+#user-profile-form label.option
+{
+	color: #7a7a7a;
+	display: inline;
+}
+
+#user-profile-form .form-checkboxes .form-type-checkbox {
+    float: left;
+    width: 50%;
+}
+
+#user-profile-form .description
+{
+	font-size: 10px;
+}
+
+#edit-locale
+{
+	margin-top: 10px;	
+}
+
+#edit-locale legend
+{
+	display: none;
+}
+
+#edit-picture .fieldset-legend,
+#edit-field-birth-date .fieldset-legend
+{
+	color: #000;
+}
+
+#edit-picture label[for=edit-picture-delete]
+{
+	color: #000;
+}

@@ -29,7 +29,8 @@ function _inplay_start_session_time($hour = 3)
 function inplay_init() {
 	
 	
-	
+	global $user;
+	$user = user_load($user->uid);
 	
 	if (current_path() == "node/4629") {
 		
@@ -42,7 +43,17 @@ function inplay_init() {
 		}
 		else
 		{
-			$_SESSION['inplay_competitions'] = '';	
+			if(isset($user->field_prefered_competitions[LANGUAGE_NONE]))
+			{
+				$user_competition = array();
+				foreach($user->field_prefered_competitions[LANGUAGE_NONE] as $comp) 
+					$user_competition[] = $comp['target_id'];
+				$_SESSION['inplay_competitions'] = $user_competition;
+			}
+			else
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default_allowed', '');
+			
+				
 		}
 	
 	
@@ -77,7 +88,15 @@ function inplay_init() {
 		}
 		else
 		{
-			$_SESSION['inplay_competitions'] = '';	
+			if(isset($user->field_prefered_competitions[LANGUAGE_NONE]))
+			{
+				$user_competition = array();
+				foreach($user->field_prefered_competitions[LANGUAGE_NONE] as $comp) 
+					$user_competition[] = $comp['target_id'];
+				$_SESSION['inplay_competitions'] = $user_competition;
+			}
+			else
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default_allowed', '');
 		}
 		
 		_inplay_start_session_time(2);
@@ -187,12 +206,23 @@ function inplay_settings_admin() {
   
   $competitions = _inplay_autocomplete_competition('');
   $form['inplay_competitions_default'] = array(
-  	'#type' => 'checkboxes',
+  	'#type' => 'select',
 	'#options' => $competitions,
-	'#title' => t('Competitions by default'),
+	'#title' => t('Competitions by default: main leagues'),
     '#default_value' => variable_get('inplay_competitions_default', ''),
     '#required' => TRUE,
     '#multiple' => TRUE,
+    '#size'=> 20,
+  );
+  
+  $form['inplay_competitions_default_allowed'] = array(
+  	'#type' => 'select',
+	'#options' => $competitions,
+	'#title' => t('Competitions allowed: Inplay button'),
+    '#default_value' => variable_get('inplay_competitions_default_allowed', ''),
+    '#required' => TRUE,
+    '#multiple' => TRUE,
+    '#size'=> 20,
   );
   
   return system_settings_form($form);
