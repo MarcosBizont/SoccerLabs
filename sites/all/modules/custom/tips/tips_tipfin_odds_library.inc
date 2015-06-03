@@ -12,7 +12,7 @@ function tips_tipfin_odds_library_check_odds_for_match($matchid, $tiptypestochec
 		$obj = tips_tipfin_odds_library_check_odds_for_match_for_tiptype($matchid, $tiptype);
 
 		$odd = array();
-		if($tiptype == 832)
+		if(in_array($tiptype,array(832,674)))
 		{
 			foreach($obj as $key => $objitem)
 			{

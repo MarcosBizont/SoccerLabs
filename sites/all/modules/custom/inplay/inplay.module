@@ -736,7 +736,8 @@ function inplay_quickbet_view()
 		if(inplay_is_tipster())
 		{
 			
-			$link = '<a href="/node/add/simbet?field_match_simbet=' . $nid . '&destination=my-bets" target="_blank">' . t('Simulate a bet in this game') . '</a>';
+			$link = '<iframe src="/simulate_bet?field_match_simbet=' . $nid . '" 
+							style="width: 100%; height: 500px;"/>';
 			$block = "<div class='b_block quickbet'>" . $link . "</div>";	
 			
 		}

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.06.2015 12:41:03" sport="soccer" country="romania"><league country="romania" name="Romania: Liga I" cup="False" id="3194" sub_id="31940"><match alternate_id="4108645" alternate_id_2="4333650" date="30.05.2015" id="4226199" static_id="30051523543012346397" status="FT" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:06" sport="soccer" country="romania"><league country="romania" name="Romania: Liga I" cup="False" id="3194" sub_id="31940"><match alternate_id="4108645" alternate_id_2="4333650" date="30.05.2015" id="4226199" static_id="30051523543012346397" status="FT" time="15:00">
 <home goals="3" id="2354301" name="CS U. Craiova"></home>
 <away goals="0" id="2346397" name="CFR Cluj"></away>
 <events>
@@ -726,20 +726,26 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4055864" alternate_id_2="4293811" date="14.03.2015" id="4173474" static_id="14031523464482354064" status="FT" time="09:00">
-<home goals="2" id="2346448" name="Rapid Suceava"></home>
-<away goals="0" id="2354064" name="SC Bacau"></away>
+</match><match alternate_id="4055869" alternate_id_2="4293810" date="14.03.2015" id="4173479" static_id="14031523463532351528" status="FT" time="09:00">
+<home goals="1" id="2346353" name="Berceni"></home>
+<away goals="3" id="2351528" name="Dorohoi"></away>
 <events>
-<event id="21951614" minute="17" player="G. Apostol" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21951615" minute="89" player="M. Negru" playerid="2396818" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21951604" minute="19" player="E. Sandu" playerid="2485623" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21951605" minute="60" player="E. Sandu (pen.)" playerid="2485623" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21951606" minute="65" player="R. Vaduva" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="21951607" minute="85" player="E. Sandu (pen.)" playerid="2485623" result="[1 - 3]" team="away" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4055865" alternate_id_2="4293878" date="14.03.2015" id="4173475" static_id="14031523465112346388" status="Awarded" time="09:00">
-<home goals="0" id="2346511" name="Slobozia"></home>
-<away goals="3" id="2346388" name="Academica Arges"></away>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4055868" alternate_id_2="4293845" date="14.03.2015" id="4173478" static_id="14031523465732346486" status="FT" time="09:00">
+<home goals="4" id="2346573" name="Braila"></home>
+<away goals="0" id="2346486" name="F. Constanta"></away>
 <events>
+<event id="21951954" minute="55" player="S. Frunza (pen.)" playerid="2349682" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21951955" minute="59" player="V. Olenic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21951956" minute="72" player="B. Ungureanu" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21951957" minute="87" player="B. Ungureanu" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[-]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="romania" name="Romania: Division 2/Serie 1 - Relegation Group" cup="False" id="3192" sub_id="31927"><match alternate_id="3952849" alternate_id_2="4111972" date="07.06.2014" id="4070548" static_id="07061423464862346573" status="FT" time="08:00">
 <home goals="1" id="2346486" name="F. Constanta"></home>
 <away goals="2" id="2346573" name="Braila"></away>

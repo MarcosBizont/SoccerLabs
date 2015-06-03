@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.06.2015 12:40:45" sport="soccer" country="ireland"><league country="ireland" name="Ireland: Premier League" cup="False" id="3091" sub_id="30910"><match alternate_id="4092531" alternate_id_2="4331033" date="23.05.2015" id="4210097" static_id="23051523434232343419" status="FT" time="18:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:40:49" sport="soccer" country="ireland"><league country="ireland" name="Ireland: Premier League" cup="False" id="3091" sub_id="30910"><match alternate_id="4092531" alternate_id_2="4331033" date="23.05.2015" id="4210097" static_id="23051523434232343419" status="FT" time="18:30">
 <home goals="1" id="2343423" name="Longford"></home>
 <away goals="0" id="2343419" name="Limerick"></away>
 <events>
@@ -509,7 +509,27 @@
 <event id="21836116" minute="84" player="G. Shanahan" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="ireland" name="Ireland: Fai Cup" cup="True" id="3088" sub_id="30880"><match alternate_id="4127581" alternate_id_2="4332410" date="31.05.2015" id="4245123" static_id="31051523434512350883" status="FT" time="18:00">
+</match></league><league country="ireland" name="Ireland: Fai Cup" cup="True" id="3088" sub_id="30880"><match alternate_id="4131113" alternate_id_2="4338462" date="03.06.2015" id="4248653" static_id="03061523433722356231" status="17:30" time="17:30">
+<home goals="?" id="2343372" name="Avondale Utd"></home>
+<away goals="?" id="2356231" name="Cobh Wanderers"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4131081" alternate_id_2="4338456" date="01.06.2015" id="4248621" static_id="01061523434062343423" status="Pen." time="19:00">
+<home goals="0" id="2343406" name="Finn Harps"></home>
+<away goals="0" id="2343423" name="Longford"></away>
+<events>
+<event id="22398064" minute="35" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398065" minute="59" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398066" minute="68" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398067" minute="74" player="Lorcan Shannon" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398068" minute="87" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398069" minute="87" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398070" minute="90" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398071" minute="120" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="3" visitorteam="4"></penalty>
+</match><match alternate_id="4127581" alternate_id_2="4332410" date="31.05.2015" id="4245123" static_id="31051523434512350883" status="FT" time="18:00">
 <home goals="1" id="2343451" name="UC Dublin"></home>
 <away goals="3" id="2350883" name="Sheriff YC"></away>
 <events>
@@ -716,26 +736,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4124758" alternate_id_2="4323996" date="26.04.2015" id="4242301" static_id="26041523507102356233" status="FT" time="10:00">
-<home goals="0" id="2350710" name="Glenville"></home>
-<away goals="1" id="2356233" name="Firhouse"></away>
-<events>
-<event id="22253464" minute="55" player="Wynne" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4124760" alternate_id_2="4323999" date="26.04.2015" id="4242303" static_id="26041523434432343370" status="FT" time="10:00">
-<home goals="5" id="2343443" name="St Mochta?s"></home>
-<away goals="2" id="2343370" name="Arklow"></away>
-<events>
-<event id="22253494" minute="6" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22253495" minute="25" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22253496" minute="34" player="D. Somers" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22253497" minute="46" player="G. Crowe" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22253498" minute="53" player="D. Somers" playerid="" result="[3 - 2]" team="home" type="goal"></event>
-<event id="22253499" minute="66" player="G. Crowe" playerid="" result="[4 - 2]" team="home" type="goal"></event>
-<event id="22253500" minute="89" player="D. Somers" playerid="" result="[5 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
 </match></league><league country="ireland" name="Ireland: League Cup" cup="True" id="3090" sub_id="30900"><match alternate_id="4125178" alternate_id_2="4326334" date="19.05.2015" id="4242721" static_id="19051523433912343444" status="Pen." time="18:45">
 <home goals="1" id="2343391" name="Cork City"></home>
 <away goals="1" id="2343444" name="St. Patricks"></away>

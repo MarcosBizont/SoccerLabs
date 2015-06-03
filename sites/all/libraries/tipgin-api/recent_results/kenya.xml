@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="01.06.2015 12:40:50" sport="soccer" country="kenya"><league country="kenya" name="Kenya: Premier League" cup="False" id="3112" sub_id="31120"><match alternate_id="3860440" alternate_id_2="4334607" date="01.06.2015" id="3860440" static_id="01061523441282344120" status="15:00" time="15:00">
-<home goals="?" id="2344128" name="Thika Utd."></home>
-<away goals="?" id="2344120" name="Gor Mahia"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4126988" alternate_id_2="4334828" date="01.06.2015" id="4126988" static_id="01061523441222344116" status="12:45" time="12:45">
-<home goals="?" id="2344122" name="Mathare Utd."></home>
-<away goals="?" id="2344116" name="Leopards"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:40:53" sport="soccer" country="kenya"><league country="kenya" name="Kenya: Premier League" cup="False" id="3112" sub_id="31120"><match alternate_id="3860440" alternate_id_2="4334607" date="01.06.2015" id="3860440" static_id="01061523441282344120" status="FT" time="15:00">
+<home goals="0" id="2344128" name="Thika Utd."></home>
+<away goals="2" id="2344120" name="Gor Mahia"></away>
+<events>
+<event id="17617904" minute="32" player="Shakava H." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="17617905" minute="82" player="Abondo A." playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4126988" alternate_id_2="4334828" date="01.06.2015" id="4126988" static_id="01061523441222344116" status="FT" time="12:45">
+<home goals="1" id="2344122" name="Mathare Utd."></home>
+<away goals="1" id="2344116" name="Leopards"></away>
+<events>
+<event id="20283384" minute="37" player="Isuza W." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20283385" minute="72" player="Ali Khalid J." playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4128665" alternate_id_2="4334606" date="01.06.2015" id="4128665" static_id="01061523548882344118" status="FT" time="10:30">
 <home goals="0" id="2354888" name="Ushuru"></home>
 <away goals="0" id="2344118" name="Bandari"></away>
@@ -196,24 +202,23 @@
 <event id="18392739" minute="75" player="Kagere M." playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4131096" alternate_id_2="4331397" date="17.05.2015" id="4131096" static_id="17051523441212344129" status="FT" time="12:00">
-<home goals="1" id="2344121" name="Kenya CB"></home>
-<away goals="0" id="2344129" name="Tusker"></away>
+</match><match alternate_id="3860496" alternate_id_2="4331395" date="17.05.2015" id="3860496" static_id="17051523441282344130" status="FT" time="12:00">
+<home goals="1" id="2344128" name="Thika Utd."></home>
+<away goals="2" id="2344130" name="Ulinzi Stars"></away>
 <events>
-<event id="20324464" minute="18" player="Bernard Coulibally" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="20324465" minute="46" player="Patrick Oboya OnyangoAndrew Tololwa" playerid="" result="" team="away" type=""></event>
-<event id="20324466" minute="49" player="Faruk Shikalo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20324467" minute="56" player="James Situma" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20324468" minute="57" player="Jesse Were" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20324469" minute="62" player="Fredrick OnyangoClifford Alwanga" playerid="" result="" team="away" type=""></event>
-<event id="20324470" minute="68" player="Ronald Musana" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="20324471" minute="73" player="Paul Mungai KiongeraBenjamin Chaka" playerid="" result="" team="home" type=""></event>
-<event id="20324472" minute="74" player="Mungai P." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="182258143" minute="79" player="Ismail Dunga SalimDonald Mosoti" playerid="" result="" team="away" type=""></event>
-<event id="182258144" minute="83" player="Michael OyandoSamuel Mwangi" playerid="" result="" team="home" type=""></event>
-<event id="182258145" minute="90" player="Daniel OnyangoRonald Musana" playerid="" result="" team="home" type=""></event>
+<event id="17618464" minute="11" player="Rutto O." playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="17618465" minute="30" player="Odhiambo D." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="17618466" minute="50" player="Kennedy Otieno" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="17618467" minute="50" player="Omari Mohammed Mbongi" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="17618468" minute="58" player="John MakwataJob Muhati" playerid="" result="" team="away" type=""></event>
+<event id="17618469" minute="59" player="Kevin OpiyoKennedy Otieno" playerid="" result="" team="home" type=""></event>
+<event id="17618470" minute="65" player="Kepha AswaniWycliff Opondo" playerid="" result="" team="home" type=""></event>
+<event id="17618471" minute="67" player="Kevin Amwayi SerengeBrian Birgen" playerid="" result="" team="away" type=""></event>
+<event id="17618472" minute="82" player="Amwayi K." playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="155198143" minute="85" player="Mohammed HassanJohn Nairuka" playerid="" result="" team="away" type=""></event>
+<event id="155198144" minute="86" player="Churchill Muloma" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-1]"></ht>
 </match></league><league country="kenya" name="Kenya: Top 8 Cup" cup="True" id="4735" sub_id=""><match alternate_id="" alternate_id_2="4119190" date="15.06.2014" id="" static_id="15061423441162344129" status="FT" time="12:00">
 <home goals="1" id="2344116" name="Leopards"></home>
 <away goals="2" id="2344129" name="Tusker"></away>

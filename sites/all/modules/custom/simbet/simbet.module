@@ -12,6 +12,156 @@ function simbet_cronapi() {
   return $items;
 }
 
+
+function simbet_simulate_bet($form, &$form_state) 
+{
+	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	
+	$idmatch = 0;
+	if(isset($_GET['field_match_simbet'])) $idmatch = intval($_GET['field_match_simbet']);
+	if(isset($form_state['values']['match'])) $idmatch = intval($form_state['values']['match']);
+	if($idmatch==0) return '';
+	
+	$node_match = node_load($idmatch);
+	
+	$form = array();
+	$form['match'] = array('#type' => 'hidden', '#value' => $idmatch);
+	
+	// Tip type options available
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'taxonomy_term')
+		  ->entityCondition('bundle', 'tip_type')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_is_available_for_custom_be', 'value', '1', '=')
+		  ->propertyOrderBy('weight');
+	
+	$result = $query->execute();
+	$result = reset($result);
+	$optionstoallow = array('0' => t('Select type of bet'));
+	foreach($result as &$term) 
+	{
+		$term = taxonomy_term_load($term->tid);
+		$optionstoallow[$term->tid] = $term->name;
+	}
+	
+	$tiptypekeys = array_keys($optionstoallow);
+	array_shift($tiptypekeys);
+	$oddsavailable = tips_tipfin_odds_library_check_odds_for_match($idmatch, $tiptypekeys);
+	foreach($optionstoallow as $key => $value)
+		if(!isset($oddsavailable[$key]) && $key != 0)
+			unset($optionstoallow[$key]);
+	
+	$form['bettype'] = array(
+	   '#type' => 'select',
+	   '#title' => t('Bet type'),
+	   '#options' => $optionstoallow,
+	   '#ajax' => array(
+	      'callback' => 'simbet_simulate_bet_callback',
+		  'wrapper' => 'form-wrapper-simbetcustom',
+	   ),
+	   '#default_value' => ''
+	);
+	
+	
+	$form['bet_container'] = array(
+		'#prefix' => '<div id="form-wrapper-simbetcustom">',
+		'#suffix' => '</div>',
+		'#type' => 'fieldset',
+	);
+	
+	
+	$noteam = false;
+	if(isset($form_state['values']['bettype']))
+		if(intval($form_state['values']['bettype'])>0)
+			if(in_array($form_state['values']['bettype'], array(832,674)))
+			{
+				$node_local_team = node_load($node_match->field_local_team[LANGUAGE_NONE][0]['target_id']);
+				$node_visitor_team = node_load($node_match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
+				$form['bet_container']['team'] = array(
+				   '#type' => 'select',
+				   '#title' => t('Team'),
+				   '#options' => array(
+				      0 => t('Select the team'),
+					  $node_local_team->nid => $node_local_team->title,
+					  $node_visitor_team->nid => $node_visitor_team->title,
+				   ),
+				   '#ajax' => array(
+				      'callback' => 'simbet_simulate_bet_callback',
+					  'wrapper' => 'form-wrapper-simbetcustom',
+				   ),
+				   '#default_value' => ''
+				);		
+			}
+			else
+				$noteam = true;
+	
+	if(isset($form_state['values']['team']) || $noteam)
+		if(intval($form_state['values']['team'])>0 || $noteam)
+		{
+			$options[0] = t('Select a bookmaker');
+			if($noteam)
+			{
+				foreach($oddsavailable[$form_state['values']['bettype']] as $key => $value) 
+					$options[$key . ' - ' . $value] = $key . ' - ' . $value;
+			}
+			else
+			{
+				if($node_match->field_local_team[LANGUAGE_NONE][0]['target_id']==$form_state['values']['team'])	
+					$idtoget = 1;
+				else
+					$idtoget = 2;
+				foreach($oddsavailable[$form_state['values']['bettype']][$idtoget] as $key => $value) 
+					$options[$key . ' - ' . $value] = $key . ' - ' . $value;
+			}
+			$form['bet_container']['bookmaker'] = array(
+			   '#type' => 'select',
+			   '#title' => t('Bookmaker'),
+			   '#options' => $options,
+			   '#ajax' => array(
+			      'callback' => 'simbet_simulate_bet_callback',
+				  'wrapper' => 'form-wrapper-simbetcustom',
+			   ),
+			   '#default_value' => ''
+			);		
+		}
+
+	if(isset($form_state['values']['bookmaker']))
+		if($form_state['values']['bookmaker']!='0')
+		{
+			$form['bet_container']['submit'] = array(
+				'#type' => 'submit',
+				'#value' => t('Simulate bet'),
+				'#submit' => array('simbet_simulate_bet_submit'),
+			);
+		}
+	
+	return $form;
+}
+
+function simbet_simulate_bet_callback($form, $form_state)
+{
+	return $form['bet_container'];	
+}
+
+function simbet_simulate_bet_submit($form, $form_state)
+{
+	global $user;
+	
+	// ToDo : Validaciones
+	
+	$teamid = 0;
+	if(isset($form_state['values']['team'])) 
+		$teamid = $form_state['values']['team'];
+	
+	$bookodds = explode('-', $form_state['values']['bookmaker']);
+	
+	_simbet_create_simbet($user,$form_state['values']['match'],$bookodds[0],
+					$teamid,$form_state['values']['bettype'],$bookodds[1]);
+	
+	
+	
+}
+
 function simbet_form_alter(&$form, $form_state, $form_id) 
 {
 	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
@@ -63,14 +213,44 @@ function simbet_form_alter(&$form, $form_state, $form_id)
 				array_shift($tiptypekeys);
 				$oddsavailable 
 					= tips_tipfin_odds_library_check_odds_for_match($_GET['field_match_simbet'], $tiptypekeys);
-				dpm($oddsavailable);
+				//dpm($oddsavailable);
 					
 				// Tip type deben ser solamente los disponibles, si es tipster dejar que sean todos
-				foreach($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'] as $key => $value)
-					if(!isset($oddsavailable[$key]) && $key != '_none')
-						unset($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'][$key]);
+				//foreach($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'] as $key => $value)
+				//	if(!isset($oddsavailable[$key]) && $key != '_none')
+				//		unset($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'][$key]);
+				
+				
+				$form['field_tip_type_simbet'][LANGUAGE_NONE]['#ajax'] = array(
+					'callback' => 'simbet_form_update_selectfield',
+					'wrapper' => 'form-wrapper-simbetcustom',
+				);
+				$form['field_team_simbet'] = array(
+			       '#type' => 'select',
+			       '#title' => t('Team'),
+			       '#options' => array(
+			          0 => t('Local'),
+					  1 => t('Visitor'),
+			       ),
+			       '#ajax' => array(
+			          'callback' => 'simbet_form_update_selectfield',
+					  'wrapper' => 'form-wrapper-simbetcustom',
+			       ),
+			       '#default_value' => ''
+			   );
 				
 				// Team obtener los equipos disponibles por medio del match y solamente cuando el tip type aplique
+				// $form['field_team_simbet'] = array('#type' => 'hidden', '#value' => '');
+				$form['field_team_simbet']['#prefix'] = '<div id="form-wrapper-teamsimbetcustom">';
+				$form['field_team_simbet']['#suffix'] = '</div>';
+				
+				
+				//dpm($form_state);
+				
+				//$form['field_bookmaker_simbet'] = array('#type' => 'hidden', '#value' => '');
+				$form['field_bookmaker_simbet']['#prefix'] = '<div id="form-wrapper-bookmakersimbetcustom">';
+				$form['field_bookmaker_simbet']['#suffix'] = '</div>';
+				
 				// Esconder siempre que no sea tipster
 				
 				// Bookmaker se llena una vez que se llene tip type
@@ -82,11 +262,69 @@ function simbet_form_alter(&$form, $form_state, $form_id)
 					
 			//}
 			
-			 
-			dpm($form);
+			$form['#prefix'] = '<div id="form-wrapper-simbetcustom">';
+			$form['#suffix'] = '</div>';
+			
+			
+			//$form['field_tip_type_simbet'][LANGUAGE_NONE]['#validated'] = TRUE;
+			
+			 $form_state['rebuild'] = TRUE;
+			//dpm($form);
 			
 		}
 	}
+}
+
+
+function simbet_form_update_selectfield(&$form, &$form_state)
+{
+	$commands = array();
+	
+	//dpm('formstateajax');
+	$tiptype = $form_state['values']['field_tip_type_simbet'][LANGUAGE_NONE][0]['target_id'];
+	//$form['field_team_simbet'] = array('#type' => 'hidden', '#value' => '');
+	
+	if(in_array($tiptype, array(832,674)))
+	{
+		$form['field_team_simbet'] = array(
+	       '#type' => 'select',
+	       '#title' => t('Team'),
+	       '#options' => array(
+	          0 => t('Local'),
+			  1 => t('Visitor'),
+	       ),
+	       '#default_value' => ''
+	   );
+	   
+	}
+	
+	$form['field_team_simbet']['#prefix'] = '<div id="form-wrapper-teamsimbetcustom">';
+	$form['field_team_simbet']['#suffix'] = '</div>';
+	
+	
+	$form['field_bookmaker_simbet'] = array('#type' => 'hidden', '#value' => '');
+	
+	if(((string)$tiptype)!='')
+	{
+		$form['field_bookmaker_simbet'] = array(
+	       '#type' => 'select',
+	       '#title' => t('Bookmaker'),
+	       '#options' => array(
+	          0 => t('Bet'),
+			  1 => t('888'),
+	       ),
+	       '#default_value' => ''
+	   );	
+	}
+	
+	$form['field_bookmaker_simbet']['#prefix'] = '<div id="form-wrapper-bookmakersimbetcustom">';
+	$form['field_bookmaker_simbet']['#suffix'] = '</div>';
+	
+	
+    $form_state['rebuild'] = TRUE;
+    $commands[] = ajax_command_replace('#form-wrapper-teamsimbetcustom', drupal_render($form['field_team_simbet']));
+	$commands[] = ajax_command_replace("#form-wrapper-bookmakersimbetcustom", drupal_render($form['field_bookmaker_simbet']));
+	return array('#type' => 'ajax', '#commands' => $commands);
 }
 	
 
@@ -315,11 +553,23 @@ function simbet_close_simbets_bytype($simbet)
 		'type' => MENU_CALLBACK
     );
     
+    $items['simulate_bet'] = array(
+	    'title' => 'Simulate bet',
+	    'page callback' => 'drupal_get_form',
+	    'page arguments' => array('simbet_simulate_bet'),
+	    'access arguments' => array('make a custom simulated bet'),
+	);
+  
+  
 	return $items;
 }
 
 function simbet_permission() {
   return array(
+    'make a custom simulated bet' => array(
+      'title' => t('Can make a custom simulated bet'),
+      'description' => t('User with permissions to make a custom simulated bet .'),
+    ),
     'make a simulated bet' => array(
       'title' => t('Can make a simulated bet'),
       'description' => t('User with permissions to make a simulated bet .'),

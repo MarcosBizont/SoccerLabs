@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="01.06.2015 06:50:20" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Division A" cup="False" id="3015" sub_id="30150"><match alternate_id="" alternate_id_2="4338013" date="03.06.2015" id="" static_id="03061523403902340462" status="15:00" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="03.06.2015 06:50:17" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Division A" cup="False" id="3015" sub_id="30150"><match alternate_id="" alternate_id_2="4338013" date="03.06.2015" id="" static_id="03061523403902340462" status="15:00" time="15:00">
 <home id="2340390" name="Milevsko"></home>
 <away id="2340462" name="Tachov"></away>
 
@@ -153,7 +153,12 @@
 <away id="2340399" name="Neratovice"></away>
 
 
-</match></league><league country="czech" name="Czech Republic: Division C" cup="False" id="3015" sub_id="30152"><match alternate_id="4086712" alternate_id_2="4334873" date="06.06.2015" id="4204279" static_id="06061523512072340397" status="08:15" time="08:15">
+</match></league><league country="czech" name="Czech Republic: Division C" cup="False" id="3015" sub_id="30152"><match alternate_id="4086710" alternate_id_2="4337372" date="05.06.2015" id="4204277" static_id="05061523538322349648" status="15:30" time="15:30">
+<home id="2353832" name="Vysoké Mýto"></home>
+<away id="2349648" name="Trutnov"></away>
+
+
+</match><match alternate_id="4086712" alternate_id_2="4334873" date="06.06.2015" id="4204279" static_id="06061523512072340397" status="08:15" time="08:15">
 <home id="2351207" name="Pardubice B"></home>
 <away id="2340397" name="Nachod"></away>
 
@@ -186,11 +191,6 @@
 </match><match alternate_id="4086706" alternate_id_2="4337371" date="07.06.2015" id="4204273" static_id="07061523553922340339" status="15:00" time="15:00">
 <home id="2355392" name="Benatky"></home>
 <away id="2340339" name="Dvur Kralove"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4337372" date="07.06.2015" id="" static_id="07061523538322349648" status="15:30" time="15:30">
-<home id="2353832" name="Vysoké Mýto"></home>
-<away id="2349648" name="Trutnov"></away>
 
 
 </match><match alternate_id="4086714" alternate_id_2="4337373" date="10.06.2015" id="4204281" static_id="10061523403392340368" status="15:00" time="15:00">
@@ -248,11 +248,6 @@
 <away id="2340421" name="Hodonin"></away>
 
 
-</match><match alternate_id="4015489" alternate_id_2="4122468" date="06.06.2015" id="4133109" static_id="06061523404062349730" status="14:30" time="14:30">
-<home id="2340406" name="Pelhrimov"></home>
-<away id="2349730" name="Tasovice"></away>
-
-
 </match><match alternate_id="4015484" alternate_id_2="4122423" date="06.06.2015" id="4133104" static_id="06061523404422355295" status="14:30" time="14:30">
 <home id="2340442" name="Rosice"></home>
 <away id="2355295" name="Havlickuv Brod"></away>
@@ -266,6 +261,11 @@
 </match><match alternate_id="4015483" alternate_id_2="4122425" date="07.06.2015" id="4133103" static_id="07061523404802340481" status="08:15" time="08:15">
 <home id="2340480" name="Velke Mezirici"></home>
 <away id="2340481" name="Otrokovice"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4122468" date="07.06.2015" id="" static_id="07061523404062349730" status="14:30" time="14:30">
+<home id="2340406" name="Pelhrimov"></home>
+<away id="2349730" name="Tasovice"></away>
 
 
 </match><match alternate_id="4015488" alternate_id_2="4122447" date="07.06.2015" id="4133108" static_id="07061523538362352602" status="14:30" time="14:30">
@@ -328,24 +328,24 @@
 <away id="2340477" name="Valasske Mezirici"></away>
 
 
-</match><match alternate_id="4015697" alternate_id_2="4334902" date="06.06.2015" id="4133317" static_id="06061523499732349732" status="14:30" time="14:30">
-<home id="2349973" name="Novy Jicin"></home>
-<away id="2349732" name="Liskovec"></away>
-
-
 </match><match alternate_id="3953551" alternate_id_2="4334879" date="06.06.2015" id="4071247" static_id="06061523498072340361" status="14:30" time="14:30">
 <home id="2349807" name="Petrovice"></home>
 <away id="2340361" name="Hranice"></away>
 
 
-</match><match alternate_id="4015695" alternate_id_2="4337390" date="07.06.2015" id="4133315" static_id="07061523403182340479" status="08:15" time="08:15">
+</match><match alternate_id="4015694" alternate_id_2="4337391" date="07.06.2015" id="4133314" static_id="07061523403502355293" status="08:15" time="08:15">
+<home id="2340350" name="Havirov"></home>
+<away id="2355293" name="Kozlovice"></away>
+
+
+</match><match alternate_id="4015695" alternate_id_2="4337390" date="07.06.2015" id="4133315" static_id="07061523403182340479" status="14:30" time="14:30">
 <home id="2340318" name="Brumov"></home>
 <away id="2340479" name="Velke Karlovice"></away>
 
 
-</match><match alternate_id="4015694" alternate_id_2="4337391" date="07.06.2015" id="4133314" static_id="07061523403502355293" status="08:15" time="08:15">
-<home id="2340350" name="Havirov"></home>
-<away id="2355293" name="Kozlovice"></away>
+</match><match alternate_id="" alternate_id_2="4334902" date="07.06.2015" id="" static_id="07061523499732349732" status="14:30" time="14:30">
+<home id="2349973" name="Novy Jicin"></home>
+<away id="2349732" name="Liskovec"></away>
 
 
 </match><match alternate_id="4015696" alternate_id_2="4337392" date="07.06.2015" id="4133316" static_id="07061523540432340366" status="14:30" time="14:30">
@@ -393,24 +393,9 @@
 <away id="2354043" name="Urcice"></away>
 
 
-</match></league><league country="czech" name="Czech Republic: Youth League" cup="False" id="4087" sub_id="40870"><match alternate_id="" alternate_id_2="4335067" date="01.06.2015" id="" static_id="01061523403112355905" status="11:00" time="11:00">
-<home id="2340311" name="Bohemians 1905 U21"></home>
-<away id="2355905" name="Jablonec U21"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4335068" date="01.06.2015" id="" static_id="01061523559082355915" status="11:00" time="11:00">
-<home id="2355908" name="Liberec U21"></home>
-<away id="2355915" name="Slavia Prague U21"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4335069" date="01.06.2015" id="" static_id="01061523559162355903" status="11:00" time="11:00">
-<home id="2355916" name="Pribram U21"></home>
-<away id="2355903" name="Varnsdorf U21"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4335070" date="01.06.2015" id="" static_id="01061523559102355900" status="13:00" time="13:00">
-<home id="2355910" name="Hradec Kralove U21"></home>
-<away id="2355900" name="Ceske Budejovice U21"></away>
+</match></league><league country="czech" name="Czech Republic: Super Cup" cup="True" id="3454" sub_id=""><match alternate_id="" alternate_id_2="4338471" date="18.07.2015" id="" static_id="18071523404822340440" status="16:00" time="16:00">
+<home id="2340482" name="Plzen"></home>
+<away id="2340440" name="Liberec"></away>
 
 
 </match></league></fixtures>
