@@ -5,6 +5,11 @@ function sevenmag_preprocess_html(&$variables) {
 	//drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic', array('type' => 'external'));
 	
 	
+	if (isset($_GET['as_iframe']) && $_GET['as_iframe'] == 1) {
+		$variables['theme_hook_suggestions'][] = 'html__popup_iframe';
+	}
+	
+	
 	drupal_add_css(base_path().path_to_theme().'/css/symple_shortcodes_styles.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/style.css', array('type' => 'external'));
 	
@@ -59,6 +64,9 @@ function sevenmag_preprocess_page(&$vars) {
 	
 	if (isset($vars['node'])) {  
 		$vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type;
+	}
+	if (isset($_GET['as_iframe']) && $_GET['as_iframe'] == 1) {
+		$vars['theme_hook_suggestions'][] = 'page__popup_iframe';
 	}
 	
 	//404 page

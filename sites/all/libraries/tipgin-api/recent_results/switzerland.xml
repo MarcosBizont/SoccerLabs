@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:15" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="4002851" alternate_id_2="4332918" date="29.05.2015" id="4120473" static_id="29051523484352348612" status="FT" time="18:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:14" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="4002851" alternate_id_2="4332918" date="29.05.2015" id="4120473" static_id="29051523484352348612" status="FT" time="18:30">
 <home goals="3" id="2348435" name="Aarau"></home>
 <away goals="2" id="2348612" name="Thun"></away>
 <events>
@@ -525,7 +525,19 @@
 <event id="22303298" minute="68" player="G. Taipi" playerid="2527499" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="switzerland" name="Switzerland: Swiss Cup" cup="True" id="3242" sub_id="32420"><match alternate_id="4114338" alternate_id_2="4315995" date="08.04.2015" id="4231886" static_id="08041523486072348442" status="FT" time="18:15">
+</match></league><league country="switzerland" name="Switzerland: Swiss Cup" cup="True" id="3242" sub_id="32420"><match alternate_id="4120167" alternate_id_2="4323862" date="07.06.2015" id="4237711" static_id="07061523484422348604" status="FT" time="12:00">
+<home goals="0" id="2348442" name="Basel"></home>
+<away goals="3" id="2348604" name="Sion"></away>
+<events>
+<event id="22252124" minute="18" player="M. Konate" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22252125" minute="46" player="S. Gashi" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22252126" minute="50" player="F. Edimilson" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22252127" minute="60" player="Carlitos" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22252128" minute="64" player="F. Frei" playerid="2373231" result="" team="home" type="yellowcard"></event>
+<event id="22252129" minute="70" player="E. Zverotic" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4114338" alternate_id_2="4315995" date="08.04.2015" id="4231886" static_id="08041523486072348442" status="FT" time="18:15">
 <home goals="1" id="2348607" name="St. Gallen"></home>
 <away goals="3" id="2348442" name="Basel"></away>
 <events>
@@ -715,15 +727,4 @@
 <event id="21682286" minute="95" player="A. Chermiti" playerid="2352745" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4049333" alternate_id_2="4266886" date="21.09.2014" id="4166944" static_id="21091423486212348442" status="FT" time="12:00">
-<home goals="0" id="2348621" name="Winterthur"></home>
-<away goals="4" id="2348442" name="Basel"></away>
-<events>
-<event id="21682364" minute="32" player="M. Elneny" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21682365" minute="36" player="B. Embolo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21682366" minute="42" player="B. Embolo" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21682367" minute="67" player="B. Embolo" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="21682368" minute="71" player="D. Iapichino" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-3]"></ht>
 </match></league></recent_results>

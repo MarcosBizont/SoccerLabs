@@ -1,13 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:07" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League - Relegation" cup="False" id="3290" sub_id=""><match alternate_id="" alternate_id_2="4338453" date="03.06.2015" id="" static_id="03061523538482346670" status="15:30" time="15:30">
-<home goals="?" id="2353848" name="Tosno"></home>
-<away goals="?" id="2346670" name="FK Rostov"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4338452" date="03.06.2015" id="" static_id="03061523467662346772" status="13:00" time="13:00">
-<home goals="?" id="2346766" name="Tomsk"></home>
-<away goals="?" id="2346772" name="Ural"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:07" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League - Relegation" cup="False" id="3290" sub_id=""><match alternate_id="" alternate_id_2="4338454" date="07.06.2015" id="" static_id="07061523466702353848" status="FT" time="16:00">
+<home goals="4" id="2346670" name="FK Rostov"></home>
+<away goals="1" id="2353848" name="Tosno"></away>
+<events>
+<event id="22398044" minute="6" player="S. Prokofjev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22398045" minute="39" player="V. Djakov" playerid="2459106" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22398046" minute="59" player="V. Djakov" playerid="2459106" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22398047" minute="62" player="V. Djakov (pen.)" playerid="2459106" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22398048" minute="89" player="S. Azmoun" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4338455" date="07.06.2015" id="" static_id="07061523467722346766" status="FT" time="12:00">
+<home goals="0" id="2346772" name="Ural"></home>
+<away goals="0" id="2346766" name="Tomsk"></away>
+<events>
+<event id="22398054" minute="33" player="P. Golyshev" playerid="2338403" result="" team="away" type="yellowcard"></event>
+<event id="22398055" minute="33" player="G. Acevedo" playerid="2397225" result="" team="home" type="yellowcard"></event>
+<event id="22398056" minute="62" player="Y. Bashkirov" playerid="2466486" result="" team="away" type="yellowcard"></event>
+<event id="22398057" minute="90+6" player="D. Dorozhkin" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4338453" date="03.06.2015" id="" static_id="03061523538482346670" status="FT" time="15:30">
+<home goals="0" id="2353848" name="Tosno"></home>
+<away goals="1" id="2346670" name="FK Rostov"></away>
+<events>
+<event id="22398034" minute="61" player="N. Zaicevs" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398035" minute="83" player="V. Romanenko" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398036" minute="88" player="A. Bukharov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4338452" date="03.06.2015" id="" static_id="03061523467662346772" status="FT" time="13:00">
+<home goals="0" id="2346766" name="Tomsk"></home>
+<away goals="1" id="2346772" name="Ural"></away>
+<events>
+<event id="22398024" minute="18" player="P. Nemov" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398025" minute="28" player="N. Markov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398026" minute="75" player="S. Bendz" playerid="2338450" result="" team="home" type="yellowcard"></event>
+<event id="22398027" minute="83" player="A. Stavpets" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="4079264" alternate_id_2="4333419" date="30.05.2015" id="4196859" static_id="30051523466362346660" status="FT" time="10:30">
 <home goals="1" id="2346636" name="Dynamo Moscow"></home>
 <away goals="1" id="2346660" name="Krasnodar"></away>

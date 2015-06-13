@@ -15,12 +15,16 @@ function simbet_cronapi() {
 
 function simbet_simulate_bet($form, &$form_state) 
 {
+	if(!simbet_user_isvalid()) return '';
+	
 	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
 	
 	$idmatch = 0;
 	if(isset($_GET['field_match_simbet'])) $idmatch = intval($_GET['field_match_simbet']);
 	if(isset($form_state['values']['match'])) $idmatch = intval($form_state['values']['match']);
 	if($idmatch==0) return '';
+	
+	if(!simbet_bet_isvalid_pre($idmatch)) return '';
 	
 	$node_match = node_load($idmatch);
 	
@@ -41,6 +45,7 @@ function simbet_simulate_bet($form, &$form_state)
 	foreach($result as &$term) 
 	{
 		$term = taxonomy_term_load($term->tid);
+		$term = i18n_taxonomy_localize_terms($term);
 		$optionstoallow[$term->tid] = $term->name;
 	}
 	
@@ -146,17 +151,26 @@ function simbet_simulate_bet_callback($form, $form_state)
 function simbet_simulate_bet_submit($form, $form_state)
 {
 	global $user;
-	
-	// ToDo : Validaciones
-	
 	$teamid = 0;
 	if(isset($form_state['values']['team'])) 
 		$teamid = $form_state['values']['team'];
 	
 	$bookodds = explode('-', $form_state['values']['bookmaker']);
 	
-	_simbet_create_simbet($user,$form_state['values']['match'],$bookodds[0],
+	$message = '';
+	if(!simbet_bet_isvalid($form_state['values']['match'], $bookodds[1], $bookodds[0], $teamid, $message))
+		drupal_set_message($message, 'warning');
+	elseif(!simbet_bet_isvalid_in_confirmation($form_state['values']['match'], $bookodds[1], $bookodds[0], $teamid,
+				$form_state['values']['bettype'], $message))
+		drupal_set_message($message, 'warning');
+	else
+	{
+		drupal_set_message(t("Done! <a href='my-bets' target='_blank'>Click here</a> to check your bets"), 'status');
+		_simbet_create_simbet($user,$form_state['values']['match'],$bookodds[0],
 					$teamid,$form_state['values']['bettype'],$bookodds[1]);
+	}
+	
+	
 	
 	
 	
@@ -174,7 +188,6 @@ function simbet_form_alter(&$form, $form_state, $form_id)
 		{
 			$node_match = node_load($_GET['field_match_simbet']);
 			$form['title']['#default_value'] = 'Custom bet: ' . $node_match->title;
-			$form['title']['#access'] = FALSE;
 			
 			$query = new EntityFieldQuery();
 			$query->entityCondition('entity_type', 'taxonomy_term')
@@ -205,71 +218,6 @@ function simbet_form_alter(&$form, $form_state, $form_id)
 			$form['field_stake_simbet'][LANGUAGE_NONE][0]['value']['#options'] = array(1,2,3,4,5,6,7,8,9,10);
 			$form['field_stake_simbet'][LANGUAGE_NONE][0]['value']['#size'] = 1;
 
-			// Si no es Tipster, en este caso solo el uid == 1. En caso real todos menos los tipster
-			//if(!inplay_is_tipster())
-			//{
-				
-				$tiptypekeys = array_keys($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options']);
-				array_shift($tiptypekeys);
-				$oddsavailable 
-					= tips_tipfin_odds_library_check_odds_for_match($_GET['field_match_simbet'], $tiptypekeys);
-				//dpm($oddsavailable);
-					
-				// Tip type deben ser solamente los disponibles, si es tipster dejar que sean todos
-				//foreach($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'] as $key => $value)
-				//	if(!isset($oddsavailable[$key]) && $key != '_none')
-				//		unset($form['field_tip_type_simbet'][LANGUAGE_NONE]['#options'][$key]);
-				
-				
-				$form['field_tip_type_simbet'][LANGUAGE_NONE]['#ajax'] = array(
-					'callback' => 'simbet_form_update_selectfield',
-					'wrapper' => 'form-wrapper-simbetcustom',
-				);
-				$form['field_team_simbet'] = array(
-			       '#type' => 'select',
-			       '#title' => t('Team'),
-			       '#options' => array(
-			          0 => t('Local'),
-					  1 => t('Visitor'),
-			       ),
-			       '#ajax' => array(
-			          'callback' => 'simbet_form_update_selectfield',
-					  'wrapper' => 'form-wrapper-simbetcustom',
-			       ),
-			       '#default_value' => ''
-			   );
-				
-				// Team obtener los equipos disponibles por medio del match y solamente cuando el tip type aplique
-				// $form['field_team_simbet'] = array('#type' => 'hidden', '#value' => '');
-				$form['field_team_simbet']['#prefix'] = '<div id="form-wrapper-teamsimbetcustom">';
-				$form['field_team_simbet']['#suffix'] = '</div>';
-				
-				
-				//dpm($form_state);
-				
-				//$form['field_bookmaker_simbet'] = array('#type' => 'hidden', '#value' => '');
-				$form['field_bookmaker_simbet']['#prefix'] = '<div id="form-wrapper-bookmakersimbetcustom">';
-				$form['field_bookmaker_simbet']['#suffix'] = '</div>';
-				
-				// Esconder siempre que no sea tipster
-				
-				// Bookmaker se llena una vez que se llene tip type
-				
-				// Esconder Odds
-				$form['field_odds_simbet']['#access'] = FALSE;
-				
-				// Odds se llena automaticamente con el tip type. Modificar texto para mostrar odds
-					
-			//}
-			
-			$form['#prefix'] = '<div id="form-wrapper-simbetcustom">';
-			$form['#suffix'] = '</div>';
-			
-			
-			//$form['field_tip_type_simbet'][LANGUAGE_NONE]['#validated'] = TRUE;
-			
-			 $form_state['rebuild'] = TRUE;
-			//dpm($form);
 			
 		}
 	}
@@ -786,6 +734,21 @@ function simbet_bet_isvalid($matchid, $odds, $bookmakername,  $teamid, &$message
 	return true;
 }
 
+function simbet_bet_isvalid_pre($matchid)
+{
+	$match = node_load($matchid);
+	$match_date = new DateTime($match->field_match_date[LANGUAGE_NONE][0]['value'],new DateTimeZone('UTC'));
+	
+	$now = new DateTime('now',new DateTimeZone('UTC'));
+	$now = $now->modify('+10 minutes'); 
+	if($now >= $match_date)
+	{
+		return false;	
+	}
+	
+	return true;
+}
+
 function simbet_bet_isvalid_in_confirmation($matchid, $odds, $bookmakername,  $teamid, $tiptypeid, &$message='')
 {
 	global $user;
@@ -799,7 +762,7 @@ function simbet_bet_isvalid_in_confirmation($matchid, $odds, $bookmakername,  $t
 		
 		if(_simbet_getcount_bets_by_user_last24h($user) >= N_BETS_BY_DAY)
 		{
-			$message = t('You only can make @numbetbyday bet by day, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time', array('@numbetbyday' => N_BETS_BY_DAY));
+			$message = t('You only can make @numbetbyday bet by day, please consider <a target="_blank" href="/en/be-member">be a member</a> and enjoy all the fun all the time', array('@numbetbyday' => N_BETS_BY_DAY));
 			return false;
 		}
 	}
@@ -849,4 +812,83 @@ function _simbet_getcount_bets_by_user_last24h($user)
 	return $query->count()->execute();
 	
 	
+}
+
+function _simbet_getyield_by_user($user)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->propertyCondition('uid', $user->uid);
+	
+	
+	$balance = 0;
+	$numbets = 0;
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$betsids = array_keys($result['node']);
+		foreach($betsids as $idbet)
+		{
+			$simbet = node_load($idbet);
+			$odds = $simbet->field_odds_simbet[LANGUAGE_NONE][0]['value'];
+			$stake = $simbet->field_stake_simbet[LANGUAGE_NONE][0]['value'];
+			
+			if ( $simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] == 1 )
+			{ 
+				$numbets += 1;
+				$balance += (($odds*$stake)-$stake);
+			}
+			if ( $simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] == 2 ) 
+			{
+				$numbets += 1;
+				$balance -= $stake;
+			}
+		}
+	}
+	return ($balance/$numbets)*100;	
+}
+
+function _simbet_getnumbets_by_user($user)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->propertyCondition('uid', $user->uid)
+		  ->fieldCondition('field_win_simbet', 'value', array(1,2), 'IN');
+	
+	
+	return $query->count()->execute();
+	
+}
+
+function _simbet_getbalance_by_user($user)
+{
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->propertyCondition('uid', $user->uid);
+	
+	
+	$balance = 0;
+	$result = $query->execute();
+	if (isset($result['node'])) 
+	{
+		$betsids = array_keys($result['node']);
+		foreach($betsids as $idbet)
+		{
+			$simbet = node_load($idbet);
+			$odds = $simbet->field_odds_simbet[LANGUAGE_NONE][0]['value'];
+			$stake = $simbet->field_stake_simbet[LANGUAGE_NONE][0]['value'];
+			
+			if ( $simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] == 1 ) 
+				$balance += (($odds*$stake)-$stake);
+			if ( $simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] == 2 ) 
+				$balance -= $stake;
+		}
+	}
+	return $balance;	
 }

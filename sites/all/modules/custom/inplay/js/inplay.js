@@ -391,7 +391,9 @@
 		}
 	}	
 	
-	$("#edit-competition").chosen().change(function()
+	$("#edit-competition").multipleSelect({
+            filter: true
+        }).addClass('selectfullwidth').change(function()
 	{
 		var data_to_send = new Object();
 		data_to_send.data_to_send = $(this).val();

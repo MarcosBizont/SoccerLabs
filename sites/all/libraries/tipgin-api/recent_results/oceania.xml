@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:02" sport="soccer" country="oceania"><league country="oceania" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:01" sport="soccer" country="oceania"><league country="oceania" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
 <home goals="1" id="2342078" name="Germany"></home>
 <away goals="0" id="2337719" name="Argentina"></away>
 <events>
 <event id="19098134" minute="29" player="Schweinsteiger B." playerid="2331868" result="" team="home" type="yellowcard"></event>
-<event id="19098135" minute="32" player="Schurrle A.Kramer C." playerid="" result="" team="home" type=""></event>
+<event id="19098135" minute="32" player="Schurrle A.Kramer Ch." playerid="" result="" team="home" type=""></event>
 <event id="19098136" minute="33" player="Howedes B." playerid="2347947" result="" team="home" type="yellowcard"></event>
 <event id="19098137" minute="46" player="Agüero S.Lavezzi E." playerid="" result="" team="away" type=""></event>
 <event id="19098138" minute="64" player="Mascherano J." playerid="2331946" result="" team="away" type="yellowcard"></event>
@@ -11,7 +11,7 @@
 <event id="19098140" minute="78" player="Palacio R.Higuain G." playerid="" result="" team="away" type=""></event>
 <event id="19098141" minute="86" player="Gago F.Perez E." playerid="" result="" team="away" type=""></event>
 <event id="19098142" minute="88" player="Götze M.Klose M." playerid="" result="" team="home" type=""></event>
-<event id="169994843" minute="113" player="Götze M. (Schurrle A.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="169994843" minute="113" player="Götze M.(Schurrle A.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="169994844" minute="120" player="Mertesacker P.Ozil M." playerid="" result="" team="home" type=""></event>
 </events>
 <ht score="[0-0]"></ht>
@@ -69,7 +69,7 @@
 <event id="168938545" minute="69" player="WillianFred" playerid="" result="" team="home" type=""></event>
 <event id="168938546" minute="76" player="Draxler J.Khedira S." playerid="" result="" team="away" type=""></event>
 <event id="168938547" minute="79" player="(Müller T.) Schurrle A." playerid="" result="[0 - 7]" team="away" type="goal"></event>
-<event id="168938548" minute="90" player="Oscar (Marcelo)" playerid="" result="[1 - 7]" team="home" type="goal"></event>
+<event id="168938548" minute="90" player="Oscar(Marcelo)" playerid="" result="[1 - 7]" team="home" type="goal"></event>
 </events>
 <ht score="[0-5]"></ht>
 </match><match alternate_id="3993179" alternate_id_2="4121915" date="05.07.2014" id="4110801" static_id="05071423450022340015" status="Pen." time="20:00">
@@ -95,23 +95,13 @@
 <home goals="1" id="2337719" name="Argentina"></home>
 <away goals="0" id="2338570" name="Belgium"></away>
 <events>
-<event id="18986854" minute="8" player="Higuain G." playerid="2337107" result="[1 - 0]" team="home" type="goal"></event>
-<event id="18986855" minute="33" player="Perez E.Di Maria A." playerid="" result="" team="home" type=""></event>
-<event id="18986856" minute="53" player="Hazard E." playerid="2371191" result="" team="away" type="yellowcard"></event>
-<event id="18986857" minute="59" player="Lukaku R.Origi D." playerid="" result="" team="away" type=""></event>
-<event id="18986858" minute="60" player="Mertens D.Mirallas K." playerid="" result="" team="away" type=""></event>
-<event id="18986859" minute="68" player="Alderweireld T." playerid="2402341" result="" team="away" type="yellowcard"></event>
-<event id="18986860" minute="71" player="Palacio R.Lavezzi E." playerid="" result="" team="home" type=""></event>
-<event id="18986861" minute="75" player="Biglia L." playerid="" result="" team="home" type="yellowcard"></event>
-<event id="18986862" minute="75" player="Chadli N.Hazard E." playerid="" result="" team="away" type=""></event>
-<event id="168882043" minute="81" player="Gago F.Higuain G." playerid="" result="" team="home" type=""></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="3990426" alternate_id_2="4121776" date="04.07.2014" id="4108048" static_id="04071423389172339950" status="FT" time="20:00">
 <home goals="2" id="2338917" name="Brazil"></home>
 <away goals="1" id="2339950" name="Colombia"></away>
 <events>
-<event id="18917764" minute="7" player="Silva T. (Neymar)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="18917764" minute="7" player="Silva T.(Neymar)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="18917765" minute="46" player="Ramos A.Ibarbo V." playerid="" result="" team="away" type=""></event>
 <event id="18917766" minute="64" player="Silva T." playerid="2340969" result="" team="home" type="yellowcard"></event>
 <event id="18917767" minute="67" player="Rodriguez J." playerid="2404241" result="" team="away" type="yellowcard"></event>
@@ -130,15 +120,6 @@
 <home goals="0" id="2341648" name="France"></home>
 <away goals="1" id="2342078" name="Germany"></away>
 <events>
-<event id="18969164" minute="13" player="(Kroos T.) Hummels M." playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="18969165" minute="54" player="Khedira S." playerid="2336352" result="" team="away" type="yellowcard"></event>
-<event id="18969166" minute="69" player="Schurrle A.Klose M." playerid="" result="" team="away" type=""></event>
-<event id="18969167" minute="72" player="Koscielny L.Sakho M." playerid="" result="" team="home" type=""></event>
-<event id="18969168" minute="73" player="Remy L.Cabaye Y." playerid="" result="" team="home" type=""></event>
-<event id="18969169" minute="80" player="Schweinsteiger B." playerid="2331868" result="" team="away" type="yellowcard"></event>
-<event id="18969170" minute="83" player="Götze M.Ozil M." playerid="" result="" team="away" type=""></event>
-<event id="18969171" minute="85" player="Giroud O.Valbuena M." playerid="" result="" team="home" type=""></event>
-<event id="18969172" minute="90+2" player="Kramer C.Kroos T." playerid="" result="" team="away" type=""></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="3980985" alternate_id_2="4121444" date="01.07.2014" id="4098618" static_id="01071423385702349090" status="AET" time="20:00">
@@ -152,7 +133,7 @@
 <event id="18823358" minute="72" player="Wondolowski C.Zusi G." playerid="" result="" team="away" type=""></event>
 <event id="18823359" minute="91" player="Lukaku R.Origi D." playerid="" result="" team="home" type=""></event>
 <event id="18823360" minute="93" player="de Bruyne K." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="18823361" minute="105" player="Lukaku R. (de Bruyne K.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="18823361" minute="105" player="Lukaku R.(de Bruyne K.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="18823362" minute="105+2" player="Green J.Bedoya A." playerid="" result="" team="away" type=""></event>
 <event id="167247043" minute="107" player="(Bradley M.) Green J." playerid="" result="[2 - 1]" team="away" type="goal"></event>
 <event id="167247044" minute="111" player="Chadli N.Hazard E." playerid="" result="" team="home" type=""></event>
@@ -167,11 +148,11 @@
 <event id="18776686" minute="73" player="Fernandes G." playerid="2343279" result="" team="away" type="yellowcard"></event>
 <event id="18776687" minute="74" player="Palacio R.Lavezzi E." playerid="" result="" team="home" type=""></event>
 <event id="18776688" minute="82" player="Seferovic H.Drmic J." playerid="" result="" team="away" type=""></event>
-<event id="18776689" minute="90" player="Rojo M." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="18776689" minute="90" player="Rojo M." playerid="2400772" result="" team="home" type="yellowcard"></event>
 <event id="18776690" minute="105+1" player="Basanta J.Rojo M." playerid="" result="" team="home" type=""></event>
 <event id="18776691" minute="106" player="Biglia L.Gago F." playerid="" result="" team="home" type=""></event>
 <event id="18776692" minute="113" player="Dzemaili B.Mehmedi A." playerid="" result="" team="away" type=""></event>
-<event id="166780343" minute="118" player="Di Maria A. (Messi L.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="166780343" minute="118" player="Di Maria A.(Messi L.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="166780344" minute="120" player="Di Maria A." playerid="2348412" result="" team="home" type="yellowcard"></event>
 <event id="166780345" minute="120+4" player="Garay E." playerid="" result="" team="home" type="yellowcard"></event>
 </events>
@@ -184,11 +165,11 @@
 <event id="18823345" minute="46" player="Schurrle A.Götze M." playerid="" result="" team="home" type=""></event>
 <event id="18823346" minute="70" player="Khedira S.Mustafi S." playerid="" result="" team="home" type=""></event>
 <event id="18823347" minute="78" player="Brahimi Y.Taider S." playerid="" result="" team="away" type=""></event>
-<event id="18823348" minute="92" player="Schurrle A. (Müller T.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="18823348" minute="92" player="Schurrle A.(Müller T.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="18823349" minute="97" player="Bougherra M.Halliche R." playerid="" result="" team="away" type=""></event>
 <event id="18823350" minute="100" player="Djabou A.Soudani El A." playerid="" result="" team="away" type=""></event>
 <event id="18823351" minute="107" player="Lahm P." playerid="2331847" result="" team="home" type="yellowcard"></event>
-<event id="18823352" minute="109" player="Kramer C.Schweinsteiger B." playerid="" result="" team="home" type=""></event>
+<event id="18823352" minute="109" player="Kramer Ch.Schweinsteiger B." playerid="" result="" team="home" type=""></event>
 <event id="167246943" minute="120" player="Ozil M." playerid="2333819" result="[2 - 0]" team="home" type="goal"></event>
 <event id="167246944" minute="120+1" player="(Feghouli S.) Djabou A." playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
@@ -213,8 +194,8 @@
 <event id="18737464" minute="36" player="Samaris A." playerid="" result="" team="away" type="yellowcard"></event>
 <event id="18737465" minute="42" player="Duarte O." playerid="2374504" result="" team="home" type="yellowcard"></event>
 <event id="18737466" minute="48" player="Tejeda Y." playerid="" result="" team="home" type="yellowcard"></event>
-<event id="18737467" minute="52" player="Ruiz B. (Bolanos C.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="18737468" minute="57" player="Granados O. (Not on pitch)" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="18737467" minute="52" player="Ruiz B.(Bolanos C.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="18737468" minute="57" player="Granados O.(Not on pitch)" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="18737469" minute="58" player="Mitroglou K.Samaris A." playerid="" result="" team="away" type=""></event>
 <event id="18737470" minute="66" player="Cubero J.Tejeda Y." playerid="" result="" team="home" type=""></event>
 <event id="18737471" minute="66" player="Duarte O." playerid="2374504" result="" team="home" type="yellowred"></event>
@@ -241,7 +222,7 @@
 <event id="18734899" minute="69" player="Aguilar P." playerid="2346183" result="" team="away" type="yellowcard"></event>
 <event id="18734900" minute="75" player="Hernandez J.Peralta O." playerid="" result="" team="away" type=""></event>
 <event id="18734901" minute="76" player="Huntelaar K.van Persie R." playerid="" result="" team="home" type=""></event>
-<event id="18734902" minute="88" player="Sneijder W. (Huntelaar K.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="18734902" minute="88" player="Sneijder W.(Huntelaar K.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="166362443" minute="90+2" player="Marquez R." playerid="2332249" result="" team="away" type="yellowcard"></event>
 <event id="166362444" minute="90+3" player="Guardado A." playerid="2332258" result="" team="away" type="yellowcard"></event>
 <event id="166362445" minute="90+4" player="Huntelaar K. (pen.)" playerid="2334012" result="[2 - 1]" team="home" type="goal"></event>
@@ -251,14 +232,14 @@
 <home goals="2" id="2339950" name="Colombia"></home>
 <away goals="0" id="2349245" name="Uruguay"></away>
 <events>
-<event id="18737454" minute="28" player="Rodriguez J. (Aguilar A.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="18737455" minute="50" player="Rodriguez J. (Cuadrado J.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="18737454" minute="28" player="Rodriguez J.(Aguilar A.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="18737455" minute="50" player="Rodriguez J.(Cuadrado J.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="18737456" minute="53" player="Stuani C.Forlan D." playerid="" result="" team="away" type=""></event>
 <event id="18737457" minute="53" player="Ramirez G.Pereira A." playerid="" result="" team="away" type=""></event>
 <event id="18737458" minute="55" player="Gimenez J. M." playerid="" result="" team="away" type="yellowcard"></event>
 <event id="18737459" minute="67" player="Hernandez A.Gonzalez A." playerid="" result="" team="away" type=""></event>
 <event id="18737460" minute="68" player="Mejia A.Gutierrez T." playerid="" result="" team="home" type=""></event>
-<event id="18737461" minute="77" player="(Not on pitch) Lugano D." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="18737461" minute="77" player="(Not on pitch)Lugano D." playerid="" result="" team="away" type="yellowcard"></event>
 <event id="18737462" minute="78" player="Armero P." playerid="2354206" result="" team="home" type="yellowcard"></event>
 <event id="166388043" minute="81" player="Guarin F.Cuadrado J." playerid="" result="" team="home" type=""></event>
 <event id="166388044" minute="85" player="Ramos A.Rodriguez J." playerid="" result="" team="home" type=""></event>
@@ -295,14 +276,14 @@
 <event id="17458246" minute="46" player="Denisov I.Glushakov D." playerid="" result="" team="away" type=""></event>
 <event id="17458247" minute="57" player="Kombarov D." playerid="2338269" result="" team="away" type="yellowcard"></event>
 <event id="17458248" minute="59" player="Kozlov A." playerid="2338346" result="" team="away" type="yellowcard"></event>
-<event id="17458249" minute="60" player="Slimani I. (Brahimi Y.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="17458249" minute="60" player="Slimani I.(Brahimi Y.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="17458250" minute="67" player="Dzagoev A.Shatov O." playerid="" result="" team="away" type=""></event>
 <event id="17458251" minute="71" player="Yebda H.Brahimi Y." playerid="" result="" team="home" type=""></event>
 <event id="17458252" minute="77" player="Ghilas N.Djabou A." playerid="" result="" team="home" type=""></event>
 <event id="153595943" minute="81" player="Kanunnikov M.Kerzhakov A." playerid="" result="" team="away" type=""></event>
 <event id="153595944" minute="87" player="Ghilas N." playerid="" result="" team="home" type="yellowcard"></event>
 <event id="153595945" minute="90" player="Soudani El A.Slimani I." playerid="" result="" team="home" type=""></event>
-<event id="153595946" minute="90+2" player="Cadamuro L. (Not on pitch)" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="153595946" minute="90+2" player="Cadamuro L.(Not on pitch)" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="3844475" alternate_id_2="4013815" date="26.06.2014" id="3844475" static_id="26061423441362338570" status="FT" time="20:00">
@@ -389,16 +370,16 @@
 <home goals="3" id="2338833" name="Bosnia and Herzegovina"></home>
 <away goals="1" id="2343275" name="Iran"></away>
 <events>
-<event id="17458194" minute="23" player="Dzeko E. (Pjanic M.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="17458194" minute="23" player="Dzeko E.(Pjanic M.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="17458195" minute="46" player="Heydari K.Shojaei M." playerid="" result="" team="away" type=""></event>
-<event id="17458196" minute="59" player="Pjanic M. (Susic T.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="17458196" minute="59" player="Pjanic M.(Susic T.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="17458197" minute="61" player="Vranjes O.Hadzic A." playerid="" result="" team="home" type=""></event>
 <event id="17458198" minute="63" player="Jahanbakhsh A.Hajsafi E." playerid="" result="" team="away" type=""></event>
 <event id="17458199" minute="68" player="Ansarifard K.Dejagah A." playerid="" result="" team="away" type=""></event>
 <event id="17458200" minute="77" player="Besic M." playerid="" result="" team="home" type="yellowcard"></event>
 <event id="17458201" minute="79" player="Salihovic S.Susic T." playerid="" result="" team="home" type=""></event>
 <event id="17458202" minute="82" player="(Nekounam J.) Ghoochannejhad R." playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="153595443" minute="83" player="Vrsajevic A. (Salihovic S.)" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="153595443" minute="83" player="Vrsajevic A.(Salihovic S.)" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 <event id="153595444" minute="84" player="Visca E.Dzeko E." playerid="" result="" team="home" type=""></event>
 <event id="153595445" minute="88" player="Ansarifard K." playerid="2379243" result="" team="away" type="yellowcard"></event>
 </events>
@@ -408,10 +389,10 @@
 <away goals="3" id="2337719" name="Argentina"></away>
 <events>
 <event id="17458184" minute="3" player="Messi L." playerid="2331952" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17458185" minute="4" player="Musa A. (Babatunde M.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="17458185" minute="4" player="Musa A.(Babatunde M.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="17458186" minute="38" player="Lavezzi E.Agüero S." playerid="" result="" team="away" type=""></event>
 <event id="17458187" minute="45+1" player="Messi L." playerid="2331952" result="[1 - 2]" team="away" type="goal"></event>
-<event id="17458188" minute="47" player="Musa A. (Emenike E.)" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="17458188" minute="47" player="Musa A.(Emenike E.)" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 <event id="17458189" minute="49" player="Omeruo K." playerid="" result="" team="home" type="yellowcard"></event>
 <event id="17458190" minute="50" player="Rojo M." playerid="2400772" result="[2 - 3]" team="away" type="goal"></event>
 <event id="17458191" minute="51" player="Oshaniwa J." playerid="" result="" team="home" type="yellowcard"></event>
@@ -428,7 +409,7 @@
 <event id="17458174" minute="12" player="Samaris A.Kone P." playerid="" result="" team="home" type=""></event>
 <event id="17458175" minute="24" player="Glikos P.Karnezis O." playerid="" result="" team="home" type=""></event>
 <event id="17458176" minute="37" player="Drogba D." playerid="2332143" result="" team="away" type="yellowcard"></event>
-<event id="17458177" minute="42" player="Samaris A. (Samaras G.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="17458177" minute="42" player="Samaris A.(Samaras G.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="17458178" minute="61" player="Bony W.Tiote I." playerid="" result="" team="away" type=""></event>
 <event id="17458179" minute="62" player="Kalou S." playerid="2334373" result="" team="away" type="yellowcard"></event>
 <event id="17458180" minute="70" player="Die S." playerid="" result="" team="away" type="yellowcard"></event>
@@ -445,7 +426,7 @@
 <events>
 <event id="17458164" minute="16" player="Konno Y." playerid="2337377" result="" team="home" type="yellowcard"></event>
 <event id="17458165" minute="17" player="Cuadrado J. (pen.)" playerid="2393247" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17458166" minute="45+1" player="Okazaki S. (Honda K.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="17458166" minute="45+1" player="Okazaki S.(Honda K.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="17458167" minute="46" player="Carbonero C.Cuadrado J." playerid="" result="" team="away" type=""></event>
 <event id="17458168" minute="46" player="Rodriguez J.Quintero J." playerid="" result="" team="away" type=""></event>
 <event id="17458169" minute="55" player="(Rodriguez J.) Martinez J." playerid="" result="[1 - 2]" team="away" type="goal"></event>
@@ -497,7 +478,7 @@
 <events>
 <event id="17458124" minute="11" player="Enoh E." playerid="2389588" result="" team="home" type="yellowcard"></event>
 <event id="17458125" minute="17" player="(Gustavo L.) Neymar" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17458126" minute="26" player="Matip J. (Nyom A.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="17458126" minute="26" player="Matip J.(Nyom A.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="17458127" minute="35" player="(Marcelo) Neymar" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 <event id="17458128" minute="46" player="FernandinhoPaulinho" playerid="" result="" team="away" type=""></event>
 <event id="17458129" minute="49" player="(Luiz D.) Fred" playerid="" result="[1 - 3]" team="away" type="goal"></event>
@@ -527,7 +508,7 @@
 <event id="153594843" minute="79" player="Peña C.Peralta O." playerid="" result="" team="away" type=""></event>
 <event id="153594844" minute="82" player="(Marquez R.) Hernandez J." playerid="" result="[0 - 3]" team="away" type="goal"></event>
 <event id="153594845" minute="84" player="Fabian M.Guardado A." playerid="" result="" team="away" type=""></event>
-<event id="153594846" minute="87" player="Perisic I. (Rakitic I.)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="153594846" minute="87" player="Perisic I.(Rakitic I.)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
 <event id="153594847" minute="89" player="Rebic A." playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
@@ -559,10 +540,10 @@
 <event id="17458117" minute="69" player="Depay M.Lens J." playerid="" result="" team="home" type=""></event>
 <event id="17458118" minute="70" player="Valdivia J.Silva F." playerid="" result="" team="away" type=""></event>
 <event id="17458119" minute="75" player="Fer L.Sneijder W." playerid="" result="" team="home" type=""></event>
-<event id="17458120" minute="77" player="Fer L. (Janmaat D.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="17458120" minute="77" player="Fer L.(Janmaat D.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="17458121" minute="81" player="Pinilla M.Vargas E." playerid="" result="" team="away" type=""></event>
 <event id="17458122" minute="89" player="Kongolo T.Kuyt D." playerid="" result="" team="home" type=""></event>
-<event id="153594643" minute="90+2" player="Depay M. (Robben A.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="153594643" minute="90+2" player="Depay M.(Robben A.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="3844458" alternate_id_2="4013798" date="22.06.2014" id="3551942" static_id="22061423490902346060" status="FT" time="22:00">
@@ -576,7 +557,7 @@
 <event id="17458088" minute="69" player="Varela S.Meireles R." playerid="" result="" team="away" type=""></event>
 <event id="17458089" minute="72" player="Yedlin D.Bedoya A." playerid="" result="" team="home" type=""></event>
 <event id="17458090" minute="75" player="Jones J." playerid="2333634" result="" team="home" type="yellowcard"></event>
-<event id="17458091" minute="81" player="Dempsey C. (Zusi G.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="17458091" minute="81" player="Dempsey C.(Zusi G.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="17458092" minute="87" player="Wondolowski C.Dempsey C." playerid="" result="" team="home" type=""></event>
 <event id="153594343" minute="90+1" player="Gonzalez O.Zusi G." playerid="" result="" team="home" type=""></event>
 <event id="153594344" minute="90+5" player="(Ronaldo C.) Varela S." playerid="" result="[2 - 2]" team="away" type="goal"></event>
@@ -589,14 +570,14 @@
 <event id="17458074" minute="26" player="(Medjani C.) Slimani I." playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="17458075" minute="28" player="(Djabou A.) Halliche R." playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="17458076" minute="38" player="(Slimani I.) Djabou A." playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="17458077" minute="50" player="Son Heung-Min (Ki Sung-Yong)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="17458077" minute="50" player="Son Heung-Min(Ki Sung-Yong)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
 <event id="17458078" minute="54" player="Lee Y." playerid="2408336" result="" team="home" type="yellowcard"></event>
 <event id="17458079" minute="57" player="Kim Shin-WookPark C." playerid="" result="" team="home" type=""></event>
 <event id="17458080" minute="62" player="(Feghouli S.) Brahimi Y." playerid="" result="[1 - 4]" team="away" type="goal"></event>
 <event id="17458081" minute="64" player="Lee Keun-HoLee Chung-Yong" playerid="" result="" team="home" type=""></event>
 <event id="17458082" minute="67" player="Bougherra M." playerid="2337061" result="" team="away" type="yellowcard"></event>
 <event id="153594243" minute="69" player="Han Kook-Young" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="153594244" minute="72" player="Koo Ja-Cheol (Lee Keun-Ho)" playerid="" result="[2 - 4]" team="home" type="goal"></event>
+<event id="153594244" minute="72" player="Koo Ja-Cheol(Lee Keun-Ho)" playerid="" result="[2 - 4]" team="home" type="goal"></event>
 <event id="153594245" minute="73" player="Ghilas N.Djabou A." playerid="" result="" team="away" type=""></event>
 <event id="153594246" minute="77" player="Lacen M.Brahimi Y." playerid="" result="" team="away" type=""></event>
 <event id="153594247" minute="78" player="Ji Dong-WonHan Kook-Young" playerid="" result="" team="home" type=""></event>
@@ -615,7 +596,7 @@
 <event id="17458099" minute="73" player="Alderweireld T." playerid="2402341" result="" team="home" type="yellowcard"></event>
 <event id="17458100" minute="75" player="Mirallas K.Mertens D." playerid="" result="" team="home" type=""></event>
 <event id="17458101" minute="83" player="Dzagoev A.Shatov O." playerid="" result="" team="away" type=""></event>
-<event id="17458102" minute="88" player="Origi D. (Hazard E.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="17458102" minute="88" player="Origi D.(Hazard E.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="153594443" minute="90" player="Kerzhakov A.Samedov A." playerid="" result="" team="away" type=""></event>
 </events>
 <ht score="[0-0]"></ht>
@@ -624,7 +605,7 @@
 <away goals="0" id="2338833" name="Bosnia and Herzegovina"></away>
 <events>
 <event id="17458064" minute="6" player="Medunjanin H." playerid="2334345" result="" team="away" type="yellowcard"></event>
-<event id="17458065" minute="29" player="Odemwingie P. (Emenike E.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="17458065" minute="29" player="Odemwingie P.(Emenike E.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="17458066" minute="57" player="Ibisevic V.Hajrovic I." playerid="" result="" team="away" type=""></event>
 <event id="17458067" minute="58" player="Salihovic S.Lulic S." playerid="" result="" team="away" type=""></event>
 <event id="17458068" minute="64" player="Susic T.Medunjanin H." playerid="" result="" team="away" type=""></event>

@@ -3,7 +3,7 @@
 
 if(!inplay_is_member() && !inplay_is_anonymus())
 {
-	echo "<div class='tipsforyou'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
+	echo "<div class='tipsforyou nocachesave'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
 }
 else
 {

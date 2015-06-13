@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:19" sport="soccer" country="ukraine"><league country="ukraine" name="Ukraine: Premier League" cup="False" id="3261" sub_id="32610"><match alternate_id="4019298" alternate_id_2="4333274" date="31.05.2015" id="4136917" static_id="31051523489772349017" status="Postp." time="11:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:18" sport="soccer" country="ukraine"><league country="ukraine" name="Ukraine: Premier League" cup="False" id="3261" sub_id="32610"><match alternate_id="4019298" alternate_id_2="4333274" date="31.05.2015" id="4136917" static_id="31051523489772349017" status="Cancl." time="11:00">
 <home goals="?" id="2348977" name="Ch. Odessa"></home>
 <away goals="?" id="2349017" name="Metalist Kharkiv"></away>
 <events></events>
@@ -254,46 +254,84 @@
 <event id="22302210" minute="75" player="K. Makrides" playerid="2368850" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match></league><league country="ukraine" name="Ukraine: Division 2" cup="False" id="3260" sub_id="32600"><match alternate_id="4032545" alternate_id_2="4334519" date="03.06.2015" id="4150163" static_id="03061523490002348979" status="15:00" time="15:00">
-<home goals="?" id="2349000" name="Helios"></home>
-<away goals="?" id="2348979" name="Desna"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4032548" alternate_id_2="4334474" date="03.06.2015" id="4150166" static_id="03061523490012348976" status="15:00" time="15:00">
-<home goals="?" id="2349001" name="Hirnyk Kryvyi Rih"></home>
-<away goals="?" id="2348976" name="Bukovyna"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4032550" alternate_id_2="4334502" date="03.06.2015" id="4150168" static_id="03061523490222349057" status="15:00" time="15:00">
-<home goals="?" id="2349022" name="Mykolaiv"></home>
-<away goals="?" id="2349057" name="Zirka Kirovograd"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4032552" alternate_id_2="4334493" date="03.06.2015" id="4150170" static_id="03061523490242349033" status="15:00" time="15:00">
-<home goals="?" id="2349024" name="Naftovik-Ukrnafta"></home>
-<away goals="?" id="2349033" name="FC Poltava"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4032549" alternate_id_2="4334506" date="03.06.2015" id="4150167" static_id="03061523490252348986" status="15:00" time="15:00">
-<home goals="?" id="2349025" name="Nyva Ternopil"></home>
-<away goals="?" id="2348986" name="Dynamo Kiev 2"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4032546" alternate_id_2="4337237" date="03.06.2015" id="4150164" static_id="03061523490292349046" status="15:00" time="15:00">
-<home goals="?" id="2349029" name="Oleksandriya"></home>
-<away goals="?" id="2349046" name="S. Dneprodzerzhinsk"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4337238" date="03.06.2015" id="" static_id="03061523490452349002" status="Cancl." time="15:00">
-<home goals="?" id="2349045" name="Stal Alchevsk"></home>
-<away goals="?" id="2349002" name="Hirnyk-Sport"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4032547" alternate_id_2="4334428" date="03.06.2015" id="4150165" static_id="03061523490472352833" status="15:00" time="15:00">
-<home goals="?" id="2349047" name="Sumy"></home>
-<away goals="?" id="2352833" name="Ternopil"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="ukraine" name="Ukraine: Division 2 - Relegation" cup="False" id="3260" sub_id=""><match alternate_id="" alternate_id_2="4339792" date="11.06.2015" id="" static_id="11061523490122349022" status="FT" time="14:30">
+<home goals="0" id="2349012" name="Kremin"></home>
+<away goals="1" id="2349022" name="Mykolaiv"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4339793" date="07.06.2015" id="" static_id="07061523490222349012" status="FT" time="15:00">
+<home goals="0" id="2349022" name="Mykolaiv"></home>
+<away goals="0" id="2349012" name="Kremin"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match></league><league country="ukraine" name="Ukraine: Division 2" cup="False" id="3260" sub_id="32600"><match alternate_id="4032545" alternate_id_2="4334519" date="03.06.2015" id="4150163" static_id="03061523490002348979" status="FT" time="15:00">
+<home goals="1" id="2349000" name="Helios"></home>
+<away goals="1" id="2348979" name="Desna"></away>
+<events>
+<event id="22358694" minute="50" player="Subochev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22358695" minute="56" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4032548" alternate_id_2="4334474" date="03.06.2015" id="4150166" static_id="03061523490012348976" status="FT" time="15:00">
+<home goals="1" id="2349001" name="Hirnyk Kryvyi Rih"></home>
+<away goals="0" id="2348976" name="Bukovyna"></away>
+<events>
+<event id="22358244" minute="61" player="Sitnand#1110;kov" playerid="" result="" team="away" type="redcard"></event>
+<event id="22358245" minute="62" player="Ryabov (pen.)" playerid="2410962" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4032550" alternate_id_2="4334502" date="03.06.2015" id="4150168" static_id="03061523490222349057" status="FT" time="15:00">
+<home goals="0" id="2349022" name="Mykolaiv"></home>
+<away goals="1" id="2349057" name="Zirka Kirovograd"></away>
+<events>
+<event id="22358524" minute="54" player="Loktionov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4032552" alternate_id_2="4334493" date="03.06.2015" id="4150170" static_id="03061523490242349033" status="FT" time="15:00">
+<home goals="1" id="2349024" name="Naftovik-Ukrnafta"></home>
+<away goals="1" id="2349033" name="FC Poltava"></away>
+<events>
+<event id="22358434" minute="23" player="Vovchenko" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22358435" minute="41" player="Pasich" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22358436" minute="79" player="Kravchenko" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4032549" alternate_id_2="4334506" date="03.06.2015" id="4150167" static_id="03061523490252348986" status="FT" time="15:00">
+<home goals="1" id="2349025" name="Nyva Ternopil"></home>
+<away goals="2" id="2348986" name="Dynamo Kiev 2"></away>
+<events>
+<event id="22358564" minute="58" player="Krasnomovets" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22358565" minute="61" player="Hoblenko" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22358566" minute="68" player="Hoblenko" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4032546" alternate_id_2="4337237" date="03.06.2015" id="4150164" static_id="03061523490292349046" status="FT" time="15:00">
+<home goals="0" id="2349029" name="Oleksandriya"></home>
+<away goals="0" id="2349046" name="S. Dneprodzerzhinsk"></away>
+<events>
+<event id="22385874" minute="82" player="Kravchenko" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4337238" date="03.06.2015" id="" static_id="03061523490452349002" status="Awarded" time="15:00">
+<home goals="0" id="2349045" name="Stal Alchevsk"></home>
+<away goals="0" id="2349002" name="Hirnyk-Sport"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4032547" alternate_id_2="4334428" date="03.06.2015" id="4150165" static_id="03061523490472352833" status="FT" time="15:00">
+<home goals="5" id="2349047" name="Sumy"></home>
+<away goals="1" id="2352833" name="Ternopil"></away>
+<events>
+<event id="22357784" minute="2" player="Semenets" playerid="2583701" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22357785" minute="9" player="Pand#1110;dnebennoy" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22357786" minute="16" player="Kotelyuh" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22357787" minute="25" player="Bogachov" playerid="2541668" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22357788" minute="41" player="Ermachenko" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22357789" minute="67" player="Lebedenco (pen.)" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4032544" alternate_id_2="4333393" date="30.05.2015" id="4150162" static_id="30051523489792349024" status="FT" time="15:00">
 <home goals="2" id="2348979" name="Desna"></home>
 <away goals="1" id="2349024" name="Naftovik-Ukrnafta"></away>
@@ -403,7 +441,24 @@
 <event id="22336280" minute="90" player="Batyushin" playerid="" result="[2 - 4]" team="home" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="ukraine" name="Ukraine: Ukrainian Cup" cup="True" id="3262" sub_id="32620"><match alternate_id="4120074" alternate_id_2="4324015" date="20.05.2015" id="4237618" static_id="20051523490382348983" status="FT" time="16:30">
+</match></league><league country="ukraine" name="Ukraine: Ukrainian Cup" cup="True" id="3262" sub_id="32620"><match alternate_id="4128997" alternate_id_2="4335336" date="04.06.2015" id="4246538" static_id="04061523489852349038" status="Pen." time="18:00">
+<home goals="0" id="2348985" name="Dyn. Kiev"></home>
+<away goals="0" id="2349038" name="Shakhtar"></away>
+<events>
+<event id="22366864" minute="44" player="Ilson" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366865" minute="55" player="D. Srna" playerid="2332199" result="" team="away" type="yellowcard"></event>
+<event id="22366866" minute="55" player="A. Kravets" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22366867" minute="62" player="A. Yarmolenko" playerid="2384872" result="" team="home" type="yellowcard"></event>
+<event id="22366868" minute="68" player="A. Dragovic" playerid="2367625" result="" team="home" type="yellowcard"></event>
+<event id="22366869" minute="81" player="S. Rybalka" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22366870" minute="82" player="E. Khacheridi" playerid="2416597" result="" team="home" type="yellowcard"></event>
+<event id="22366871" minute="88" player="D. Vida" playerid="2368566" result="" team="home" type="yellowcard"></event>
+<event id="22366872" minute="115" player="S. Rybalka" playerid="" result="" team="home" type="yellowred"></event>
+<event id="202682143" minute="120" player="Taison" playerid="2371382" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="5" visitorteam="4"></penalty>
+</match><match alternate_id="4120074" alternate_id_2="4324015" date="20.05.2015" id="4237618" static_id="20051523490382348983" status="FT" time="16:30">
 <home goals="1" id="2349038" name="Shakhtar"></home>
 <away goals="1" id="2348983" name="Dnipro"></away>
 <events>
@@ -611,17 +666,6 @@
 <event id="21684887" minute="87" player="N. Kalinic" playerid="2365065" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4076676" alternate_id_2="4267142" date="27.10.2014" id="4194285" static_id="27101423490382349033" status="FT" time="13:00">
-<home goals="4" id="2349038" name="Shakhtar"></home>
-<away goals="1" id="2349033" name="FC Poltava"></away>
-<events>
-<event id="21684924" minute="9" player="N. Wellington" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21684925" minute="20" player="O. Hladkyj" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21684926" minute="23" player="Bernard" playerid="2515215" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21684927" minute="38" player="Bernard" playerid="2515215" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21684928" minute="51" player="D. Korkishko" playerid="" result="[4 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[4-0]"></ht>
 </match></league><league country="ukraine" name="Ukraine: Super Cup" cup="True" id="3450" sub_id=""><match alternate_id="3997619" alternate_id_2="4118870" date="22.07.2014" id="4115241" static_id="22071423490382348985" status="FT" time="18:00">
 <home goals="2" id="2349038" name="Shakhtar"></home>
 <away goals="0" id="2348985" name="Dynamo Kiev"></away>

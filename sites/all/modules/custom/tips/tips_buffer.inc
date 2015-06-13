@@ -97,6 +97,7 @@ function tips_buffer_generate()
 					$date900am = new DateTime($date->format('Y-m-d') . ' 09:' . getRandomMinutesStr(0,20) ,new DateTimeZone('America/Mexico_City'));
 					$date900am->setTimezone(new DateTimeZone('UTC'));
 					tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date900am->getTimestamp(), '@soccer_labs');
+					//tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date900am->getTimestamp(), 'Soccer Labs');
 				}
 				
 				$date->setTimezone(new DateTimeZone('Europe/London'));
@@ -118,6 +119,7 @@ function tips_buffer_generate()
 				
 				$date = $date->modify('-15 minutes');
 				tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date->getTimestamp(), '@soccer_labs');
+				//tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date->getTimestamp(), 'Soccer Labs');
 				tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextEN($match,$texten), getImagesByMatch($match), FALSE, $date->getTimestamp(), '@soccer_labsen');
 				
 				cache_set('tips_buffer_generate_' . $match->nid, 1, 'cache', time() + (7 * 24 * 60 * 60) );	
@@ -141,6 +143,8 @@ function tips_buffer_generate()
 						
 						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowES($match,$textes), 
 									getImagesByMatch($match), TRUE, FALSE, '@soccer_labs');
+						//tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowES($match,$textes), 
+						//			getImagesByMatch($match), TRUE, FALSE, 'Soccer Labs');
 						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowEN($match,$texten), 
 									getImagesByMatch($match), TRUE, FALSE, '@soccer_labsen');
 						
@@ -150,6 +154,7 @@ function tips_buffer_generate()
 						$date1100am = new DateTime($date->format('Y-m-d') . ' 11:' . getRandomMinutesStr(0,20),new DateTimeZone('America/Mexico_City'));
 						$date1100am->setTimezone(new DateTimeZone('UTC'));
 						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), '@soccer_labs');
+						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), 'Soccer Labs');
 						
 /*
 						// ToDo : Random between 1 y 20 para los minutos
@@ -207,7 +212,7 @@ function getImagesByMatch($match)
 		$img_url_local = $local_team->field_image['und'][0]['uri'];
 		$img_url_local = image_style_url("medium_circle", $img_url_local);
 		$images[] = array(
-			'picture' => file_create_url($local_team->field_image['und'][0]['uri']),
+			'picture' => $img_url_local,
 			'thumbnail' => $img_url_local,
 		);
 		
@@ -218,7 +223,7 @@ function getImagesByMatch($match)
 		$img_url_visitor = $visitor_team->field_image['und'][0]['uri'];
 		$img_url_visitor = image_style_url("medium_circle", $img_url_visitor);
 		$images[] = array(
-			'picture' => file_create_url($visitor_team->field_image['und'][0]['uri']),
+			'picture' => $img_url_visitor,
 			'thumbnail' => $img_url_visitor,
 		);
 		

@@ -1,28 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:40:40" sport="soccer" country="finland"><league country="finland" name="Finland: Veikkausliiga" cup="False" id="3362" sub_id="33620"><match alternate_id="4108258" alternate_id_2="4334702" date="03.06.2015" id="4225812" static_id="03061523415072341514" status="15:30" time="15:30">
-<home goals="?" id="2341507" name="HJK"></home>
-<away goals="?" id="2341514" name="Ilves"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4108257" alternate_id_2="4334703" date="03.06.2015" id="4225811" static_id="03061523415592341505" status="15:30" time="15:30">
-<home goals="?" id="2341559" name="Lahti"></home>
-<away goals="?" id="2341505" name="HIFK"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4108259" alternate_id_2="4334704" date="03.06.2015" id="4225813" static_id="03061523415692341620" status="15:30" time="15:30">
-<home goals="?" id="2341569" name="Mariehamn"></home>
-<away goals="?" id="2341620" name="SJK"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4108261" alternate_id_2="4334705" date="03.06.2015" id="4225815" static_id="03061523416102341552" status="15:30" time="15:30">
-<home goals="?" id="2341610" name="Rovaniemi"></home>
-<away goals="?" id="2341552" name="KTP"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4108260" alternate_id_2="4334706" date="03.06.2015" id="4225814" static_id="03061523416422341515" status="15:30" time="15:30">
-<home goals="?" id="2341642" name="VPS"></home>
-<away goals="?" id="2341515" name="Inter Turku"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:40:40" sport="soccer" country="finland"><league country="finland" name="Finland: Veikkausliiga" cup="False" id="3362" sub_id="33620"><match alternate_id="4108267" alternate_id_2="4335367" date="08.06.2015" id="4225821" static_id="08061523415522341569" status="FT" time="15:30">
+<home goals="0" id="2341552" name="KTP"></home>
+<away goals="2" id="2341569" name="Mariehamn"></away>
+<events>
+<event id="22367174" minute="52" player="B. Span" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22367175" minute="76" player="J. van Gelderen" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22367176" minute="90+2" player="J. Ibrahim" playerid="2363054" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22367177" minute="90+4" player="A. L. Nongotamba" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4108263" alternate_id_2="4335239" date="07.06.2015" id="4225817" static_id="07061523415052341517" status="FT" time="11:00">
+<home goals="0" id="2341505" name="HIFK"></home>
+<away goals="0" id="2341517" name="Jaro"></away>
+<events>
+<event id="22365894" minute="25" player="D. Kadio" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22365895" minute="35" player="J. M. Rivera" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22365896" minute="43" player="W. Moore" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22365897" minute="55" player="N. Anyamele" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22365898" minute="90+3" player="P. Kuusijarvi" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4108265" alternate_id_2="4335240" date="07.06.2015" id="4225819" static_id="07061523415562341642" status="FT" time="11:00">
+<home goals="0" id="2341556" name="KuPS"></home>
+<away goals="0" id="2341642" name="VPS"></away>
+<events>
+<event id="22365904" minute="84" player="P. Poutiainen" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22365905" minute="90+2" player="M. Viitikko" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4108264" alternate_id_2="4335241" date="07.06.2015" id="4225818" static_id="07061523415592341507" status="FT" time="11:00">
+<home goals="0" id="2341559" name="Lahti"></home>
+<away goals="0" id="2341507" name="HJK"></away>
+<events>
+<event id="22365914" minute="34" player="M. Heikkinen" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22365915" minute="67" player="R. Schuller" playerid="2363238" result="" team="away" type="yellowcard"></event>
+<event id="22365916" minute="75" player="M. Havenaar" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4108266" alternate_id_2="4335259" date="07.06.2015" id="4225820" static_id="07061523416202341610" status="FT" time="11:00">
+<home goals="0" id="2341620" name="SJK"></home>
+<away goals="1" id="2341610" name="Rovaniemi"></away>
+<events>
+<event id="22366094" minute="8" player="M. Makitalo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22366095" minute="22" player="M. Yaghoubi" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366096" minute="36" player="P. Milosavljevic" playerid="2476792" result="" team="home" type="yellowcard"></event>
+<event id="22366097" minute="68" player="A. Gogoua" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22366098" minute="74" player="A. Pelvas" playerid="2340327" result="" team="home" type="yellowcard"></event>
+<event id="22366099" minute="90+3" player="F. Obilor" playerid="2522126" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4108262" alternate_id_2="4334707" date="06.06.2015" id="4225816" static_id="06061523415142341515" status="FT" time="13:00">
+<home goals="1" id="2341514" name="Ilves"></home>
+<away goals="0" id="2341515" name="Inter Turku"></away>
+<events>
+<event id="22360574" minute="7" player="T. Petrescu" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22360575" minute="38" player="A. Ojanpera" playerid="2340386" result="" team="home" type="yellowcard"></event>
+<event id="22360576" minute="79" player="G. Gnabouyou" playerid="2371205" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4108258" alternate_id_2="4334702" date="03.06.2015" id="4225812" static_id="03061523415072341514" status="FT" time="15:30">
+<home goals="2" id="2341507" name="HJK"></home>
+<away goals="1" id="2341514" name="Ilves"></away>
+<events>
+<event id="22360524" minute="14" player="D. Savage" playerid="2363605" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22360525" minute="21" player="M. Lahtinen" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22360526" minute="34" player="D. Savage" playerid="2363605" result="" team="home" type="yellowcard"></event>
+<event id="22360527" minute="53" player="S. Sorsa" playerid="2340320" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22360528" minute="68" player="O. Khary" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4108257" alternate_id_2="4334703" date="03.06.2015" id="4225811" static_id="03061523415592341505" status="FT" time="15:30">
+<home goals="2" id="2341559" name="Lahti"></home>
+<away goals="0" id="2341505" name="HIFK"></away>
+<events>
+<event id="22360534" minute="57" player="A. Ristola" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22360535" minute="70" player="J. Backman" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360536" minute="70" player="Matheus Alves (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22360537" minute="72" player="J. Lansitalo" playerid="2405633" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22360538" minute="82" player="V. Taulo" playerid="2340162" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4108259" alternate_id_2="4334704" date="03.06.2015" id="4225813" static_id="03061523415692341620" status="FT" time="15:30">
+<home goals="0" id="2341569" name="Mariehamn"></home>
+<away goals="3" id="2341620" name="SJK"></away>
+<events>
+<event id="22360544" minute="39" player="A. Ngueukam" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22360545" minute="57" player="M. Hetemaj" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360546" minute="74" player="T. Tahvanainen" playerid="2363539" result="" team="away" type="yellowcard"></event>
+<event id="22360547" minute="82" player="S. Mantilla" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22360548" minute="83" player="A. Pelvas (pen.)" playerid="2340327" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22360549" minute="87" player="A. Pelvas" playerid="2340327" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4108261" alternate_id_2="4334705" date="03.06.2015" id="4225815" static_id="03061523416102341552" status="FT" time="15:30">
+<home goals="4" id="2341610" name="Rovaniemi"></home>
+<away goals="0" id="2341552" name="KTP"></away>
+<events>
+<event id="22360554" minute="15" player="J. Pirinen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22360555" minute="47" player="V. Saxman" playerid="2446606" result="" team="home" type="yellowcard"></event>
+<event id="22360556" minute="50" player="A. Kokko" playerid="2340232" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22360557" minute="62" player="J. Mero" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360558" minute="71" player="J. Pirinen" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22360559" minute="73" player="A. Kokko" playerid="2340232" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22360560" minute="76" player="N. Ikavalko" playerid="2340300" result="" team="away" type="yellowcard"></event>
+<event id="22360561" minute="80" player="F. Aspegren" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360562" minute="81" player="A. Kokko (pen.)" playerid="2340232" result="[4 - 0]" team="home" type="goal"></event>
+<event id="202619043" minute="85" player="A. Ibiyomin" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4108260" alternate_id_2="4334706" date="03.06.2015" id="4225814" static_id="03061523416422341515" status="FT" time="15:30">
+<home goals="3" id="2341642" name="VPS"></home>
+<away goals="0" id="2341515" name="Inter Turku"></away>
+<events>
+<event id="22360564" minute="21" player="P. Kanakoudis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360565" minute="39" player="J. Makela" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22360566" minute="41" player="T. Lahti" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22360567" minute="47" player="E. Tamminen" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22360568" minute="59" player="H. Lehtonen" playerid="2340150" result="" team="away" type="yellowcard"></event>
+<event id="22360569" minute="68" player="K. Kairinen" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360570" minute="75" player="E. Matoukou" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22360571" minute="84" player="T. Lahti" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22360572" minute="90+1" player="G. Gnabouyou" playerid="2371205" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4108255" alternate_id_2="4334088" date="29.05.2015" id="4225809" static_id="29051523415072341556" status="FT" time="15:30">
 <home goals="1" id="2341507" name="HJK"></home>
 <away goals="1" id="2341556" name="KuPS"></away>
@@ -121,16 +220,6 @@
 <event id="22349570" minute="82" player="S. Hassan" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4108247" alternate_id_2="4332575" date="21.05.2015" id="4225801" static_id="21051523415072341515" status="FT" time="15:30">
-<home goals="2" id="2341507" name="HJK"></home>
-<away goals="0" id="2341515" name="Inter Turku"></away>
-<events>
-<event id="22339254" minute="22" player="P. Kanakoudis" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339255" minute="59" player="M. Havenaar" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22339256" minute="64" player="V. Onovo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339257" minute="73" player="M. Havenaar" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4108248" alternate_id_2="4332576" date="21.05.2015" id="4225802" static_id="21051523415522341505" status="FT" time="15:30">
 <home goals="1" id="2341552" name="KTP"></home>
 <away goals="2" id="2341505" name="HIFK"></away>
@@ -143,71 +232,71 @@
 <event id="22339269" minute="89" player="J. Backman" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4108246" alternate_id_2="4332594" date="21.05.2015" id="4225800" static_id="21051523416422341517" status="FT" time="15:30">
-<home goals="1" id="2341642" name="VPS"></home>
-<away goals="2" id="2341517" name="Jaro"></away>
+</match></league><league country="finland" name="Finland: Ykkonen" cup="False" id="3363" sub_id="33630"><match alternate_id="4108743" alternate_id_2="4333960" date="07.06.2015" id="4226295" static_id="07061523415182341523" status="FT" time="15:30">
+<home goals="2" id="2341518" name="Jazz Pori"></home>
+<away goals="2" id="2341523" name="JJK Jyväskylä"></away>
 <events>
-<event id="22339444" minute="23" player="T. Honkaniemi" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22339445" minute="26" player="J. Makela" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22339446" minute="28" player="W. Moore" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339447" minute="39" player="I. Vaganov" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339448" minute="57" player="I. Vaganov" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22339449" minute="62" player="S. Atakayi" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22339450" minute="78" player="Denis" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339451" minute="86" player="W. Moore" playerid="" result="" team="away" type="yellowred"></event>
-<event id="22339452" minute="90+3" player="D. Kadio" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22353104" minute="5" player="J. Abahassine" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22353105" minute="23" player="E. Ahde" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22353106" minute="30" player="A. Tapaninen" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22353107" minute="31" player="I. Santahuhta" playerid="2409791" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22353108" minute="57" player="B. Grabovci" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22353109" minute="90" player="M. Manninen" playerid="2340272" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4108742" alternate_id_2="4333931" date="07.06.2015" id="4226294" static_id="07061523521972341482" status="FT" time="15:30">
+<home goals="5" id="2352197" name="PK-35 Vantaa"></home>
+<away goals="1" id="2341482" name="Ekenas"></away>
+<events>
+<event id="22352814" minute="8" player="M. Miguez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22352815" minute="28" player="L. Garcia" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22352816" minute="53" player="V. Sevon" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22352817" minute="55" player="P. Counago (pen.)" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22352818" minute="57" player="J. Mononen" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22352819" minute="69" player="J. Estlander" playerid="2571074" result="" team="away" type="yellowcard"></event>
+<event id="22352820" minute="71" player="Y. Xhaferi" playerid="2340120" result="" team="home" type="yellowcard"></event>
+<event id="22352821" minute="71" player="F. Gerxhaliu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22352822" minute="71" player="P. Counago" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="202541643" minute="75" player="M. Miguez" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="202541644" minute="79" player="M. Hakkinen" playerid="2363566" result="" team="home" type="yellowcard"></event>
+<event id="202541645" minute="87" player="Y. Vilaboa" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4108741" alternate_id_2="4333930" date="06.06.2015" id="4226293" static_id="06061523416302341636" status="FT" time="15:00">
+<home goals="5" id="2341630" name="TPS"></home>
+<away goals="0" id="2341636" name="VIFK"></away>
+<events>
+<event id="22352804" minute="17" player="J. Kinnunen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22352805" minute="24" player="S. Peltola" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22352806" minute="29" player="A. Ademi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22352807" minute="43" player="J. Jaaskelainen" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22352808" minute="58" player="R. Sjoroos" playerid="2546695" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22352809" minute="62" player="S. Rahmonen" playerid="2340408" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22352810" minute="85" player="M. Hyyrynen" playerid="2340372" result="[5 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4108740" alternate_id_2="4333929" date="06.06.2015" id="4226292" static_id="06061523415852341538" status="FT" time="13:00">
+<home goals="2" id="2341585" name="AC Oulu"></home>
+<away goals="0" id="2341538" name="PS Kemi"></away>
+<events>
+<event id="22352794" minute="45" player="H. Makarainen" playerid="2626713" result="" team="home" type="yellowcard"></event>
+<event id="22352795" minute="45" player="I. Vandell" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22352796" minute="52" player="A. Nurmela" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22352797" minute="58" player="A. Peura" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22352798" minute="86" player="D. Stafsula" playerid="2340123" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22352799" minute="90+2" player="O. Wadenya" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4108243" alternate_id_2="4332572" date="20.05.2015" id="4225797" static_id="20051523415562341559" status="FT" time="15:30">
-<home goals="0" id="2341556" name="KuPS"></home>
-<away goals="3" id="2341559" name="Lahti"></away>
+</match><match alternate_id="4108739" alternate_id_2="4333928" date="04.06.2015" id="4226291" static_id="04061523415022341492" status="FT" time="15:30">
+<home goals="1" id="2341502" name="Haka"></home>
+<away goals="0" id="2341492" name="Mikkeli"></away>
 <events>
-<event id="22339224" minute="32" player="H. Toivomaki" playerid="2363260" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22339225" minute="37" player="P. Karkkainen" playerid="2340159" result="" team="away" type="yellowcard"></event>
-<event id="22339226" minute="40" player="H. Coulibaly" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22339227" minute="43" player="E. Sohna" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22339228" minute="51" player="A. Paananen" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339229" minute="77" player="B. Diallo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22339230" minute="78" player="Matheus Alves (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22339231" minute="81" player="E. Sohna" playerid="" result="" team="home" type="yellowred"></event>
-<event id="22339232" minute="85" player="F. Chibuike" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="202405743" minute="87" player="X. Gela" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4108245" alternate_id_2="4332573" date="20.05.2015" id="4225799" static_id="20051523415692341610" status="FT" time="15:30">
-<home goals="1" id="2341569" name="Mariehamn"></home>
-<away goals="0" id="2341610" name="Rovaniemi"></away>
-<events>
-<event id="22339234" minute="13" player="J. Lyyski" playerid="2340334" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22339235" minute="72" player="B. Span" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22339236" minute="77" player="A. Jammeh" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339237" minute="81" player="J. Saksela" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22339238" minute="84" player="M. Yaghoubi" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22352784" minute="3" player="J. Pirttijoki" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22352785" minute="31" player="K. Liikonen" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22352786" minute="86" player="J. Maenpaa" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4108244" alternate_id_2="4332574" date="20.05.2015" id="4225798" static_id="20051523416202341514" status="FT" time="15:30">
-<home goals="3" id="2341620" name="SJK"></home>
-<away goals="0" id="2341514" name="Ilves"></away>
-<events>
-<event id="22339244" minute="49" player="T. Lehtinen" playerid="2340278" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22339245" minute="60" player="J. Vasara" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22339246" minute="64" player="R. Dorman" playerid="2476074" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22339247" minute="74" player="A. Gogoua" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22339248" minute="90" player="A. Ngueukam" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4108239" alternate_id_2="4331488" date="17.05.2015" id="4225793" static_id="17051523415592341610" status="FT" time="14:00">
-<home goals="1" id="2341559" name="Lahti"></home>
-<away goals="2" id="2341610" name="Rovaniemi"></away>
-<events>
-<event id="22328384" minute="33" player="A. Kokko" playerid="2340232" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22328385" minute="44" player="A. Okkonen" playerid="2352960" result="" team="away" type="redcard"></event>
-<event id="22328386" minute="69" player="Matheus Alves" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22328387" minute="71" player="V. Posinkovic" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22328388" minute="72" player="T. Hradecky" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match></league><league country="finland" name="Finland: Ykkonen" cup="False" id="3363" sub_id="33630"><match alternate_id="4108737" alternate_id_2="4332816" date="31.05.2015" id="4226289" static_id="31051523415022341585" status="FT" time="15:30">
+</match><match alternate_id="4108737" alternate_id_2="4332816" date="31.05.2015" id="4226289" static_id="31051523415022341585" status="FT" time="15:30">
 <home goals="1" id="2341502" name="Haka"></home>
 <away goals="0" id="2341585" name="AC Oulu"></away>
 <events>
@@ -389,63 +478,6 @@
 <event id="22116779" minute="90+1" player="M. Lombo" playerid="2363233" result="[3 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4108723" alternate_id_2="4310326" date="14.05.2015" id="4226275" static_id="14051523416302341538" status="FT" time="12:00">
-<home goals="0" id="2341630" name="TPS"></home>
-<away goals="3" id="2341538" name="PS Kemi"></away>
-<events>
-<event id="22116764" minute="20" player="W. Tshibasu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22116765" minute="23" player="W. Ions" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22116766" minute="41" player="W. Tshibasu" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22116767" minute="77" player="M. Tenho" playerid="2626042" result="" team="home" type="yellowcard"></event>
-<event id="22116768" minute="77" player="S. Jovovic" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22116769" minute="80" player="S. Jovovic" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4108722" alternate_id_2="4310325" date="13.05.2015" id="4226274" static_id="13051523415182341585" status="FT" time="16:30">
-<home goals="3" id="2341518" name="Jazz Pori"></home>
-<away goals="1" id="2341585" name="AC Oulu"></away>
-<events>
-<event id="22116754" minute="26" player="T. Raymond" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22116755" minute="38" player="S. Makela" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22116756" minute="52" player="E. Ahde" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22116757" minute="54" player="T. Tahvanainen" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22116758" minute="59" player="A. Heikkila" playerid="2575064" result="[3 - 1]" team="away" type="goal"></event>
-<event id="22116759" minute="82" player="J. Valila" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22116760" minute="90+3" player="P. Pietola" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4108720" alternate_id_2="4310322" date="13.05.2015" id="4226272" static_id="13051523415022352197" status="FT" time="15:30">
-<home goals="2" id="2341502" name="Haka"></home>
-<away goals="1" id="2352197" name="PK-35 Vantaa"></away>
-<events>
-<event id="22116724" minute="27" player="K. Raimi" playerid="2340180" result="" team="away" type="yellowcard"></event>
-<event id="22116725" minute="69" player="K. Liikonen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22116726" minute="78" player="L. Garcia" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22116727" minute="79" player="K. Manev" playerid="2517173" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22116728" minute="84" player="K. Multanen" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4108719" alternate_id_2="4310323" date="13.05.2015" id="4226271" static_id="13051523415232341482" status="FT" time="15:30">
-<home goals="2" id="2341523" name="JJK Jyväskylä"></home>
-<away goals="1" id="2341482" name="Ekenas"></away>
-<events>
-<event id="22116734" minute="22" player="Z. Ekstrom" playerid="2571076" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22116735" minute="37" player="J. Aalto" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22116736" minute="45+1" player="A. Hilska" playerid="2458612" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22116737" minute="62" player="I. Jarvinen" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22116738" minute="71" player="A. Tapaninen" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4108721" alternate_id_2="4310324" date="13.05.2015" id="4226273" static_id="13051523416362341492" status="FT" time="15:30">
-<home goals="1" id="2341636" name="VIFK"></home>
-<away goals="2" id="2341492" name="Mikkeli"></away>
-<events>
-<event id="22116744" minute="55" player="S. Popovitch" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22116745" minute="70" player="H. Hanley" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22116746" minute="78" player="A. Lemanowicz" playerid="2363711" result="" team="home" type="yellowcard"></event>
-<event id="22116747" minute="90+2" player="M. Lombo" playerid="2363233" result="[1 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="finland" name="Finland: Liiga Cup - Play Offs" cup="True" id="3365" sub_id="33650"><match alternate_id="4115181" alternate_id_2="4317676" date="04.04.2015" id="4232729" static_id="04041523416102341507" status="FT" time="12:00">
 <home goals="0" id="2341610" name="Rovaniemi"></home>
 <away goals="2" id="2341507" name="HJK"></away>

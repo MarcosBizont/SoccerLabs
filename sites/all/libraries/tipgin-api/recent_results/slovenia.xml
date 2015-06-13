@@ -1,8 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:11" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="" alternate_id_2="4338450" date="03.06.2015" id="" static_id="03061523473052347297" status="15:00" time="15:00">
-<home goals="?" id="2347305" name="ND Gorica"></home>
-<away goals="?" id="2347297" name="Aluminij"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:11" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="" alternate_id_2="4338451" date="07.06.2015" id="" static_id="07061523472972347305" status="FT" time="15:00">
+<home goals="1" id="2347297" name="Aluminij"></home>
+<away goals="2" id="2347305" name="ND Gorica"></away>
+<events>
+<event id="22398014" minute="2" player="Z. Skoflek" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22398015" minute="8" player="D. Zigon" playerid="2415802" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22398016" minute="41" player="D. Zigon" playerid="2415802" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22398017" minute="64" player="D. Lonzaric" playerid="2468677" result="" team="home" type="yellowcard"></event>
+<event id="22398018" minute="64" player="L. Majcen" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398019" minute="66" player="D. Martinovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398020" minute="68" player="T. Nagode" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398021" minute="80" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4338450" date="03.06.2015" id="" static_id="03061523473052347297" status="FT" time="15:00">
+<home goals="0" id="2347305" name="ND Gorica"></home>
+<away goals="0" id="2347297" name="Aluminij"></away>
+<events>
+<event id="22398004" minute="9" player="S. Ceh" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22398005" minute="35" player="B. Eleke" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398006" minute="49" player="M. Sirok" playerid="2451993" result="" team="home" type="yellowcard"></event>
+<event id="22398007" minute="86" player="M. Boccaccini" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22398008" minute="87" player="L. Pasqualini" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4002732" alternate_id_2="4122385" date="30.05.2015" id="4120354" static_id="30051523473142347311" status="FT" time="15:00">
 <home goals="0" id="2347314" name="Maribor"></home>
 <away goals="0" id="2347311" name="Koper"></away>
@@ -273,11 +293,6 @@
 <event id="202007343" minute="90+1" player="R. Jazbec" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="3964459" alternate_id_2="4116760" date="04.06.2014" id="4082123" static_id="04061423512762347335" status="Cancl." time="15:00">
-<home goals="?" id="2351276" name="Radomlje"></home>
-<away goals="?" id="2347335" name="NK Krka"></away>
-<events></events>
-<ht score=""></ht>
 </match></league><league country="slovenia" name="Slovenia: 2. Snl" cup="False" id="3220" sub_id="32200"><match alternate_id="4119330" alternate_id_2="4331105" date="30.05.2015" id="4236874" static_id="30051523473042347365" status="FT" time="15:00">
 <home goals="2" id="2347304" name="Dravinja"></home>
 <away goals="2" id="2347365" name="Triglav"></away>

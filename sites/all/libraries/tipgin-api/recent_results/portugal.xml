@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:05" sport="soccer" country="portugal"><league country="portugal" name="Portugal: Primeira Liga" cup="False" id="3185" sub_id="31850"><match alternate_id="4007348" alternate_id_2="4331984" date="23.05.2015" id="4124969" static_id="23051523460692346306" status="FT" time="19:15">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:05" sport="soccer" country="portugal"><league country="portugal" name="Portugal: Primeira Liga" cup="False" id="3185" sub_id="31850"><match alternate_id="4007348" alternate_id_2="4331984" date="23.05.2015" id="4124969" static_id="23051523460692346306" status="FT" time="19:15">
 <home goals="2" id="2346069" name="Academica"></home>
 <away goals="4" id="2346306" name="Guimaraes"></away>
 <events>
@@ -1425,51 +1425,117 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="3" visitorteam="2"></penalty>
-</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Relegation Group" cup="False" id="4243" sub_id="42431"><match alternate_id="" alternate_id_2="4334713" date="24.05.2015" id="" static_id="24051523460752346180" status="FT" time="16:00">
-<home goals="1" id="2346075" name="AD Limianos"></home>
-<away goals="1" id="2346180" name="GD Braganca"></away>
+</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Final Stage" cup="False" id="4361" sub_id=""><match alternate_id="4131668" alternate_id_2="4339700" date="10.06.2015" id="4249207" static_id="10061523461622346120" status="Pen." time="17:00">
+<home goals="1" id="2346162" name="Famalicao"></home>
+<away goals="1" id="2346120" name="Mafra"></away>
+<events>
+<event id="22410504" minute="96" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22410505" minute="113" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="3" visitorteam="4"></penalty>
+</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Relegation" cup="False" id="4243" sub_id="42431"><match alternate_id="" alternate_id_2="4338000" date="10.06.2015" id="" static_id="10061523555142346262" status="FT" time="16:00">
+<home goals="1" id="2355514" name="Malveira"></home>
+<away goals="2" id="2346262" name="Aljustrelense"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4334798" date="24.05.2015" id="" static_id="24051523460782346268" status="FT" time="16:00">
-<home goals="1" id="2346078" name="AD Oliveirense"></home>
-<away goals="2" id="2346268" name="SC Vila Real"></away>
+</match><match alternate_id="" alternate_id_2="4338001" date="10.06.2015" id="" static_id="10061523462232346153" status="FT" time="16:00">
+<home goals="2" id="2346223" name="Naval"></home>
+<away goals="1" id="2346153" name="Fatima"></away>
 <events>
 </events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4334799" date="24.05.2015" id="" static_id="24051523462622346254" status="FT" time="16:00">
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4338002" date="10.06.2015" id="" static_id="10061523462352351472" status="FT" time="16:00">
+<home goals="0" id="2346235" name="Pedras Rubras"></home>
+<away goals="0" id="2351472" name="Cerveira"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4338003" date="10.06.2015" id="" static_id="10061523461712355689" status="FT" time="16:00">
+<home goals="3" id="2346171" name="Tirsense"></home>
+<away goals="0" id="2355689" name="Gouveia"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Promotion - Play Offs" cup="False" id="4243" sub_id="42432"><match alternate_id="" alternate_id_2="4337999" date="10.06.2015" id="" static_id="10061523461162346300" status="FT" time="15:00">
+<home goals="1" id="2346116" name="Casa Pia"></home>
+<away goals="1" id="2346300" name="Varzim"></away>
+<events>
+<event id="22393494" minute="16" player="Soares" playerid="" result="" team="away" type="redcard"></event>
+<event id="22393495" minute="21" player="(pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22393496" minute="81" player="Nelsinho" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4337994" date="06.06.2015" id="" static_id="06061523463002346116" status="FT" time="16:00">
+<home goals="2" id="2346300" name="Varzim"></home>
+<away goals="0" id="2346116" name="Casa Pia"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Relegation" cup="False" id="4243" sub_id="42431"><match alternate_id="" alternate_id_2="4337995" date="06.06.2015" id="" static_id="06061523462622355514" status="FT" time="16:00">
 <home goals="1" id="2346262" name="Aljustrelense"></home>
-<away goals="2" id="2346254" name="SC Angrense"></away>
+<away goals="2" id="2355514" name="Malveira"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4334714" date="24.05.2015" id="" static_id="24051523460892346173" status="FT" time="16:00">
+</match><match alternate_id="" alternate_id_2="4337996" date="06.06.2015" id="" static_id="06061523514722346235" status="FT" time="16:00">
+<home goals="0" id="2351472" name="Cerveira"></home>
+<away goals="1" id="2346235" name="Pedras Rubras"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4337997" date="06.06.2015" id="" static_id="06061523461532346223" status="FT" time="16:00">
+<home goals="2" id="2346153" name="Fatima"></home>
+<away goals="2" id="2346223" name="Naval"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4337998" date="05.06.2015" id="" static_id="05061523556892346171" status="FT" time="18:30">
+<home goals="1" id="2355689" name="Gouveia"></home>
+<away goals="2" id="2346171" name="Tirsense"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
+</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Relegation Group" cup="False" id="4243" sub_id="42431"><match alternate_id="" alternate_id_2="4334714" date="24.05.2015" id="" static_id="24051523460892346173" status="FT" time="16:00">
 <home goals="4" id="2346089" name="Amarante"></home>
 <away goals="2" id="2346173" name="Felgueiras"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4334715" date="24.05.2015" id="" static_id="24051523460912346072" status="FT" time="16:00">
+<home goals="3" id="2346091" name="Anadia"></home>
+<away goals="2" id="2346072" name="Camacha"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4334716" date="24.05.2015" id="" static_id="24051523461292346093" status="FT" time="16:00">
 <home goals="1" id="2346129" name="CDR Quarteirense"></home>
 <away goals="1" id="2346093" name="Atlético SC"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4334717" date="24.05.2015" id="" static_id="24051523462552346117" status="FT" time="16:00">
-<home goals="1" id="2346255" name="Coimbroes"></home>
-<away goals="2" id="2346117" name="Cinfaes"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4334718" date="24.05.2015" id="" static_id="24051523461462346272" status="FT" time="16:00">
 <home goals="2" id="2346146" name="Electrico"></home>
 <away goals="3" id="2346272" name="Sertanense"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4334719" date="24.05.2015" id="" static_id="24051523461812354218" status="FT" time="16:00">
-<home goals="2" id="2346181" name="Fabril do Barreiro"></home>
-<away goals="1" id="2354218" name="Loures"></away>
+</match><match alternate_id="" alternate_id_2="4334800" date="24.05.2015" id="" static_id="24051523461492355689" status="FT" time="16:00">
+<home goals="0" id="2346149" name="Estarreja"></home>
+<away goals="1" id="2355689" name="Gouveia"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334801" date="24.05.2015" id="" static_id="24051523461532355516" status="FT" time="16:00">
+<home goals="6" id="2346153" name="Fatima"></home>
+<away goals="0" id="2355516" name="Atletico O."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334720" date="24.05.2015" id="" static_id="24051523541782346209" status="FT" time="16:00">
+<home goals="3" id="2354178" name="Ferreiras"></home>
+<away goals="1" id="2346209" name="Lusitano VRSA"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -1479,39 +1545,33 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4334803" date="24.05.2015" id="" static_id="24051523461902347969" status="FT" time="16:00">
-<home goals="1" id="2346190" name="GD Ribeirao"></home>
-<away goals="0" id="2347969" name="Santa Eulalia"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4334721" date="24.05.2015" id="" static_id="24051523462072346196" status="FT" time="16:00">
-<home goals="5" id="2346207" name="Lusitania FC"></home>
-<away goals="0" id="2346196" name="Gondomar"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4334804" date="24.05.2015" id="" static_id="24051523555142346123" status="FT" time="16:00">
 <home goals="7" id="2355514" name="Malveira"></home>
 <away goals="3" id="2346123" name="Pinhalnovense"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4334722" date="24.05.2015" id="" static_id="24051523531142346223" status="FT" time="16:00">
-<home goals="0" id="2353114" name="Mortagua"></home>
-<away goals="0" id="2346223" name="Naval"></away>
+</match><match alternate_id="" alternate_id_2="4334724" date="24.05.2015" id="" static_id="24051523462352355687" status="FT" time="16:00">
+<home goals="2" id="2346235" name="Pedras Rubras"></home>
+<away goals="0" id="2355687" name="Moimenta"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4334723" date="24.05.2015" id="" static_id="24051523462282346170" status="FT" time="16:00">
-<home goals="4" id="2346228" name="Oliveira Hospital"></home>
-<away goals="1" id="2346170" name="Pampilhosa"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4334725" date="24.05.2015" id="" static_id="24051523462652353113" status="FT" time="16:00">
 <home goals="4" id="2346265" name="Pombal"></home>
 <away goals="1" id="2353113" name="Vitoria Sernache"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334805" date="24.05.2015" id="" static_id="24051523500992346118" status="FT" time="16:00">
+<home goals="3" id="2350099" name="Sacavenense"></home>
+<away goals="1" id="2346118" name="Cova De Piedade"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334806" date="24.05.2015" id="" static_id="" status="FT" time="16:00">
+<home goals="1" id="2346259" name="Sao Joao Ver"></home>
+<away goals="2" id="" name="Maritimo C"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -1527,15 +1587,15 @@
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334728" date="24.05.2015" id="" static_id="24051523462852346218" status="FT" time="16:00">
+<home goals="2" id="2346285" name="Sintrense"></home>
+<away goals="1" id="2346218" name="Uniao Montemor"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4334729" date="24.05.2015" id="" static_id="24051523555172346257" status="FT" time="16:00">
 <home goals="2" id="2355517" name="Sobrado"></home>
 <away goals="0" id="2346257" name="SC Espinho"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4334730" date="24.05.2015" id="" static_id="24051523461922346194" status="FT" time="16:00">
-<home goals="0" id="2346192" name="Sourense"></home>
-<away goals="0" id="2346194" name="GD Tourizense"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -1545,6 +1605,18 @@
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334732" date="24.05.2015" id="" static_id="24051523463042351472" status="FT" time="16:00">
+<home goals="6" id="2346304" name="Vilaverdense"></home>
+<away goals="1" id="2351472" name="Cerveira"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4334808" date="24.05.2015" id="" static_id="24051523463082346171" status="FT" time="16:00">
+<home goals="0" id="2346308" name="Vizela"></home>
+<away goals="0" id="2346171" name="Tirsense"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="portugal" name="Portugal: Campeonato Nacional - Promotion Group" cup="False" id="4243" sub_id="42432"><match alternate_id="" alternate_id_2="4331527" date="24.05.2015" id="" static_id="24051523461092346284" status="FT" time="16:00">
 <home goals="0" id="2346109" name="Caldas"></home>
 <away goals="0" id="2346284" name="Dezembro"></away>
@@ -1641,15 +1713,15 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4327640" date="10.05.2015" id="" static_id="10051523462052346122" status="FT" time="16:00">
-<home goals="2" id="2346205" name="Louletano"></home>
-<away goals="1" id="2346122" name="Operario"></away>
+</match><match alternate_id="" alternate_id_2="4327671" date="10.05.2015" id="" static_id="10051523461162351466" status="FT" time="16:00">
+<home goals="2" id="2346116" name="Casa Pia"></home>
+<away goals="0" id="2351466" name="Nogueirense"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4327672" date="10.05.2015" id="" static_id="10051523461202346284" status="FT" time="16:00">
-<home goals="2" id="2346120" name="Mafra"></home>
-<away goals="0" id="2346284" name="Dezembro"></away>
+</match><match alternate_id="" alternate_id_2="4327640" date="10.05.2015" id="" static_id="10051523462052346122" status="FT" time="16:00">
+<home goals="2" id="2346205" name="Louletano"></home>
+<away goals="1" id="2346122" name="Operario"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -1659,27 +1731,27 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4327519" date="10.05.2015" id="" static_id="10051523463002346159" status="FT" time="16:00">
-<home goals="3" id="2346300" name="Varzim"></home>
-<away goals="0" id="2346159" name="FC Cesarense"></away>
+</match><match alternate_id="" alternate_id_2="4327518" date="10.05.2015" id="" static_id="10051523501052346073" status="FT" time="16:00">
+<home goals="0" id="2350105" name="Sousense"></home>
+<away goals="0" id="2346073" name="AD Fafe"></away>
 <events>
 </events>
-<ht score="[2-0]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="portugal" name="Portugal: Campeonato Nacional" cup="False" id="4243" sub_id="42430"><match alternate_id="" alternate_id_2="4301636" date="18.01.2015" id="" static_id="18011523460782346162" status="FT" time="15:00">
 <home goals="1" id="2346078" name="AD Oliveirense"></home>
 <away goals="2" id="2346162" name="Famalicao"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4301558" date="18.01.2015" id="" static_id="18011523555162346146" status="FT" time="15:00">
-<home goals="0" id="2355516" name="Atletico O."></home>
-<away goals="2" id="2346146" name="Electrico"></away>
+</match><match alternate_id="" alternate_id_2="4301637" date="18.01.2015" id="" static_id="18011523460932346122" status="FT" time="15:00">
+<home goals="0" id="2346093" name="Atlético SC"></home>
+<away goals="2" id="2346122" name="Operario"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301619" date="18.01.2015" id="" static_id="18011523460722355520" status="FT" time="15:00">
-<home goals="0" id="2346072" name="Camacha"></home>
-<away goals="0" id="2355520" name="Gafanha"></away>
+</match><match alternate_id="" alternate_id_2="4301618" date="18.01.2015" id="" static_id="18011523461092346120" status="FT" time="15:00">
+<home goals="2" id="2346109" name="Caldas"></home>
+<away goals="0" id="2346120" name="Mafra"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -1701,21 +1773,27 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301622" date="18.01.2015" id="" static_id="18011523461732346171" status="FT" time="15:00">
-<home goals="1" id="2346173" name="Felgueiras"></home>
-<away goals="0" id="2346171" name="Tirsense"></away>
+</match><match alternate_id="" alternate_id_2="4301623" date="18.01.2015" id="" static_id="18011523461802346075" status="FT" time="15:00">
+<home goals="2" id="2346180" name="GD Braganca"></home>
+<away goals="0" id="2346075" name="AD Limianos"></away>
 <events>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4301624" date="18.01.2015" id="" static_id="18011523461962346117" status="FT" time="15:00">
 <home goals="1" id="2346196" name="Gondomar"></home>
 <away goals="0" id="2346117" name="Cinfaes"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301638" date="18.01.2015" id="" static_id="18011523556892354216" status="FT" time="15:00">
-<home goals="1" id="2355689" name="Gouveia"></home>
-<away goals="1" id="2354216" name="Lusitano FCV"></away>
+</match><match alternate_id="" alternate_id_2="4301625" date="18.01.2015" id="" static_id="18011523462952350089" status="FT" time="15:00">
+<home goals="7" id="2346295" name="Leiria"></home>
+<away goals="1" id="2350089" name="Riachense"></away>
+<events>
+</events>
+<ht score="[4-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4301565" date="18.01.2015" id="" static_id="" status="FT" time="15:00">
+<home goals="1" id="" name="Maritimo C"></home>
+<away goals="1" id="2346159" name="FC Cesarense"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -1725,100 +1803,58 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301567" date="18.01.2015" id="" static_id="18011523462212346129" status="FT" time="15:00">
-<home goals="1" id="2346221" name="Moura AC"></home>
-<away goals="0" id="2346129" name="CDR Quarteirense"></away>
+</match><match alternate_id="" alternate_id_2="4301639" date="18.01.2015" id="" static_id="18011523462232346101" status="FT" time="15:00">
+<home goals="0" id="2346223" name="Naval"></home>
+<away goals="2" id="2346101" name="SB Castelo Branco"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301626" date="18.01.2015" id="" static_id="18011523461232350099" status="FT" time="15:00">
-<home goals="1" id="2346123" name="Pinhalnovense"></home>
-<away goals="1" id="2350099" name="Sacavenense"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4301627" date="18.01.2015" id="" static_id="18011523462512354214" status="FT" time="15:00">
-<home goals="0" id="2346251" name="Santa Maria FC"></home>
-<away goals="0" id="2354214" name="Pedras Salgadas"></away>
+</match><match alternate_id="" alternate_id_2="4301568" date="18.01.2015" id="" static_id="18011523462282353114" status="FT" time="15:00">
+<home goals="1" id="2346228" name="Oliveira Hospital"></home>
+<away goals="1" id="2353114" name="Mortagua"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4301571" date="18.01.2015" id="" static_id="18011523462632346073" status="FT" time="15:00">
+<home goals="2" id="2346263" name="SC Mirandela"></home>
+<away goals="2" id="2346073" name="AD Fafe"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4301573" date="18.01.2015" id="" static_id="18011523462682346089" status="FT" time="15:00">
+<home goals="1" id="2346268" name="SC Vila Real"></home>
+<away goals="2" id="2346089" name="Amarante"></away>
+<events>
+</events>
+<ht score="[1-2]"></ht>
 </match><match alternate_id="" alternate_id_2="4301640" date="18.01.2015" id="" static_id="18011523462852355514" status="FT" time="15:00">
 <home goals="2" id="2346285" name="Sintrense"></home>
 <away goals="2" id="2355514" name="Malveira"></away>
 <events>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301574" date="18.01.2015" id="" static_id="18011523555172346248" status="FT" time="15:00">
-<home goals="1" id="2355517" name="Sobrado"></home>
-<away goals="2" id="2346248" name="Salgueiros"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4301628" date="18.01.2015" id="" static_id="18011523461922346265" status="FT" time="15:00">
 <home goals="3" id="2346192" name="Sourense"></home>
 <away goals="1" id="2346265" name="Pombal"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4301575" date="18.01.2015" id="" static_id="18011523501052346257" status="FT" time="15:00">
-<home goals="4" id="2350105" name="Sousense"></home>
-<away goals="1" id="2346257" name="SC Espinho"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4301576" date="18.01.2015" id="" static_id="18011523462702346272" status="FT" time="15:00">
 <home goals="2" id="2346270" name="Torreense"></home>
 <away goals="2" id="2346272" name="Sertanense"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4301629" date="18.01.2015" id="" static_id="18011523462182354218" status="FT" time="15:00">
-<home goals="0" id="2346218" name="Uniao Montemor"></home>
-<away goals="0" id="2354218" name="Loures"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4301630" date="18.01.2015" id="" static_id="18011523463002347969" status="FT" time="15:00">
 <home goals="3" id="2346300" name="Varzim"></home>
 <away goals="1" id="2347969" name="Santa Eulalia"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Final Stage" cup="False" id="4361" sub_id=""><match alternate_id="" alternate_id_2="4118935" date="10.06.2014" id="" static_id="10061423461762346137" status="FT" time="15:00">
-<home goals="3" id="2346176" name="Freamunde"></home>
-<away goals="2" id="2346137" name="Oriental"></away>
+</match><match alternate_id="" alternate_id_2="4301577" date="18.01.2015" id="" static_id="18011523463082346190" status="FT" time="15:00">
+<home goals="1" id="2346308" name="Vizela"></home>
+<away goals="0" id="2346190" name="GD Ribeirao"></away>
 <events>
 </events>
-<ht score="[-]"></ht>
-</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Promotion - Play Offs" cup="False" id="4243" sub_id="42432"><match alternate_id="" alternate_id_2="4117047" date="08.06.2014" id="" static_id="08061423526202346101" status="FT" time="16:00">
-<home goals="2" id="2352620" name="Guimaraes B"></home>
-<away goals="0" id="2346101" name="SB Castelo Branco"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match></league><league country="portugal" name="Portugal: Campeonato Nacional - Relegation" cup="False" id="4243" sub_id="42431"><match alternate_id="" alternate_id_2="4117054" date="08.06.2014" id="" static_id="08061423500942346149" status="FT" time="16:00">
-<home goals="1" id="2350094" name="Aguias do Moradal"></home>
-<away goals="2" id="2346149" name="Estarreja"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4117055" date="08.06.2014" id="" static_id="08061423461572354214" status="FT" time="16:00">
-<home goals="0" id="2346157" name="FC Barreirense"></home>
-<away goals="1" id="2354214" name="Pedras Salgadas"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4117056" date="08.06.2014" id="" static_id="08061423462062346072" status="FT" time="16:00">
-<home goals="0" id="2346206" name="Lourinhanense"></home>
-<away goals="3" id="2346072" name="Camacha"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4117057" date="08.06.2014" id="" static_id="08061423500882346190" status="FT" time="14:00">
-<home goals="1" id="2350088" name="Sporting Ideal"></home>
-<away goals="1" id="2346190" name="GD Ribeirao"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
+<ht score="[0-0]"></ht>
 </match></league></recent_results>

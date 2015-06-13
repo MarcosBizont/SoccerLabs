@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:41:09" sport="soccer" country="serbia"><league country="serbia" name="Serbia: Super Liga - Relegation" cup="False" id="3214" sub_id="32142"><match alternate_id="" alternate_id_2="4337784" date="03.06.2015" id="" static_id="03061523471142347098" status="17:00" time="17:00">
-<home goals="?" id="2347114" name="Napredak"></home>
-<away goals="?" id="2347098" name="Metalac"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:41:09" sport="soccer" country="serbia"><league country="serbia" name="Serbia: Super Liga - Relegation" cup="False" id="3214" sub_id="32142"><match alternate_id="" alternate_id_2="4337784" date="03.06.2015" id="" static_id="03061523471142347098" status="FT" time="17:00">
+<home goals="1" id="2347114" name="Napredak"></home>
+<away goals="1" id="2347098" name="Metalac"></away>
+<events>
+<event id="22391344" minute="9" player="N. Trujic" playerid="2466476" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22391345" minute="12" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22391346" minute="26" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22391347" minute="40" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22391348" minute="67" player="B. Dopud" playerid="2424255" result="" team="away" type="redcard"></event>
+<event id="22391349" minute="70" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22391350" minute="71" player="A. Ivanovic" playerid="2422053" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22391351" minute="80" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22391352" minute="89" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="202926943" minute="90+1" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4337783" date="30.05.2015" id="" static_id="30051523470982347114" status="FT" time="17:00">
 <home goals="3" id="2347098" name="Metalac"></home>
 <away goals="1" id="2347114" name="Napredak"></away>
@@ -258,12 +269,6 @@
 <event id="22316728" minute="90+1" player="D. Jovanovic" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="serbia" name="Serbia: Super Liga - Relegation" cup="False" id="3214" sub_id="32142"><match alternate_id="3965470" alternate_id_2="4117185" date="12.06.2014" id="4083133" static_id="12061423471332347098" status="Awarded" time="17:00">
-<home goals="3" id="2347133" name="Rad Beograd"></home>
-<away goals="0" id="2347098" name="Metalac"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match></league><league country="serbia" name="Serbia: Serbian Cup" cup="True" id="3684" sub_id="36840"><match alternate_id="4119928" alternate_id_2="4324007" date="20.05.2015" id="4237472" static_id="20051523470082347122" status="FT" time="18:30">
 <home goals="1" id="2347008" name="Cukaricki"></home>
 <away goals="0" id="2347122" name="Partizan"></away>

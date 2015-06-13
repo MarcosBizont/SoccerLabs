@@ -1,7 +1,7 @@
 <?php
 	
 	
-function tips_tipfin_odds_library_check_odds_for_match($matchid, $tiptypestocheck, $options)
+function tips_tipfin_odds_library_check_odds_for_match($matchid, $tiptypestocheck)
 {
 	// Tip type to check
 	// Cache de 10 minutos
@@ -9,7 +9,14 @@ function tips_tipfin_odds_library_check_odds_for_match($matchid, $tiptypestochec
 	$alltips = array();
 	foreach($tiptypestocheck as $tiptype) 
 	{	
-		$obj = tips_tipfin_odds_library_check_odds_for_match_for_tiptype($matchid, $tiptype);
+		if ($cache = cache_get('check_odds_for_match_for_tiptype_' . $matchid . '_' .  $tiptype, 'cache')) {
+		  	$obj = $cache->data;
+		}
+		else 
+		{
+			$obj = tips_tipfin_odds_library_check_odds_for_match_for_tiptype($matchid, $tiptype);
+			cache_set('check_odds_for_match_for_tiptype_' . $matchid . '_' .  $tiptype, $obj, 'cache', time() + 60*10);
+		}
 
 		$odd = array();
 		if(in_array($tiptype,array(832,674)))

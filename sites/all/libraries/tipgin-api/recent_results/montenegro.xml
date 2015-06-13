@@ -1,29 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="03.06.2015 12:40:59" sport="soccer" country="montenegro"><league country="montenegro" name="Montenegro: Prva Crnogorska Liga - Relegation" cup="False" id="3504" sub_id=""><match alternate_id="3860376" alternate_id_2="4338566" date="03.06.2015" id="3860376" static_id="03061523449152344891" status="15:30" time="15:30">
-<home goals="?" id="2344915" name="Mogren"></home>
-<away goals="?" id="2344891" name="Decic"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4338567" date="03.06.2015" id="" static_id="03061523449162351269" status="15:30" time="15:30">
-<home goals="?" id="2344916" name="Mornar Bar"></home>
-<away goals="?" id="2351269" name="Igalo"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="montenegro" name="Montenegro: Prva Crnogorska Liga" cup="False" id="3504" sub_id="35040"><match alternate_id="3860466" alternate_id_2="4331381" date="30.05.2015" id="3860466" static_id="30051523448892344923" status="FT" time="15:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:40:57" sport="soccer" country="montenegro"><league country="montenegro" name="Montenegro: Prva Crnogorska Liga - Relegation" cup="False" id="3504" sub_id=""><match alternate_id="3860392" alternate_id_2="4338568" date="07.06.2015" id="3860392" static_id="07061523448912344915" status="FT" time="15:30">
+<home goals="2" id="2344891" name="Decic"></home>
+<away goals="1" id="2344915" name="Mogren"></away>
+<events>
+<event id="17617424" minute="24" player="Drazen Andusic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="17617425" minute="40" player="Drazen Andusic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="17617426" minute="63" player="Igor Pocek" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4338569" date="07.06.2015" id="" static_id="07061523512692344916" status="Pen." time="15:30">
+<home goals="2" id="2351269" name="Igalo"></home>
+<away goals="0" id="2344916" name="Mornar Bar"></away>
+<events>
+<event id="2331834" minute="16" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="81" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[8-0]"></ht>
+<penalty localteam="8" visitorteam="9"></penalty>
+</match><match alternate_id="" alternate_id_2="4338566" date="03.06.2015" id="" static_id="03061523449152344891" status="FT" time="15:30">
+<home goals="0" id="2344915" name="Mogren"></home>
+<away goals="5" id="2344891" name="Decic"></away>
+<events>
+<event id="2331834" minute="7" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="18" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="2331836" minute="31" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="2331837" minute="61" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="2331838" minute="63" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="2331839" minute="67" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="2331840" minute="81" player="" playerid="" result="[0 - 5]" team="away" type="goal"></event>
+<event id="2331841" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4338567" date="03.06.2015" id="" static_id="03061523449162351269" status="FT" time="15:30">
+<home goals="2" id="2344916" name="Mornar Bar"></home>
+<away goals="0" id="2351269" name="Igalo"></away>
+<events>
+<event id="2331834" minute="22" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="88" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match></league><league country="montenegro" name="Montenegro: Prva Crnogorska Liga" cup="False" id="3504" sub_id="35040"><match alternate_id="4116235" alternate_id_2="4331381" date="30.05.2015" id="4233782" static_id="30051523448892344923" status="FT" time="15:30">
 <home goals="3" id="2344889" name="Buducnost"></home>
 <away goals="0" id="2344923" name="Zeta"></away>
 <events>
-<event id="17618164" minute="13" player="Milosevic" playerid="2583478" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17618165" minute="67" player="Kopitovic" playerid="2493632" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="3896888" alternate_id_2="4331469" date="30.05.2015" id="3896888" static_id="30051523449082344918" status="FT" time="15:30">
+</match><match alternate_id="4116237" alternate_id_2="4331469" date="30.05.2015" id="4116237" static_id="30051523449082344918" status="FT" time="15:30">
 <home goals="3" id="2344908" name="Grbalj"></home>
 <away goals="1" id="2344918" name="OFK Petrovac"></away>
 <events>
-<event id="17982384" minute="37" player="Jablan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17982385" minute="47" player="Pejakovic" playerid="2454957" result="[1 - 1]" team="away" type="goal"></event>
-<event id="17982386" minute="65" player="Jablan" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="17982387" minute="65" player="Vukcevic" playerid="2371510" result="[3 - 1]" team="home" type="goal"></event>
+<event id="20175874" minute="37" player="Ivan Jablan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20175875" minute="47" player="Ivan Pejakovic" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20175876" minute="65" player="Petar Vukcevic" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20175877" minute="65" player="Ivan Jablan" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4116236" alternate_id_2="4331464" date="30.05.2015" id="4116236" static_id="30051523449142344916" status="FT" time="15:30">
@@ -31,7 +59,7 @@
 <away goals="0" id="2344916" name="Mornar Bar"></away>
 <events>
 <event id="20175864" minute="19" player="Draganic" playerid="2493634" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20175865" minute="56" player="Radunovic" playerid="2431538" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20175865" minute="56" player="Milos Radunovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4116234" alternate_id_2="4331382" date="30.05.2015" id="4116234" static_id="30051523449012344915" status="FT" time="15:30">
@@ -41,17 +69,18 @@
 <event id="20175844" minute="76" player="Jovovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20175845" minute="81" player="Jovovic" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="20175846" minute="88" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="20175847" minute="90" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4116233" alternate_id_2="4331292" date="30.05.2015" id="4116233" static_id="30051523449202344887" status="FT" time="15:30">
 <home goals="4" id="2344920" name="Rudar"></home>
 <away goals="1" id="2344887" name="Berane"></away>
 <events>
-<event id="20175834" minute="16" player="Nestorovic" playerid="2423864" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20175835" minute="26" player="Mijuskovic" playerid="2469280" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20175836" minute="54" player="Radanovic (pen.)" playerid="2423858" result="[3 - 0]" team="home" type="goal"></event>
-<event id="20175837" minute="68" player="Tmusic" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-<event id="20175838" minute="86" player="Brnovic" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="20175834" minute="16" player="Dusan Nestorovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20175835" minute="26" player="Nemanja Mijuskovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20175836" minute="54" player="Milos Radanovic (pen.)" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="20175837" minute="68" player="Nemanja Tmusic" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="20175838" minute="86" player="Predrag Brnovic" playerid="" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4116232" alternate_id_2="4331293" date="30.05.2015" id="4116232" static_id="30051523449212344895" status="FT" time="15:30">
@@ -59,17 +88,17 @@
 <away goals="1" id="2344895" name="Bokelj"></away>
 <events>
 <event id="20175824" minute="57" player="Macanovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20175825" minute="66" player="Kovacevic" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20175825" minute="66" player="Stevan Kovacevic" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="3860407" alternate_id_2="4329393" date="23.05.2015" id="3860407" static_id="23051523448872344918" status="FT" time="15:30">
-<home goals="2" id="2344887" name="Berane"></home>
+</match><match alternate_id="4116237" alternate_id_2="4329393" date="23.05.2015" id="4116237" static_id="23051523448872344918" status="FT" time="15:30">
+<home goals="3" id="2344887" name="Berane"></home>
 <away goals="1" id="2344918" name="OFK Petrovac"></away>
 <events>
-<event id="17617574" minute="16" player="Tmusic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="17617575" minute="31" player="Tmusic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="17617576" minute="44" player="Grbovic" playerid="2423802" result="[2 - 1]" team="away" type="goal"></event>
-<event id="17617577" minute="90" player="Huremovic" playerid="2524227" result="[3 - 1]" team="home" type="goal"></event>
+<event id="20175874" minute="16" player="Tmusic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20175875" minute="31" player="Tmusic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20175876" minute="44" player="Grbovic" playerid="2423802" result="[2 - 1]" team="away" type="goal"></event>
+<event id="20175877" minute="90" player="Huremovic" playerid="2524227" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match><match alternate_id="4116228" alternate_id_2="4329412" date="23.05.2015" id="4116228" static_id="23051523448952344914" status="FT" time="15:30">
@@ -111,17 +140,17 @@
 <event id="20175817" minute="83" player="Ivanovic" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="3860407" alternate_id_2="4329460" date="23.05.2015" id="3860407" static_id="23051523449232344921" status="FT" time="15:30">
+</match><match alternate_id="4116229" alternate_id_2="4329460" date="23.05.2015" id="4116229" static_id="23051523449232344921" status="FT" time="15:30">
 <home goals="1" id="2344923" name="Zeta"></home>
 <away goals="3" id="2344921" name="Sutjeska"></away>
 <events>
-<event id="17617574" minute="20" player="Bozovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="17617575" minute="32" player="Vujovic (pen.)" playerid="2601736" result="[0 - 2]" team="away" type="goal"></event>
-<event id="17617576" minute="47" player="Sekulic" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="17617577" minute="84" player="Vucic" playerid="2618499" result="[1 - 3]" team="away" type="goal"></event>
+<event id="20175794" minute="20" player="Bozovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20175795" minute="32" player="Vujovic (pen.)" playerid="2601736" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20175796" minute="47" player="Sekulic" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="20175797" minute="84" player="Vucic" playerid="2618499" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="3860469" alternate_id_2="4327277" date="16.05.2015" id="3860469" static_id="16051523448892344920" status="FT" time="15:30">
+</match><match alternate_id="4116221" alternate_id_2="4327277" date="16.05.2015" id="4233768" static_id="16051523448892344920" status="FT" time="15:30">
 <home goals="0" id="2344889" name="Buducnost"></home>
 <away goals="0" id="2344920" name="Rudar"></away>
 <events>
@@ -131,7 +160,7 @@
 <home goals="4" id="2344908" name="Grbalj"></home>
 <away goals="1" id="2344895" name="Bokelj"></away>
 <events>
-<event id="20175744" minute="25" player="Jablan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20175744" minute="25" player="Ivan Jablan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="20175745" minute="26" player="Pavlovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="20175746" minute="39" player="Lazarevic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 <event id="20175747" minute="80" player="Pajovic" playerid="2630913" result="[3 - 1]" team="away" type="goal"></event>
@@ -142,9 +171,9 @@
 <home goals="1" id="2344914" name="Lovcen"></home>
 <away goals="2" id="2344923" name="Zeta"></away>
 <events>
-<event id="20175734" minute="38" player="Vlaisavljevic" playerid="2510621" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20175734" minute="38" player="Miljan Vlaisavljevic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="20175735" minute="72" player="Vujacic" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20175736" minute="79" player="Perutovic" playerid="2376203" result="[1 - 2]" team="home" type="goal"></event>
+<event id="20175736" minute="79" player="Blazo Perutovic" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4116220" alternate_id_2="4327366" date="16.05.2015" id="4116220" static_id="16051523449012344887" status="FT" time="15:30">
@@ -152,14 +181,14 @@
 <away goals="1" id="2344887" name="Berane"></away>
 <events>
 <event id="20175704" minute="7" player="Osmajlic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20175705" minute="33" player="Dalac (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20175706" minute="67" player="Milic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="20175705" minute="33" player="Milos Djalac (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20175706" minute="67" player="Bogdan Milic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 <event id="20175707" minute="70" player="Osmajlic" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 <event id="20175708" minute="80" player="Kruscic" playerid="" result="[4 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4116225" alternate_id_2="4327390" date="16.05.2015" id="4116225" static_id="16051523449182344916" status="FT" time="15:30">
-<home goals="1" id="2344918" name="OFK Petrovac"></home>
+<home goals="3" id="2344918" name="OFK Petrovac"></home>
 <away goals="0" id="2344916" name="Mornar Bar"></away>
 <events>
 <event id="20175754" minute="9" player="Pepic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
@@ -170,49 +199,25 @@
 <away goals="0" id="2344915" name="Mogren"></away>
 <events>
 <event id="20175724" minute="10" player="Vujovic" playerid="2601736" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20175725" minute="35" player="Kovacevic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20175725" minute="35" player="Stevan Kovacevic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="20175726" minute="42" player="Vujovic" playerid="2601736" result="[3 - 0]" team="home" type="goal"></event>
+<event id="20175727" minute="90" player="Vujovic" playerid="2601736" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4116215" alternate_id_2="4325036" date="09.05.2015" id="4233762" static_id="09051523448872344916" status="FT" time="15:00">
-<home goals="2" id="2344887" name="Berane"></home>
-<away goals="2" id="2344916" name="Mornar Bar"></away>
+</match><match alternate_id="3860431" alternate_id_2="4325147" date="09.05.2015" id="3860431" static_id="09051523449202344921" status="FT" time="15:00">
+<home goals="0" id="2344920" name="Rudar"></home>
+<away goals="1" id="2344921" name="Sutjeska"></away>
 <events>
-<event id="20175654" minute="9" player="Kim Young Seop" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20175655" minute="45" player="Vekovic" playerid="" result="" team="away" type="redcard"></event>
-<event id="20175656" minute="52" player="Darko Vucetic" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20175657" minute="74" player="Nikola Tomovic" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="20175658" minute="90" player="Djordje Vojvodic (pen.)" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="17617814" minute="5" player="Vujovic" playerid="2601736" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4116216" alternate_id_2="4325037" date="09.05.2015" id="4233763" static_id="09051523448952344918" status="FT" time="15:00">
-<home goals="0" id="2344895" name="Bokelj"></home>
-<away goals="0" id="2344918" name="OFK Petrovac"></away>
+</match><match alternate_id="4116217" alternate_id_2="4325081" date="09.05.2015" id="4116217" static_id="09051523449232344908" status="FT" time="15:00">
+<home goals="2" id="2344923" name="Zeta"></home>
+<away goals="1" id="2344908" name="Grbalj"></away>
 <events>
-</events>
-<ht score="[0-0]"></ht>
-</match></league><league country="montenegro" name="Montenegro: Prva Crnogorska Liga - Relegation" cup="False" id="3504" sub_id=""><match alternate_id="4116181" alternate_id_2="4117858" date="08.06.2014" id="4116181" static_id="08061423448872344916" status="FT" time="15:30">
-<home goals="2" id="2344887" name="Berane"></home>
-<away goals="0" id="2344916" name="Mornar Bar"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3966363" alternate_id_2="4117859" date="08.06.2014" id="3966363" static_id="08061423449152344911" status="FT" time="15:30">
-<home goals="4" id="2344915" name="Mogren"></home>
-<away goals="0" id="2344911" name="Jezero"></away>
-<events>
+<event id="20175674" minute="17" player="Milos Dujkovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20175675" minute="32" player="Vuk Damjanovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20175676" minute="90" player="Dordevic" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="3966364" alternate_id_2="4117856" date="04.06.2014" id="3966364" static_id="04061423449112344915" status="FT" time="15:30">
-<home goals="1" id="2344911" name="Jezero"></home>
-<away goals="2" id="2344915" name="Mogren"></away>
-<events>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4117857" date="04.06.2014" id="" static_id="04061423449162344887" status="FT" time="15:30">
-<home goals="1" id="2344916" name="Mornar Bar"></home>
-<away goals="0" id="2344887" name="Berane"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league></recent_results>

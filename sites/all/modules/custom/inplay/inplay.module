@@ -65,12 +65,15 @@ function inplay_init() {
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/isotope.pkgd.min.js', array('scope' => 'footer'));
 		
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/chosen/chosen.jquery.min.js', array('scope' => 'footer'));
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/multiple-select/jquery.multiple.select.js', array('scope' => 'footer'));
 		
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.css');
 	    
 	    
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/chosen/chosen.css');
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/multiple-select/multiple-select.css');
+	    
 	    
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay.css', array('weight' => 10));
@@ -441,7 +444,7 @@ function inplay_block_view($delta='') {
       $block['content'] = inplay_commentaries_view();
       break;
     case 'inplay_quickbet' :
-      $block['subject'] = '<i class="fa fa-2x fa-bullseye"></i>' . t('Quick bet');
+      $block['subject'] = '<i class="fa fa-2x fa-bullseye"></i>' . t('Simulate bet');
       $block['content'] = inplay_quickbet_view();
       break;
     case 'inplay_tips' :
@@ -733,13 +736,25 @@ function inplay_quickbet_view()
 		$nid = array_pop($nid);
 		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
 		
+		
 		if(inplay_is_tipster())
+			$block .= "<div class='b_block quickbet'><a href='node/add/simbet?field_match_simbet=$nid' target='_blank'>Create custom bet</a></div>";
+		
+		if(inplay_is_quickview_available($nid))
 		{
-			
-			$link = '<iframe src="/simulate_bet?field_match_simbet=' . $nid . '" 
-							style="width: 100%; height: 500px;"/>';
-			$block = "<div class='b_block quickbet'>" . $link . "</div>";	
-			
+			// ToDo : Si ya no tiene bets hoy mostrar los planes
+			if(!inplay_is_member())
+			{
+				$block .= "<div class='b_block'>" . t('Please consider <a href="be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
+				$block .= _inplay_getplanbody();
+			}
+			else
+			{
+				$url =  url("simulate_bet", array('query' => array('as_iframe' => 1, 'field_match_simbet' => $nid)));
+				$link = '<iframe src="' . $url . '" 
+								style="width: 100%; height: 500px;"></iframe>';
+				$block .= "<div class='b_block quickbet'>" . $link . "</div>";	
+			}
 		}
 	}
 	
@@ -765,14 +780,16 @@ function inplay_tips_view()
 		else 
 		{
 			$block .= commentaries_inplaytips_view($nid);
-			cache_set('commentaries_inplaytips_view_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*30);
+			if(strpos($block, 'nocachesave')===false)
+				cache_set('commentaries_inplaytips_view_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*30);
 		}
 		
 		if(strpos($block, 'b_block'))
 		{
 			if(!inplay_is_member())
 			{
-				$block = "<div class='b_block tipsforyou'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";	
+				$block = "<div class='b_block'>" . t('We have tips here waiting for you, please consider <a href="be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
+				$block .= _inplay_getplanbody();	
 			}
 		}
 	}
@@ -845,8 +862,55 @@ function inplay_is_member()
 
 function inplay_is_tipster()
 {
+	// ToDo : Logar con el permiso correspondiente
+	// 'access arguments' => array('make a custom simulated bet'),
 	global $user;
 	return ( in_array(9, array_keys($user->roles)) || $user->uid == 1 );
 }
 
+function inplay_is_quickview_available($nid)
+{
+	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	
+	$match = node_load($nid);
+	$match_date = new DateTime($match->field_match_date[LANGUAGE_NONE][0]['value'],new DateTimeZone('UTC'));
+	
+	$now = new DateTime('now',new DateTimeZone('UTC'));
+	$now = $now->modify('+10 minutes'); 
+	if($now >= $match_date)
+	{
+		return false;	
+	}
+	
+	// Tip type options available
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'taxonomy_term')
+		  ->entityCondition('bundle', 'tip_type')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_is_available_for_custom_be', 'value', '1', '=')
+		  ->propertyOrderBy('weight');
+	
+	$result = $query->execute();
+	$result = reset($result);
+	$optionstoallow = array();
+	foreach($result as &$term) $optionstoallow[] = $term->tid;
+	$oddsavailable = tips_tipfin_odds_library_check_odds_for_match($nid, $optionstoallow);
+	if(count($oddsavailable) <= 0) return false;
+	
+	return true;
+}
 
+function _inplay_getplanbody()
+{
+	global $language;
+	if($language->language=='es')
+	{
+		$node = node_load(73420);
+		return $node->body[LANGUAGE_NONE][0]['value'];	
+	}
+	else
+	{
+		$node = node_load(13);
+		return $node->body[LANGUAGE_NONE][0]['value'];		
+	}
+}

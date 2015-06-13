@@ -674,6 +674,12 @@ caption
 	display: none;
 }
 
+#block-inplay-inplay-controls .form-select,
+#block-inplay-inplay-controls input[type=text]
+{
+	width: 100% !important;
+}
+
 .grid_8.prealpha .fa-cog
 {
 	clear: both;
