@@ -914,3 +914,32 @@ function _inplay_getplanbody()
 		return $node->body[LANGUAGE_NONE][0]['value'];		
 	}
 }
+
+function _inplay_stringtonumber($dest,$low=1,$high=12)
+{
+    $strarr = str_split($dest);
+    $ret = 0;
+    foreach($strarr as $value)
+		$ret += ord(strtolower($value));    
+    
+    if($ret<$low) return $low;
+    
+    while($ret > $high)
+    {
+		$strarr = str_split($ret);
+		$ret = 0;
+		foreach($strarr as $value)
+	    {
+			$ret += $value;    
+	    }    
+    }
+    
+    return $ret;
+}
+
+function _inplay_getdefaultimage($teamname,$imagestyle = 'team_thumbnail')
+{
+	return theme('image_style',array('style_name' => $imagestyle, 'path' => 'randomteams/' . 
+			_inplay_stringtonumber($teamname) . '.png'));
+}
+	

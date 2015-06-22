@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
 	"use strict";
 	
 	setTimeout(function() {
-        $(".messages").hide('slow');
+        $(".page-node-4629 .messages").hide('slow');
     }, 10000);
 
 	jQuery.browser={};(function(){jQuery.browser.msie=false;

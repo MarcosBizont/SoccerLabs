@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:40:11" sport="soccer" country="spain"><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4033214" alternate_id_2="4332768" date="23.05.2015" id="4150832" static_id="23051523479432347850" status="FT" time="18:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.06.2015 00:40:09" sport="soccer" country="spain"><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4033214" alternate_id_2="4332768" date="23.05.2015" id="4150832" static_id="23051523479432347850" status="FT" time="18:30">
 <home goals="7" id="2347943" name="Real Madrid"></home>
 <away goals="3" id="2347850" name="Getafe"></away>
 <events>
@@ -265,11 +265,68 @@
 <event id="22322100" minute="90" player="S. Darder" playerid="2532741" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="spain" name="Spain: Segunda Division - Promotion - Play Offs" cup="False" id="3231" sub_id=""><match alternate_id="4131500" alternate_id_2="4338684" date="13.06.2015" id="4249039" static_id="13061523478732347956" status="18:00" time="18:00">
-<home goals="?" id="2347873" name="Las Palmas"></home>
-<away goals="?" id="2347956" name="Valladolid"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="spain" name="Spain: Segunda Division - Promotion - Play Offs" cup="False" id="3231" sub_id=""><match alternate_id="4133640" alternate_id_2="4340329" date="21.06.2015" id="4251179" static_id="21061523478732347958" status="FT" time="17:00">
+<home goals="2" id="2347873" name="Las Palmas"></home>
+<away goals="0" id="2347958" name="Zaragoza"></away>
+<events>
+<event id="22416794" minute="25" player="E. Culio" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416795" minute="33" player="R. Mesa" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22416796" minute="41" player="Pedro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416797" minute="64" player="Mario" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416798" minute="68" player="J. Alamo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416799" minute="84" player="S. Araujo" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22416800" minute="90+5" player="D. Garcia" playerid="2390523" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4133639" alternate_id_2="4340328" date="17.06.2015" id="4251178" static_id="17061523479582347873" status="FT" time="18:00">
+<home goals="3" id="2347958" name="Zaragoza"></home>
+<away goals="1" id="2347873" name="Las Palmas"></away>
+<events>
+<event id="22416784" minute="19" player="J. Viera" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22416785" minute="23" player="J. Willian" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416786" minute="29" player="R. Inigo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416787" minute="39" player="D. Rico" playerid="2570621" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22416788" minute="48" player="Pedro" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22416789" minute="61" player="S. Araujo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416790" minute="66" player="E. Culio" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416791" minute="75" player="J. Willian" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4131592" alternate_id_2="4339347" date="14.06.2015" id="4249131" static_id="14061523478542347958" status="FT" time="15:00">
+<home goals="1" id="2347854" name="Girona"></home>
+<away goals="4" id="2347958" name="Zaragoza"></away>
+<events>
+<event id="22406974" minute="19" player="J. Willian (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22406975" minute="25" player="J. Willian" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22406976" minute="33" player="D. Junca" playerid="2484415" result="" team="home" type="yellowcard"></event>
+<event id="22406977" minute="34" player="J. Willian" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22406978" minute="44" player="L. Cabrera" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22406979" minute="45" player="L. Cabrera" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22406980" minute="65" player="C. Mas" playerid="2628042" result="" team="home" type="yellowcard"></event>
+<event id="22406981" minute="67" player="J. Fernandez" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="22406982" minute="73" player="Aday" playerid="" result="[1 - 4]" team="home" type="goal"></event>
+<event id="203083243" minute="74" player="Aday" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="203083244" minute="78" player="J. Fernandez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="203083245" minute="83" player="Y. Bounou" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="203083246" minute="90+4" player="P. Pons" playerid="2597270" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-3]"></ht>
+</match><match alternate_id="4131500" alternate_id_2="4338684" date="13.06.2015" id="4249039" static_id="13061523478732347956" status="FT" time="18:00">
+<home goals="0" id="2347873" name="Las Palmas"></home>
+<away goals="0" id="2347956" name="Valladolid"></away>
+<events>
+<event id="22400344" minute="31" player="J. Mojica" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22400345" minute="39" player="S. Llorca" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22400346" minute="48" player="C. Pena" playerid="2390661" result="" team="away" type="yellowcard"></event>
+<event id="22400347" minute="51" player="L. Sastre" playerid="2390814" result="" team="away" type="yellowcard"></event>
+<event id="22400348" minute="54" player="R. Mesa" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22400349" minute="68" player="H. Perez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22400350" minute="72" player="H. Perez" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22400351" minute="73" player="J. Varas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22400352" minute="76" player="Omar" playerid="2390418" result="" team="away" type="yellowcard"></event>
+<event id="203016943" minute="90+1" player="J. Varas" playerid="" result="" team="away" type="yellowred"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4131591" alternate_id_2="4339346" date="11.06.2015" id="4249130" static_id="11061523479582347854" status="FT" time="18:00">
 <home goals="0" id="2347958" name="Zaragoza"></home>
 <away goals="3" id="2347854" name="Girona"></away>
@@ -444,7 +501,7 @@
 <home goals="0" id="2347830" name="Alaves"></home>
 <away goals="2" id="2347956" name="Valladolid"></away>
 <events>
-<event id="22366324" minute="23" player="Jeffren" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366324" minute="23" player="J. I. Suarez Bermudez" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22366325" minute="25" player="R. Garcia" playerid="2478039" result="" team="home" type="yellowcard"></event>
 <event id="22366326" minute="39" player="Omar" playerid="2390418" result="" team="away" type="yellowcard"></event>
 <event id="22366327" minute="76" player="Migue" playerid="" result="" team="home" type="yellowcard"></event>
@@ -463,21 +520,6 @@
 <event id="22366397" minute="80" player="H. Verdes" playerid="2394576" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4033703" alternate_id_2="4335283" date="31.05.2015" id="4151321" static_id="31051523478452347666" status="FT" time="16:00">
-<home goals="2" id="2347845" name="Barcelona B"></home>
-<away goals="5" id="2347666" name="Leganes"></away>
-<events>
-<event id="22366334" minute="13" player="M. El Haddadi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22366335" minute="37" player="J. Eraso" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22366336" minute="53" player="A. Garcia" playerid="2392747" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22366337" minute="55" player="R. Pena" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22366338" minute="60" player="S. Palencia" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22366339" minute="72" player="R. Pena" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="22366340" minute="77" player="J. Eraso" playerid="" result="[2 - 4]" team="away" type="goal"></event>
-<event id="22366341" minute="86" player="S. Palencia" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22366342" minute="90+1" player="J. Eraso" playerid="" result="[2 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match><match alternate_id="4033694" alternate_id_2="4335284" date="31.05.2015" id="4151312" static_id="31051523480132347766" status="FT" time="16:00">
 <home goals="2" id="2348013" name="Gijon"></home>
 <away goals="0" id="2347766" name="Sabadell"></away>
@@ -502,7 +544,7 @@
 <away goals="1" id="2347490" name="Albacete"></away>
 <events>
 <event id="22366484" minute="37" player="F. Seoane" playerid="2391723" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22366485" minute="76" player="Chumbi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22366485" minute="76" player="F. M. Chumbi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22366486" minute="86" player="J. Paredes" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22366487" minute="90" player="I. Diaz" playerid="2390838" result="" team="home" type="yellowcard"></event>
 </events>
@@ -525,18 +567,31 @@
 <event id="202677145" minute="90+3" player="Richy" playerid="" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4033695" alternate_id_2="4335287" date="31.05.2015" id="4151313" static_id="31051523480172347940" status="FT" time="16:00">
-<home goals="2" id="2348017" name="Tenerife"></home>
-<away goals="0" id="2347940" name="Betis"></away>
+</match><match alternate_id="4033704" alternate_id_2="4335303" date="31.05.2015" id="4151322" static_id="31051523479122347961" status="FT" time="16:00">
+<home goals="2" id="2347912" name="Osasuna"></home>
+<away goals="0" id="2347961" name="Recreativo Huelva"></away>
 <events>
-<event id="22366374" minute="23" player="F. Kadir" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22366375" minute="26" player="C. Ruiz" playerid="2391770" result="" team="home" type="yellowcard"></event>
-<event id="22366376" minute="29" player="A. N'Diaye" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22366377" minute="38" player="L. Reyes" playerid="2406101" result="" team="away" type="yellowcard"></event>
-<event id="22366378" minute="50" player="C. Piccini" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22366379" minute="68" player="Suso" playerid="2394038" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22366380" minute="80" player="D. Ifran" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22366381" minute="83" player="L. Reyes" playerid="2406101" result="" team="away" type="yellowred"></event>
+<event id="22366534" minute="15" player="N. Vujadinovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22366535" minute="39" player="J. Flano" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22366536" minute="43" player="D. Garcia" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22366537" minute="44" player="Juanan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366538" minute="44" player="H. Menosse" playerid="2422267" result="" team="away" type="yellowcard"></event>
+<event id="22366539" minute="53" player="V. Diaz" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366540" minute="59" player="Oier" playerid="2394440" result="" team="home" type="yellowcard"></event>
+<event id="22366541" minute="90+4" player="Dismas" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4033697" alternate_id_2="4335305" date="31.05.2015" id="4151315" static_id="31051523479292347994" status="FT" time="16:00">
+<home goals="0" id="2347929" name="Santander"></home>
+<away goals="1" id="2347994" name="Ponferradina"></away>
+<events>
+<event id="22366554" minute="28" player="A. Guerao" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22366555" minute="53" player="G. Melero" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366556" minute="70" player="M. Sylla" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22366557" minute="75" player="A. Aguilar" playerid="2390665" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22366558" minute="80" player="J. Berrocal" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366559" minute="87" player="A. Ramos" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22366560" minute="90" player="R. Sobrino" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4033702" alternate_id_2="4335288" date="31.05.2015" id="4151320" static_id="31051523479582347873" status="FT" time="16:00">
@@ -546,7 +601,7 @@
 <event id="22366384" minute="14" player="Mario" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22366385" minute="18" player="S. Araujo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22366386" minute="20" player="Ruben" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22366387" minute="37" player="Aythami" playerid="2351977" result="" team="away" type="yellowcard"></event>
+<event id="22366387" minute="37" player="O. Aythami" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22366388" minute="41" player="J. Viera" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="22366389" minute="52" player="J. Fernandez" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22366390" minute="74" player="R. Inigo" playerid="" result="" team="home" type="yellowcard"></event>
@@ -564,41 +619,6 @@
 <event id="20208309" minute="82" player="Pelayo" playerid="2483254" result="" team="away" type="yellowcard"></event>
 <event id="20208310" minute="88" player="I. Bouzon" playerid="2335246" result="" team="away" type="yellowcard"></event>
 <event id="20208311" minute="90+10" player="U. Davila" playerid="2373435" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3914983" alternate_id_2="4119479" date="19.06.2014" id="4032732" static_id="19061423478112347873" status="FT" time="18:00">
-<home goals="0" id="2347811" name="Cordoba"></home>
-<away goals="0" id="2347873" name="Las Palmas"></away>
-<events>
-<event id="20208294" minute="44" player="Xisco" playerid="2334913" result="" team="home" type="yellowcard"></event>
-<event id="20208295" minute="90+2" player="F. Cruz" playerid="2605551" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3967796" alternate_id_2="4118697" date="15.06.2014" id="4085453" static_id="15061423479462347811" status="FT" time="19:00">
-<home goals="1" id="2347946" name="Murcia"></home>
-<away goals="2" id="2347811" name="Cordoba"></away>
-<events>
-<event id="20200474" minute="5" player="Juanlu" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20200475" minute="7" player="Pedro" playerid="2401179" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20200476" minute="20" player="A. Dorca" playerid="2392613" result="" team="home" type="yellowcard"></event>
-<event id="20200477" minute="34" player="D. Bautista" playerid="2390778" result="" team="home" type="yellowcard"></event>
-<event id="20200478" minute="52" player="S. Wellington" playerid="2434525" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20200479" minute="57" player="R. Bravo" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="20200480" minute="61" player="A. L. Garai" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20200481" minute="68" player="I. Bouzon" playerid="2335246" result="" team="away" type="yellowcard"></event>
-<event id="20200482" minute="87" player="R. Bravo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="181018243" minute="90" player="S. Wellington" playerid="2434525" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3967797" alternate_id_2="4118696" date="15.06.2014" id="4085454" static_id="15061423480132347873" status="FT" time="17:00">
-<home goals="0" id="2348013" name="Gijon"></home>
-<away goals="1" id="2347873" name="Las Palmas"></away>
-<events>
-<event id="20200464" minute="35" player="B. Espinosa" playerid="2390840" result="" team="home" type="yellowcard"></event>
-<event id="20200465" minute="51" player="Aythami" playerid="2351977" result="" team="away" type="yellowcard"></event>
-<event id="20200466" minute="82" player="M. Barbosa" playerid="2400240" result="" team="away" type="yellowcard"></event>
-<event id="20200467" minute="90+3" player="N. Cases" playerid="2393543" result="" team="home" type="yellowcard"></event>
-<event id="20200468" minute="90+4" player="M. Asdrubal" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="spain" name="Spain: Copa Del Rey" cup="True" id="3230" sub_id="32300"><match alternate_id="4111289" alternate_id_2="4313826" date="30.05.2015" id="4228840" static_id="30051523475122347535" status="FT" time="19:30">

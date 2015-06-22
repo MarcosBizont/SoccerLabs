@@ -847,7 +847,7 @@ function _simbet_getyield_by_user($user)
 			}
 		}
 	}
-	return ($balance/$numbets)*100;	
+	return number_format(($balance/$numbets)*100,2);	
 }
 
 function _simbet_getnumbets_by_user($user)
@@ -890,5 +890,5 @@ function _simbet_getbalance_by_user($user)
 				$balance -= $stake;
 		}
 	}
-	return $balance;	
+	return number_format($balance,2);	
 }

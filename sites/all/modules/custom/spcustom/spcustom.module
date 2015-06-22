@@ -1,0 +1,35 @@
+<?php
+
+//https://soccer-labs.com/admin/spcustom/isrejected
+
+
+/**
+ * Implements hook_view_menu().
+ */
+ 
+function spcustom_menu(){
+    
+    $items['admin/spcustom/isrejected'] = array(
+		'title' => 'Unsuscribe a rejected email',
+		'page callback' => '_spcustom_isrejected',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+  
+	return $items;
+}
+
+function _spcustom_isrejected()
+{
+	//var_dump($_POST);
+	foreach($_POST as $value)
+	{
+		$json =  json_decode($value);
+		foreach($json as $valuejson)
+			if($valuejson->event=='reject')
+				simplenews_unsubscribe_user($valuejson->msg->email,861,FALSE);
+	}
+	return '';
+	
+}

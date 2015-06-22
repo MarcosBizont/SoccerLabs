@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="13.06.2015 00:40:39" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4098632" alternate_id_2="4334349" date="06.06.2015" id="4216192" static_id="06061523413422341338" status="FT" time="13:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.06.2015 00:40:37" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4098632" alternate_id_2="4334349" date="06.06.2015" id="4216192" static_id="06061523413422341338" status="FT" time="13:30">
 <home goals="0" id="2341342" name="Kalju"></home>
 <away goals="2" id="2341338" name="Sillamäe Kalev"></away>
 <events>
@@ -243,11 +243,22 @@
 <event id="22299179" minute="90+3" player="L. Valja" playerid="" result="[3 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4314958" date="13.06.2015" id="" static_id="13061523552352353651" status="16:00" time="16:00">
-<home goals="?" id="2355235" name="Santos Tartu"></home>
-<away goals="?" id="2353651" name="Vandra Vaprus"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4334699" date="21.06.2015" id="" static_id="21061523413192341330" status="FT" time="16:00">
+<home goals="3" id="2341319" name="Kuressaare"></home>
+<away goals="0" id="2341330" name="Flora II"></away>
+<events>
+<event id="22360494" minute="22" player="Suursaar" playerid="2632383" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22360495" minute="26" player="Suursaar" playerid="2632383" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22360496" minute="78" player="Laht" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4314958" date="13.06.2015" id="" static_id="13061523552352353651" status="FT" time="16:00">
+<home goals="1" id="2355235" name="Santos Tartu"></home>
+<away goals="0" id="2353651" name="Vandra Vaprus"></away>
+<events>
+<event id="22163084" minute="55" player="Eier (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4334701" date="10.06.2015" id="" static_id="10061523552352341348" status="FT" time="16:00">
 <home goals="3" id="2355235" name="Santos Tartu"></home>
 <away goals="1" id="2341348" name="Tallinna Kalev"></away>
@@ -403,13 +414,6 @@
 <event id="22299195" minute="65" player="Alve" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4328600" date="24.05.2015" id="" static_id="24051523413482341364" status="FT" time="13:30">
-<home goals="0" id="2341348" name="Tallinna Kalev"></home>
-<away goals="1" id="2341364" name="Levadia Tallinn II"></away>
-<events>
-<event id="22299504" minute="90" player="Dzumadil" playerid="2618057" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="estonia" name="Estonia: Esi Liiga - Promotion" cup="False" id="3802" sub_id=""><match alternate_id="" alternate_id_2="4290678" date="22.11.2014" id="" static_id="22111423413552350920" status="FT" time="11:00">
 <home goals="1" id="2341355" name="Johvi Lokomotiv"></home>
 <away goals="1" id="2350920" name="Tulevik"></away>
@@ -425,16 +429,38 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="estonia" name="Estonia: Estonian Cup" cup="True" id="3650" sub_id="36500"><match alternate_id="" alternate_id_2="4339413" date="13.06.2015" id="" static_id="" status="16:00" time="16:00">
-<home goals="?" id="" name="Eestimaa Kasakad"></home>
-<away goals="?" id="2341350" name="Narva"></away>
+</match></league><league country="estonia" name="Estonia: Estonian Cup" cup="True" id="3650" sub_id="36500"><match alternate_id="" alternate_id_2="4339391" date="22.06.2015" id="" static_id="22061523413362341363" status="15:00" time="15:00">
+<home goals="?" id="2341336" name="Kadakas"></home>
+<away goals="?" id="2341363" name="Levadia"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4339402" date="13.06.2015" id="" static_id="" status="16:00" time="16:00">
-<home goals="?" id="2356083" name="Infonet"></home>
-<away goals="?" id="" name="Virtsu"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4339401" date="20.06.2015" id="" static_id="" status="FT" time="11:00">
+<home goals="6" id="" name="Imavere"></home>
+<away goals="2" id="2341325" name="Twister Tallinn"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4339410" date="14.06.2015" id="" static_id="14061523413482341387" status="FT" time="11:00">
+<home goals="1" id="2341348" name="Tallinna Kalev"></home>
+<away goals="2" id="2341387" name="HÜJK Emmaste"></away>
+<events>
+<event id="22407604" minute="50" player="J. Tukk" playerid="2357762" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22407605" minute="73" player="T. Paal" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22407606" minute="90+2" player="J. Tukk" playerid="2357762" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4339413" date="13.06.2015" id="" static_id="" status="FT" time="16:00">
+<home goals="0" id="" name="Eestimaa Kasakad"></home>
+<away goals="14" id="2341350" name="Narva"></away>
+<events>
+</events>
+<ht score="[0-7]"></ht>
+</match><match alternate_id="" alternate_id_2="4339402" date="13.06.2015" id="" static_id="" status="FT" time="16:00">
+<home goals="36" id="2356083" name="Infonet"></home>
+<away goals="0" id="" name="Virtsu"></away>
+<events>
+</events>
+<ht score="[13-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4339387" date="12.06.2015" id="" static_id="" status="Postp." time="16:00">
 <home goals="?" id="2341331" name="Maardu"></home>
 <away goals="?" id="" name="Flora III"></away>
@@ -557,43 +583,6 @@
 <event id="22153996" minute="53" player="L. Varendi" playerid="2422628" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4269555" date="22.10.2014" id="" static_id="" status="FT" time="17:30">
-<home goals="0" id="" name="Igiliikur"></home>
-<away goals="9" id="2341330" name="Flora II"></away>
-<events>
-<event id="21709054" minute="6" player="S. Vard" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21709055" minute="8" player="R. Piir" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21709056" minute="36" player="K. I. Maar" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21709057" minute="56" player="J. Kokla" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="21709058" minute="58" player="T. Paavo" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="21709059" minute="60" player="R. Rande" playerid="" result="[0 - 6]" team="away" type="goal"></event>
-<event id="21709060" minute="82" player="" playerid="" result="[0 - 7]" team="away" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="" alternate_id_2="4269557" date="21.10.2014" id="" static_id="" status="FT" time="16:00">
-<home goals="11" id="2341329" name="Flora"></home>
-<away goals="0" id="" name="Saue Laagri"></away>
-<events>
-<event id="21709074" minute="2" player="S. Post" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21709075" minute="11" player="M. Kase" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21709076" minute="21" player="R. Sobtsenko" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21709077" minute="30" player="S. Post" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21709078" minute="40" player="S. Post" playerid="" result="[5 - 0]" team="home" type="goal"></event>
-<event id="21709079" minute="42" player="S. Post" playerid="" result="[6 - 0]" team="home" type="goal"></event>
-<event id="21709080" minute="44" player="A. Frolov" playerid="" result="[7 - 0]" team="home" type="goal"></event>
-<event id="21709081" minute="47" player="S. Post" playerid="" result="[8 - 0]" team="home" type="goal"></event>
-<event id="21709082" minute="65" player="M. Kase" playerid="" result="[9 - 0]" team="home" type="goal"></event>
-<event id="196104243" minute="80" player="S. Mosnikov" playerid="" result="[10 - 0]" team="home" type="goal"></event>
-<event id="196104244" minute="81" player="R. Sappinen" playerid="" result="[11 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[7-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4269556" date="21.10.2014" id="" static_id="21101423413382350533" status="Pen." time="12:00">
-<home goals="0" id="2341338" name="Sillamäe Kalev"></home>
-<away goals="0" id="2350533" name="Infonet"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="4" visitorteam="2"></penalty>
 </match></league><league country="estonia" name="Estonia: Super Cup" cup="True" id="3359" sub_id=""><match alternate_id="4095888" alternate_id_2="4303115" date="03.03.2015" id="4213451" static_id="03031523413632355235" status="FT" time="17:00">
 <home goals="5" id="2341363" name="Levadia"></home>
 <away goals="0" id="2355235" name="Santos Tartu"></away>
