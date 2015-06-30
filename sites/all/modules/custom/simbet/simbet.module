@@ -850,7 +850,7 @@ function _simbet_getyield_by_user($user)
 	return number_format(($balance/$numbets)*100,2);	
 }
 
-function _simbet_getnumbets_by_user($user)
+function _simbet_getnumbets_by_user($user,$tip_type=false)
 {
 	$query = new EntityFieldQuery();
 	$query->entityCondition('entity_type', 'node')
@@ -859,18 +859,23 @@ function _simbet_getnumbets_by_user($user)
 		  ->propertyCondition('uid', $user->uid)
 		  ->fieldCondition('field_win_simbet', 'value', array(1,2), 'IN');
 	
+	if($tip_type!==false)
+		$query->fieldCondition('field_tip_type_simbet', 'target_id', $tip_type);
 	
 	return $query->count()->execute();
 	
 }
 
-function _simbet_getbalance_by_user($user)
+function _simbet_getbalance_by_user($user,$tip_type=false)
 {
 	$query = new EntityFieldQuery();
 	$query->entityCondition('entity_type', 'node')
 		  ->entityCondition('bundle', 'simbet')
 		  ->addMetaData('account', user_load(1))
 		  ->propertyCondition('uid', $user->uid);
+		  
+	if($tip_type!==false)
+		$query->fieldCondition('field_tip_type_simbet', 'target_id', $tip_type);
 	
 	
 	$balance = 0;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.06.2015 00:40:15" sport="soccer" country="argentina"><league country="argentina" name="Argentina: Primera Division" cup="False" id="2914" sub_id="29144"><match alternate_id="4100568" alternate_id_2="4337583" date="08.06.2015" id="4218126" static_id="08061523377872337809" status="FT" time="23:10">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.06.2015 12:40:14" sport="soccer" country="argentina"><league country="argentina" name="Argentina: Primera Division" cup="False" id="2914" sub_id="29144"><match alternate_id="4100568" alternate_id_2="4337583" date="08.06.2015" id="4218126" static_id="08061523377872337809" status="FT" time="23:10">
 <home goals="0" id="2337787" name="Defensa y Justicia"></home>
 <away goals="1" id="2337809" name="Estudiantes L.P."></away>
 <events>
@@ -574,13 +574,193 @@
 <event id="21922190" minute="88" player="F. Oreja" playerid="2384104" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="argentina" name="Argentina: Primera B Nacional" cup="False" id="2911" sub_id="29110"><match alternate_id="4091161" alternate_id_2="4339284" date="21.06.2015" id="4208727" static_id="21061523378652337846" status="54" time="23:30">
-<home goals="0" id="2337865" name="Patronato"></home>
-<away goals="0" id="2337846" name="Juventud Unida Gualeguaychu"></away>
+</match></league><league country="argentina" name="Argentina: Primera B Nacional" cup="False" id="2911" sub_id="29110"><match alternate_id="4091170" alternate_id_2="4340302" date="29.06.2015" id="4208736" static_id="29061523378852337890" status="FT" time="23:30">
+<home goals="0" id="2337885" name="Santamarina"></home>
+<away goals="0" id="2337890" name="Sportivo Belgrano"></away>
+<events>
+<event id="22416524" minute="51" player="E. Capella" playerid="2482617" result="" team="home" type="yellowcard"></event>
+<event id="22416525" minute="57" player="C. Verino" playerid="2409404" result="" team="away" type="yellowcard"></event>
+<event id="22416526" minute="81" player="N. Castro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416527" minute="85" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4091167" alternate_id_2="4340292" date="28.06.2015" id="4208733" static_id="28061523377522337761" status="FT" time="23:30">
+<home goals="3" id="2337752" name="Atl. Tucuman"></home>
+<away goals="1" id="2337761" name="Boca Unidos"></away>
+<events>
+<event id="22416424" minute="19" player="L. Baroni" playerid="2426194" result="" team="away" type="yellowcard"></event>
+<event id="22416425" minute="27" player="J. Imbert" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22416426" minute="33" player="G. Acosta" playerid="2580493" result="" team="home" type="yellowcard"></event>
+<event id="22416427" minute="34" player="M. Ortiz" playerid="2580499" result="" team="away" type="yellowcard"></event>
+<event id="22416428" minute="40" player="R. Ricardone" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416429" minute="45" player="F. Quiroga" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416430" minute="52" player="F. Sbuttoni" playerid="2541133" result="" team="home" type="yellowcard"></event>
+<event id="22416431" minute="59" player="F. Sbuttoni" playerid="2541133" result="" team="home" type="yellowred"></event>
+<event id="22416432" minute="63" player="L. Diaz" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="203177743" minute="71" player="E. Dening" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="203177744" minute="75" player="L. Rodriguez" playerid="2383813" result="[3 - 1]" team="home" type="goal"></event>
+<event id="203177745" minute="85" player="L. Oviedo" playerid="2390139" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091172" alternate_id_2="4340278" date="28.06.2015" id="4208738" static_id="28061523378152337771" status="FT" time="21:20">
+<home goals="1" id="2337815" name="Ferro"></home>
+<away goals="0" id="2337771" name="Central Cordoba"></away>
+<events>
+<event id="22416284" minute="14" player="L. Salmeron" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22416285" minute="23" player="M. Garcia" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416286" minute="33" player="G. Bazan" playerid="" result="" team="home" type="redcard"></event>
+<event id="22416287" minute="48" player="G. Zuvinikar" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416288" minute="55" player="M. Carabajal" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416289" minute="72" player="S. Salto" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416290" minute="79" player="I. Coll" playerid="2545236" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091164" alternate_id_2="4340279" date="28.06.2015" id="4208730" static_id="28061523378372337806" status="FT" time="20:00">
+<home goals="1" id="2337837" name="Ind. Rivadavia"></home>
+<away goals="0" id="2337806" name="Douglas Haig"></away>
+<events>
+<event id="22416294" minute="31" player="J. Pereyra" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22416295" minute="37" player="F. Lenci" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416296" minute="38" player="A. Aguero" playerid="2381933" result="" team="home" type="redcard"></event>
+<event id="22416297" minute="40" player="C. Marcolongo" playerid="2578999" result="" team="away" type="yellowcard"></event>
+<event id="22416298" minute="72" player="L. Gioda" playerid="2346020" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091162" alternate_id_2="4340287" date="28.06.2015" id="4208728" static_id="28061523507002337865" status="FT" time="19:10">
+<home goals="0" id="2350700" name="Atletico Parana"></home>
+<away goals="2" id="2337865" name="Patronato"></away>
+<events>
+<event id="22416374" minute="13" player="L. Marquez" playerid="2403203" result="" team="away" type="yellowcard"></event>
+<event id="22416375" minute="58" player="M. Quiroga" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22416376" minute="64" player="E. Noir" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416377" minute="76" player="M. Minetti" playerid="2550513" result="" team="away" type="yellowcard"></event>
+<event id="22416378" minute="77" player="M. Piris" playerid="2610233" result="" team="home" type="yellowcard"></event>
+<event id="22416379" minute="87" player="D. Martinez" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22416380" minute="89" player="W. Andrade" playerid="2414474" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4091168" alternate_id_2="4340231" date="28.06.2015" id="4208734" static_id="28061523378292337820" status="FT" time="19:00">
+<home goals="0" id="2337829" name="Guaraní Antonio Franco"></home>
+<away goals="2" id="2337820" name="Gimnasia Jujuy"></away>
+<events>
+<event id="22415814" minute="35" player="O. Young" playerid="2384814" result="" team="home" type="yellowcard"></event>
+<event id="22415815" minute="49" player="R. Poclaba" playerid="2508411" result="" team="away" type="yellowcard"></event>
+<event id="22415816" minute="75" player="J. Mosquera" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22415817" minute="79" player="S. Ojeda" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22415818" minute="81" player="M. Perez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22415819" minute="90" player="L. Ferreyra" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4091165" alternate_id_2="4340304" date="28.06.2015" id="4208731" static_id="28061523378392337905" status="FT" time="19:00">
+<home goals="1" id="2337839" name="Instituto"></home>
+<away goals="1" id="2337905" name="Union Mar del Plata"></away>
+<events>
+<event id="22416544" minute="5" player="L. Formaggioni" playerid="2598839" result="" team="away" type="yellowcard"></event>
+<event id="22416545" minute="15" player="F. Miranda" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416546" minute="25" player="J. Bauman" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22416547" minute="51" player="O. Caruso" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22416548" minute="57" player="L. Sapetti" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416549" minute="90+1" player="N. Losada" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416550" minute="90+4" player="B. Visser" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091171" alternate_id_2="4340297" date="28.06.2015" id="4208737" static_id="28061523379112337822" status="Postp." time="18:30">
+<home goals="?" id="2337911" name="Villa Dálmine"></home>
+<away goals="?" id="2337822" name="Gimnasia Mendoza"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4091166" alternate_id_2="4340300" date="28.06.2015" id="4208732" static_id="28061523377632337856" status="FT" time="17:00">
+<home goals="3" id="2337763" name="Guillermo Brown"></home>
+<away goals="3" id="2337856" name="Los Andes"></away>
+<events>
+<event id="22416504" minute="11" player="L. Zeballos" playerid="2384815" result="" team="away" type="yellowcard"></event>
+<event id="22416505" minute="35" player="F. Velazquez" playerid="2389029" result="" team="home" type="yellowcard"></event>
+<event id="22416506" minute="37" player="J. Segovia" playerid="2479938" result="" team="away" type="yellowcard"></event>
+<event id="22416507" minute="39" player="G. Bottino" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22416508" minute="51" player="J. Olivares" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416509" minute="52" player="G. Bottino" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416510" minute="54" player="J. Segovia (o.g.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22416511" minute="55" player="L. Marinucci" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22416512" minute="63" player="J. Cordoba" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="203178543" minute="65" player="A. Noriega" playerid="2406487" result="[3 - 2]" team="away" type="goal"></event>
+<event id="203178544" minute="76" player="A. Noriega" playerid="2406487" result="[3 - 3]" team="away" type="goal"></event>
+<event id="203178545" minute="89" player="M. Gagliardo" playerid="2440283" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4091169" alternate_id_2="4340230" date="27.06.2015" id="4208735" static_id="27061523377742353202" status="FT" time="19:10">
+<home goals="1" id="2337774" name="Chacarita Juniors"></home>
+<away goals="1" id="2353202" name="Sportivo Estudiantes"></away>
+<events>
+<event id="22415804" minute="12" player="G. Pedrosa" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22415805" minute="19" player="R. Moreira" playerid="2382127" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22415806" minute="35" player="A. Manchot" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22415807" minute="61" player="A. Manchot" playerid="" result="" team="away" type="yellowred"></event>
+<event id="22415808" minute="76" player="L. Buter" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22415809" minute="78" player="D. Quiroga" playerid="2640302" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4091163" alternate_id_2="4340296" date="27.06.2015" id="4208729" static_id="27061523378462337732" status="FT" time="17:00">
+<home goals="0" id="2337846" name="Juventud Unida Gualeguaychu"></home>
+<away goals="1" id="2337732" name="All Boys"></away>
+<events>
+<event id="22416464" minute="22" player="P. Barzola" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416465" minute="51" player="R. Villalba" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416466" minute="67" player="E. Perea" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416467" minute="75" player="M. Perelman" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416468" minute="76" player="F. Olego" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22416469" minute="80" player="M. Pellegrino" playerid="2349581" result="" team="away" type="yellowcard"></event>
+<event id="22416470" minute="86" player="C. Gonzalez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22416471" minute="90+3" player="M. Marchesini" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22416472" minute="90+5" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4091112" alternate_id_2="4332479" date="24.06.2015" id="4208678" static_id="24061523378902337815" status="FT" time="23:00">
+<home goals="3" id="2337890" name="Sportivo Belgrano"></home>
+<away goals="1" id="2337815" name="Ferro"></away>
+<events>
+<event id="22338294" minute="1" player="P. Frontini" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22338295" minute="1" player="J. Arostegui (pen.)" playerid="2380037" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22338296" minute="13" player="J. Arostegui" playerid="2380037" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22338297" minute="14" player="F. Fabello" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22338298" minute="15" player="G. Vernetti" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22338299" minute="37" player="A. Ramirez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22338300" minute="63" player="L. Poletto" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22338301" minute="72" player="B. Aquino" playerid="2621056" result="" team="away" type="yellowcard"></event>
+<event id="22338302" minute="77" player="L. Borzani" playerid="2347031" result="" team="home" type="yellowcard"></event>
+<event id="202396443" minute="79" player="R. Mazur" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="202396444" minute="82" player="L. Salmeron" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="202396445" minute="86" player="O. Sainz" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="202396446" minute="89" player="C. Medina" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4091117" alternate_id_2="4332481" date="24.06.2015" id="4208683" static_id="24061523379052337771" status="FT" time="23:00">
+<home goals="1" id="2337905" name="Union Mar del Plata"></home>
+<away goals="0" id="2337771" name="Central Cordoba"></away>
+<events>
+<event id="22338314" minute="21" player="J. Manzoco" playerid="2389993" result="" team="home" type="yellowcard"></event>
+<event id="22338315" minute="32" player="L. Lazo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22338316" minute="47" player="S. Alvarez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22338317" minute="53" player="J. Manzoco" playerid="2389993" result="" team="home" type="yellowred"></event>
+<event id="22338318" minute="53" player="L. Unyicio" playerid="" result="" team="away" type="redcard"></event>
+<event id="22338319" minute="55" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22338320" minute="57" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22338321" minute="90+1" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4091161" alternate_id_2="4339284" date="21.06.2015" id="4208727" static_id="21061523378652337846" status="FT" time="23:30">
+<home goals="1" id="2337865" name="Patronato"></home>
+<away goals="2" id="2337846" name="Juventud Unida Gualeguaychu"></away>
 <events>
 <event id="22406344" minute="44" player="J. Sanchez" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22406345" minute="45+1" player="G. Graciani" playerid="2399088" result="" team="home" type="yellowcard"></event>
 <event id="22406346" minute="48" player="R. Villalba" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22406347" minute="58" player="N. Bandiera" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22406348" minute="77" player="G. Graciani" playerid="2399088" result="" team="home" type="yellowred"></event>
+<event id="22406349" minute="79" player="F. Zampedri" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22406350" minute="84" player="C. Fornillo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22406351" minute="85" player="M. Garrido" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22406352" minute="87" player="C. Fornillo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="203076943" minute="90+2" player="L. Becerra" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4091157" alternate_id_2="4339066" date="21.06.2015" id="4208723" static_id="21061523532022337885" status="FT" time="21:15">
@@ -671,151 +851,6 @@
 <event id="203074843" minute="87" player="" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4091152" alternate_id_2="4339104" date="20.06.2015" id="4208718" static_id="20061523379052337763" status="FT" time="19:00">
-<home goals="1" id="2337905" name="Union Mar del Plata"></home>
-<away goals="1" id="2337763" name="Guillermo Brown"></away>
-<events>
-<event id="22404544" minute="14" player="W. Albarracin" playerid="2380067" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22404545" minute="56" player="E. Gimenez" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22404546" minute="71" player="F. Ciampichetti" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22404547" minute="79" player="P. Cucchi" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4091151" alternate_id_2="4339080" date="20.06.2015" id="4208717" static_id="20061523378562337752" status="FT" time="17:00">
-<home goals="1" id="2337856" name="Los Andes"></home>
-<away goals="0" id="2337752" name="Atl. Tucuman"></away>
-<events>
-<event id="22404304" minute="51" player="P. Garnier" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22404305" minute="57" player="D. Galeano" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22404306" minute="61" player="R. Vera" playerid="2390083" result="" team="home" type="yellowcard"></event>
-<event id="22404307" minute="82" player="A. Noriega" playerid="2406487" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4091155" alternate_id_2="4339095" date="20.06.2015" id="4208721" static_id="20061523378222337815" status="FT" time="00:00">
-<home goals="0" id="2337822" name="Gimnasia Mendoza"></home>
-<away goals="1" id="2337815" name="Ferro"></away>
-<events>
-<event id="22404454" minute="12" player="J. Mozzo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22404455" minute="42" player="L. Salmeron (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22404456" minute="78" player="F. Gimenez" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22404457" minute="87" player="V. Gomez" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4091153" alternate_id_2="4339099" date="20.06.2015" id="4208719" static_id="20061523378902337839" status="FT" time="00:00">
-<home goals="0" id="2337890" name="Sportivo Belgrano"></home>
-<away goals="0" id="2337839" name="Instituto"></away>
-<events>
-<event id="22404494" minute="36" player="R. Medina" playerid="2428375" result="" team="home" type="yellowcard"></event>
-<event id="22404495" minute="67" player="C. Bernardi" playerid="2518014" result="" team="away" type="yellowcard"></event>
-<event id="22404496" minute="71" player="I. Antonio" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4332485" date="17.06.2015" id="" static_id="17061523377612350700" status="FT" time="18:30">
-<home goals="3" id="2337761" name="Boca Unidos"></home>
-<away goals="1" id="2350700" name="Atletico Parana"></away>
-<events>
-<event id="22338354" minute="7" player="J. Belforte" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22338355" minute="10" player="J. Bravo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22338356" minute="34" player="E. Olivera" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22338357" minute="40" player="E. Noir" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22338358" minute="48" player="P. Vercellino" playerid="2552492" result="" team="away" type="yellowcard"></event>
-<event id="22338359" minute="65" player="E. Dening" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22338360" minute="88" player="M. Galli" playerid="2552486" result="" team="away" type="yellowcard"></event>
-<event id="22338361" minute="89" player="R. Stechina" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-<event id="22338362" minute="90+1" player="D. Reynoso" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4091143" alternate_id_2="4337306" date="15.06.2015" id="4208709" static_id="15061523377522337905" status="FT" time="23:30">
-<home goals="1" id="2337752" name="Atl. Tucuman"></home>
-<away goals="1" id="2337905" name="Union Mar del Plata"></away>
-<events>
-<event id="22386564" minute="11" player="L. Diaz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22386565" minute="40" player="N. Santos" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22386566" minute="73" player="F. Sbuttoni" playerid="2541133" result="" team="home" type="yellowcard"></event>
-<event id="22386567" minute="83" player="J. Garcia" playerid="2399068" result="" team="away" type="yellowcard"></event>
-<event id="22386568" minute="84" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22386569" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22386570" minute="90+5" player="" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4091146" alternate_id_2="4337299" date="14.06.2015" id="4208712" static_id="14061523378852337820" status="FT" time="23:30">
-<home goals="3" id="2337885" name="Santamarina"></home>
-<away goals="0" id="2337820" name="Gimnasia Jujuy"></away>
-<events>
-<event id="22386494" minute="7" player="A. Gonzalez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22386495" minute="11" player="M. Berza (o.g.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22386496" minute="27" player="J. Arraya" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22386497" minute="30" player="M. Berza" playerid="2345778" result="" team="away" type="yellowcard"></event>
-<event id="22386498" minute="61" player="F. Azcarate" playerid="2391810" result="" team="home" type="yellowcard"></event>
-<event id="22386499" minute="66" player="F. Scoppa" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22386500" minute="83" player="R. Poclaba" playerid="2508411" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[3-0]"></ht>
-</match><match alternate_id="4091144" alternate_id_2="4337270" date="14.06.2015" id="4208710" static_id="14061523379112337856" status="FT" time="21:10">
-<home goals="0" id="2337911" name="Villa Dálmine"></home>
-<away goals="0" id="2337856" name="Los Andes"></away>
-<events>
-<event id="22386204" minute="54" player="J. Olivares" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22386205" minute="58" player="J. Celaya" playerid="2582191" result="" team="home" type="yellowcard"></event>
-<event id="22386206" minute="63" player="" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4091149" alternate_id_2="4337556" date="14.06.2015" id="4208715" static_id="14061523378372337865" status="FT" time="20:00">
-<home goals="0" id="2337837" name="Ind. Rivadavia"></home>
-<away goals="2" id="2337865" name="Patronato"></away>
-<events>
-<event id="22389064" minute="14" player="L. Germiniani" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22389065" minute="48" player="M. Minetti" playerid="2550513" result="" team="away" type="yellowcard"></event>
-<event id="22389066" minute="54" player="A. Vizcarra" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22389067" minute="68" player="C. Quintana" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22389068" minute="89" player="M. Quiroga" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22389069" minute="90" player="E. Fernandez (o.g.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4091145" alternate_id_2="4337302" date="14.06.2015" id="4208711" static_id="14061523377742337806" status="FT" time="19:00">
-<home goals="0" id="2337774" name="Chacarita Juniors"></home>
-<away goals="0" id="2337806" name="Douglas Haig"></away>
-<events>
-<event id="22386524" minute="30" player="N. Rodriguez" playerid="2579735" result="" team="away" type="yellowcard"></event>
-<event id="22386525" minute="77" player="S. Gallucci" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22386526" minute="87" player="N. Mariescurrena" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22386527" minute="90+1" player="M. Nizzo" playerid="2513318" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4091142" alternate_id_2="4337294" date="14.06.2015" id="4208708" static_id="14061523377632337890" status="FT" time="18:00">
-<home goals="1" id="2337763" name="Guillermo Brown"></home>
-<away goals="0" id="2337890" name="Sportivo Belgrano"></away>
-<events>
-<event id="22386444" minute="51" player="J. Susvielles" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22386445" minute="60" player="F. Fabello" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22386446" minute="62" player="G. Bottino" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22386447" minute="66" player="E. Urquiza" playerid="2384131" result="" team="away" type="yellowcard"></event>
-<event id="22386448" minute="69" player="C. Mosca" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22386449" minute="75" player="L. Marinucci" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22386450" minute="86" player="H. Iriarte" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4091150" alternate_id_2="4337555" date="14.06.2015" id="4208716" static_id="14061523378292337732" status="FT" time="00:00">
-<home goals="0" id="2337829" name="Guaraní Antonio Franco"></home>
-<away goals="0" id="2337732" name="All Boys"></away>
-<events>
-<event id="22389054" minute="67" player="D. Stefanatto" playerid="2383385" result="" team="away" type="yellowcard"></event>
-<event id="22389055" minute="76" player="L. Leguizamon" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22389056" minute="90+1" player="" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22389057" minute="90+1" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22389058" minute="90+1" player="" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4091148" alternate_id_2="4337269" date="13.06.2015" id="4208714" static_id="13061523507002337846" status="FT" time="19:00">
-<home goals="1" id="2350700" name="Atletico Parana"></home>
-<away goals="1" id="2337846" name="Juventud Unida Gualeguaychu"></away>
-<events>
-<event id="22386194" minute="45+1" player="F. Benitez" playerid="2552483" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22386195" minute="64" player="R. Villalba" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22386196" minute="78" player="P. Lencioni" playerid="2552491" result="" team="home" type="yellowcard"></event>
-<event id="22386197" minute="90+1" player="D. Reynoso" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="argentina" name="Argentina: Primera B Nacional - Promotion Group" cup="False" id="2911" sub_id=""><match alternate_id="" alternate_id_2="4296720" date="19.12.2014" id="" static_id="19121423378622337820" status="FT" time="23:15">
 <home goals="1" id="2337862" name="Nueva Chicago"></home>
 <away goals="0" id="2337820" name="Gimnasia Jujuy"></away>
@@ -864,11 +899,86 @@
 <event id="21979710" minute="90" player="G. Bozzoni" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="argentina" name="Argentina: Primera B Metropolitana" cup="False" id="2910" sub_id="29100"><match alternate_id="4105747" alternate_id_2="4339096" date="22.06.2015" id="4223302" static_id="22061523377292337802" status="18:00" time="18:00">
-<home goals="?" id="2337729" name="Acassuso"></home>
-<away goals="?" id="2337802" name="Deportivo Riestra"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="argentina" name="Argentina: Primera B Metropolitana" cup="False" id="2910" sub_id="29100"><match alternate_id="4105767" alternate_id_2="4340068" date="28.06.2015" id="4223322" static_id="28061523377452337733" status="FT" time="18:30">
+<home goals="2" id="2337745" name="Atletico Atlanta"></home>
+<away goals="0" id="2337733" name="Almagro"></away>
+<events>
+<event id="22414184" minute="35" player="Bonfigli" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22414185" minute="54" player="Pedrozo" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22414186" minute="61" player="Luciatti" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4105761" alternate_id_2="4340095" date="28.06.2015" id="4223316" static_id="28061523378102337789" status="FT" time="18:30">
+<home goals="1" id="2337810" name="CA Estudiantes"></home>
+<away goals="1" id="2337789" name="Defensores de Belgrano"></away>
+<events>
+<event id="22414454" minute="28" player="Goux" playerid="2391478" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22414455" minute="86" player="Goux" playerid="2391478" result="" team="away" type="redcard"></event>
+<event id="22414456" minute="87" player="Gimenez (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4105764" alternate_id_2="4340014" date="27.06.2015" id="4223319" static_id="27061523377622337799" status="FT" time="18:30">
+<home goals="1" id="2337762" name="Brown Adrogue"></home>
+<away goals="0" id="2337799" name="Deportivo Moron"></away>
+<events>
+<event id="22413644" minute="49" player="Esteban" playerid="2345671" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22413645" minute="82" player="Dominguez" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4105768" alternate_id_2="4340069" date="27.06.2015" id="4223323" static_id="27061523427722337795" status="FT" time="18:30">
+<home goals="0" id="2342772" name="Comunicaciones"></home>
+<away goals="0" id="2337795" name="Deportivo Espanol"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4105759" alternate_id_2="4340107" date="27.06.2015" id="4223314" static_id="27061523377932337729" status="FT" time="18:30">
+<home goals="1" id="2337793" name="Deportivo Armenio"></home>
+<away goals="0" id="2337729" name="Acassuso"></away>
+<events>
+<event id="22414574" minute="26" player="Rojas" playerid="2597701" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22414575" minute="46" player="Romero" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4105760" alternate_id_2="4340070" date="27.06.2015" id="4223315" static_id="27061523378022337755" status="FT" time="18:30">
+<home goals="0" id="2337802" name="Deportivo Riestra"></home>
+<away goals="1" id="2337755" name="Barracas Central"></away>
+<events>
+<event id="22414204" minute="41" player="Bravo" playerid="" result="" team="home" type="redcard"></event>
+<event id="22414205" minute="42" player="Soriano" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22414206" minute="44" player="Puig" playerid="2612847" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4105766" alternate_id_2="4340071" date="27.06.2015" id="4223321" static_id="27061523378182337892" status="FT" time="18:00">
+<home goals="1" id="2337818" name="Flandria"></home>
+<away goals="0" id="2337892" name="Sportivo Italiano"></away>
+<events>
+<event id="22414214" minute="22" player="Rose" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4106857" alternate_id_2="4340013" date="26.06.2015" id="4224412" static_id="26061523377342337914" status="FT" time="18:00">
+<home goals="4" id="2337734" name="Almirante Brown"></home>
+<away goals="2" id="2337914" name="Villa San Carlos"></away>
+<events>
+<event id="22413634" minute="8" player="Diaz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22413635" minute="20" player="Barbosa" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22413636" minute="44" player="Diaz" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22413637" minute="52" player="Meza" playerid="2399196" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22413638" minute="54" player="Sommariva (pen.)" playerid="2453658" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22413639" minute="67" player="Garcia" playerid="" result="" team="home" type="redcard"></event>
+<event id="22413640" minute="72" player="Diaz (pen.)" playerid="" result="[4 - 2]" team="home" type="goal"></event>
+<event id="22413641" minute="87" player="Machuca" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4105747" alternate_id_2="4339096" date="22.06.2015" id="4223302" static_id="22061523377292337802" status="FT" time="18:00">
+<home goals="1" id="2337729" name="Acassuso"></home>
+<away goals="2" id="2337802" name="Deportivo Riestra"></away>
+<events>
+<event id="22404464" minute="13" player="Sanchez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22404465" minute="23" player="Ruiz (pen.)" playerid="2553400" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22404466" minute="84" player="Herrera" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22404467" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4105738" alternate_id_2="4339092" date="21.06.2015" id="4223293" static_id="21061523377332342772" status="FT" time="18:30">
 <home goals="2" id="2337733" name="Almagro"></home>
 <away goals="0" id="2342772" name="Comunicaciones"></away>
@@ -946,7 +1056,7 @@
 <home goals="1" id="2337914" name="Villa San Carlos"></home>
 <away goals="0" id="2337817" name="UAI Urquiza"></away>
 <events>
-<event id="22404364" minute="90" player="Mariano Fernandez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22404364" minute="90" player="Fernandez" playerid="2513915" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4105730" alternate_id_2="4337558" date="16.06.2015" id="4223285" static_id="16061523378102337729" status="FT" time="18:00">
@@ -956,75 +1066,6 @@
 <event id="22389084" minute="32" player="Torres" playerid="2594439" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4105735" alternate_id_2="4337509" date="14.06.2015" id="4223290" static_id="14061523377782337904" status="FT" time="15:00">
-<home goals="2" id="2337778" name="Colegiales"></home>
-<away goals="3" id="2337904" name="Tristan Suarez"></away>
-<events>
-<event id="22388594" minute="3" player="Huichulef" playerid="2608127" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22388595" minute="19" player="Vazzoler" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22388596" minute="21" player="Igartua" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22388597" minute="37" player="Talin" playerid="" result="" team="away" type="redcard"></event>
-<event id="22388598" minute="45" player="Tossi" playerid="2623496" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22388599" minute="72" player="Luna" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[2-2]"></ht>
-</match><match alternate_id="4105733" alternate_id_2="4337510" date="14.06.2015" id="4223288" static_id="14061523377982337914" status="FT" time="15:00">
-<home goals="0" id="2337798" name="Dep. Merlo"></home>
-<away goals="0" id="2337914" name="Villa San Carlos"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4106854" alternate_id_2="4337512" date="14.06.2015" id="4224409" static_id="14061523378182337799" status="FT" time="15:00">
-<home goals="0" id="2337818" name="Flandria"></home>
-<away goals="2" id="2337799" name="Deportivo Moron"></away>
-<events>
-<event id="22388624" minute="22" player="Peralta" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22388625" minute="36" player="Altobelli" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22388626" minute="61" player="De Hoyos" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4106855" alternate_id_2="4337557" date="13.06.2015" id="4224410" static_id="13061523377452349264" status="FT" time="18:30">
-<home goals="0" id="2337745" name="Atletico Atlanta"></home>
-<away goals="0" id="2349264" name="Fénix"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4105734" alternate_id_2="4337508" date="13.06.2015" id="4223289" static_id="13061523377622337866" status="FT" time="18:30">
-<home goals="2" id="2337762" name="Brown Adrogue"></home>
-<away goals="0" id="2337866" name="Platense"></away>
-<events>
-<event id="22388584" minute="32" player="Brito" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22388585" minute="40" player="Nadal" playerid="" result="" team="away" type="redcard"></event>
-<event id="22388586" minute="58" player="Torrent" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4106856" alternate_id_2="4337559" date="13.06.2015" id="4224411" static_id="13061523427722337892" status="FT" time="18:30">
-<home goals="3" id="2342772" name="Comunicaciones"></home>
-<away goals="0" id="2337892" name="Sportivo Italiano"></away>
-<events>
-<event id="22389094" minute="17" player="Vatter" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22389095" minute="24" player="Banegas" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22389096" minute="89" player="Ibanez" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4106853" alternate_id_2="4337511" date="13.06.2015" id="4224408" static_id="13061523377932337802" status="FT" time="18:30">
-<home goals="3" id="2337793" name="Deportivo Armenio"></home>
-<away goals="2" id="2337802" name="Deportivo Riestra"></away>
-<events>
-<event id="22388614" minute="6" player="Sanchez" playerid="2611135" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22388615" minute="35" player="Lopez (pen.)" playerid="2383226" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22388616" minute="50" player="Peralta" playerid="2593233" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22388617" minute="82" player="Bravo" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="22388618" minute="89" player="Cura" playerid="" result="" team="home" type="redcard"></event>
-<event id="22388619" minute="90" player="Lopez (pen.)" playerid="2383226" result="[3 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4105736" alternate_id_2="4337560" date="13.06.2015" id="4223291" static_id="13061523377952337733" status="FT" time="18:30">
-<home goals="0" id="2337795" name="Deportivo Espanol"></home>
-<away goals="0" id="2337733" name="Almagro"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="argentina" name="Argentina: Primera B Metropolitana - Play Offs" cup="False" id="2910" sub_id=""><match alternate_id="4085435" alternate_id_2="4295250" date="08.12.2014" id="4203002" static_id="08121423379042337911" status="FT" time="20:00">
 <home goals="0" id="2337904" name="Tristan Suarez"></home>
 <away goals="2" id="2337911" name="Villa Dálmine"></away>
@@ -1069,21 +1110,113 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="" visitorteam=""></penalty>
-</match></league><league country="argentina" name="Argentina: Primera C Metropolitana" cup="False" id="2912" sub_id="29120"><match alternate_id="4107042" alternate_id_2="4339914" date="22.06.2015" id="4224597" static_id="22061523378772337792" status="18:30" time="18:30">
-<home goals="?" id="2337877" name="Sacachispas"></home>
-<away goals="?" id="2337792" name="Defensores Unidos"></away>
+</match></league><league country="argentina" name="Argentina: Primera C Metropolitana" cup="False" id="2912" sub_id="29120"><match alternate_id="" alternate_id_2="4340837" date="30.06.2015" id="" static_id="30061523378792337805" status="18:00" time="18:00">
+<home goals="?" id="2337879" name="San Martín Burzaco"></home>
+<away goals="?" id="2337805" name="Dock Sud"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4107050" alternate_id_2="4339913" date="22.06.2015" id="4224605" static_id="22061523378602337738" status="18:00" time="18:00">
-<home goals="?" id="2337860" name="Midland"></home>
-<away goals="?" id="2337738" name="Argentino de Merlo"></away>
+</match><match alternate_id="4107054" alternate_id_2="4340838" date="30.06.2015" id="4224609" static_id="30061523378842337896" status="18:00" time="18:00">
+<home goals="?" id="2337884" name="San Telmo"></home>
+<away goals="?" id="2337896" name="Talleres Escalada"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4339909" date="22.06.2015" id="" static_id="22061523377882337850" status="17:00" time="17:00">
-<home goals="?" id="2337788" name="Defensores de Cambaceres"></home>
-<away goals="?" id="2337850" name="Laferrere"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4107058" alternate_id_2="4340840" date="29.06.2015" id="4224613" static_id="29061523378122337826" status="FT" time="18:30">
+<home goals="1" id="2337812" name="Excursionistas"></home>
+<away goals="1" id="2337826" name="General Lamadrid"></away>
+<events>
+<event id="22421904" minute="45" player="Vivanco" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22421905" minute="84" player="Montiel" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4107052" alternate_id_2="4340834" date="29.06.2015" id="4224607" static_id="29061523377882337883" status="FT" time="18:00">
+<home goals="1" id="2337788" name="Defensores de Cambaceres"></home>
+<away goals="0" id="2337883" name="San Miguel"></away>
+<events>
+<event id="22421844" minute="48" player="Palavecino" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4107053" alternate_id_2="4340835" date="29.06.2015" id="4224608" static_id="29061523378422337758" status="FT" time="18:00">
+<home goals="0" id="2337842" name="Justo José de Urquiza"></home>
+<away goals="1" id="2337758" name="Berazategui"></away>
+<events>
+<event id="22421854" minute="55" player="Cuevas" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4107055" alternate_id_2="4340833" date="27.06.2015" id="4224610" static_id="27061523377712337738" status="FT" time="18:30">
+<home goals="1" id="2337771" name="Central Cordoba"></home>
+<away goals="1" id="2337738" name="Argentino de Merlo"></away>
+<events>
+<event id="22421834" minute="3" player="Palacios" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22421835" minute="12" player="Sanchez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4107057" alternate_id_2="4340842" date="27.06.2015" id="4224612" static_id="27061523378462337768" status="FT" time="15:00">
+<home goals="1" id="2337846" name="Juventud Unida San Miguel"></home>
+<away goals="0" id="2337768" name="Cañuelas"></away>
+<events>
+<event id="22421924" minute="47" player="Rios (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22421925" minute="60" player="Brunetti" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4107059" alternate_id_2="4340832" date="27.06.2015" id="4224614" static_id="27061523377392337850" status="FT" time="14:00">
+<home goals="1" id="2337739" name="Argentino de Quilmes"></home>
+<away goals="1" id="2337850" name="Laferrere"></away>
+<events>
+<event id="22421824" minute="35" player="Gimenez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22421825" minute="36" player="Gauna" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4107060" alternate_id_2="4340836" date="27.06.2015" id="4224615" static_id="27061523378602337792" status="FT" time="14:00">
+<home goals="1" id="2337860" name="Midland"></home>
+<away goals="3" id="2337792" name="Defensores Unidos"></away>
+<events>
+<event id="22421864" minute="24" player="Portillo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22421865" minute="39" player="Martinez" playerid="2383352" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22421866" minute="81" player="Pentimalli" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22421867" minute="82" player="Salvatierra" playerid="2588600" result="" team="home" type="redcard"></event>
+<event id="22421868" minute="89" player="Portillo" playerid="" result="" team="home" type="redcard"></event>
+<event id="22421869" minute="90" player="Algaandntilde;araz (pen.)" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4107061" alternate_id_2="4340843" date="26.06.2015" id="4224616" static_id="26061523378772337858" status="FT" time="18:30">
+<home goals="1" id="2337877" name="Sacachispas"></home>
+<away goals="2" id="2337858" name="Club Luján"></away>
+<events>
+<event id="22421934" minute="4" player="Lutzky" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22421935" minute="78" player="Pighin" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22421936" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4106993" alternate_id_2="4331097" date="24.06.2015" id="4224548" static_id="24061523378832337842" status="FT" time="18:00">
+<home goals="3" id="2337883" name="San Miguel"></home>
+<away goals="2" id="2337842" name="Justo José de Urquiza"></away>
+<events>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4107046" alternate_id_2="4339916" date="22.06.2015" id="4224601" static_id="22061523378962337879" status="FT" time="20:30">
+<home goals="3" id="2337896" name="Talleres Escalada"></home>
+<away goals="0" id="2337879" name="San Martín Burzaco"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4107042" alternate_id_2="4339914" date="22.06.2015" id="4224597" static_id="22061523378772337792" status="FT" time="18:30">
+<home goals="3" id="2337877" name="Sacachispas"></home>
+<away goals="1" id="2337792" name="Defensores Unidos"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4107050" alternate_id_2="4339913" date="22.06.2015" id="4224605" static_id="22061523378602337738" status="FT" time="18:00">
+<home goals="0" id="2337860" name="Midland"></home>
+<away goals="0" id="2337738" name="Argentino de Merlo"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4339909" date="22.06.2015" id="" static_id="22061523377882337850" status="FT" time="17:00">
+<home goals="0" id="2337788" name="Defensores de Cambaceres"></home>
+<away goals="0" id="2337850" name="Laferrere"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4107049" alternate_id_2="4339915" date="21.06.2015" id="4224604" static_id="21061523378842337758" status="FT" time="18:00">
 <home goals="2" id="2337884" name="San Telmo"></home>
 <away goals="0" id="2337758" name="Berazategui"></away>
@@ -1114,101 +1247,6 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4107048" alternate_id_2="4339907" date="20.06.2015" id="4224603" static_id="20061523377392337805" status="FT" time="15:00">
-<home goals="2" id="2337739" name="Argentino de Quilmes"></home>
-<away goals="2" id="2337805" name="Dock Sud"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4107041" alternate_id_2="4338929" date="18.06.2015" id="4224596" static_id="18061523377582337896" status="FT" time="18:00">
-<home goals="1" id="2337758" name="Berazategui"></home>
-<away goals="1" id="2337896" name="Talleres Escalada"></away>
-<events>
-<event id="22402794" minute="54" player="Corado" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22402795" minute="76" player="Oltolina" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4107033" alternate_id_2="4338920" date="18.06.2015" id="4224588" static_id="18061523377682337884" status="FT" time="18:00">
-<home goals="3" id="2337768" name="Cañuelas"></home>
-<away goals="1" id="2337884" name="San Telmo"></away>
-<events>
-<event id="22402704" minute="35" player="Boaglio" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22402705" minute="36" player="Jimenez" playerid="" result="" team="away" type="redcard"></event>
-<event id="22402706" minute="48" player="Leiva" playerid="2429495" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22402707" minute="70" player="Correa" playerid="" result="" team="away" type="redcard"></event>
-<event id="22402708" minute="83" player="Guzman" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22402709" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4107032" alternate_id_2="4338935" date="18.06.2015" id="4224587" static_id="18061523378832337771" status="FT" time="18:00">
-<home goals="0" id="2337883" name="San Miguel"></home>
-<away goals="0" id="2337771" name="Central Cordoba"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4107038" alternate_id_2="4339082" date="17.06.2015" id="4224593" static_id="17061523378262337860" status="FT" time="18:30">
-<home goals="0" id="2337826" name="General Lamadrid"></home>
-<away goals="0" id="2337860" name="Midland"></away>
-<events>
-<event id="22404324" minute="85" player="" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4107037" alternate_id_2="4338932" date="17.06.2015" id="4224592" static_id="17061523378502337812" status="FT" time="18:30">
-<home goals="0" id="2337850" name="Laferrere"></home>
-<away goals="0" id="2337812" name="Excursionistas"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4107036" alternate_id_2="4338933" date="17.06.2015" id="4224591" static_id="17061523377382337877" status="FT" time="18:00">
-<home goals="4" id="2337738" name="Argentino de Merlo"></home>
-<away goals="3" id="2337877" name="Sacachispas"></away>
-<events>
-<event id="22402834" minute="10" player="Ayala" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22402835" minute="22" player="Avalos" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22402836" minute="30" player="Ayala" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22402837" minute="50" player="Avalos" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-<event id="22402838" minute="61" player="Screpis" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="22402839" minute="64" player="Avalos" playerid="" result="[3 - 3]" team="home" type="goal"></event>
-<event id="22402840" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4107040" alternate_id_2="4338924" date="17.06.2015" id="4224595" static_id="17061523378582337842" status="FT" time="18:00">
-<home goals="2" id="2337858" name="Club Luján"></home>
-<away goals="0" id="2337842" name="Justo José de Urquiza"></away>
-<events>
-<event id="22402744" minute="9" player="Lopez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22402745" minute="27" player="Scarnato (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4107039" alternate_id_2="4338930" date="17.06.2015" id="4224594" static_id="17061523377922337846" status="FT" time="18:00">
-<home goals="0" id="2337792" name="Defensores Unidos"></home>
-<away goals="0" id="2337846" name="Juventud Unida San Miguel"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4107035" alternate_id_2="4339069" date="17.06.2015" id="4224590" static_id="17061523378052337788" status="FT" time="18:00">
-<home goals="2" id="2337805" name="Dock Sud"></home>
-<away goals="1" id="2337788" name="Defensores de Cambaceres"></away>
-<events>
-<event id="22404194" minute="7" player="Rodriguez" playerid="2581586" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22404195" minute="32" player="Moreira" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22404196" minute="74" player="Casanova" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4107034" alternate_id_2="4338927" date="17.06.2015" id="4224589" static_id="17061523378792337739" status="FT" time="18:00">
-<home goals="1" id="2337879" name="San Martín Burzaco"></home>
-<away goals="3" id="2337739" name="Argentino de Quilmes"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4107023" alternate_id_2="4337561" date="15.06.2015" id="4224578" static_id="15061523377582337768" status="FT" time="18:00">
-<home goals="1" id="2337758" name="Berazategui"></home>
-<away goals="0" id="2337768" name="Cañuelas"></away>
-<events>
-<event id="22389114" minute="72" player="Pastor (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22389115" minute="73" player="Peralta" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="argentina" name="Argentina: Primera C Metropolitana - Promotion - Play Offs" cup="False" id="2912" sub_id=""><match alternate_id="" alternate_id_2="4294791" date="08.12.2014" id="" static_id="08121423378022337805" status="FT" time="20:00">
 <home goals="2" id="2337802" name="Deportivo Riestra"></home>
 <away goals="1" id="2337805" name="Dock Sud"></away>
@@ -1273,26 +1311,75 @@
 <event id="21934136" minute="73" player="Montenegro" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="argentina" name="Argentina: Primera D Metropolitana" cup="False" id="2913" sub_id="29130"><match alternate_id="4106090" alternate_id_2="4338496" date="22.06.2015" id="4223645" static_id="22061523377702337853" status="18:00" time="18:00">
-<home goals="?" id="2337770" name="Central Ballester"></home>
-<away goals="?" id="2337853" name="Leandro N. Alem"></away>
+</match></league><league country="argentina" name="Argentina: Primera D Metropolitana" cup="False" id="2913" sub_id="29130"><match alternate_id="" alternate_id_2="4339508" date="30.06.2015" id="" static_id="30061523378002337754" status="18:00" time="18:00">
+<home goals="?" id="2337800" name="Deportivo Muniz"></home>
+<away goals="?" id="2337754" name="Sportivo Barracas"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4106088" alternate_id_2="4338498" date="22.06.2015" id="4223643" static_id="22061523378402337910" status="18:00" time="18:00">
-<home goals="?" id="2337840" name="Ituzaingó"></home>
-<away goals="?" id="2337910" name="Victoriano A."></away>
+</match><match alternate_id="" alternate_id_2="4339482" date="30.06.2015" id="" static_id="30061523378012337855" status="18:00" time="18:00">
+<home goals="?" id="2337801" name="Deportivo Paraguayo"></home>
+<away goals="?" id="2337855" name="Liniers"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4106092" alternate_id_2="4338510" date="22.06.2015" id="4223647" static_id="22061523377542337740" status="18:00" time="18:00">
-<home goals="?" id="2337754" name="Sportivo Barracas"></home>
-<away goals="?" id="2337740" name="Argentino de Rosario"></away>
+</match><match alternate_id="4106102" alternate_id_2="4339490" date="30.06.2015" id="4223657" static_id="30061523378532337777" status="18:00" time="18:00">
+<home goals="?" id="2337853" name="Leandro N. Alem"></home>
+<away goals="?" id="2337777" name="Claypole"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4106089" alternate_id_2="4338497" date="22.06.2015" id="4223644" static_id="22061523377772337915" status="16:00" time="16:00">
-<home goals="?" id="2337777" name="Claypole"></home>
-<away goals="?" id="2337915" name="Yupanqui"></away>
+</match><match alternate_id="" alternate_id_2="4339456" date="30.06.2015" id="" static_id="30061523378572344751" status="18:00" time="18:00">
+<home goals="?" id="2337857" name="Lugano"></home>
+<away goals="?" id="2344751" name="Atlas"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4339509" date="29.06.2015" id="" static_id="29061523377732337770" status="Postp." time="18:00">
+<home goals="?" id="2337773" name="CSR Espanol"></home>
+<away goals="?" id="2337770" name="Central Ballester"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4106100" alternate_id_2="4339502" date="27.06.2015" id="4223655" static_id="27061523377402337867" status="FT" time="18:30">
+<home goals="0" id="2337740" name="Argentino de Rosario"></home>
+<away goals="7" id="2337867" name="Puerto Nuevo"></away>
+<events>
+</events>
+<ht score="[0-4]"></ht>
+</match><match alternate_id="4106096" alternate_id_2="4339495" date="27.06.2015" id="4223651" static_id="27061523379102337808" status="FT" time="14:00">
+<home goals="0" id="2337910" name="Victoriano A."></home>
+<away goals="0" id="2337808" name="El Porvenir"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4106103" alternate_id_2="4339497" date="27.06.2015" id="4223658" static_id="27061523379152337840" status="FT" time="14:00">
+<home goals="1" id="2337915" name="Yupanqui"></home>
+<away goals="1" id="2337840" name="Ituzaingó"></away>
+<events>
+<event id="22408474" minute="9" player="Roldan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22408475" minute="24" player="Ormart (o.g.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4106090" alternate_id_2="4338496" date="22.06.2015" id="4223645" static_id="22061523377702337853" status="FT" time="18:00">
+<home goals="1" id="2337770" name="Central Ballester"></home>
+<away goals="2" id="2337853" name="Leandro N. Alem"></away>
+<events>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4106088" alternate_id_2="4338498" date="22.06.2015" id="4223643" static_id="22061523378402337910" status="FT" time="18:00">
+<home goals="1" id="2337840" name="Ituzaingó"></home>
+<away goals="1" id="2337910" name="Victoriano A."></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4106092" alternate_id_2="4338510" date="22.06.2015" id="4223647" static_id="22061523377542337740" status="FT" time="18:00">
+<home goals="4" id="2337754" name="Sportivo Barracas"></home>
+<away goals="2" id="2337740" name="Argentino de Rosario"></away>
+<events>
+</events>
+<ht score="[3-2]"></ht>
+</match><match alternate_id="4106089" alternate_id_2="4338497" date="22.06.2015" id="4223644" static_id="22061523377772337915" status="FT" time="16:00">
+<home goals="3" id="2337777" name="Claypole"></home>
+<away goals="0" id="2337915" name="Yupanqui"></away>
+<events>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4106091" alternate_id_2="4338517" date="20.06.2015" id="4223646" static_id="20061523378672337773" status="FT" time="18:00">
 <home goals="4" id="2337867" name="Puerto Nuevo"></home>
 <away goals="1" id="2337773" name="CSR Espanol"></away>
@@ -1342,62 +1429,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4106084" alternate_id_2="4335049" date="14.06.2015" id="4223639" static_id="14061523377732337754" status="FT" time="14:00">
-<home goals="0" id="2337773" name="CSR Espanol"></home>
-<away goals="1" id="2337754" name="Sportivo Barracas"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4106082" alternate_id_2="4334999" date="14.06.2015" id="4223637" static_id="14061523378002337855" status="FT" time="14:00">
-<home goals="2" id="2337800" name="Deportivo Muniz"></home>
-<away goals="1" id="2337855" name="Liniers"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4106081" alternate_id_2="4335052" date="14.06.2015" id="4223636" static_id="14061523378572337808" status="FT" time="14:00">
 <home goals="2" id="2337857" name="Lugano"></home>
 <away goals="4" id="2337808" name="El Porvenir"></away>
 <events>
+<event id="22364024" minute="2" player="Correa" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22364025" minute="18" player="Correa" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22364026" minute="63" player="Tecilla" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22364027" minute="74" player="Ocampo (pen.)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="22364028" minute="77" player="Merlo" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="22364029" minute="81" player="Torres" playerid="" result="[2 - 4]" team="home" type="goal"></event>
 </events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4106085" alternate_id_2="4335046" date="13.06.2015" id="4223640" static_id="13061523378532337867" status="FT" time="18:30">
-<home goals="3" id="2337853" name="Leandro N. Alem"></home>
-<away goals="2" id="2337867" name="Puerto Nuevo"></away>
-<events>
-</events>
-<ht score="[2-1]"></ht>
-</match><match alternate_id="4106083" alternate_id_2="4334998" date="13.06.2015" id="4223638" static_id="13061523377402344751" status="FT" time="15:00">
-<home goals="0" id="2337740" name="Argentino de Rosario"></home>
-<away goals="1" id="2344751" name="Atlas"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4106080" alternate_id_2="4335039" date="13.06.2015" id="4223635" static_id="13061523379102337801" status="FT" time="14:00">
-<home goals="1" id="2337910" name="Victoriano A."></home>
-<away goals="2" id="2337801" name="Deportivo Paraguayo"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4106086" alternate_id_2="4335047" date="13.06.2015" id="4223641" static_id="13061523379152337770" status="FT" time="14:00">
-<home goals="0" id="2337915" name="Yupanqui"></home>
-<away goals="0" id="2337770" name="Central Ballester"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4106061" alternate_id_2="4329721" date="10.06.2015" id="4223616" static_id="10061523378082337773" status="FT" time="18:00">
-<home goals="3" id="2337808" name="El Porvenir"></home>
-<away goals="0" id="2337773" name="CSR Espanol"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4106073" alternate_id_2="4333416" date="09.06.2015" id="4223628" static_id="09061523377702337840" status="FT" time="18:00">
-<home goals="1" id="2337770" name="Central Ballester"></home>
-<away goals="1" id="2337840" name="Ituzaingó"></away>
-<events>
-<event id="22347664" minute="57" player="Vallejos (pen.)" playerid="2509229" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22347665" minute="68" player="Gill" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
+<ht score="[-]"></ht>
 </match></league><league country="argentina" name="Argentina: Primera D Metropolitana - Promotion - Play Offs" cup="False" id="2913" sub_id=""><match alternate_id="4085234" alternate_id_2="4293889" date="13.12.2014" id="4202803" static_id="13121423378832337853" status="FT" time="20:00">
 <home goals="2" id="2337883" name="San Miguel"></home>
 <away goals="0" id="2337853" name="Leandro N. Alem"></away>
@@ -1453,178 +1496,176 @@
 <event id="21932335" minute="76" player="Sanchez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="argentina" name="Argentina: Torneo Federal A" cup="False" id="2909" sub_id="29090"><match alternate_id="4133234" alternate_id_2="4340072" date="21.06.2015" id="4250773" static_id="21061523377762337833" status="FT" time="21:00">
-<home goals="2" id="2337776" name="Cipolletti"></home>
-<away goals="0" id="2337833" name="C.A.I"></away>
-<events>
-<event id="22414224" minute="48" player="Marcos Carrasco" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414225" minute="65" player="German Weiner" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22414226" minute="81" player="Mariano Torresi" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133244" alternate_id_2="4340097" date="21.06.2015" id="4250783" static_id="21061523378242353185" status="FT" time="21:00">
-<home goals="0" id="2337824" name="Gimnasia y Tiro"></home>
-<away goals="0" id="2353185" name="Union Aconquija"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133221" alternate_id_2="4340021" date="21.06.2015" id="4250760" static_id="21061523378952337797" status="FT" time="21:00">
-<home goals="0" id="2337895" name="Talleres Cordoba"></home>
-<away goals="1" id="2337797" name="Deportivo Maipu"></away>
-<events>
-<event id="22413714" minute="2" player="Cristian Jofre" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4133235" alternate_id_2="4340073" date="21.06.2015" id="4250774" static_id="21061523507012337845" status="FT" time="20:00">
-<home goals="0" id="2350701" name="Defensores Belgrano VR"></home>
-<away goals="0" id="2337845" name="Juventud Unida Universitario"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133236" alternate_id_2="4340074" date="21.06.2015" id="4250775" static_id="21061523531972350699" status="FT" time="19:30">
-<home goals="1" id="2353197" name="San Lorenzo Alem"></home>
-<away goals="2" id="2350699" name="AH Zapla"></away>
-<events>
-<event id="22414244" minute="11" player="Leandro Vita" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414245" minute="75" player="Ezequiel Guaymas" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22414246" minute="80" player="Federico Falco" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4133253" alternate_id_2="4340129" date="21.06.2015" id="4250792" static_id="21061523377242353216" status="FT" time="19:00">
-<home goals="2" id="2337724" name="9 de Julio Morteros"></home>
-<away goals="1" id="2353216" name="Independiente Chivilcoy"></away>
-<events>
-<event id="22414794" minute="7" player="Santiago Sanchez (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414795" minute="42" player="Franco Giuffre" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22414796" minute="59" player="Ruben Molina" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22414797" minute="62" player="Manuel Garcia Olmos" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4133218" alternate_id_2="4340018" date="21.06.2015" id="4250757" static_id="21061523377362353220" status="FT" time="19:00">
-<home goals="2" id="2337736" name="Alvarado"></home>
-<away goals="0" id="2353220" name="Alianza Cutral Co"></away>
-<events>
-<event id="22413684" minute="70" player="Emanuel Pennisi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22413685" minute="77" player="Fernando Juarez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22413686" minute="90" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133248" alternate_id_2="4340113" date="21.06.2015" id="4250787" static_id="21061523377752337907" status="FT" time="19:00">
-<home goals="3" id="2337775" name="Chaco For Ever"></home>
-<away goals="0" id="2337907" name="Union Sunchales"></away>
-<events>
-<event id="22414634" minute="61" player="Aldo Visconti" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414635" minute="79" player="Gabriel Valdez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22414636" minute="88" player="Franco Calamari" playerid="" result="" team="away" type="redcard"></event>
-<event id="22414637" minute="90" player="Sergio Umpierrez" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133237" alternate_id_2="4340075" date="21.06.2015" id="4250776" static_id="21061523379082337893" status="FT" time="19:00">
-<home goals="2" id="2337908" name="Union Villa Krause"></home>
-<away goals="1" id="2337893" name="Sportivo Las Parejas"></away>
-<events>
-<event id="22414254" minute="38" player="Cristian Rodriguez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414255" minute="54" player="Natalisquio (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22414256" minute="84" player="Fernandez" playerid="2516938" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22414257" minute="90" player="" playerid="" result="" team="home" type="yellowred"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4133245" alternate_id_2="4340098" date="21.06.2015" id="4250784" static_id="21061523557572337819" status="FT" time="19:00">
-<home goals="1" id="2355757" name="Velez de San Ramon"></home>
-<away goals="1" id="2337819" name="Gimnasia E.R."></away>
-<events>
-<event id="22414484" minute="50" player="Luis Leguizamon" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414485" minute="72" player="Martin Prost (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133243" alternate_id_2="4340096" date="21.06.2015" id="4250782" static_id="21061523532012353215" status="FT" time="18:30">
-<home goals="4" id="2353201" name="Ferro Gen.Pico"></home>
-<away goals="2" id="2353215" name="Tiro Federal BB"></away>
-<events>
-<event id="22414464" minute="28" player="Sebastian Merlo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414465" minute="38" player="Sebastian Merlo" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22414466" minute="48" player="Emanuel Hermida" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22414467" minute="60" player="Franco Lefinir (pen.)" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-<event id="22414468" minute="68" player="Fernando Cafasso" playerid="" result="[3 - 2]" team="away" type="goal"></event>
-<event id="22414469" minute="72" player="Alexis Blanco" playerid="" result="[4 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4133246" alternate_id_2="4340108" date="21.06.2015" id="4250785" static_id="21061523504802351556" status="FT" time="18:30">
-<home goals="2" id="2350480" name="Formosa"></home>
-<away goals="0" id="2351556" name="Club Atletico Mitre"></away>
-<events>
-<event id="22414584" minute="13" player="Jose Romero" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414585" minute="65" player="Leonel Pietkiewicz" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4133250" alternate_id_2="4340115" date="21.06.2015" id="4250789" static_id="21061523378362337803" status="FT" time="18:30">
-<home goals="1" id="2337836" name="Independiente de Neuquen"></home>
-<away goals="1" id="2337803" name="Deportivo Roca"></away>
-<events>
-<event id="22414654" minute="33" player="Victor Manchafico" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414655" minute="68" player="Diego Guevara" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4133254" alternate_id_2="4340130" date="21.06.2015" id="4250793" static_id="21061523378542337894" status="FT" time="18:30">
-<home goals="1" id="2337854" name="Libertad de Sunchales"></home>
-<away goals="0" id="2337894" name="Sportivo Patria"></away>
-<events>
-<event id="22414804" minute="21" player="Luis Rivero (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4133220" alternate_id_2="4340020" date="21.06.2015" id="4250759" static_id="21061523377962355655" status="FT" time="18:00">
-<home goals="2" id="2337796" name="Deportivo Madryn"></home>
-<away goals="0" id="2355655" name="General Belgrano"></away>
-<events>
-<event id="22413704" minute="67" player="Cristian Girard (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22413705" minute="73" player="Jonathan Rodriguez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4133249" alternate_id_2="4340114" date="21.06.2015" id="4250788" static_id="21061523532052351552" status="FT" time="18:00">
-<home goals="0" id="2353205" name="Deportivo Mandiyu"></home>
-<away goals="5" id="2351552" name="Sarmiento Resistencia"></away>
-<events>
-<event id="22414644" minute="32" player="Rafael Blasco" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414645" minute="39" player="Daniel Liva" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22414646" minute="55" player="Daniel Liva" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22414647" minute="60" player="Gonzalo Canete" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22414648" minute="77" player="Gonzalo Garavano" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4116718" alternate_id_2="4340091" date="20.06.2015" id="4234264" static_id="20061523531942337843" status="FT" time="23:30">
-<home goals="0" id="2353194" name="Andino"></home>
-<away goals="2" id="2337843" name="Antoniana"></away>
-<events>
-<event id="22414414" minute="51" player="Gustavo Balvorin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414415" minute="79" player="Gustavo Balvorin" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4136060" alternate_id_2="4340019" date="20.06.2015" id="4253599" static_id="20061523377472337750" status="FT" time="18:00">
-<home goals="3" id="2337747" name="Concepcion"></home>
-<away goals="1" id="2337750" name="San Jorge"></away>
-<events>
-<event id="22413694" minute="12" player="Rene Urena" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22413695" minute="20" player="Claudio Vega" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22413696" minute="45" player="Sebastian Tevez" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22413697" minute="90" player="Sebastian Tevez" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[2-1]"></ht>
-</match><match alternate_id="4116720" alternate_id_2="4340116" date="20.06.2015" id="4234266" static_id="20061523378822353196" status="FT" time="00:45">
-<home goals="2" id="2337882" name="San Martin T."></home>
-<away goals="0" id="2353196" name="Americo Tesorieri"></away>
-<events>
-<event id="22414664" minute="58" player="Ivan Agudiak" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414665" minute="88" player="Albaro Jimenez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4116648" alternate_id_2="4337330" date="18.06.2015" id="4234194" static_id="18061523378952337908" status="FT" time="00:00">
-<home goals="1" id="2337895" name="Talleres Cordoba"></home>
+</match></league><league country="argentina" name="Argentina: Torneo Federal A" cup="False" id="2909" sub_id="29090"><match alternate_id="4143387" alternate_id_2="4341339" date="29.06.2015" id="4260925" static_id="29061523532162337908" status="FT" time="18:00">
+<home goals="2" id="2353216" name="Independiente Chivilcoy"></home>
 <away goals="1" id="2337908" name="Union Villa Krause"></away>
 <events>
-<event id="22386804" minute="33" player="Ezequiel Gaviglio" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22386805" minute="57" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22426894" minute="17" player="Rodrigo Diaz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426895" minute="65" player="Nahuel Olivari" playerid="" result="" team="away" type="redcard"></event>
+<event id="22426896" minute="78" player="Javier Pereyra" playerid="" result="" team="home" type="redcard"></event>
+<event id="22426897" minute="88" player="Fernandez Francou" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22426898" minute="90" player="Alfredo Molina (pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4139439" alternate_id_2="4341335" date="28.06.2015" id="4256978" static_id="28061523506992353185" status="FT" time="19:30">
+<home goals="0" id="2350699" name="AH Zapla"></home>
+<away goals="2" id="2353185" name="Union Aconquija"></away>
+<events>
+<event id="22426854" minute="29" player="Alejandro Toledo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22426855" minute="77" player="Nicolas Dui" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match><match alternate_id="4139429" alternate_id_2="4341306" date="28.06.2015" id="4256968" static_id="28061523532202337796" status="FT" time="19:00">
+<home goals="2" id="2353220" name="Alianza Cutral Co"></home>
+<away goals="1" id="2337796" name="Deportivo Madryn"></away>
+<events>
+<event id="22426564" minute="14" player="Juan Amieva" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426565" minute="50" player="Matias Llanquetru" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22426566" minute="90" player="Juan Amieva" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4139441" alternate_id_2="4341337" date="28.06.2015" id="4256980" static_id="28061523378432337747" status="FT" time="19:00">
+<home goals="2" id="2337843" name="Antoniana"></home>
+<away goals="0" id="2337747" name="Concepcion"></away>
+<events>
+<event id="22426874" minute="17" player="Gustavo Ibanez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426875" minute="90" player="Gustavo Balvorin" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4139430" alternate_id_2="4341308" date="28.06.2015" id="4256969" static_id="28061523377762337736" status="FT" time="19:00">
+<home goals="1" id="2337776" name="Cipolletti"></home>
+<away goals="1" id="2337736" name="Alvarado"></away>
+<events>
+<event id="22426584" minute="2" player="Francisco Molina" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22426585" minute="84" player="Fernando Ponce (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4139447" alternate_id_2="4341343" date="28.06.2015" id="4256986" static_id="28061523378932350701" status="FT" time="19:00">
+<home goals="2" id="2337893" name="Sportivo Las Parejas"></home>
+<away goals="1" id="2350701" name="Defensores Belgrano VR"></away>
+<events>
+<event id="22426934" minute="45" player="Nicilas Trulls" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426935" minute="57" player="Alexis Bulgarelli" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22426936" minute="60" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="22426937" minute="78" player="Maximilliano Fernandez (o.g.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22426938" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4139440" alternate_id_2="4341336" date="28.06.2015" id="4256979" static_id="28061523531962337824" status="FT" time="18:30">
+<home goals="0" id="2353196" name="Americo Tesorieri"></home>
+<away goals="2" id="2337824" name="Gimnasia y Tiro"></away>
+<events>
+<event id="22426864" minute="14" player="Esteban Iturrieta (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22426865" minute="89" player="Ezequiel Saavedra" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4139442" alternate_id_2="4341338" date="28.06.2015" id="4256981" static_id="28061523532002337724" status="FT" time="18:30">
+<home goals="1" id="2353200" name="Gutierrez Mendoza"></home>
+<away goals="2" id="2337724" name="9 de Julio Morteros"></away>
+<events>
+<event id="22426884" minute="38" player="Ezequiel Carballo" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22426885" minute="45" player="Matias Fernandez" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22426886" minute="72" player="Cristian Lucero (pen.)" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22426887" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4139437" alternate_id_2="4341325" date="28.06.2015" id="4256976" static_id="28061523532152337836" status="FT" time="18:30">
+<home goals="3" id="2353215" name="Tiro Federal BB"></home>
+<away goals="1" id="2337836" name="Independiente de Neuquen"></away>
+<events>
+<event id="22426754" minute="7" player="Gonzalo Lucero" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22426755" minute="12" player="Nicolas Trecco" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22426756" minute="70" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22426757" minute="89" player="Ruben Dario Gugena" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22426758" minute="90" player="Juan Manuel Abacca" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4139449" alternate_id_2="4341345" date="28.06.2015" id="4256988" static_id="28061523379072350480" status="FT" time="18:30">
+<home goals="2" id="2337907" name="Union Sunchales"></home>
+<away goals="0" id="2350480" name="Formosa"></away>
+<events>
+<event id="22426954" minute="55" player="Jose Luis Ibarra" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426955" minute="65" player="Nicolas Vitarelli Gongora" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4139436" alternate_id_2="4341323" date="28.06.2015" id="4256975" static_id="28061523378332337803" status="FT" time="18:00">
+<home goals="1" id="2337833" name="C.A.I"></home>
+<away goals="0" id="2337803" name="Deportivo Roca"></away>
+<events>
+<event id="22426734" minute="50" player="Marcos Rilo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4139431" alternate_id_2="4341314" date="28.06.2015" id="4256970" static_id="28061523556552353201" status="FT" time="18:00">
+<home goals="0" id="2355655" name="General Belgrano"></home>
+<away goals="0" id="2353201" name="Ferro Gen.Pico"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4139435" alternate_id_2="4341319" date="28.06.2015" id="4256974" static_id="28061523378192351556" status="FT" time="18:00">
+<home goals="2" id="2337819" name="Gimnasia E.R."></home>
+<away goals="0" id="2351556" name="Club Atletico Mitre"></away>
+<events>
+<event id="22426694" minute="50" player="Martin Prost" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426695" minute="61" player="Maximilliano Tejera" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4139448" alternate_id_2="4341344" date="28.06.2015" id="4256987" static_id="28061523379012337797" status="FT" time="14:00">
+<home goals="1" id="2337901" name="Tiro Federal"></home>
+<away goals="1" id="2337797" name="Deportivo Maipu"></away>
+<events>
+<event id="22426944" minute="4" player="Christian Tarragon" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426945" minute="16" player="Fernando Morgan" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4116741" alternate_id_2="4341342" date="27.06.2015" id="4234287" static_id="27061523531972353194" status="FT" time="21:15">
+<home goals="3" id="2353197" name="San Lorenzo Alem"></home>
+<away goals="0" id="2353194" name="Andino"></away>
+<events>
+<event id="22426924" minute="75" player="Carlos Aldonate (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426925" minute="85" player="Carlos Aldonate (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22426926" minute="90" player="Nicolas Ibanez" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4116739" alternate_id_2="4341341" date="27.06.2015" id="4234285" static_id="27061523377502337882" status="FT" time="19:00">
+<home goals="0" id="2337750" name="San Jorge"></home>
+<away goals="1" id="2337882" name="San Martin T."></away>
+<events>
+<event id="22426914" minute="39" player="Lucas Chacana" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4116735" alternate_id_2="4341317" date="27.06.2015" id="4234281" static_id="27061523378942353205" status="FT" time="19:00">
+<home goals="2" id="2337894" name="Sportivo Patria"></home>
+<away goals="0" id="2353205" name="Deportivo Mandiyu"></away>
+<events>
+<event id="22426674" minute="2" player="Facundo Castro (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426675" minute="80" player="German Caceres" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4116736" alternate_id_2="4341291" date="27.06.2015" id="4234282" static_id="27061523557572337854" status="FT" time="19:00">
+<home goals="1" id="2355757" name="Velez de San Ramon"></home>
+<away goals="3" id="2337854" name="Libertad de Sunchales"></away>
+<events>
+<event id="22426414" minute="7" player="Luis Rivero" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22426415" minute="42" player="Ivan Sequeira" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22426416" minute="67" player="Daniel Gonzalez" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22426417" minute="78" player="Lautaro Ceratto" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4116728" alternate_id_2="4341340" date="27.06.2015" id="4234274" static_id="27061523378452337895" status="FT" time="18:30">
+<home goals="1" id="2337845" name="Juventud Unida Universitario"></home>
+<away goals="1" id="2337895" name="Talleres Cordoba"></away>
+<events>
+<event id="22426904" minute="50" player="Lucas Arguello" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22426905" minute="89" player="Victor Beraldi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4116734" alternate_id_2="4341299" date="27.06.2015" id="4234280" static_id="27061523515522337775" status="FT" time="18:30">
+<home goals="0" id="2351552" name="Sarmiento Resistencia"></home>
+<away goals="1" id="2337775" name="Chaco For Ever"></away>
+<events>
+<event id="22426494" minute="51" player="Aldo Visconti" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="argentina" name="Argentina: Torneo Federal A - Play Offs" cup="False" id="2909" sub_id=""><match alternate_id="4085310" alternate_id_2="4294711" date="07.12.2014" id="4202877" static_id="07121423378952337822" status="FT" time="21:05">
 <home goals="0" id="2337895" name="Talleres Cordoba"></home>
 <away goals="1" id="2337822" name="Gimnasia Mendoza"></away>
