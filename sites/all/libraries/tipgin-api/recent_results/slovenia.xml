@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.06.2015 12:41:06" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="" alternate_id_2="4338451" date="07.06.2015" id="" static_id="07061523472972347305" status="FT" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.07.2015 12:41:06" sport="soccer" country="slovenia"><league country="slovenia" name="Slovenia: Prva Liga - Relegation" cup="False" id="3223" sub_id=""><match alternate_id="" alternate_id_2="4338451" date="07.06.2015" id="" static_id="07061523472972347305" status="FT" time="15:00">
 <home goals="1" id="2347297" name="Aluminij"></home>
 <away goals="2" id="2347305" name="ND Gorica"></away>
 <events>
@@ -660,6 +660,19 @@
 <event id="21682187" minute="67" player="E. Durkovic" playerid="2454563" result="[0 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match></league><league country="slovenia" name="Slovenia: Super Cup" cup="True" id="3449" sub_id=""><match alternate_id="4141772" alternate_id_2="4342448" date="05.07.2015" id="4259310" static_id="05071523473112347314" status="Pen." time="18:00">
+<home goals="0" id="2347311" name="Koper"></home>
+<away goals="0" id="2347314" name="Maribor"></away>
+<events>
+<event id="22437984" minute="22" player="W. N'Diaye" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22437985" minute="22" player="G. Galesic" playerid="2366960" result="" team="home" type="yellowcard"></event>
+<event id="22437986" minute="57" player="M. Kabha" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22437987" minute="68" player="A. Mertelj" playerid="2376205" result="" team="away" type="yellowcard"></event>
+<event id="22437988" minute="72" player="M. Krivicic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22437989" minute="82" player="P. Stojanovic" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="3" visitorteam="2"></penalty>
 </match></league><league country="slovenia" name="Slovenia: Super Cup" cup="True" id="3449" sub_id=""><match alternate_id="4044596" alternate_id_2="4122356" date="13.08.2014" id="4162209" static_id="13081423473052347314" status="FT" time="18:15">
 <home goals="1" id="2347305" name="ND Gorica"></home>
 <away goals="4" id="2347314" name="Maribor"></away>

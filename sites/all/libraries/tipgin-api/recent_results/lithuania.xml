@@ -1,19 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="30.06.2015 12:40:50" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4109334" alternate_id_2="4337869" date="30.06.2015" id="4226886" static_id="30061523443982355237" status="17:00" time="17:00">
-<home goals="?" id="2344398" name="Siauliai"></home>
-<away goals="?" id="2355237" name="Stumbras"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4109335" alternate_id_2="4337952" date="30.06.2015" id="4226887" static_id="30061523444312353733" status="15:00" time="15:00">
-<home goals="?" id="2344431" name="Spyris Kaunas"></home>
-<away goals="?" id="2353733" name="Granitas K."></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.07.2015 12:40:49" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4109334" alternate_id_2="4337869" date="30.06.2015" id="4226886" static_id="30061523443982355237" status="FT" time="17:00">
+<home goals="1" id="2344398" name="Siauliai"></home>
+<away goals="2" id="2355237" name="Stumbras"></away>
+<events>
+<event id="22392194" minute="23" player="E. Jasaitis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22392195" minute="63" player="A. Bareikis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22392196" minute="71" player="D. Petrauskas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22392197" minute="72" player="A. Rimkevicius (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22392198" minute="83" player="A. Rimkevicius" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4109335" alternate_id_2="4337952" date="30.06.2015" id="4226887" static_id="30061523444312353733" status="FT" time="15:00">
+<home goals="4" id="2344431" name="Spyris Kaunas"></home>
+<away goals="1" id="2353733" name="Granitas K."></away>
+<events>
+<event id="22393024" minute="6" player="D. Rekish" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22393025" minute="15" player="T. Bucma" playerid="2607645" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22393026" minute="26" player="D. Rekish" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22393027" minute="36" player="T. Vitukynas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22393028" minute="42" player="D. Lukosius" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22393029" minute="67" player="A. Velicka (pen.)" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22393030" minute="89" player="M. Papsys" playerid="" result="[4 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4109333" alternate_id_2="4337868" date="27.06.2015" id="4226885" static_id="27061523444392344449" status="FT" time="15:00">
 <home goals="0" id="2344439" name="Utenis"></home>
 <away goals="3" id="2344449" name="Zalgiris"></away>
 <events>
 <event id="22392184" minute="10" player="Elivelton" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22392185" minute="45" player="A. Arlauskas" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22392185" minute="45+1" player="A. Arlauskas" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22392186" minute="50" player="M. Kuklys" playerid="2359268" result="[0 - 2]" team="away" type="goal"></event>
 <event id="22392187" minute="81" player="G. Freidgeimas" playerid="2384901" result="" team="away" type="yellowcard"></event>
 <event id="22392188" minute="90+2" player="P. Janusauskas" playerid="2359224" result="[0 - 3]" team="away" type="goal"></event>
@@ -32,11 +46,11 @@
 <home goals="1" id="2344409" name="Kruoja"></home>
 <away goals="1" id="2355237" name="Stumbras"></away>
 <events>
-<event id="22391944" minute="18" player="A. Mikaitis" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22391944" minute="17" player="A. Mikaitis" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22391945" minute="28" player="A. Rimkevicius" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22391946" minute="35" player="V. Armanavicius" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22391947" minute="38" player="Ie Edelino" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22391948" minute="71" player="T. Eliosius" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22391948" minute="70" player="T. Eliosius" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22391949" minute="81" player="T. Salamanavicius" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
@@ -75,14 +89,14 @@
 <events>
 <event id="22364954" minute="13" player="A. Rackus" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22364955" minute="25" player="N. Maciulis" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22364956" minute="31" player="R. Urbelis" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22364956" minute="30" player="R. Urbelis" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22364957" minute="34" player="M. Eiza" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22364958" minute="34" player="D. Lukosius" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22364958" minute="35" player="D. Lukosius" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22364959" minute="45+1" player="M. Eiza (o.g.)" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 <event id="22364960" minute="56" player="R. Sadauskas" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22364961" minute="73" player="D. Stradalovas" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 <event id="22364962" minute="90+1" player="M. Dapkus" playerid="" result="[1 - 4]" team="away" type="goal"></event>
-<event id="202663043" minute="90+3" player="" playerid="" result="[1 - 5]" team="away" type="goal"></event>
+<event id="202663043" minute="90+3" player="A. Rimkevicius" playerid="" result="[1 - 5]" team="away" type="goal"></event>
 </events>
 <ht score="[1-2]"></ht>
 </match><match alternate_id="4109326" alternate_id_2="4335144" date="21.06.2015" id="4226878" static_id="21061523444092344384" status="FT" time="14:00">
@@ -107,7 +121,7 @@
 <event id="22357165" minute="66" player="E. Mastianica" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22357166" minute="77" player="R. Freidgeimas" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22357167" minute="88" player="I. Trachinskiy" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22357168" minute="90+1" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22357168" minute="90+1" player="A. Mika" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4109324" alternate_id_2="4334367" date="18.06.2015" id="4226876" static_id="18061523444312350589" status="FT" time="17:00">
@@ -119,14 +133,14 @@
 <event id="22357176" minute="39" player="G. Palma" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22357177" minute="42" player="L. Kochanauskas" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="22357178" minute="71" player="D. Arshakyan" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22357179" minute="88" player="J. Moroz" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22357179" minute="85" player="J. Moroz" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-2]"></ht>
 </match><match alternate_id="4109366" alternate_id_2="4333812" date="18.06.2015" id="4226918" static_id="18061523444092344449" status="FT" time="15:00">
 <home goals="2" id="2344409" name="Kruoja"></home>
 <away goals="2" id="2344449" name="Zalgiris"></away>
 <events>
-<event id="22351624" minute="9" player="Y. Kendysh" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351624" minute="8" player="Y. Kendysh" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22351625" minute="15" player="M. Kuklys" playerid="2359268" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22351626" minute="43" player="R. Beniusis" playerid="2352819" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22351627" minute="62" player="R. Beniusis (pen.)" playerid="2352819" result="[2 - 1]" team="home" type="goal"></event>
@@ -241,183 +255,204 @@
 <event id="22320188" minute="86" player="K. Andreou" playerid="" result="[0 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="lithuania" name="Lithuania: Division 2" cup="False" id="3124" sub_id="31240"><match alternate_id="" alternate_id_2="4341238" date="28.06.2015" id="" static_id="" status="FT" time="15:00">
+</match></league><league country="lithuania" name="Lithuania: Division 2" cup="False" id="3124" sub_id="31240"><match alternate_id="4117792" alternate_id_2="4346140" date="10.07.2015" id="4235336" static_id="" status="FT" time="15:00">
+<home goals="4" id="2352261" name="Palanga"></home>
+<away goals="0" id="" name="FK Auska Alytus"></away>
+<events>
+<event id="22474904" minute="4" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22474905" minute="62" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22474906" minute="70" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22474907" minute="90" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4343163" date="07.07.2015" id="" static_id="" status="FT" time="15:30">
+<home goals="2" id="" name="Trakai 2"></home>
+<away goals="3" id="2353735" name="Zalgiris 3"></away>
+<events>
+<event id="22445134" minute="3" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22445135" minute="49" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22445136" minute="56" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22445137" minute="66" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="22445138" minute="69" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4117829" alternate_id_2="4342922" date="06.07.2015" id="4235373" static_id="06071523538172344388" status="FT" time="15:00">
+<home goals="0" id="2353817" name="Baltija Panevezys"></home>
+<away goals="0" id="2344388" name="Banga"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4117833" alternate_id_2="4342925" date="06.07.2015" id="4235377" static_id="06071523558592344400" status="FT" time="15:00">
+<home goals="5" id="2355859" name="Dziugas Telsiai"></home>
+<away goals="1" id="2344400" name="Tauras Taurage"></away>
+<events>
+<event id="22442754" minute="18" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22442755" minute="39" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22442756" minute="62" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22442757" minute="65" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22442758" minute="74" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22442759" minute="81" player="" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22442760" minute="82" player="" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4343162" date="06.07.2015" id="" static_id="" status="FT" time="15:00">
+<home goals="2" id="" name="FK Auska Alytus"></home>
+<away goals="1" id="2355534" name="MRU TiuMenas"></away>
+<events>
+<event id="22445124" minute="37" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22445125" minute="51" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22445126" minute="75" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4117834" alternate_id_2="4342926" date="06.07.2015" id="4235378" static_id="06071523522612353731" status="FT" time="15:00">
+<home goals="0" id="2352261" name="Palanga"></home>
+<away goals="3" id="2353731" name="Lokomotyvas Radviliskis"></away>
+<events>
+<event id="22442764" minute="17" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22442765" minute="77" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22442766" minute="83" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="22442767" minute="84" player="(pen.)" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4117832" alternate_id_2="4342927" date="06.07.2015" id="4235376" static_id="" status="FT" time="15:00">
+<home goals="2" id="2353734" name="Silas"></home>
+<away goals="1" id="" name="Kruoja 2"></away>
+<events>
+<event id="22442774" minute="38" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22442775" minute="68" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22442776" minute="70" player="" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4117830" alternate_id_2="4342923" date="06.07.2015" id="4235374" static_id="" status="FT" time="13:00">
+<home goals="1" id="" name="Krazante Kelme"></home>
+<away goals="5" id="2344413" name="Jonava"></away>
+<events>
+<event id="22442734" minute="5" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22442735" minute="24" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22442736" minute="78" player="(pen.)" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22442737" minute="81" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22442738" minute="86" player="" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="22442739" minute="90" player="" playerid="" result="[1 - 5]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4117831" alternate_id_2="4342924" date="06.07.2015" id="4235375" static_id="06071523443992344393" status="FT" time="13:00">
+<home goals="1" id="2344399" name="Silute"></home>
+<away goals="0" id="2344393" name="FBK Kaunas"></away>
+<events>
+<event id="22442744" minute="5" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4117828" alternate_id_2="4342290" date="06.07.2015" id="4235372" static_id="06071523444162344418" status="FT" time="11:00">
+<home goals="6" id="2344416" name="Kretinga"></home>
+<away goals="0" id="2344418" name="Nevezis Kedainiai"></away>
+<events>
+<event id="22436404" minute="28" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22436405" minute="34" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22436406" minute="50" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22436407" minute="70" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22436408" minute="84" player="" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="22436409" minute="90" player="" playerid="" result="[6 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4342289" date="03.07.2015" id="" static_id="" status="FT" time="16:30">
+<home goals="6" id="2353735" name="Zalgiris 3"></home>
+<away goals="0" id="" name="Krazante Kelme"></away>
+<events>
+<event id="22436394" minute="4" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="22436395" minute="5" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22436396" minute="27" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22436397" minute="63" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22436398" minute="65" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="22436399" minute="79" player="" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="22436400" minute="86" player="" playerid="" result="[6 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4117826" alternate_id_2="4342288" date="03.07.2015" id="4235370" static_id="03071523443992353731" status="FT" time="15:30">
+<home goals="3" id="2344399" name="Silute"></home>
+<away goals="1" id="2353731" name="Lokomotyvas Radviliskis"></away>
+<events>
+<event id="22436384" minute="40" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22436385" minute="42" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22436386" minute="81" player="" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22436387" minute="89" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4342285" date="03.07.2015" id="" static_id="" status="FT" time="15:00">
+<home goals="0" id="" name="Kruoja 2"></home>
+<away goals="2" id="2355534" name="MRU TiuMenas"></away>
+<events>
+<event id="22436354" minute="10" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4117825" alternate_id_2="4342286" date="03.07.2015" id="4235369" static_id="03071523522612344400" status="FT" time="15:00">
+<home goals="6" id="2352261" name="Palanga"></home>
+<away goals="1" id="2344400" name="Tauras Taurage"></away>
+<events>
+</events>
+<ht score="[3-0]"></ht>
+</match><match alternate_id="4117823" alternate_id_2="4342287" date="03.07.2015" id="4235367" static_id="" status="FT" time="15:00">
+<home goals="2" id="" name="Trakai 2"></home>
+<away goals="2" id="2344388" name="Banga"></away>
+<events>
+<event id="22436374" minute="44" player="Leonavicius" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22436375" minute="47" player="Eitutis" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22436376" minute="54" player="Malinauskas (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22436377" minute="84" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4117822" alternate_id_2="4342284" date="02.07.2015" id="4235366" static_id="02071523443932344418" status="FT" time="15:00">
+<home goals="4" id="2344393" name="FBK Kaunas"></home>
+<away goals="3" id="2344418" name="Nevezis Kedainiai"></away>
+<events>
+<event id="22436344" minute="19" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22436345" minute="21" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22436346" minute="26" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22436347" minute="29" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22436348" minute="38" player="" playerid="" result="[2 - 3]" team="home" type="goal"></event>
+<event id="22436349" minute="88" player="" playerid="" result="[3 - 3]" team="home" type="goal"></event>
+<event id="22436350" minute="90" player="" playerid="" result="[4 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[2-3]"></ht>
+</match><match alternate_id="4117821" alternate_id_2="4342203" date="02.07.2015" id="4235365" static_id="02071523444162353734" status="FT" time="14:30">
+<home goals="2" id="2344416" name="Kretinga"></home>
+<away goals="1" id="2353734" name="Silas"></away>
+<events>
+<event id="22435534" minute="47" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22435535" minute="65" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22435536" minute="90" player="(pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4341505" date="01.07.2015" id="" static_id="" status="FT" time="16:30">
+<home goals="2" id="2353817" name="Baltija Panevezys"></home>
+<away goals="0" id="" name="FK Auska Alytus"></away>
+<events>
+<event id="22428554" minute="34" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22428555" minute="42" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4117819" alternate_id_2="4341506" date="01.07.2015" id="4235363" static_id="01071523558592344413" status="FT" time="14:30">
+<home goals="2" id="2355859" name="Dziugas Telsiai"></home>
+<away goals="4" id="2344413" name="Jonava"></away>
+<events>
+<event id="22428564" minute="3" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22428565" minute="4" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22428566" minute="50" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22428567" minute="74" player="(o.g.)" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22428568" minute="78" player="(pen.)" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22428569" minute="87" player="" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4341238" date="28.06.2015" id="" static_id="" status="FT" time="15:00">
 <home goals="1" id="" name="FK Auska Alytus"></home>
 <away goals="4" id="2353735" name="Zalgiris 3"></away>
 <events>
-<event id="22425884" minute="20" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22425885" minute="45" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22425886" minute="48" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22425887" minute="83" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22425884" minute="20" player="Grizas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22425885" minute="45" player="Momkus" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22425886" minute="48" player="Stockunas" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22425887" minute="83" player="Momkus" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22425888" minute="90" player="Momkus" playerid="" result="[1 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4117817" alternate_id_2="4341239" date="28.06.2015" id="4235361" static_id="28061523443882355534" status="FT" time="13:00">
-<home goals="2" id="2344388" name="Banga"></home>
-<away goals="1" id="2355534" name="MRU TiuMenas"></away>
-<events>
-<event id="22425894" minute="21" player="(pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22425895" minute="33" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22425896" minute="48" player="" playerid="" result="" team="away" type="redcard"></event>
-<event id="22425897" minute="57" player="" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4117814" alternate_id_2="4340134" date="28.06.2015" id="4235358" static_id="28061523537312344393" status="FT" time="13:00">
-<home goals="3" id="2353731" name="Lokomotyvas Radviliskis"></home>
-<away goals="3" id="2344393" name="FBK Kaunas"></away>
-<events>
-<event id="22414844" minute="21" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414845" minute="24" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22414846" minute="41" player="" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22414847" minute="46" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="22414848" minute="47" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22414849" minute="69" player="" playerid="" result="[2 - 3]" team="home" type="goal"></event>
-<event id="22414850" minute="75" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="22414851" minute="81" player="" playerid="" result="" team="away" type="redcard"></event>
-<event id="22414852" minute="89" player="" playerid="" result="[3 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4117816" alternate_id_2="4340029" date="27.06.2015" id="4235360" static_id="" status="FT" time="16:00">
-<home goals="1" id="" name="Trakai 2"></home>
-<away goals="0" id="2353734" name="Silas"></away>
-<events>
-<event id="22413794" minute="88" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4117813" alternate_id_2="4340028" date="27.06.2015" id="4235357" static_id="27061523538172352261" status="FT" time="14:00">
-<home goals="2" id="2353817" name="Baltija Panevezys"></home>
-<away goals="1" id="2352261" name="Palanga"></away>
-<events>
-<event id="22413784" minute="38" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22413785" minute="48" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22413786" minute="73" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4117815" alternate_id_2="4340111" date="27.06.2015" id="4235359" static_id="" status="FT" time="14:00">
-<home goals="0" id="" name="Krazante Kelme"></home>
-<away goals="6" id="2344418" name="Nevezis Kedainiai"></away>
-<events>
-<event id="22414614" minute="28" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414615" minute="35" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22414616" minute="54" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22414617" minute="57" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22414618" minute="78" player="" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="22414619" minute="82" player="(pen.)" playerid="" result="[0 - 6]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4117812" alternate_id_2="4340110" date="27.06.2015" id="4235356" static_id="" status="FT" time="12:00">
-<home goals="6" id="2344413" name="Jonava"></home>
-<away goals="0" id="" name="Kruoja 2"></away>
-<events>
-<event id="22414604" minute="22" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22414605" minute="40" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22414606" minute="42" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22414607" minute="52" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[3-0]"></ht>
-</match><match alternate_id="4117811" alternate_id_2="4340132" date="27.06.2015" id="4235355" static_id="27061523444002344416" status="FT" time="12:00">
-<home goals="0" id="2344400" name="Tauras Taurage"></home>
-<away goals="1" id="2344416" name="Kretinga"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4117810" alternate_id_2="4340093" date="27.06.2015" id="4235354" static_id="27061523558592344399" status="FT" time="10:00">
-<home goals="2" id="2355859" name="Dziugas Telsiai"></home>
-<away goals="1" id="2344399" name="Silute"></away>
-<events>
-<event id="22414434" minute="24" player="Surblys" playerid="2359205" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22414435" minute="59" player="Marozas" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22414436" minute="79" player="Marozas" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22414437" minute="90" player="Kazlauskas" playerid="2608828" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4117809" alternate_id_2="4339277" date="24.06.2015" id="4235353" static_id="" status="FT" time="17:00">
-<home goals="1" id="" name="FK Auska Alytus"></home>
-<away goals="0" id="2355859" name="Dziugas Telsiai"></away>
-<events>
-<event id="22406274" minute="62" player="Sarkelis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4339195" date="24.06.2015" id="" static_id="" status="FT" time="15:00">
-<home goals="1" id="" name="Kruoja 2"></home>
-<away goals="4" id="" name="Krazante Kelme"></away>
-<events>
-<event id="22405454" minute="7" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4117807" alternate_id_2="4339290" date="24.06.2015" id="4235351" static_id="24061523537312353735" status="FT" time="15:00">
-<home goals="0" id="2353731" name="Lokomotyvas Radviliskis"></home>
-<away goals="5" id="2353735" name="Zalgiris 3"></away>
-<events>
-<event id="22406404" minute="23" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22406405" minute="74" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22406406" minute="80" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22406407" minute="85" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22406408" minute="87" player="" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4117805" alternate_id_2="4339283" date="24.06.2015" id="4235349" static_id="24061523444182353817" status="FT" time="15:00">
-<home goals="1" id="2344418" name="Nevezis Kedainiai"></home>
-<away goals="2" id="2353817" name="Baltija Panevezys"></away>
-<events>
-<event id="22406334" minute="14" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22406335" minute="44" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22406336" minute="74" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4117806" alternate_id_2="4339280" date="24.06.2015" id="4235350" static_id="24061523443992353734" status="FT" time="15:00">
-<home goals="2" id="2344399" name="Silute"></home>
-<away goals="3" id="2353734" name="Silas"></away>
-<events>
-</events>
-<ht score="[2-2]"></ht>
-</match><match alternate_id="4117804" alternate_id_2="4339286" date="24.06.2015" id="4235348" static_id="" status="FT" time="13:00">
-<home goals="2" id="2344416" name="Kretinga"></home>
-<away goals="2" id="" name="Trakai 2"></away>
-<events>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4117803" alternate_id_2="4339270" date="24.06.2015" id="4235347" static_id="24061523522612355534" status="FT" time="13:00">
-<home goals="1" id="2352261" name="Palanga"></home>
-<away goals="1" id="2355534" name="MRU TiuMenas"></away>
-<events>
-<event id="22406204" minute="49" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22406205" minute="58" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4117802" alternate_id_2="4339285" date="24.06.2015" id="4235346" static_id="24061523444132344400" status="FT" time="11:00">
-<home goals="9" id="2344413" name="Jonava"></home>
-<away goals="0" id="2344400" name="Tauras Taurage"></away>
-<events>
-</events>
-<ht score="[4-0]"></ht>
-</match><match alternate_id="4117801" alternate_id_2="4339194" date="23.06.2015" id="4235345" static_id="23061523443932344388" status="FT" time="17:00">
-<home goals="3" id="2344393" name="FBK Kaunas"></home>
-<away goals="4" id="2344388" name="Banga"></away>
-<events>
-</events>
-<ht score="[2-3]"></ht>
-</match><match alternate_id="4117795" alternate_id_2="4338584" date="21.06.2015" id="4235339" static_id="21061523538172344413" status="FT" time="14:00">
-<home goals="1" id="2353817" name="Baltija Panevezys"></home>
-<away goals="0" id="2344413" name="Jonava"></away>
-<events>
-<event id="22399344" minute="24" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4117800" alternate_id_2="4339002" date="21.06.2015" id="4235344" static_id="21061523444002353735" status="FT" time="12:00">
-<home goals="2" id="2344400" name="Tauras Taurage"></home>
-<away goals="8" id="2353735" name="Zalgiris 3"></away>
-<events>
-<event id="22403524" minute="8" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22403525" minute="11" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22403526" minute="13" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22403527" minute="21" player="" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22403528" minute="44" player="" playerid="" result="[1 - 4]" team="away" type="goal"></event>
-<event id="22403529" minute="53" player="" playerid="" result="[1 - 5]" team="away" type="goal"></event>
-<event id="22403530" minute="62" player="" playerid="" result="[1 - 6]" team="away" type="goal"></event>
-<event id="22403531" minute="64" player="" playerid="" result="[2 - 6]" team="home" type="goal"></event>
-<event id="22403532" minute="73" player="" playerid="" result="[2 - 7]" team="away" type="goal"></event>
-</events>
-<ht score="[1-4]"></ht>
 </match></league><league country="lithuania" name="Lithuania: Division 2 - Promotion Group" cup="False" id="3124" sub_id="31241"><match alternate_id="4082789" alternate_id_2="4273589" date="02.11.2014" id="4200372" static_id="02111423555342353734" status="FT" time="11:00">
 <home goals="5" id="2355534" name="MRU TiuMenas"></home>
 <away goals="1" id="2353734" name="Silas"></away>
@@ -619,11 +654,22 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="lithuania" name="Lithuania: Lithuanian Cup" cup="True" id="3624" sub_id="36240"><match alternate_id="4140553" alternate_id_2="4337853" date="26.06.2015" id="4258091" static_id="26061523444042344423" status="18:00" time="18:00">
-<home goals="?" id="2344404" name="Klaipeda"></home>
-<away goals="?" id="2344423" name="Prelegentai Vilnius"></away>
+</match></league><league country="lithuania" name="Lithuania: Lithuanian Cup" cup="True" id="3624" sub_id="36240"><match alternate_id="4156040" alternate_id_2="4343789" date="12.07.2015" id="4273571" static_id="12071523565302356531" status="15:00" time="15:00">
+<home goals="?" id="2356530" name="Olimpija Vilnius"></home>
+<away goals="?" id="2356531" name="Sendvaris Klaipeda"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4154046" alternate_id_2="4343781" date="11.07.2015" id="4271577" static_id="11071523537842344436" status="15:30" time="15:30">
+<home goals="?" id="2353784" name="Adiada Siauliai"></home>
+<away goals="?" id="2344436" name="Svyturys Marijampole"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4140553" alternate_id_2="4337853" date="26.06.2015" id="4258091" static_id="26061523444042344423" status="FT" time="18:00">
+<home goals="0" id="2344404" name="Klaipeda"></home>
+<away goals="2" id="2344423" name="Prelegentai Vilnius"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4140278" alternate_id_2="4337858" date="21.06.2015" id="4257817" static_id="21061523543302349816" status="AET" time="15:00">
 <home goals="5" id="2354330" name="Saulininkas Siauliai"></home>
 <away goals="3" id="2349816" name="Granitas Vilnius"></away>
@@ -743,28 +789,6 @@
 <event id="22112475" minute="27" player="J. Wilk" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22112476" minute="64" player="Y. Kendysh" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 <event id="22112477" minute="66" player="K. Andreou" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4109434" alternate_id_2="4309896" date="20.04.2015" id="4226986" static_id="20041523537342344384" status="FT" time="14:30">
-<home goals="0" id="2353734" name="Silas"></home>
-<away goals="1" id="2344384" name="Atlantas"></away>
-<events>
-<event id="22112464" minute="2" player="R. Vezevicius" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22112465" minute="76" player="R. Simanavicius" playerid="" result="" team="home" type="yellowred"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4079581" alternate_id_2="4282451" date="05.11.2014" id="4197174" static_id="05111423444332344449" status="FT" time="16:00">
-<home goals="2" id="2344433" name="Suduva"></home>
-<away goals="3" id="2344449" name="Zalgiris"></away>
-<events>
-<event id="21838014" minute="38" player="M. Grigaravicius" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21838015" minute="39" player="T. Radzinevicius" playerid="2363401" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21838016" minute="53" player="D. Semberas (pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="21838017" minute="56" player="D. Semberas" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21838018" minute="70" player="S. Nyuiadzi" playerid="2526922" result="" team="away" type="yellowcard"></event>
-<event id="21838019" minute="79" player="A. Vaskela" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21838020" minute="85" player="J. Wilk" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="21838021" minute="88" player="L. Pilibaitis" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match></league></recent_results>

@@ -38,6 +38,8 @@ function inplay_init() {
 		{
 			if($_GET['competition']=='')
 				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
+			if($_GET['competition']=='all')
+				$_SESSION['inplay_competitions'] = '';	
 			if(is_numeric($_GET['competition']))
 				$_SESSION['inplay_competitions'] = array($_GET['competition']);	
 		}
@@ -86,6 +88,8 @@ function inplay_init() {
 		{
 			if($_GET['competition']=='')
 				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
+			if($_GET['competition']=='all')
+				$_SESSION['inplay_competitions'] = '';	
 			if(is_numeric($_GET['competition']))
 				$_SESSION['inplay_competitions'] = array($_GET['competition']);	
 		}

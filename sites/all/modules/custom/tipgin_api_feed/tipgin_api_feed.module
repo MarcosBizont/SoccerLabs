@@ -713,7 +713,7 @@ function tipgin_api_feed_action_fillmatchesinprogress()
 			}
 			else
 			{
-				//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
+				watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
 			}
 		}
 	
