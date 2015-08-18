@@ -17,9 +17,10 @@ function tips_tipfin_odds_library_check_odds_for_match($matchid, $tiptypestochec
 			$obj = tips_tipfin_odds_library_check_odds_for_match_for_tiptype($matchid, $tiptype);
 			cache_set('check_odds_for_match_for_tiptype_' . $matchid . '_' .  $tiptype, $obj, 'cache', time() + 60*10);
 		}
-
+		
+		
 		$odd = array();
-		if(in_array($tiptype,array(832,674)))
+		if(in_array($tiptype,array(832,886)))
 		{
 			foreach($obj as $key => $objitem)
 			{
@@ -102,7 +103,7 @@ function tips_tipfin_odds_library_check_odds_for_match_for_tiptype($matchid, $ti
 							if($type['@attributes']['name']=='Over/Under' && ($tiptype->tid == 754 || $tiptype->tid == 755) )
 								return tips_tipfin_odds_library_check_options_overunder_bet(FALSE, $type, '3.5', ($tiptype->tid == 755) ? 'Over' : 'Under', $oddssuggested, $odds['@attributes']['updated']);
 							
-							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 674)
+							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 886)
 							{
 								$retarray = array();
 								$retarray['1X'] =  
@@ -196,7 +197,7 @@ function tips_tipfin_odds_library_check_odds_for_tip($tip)
 							if($type['@attributes']['name']=='Over/Under' && ($tiptype->tid == 754 || $tiptype->tid == 755) )
 								return tips_tipfin_odds_library_check_options_overunder_bet($tip, $type, '3.5', ($tiptype->tid == 755) ? 'Over' : 'Under', $oddssuggested, $odds['@attributes']['updated']);
 							
-							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 674)
+							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 886)
 								return tips_tipfin_odds_library_check_options_simple_bet($tip, $type, 
 									($tip->field_team['und'][0]['target_id']==$matchnode->field_local_team['und'][0]['target_id']) ? '1X' : 'X2',$oddssuggested, $odds['@attributes']['updated']);
 							

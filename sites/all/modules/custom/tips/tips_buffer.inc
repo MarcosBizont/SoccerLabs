@@ -58,7 +58,7 @@ function tips_buffer_generate()
 	$from = $from->modify('-1 day');
 	
 	$to = new DateTime('now',new DateTimeZone('UTC'));
-	$to = $to->modify('+5 days');
+	$to = $to->modify('+2 days');
 	
 	
 	$query = new EntityFieldQuery();
@@ -154,7 +154,7 @@ function tips_buffer_generate()
 						$date1100am = new DateTime($date->format('Y-m-d') . ' 11:' . getRandomMinutesStr(0,20),new DateTimeZone('America/Mexico_City'));
 						$date1100am->setTimezone(new DateTimeZone('UTC'));
 						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), '@soccer_labs');
-						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), 'Soccer Labs');
+						//tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), 'Soccer Labs');
 						
 /*
 						// ToDo : Random between 1 y 20 para los minutos

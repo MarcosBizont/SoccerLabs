@@ -150,24 +150,51 @@ function team_block_stats()
 
 function match_block_stats()
 {
+	if(inplay_is_anonymus()) return '';
+	
+	global $language;
 	module_load_include('inc', 'commentaries', 'commentaries_strategies');
 	
 	$block = '';
 	
 	if(is_numeric(arg(1)))
-		$block .= commentaries_matchstats_overview(arg(1), array(5) );
-	
+	{
+		//if ($cache = cache_get('commentaries_matchstats_overview_' . $language->language . '_' . arg(1) . '_' . array(5), 'cache_block')) {
+		//  	$block = $cache->data;
+		//}
+		//else 
+		//{
+			$block .= commentaries_matchstats_overview(arg(1), array(5) );
+			//cache_set('commentaries_matchstats_overview_' . $language->language . '_' . arg(1) . '_' . array(5), $block, 'cache_block', time() + 60*60*48);
+		//}
+		
+		
+	}
 	return $block;
 }
 
 function match_block_stats_lv()
 {
+	if(inplay_is_anonymus()) return '';
+	
+	global $language;
 	module_load_include('inc', 'commentaries', 'commentaries_strategies');
 	
 	$block = '';
 	
 	if(is_numeric(arg(1)))
-		$block .= commentaries_matchstats_overview_lv(arg(1), array(5) );
+	{
+		//if ($cache = cache_get('commentaries_matchstats_overview_lv_' . $language->language . '_' . arg(1) . '_' . array(5), 'cache_block')) {
+		//  	$block = $cache->data;
+		//}
+		//else 
+		//{
+			$block .= commentaries_matchstats_overview_lv(arg(1), array(5) );
+		//	cache_set('commentaries_matchstats_overview_lv_' . $language->language . '_' . arg(1) . '_' . array(5), $block, 'cache_block', time() + 60*60*48);
+		//}
+		
+		
+	}
 	
 	return $block;
 }
@@ -175,6 +202,8 @@ function match_block_stats_lv()
 
 function match_block_inplaystats()
 {
+	if(inplay_is_anonymus()) return '';
+	
 	module_load_include('inc', 'commentaries', 'commentaries_strategies');
 	
 	$block = '';

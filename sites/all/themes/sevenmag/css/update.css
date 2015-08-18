@@ -782,3 +782,27 @@ padding-bottom: 10px;
 {
 	padding: 0px 10px ;
 }
+
+
+.node-type-blog-real .links.inline li {
+    float: left;
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#block-views-d8ae8042d54a54f888ceaecca406a1a8
+{
+	margin-bottom: 20px;
+}
+
+.view-blog .views-row
+{
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+
+.view-top-tipsters td
+{
+	vertical-align: middle;
+}

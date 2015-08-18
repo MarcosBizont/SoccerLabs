@@ -374,6 +374,14 @@ function tips_process_mark_tips()
 				$tip->field_have_booker_offers[LANGUAGE_NONE][0]['value'] = 1;
 				node_save($tip);					
 			}
+			else
+			{
+				if($tip->field_have_booker_offers[LANGUAGE_NONE][0]['value'] == 1)
+				{
+					$tip->field_have_booker_offers[LANGUAGE_NONE][0]['value'] = 0;
+					node_save($tip);
+				}
+			}
 		}
 		
 		
@@ -393,7 +401,7 @@ function tips_mark_tips()
 	$from = new DateTime();
 	
 	$to = new DateTime();
-	$to = $to->modify('+1 days');
+	$to = $to->modify('+2 days');
 	
 	$query = new EntityFieldQuery();
 	$query->entityCondition('entity_type', 'node')

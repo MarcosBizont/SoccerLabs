@@ -1,0 +1,92 @@
+Index: www/sites/all/modules/contrib/facebook_comments_box/facebook_comments_box.module
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- www/sites/all/modules/contrib/facebook_comments_box/facebook_comments_box.module	(revision 0aee861bcb2a066f62f40cbbb4c19cb9f2fe50ee)
++++ www/sites/all/modules/contrib/facebook_comments_box/facebook_comments_box.module	(revision )
+@@ -87,18 +87,35 @@
+         // Add meta data to the HEAD.
+         drupal_add_html_head($metafcb, 'meta-fcb');
+ 
++        // @TODO: try to determine page language before falling back to the default.
++        $fcb_language = variable_get('facebook_comments_box_default_language', 'en_US');
++
++
+         // Set the title of the block.
+         $block['subject'] = t('Facebook Comments Box');
+ 
+-        // Set the content of the block.
+-        $fcb_content = '<div class="facebook-comments-box">';
+-        $fcb_content .= '<div id="fb-root"></div>';
+-        $fcb_content .= '<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>';
+-        $fcb_content .= '<fb:comments href="' . $fcb_url . '" ';
+-        $fcb_content .= ' num_posts="' . check_plain(variable_get('facebook_comments_box_default_comments', 10)) . '" ';
+-        $fcb_content .= ' width="' . check_plain(variable_get('facebook_comments_box_default_width', 400)) . '" ';
+-        $fcb_content .= ' colorscheme="' . variable_get('facebook_comments_box_default_theme', 'light') . '" ></fb:comments></div>';
++        // Set the content of the block.;
++        $fcb_content = <<<EOT
++          <div id="fb-root"></div>
++          <script>(function(d, s, id) {
++            var js, fjs = d.getElementsByTagName(s)[0];
++            if (d.getElementById(id)) return;
++            js = d.createElement(s); js.id = id;
++            js.src = "//connect.facebook.net/$fcb_language/sdk.js#xfbml=1&version=v2.4";
++            fjs.parentNode.insertBefore(js, fjs);
++          }(document, 'script', 'facebook-jssdk'));</script>
++EOT;
+ 
++        // Box parameters
++        $fcb_num_posts = check_plain(variable_get('facebook_comments_box_default_comments', 10));
++        $fcb_width = check_plain(variable_get('facebook_comments_box_default_width', '100%'));
++        $fcb_width = $fcb_width ? $fcb_width : '100%';
++        $fcb_colorscheme = variable_get('facebook_comments_box_default_theme', 'light');
++
++        // Set the content of the block.
++        $fcb_content .= <<<CONTENT
++<div class="fb-comments" data-href="$fcb_url" data-width="$fcb_width" data-numposts="$fcb_num_posts" data-colorscheme="$fcb_colorscheme"></div>
++CONTENT;
+         $block['content'] = $fcb_content;
+       }
+       break;
+@@ -155,12 +172,12 @@
+ 
+   $form['facebook_comments_box_default_block']['facebook_comments_box_default_width'] = array(
+     '#type' => 'textfield',
+-    '#title' => t('Default Width of Comments (in pixels)'),
+-    '#default_value' => variable_get('facebook_comments_box_default_width', 400),
++    '#title' => t('Default Width of Comments (in pixels).'),
++    '#default_value' => variable_get('facebook_comments_box_default_width', '100%'),
+     '#size' => 4,
+     '#maxlength' => 4,
+-    '#description' => t('The width of the comments with a minimum of 400px.'),
+-    '#required' => TRUE,
++    '#description' => t('The width of the comments with a minimum of 400px. Defaults to 100% when left blank.'),
++    '#required' => FALSE,
+   );
+ 
+   $form['facebook_comments_box_default_block']['facebook_comments_box_default_theme'] = array(
+@@ -172,6 +189,23 @@
+       'dark' => t('Dark'),
+     ),
+     '#description' => t('The default theme to use for comments.'),
++    '#required' => TRUE,
++  );
++
++
++  // @TODO: Improve this option. Dynamic?
++  $form['facebook_comments_box_default_block']['facebook_comments_box_default_language'] = array(
++    '#type' => 'select',
++    '#title' => t('Default plugin language'),
++    '#default_value' => variable_get('facebook_comments_box_default_language', 'en_US'),
++    '#options' => array(
++      'nl_BE' => t('Nederlands (België)'),
++      'nl_NL' => t('Nederlands (Nederland)'),
++      'en_GB' => t('English (UK)'),
++      'en_US' => t('English (US)'),
++      'de_DE' => t('Deutsch'),
++    ),
++    '#description' => t('The default plugin language, for when the page language cannot be determined.'),
+     '#required' => TRUE,
+   );
+ 

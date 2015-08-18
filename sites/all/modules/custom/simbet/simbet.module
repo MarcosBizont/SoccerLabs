@@ -78,7 +78,7 @@ function simbet_simulate_bet($form, &$form_state)
 	$noteam = false;
 	if(isset($form_state['values']['bettype']))
 		if(intval($form_state['values']['bettype'])>0)
-			if(in_array($form_state['values']['bettype'], array(832,674)))
+			if(in_array($form_state['values']['bettype'], array(832,886)))
 			{
 				$node_local_team = node_load($node_match->field_local_team[LANGUAGE_NONE][0]['target_id']);
 				$node_visitor_team = node_load($node_match->field_visitor_team[LANGUAGE_NONE][0]['target_id']);
@@ -111,10 +111,21 @@ function simbet_simulate_bet($form, &$form_state)
 			}
 			else
 			{
-				if($node_match->field_local_team[LANGUAGE_NONE][0]['target_id']==$form_state['values']['team'])	
-					$idtoget = 1;
-				else
-					$idtoget = 2;
+				if($form_state['values']['bettype']==832)
+				{
+					if($node_match->field_local_team[LANGUAGE_NONE][0]['target_id']==$form_state['values']['team'])	
+						$idtoget = 1;
+					else
+						$idtoget = 2;
+				}
+				if($form_state['values']['bettype']==886)
+				{
+					if($node_match->field_local_team[LANGUAGE_NONE][0]['target_id']==$form_state['values']['team'])	
+						$idtoget = '1X';
+					else
+						$idtoget = 'X2';
+				}	
+					
 				foreach($oddsavailable[$form_state['values']['bettype']][$idtoget] as $key => $value) 
 					$options[$key . ' - ' . $value] = $key . ' - ' . $value;
 			}
@@ -232,7 +243,7 @@ function simbet_form_update_selectfield(&$form, &$form_state)
 	$tiptype = $form_state['values']['field_tip_type_simbet'][LANGUAGE_NONE][0]['target_id'];
 	//$form['field_team_simbet'] = array('#type' => 'hidden', '#value' => '');
 	
-	if(in_array($tiptype, array(832,674)))
+	if(in_array($tiptype, array(832,886)))
 	{
 		$form['field_team_simbet'] = array(
 	       '#type' => 'select',
@@ -475,6 +486,25 @@ function simbet_close_simbets_bytype($simbet)
 			
 			node_save($simbet);
 		break;
+		case 886:
+			if($simbet->field_team_simbet[LANGUAGE_NONE][0]['target_id'] == $match->field_local_team[LANGUAGE_NONE][0]['target_id'])
+			{	
+				$score = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+				$scorevs = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			}
+			else
+			{
+				$score = $match->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+				$scorevs = $match->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			}
+			
+			if($score > $scorevs || $score == $scorevs) 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 1;
+			else 
+				$simbet->field_win_simbet[LANGUAGE_NONE][0]['value'] = 2;
+			
+			node_save($simbet);
+		break;	
 		
 	}
 				

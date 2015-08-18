@@ -130,6 +130,7 @@ function tipgin_api_feed_integrategames_admin_submit($form, &$form_state) {
 		}
 	}
 	
+	// Change match to tips
 	$query = new EntityFieldQuery();
 	$query->entityCondition('entity_type', 'node')
 		  ->entityCondition('bundle', 'tip')
@@ -151,6 +152,31 @@ function tipgin_api_feed_integrategames_admin_submit($form, &$form_state) {
 			node_save($match);
 		}
 	}
+	
+	//Change match to simbets
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'simbet')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match_simbet', 'target_id', $nidremove, '=');	
+	
+	$result = $query->execute();
+	$mt = false;
+	if (isset($result['node'])) 
+	{
+		$match = array_keys($result['node']);
+		$match_items = entity_load('node', $match);
+		foreach($match_items as $match)
+		{
+			foreach($match->field_match_simbet[LANGUAGE_NONE] as $key => $value)
+				if($value['target_id']==$nidremove) 
+					$match->field_match_simbet[LANGUAGE_NONE][$key]['target_id'] = $nidkeep;
+					
+			node_save($match);
+		}
+	}
+	
+	
 	
 	node_delete($nidremove);
 }

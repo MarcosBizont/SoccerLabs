@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.07.2015 12:40:12" sport="soccer" country="worldcup"><league country="worldcup" name="North and Central America: World Cup - Qualification - Second Stage" cup="True" id="2883" sub_id=""><match alternate_id="4118501" alternate_id_2="4339599" date="17.06.2015" id="4236045" static_id="" status="FT" time="01:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="18.08.2015 00:40:20" sport="soccer" country="worldcup"><league country="worldcup" name="North and Central America: World Cup - Qualification - Second Stage" cup="True" id="2883" sub_id=""><match alternate_id="4118501" alternate_id_2="4339599" date="17.06.2015" id="4236045" static_id="" status="FT" time="01:00">
 <home goals="4" id="2340793" name="El Salvador"></home>
 <away goals="1" id="" name="Saint Kitts and Nevis"></away>
 <events>
@@ -45,7 +45,7 @@
 <event id="22408861" minute="90+5" player="J. Baja" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="worldcup" name="Asia: World Cup - Qualification - Second Stage" cup="True" id="2882" sub_id=""><match alternate_id="4123883" alternate_id_2="4339527" date="16.06.2015" id="4241427" static_id="16061523495362345785" status="FT" time="16:00">
+</match></league><league country="worldcup" name="Asia: World Cup - Qualification - Second Stage" cup="True" id="2882" sub_id="28823"><match alternate_id="4123883" alternate_id_2="4339527" date="16.06.2015" id="4241427" static_id="16061523495362345785" status="FT" time="16:00">
 <home goals="0" id="2349536" name="Yemen"></home>
 <away goals="2" id="2345785" name="Philippines"></away>
 <events>
@@ -447,31 +447,6 @@
 <event id="22169659" minute="89" player="T. Daginaa" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="worldcup" name="World: World Cup - Play Offs" cup="True" id="2889" sub_id=""><match alternate_id="4008463" alternate_id_2="4174362" date="13.07.2014" id="4126084" static_id="13071423420782337719" status="AET" time="19:00">
-<home goals="1" id="2342078" name="Germany"></home>
-<away goals="0" id="2337719" name="Argentina"></away>
-<events>
-<event id="20757124" minute="29" player="B. Schweinsteiger" playerid="2331868" result="" team="home" type="yellowcard"></event>
-<event id="20757125" minute="33" player="B. Howedes" playerid="2347947" result="" team="home" type="yellowcard"></event>
-<event id="20757126" minute="64" player="J. Mascherano" playerid="2331946" result="" team="away" type="yellowcard"></event>
-<event id="20757127" minute="65" player="S. Aguero" playerid="2334884" result="" team="away" type="yellowcard"></event>
-<event id="20757128" minute="113" player="M. Gotze" playerid="2416931" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4008462" alternate_id_2="4174361" date="12.07.2014" id="4126083" static_id="12071423389172345002" status="FT" time="20:00">
-<home goals="0" id="2338917" name="Brazil"></home>
-<away goals="3" id="2345002" name="Netherlands"></away>
-<events>
-<event id="20757114" minute="2" player="T. Silva" playerid="2340969" result="" team="home" type="yellowcard"></event>
-<event id="20757115" minute="3" player="R. van Persie (pen.)" playerid="2331882" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20757116" minute="9" player="A. Robben" playerid="2331865" result="" team="away" type="yellowcard"></event>
-<event id="20757117" minute="17" player="D. Blind" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20757118" minute="36" player="J. de Guzman" playerid="2334092" result="" team="away" type="yellowcard"></event>
-<event id="20757119" minute="54" player="Fernandinho" playerid="2351488" result="" team="home" type="yellowcard"></event>
-<event id="20757120" minute="68" player="Oscar" playerid="2389693" result="" team="home" type="yellowcard"></event>
-<event id="20757121" minute="90+1" player="G. Wijnaldum" playerid="2340661" result="[0 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match></league><league country="worldcup" name="World: Fifa Club World Cup" cup="True" id="2874" sub_id="28740"><match alternate_id="4089595" alternate_id_2="4297903" date="20.12.2014" id="4207162" static_id="20121423479432337878" status="FT" time="19:30">
 <home goals="2" id="2347943" name="Real Madrid"></home>
 <away goals="0" id="2337878" name="San Lorenzo"></away>
@@ -1024,6 +999,122 @@
 <event id="22095369" minute="74" player="J. Vigario" playerid="" result="[0 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
+</match></league><league country="worldcup" name="World: Universiade - Play Offs" cup="False" id="4461" sub_id=""><match alternate_id="" alternate_id_2="4346357" date="13.07.2015" id="" static_id="13071523538682356393" status="FT" time="10:00">
+<home goals="3" id="2353868" name="Italy Univ."></home>
+<away goals="0" id="2356393" name="South Korea Univ."></away>
+<events>
+<event id="22477074" minute="6" player="Park Dong-Jin" playerid="" result="" team="away" type="redcard"></event>
+<event id="22477075" minute="11" player="T. Biasci" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22477076" minute="30" player="P. Regoli" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477077" minute="32" player="P. Regoli" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22477078" minute="46" player="T. Biasci" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477079" minute="54" player="L. Morosini" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22477080" minute="59" player="T. Biasci" playerid="" result="" team="home" type="yellowred"></event>
+<event id="22477081" minute="72" player="Jung Won-Jin" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match></league><league country="worldcup" name="World: Universiade - 5th-8th Places" cup="False" id="4462" sub_id=""><match alternate_id="" alternate_id_2="4346352" date="13.07.2015" id="" static_id="13071523538752353872" status="FT" time="07:30">
+<home goals="1" id="2353875" name="France Univ."></home>
+<away goals="2" id="2353872" name="Uruguay Univ."></away>
+<events>
+<event id="22477024" minute="15" player="M. Monroy" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22477025" minute="26" player="K. Bacle" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477026" minute="30" player="I. Christophersen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22477027" minute="40" player="G. Suarez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477028" minute="64" player="M. Monroy" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477029" minute="66" player="M. Oliveri" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22477030" minute="85" player="M. Oliveri" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477031" minute="90+3" player="F. Guerrero" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4346353" date="13.07.2015" id="" static_id="13071523538792356395" status="FT" time="07:30">
+<home goals="3" id="2353879" name="Ireland Univ."></home>
+<away goals="1" id="2356395" name="South Africa Univ."></away>
+<events>
+<event id="22477034" minute="14" player="M. Nkwana" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22477035" minute="16" player="A. McGreal" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22477036" minute="31" player="D. Kaibe" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477037" minute="43" player="M. Chokoe" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477038" minute="45" player="B. Nyangiwe" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477039" minute="63" player="D. McGuinness" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22477040" minute="76" player="R. Gaul" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477041" minute="83" player="T. Bonner (pen.)" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22477042" minute="90+3" player="S. Nkosi" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match></league><league country="worldcup" name="World: Universiade - 9th-16th Places" cup="False" id="4219" sub_id=""><match alternate_id="4156056" alternate_id_2="4346350" date="13.07.2015" id="4273587" static_id="13071523538802353878" status="FT" time="07:30">
+<home goals="3" id="2353880" name="Russia Univ."></home>
+<away goals="0" id="2353878" name="China Univ."></away>
+<events>
+<event id="22477004" minute="4" player="D. Koshelev" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477005" minute="14" player="Z. Yu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477006" minute="18" player="R. Ianushkovskii" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22477007" minute="29" player="Z. Guo" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477008" minute="32" player="V. Kotlov" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22477009" minute="43" player="D. Koshelev" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22477010" minute="43" player="P. Korolev" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477011" minute="45+2" player="Y. Song" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477012" minute="65" player="G. Burnash" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="203783543" minute="77" player="B. Cui" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="203783544" minute="81" player="S. Li" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match></league><league country="worldcup" name="World: Universiade - Play Offs" cup="False" id="4461" sub_id=""><match alternate_id="" alternate_id_2="4346356" date="13.07.2015" id="" static_id="13071523538702353874" status="Pen." time="07:00">
+<home goals="0" id="2353870" name="Japan Univ."></home>
+<away goals="0" id="2353874" name="Brazil Univ."></away>
+<events>
+<event id="22477064" minute="24" player="B. Lucas" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="7" visitorteam="6"></penalty>
+</match></league><league country="worldcup" name="World: Universiade - 9th-16th Places" cup="False" id="4219" sub_id=""><match alternate_id="4156055" alternate_id_2="4346351" date="13.07.2015" id="4273586" static_id="13071523538812353871" status="FT" time="02:00">
+<home goals="4" id="2353881" name="Mexico Univ."></home>
+<away goals="1" id="2353871" name="Ukraine Univ."></away>
+<events>
+<event id="22477014" minute="5" player="M. Loya" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22477015" minute="15" player="S. Panasenko" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477016" minute="16" player="Y. Dovgalenko" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477017" minute="33" player="J. Fernandez" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22477018" minute="44" player="A. Villalvazo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477019" minute="45+1" player="A. Villalvazo" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22477020" minute="63" player="R. Holguin" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477021" minute="67" player="M. Mendez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477022" minute="69" player="M. Loya" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="203783643" minute="79" player="D. Nuridinov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="203783644" minute="82" player="M. Corral" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="203783645" minute="83" player="A. Kotliar" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="203783646" minute="90" player="J. Fernandez" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match></league><league country="worldcup" name="World: Universiade - 13th-16th Places" cup="False" id="4461" sub_id=""><match alternate_id="" alternate_id_2="4346355" date="13.07.2015" id="" static_id="13071523538762356396" status="Pen." time="02:00">
+<home goals="1" id="2353876" name="Canada Univ."></home>
+<away goals="1" id="2356396" name="Iran Univ."></away>
+<events>
+<event id="22477054" minute="6" player="K. Shajie" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22477055" minute="58" player="A. Asgari" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477056" minute="68" player="J. Maheu" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477057" minute="70" player="M. Karamibaseri" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477058" minute="76" player="V. Nosrati" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477059" minute="79" player="H. Ahmadi" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22477060" minute="90+1" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477061" minute="90+2" player="K. Elkinson" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22477062" minute="90+3" player="S. Aghazamani" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+<penalty localteam="4" visitorteam="1"></penalty>
+</match><match alternate_id="" alternate_id_2="4346354" date="13.07.2015" id="" static_id="13071523538672356394" status="FT" time="02:00">
+<home goals="3" id="2353867" name="Malaysia Univ."></home>
+<away goals="2" id="2356394" name="Chinese Taipei Univ."></away>
+<events>
+<event id="22477044" minute="35" player="Wang Ruei" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22477045" minute="57" player="A. Ibrahim" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22477046" minute="67" player="R. Abdul Rashid" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22477047" minute="76" player="F. Ghazli" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22477048" minute="90+1" player="N. N. Che Hasyim" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22477049" minute="90+1" player="Yen Ho-Shen" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22477050" minute="90+3" player="N. Wan" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match></league><league country="worldcup" name="World: Universiade - Play Offs" cup="False" id="4461" sub_id=""><match alternate_id="" alternate_id_2="4345678" date="11.07.2015" id="" static_id="11071523538742356393" status="FT" time="07:30">
 <home goals="0" id="2353874" name="Brazil Univ."></home>
 <away goals="2" id="2356393" name="South Korea Univ."></away>
@@ -1519,6 +1610,79 @@
 <event id="22079024" minute="22" player="Song Joo-Hoon" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match></league><league country="worldcup" name="World: Audi Cup" cup="True" id="3636" sub_id="36360"><match alternate_id="4185162" alternate_id_2="4451020" date="05.08.2015" id="4302669" static_id="05081523421182347943" status="FT" time="18:45">
+<home goals="1" id="2342118" name="Bayern Munich"></home>
+<away goals="0" id="2347943" name="Real Madrid"></away>
+<events>
+<event id="23523704" minute="33" player="Marcelo" playerid="2349295" result="" team="away" type="yellowcard"></event>
+<event id="23523705" minute="36" player="X. Alonso" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23523706" minute="50" player="M. Benatia" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23523707" minute="71" player="S. Ramos" playerid="2332159" result="" team="away" type="yellowcard"></event>
+<event id="23523708" minute="88" player="R. Lewandowski" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4185184" alternate_id_2="4451021" date="05.08.2015" id="4302691" static_id="05081523412392343771" status="FT" time="16:15">
+<home goals="2" id="2341239" name="Tottenham"></home>
+<away goals="0" id="2343771" name="AC Milan"></away>
+<events>
+<event id="23523714" minute="8" player="N. Chadli" playerid="2381363" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23523715" minute="71" player="T. Carroll" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4131290" alternate_id_2="4338820" date="04.08.2015" id="4248830" static_id="04081523421182343771" status="FT" time="18:45">
+<home goals="3" id="2342118" name="Bayern Munich"></home>
+<away goals="0" id="2343771" name="AC Milan"></away>
+<events>
+<event id="22401704" minute="24" player="J. Bernat" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22401705" minute="74" player="M. Gotze" playerid="2416931" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22401706" minute="85" player="R. Lewandowski" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4131289" alternate_id_2="4338819" date="04.08.2015" id="4248829" static_id="04081523479432341239" status="FT" time="16:15">
+<home goals="2" id="2347943" name="Real Madrid"></home>
+<away goals="0" id="2341239" name="Tottenham"></away>
+<events>
+<event id="22401694" minute="36" player="J. Rodriguez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22401695" minute="56" player="S. Ramos" playerid="2332159" result="" team="home" type="yellowcard"></event>
+<event id="22401696" minute="79" player="G. Bale" playerid="2347315" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match></league><league country="worldcup" name="World: Premier League Asia Trophy" cup="False" id="4225" sub_id="42250"><match alternate_id="4157536" alternate_id_2="4362370" date="18.07.2015" id="4275065" static_id="18071523409912340835" status="FT" time="12:30">
+<home goals="1" id="2340991" name="Everton"></home>
+<away goals="3" id="2340835" name="Arsenal"></away>
+<events>
+<event id="22637204" minute="22" player="T. Walcott" playerid="2332027" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22637205" minute="58" player="S. Cazorla" playerid="2349935" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22637206" minute="63" player="M. Ozil" playerid="2333819" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22637207" minute="76" player="R. Barkley" playerid="2485901" result="[1 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4157535" alternate_id_2="4362369" date="18.07.2015" id="4275064" static_id="18071523412112353492" status="FT" time="10:00">
+<home goals="2" id="2341211" name="Stoke City"></home>
+<away goals="0" id="2353492" name="Singapore XI"></away>
+<events>
+<event id="22637194" minute="7" player="S. Sidwell" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22637195" minute="73" player="M. Arnautovic" playerid="2352851" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4129902" alternate_id_2="4338009" date="15.07.2015" id="4247442" static_id="15071523534922340835" status="FT" time="12:30">
+<home goals="0" id="2353492" name="Singapore XI"></home>
+<away goals="4" id="2340835" name="Arsenal"></away>
+<events>
+<event id="22393594" minute="30" player="C. Akpom" playerid="2547403" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22393595" minute="60" player="J. Wilshere (pen.)" playerid="2392908" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22393596" minute="76" player="C. Akpom (pen.)" playerid="2547403" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22393597" minute="79" player="C. Akpom" playerid="2547403" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4129901" alternate_id_2="4338008" date="15.07.2015" id="4247441" static_id="15071523409912341211" status="Pen." time="10:00">
+<home goals="0" id="2340991" name="Everton"></home>
+<away goals="0" id="2341211" name="Stoke City"></away>
+<events>
+<event id="22393584" minute="29" player="P. Bardsley" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="5" visitorteam="4"></penalty>
 </match></league><league country="worldcup" name="World: La Manga Cup" cup="True" id="4033" sub_id=""><match alternate_id="4109232" alternate_id_2="4311676" date="16.03.2015" id="4226784" static_id="16031523455862345568" status="FT" time="11:00">
 <home goals="1" id="2345586" name="Nest-Sotra"></home>
 <away goals="3" id="2345568" name="Levanger"></away>
@@ -1679,16 +1843,17 @@
 <event id="22095738" minute="68" player="H. Bjordal" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="worldcup" name="World: Suruga Bank Championship" cup="False" id="3641" sub_id="36410"><match alternate_id="3966997" alternate_id_2="4118873" date="06.08.2014" id="4084657" static_id="06081423439852337851" status="FT" time="10:00">
-<home goals="2" id="2343985" name="Kashiwa"></home>
-<away goals="1" id="2337851" name="Lanus"></away>
+</match></league><league country="worldcup" name="World: Suruga Bank Championship" cup="False" id="3641" sub_id="36410"><match alternate_id="4095434" alternate_id_2="4302246" date="11.08.2015" id="4212998" static_id="11081523439762337875" status="FT" time="10:00">
+<home goals="0" id="2343976" name="G-Osaka"></home>
+<away goals="3" id="2337875" name="River Plate"></away>
 <events>
-<event id="20202234" minute="43" player="K. Takayama" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20202235" minute="59" player="T. Masushima (o.g.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="20202236" minute="88" player="Leandro (pen.)" playerid="2340814" result="[2 - 1]" team="home" type="goal"></event>
-<event id="20202237" minute="90+3" player="D. Gonzalez" playerid="2349641" result="" team="away" type="redcard"></event>
+<event id="22035964" minute="8" player="C. Sanchez (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22035965" minute="31" player="G. Mercado" playerid="2346911" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22035966" minute="44" player="K. Iwashita" playerid="2337532" result="" team="home" type="yellowcard"></event>
+<event id="22035967" minute="57" player="S. Kurata" playerid="2337331" result="" team="home" type="yellowcard"></event>
+<event id="22035968" minute="61" player="G. Martinez" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-2]"></ht>
 </match></league><league country="worldcup" name="World: Toulon Tournament - Play Offs" cup="False" id="3623" sub_id=""><match alternate_id="4131386" alternate_id_2="4338897" date="07.06.2015" id="4248926" static_id="07061523416512344928" status="FT" time="17:30">
 <home goals="3" id="2341651" name="France U21"></home>
 <away goals="1" id="2344928" name="Morocco U20"></away>
@@ -2207,20 +2372,6 @@
 <event id="22076387" minute="57" player="G. Camara" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4306179" date="05.02.2015" id="" static_id="" status="FT" time="14:00">
-<home goals="5" id="2354766" name="AS Roma U19"></home>
-<away goals="3" id="" name="Bologna U19"></away>
-<events>
-<event id="22075294" minute="12" player="A. Calabrese (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22075295" minute="17" player="E. Soleri" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22075296" minute="30" player="F. Di Mariano (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22075297" minute="34" player="L. Di Livio" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="22075298" minute="77" player="J. Ferri" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="22075299" minute="82" player="M. Sammartino" playerid="" result="[5 - 1]" team="home" type="goal"></event>
-<event id="22075300" minute="84" player="A. Calabrese" playerid="" result="[5 - 2]" team="away" type="goal"></event>
-<event id="22075301" minute="90+2" player="M. Martini" playerid="2427015" result="[5 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[3-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4306145" date="05.02.2015" id="" static_id="" status="FT" time="14:00">
 <home goals="1" id="" name="Belgrano U19"></home>
 <away goals="1" id="" name="Pescara U19"></away>
@@ -2228,6 +2379,15 @@
 <event id="22074954" minute="1" player="S. Monni" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22074955" minute="15" player="I. Paz" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="22074956" minute="45+2" player="M. Gomez" playerid="" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4306147" date="05.02.2015" id="" static_id="" status="FT" time="14:00">
+<home goals="1" id="" name="Benevento U19"></home>
+<away goals="2" id="" name="Livorno U19"></away>
+<events>
+<event id="22074974" minute="31" player="A. Vallocchia" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22074975" minute="45" player="O. Murilo (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22074976" minute="61" player="L. Simonetti" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4306146" date="05.02.2015" id="" static_id="" status="FT" time="14:00">
@@ -2238,155 +2398,245 @@
 <event id="22074965" minute="47" player="L. Vignali" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="worldcup" name="World: Trofeo Colombino" cup="False" id="3777" sub_id=""><match alternate_id="" alternate_id_2="4184578" date="19.07.2014" id="" static_id="19071423479612347535" status="FT" time="18:45">
-<home goals="0" id="2347961" name="Recreativo Huelva"></home>
+</match></league><league country="worldcup" name="World: Trofeo Colombino" cup="False" id="3777" sub_id="37770"><match alternate_id="4185362" alternate_id_2="4346039" date="07.08.2015" id="4302868" static_id="07081523479612347940" status="FT" time="19:30">
+<home goals="1" id="2347961" name="Recreativo Huelva"></home>
+<away goals="2" id="2347940" name="Betis"></away>
+<events>
+<event id="22473894" minute="28" player="C. Delgado" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22473895" minute="60" player="J. Molina" playerid="2391822" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22473896" minute="83" player="J. Molina" playerid="2391822" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match></league><league country="worldcup" name="North and Central America: International Champions Cup" cup="True" id="4472" sub_id="44720"><match alternate_id="" alternate_id_2="4367390" date="05.08.2015" id="" static_id="05081523409252343727" status="FT" time="19:00">
+<home goals="0" id="2340925" name="Chelsea"></home>
+<away goals="1" id="2343727" name="Fiorentina"></away>
+<events>
+<event id="22687404" minute="34" player="G. Rodriguez" playerid="2334926" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22687405" minute="52" player="F. Roncaglia" playerid="2345703" result="" team="away" type="yellowcard"></event>
+<event id="22687406" minute="83" player="A. Hegazy" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22687407" minute="90+2" player="K. Zouma" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22687408" minute="90+2" player="N. Matic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22687409" minute="90+3" player="Joaquin" playerid="2332163" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4362404" date="02.08.2015" id="" static_id="02081523437272347535" status="FT" time="19:00">
+<home goals="2" id="2343727" name="Fiorentina"></home>
 <away goals="1" id="2347535" name="Barcelona"></away>
 <events>
-<event id="20859284" minute="66" player="J. Roman" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match></league><league country="worldcup" name="World: International Champions Cup" cup="True" id="4226" sub_id="42260"><match alternate_id="4127828" alternate_id_2="4333756" date="12.07.2015" id="4245370" static_id="12071523491702344749" status="FT" time="03:30">
-<home goals="2" id="2349170" name="Los Angeles Galaxy"></home>
-<away goals="1" id="2344749" name="Club America"></away>
-<events>
-<event id="22351064" minute="7" player="C. Quintero" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22351065" minute="45+1" player="R. Keane" playerid="2334782" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22351066" minute="80" player="A. Gordon" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match></league><league country="worldcup" name="World: International Champions Cup - Play Offs" cup="True" id="4226" sub_id=""><match alternate_id="4041447" alternate_id_2="4235305" date="05.08.2014" id="4159061" static_id="05081423410822341093" status="FT" time="00:00">
-<home goals="1" id="2341082" name="Liverpool"></home>
-<away goals="3" id="2341093" name="Manchester United"></away>
-<events>
-<event id="21366554" minute="14" player="S. Gerrard (pen.)" playerid="2332019" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21366555" minute="52" player="Luke Shaw" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21366556" minute="55" player="W. Rooney" playerid="2332026" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21366557" minute="57" player="J. Mata" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="21366558" minute="86" player="Wayne Rooney" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21366559" minute="88" player="J. Lingard" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match></league><league country="worldcup" name="World: International Champions Cup" cup="True" id="4226" sub_id="42260"><match alternate_id="3884968" alternate_id_2="4080686" date="02.08.2014" id="4002739" static_id="02081423437712341082" status="FT" time="22:30">
-<home goals="0" id="2343771" name="AC Milan"></home>
-<away goals="2" id="2341082" name="Liverpool"></away>
-<events>
-<event id="19820364" minute="17" player="J. Allen" playerid="2379406" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19820365" minute="89" player="Suso" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3884970" alternate_id_2="4080688" date="02.08.2014" id="4002741" static_id="02081423410932347943" status="FT" time="20:06">
-<home goals="3" id="2341093" name="Manchester United"></home>
-<away goals="1" id="2347943" name="Real Madrid"></away>
-<events>
-<event id="19820384" minute="21" player="A. Young" playerid="2334386" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19820385" minute="27" player="G. Bale (pen.)" playerid="2347315" result="[1 - 1]" team="away" type="goal"></event>
-<event id="19820386" minute="37" player="A. Young" playerid="2334386" result="[2 - 1]" team="home" type="goal"></event>
-<event id="19820387" minute="80" player="J. Hernandez" playerid="2385770" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22637544" minute="4" player="F. Bernardeschi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22637545" minute="12" player="F. Bernardeschi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22637546" minute="17" player="L. Suarez" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match><match alternate_id="3884971" alternate_id_2="4080689" date="02.08.2014" id="4002742" static_id="02081423426622341092" status="Pen." time="19:00">
-<home goals="2" id="2342662" name="Olympiakos Piraeus"></home>
-<away goals="2" id="2341092" name="Manchester City"></away>
-<events>
-<event id="19820394" minute="35" player="S. Jovetic" playerid="2377383" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19820395" minute="37" player="D. Diamantakos" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="19820396" minute="53" player="A. Kolarov (pen.)" playerid="2349615" result="[1 - 2]" team="away" type="goal"></event>
-<event id="19820397" minute="66" player="D. Diamantakos" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-<penalty localteam="5" visitorteam="4"></penalty>
-</match><match alternate_id="3884969" alternate_id_2="4080687" date="02.08.2014" id="4002740" static_id="02081423437502343831" status="FT" time="17:00">
-<home goals="2" id="2343750" name="Inter"></home>
-<away goals="0" id="2343831" name="AS Roma"></away>
-<events>
-<event id="19820374" minute="45+1" player="N. Vidic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19820375" minute="69" player="Y. Nagatomo" playerid="2380430" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4032799" alternate_id_2="4080685" date="30.07.2014" id="4150417" static_id="30071423410822341092" status="Pen." time="23:00">
-<home goals="2" id="2341082" name="Liverpool"></home>
-<away goals="2" id="2341092" name="Manchester City"></away>
-<events>
-<event id="19820354" minute="53" player="S. Jovetic" playerid="2377383" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19820355" minute="59" player="J. Henderson" playerid="2379843" result="[1 - 1]" team="home" type="goal"></event>
-<event id="19820356" minute="68" player="S. Jovetic" playerid="2377383" result="[1 - 2]" team="away" type="goal"></event>
-<event id="19820357" minute="85" player="R. Sterling" playerid="2492247" result="[2 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="3" visitorteam="1"></penalty>
-</match><match alternate_id="3934896" alternate_id_2="4080684" date="30.07.2014" id="4052631" static_id="30071423479432343831" status="FT" time="01:45">
+</match></league><league country="worldcup" name="Asia: International Champions Cup" cup="True" id="4474" sub_id="44740"><match alternate_id="" alternate_id_2="4333754" date="30.07.2015" id="" static_id="30071523479432343771" status="Pen." time="12:00">
 <home goals="0" id="2347943" name="Real Madrid"></home>
-<away goals="1" id="2343831" name="AS Roma"></away>
-<events>
-<event id="19820344" minute="58" player="F. Totti" playerid="2331925" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="3884965" alternate_id_2="4080683" date="29.07.2014" id="4002736" static_id="29071423410932343750" status="Pen." time="23:30">
-<home goals="0" id="2341093" name="Manchester United"></home>
-<away goals="0" id="2343750" name="Inter"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="5" visitorteam="3"></penalty>
-</match><match alternate_id="4032798" alternate_id_2="4080682" date="27.07.2014" id="4150416" static_id="27071423426622341082" status="FT" time="22:00">
-<home goals="0" id="2342662" name="Olympiakos Piraeus"></home>
-<away goals="1" id="2341082" name="Liverpool"></away>
-<events>
-<event id="19820324" minute="6" player="R. Sterling" playerid="2492247" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19820325" minute="21" player="D. Siovas" playerid="2350637" result="" team="home" type="yellowcard"></event>
-<event id="19820326" minute="43" player="L. Salino" playerid="2470971" result="" team="home" type="yellowcard"></event>
-<event id="19820327" minute="45" player="G. Johnson" playerid="2334474" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3884963" alternate_id_2="4080681" date="27.07.2014" id="4002734" static_id="27071423437712341092" status="FT" time="20:00">
-<home goals="1" id="2343771" name="AC Milan"></home>
-<away goals="5" id="2341092" name="Manchester City"></away>
-<events>
-<event id="19820314" minute="11" player="S. Jovetic" playerid="2377383" result="[0 - 1]" team="away" type="goal"></event>
-<event id="19820315" minute="14" player="S. Sinclair" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="19820316" minute="23" player="J. Navas" playerid="2340668" result="[0 - 3]" team="away" type="goal"></event>
-<event id="19820317" minute="26" player="K. Iheanacho" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="19820318" minute="42" player="S. Muntari" playerid="2332455" result="[1 - 4]" team="home" type="goal"></event>
-<event id="19820319" minute="58" player="S. Jovetic" playerid="2377383" result="[1 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[1-4]"></ht>
-</match><match alternate_id="3884962" alternate_id_2="4080680" date="26.07.2014" id="4002733" static_id="26071423479432343750" status="Pen." time="22:00">
-<home goals="1" id="2347943" name="Real Madrid"></home>
-<away goals="1" id="2343750" name="Inter"></away>
-<events>
-<event id="19820304" minute="10" player="G. Bale" playerid="2347315" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19820305" minute="29" player="A. Ranocchia" playerid="2392974" result="" team="away" type="yellowcard"></event>
-<event id="19820306" minute="48" player="R. De Tomas" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="19820307" minute="56" player="A. Medran" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="19820308" minute="68" player="M. Icardi (pen.)" playerid="2575887" result="[1 - 1]" team="away" type="goal"></event>
-<event id="19820309" minute="71" player="D. Carvajal" playerid="2477263" result="" team="home" type="yellowcard"></event>
-<event id="19820310" minute="83" player="Y. Mandapos;Vila" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-<penalty localteam="2" visitorteam="3"></penalty>
-</match><match alternate_id="3884961" alternate_id_2="4080679" date="26.07.2014" id="4002732" static_id="26071423410932343831" status="FT" time="20:10">
-<home goals="3" id="2341093" name="Manchester United"></home>
-<away goals="2" id="2343831" name="AS Roma"></away>
-<events>
-<event id="19820294" minute="27" player="A. Calabresi" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="19820295" minute="36" player="W. Rooney" playerid="2332026" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19820296" minute="39" player="J. Mata" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="19820297" minute="45+1" player="W. Rooney (pen.)" playerid="2332026" result="[3 - 0]" team="home" type="goal"></event>
-<event id="19820298" minute="56" player="A. Young" playerid="2334386" result="" team="home" type="yellowcard"></event>
-<event id="19820299" minute="73" player="C. Leandro" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="19820300" minute="76" player="M. Pjanic" playerid="2352424" result="[3 - 1]" team="away" type="goal"></event>
-<event id="19820301" minute="88" player="F. Totti (pen.)" playerid="2331925" result="[3 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[3-0]"></ht>
-</match><match alternate_id="3934895" alternate_id_2="4080678" date="25.07.2014" id="4052630" static_id="25071423426622343771" status="FT" time="00:00">
-<home goals="3" id="2342662" name="Olympiakos Piraeus"></home>
 <away goals="0" id="2343771" name="AC Milan"></away>
 <events>
-<event id="19820284" minute="16" player="A. Dominguez" playerid="2338695" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19820285" minute="49" player="D. Diamantakos" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="19820286" minute="78" player="A. Bouchalakis" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="10" visitorteam="9"></penalty>
+</match></league><league country="worldcup" name="North and Central America: International Champions Cup" cup="True" id="4472" sub_id="44720"><match alternate_id="" alternate_id_2="4333769" date="30.07.2015" id="" static_id="30071523410932341894" status="FT" time="01:00">
+<home goals="0" id="2341093" name="Manchester United"></home>
+<away goals="2" id="2341894" name="Paris SG"></away>
+<events>
+<event id="22351194" minute="25" player="B. Matuidi" playerid="2333021" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351195" minute="34" player="Z. Ibrahimovic" playerid="2332001" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22351196" minute="75" player="Marquinhos" playerid="2512717" result="" team="away" type="yellowcard"></event>
+<event id="22351197" minute="80" player="A. Valencia" playerid="2332117" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4333768" date="29.07.2015" id="" static_id="29071523447492346100" status="Pen." time="02:00">
+<home goals="0" id="2344749" name="Club America"></home>
+<away goals="0" id="2346100" name="Benfica"></away>
+<events>
+<event id="22351184" minute="15" player="V. Alvarado" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351185" minute="32" player="J. Guemez" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351186" minute="54" player="M. Arroyo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351187" minute="70" player="G. Buron" playerid="" result="" team="home" type="redcard"></event>
+<event id="22351188" minute="85" player="F. Marcal" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="3" visitorteam="4"></penalty>
+</match><match alternate_id="" alternate_id_2="4333767" date="29.07.2015" id="" static_id="29071523409252347535" status="Pen." time="00:00">
+<home goals="2" id="2340925" name="Chelsea"></home>
+<away goals="2" id="2347535" name="Barcelona"></away>
+<events>
+<event id="22351174" minute="10" player="E. Hazard" playerid="2371191" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22351175" minute="42" player="J. Mathieu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351176" minute="52" player="L. Suarez" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22351177" minute="66" player="S. Ramirez" playerid="2426104" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22351178" minute="75" player="J. Alba" playerid="2392716" result="" team="away" type="yellowcard"></event>
+<event id="22351179" minute="85" player="G. Cahill" playerid="2334630" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+<penalty localteam="4" visitorteam="2"></penalty>
+</match></league><league country="worldcup" name="Asia: International Champions Cup" cup="True" id="4474" sub_id="44740"><match alternate_id="" alternate_id_2="4333753" date="27.07.2015" id="" static_id="27071523437502347943" status="FT" time="12:00">
+<home goals="0" id="2343750" name="Inter"></home>
+<away goals="3" id="2347943" name="Real Madrid"></away>
+<events>
+<event id="22351034" minute="29" player="Jese" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351035" minute="53" player="Hernanes" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351036" minute="56" player="R. Varane" playerid="2488539" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22351037" minute="67" player="J. Jesus" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351038" minute="88" player="J. Rodriguez" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22351039" minute="90" player="A. Arbeloa" playerid="2337072" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match></league><league country="worldcup" name="North and Central America: International Champions Cup" cup="True" id="4472" sub_id="44720"><match alternate_id="" alternate_id_2="4333766" date="26.07.2015" id="" static_id="26071523491862346100" status="FT" time="23:30">
+<home goals="2" id="2349186" name="New York Red Bulls"></home>
+<away goals="1" id="2346100" name="Benfica"></away>
+<events>
+<event id="22351164" minute="7" player="Pizzi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351165" minute="20" player="Pizzi" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351166" minute="33" player="B. Wright-Phillips" playerid="2347331" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22351167" minute="45+1" player="L. Robles" playerid="2387270" result="" team="home" type="yellowcard"></event>
+<event id="22351168" minute="56" player="M. Grella" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22351169" minute="85" player="R. Miller" playerid="2361602" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4333765" date="25.07.2015" id="" static_id="25071523418942340925" status="FT" time="22:00">
+<home goals="1" id="2341894" name="Paris SG"></home>
+<away goals="1" id="2340925" name="Chelsea"></away>
+<events>
+<event id="22351154" minute="25" player="Z. Ibrahimovic" playerid="2332001" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22351155" minute="34" player="C. Azpilicueta" playerid="2349932" result="" team="away" type="yellowcard"></event>
+<event id="22351156" minute="52" player="A. Rabiot" playerid="2574601" result="" team="home" type="yellowcard"></event>
+<event id="22351157" minute="59" player="S. Aurier" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351158" minute="65" player="V. Moses" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4333764" date="25.07.2015" id="" static_id="25071523475352341093" status="FT" time="20:00">
+<home goals="1" id="2347535" name="Barcelona"></home>
+<away goals="3" id="2341093" name="Manchester United"></away>
+<events>
+<event id="22351144" minute="8" player="W. Rooney" playerid="2332026" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351145" minute="49" player="P. Jones" playerid="2429132" result="" team="away" type="yellowcard"></event>
+<event id="22351146" minute="65" player="J. Lingard" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22351147" minute="76" player="A. Herrera" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351148" minute="90" player="Rafinha" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22351149" minute="90+1" player="A. Januzaj" playerid="2626272" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22351150" minute="90+2" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match></league><league country="worldcup" name="Asia: International Champions Cup" cup="True" id="4474" sub_id="44740"><match alternate_id="" alternate_id_2="4333752" date="25.07.2015" id="" static_id="25071523437712343750" status="FT" time="12:00">
+<home goals="1" id="2343771" name="AC Milan"></home>
+<away goals="0" id="2343750" name="Inter"></away>
+<events>
+<event id="22351024" minute="43" player="A. Matri" playerid="2349697" result="" team="home" type="yellowcard"></event>
+<event id="22351025" minute="62" player="P. Mexes" playerid="2335839" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22351026" minute="82" player="G. Paletta" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351027" minute="85" player="A. Nocerino" playerid="2349522" result="" team="home" type="redcard"></event>
+<event id="22351028" minute="89" player="F. Guarin" playerid="2388315" result="" team="away" type="yellowcard"></event>
+<event id="22351029" minute="89" player="R. Montolivo" playerid="2335873" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match></league><league country="worldcup" name="North and Central America: International Champions Cup" cup="True" id="4472" sub_id="44720"><match alternate_id="" alternate_id_2="4333763" date="25.07.2015" id="" static_id="25071523461002343727" status="Pen." time="00:00">
+<home goals="0" id="2346100" name="Benfica"></home>
+<away goals="0" id="2343727" name="Fiorentina"></away>
+<events>
+<event id="22351134" minute="15" player="J. Basanta" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351135" minute="29" player="G. Rodriguez" playerid="2334926" result="" team="away" type="yellowcard"></event>
+<event id="22351136" minute="29" player="Luisao" playerid="2331967" result="" team="home" type="yellowcard"></event>
+<event id="22351137" minute="35" player="M. Alonso" playerid="2456840" result="" team="away" type="yellowcard"></event>
+<event id="22351138" minute="44" player="J. Ilicic" playerid="2406372" result="" team="away" type="yellowcard"></event>
+<event id="22351139" minute="66" player="Luisao" playerid="2331967" result="" team="home" type="yellowred"></event>
+<event id="22351140" minute="74" player="A. Hegazy" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351141" minute="90" player="M. Badelj" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="4" visitorteam="5"></penalty>
+</match></league><league country="worldcup" name="Australia and Oceania: International Champions Cup" cup="True" id="4475" sub_id=""><match alternate_id="" alternate_id_2="4333751" date="24.07.2015" id="" static_id="24071523410922347943" status="FT" time="10:00">
+<home goals="1" id="2341092" name="Manchester City"></home>
+<away goals="4" id="2347943" name="Real Madrid"></away>
+<events>
+<event id="22351014" minute="21" player="K. Benzema" playerid="2333428" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351015" minute="25" player="C. Ronaldo" playerid="2332215" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22351016" minute="44" player="Pepe" playerid="2336412" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22351017" minute="45+4" player="Y. Toure (pen.)" playerid="2336329" result="[1 - 3]" team="home" type="goal"></event>
+<event id="22351018" minute="73" player="D. Cheryshev" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-3]"></ht>
+</match></league><league country="worldcup" name="North and Central America: International Champions Cup" cup="True" id="4472" sub_id="44720"><match alternate_id="" alternate_id_2="4333762" date="23.07.2015" id="" static_id="23071523491862340925" status="FT" time="00:00">
+<home goals="4" id="2349186" name="New York Red Bulls"></home>
+<away goals="2" id="2340925" name="Chelsea"></away>
+<events>
+<event id="22351124" minute="20" player="S. Davis" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22351125" minute="26" player="L. Remy" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351126" minute="51" player="F. Castellanos" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22351127" minute="62" player="R. Miller" playerid="2361602" result="" team="home" type="yellowcard"></event>
+<event id="22351128" minute="70" player="T. Adams" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22351129" minute="73" player="S. Davis" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22351130" minute="75" player="E. Hazard" playerid="2371191" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22351131" minute="77" player="S. Davis" playerid="" result="[4 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4333760" date="22.07.2015" id="" static_id="22071523475352349170" status="FT" time="03:00">
+<home goals="2" id="2347535" name="Barcelona"></home>
+<away goals="1" id="2349170" name="Los Angeles Galaxy"></away>
+<events>
+<event id="22351104" minute="41" player="Leonardo" playerid="2455912" result="" team="away" type="yellowcard"></event>
+<event id="22351105" minute="45" player="L. Suarez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22351106" minute="56" player="S. Roberto" playerid="2435019" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22351107" minute="90+1" player="T. Meyer" playerid="2557036" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4333770" date="22.07.2015" id="" static_id="22071523410932349216" status="FT" time="03:00">
+<home goals="3" id="2341093" name="Manchester United"></home>
+<away goals="1" id="2349216" name="San Jose Earthquakes"></away>
+<events>
+<event id="22351204" minute="32" player="J. Mata" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22351205" minute="37" player="M. Depay" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22351206" minute="42" player="F. Alashe" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22351207" minute="61" player="A. Pereira" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4333761" date="22.07.2015" id="" static_id="22071523418942343727" status="FT" time="00:30">
+<home goals="4" id="2341894" name="Paris SG"></home>
+<away goals="2" id="2343727" name="Fiorentina"></away>
+<events>
+<event id="22351114" minute="35" player="B. Matuidi" playerid="2333021" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22351115" minute="41" player="J. Augustin" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22351116" minute="53" player="M. Vecino" playerid="2453122" result="" team="away" type="yellowcard"></event>
+<event id="22351117" minute="60" player="Joaquin" playerid="2332163" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22351118" minute="69" player="Z. Ibrahimovic" playerid="2332001" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22351119" minute="72" player="G. Rodriguez" playerid="2334926" result="" team="away" type="yellowcard"></event>
+<event id="22351120" minute="75" player="J. Augustin" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22351121" minute="79" player="G. Rossi (pen.)" playerid="2334754" result="[4 - 2]" team="away" type="goal"></event>
+<event id="22351122" minute="79" player="N. Fazzi" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match></league><league country="worldcup" name="Australia and Oceania: International Champions Cup" cup="True" id="4475" sub_id=""><match alternate_id="" alternate_id_2="4333750" date="21.07.2015" id="" static_id="21071523438312341092" status="Pen." time="10:00">
+<home goals="2" id="2343831" name="AS Roma"></home>
+<away goals="2" id="2341092" name="Manchester City"></away>
+<events>
+<event id="22351004" minute="3" player="R. Sterling" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351005" minute="8" player="M. Pjanic" playerid="2352424" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22351006" minute="51" player="K. Iheanacho" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22351007" minute="87" player="A. Ljajic" playerid="2378302" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+<penalty localteam="4" visitorteam="5"></penalty>
+</match></league><league country="worldcup" name="North and Central America: International Champions Cup" cup="True" id="4472" sub_id="44720"><match alternate_id="" alternate_id_2="4333759" date="19.07.2015" id="" static_id="19071523461002341894" status="FT" time="00:30">
+<home goals="2" id="2346100" name="Benfica"></home>
+<away goals="3" id="2341894" name="Paris SG"></away>
+<events>
+<event id="22351094" minute="23" player="P. Kimpembe" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351095" minute="29" player="J. Augustin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22351096" minute="34" player="A. Talisca" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22351097" minute="42" player="Jonas" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22351098" minute="60" player="Y. Sabaly" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22351099" minute="64" player="Lucas (pen.)" playerid="2473803" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22351100" minute="79" player="L. Digne" playerid="2470031" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22351101" minute="89" player="L. Lopez" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match></league><league country="worldcup" name="Australia and Oceania: International Champions Cup" cup="True" id="4475" sub_id=""><match alternate_id="" alternate_id_2="4333749" date="18.07.2015" id="" static_id="18071523479432343831" status="Pen." time="09:00">
+<home goals="0" id="2347943" name="Real Madrid"></home>
+<away goals="0" id="2343831" name="AS Roma"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="6" visitorteam="7"></penalty>
 </match></league><league country="worldcup" name="World: Cis Cup - Play Offs" cup="True" id="4132" sub_id=""><match alternate_id="4096856" alternate_id_2="4303703" date="25.01.2015" id="4214418" static_id="25011523560722341472" status="FT" time="16:00">
 <home goals="2" id="2356072" name="South Africa U21"></home>
 <away goals="1" id="2341472" name="Finland U21"></away>
@@ -2792,6 +3042,160 @@
 <event id="21919848" minute="79" player="B. Anor" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
+</match></league><league country="worldcup" name="World: Pan American Games - Play Offs" cup="False" id="3948" sub_id="39481"><match alternate_id="4180642" alternate_id_2="4403740" date="26.07.2015" id="4298163" static_id="26071523565352356537" status="FT" time="17:05">
+<home goals="1" id="2356535" name="Uruguay U22"></home>
+<away goals="0" id="2356537" name="Mexico U22"></away>
+<events>
+<event id="23050904" minute="11" player="B. Lozano" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23050905" minute="86" player="J. Silva" playerid="" result="" team="away" type="yellowred"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4180641" alternate_id_2="4403739" date="25.07.2015" id="4298162" static_id="25071523565332356528" status="AET" time="17:05">
+<home goals="3" id="2356533" name="Brazil U22"></home>
+<away goals="1" id="2356528" name="Panama U22"></away>
+<events>
+<event id="23050894" minute="45+2" player="J. Nunez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23050895" minute="75" player="Luciano" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23050896" minute="99" player="L. Domingues" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23050897" minute="117" player="Luciano" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4180349" alternate_id_2="4403570" date="24.07.2015" id="4297870" static_id="24071523565372356528" status="FT" time="00:35">
+<home goals="2" id="2356537" name="Mexico U22"></home>
+<away goals="1" id="2356528" name="Panama U22"></away>
+<events>
+<event id="23049204" minute="2" player="A. Zaldivar" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23049205" minute="59" player="J. Nunez" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23049206" minute="61" player="C. Cisneros" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4180348" alternate_id_2="4403569" date="23.07.2015" id="4297869" static_id="23071523565332356535" status="FT" time="21:35">
+<home goals="1" id="2356533" name="Brazil U22"></home>
+<away goals="2" id="2356535" name="Uruguay U22"></away>
+<events>
+<event id="23049194" minute="10" player="P. Lemos" playerid="" result="" team="away" type="redcard"></event>
+<event id="23049195" minute="75" player="C. da Silveira da Silva" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23049196" minute="81" player="R. Guimaraes" playerid="" result="" team="home" type="redcard"></event>
+<event id="23049197" minute="86" player="A. Schettino" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23049198" minute="87" player="M. Santos" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match></league><league country="worldcup" name="World: Pan American Games" cup="False" id="3948" sub_id="39480"><match alternate_id="4156515" alternate_id_2="4330484" date="22.07.2015" id="4274044" static_id="22071523565352356536" status="FT" time="00:35">
+<home goals="1" id="2356535" name="Uruguay U22"></home>
+<away goals="0" id="2356536" name="Paraguay U22"></away>
+<events>
+<event id="22318344" minute="52" player="F. Gorriaran" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22318345" minute="54" player="G. Villamayor" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4156214" alternate_id_2="4330483" date="21.07.2015" id="4273745" static_id="21071523565342356537" status="FT" time="21:35">
+<home goals="2" id="2356534" name="Trinidad and Tobago U22"></home>
+<away goals="4" id="2356537" name="Mexico U22"></away>
+<events>
+<event id="22318334" minute="7" player="R. John" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22318335" minute="39" player="S. Henry" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22318336" minute="60" player="J. Espericueta" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="22318337" minute="68" player="D. Alvarez" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="22318338" minute="89" player="M. Bueno" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="22318339" minute="90+2" player="M. Zuniga" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4156047" alternate_id_2="4330482" date="21.07.2015" id="4273578" static_id="21071523565322356529" status="FT" time="00:35">
+<home goals="0" id="2356532" name="Canada U22"></home>
+<away goals="2" id="2356529" name="Peru U22"></away>
+<events>
+<event id="22318324" minute="12" player="E. Rodas" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22318325" minute="68" player="G. Maldonado" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4156046" alternate_id_2="4330481" date="20.07.2015" id="4273577" static_id="20071523565332356528" status="FT" time="21:35">
+<home goals="3" id="2356533" name="Brazil U22"></home>
+<away goals="3" id="2356528" name="Panama U22"></away>
+<events>
+<event id="22318314" minute="24" player="L. da Rocha" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22318315" minute="25" player="L. da Rocha" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22318316" minute="37" player="C. da Silveira da Silva" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22318317" minute="40" player="J. Aguilar" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="22318318" minute="51" player="J. Aguilar" playerid="" result="[3 - 2]" team="away" type="goal"></event>
+<event id="22318319" minute="55" player="F. Escobar (pen.)" playerid="" result="[3 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[3-1]"></ht>
+</match><match alternate_id="4156514" alternate_id_2="4330480" date="18.07.2015" id="4274043" static_id="18071523565362356534" status="FT" time="00:35">
+<home goals="5" id="2356536" name="Paraguay U22"></home>
+<away goals="1" id="2356534" name="Trinidad and Tobago U22"></away>
+<events>
+<event id="22318304" minute="53" player="N. Garcia" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22318305" minute="63" player="C. S. Ferreira" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22318306" minute="64" player="I. Ramirez" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22318307" minute="71" player="C. S. Ferreira" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22318308" minute="76" player="D. Alegre" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event id="22318309" minute="79" player="A. Aranda" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4156213" alternate_id_2="4330479" date="17.07.2015" id="4273744" static_id="17071523565372356535" status="FT" time="21:35">
+<home goals="1" id="2356537" name="Mexico U22"></home>
+<away goals="0" id="2356535" name="Uruguay U22"></away>
+<events>
+<event id="22318294" minute="90+1" player="J. Silva" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4156044" alternate_id_2="4330477" date="17.07.2015" id="4273575" static_id="17071523565282356532" status="FT" time="00:35">
+<home goals="0" id="2356528" name="Panama U22"></home>
+<away goals="0" id="2356532" name="Canada U22"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4156043" alternate_id_2="4330478" date="16.07.2015" id="4273574" static_id="16071523565292356533" status="FT" time="21:35">
+<home goals="0" id="2356529" name="Peru U22"></home>
+<away goals="4" id="2356533" name="Brazil U22"></away>
+<events>
+<event id="22318284" minute="3" player="T. L. Garcia" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22318285" minute="20" player="C. da Silveira da Silva" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22318286" minute="26" player="Romulo" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22318287" minute="30" player="R. Guimaraes" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-4]"></ht>
+</match><match alternate_id="4156042" alternate_id_2="4330475" date="14.07.2015" id="4273573" static_id="" status="FT" time="00:35">
+<home goals="1" id="" name="Paraguay U22"></home>
+<away goals="1" id="" name="Mexico U22"></away>
+<events>
+<event id="22318254" minute="15" player="M. Zuniga" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22318255" minute="71" player="A. Lucena" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22318256" minute="81" player="M. Mareco" playerid="" result="" team="home" type="redcard"></event>
+<event id="22318257" minute="81" player="D. Alvarez" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4156211" alternate_id_2="4330476" date="13.07.2015" id="4273742" static_id="13071523565342356535" status="FT" time="21:35">
+<home goals="0" id="2356534" name="Trinidad and Tobago U22"></home>
+<away goals="4" id="2356535" name="Uruguay U22"></away>
+<events>
+<event id="22318264" minute="6" player="F. Formiliano" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22318265" minute="20" player="F. Rostagnol" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22318266" minute="30" player="N. Albarracin" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22318267" minute="59" player="A. Jones" playerid="" result="" team="home" type="redcard"></event>
+<event id="22318268" minute="68" player="B. Lozano" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-3]"></ht>
+</match><match alternate_id="4156041" alternate_id_2="4330473" date="13.07.2015" id="4273572" static_id="" status="FT" time="00:35">
+<home goals="1" id="" name="Canada U22"></home>
+<away goals="4" id="" name="Brazil U22"></away>
+<events>
+<event id="22318234" minute="7" player="Luciano" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22318235" minute="38" player="Romulo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22318236" minute="47" player="C. Da Silveira" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22318237" minute="58" player="M. Babouli" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="22318238" minute="89" player="Erik" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4156039" alternate_id_2="4330474" date="12.07.2015" id="4273570" static_id="12071523565282356529" status="FT" time="21:35">
+<home goals="2" id="2356528" name="Panama U22"></home>
+<away goals="1" id="2356529" name="Peru U22"></away>
+<events>
+<event id="22318244" minute="47" player="J. Aguilar" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22318245" minute="54" player="L. G. Maldonado" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22318246" minute="90" player="F. Escobar (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="worldcup" name="World: Valentin Granatkin Memorial - Placement Play Offs" cup="False" id="4411" sub_id="44110"><match alternate_id="" alternate_id_2="4301192" date="11.01.2015" id="" static_id="11011523529722356058" status="FT" time="16:00">
 <home goals="2" id="2352972" name="Russia U18"></home>
 <away goals="1" id="2356058" name="South Korea U18"></away>
@@ -3187,89 +3591,44 @@
 <event id="21978625" minute="73" player="R. Ignatov" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="worldcup" name="World: Copa Euroamericana" cup="True" id="4224" sub_id="42240"><match alternate_id="4129007" alternate_id_2="4335426" date="29.05.2015" id="4246548" static_id="29051523406852347842" status="FT" time="00:30">
+</match></league><league country="worldcup" name="World: Copa Euroamericana" cup="True" id="4224" sub_id="42240"><match alternate_id="4181019" alternate_id_2="4403749" date="01.08.2015" id="4298538" static_id="01081523492732347883" status="FT" time="18:00">
+<home goals="1" id="2349273" name="Penarol"></home>
+<away goals="3" id="2347883" name="Malaga"></away>
+<events>
+<event id="23050994" minute="23" player="D. Ifran" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23050995" minute="69" player="Recio" playerid="" result="" team="away" type="redcard"></event>
+<event id="23050996" minute="71" player="D. Cop" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23050997" minute="73" player="C. Palacios" playerid="" result="" team="home" type="redcard"></event>
+<event id="23050998" minute="79" player="Duda" playerid="2337049" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23050999" minute="85" player="R. Rosales" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="23051000" minute="90+3" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4181018" alternate_id_2="4403748" date="30.07.2015" id="4298537" static_id="30071523378782347883" status="Pen." time="23:30">
+<home goals="0" id="2337878" name="San Lorenzo"></home>
+<away goals="0" id="2347883" name="Malaga"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="4" visitorteam="3"></penalty>
+</match><match alternate_id="4181017" alternate_id_2="4403747" date="26.07.2015" id="4298536" static_id="26071523399702347883" status="FT" time="22:00">
+<home goals="3" id="2339970" name="Dep. Cali"></home>
+<away goals="2" id="2347883" name="Malaga"></away>
+<events>
+<event id="23050974" minute="17" player="Charles" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23050975" minute="47" player="Z. Casierra" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23050976" minute="57" player="N. Benedetti" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23050977" minute="59" player="D. Cop" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="23050978" minute="84" player="M. Murillo" playerid="2592586" result="[3 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4129007" alternate_id_2="4335426" date="29.05.2015" id="4246548" static_id="29051523406852347842" status="FT" time="00:30">
 <home goals="1" id="2340685" name="Barcelona SC"></home>
 <away goals="0" id="2347842" name="Espanyol"></away>
 <events>
 <event id="22367764" minute="62" player="A. Raillo (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="worldcup" name="World: Copa Euroamericana" cup="True" id="4224" sub_id="42240"><match alternate_id="3959776" alternate_id_2="4115648" date="02.08.2014" id="4077455" static_id="02081423457802343727" status="FT" time="22:00">
-<home goals="0" id="2345780" name="U. de Deportes"></home>
-<away goals="1" id="2343727" name="Fiorentina"></away>
-<events>
-<event id="20169984" minute="33" player="J. Brillante" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3959775" alternate_id_2="4115647" date="31.07.2014" id="4077454" static_id="31071423393062343727" status="FT" time="00:50">
-<home goals="2" id="2339306" name="Palmeiras"></home>
-<away goals="1" id="2343727" name="Fiorentina"></away>
-<events>
-<event id="20169974" minute="14" player="V. Luis" playerid="2588945" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20169975" minute="36" player="Leandro" playerid="2341118" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20169976" minute="73" player="G. Rossi" playerid="2334754" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="3959774" alternate_id_2="4115646" date="30.07.2014" id="4077453" static_id="30071423447492347525" status="Pen." time="22:00">
-<home goals="0" id="2344749" name="Club America"></home>
-<away goals="0" id="2347525" name="Atl. Madrid"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="3" visitorteam="2"></penalty>
-</match><match alternate_id="3959773" alternate_id_2="4115645" date="30.07.2014" id="4077452" static_id="30071423398572348094" status="FT" time="00:00">
-<home goals="1" id="2339857" name="U. Catolica"></home>
-<away goals="0" id="2348094" name="Valencia"></away>
-<events>
-<event id="20169954" minute="39" player="A. Barragan" playerid="" result="" team="away" type="redcard"></event>
-<event id="20169955" minute="89" player="J. Munoz" playerid="2406608" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4035501" alternate_id_2="4115644" date="28.07.2014" id="4153116" static_id="28071423492162347525" status="Pen." time="00:00">
-<home goals="0" id="2349216" name="San Jose Earthquakes"></home>
-<away goals="0" id="2347525" name="Atl. Madrid"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="3" visitorteam="4"></penalty>
-</match><match alternate_id="3959771" alternate_id_2="4115643" date="26.07.2014" id="4077450" static_id="26071423457372348094" status="Pen." time="22:30">
-<home goals="2" id="2345737" name="Alianza Lima"></home>
-<away goals="2" id="2348094" name="Valencia"></away>
-<events>
-<event id="20169934" minute="13" player="M. Guevgeozian" playerid="2371629" result="[1 - 0]" team="home" type="goal"></event>
-<event id="20169935" minute="27" player="M. Montes" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20169936" minute="55" player="A. Paco" playerid="2496444" result="[2 - 1]" team="away" type="goal"></event>
-<event id="20169937" minute="60" player="N. Otamendi" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="20169938" minute="79" player="P. Miguez" playerid="" result="" team="home" type="yellowred"></event>
-</events>
-<ht score="[2-0]"></ht>
-<penalty localteam="9" visitorteam="8"></penalty>
-</match><match alternate_id="3959770" alternate_id_2="4115642" date="26.07.2014" id="4077449" static_id="26071423378092343727" status="FT" time="18:00">
-<home goals="0" id="2337809" name="Estudiantes L.P."></home>
-<away goals="1" id="2343727" name="Fiorentina"></away>
-<events>
-<event id="20169924" minute="28" player="M. Gomez" playerid="2333775" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="3959769" alternate_id_2="4115641" date="24.07.2014" id="4077448" static_id="24071423399832341853" status="FT" time="00:00">
-<home goals="2" id="2339983" name="Atl. Nacional"></home>
-<away goals="4" id="2341853" name="Monaco"></away>
-<events>
-<event id="20169914" minute="7" player="A. Martial" playerid="2547480" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20169915" minute="15" player="D. Berbatov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="20169916" minute="39" player="Fabinho" playerid="2577181" result="[0 - 3]" team="away" type="goal"></event>
-<event id="20169917" minute="63" player="S. Trellez" playerid="" result="[1 - 3]" team="home" type="goal"></event>
-<event id="20169918" minute="87" player="S. Perez" playerid="2507636" result="[2 - 3]" team="home" type="goal"></event>
-<event id="20169919" minute="90+2" player="Y. Ferreira" playerid="2491067" result="[2 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="3972370" alternate_id_2="4115640" date="20.07.2014" id="4090017" static_id="20071423399782341853" status="FT" time="22:00">
-<home goals="0" id="2339978" name="Junior"></home>
-<away goals="1" id="2341853" name="Monaco"></away>
-<events>
-<event id="20169904" minute="45" player="D. Berbatov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="worldcup" name="World: Copa Amsterdam - Play Offs" cup="True" id="4444" sub_id=""><match alternate_id="4129245" alternate_id_2="4337643" date="25.05.2015" id="4246785" static_id="25051523521922353383" status="Pen." time="14:15">
 <home goals="1" id="2352192" name="Ajax U19"></home>
 <away goals="1" id="2353383" name="Anderlecht U19"></away>
@@ -3682,246 +4041,4 @@
 <event id="21897038" minute="84" player="G. Bonaventura" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="worldcup" name="World: Nordic Tournament U17 - Placement Group" cup="False" id="4379" sub_id=""><match alternate_id="" alternate_id_2="4230205" date="02.08.2014" id="" static_id="02081423502512350022" status="FT" time="12:00">
-<home goals="0" id="2350251" name="Norway U17"></home>
-<away goals="2" id="2350022" name="Sweden U17"></away>
-<events>
-<event id="21315554" minute="9" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21315555" minute="62" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4230202" date="02.08.2014" id="" static_id="02081423502452340815" status="FT" time="10:00">
-<home goals="1" id="2350245" name="Denmark U17"></home>
-<away goals="0" id="2340815" name="England U17"></away>
-<events>
-<event id="21315524" minute="70" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4230203" date="02.08.2014" id="" static_id="02081423514102350250" status="FT" time="10:00">
-<home goals="0" id="2351410" name="Faroe Islands U17"></home>
-<away goals="2" id="2350250" name="Iceland U17"></away>
-<events>
-<event id="21315534" minute="6" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21315535" minute="70" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4230204" date="02.08.2014" id="" static_id="02081423510932350005" status="FT" time="10:00">
-<home goals="3" id="2351093" name="USA U17"></home>
-<away goals="4" id="2350005" name="Finland U17"></away>
-<events>
-<event id="21315544" minute="15" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21315545" minute="20" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21315546" minute="33" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21315547" minute="46" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="21315548" minute="58" player="" playerid="" result="[1 - 4]" team="home" type="goal"></event>
-<event id="21315549" minute="60" player="" playerid="" result="[2 - 4]" team="home" type="goal"></event>
-<event id="21315550" minute="71" player="" playerid="" result="[3 - 4]" team="home" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match></league><league country="worldcup" name="World: Nordic Tournament U17" cup="False" id="4378" sub_id=""><match alternate_id="" alternate_id_2="4229866" date="31.07.2014" id="" static_id="31071423514102351093" status="FT" time="16:00">
-<home goals="0" id="2351410" name="Faroe Islands U17"></home>
-<away goals="4" id="2351093" name="USA U17"></away>
-<events>
-<event id="21312164" minute="4" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21312165" minute="12" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21312166" minute="21" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21312167" minute="80" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="" alternate_id_2="4229867" date="31.07.2014" id="" static_id="31071423502502350005" status="FT" time="16:00">
-<home goals="0" id="2350250" name="Iceland U17"></home>
-<away goals="0" id="2350005" name="Finland U17"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4229865" date="31.07.2014" id="" static_id="31071423408152350022" status="FT" time="13:00">
-<home goals="0" id="2340815" name="England U17"></home>
-<away goals="3" id="2350022" name="Sweden U17"></away>
-<events>
-<event id="21312154" minute="1" player="Kamana" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21312155" minute="12" player="Kamana" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21312156" minute="55" player="Elfstrom" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4229864" date="31.07.2014" id="" static_id="31071423502512350245" status="FT" time="13:00">
-<home goals="0" id="2350251" name="Norway U17"></home>
-<away goals="0" id="2350245" name="Denmark U17"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4229856" date="29.07.2014" id="" static_id="29071423502452351410" status="FT" time="16:00">
-<home goals="2" id="2350245" name="Denmark U17"></home>
-<away goals="0" id="2351410" name="Faroe Islands U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229857" date="29.07.2014" id="" static_id="29071423500222350250" status="FT" time="16:00">
-<home goals="1" id="2350022" name="Sweden U17"></home>
-<away goals="0" id="2350250" name="Iceland U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229858" date="29.07.2014" id="" static_id="29071423408152350005" status="FT" time="13:00">
-<home goals="1" id="2340815" name="England U17"></home>
-<away goals="1" id="2350005" name="Finland U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229859" date="29.07.2014" id="" static_id="29071423510932350251" status="FT" time="13:00">
-<home goals="1" id="2351093" name="USA U17"></home>
-<away goals="4" id="2350251" name="Norway U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229860" date="28.07.2014" id="" static_id="28071423502452351093" status="FT" time="16:00">
-<home goals="2" id="2350245" name="Denmark U17"></home>
-<away goals="0" id="2351093" name="USA U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229861" date="28.07.2014" id="" static_id="28071423408152350250" status="FT" time="16:00">
-<home goals="5" id="2340815" name="England U17"></home>
-<away goals="1" id="2350250" name="Iceland U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229862" date="28.07.2014" id="" static_id="28071423514102350251" status="FT" time="13:00">
-<home goals="1" id="2351410" name="Faroe Islands U17"></home>
-<away goals="3" id="2350251" name="Norway U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4229863" date="28.07.2014" id="" static_id="28071423500052350022" status="FT" time="13:00">
-<home goals="0" id="2350005" name="Finland U17"></home>
-<away goals="1" id="2350022" name="Sweden U17"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match></league><league country="worldcup" name="World: Club Friendly" cup="False" id="3367" sub_id="33670"><match alternate_id="4145850" alternate_id_2="4344621" date="12.07.2015" id="4263385" static_id="12071523386092341708" status="16:00" time="16:00">
-<home goals="?" id="2338609" name="Gent (Bel)"></home>
-<away goals="?" id="2341708" name="Bordeaux (Fra)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4145851" alternate_id_2="4344622" date="12.07.2015" id="4263386" static_id="12071523483572341130" status="16:00" time="16:00">
-<home goals="?" id="2348357" name="Mjallby (Swe)"></home>
-<away goals="?" id="2341130" name="Nottingham (Eng)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4145848" alternate_id_2="4344618" date="12.07.2015" id="4263383" static_id="12071523420952340315" status="15:00" time="15:00">
-<home goals="?" id="2342095" name="Arminia Bielefeld (Ger)"></home>
-<away goals="?" id="2340315" name="Brno (Cze)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4145849" alternate_id_2="4344619" date="12.07.2015" id="4263384" static_id="12071523458082342486" status="Cancl." time="15:00">
-<home goals="?" id="2345808" name="Cracovia (Pol)"></home>
-<away goals="?" id="2342486" name="Wolfsburg (Ger)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4131511" alternate_id_2="4344620" date="12.07.2015" id="4249050" static_id="12071523383722341894" status="15:00" time="15:00">
-<home goals="?" id="2338372" name="Wiener (Aut)"></home>
-<away goals="?" id="2341894" name="Paris SG (Fra)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4145846" alternate_id_2="4344616" date="12.07.2015" id="4263381" static_id="12071523461002346127" status="14:00" time="14:00">
-<home goals="?" id="2346100" name="Benfica (Lux)"></home>
-<away goals="?" id="2346127" name="Tondela (Por)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4145842" alternate_id_2="4344612" date="12.07.2015" id="4263377" static_id="12071523450992342210" status="14:00" time="14:00">
-<home goals="?" id="2345099" name="Feyenoord (Ned)"></home>
-<away goals="?" id="2342210" name="Dusseldorf (Ger)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4151657" alternate_id_2="4345170" date="12.07.2015" id="4269192" static_id="12071523466252340432" status="13:30" time="13:30">
-<home goals="?" id="2346625" name="Ufa (Rus)"></home>
-<away goals="?" id="2340432" name="Slavia Prague (Cze)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4145845" alternate_id_2="4344615" date="12.07.2015" id="4263380" static_id="12071523382052342286" status="13:00" time="13:00">
-<home goals="?" id="2338205" name="Grodig (Aut)"></home>
-<away goals="?" id="2342286" name="Ingolstadt (Ger)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4156038" alternate_id_2="4346613" date="12.07.2015" id="4273569" static_id="12071523423852346729" status="13:00" time="13:00">
-<home goals="?" id="2342385" name="RB Leipzig (Ger)"></home>
-<away goals="?" id="2346729" name="Rubin Kazan (Rus)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4153285" alternate_id_2="4346006" date="12.07.2015" id="4270816" static_id="12071523469522347950" status="13" time="12:30">
-<home goals="0" id="2346952" name="St Johnstone (Sco)"></home>
-<away goals="0" id="2347950" name="Real Sociedad (Esp)"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4156031" alternate_id_2="4346612" date="12.07.2015" id="4273562" static_id="12071523482412340612" status="43" time="12:00">
-<home goals="0" id="2348241" name="Angelholms (Swe)"></home>
-<away goals="0" id="2340612" name="Odense (Den)"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4145847" alternate_id_2="4344617" date="12.07.2015" id="4263382" static_id="12071523469452346866" status="43" time="12:00">
-<home goals="0" id="2346945" name="Raith (Sco)"></home>
-<away goals="0" id="2346866" name="Aberdeen (Sco)"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4156030" alternate_id_2="4346610" date="12.07.2015" id="4273561" static_id="12071523385732348880" status="49" time="11:30">
-<home goals="0" id="2338573" name="Anderlecht (Bel)"></home>
-<away goals="0" id="2348880" name="Basaksehir (Tur)"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4153284" alternate_id_2="4346609" date="12.07.2015" id="4270815" static_id="12071523458992342486" status="55" time="11:30">
-<home goals="0" id="2345899" name="Lechia Gdansk (Pol)"></home>
-<away goals="1" id="2342486" name="Wolfsburg (Ger)"></away>
-<events>
-<event id="22479594" minute="33" player="A. Hunt" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4145844" alternate_id_2="4344614" date="12.07.2015" id="4263379" static_id="12071523405752340624" status="89" time="11:00">
-<home goals="2" id="2340575" name="Hobro (Den)"></home>
-<away goals="0" id="2340624" name="Silkeborg (Den)"></away>
-<events>
-<event id="22459644" minute="50" player="M. Jessen" playerid="2398938" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22459645" minute="82" player="M. Justesen" playerid="2487629" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4152742" alternate_id_2="4346608" date="12.07.2015" id="4270275" static_id="12071523564222342275" status="FT" time="09:00">
-<home goals="0" id="2356422" name="Zuzenhausen (Ger)"></home>
-<away goals="14" id="2342275" name="Hoffenheim (Ger)"></away>
-<events>
-<event id="22479584" minute="11" player="S. Schipplock" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22479585" minute="25" player="P. Ochs" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22479586" minute="26" player="Kim Jin-Su" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22479587" minute="38" player="S. Schipplock" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22479588" minute="42+0" player="J. Schmid" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="22479589" minute="45" player="J. Toljan" playerid="" result="[0 - 6]" team="away" type="goal"></event>
-<event id="22479590" minute="52" player="T. Elyounoussi" playerid="2339592" result="[0 - 7]" team="away" type="goal"></event>
-<event id="22479591" minute="55" player="A. Szalai" playerid="" result="[0 - 8]" team="away" type="goal"></event>
-<event id="22479592" minute="61" player="A. Szalai" playerid="" result="[0 - 9]" team="away" type="goal"></event>
-<event id="203809343" minute="71" player="T. Elyounoussi" playerid="2339592" result="[0 - 10]" team="away" type="goal"></event>
-<event id="203809344" minute="73" player="T. Strobl" playerid="2411263" result="[0 - 11]" team="away" type="goal"></event>
-<event id="203809345" minute="74" player="A. Szalai" playerid="" result="[0 - 12]" team="away" type="goal"></event>
-<event id="203809346" minute="78" player="T. Elyounoussi" playerid="2339592" result="[0 - 13]" team="away" type="goal"></event>
-<event id="203809347" minute="90" player="Joelinton" playerid="" result="[0 - 14]" team="away" type="goal"></event>
-</events>
-<ht score="[0-6]"></ht>
-</match><match alternate_id="4131283" alternate_id_2="4338811" date="12.07.2015" id="4248823" static_id="12071523381522348632" status="FT" time="08:30">
-<home goals="0" id="2338152" name="Austria Vienna (Aut)"></home>
-<away goals="1" id="2348632" name="Zurich (Sui)"></away>
-<events>
-<event id="22401614" minute="32" player="A. Rikan" playerid="2423895" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4156029" alternate_id_2="4346607" date="12.07.2015" id="4273560" static_id="12071523404712340302" status="FT" time="08:30">
-<home goals="1" id="2340471" name="Trinec (Cze)"></home>
-<away goals="4" id="2340302" name="Ostrava (Cze)"></away>
-<events>
-<event id="22479574" minute="14" player="N. Alispahic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22479575" minute="29" player="O. Pyclik" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22479576" minute="75" player="J. Stasko" playerid="2617568" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22479577" minute="79" player="O. Pyclik (pen.)" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22479578" minute="84" player="P. Zimka" playerid="" result="[1 - 4]" team="home" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match></league></recent_results>

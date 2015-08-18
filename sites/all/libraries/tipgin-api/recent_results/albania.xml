@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="12.07.2015 12:40:19" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4110618" alternate_id_2="4329411" date="22.05.2015" id="4228169" static_id="22051523375652337561" status="FT" time="16:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="18.08.2015 00:40:30" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4110618" alternate_id_2="4329411" date="22.05.2015" id="4228169" static_id="22051523375652337561" status="FT" time="16:00">
 <home goals="0" id="2337565" name="Vllaznia"></home>
 <away goals="2" id="2337561" name="Skenderbeu"></away>
 <events>
@@ -174,11 +174,15 @@
 <event id="19021245" minute="90" player="Grabova" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="albania" name="Albania: Super Cup" cup="True" id="4003" sub_id=""><match alternate_id="" alternate_id_2="4121553" date="17.08.2014" id="" static_id="17081423375612337521" status="FT" time="17:00">
-<home goals="1" id="2337561" name="Skenderbeu"></home>
-<away goals="0" id="2337521" name="Flamurtari"></away>
+</match></league><league country="albania" name="Albania: Super Cup" cup="True" id="4003" sub_id=""><match alternate_id="" alternate_id_2="4451110" date="12.08.2015" id="" static_id="12081523375612337554" status="Pen." time="18:00">
+<home goals="2" id="2337561" name="Skenderbeu"></home>
+<away goals="2" id="2337554" name="Laci"></away>
 <events>
-<event id="2331834" minute="53" player="Bakary Nimaga" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331834" minute="11" player="Xhejms (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="51" player="Xhejms" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="2331836" minute="66" player="Hamdi Salihi" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="2331837" minute="74" player="Hamdi Salihi" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[0-1]"></ht>
+<penalty localteam="7" visitorteam="8"></penalty>
 </match></league></recent_results>

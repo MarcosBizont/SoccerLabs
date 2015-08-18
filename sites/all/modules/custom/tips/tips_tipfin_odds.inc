@@ -106,7 +106,7 @@ function tips_tipfin_odds_tips_checktips()
 	$query->entityCondition('entity_type', 'node')
 		  ->entityCondition('bundle', 'tip')
 		  ->addMetaData('account', user_load(1))
-		  ->fieldCondition('field_tip_type', 'target_id', array(674,593,577,576,578,753,754,755,573,787,832), 'IN')
+		  ->fieldCondition('field_tip_type', 'target_id', array(886,593,577,576,578,753,754,755,573,787,832), 'IN')
 		  ->fieldCondition('field_win', 'value', 0, '=')
 		  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>');
 		  
@@ -183,7 +183,7 @@ function tips_tipfin_odds_check_odds_for_tip($tip)
 							if($type['@attributes']['name']=='Over/Under' && ($tiptype->tid == 754 || $tiptype->tid == 755) )
 								tips_tipfin_odds_check_to_create_overunder_bet($tip, $type, '3.5', ($tiptype->tid == 755) ? 'Over' : 'Under', $oddssuggested, $odds['@attributes']['updated']);
 							
-							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 674)
+							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 886)
 								tips_tipfin_odds_check_to_create_simple_bet($tip, $type, 
 									($tip->field_team['und'][0]['target_id']==$matchnode->field_local_team['und'][0]['target_id']) ? '1X' : 'X2',$oddssuggested, $odds['@attributes']['updated']);
 							
