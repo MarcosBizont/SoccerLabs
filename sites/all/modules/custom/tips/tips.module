@@ -67,6 +67,8 @@ function tips_cronapi() {
   $items['tips_generate_tips_inplay'] = array();
   $items['tips_close_tips'] = array();
   $items['tips_mark_tips'] = array();
+  $items['tips_mark_tips_short'] = array();
+  
   $items['tips_process_mark_tips'] = array();
   $items['tips_match_attributes'] = array();
   
@@ -384,6 +386,11 @@ function tips_process_mark_tips()
 			}
 		}
 		
+		if( count($obj)>0 )
+		{
+			$tip->field_have_general_booker_offers[LANGUAGE_NONE][0]['value'] = 1;
+			node_save($tip);	
+		}
 		
 		$queue->deleteItem($item);
 		if($i>=25) return;
@@ -398,9 +405,9 @@ function tips_mark_tips()
 {
 	 module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
 	 
-	$from = new DateTime();
+	$from = new DateTime('now',new DateTimeZone('UTC'));
 	
-	$to = new DateTime();
+	$to = new DateTime('now',new DateTimeZone('UTC'));
 	$to = $to->modify('+2 days');
 	
 	$query = new EntityFieldQuery();
@@ -409,6 +416,35 @@ function tips_mark_tips()
 		  ->addMetaData('account', user_load(1))
 		  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=')
 		  ->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<');
+	
+	$result = $query->execute();
+	
+	if (isset($result['node'])) 
+	{
+		$tipsids = array_keys($result['node']);
+		$queue = DrupalQueue::get('processTipsMark');
+		foreach($tipsids as $idtip)
+			$queue->createItem($idtip);
+	}	
+}
+
+function tips_mark_tips_short()
+{
+	 module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	 
+	$from = new DateTime('now',new DateTimeZone('UTC'));
+	
+	$to = new DateTime('now',new DateTimeZone('UTC'));
+	$to = $to->modify('+12 hours');
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'tip')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=')
+		  ->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<')
+		  ->fieldCondition('field_competition', 'target_id', variable_get('inplay_competitions_default_allowed', ''));
+		  
 	
 	$result = $query->execute();
 	

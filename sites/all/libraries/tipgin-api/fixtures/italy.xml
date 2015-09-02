@@ -1,651 +1,1041 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="17.08.2015 06:50:09" sport="soccer" country="italy"><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4181809" alternate_id_2="4410800" date="22.08.2015" id="4299327" static_id="22081523437472343831" status="16:00" time="16:00">
-<home id="2343747" name="Verona"></home>
-<away id="2343831" name="AS Roma"></away>
-
-
-</match><match alternate_id="4181812" alternate_id_2="4410796" date="22.08.2015" id="4299330" static_id="22081523437582343655" status="18:45" time="18:45">
-<home id="2343758" name="Lazio"></home>
-<away id="2343655" name="Bologna"></away>
-
-
-</match><match alternate_id="4181811" alternate_id_2="4410795" date="23.08.2015" id="4299329" static_id="23081523437552343884" status="16:00" time="16:00">
-<home id="2343755" name="Juventus"></home>
-<away id="2343884" name="Udinese"></away>
-
-
-</match><match alternate_id="4181806" alternate_id_2="4410791" date="23.08.2015" id="4299324" static_id="23081523437002343683" status="18:45" time="18:45">
-<home id="2343700" name="Empoli"></home>
-<away id="2343683" name="Chievo"></away>
-
-
-</match><match alternate_id="4181807" alternate_id_2="4410792" date="23.08.2015" id="4299325" static_id="23081523437272343771" status="18:45" time="18:45">
-<home id="2343727" name="Fiorentina"></home>
-<away id="2343771" name="AC Milan"></away>
-
-
-</match><match alternate_id="4181808" alternate_id_2="4410793" date="23.08.2015" id="4299326" static_id="23081523437312343879" status="18:45" time="18:45">
-<home id="2343731" name="Frosinone"></home>
-<away id="2343879" name="Torino"></away>
-
-
-</match><match alternate_id="4181810" alternate_id_2="4410794" date="23.08.2015" id="4299328" static_id="23081523437502343644" status="18:45" time="18:45">
-<home id="2343750" name="Inter"></home>
-<away id="2343644" name="Atalanta"></away>
-
-
-</match><match alternate_id="4181813" alternate_id_2="4410797" date="23.08.2015" id="4299331" static_id="23081523437912343736" status="18:45" time="18:45">
-<home id="2343791" name="Palermo"></home>
-<away id="2343736" name="Genoa"></away>
-
-
-</match><match alternate_id="4181814" alternate_id_2="4410798" date="23.08.2015" id="4299332" static_id="23081523438382343670" status="18:45" time="18:45">
-<home id="2343838" name="Sampdoria"></home>
-<away id="2343670" name="Carpi"></away>
-
-
-</match><match alternate_id="4181815" alternate_id_2="4410799" date="23.08.2015" id="4299333" static_id="23081523438462343780" status="18:45" time="18:45">
-<home id="2343846" name="Sassuolo"></home>
-<away id="2343780" name="Napoli"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4410801" date="30.08.2015" id="" static_id="30081523437712343700" status="18:45" time="18:45">
-<home id="2343771" name="AC Milan"></home>
-<away id="2343700" name="Empoli"></away>
-
-
-</match><match alternate_id="4181823" alternate_id_2="4410802" date="30.08.2015" id="4299341" static_id="30081523438312343755" status="18:45" time="18:45">
-<home id="2343831" name="AS Roma"></home>
-<away id="2343755" name="Juventus"></away>
-
-
-</match><match alternate_id="4181816" alternate_id_2="4410803" date="30.08.2015" id="4299334" static_id="30081523436442343731" status="18:45" time="18:45">
-<home id="2343644" name="Atalanta"></home>
-<away id="2343731" name="Frosinone"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4410804" date="30.08.2015" id="" static_id="30081523436552343846" status="18:45" time="18:45">
-<home id="2343655" name="Bologna"></home>
-<away id="2343846" name="Sassuolo"></away>
-
-
-</match><match alternate_id="4181818" alternate_id_2="4410805" date="30.08.2015" id="4299336" static_id="30081523436702343750" status="18:45" time="18:45">
-<home id="2343670" name="Carpi"></home>
-<away id="2343750" name="Inter"></away>
-
-
-</match><match alternate_id="4181819" alternate_id_2="4410806" date="30.08.2015" id="4299337" static_id="30081523436832343758" status="18:45" time="18:45">
-<home id="2343683" name="Chievo"></home>
-<away id="2343758" name="Lazio"></away>
-
-
-</match><match alternate_id="4181820" alternate_id_2="4410807" date="30.08.2015" id="4299338" static_id="30081523437362343747" status="18:45" time="18:45">
-<home id="2343736" name="Genoa"></home>
-<away id="2343747" name="Verona"></away>
-
-
-</match><match alternate_id="4181822" alternate_id_2="4410808" date="30.08.2015" id="4299340" static_id="30081523437802343838" status="18:45" time="18:45">
-<home id="2343780" name="Napoli"></home>
-<away id="2343838" name="Sampdoria"></away>
-
-
-</match><match alternate_id="4181824" alternate_id_2="4410809" date="30.08.2015" id="4299342" static_id="30081523438792343727" status="18:45" time="18:45">
-<home id="2343879" name="Torino"></home>
-<away id="2343727" name="Fiorentina"></away>
-
-
-</match><match alternate_id="4181825" alternate_id_2="4410810" date="30.08.2015" id="4299343" static_id="30081523438842343791" status="18:45" time="18:45">
-<home id="2343884" name="Udinese"></home>
-<away id="2343791" name="Palermo"></away>
-
-
-</match><match alternate_id="4181826" alternate_id_2="4410883" date="13.09.2015" id="4299344" static_id="13091523437002343780" status="18:45" time="18:45">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="01.09.2015 06:50:08" sport="soccer" country="italy"><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4181826" alternate_id_2="4410883" date="13.09.2015" id="4299344" static_id="13091523437002343780" status="13:00" time="13:00">
 <home id="2343700" name="Empoli"></home>
 <away id="2343780" name="Napoli"></away>
 
 
-</match><match alternate_id="4181827" alternate_id_2="4410884" date="13.09.2015" id="4299345" static_id="13091523437272343736" status="18:45" time="18:45">
+</match><match alternate_id="4181827" alternate_id_2="4410884" date="13.09.2015" id="4299345" static_id="13091523437272343736" status="13:00" time="13:00">
 <home id="2343727" name="Fiorentina"></home>
 <away id="2343736" name="Genoa"></away>
 
 
-</match><match alternate_id="4181828" alternate_id_2="4410885" date="13.09.2015" id="4299346" static_id="13091523437312343831" status="18:45" time="18:45">
+</match><match alternate_id="4181828" alternate_id_2="4410885" date="13.09.2015" id="4299346" static_id="13091523437312343831" status="13:00" time="13:00">
 <home id="2343731" name="Frosinone"></home>
 <away id="2343831" name="AS Roma"></away>
 
 
-</match><match alternate_id="4181830" alternate_id_2="4410886" date="13.09.2015" id="4299348" static_id="13091523437502343771" status="18:45" time="18:45">
+</match><match alternate_id="4181830" alternate_id_2="4410886" date="13.09.2015" id="4299348" static_id="13091523437502343771" status="13:00" time="13:00">
 <home id="2343750" name="Inter"></home>
 <away id="2343771" name="AC Milan"></away>
 
 
-</match><match alternate_id="4181831" alternate_id_2="4410887" date="13.09.2015" id="4299349" static_id="13091523437552343683" status="18:45" time="18:45">
+</match><match alternate_id="4181831" alternate_id_2="4410887" date="13.09.2015" id="4299349" static_id="13091523437552343683" status="13:00" time="13:00">
 <home id="2343755" name="Juventus"></home>
 <away id="2343683" name="Chievo"></away>
 
 
-</match><match alternate_id="4181832" alternate_id_2="4410888" date="13.09.2015" id="4299350" static_id="13091523437582343884" status="18:45" time="18:45">
+</match><match alternate_id="4181832" alternate_id_2="4410888" date="13.09.2015" id="4299350" static_id="13091523437582343884" status="13:00" time="13:00">
 <home id="2343758" name="Lazio"></home>
 <away id="2343884" name="Udinese"></away>
 
 
-</match><match alternate_id="4181833" alternate_id_2="4410889" date="13.09.2015" id="4299351" static_id="13091523437912343670" status="18:45" time="18:45">
+</match><match alternate_id="4181833" alternate_id_2="4410889" date="13.09.2015" id="4299351" static_id="13091523437912343670" status="13:00" time="13:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343670" name="Carpi"></away>
 
 
-</match><match alternate_id="4181834" alternate_id_2="4410890" date="13.09.2015" id="4299352" static_id="13091523438382343655" status="18:45" time="18:45">
+</match><match alternate_id="4181834" alternate_id_2="4410890" date="13.09.2015" id="4299352" static_id="13091523438382343655" status="13:00" time="13:00">
 <home id="2343838" name="Sampdoria"></home>
 <away id="2343655" name="Bologna"></away>
 
 
-</match><match alternate_id="4181835" alternate_id_2="4410891" date="13.09.2015" id="4299353" static_id="13091523438462343644" status="18:45" time="18:45">
+</match><match alternate_id="4181835" alternate_id_2="4410891" date="13.09.2015" id="4299353" static_id="13091523438462343644" status="13:00" time="13:00">
 <home id="2343846" name="Sassuolo"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="4181829" alternate_id_2="4410892" date="13.09.2015" id="4299347" static_id="13091523437472343879" status="18:45" time="18:45">
+</match><match alternate_id="4181829" alternate_id_2="4410892" date="13.09.2015" id="4299347" static_id="13091523437472343879" status="13:00" time="13:00">
 <home id="2343747" name="Verona"></home>
 <away id="2343879" name="Torino"></away>
 
 
-</match><match alternate_id="4181841" alternate_id_2="4410893" date="20.09.2015" id="4299359" static_id="20091523437712343791" status="18:45" time="18:45">
+</match><match alternate_id="4181841" alternate_id_2="4410893" date="20.09.2015" id="4299359" static_id="20091523437712343791" status="13:00" time="13:00">
 <home id="2343771" name="AC Milan"></home>
 <away id="2343791" name="Palermo"></away>
 
 
-</match><match alternate_id="4181843" alternate_id_2="4410894" date="20.09.2015" id="4299361" static_id="20091523438312343846" status="18:45" time="18:45">
+</match><match alternate_id="4181843" alternate_id_2="4410894" date="20.09.2015" id="4299361" static_id="20091523438312343846" status="13:00" time="13:00">
 <home id="2343831" name="AS Roma"></home>
 <away id="2343846" name="Sassuolo"></away>
 
 
-</match><match alternate_id="4181836" alternate_id_2="4410895" date="20.09.2015" id="4299354" static_id="20091523436442343747" status="18:45" time="18:45">
+</match><match alternate_id="4181836" alternate_id_2="4410895" date="20.09.2015" id="4299354" static_id="20091523436442343747" status="13:00" time="13:00">
 <home id="2343644" name="Atalanta"></home>
 <away id="2343747" name="Verona"></away>
 
 
-</match><match alternate_id="4181837" alternate_id_2="4410896" date="20.09.2015" id="4299355" static_id="20091523436552343731" status="18:45" time="18:45">
+</match><match alternate_id="4181837" alternate_id_2="4410896" date="20.09.2015" id="4299355" static_id="20091523436552343731" status="13:00" time="13:00">
 <home id="2343655" name="Bologna"></home>
 <away id="2343731" name="Frosinone"></away>
 
 
-</match><match alternate_id="4181838" alternate_id_2="4410897" date="20.09.2015" id="4299356" static_id="20091523436702343727" status="18:45" time="18:45">
+</match><match alternate_id="4181838" alternate_id_2="4410897" date="20.09.2015" id="4299356" static_id="20091523436702343727" status="13:00" time="13:00">
 <home id="2343670" name="Carpi"></home>
 <away id="2343727" name="Fiorentina"></away>
 
 
-</match><match alternate_id="4181839" alternate_id_2="4410898" date="20.09.2015" id="4299357" static_id="20091523436832343750" status="18:45" time="18:45">
+</match><match alternate_id="4181839" alternate_id_2="4410898" date="20.09.2015" id="4299357" static_id="20091523436832343750" status="13:00" time="13:00">
 <home id="2343683" name="Chievo"></home>
 <away id="2343750" name="Inter"></away>
 
 
-</match><match alternate_id="4181840" alternate_id_2="4410899" date="20.09.2015" id="4299358" static_id="20091523437362343755" status="18:45" time="18:45">
+</match><match alternate_id="4181840" alternate_id_2="4410899" date="20.09.2015" id="4299358" static_id="20091523437362343755" status="13:00" time="13:00">
 <home id="2343736" name="Genoa"></home>
 <away id="2343755" name="Juventus"></away>
 
 
-</match><match alternate_id="4181842" alternate_id_2="4410900" date="20.09.2015" id="4299360" static_id="20091523437802343758" status="18:45" time="18:45">
+</match><match alternate_id="4181842" alternate_id_2="4410900" date="20.09.2015" id="4299360" static_id="20091523437802343758" status="13:00" time="13:00">
 <home id="2343780" name="Napoli"></home>
 <away id="2343758" name="Lazio"></away>
 
 
-</match><match alternate_id="4181844" alternate_id_2="4410901" date="20.09.2015" id="4299362" static_id="20091523438792343838" status="18:45" time="18:45">
+</match><match alternate_id="4181844" alternate_id_2="4410901" date="20.09.2015" id="4299362" static_id="20091523438792343838" status="13:00" time="13:00">
 <home id="2343879" name="Torino"></home>
 <away id="2343838" name="Sampdoria"></away>
 
 
-</match><match alternate_id="4181845" alternate_id_2="4410902" date="20.09.2015" id="4299363" static_id="20091523438842343700" status="18:45" time="18:45">
+</match><match alternate_id="4181845" alternate_id_2="4410902" date="20.09.2015" id="4299363" static_id="20091523438842343700" status="13:00" time="13:00">
 <home id="2343884" name="Udinese"></home>
 <away id="2343700" name="Empoli"></away>
 
 
-</match><match alternate_id="4181846" alternate_id_2="4410903" date="23.09.2015" id="4299364" static_id="23091523436702343780" status="18:45" time="18:45">
+</match><match alternate_id="4181846" alternate_id_2="4410903" date="23.09.2015" id="4299364" static_id="23091523436702343780" status="13:00" time="13:00">
 <home id="2343670" name="Carpi"></home>
 <away id="2343780" name="Napoli"></away>
 
 
-</match><match alternate_id="4181847" alternate_id_2="4410904" date="23.09.2015" id="4299365" static_id="23091523436832343879" status="18:45" time="18:45">
+</match><match alternate_id="4181847" alternate_id_2="4410904" date="23.09.2015" id="4299365" static_id="23091523436832343879" status="13:00" time="13:00">
 <home id="2343683" name="Chievo"></home>
 <away id="2343879" name="Torino"></away>
 
 
-</match><match alternate_id="4181848" alternate_id_2="4410905" date="23.09.2015" id="4299366" static_id="23091523437002343644" status="18:45" time="18:45">
+</match><match alternate_id="4181848" alternate_id_2="4410905" date="23.09.2015" id="4299366" static_id="23091523437002343644" status="13:00" time="13:00">
 <home id="2343700" name="Empoli"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="4181849" alternate_id_2="4410906" date="23.09.2015" id="4299367" static_id="23091523437272343655" status="18:45" time="18:45">
+</match><match alternate_id="4181849" alternate_id_2="4410906" date="23.09.2015" id="4299367" static_id="23091523437272343655" status="13:00" time="13:00">
 <home id="2343727" name="Fiorentina"></home>
 <away id="2343655" name="Bologna"></away>
 
 
-</match><match alternate_id="4181850" alternate_id_2="4410907" date="23.09.2015" id="4299368" static_id="23091523437502343747" status="18:45" time="18:45">
+</match><match alternate_id="4181850" alternate_id_2="4410907" date="23.09.2015" id="4299368" static_id="23091523437502343747" status="13:00" time="13:00">
 <home id="2343750" name="Inter"></home>
 <away id="2343747" name="Verona"></away>
 
 
-</match><match alternate_id="4181851" alternate_id_2="4410908" date="23.09.2015" id="4299369" static_id="23091523437552343731" status="18:45" time="18:45">
+</match><match alternate_id="4181851" alternate_id_2="4410908" date="23.09.2015" id="4299369" static_id="23091523437552343731" status="13:00" time="13:00">
 <home id="2343755" name="Juventus"></home>
 <away id="2343731" name="Frosinone"></away>
 
 
-</match><match alternate_id="4181852" alternate_id_2="4410909" date="23.09.2015" id="4299370" static_id="23091523437582343736" status="18:45" time="18:45">
+</match><match alternate_id="4181852" alternate_id_2="4410909" date="23.09.2015" id="4299370" static_id="23091523437582343736" status="13:00" time="13:00">
 <home id="2343758" name="Lazio"></home>
 <away id="2343736" name="Genoa"></away>
 
 
-</match><match alternate_id="4181853" alternate_id_2="4410910" date="23.09.2015" id="4299371" static_id="23091523437912343846" status="18:45" time="18:45">
+</match><match alternate_id="4181853" alternate_id_2="4410910" date="23.09.2015" id="4299371" static_id="23091523437912343846" status="13:00" time="13:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343846" name="Sassuolo"></away>
 
 
-</match><match alternate_id="4181854" alternate_id_2="4410911" date="23.09.2015" id="4299372" static_id="23091523438382343831" status="18:45" time="18:45">
+</match><match alternate_id="4181854" alternate_id_2="4410911" date="23.09.2015" id="4299372" static_id="23091523438382343831" status="13:00" time="13:00">
 <home id="2343838" name="Sampdoria"></home>
 <away id="2343831" name="AS Roma"></away>
 
 
-</match><match alternate_id="4181855" alternate_id_2="4410912" date="23.09.2015" id="4299373" static_id="23091523438842343771" status="18:45" time="18:45">
+</match><match alternate_id="4181855" alternate_id_2="4410912" date="23.09.2015" id="4299373" static_id="23091523438842343771" status="13:00" time="13:00">
 <home id="2343884" name="Udinese"></home>
 <away id="2343771" name="AC Milan"></away>
 
 
-</match><match alternate_id="4181863" alternate_id_2="4410913" date="27.09.2015" id="4299381" static_id="27091523438312343670" status="18:45" time="18:45">
+</match><match alternate_id="4181863" alternate_id_2="4410913" date="27.09.2015" id="4299381" static_id="27091523438312343670" status="13:00" time="13:00">
 <home id="2343831" name="AS Roma"></home>
 <away id="2343670" name="Carpi"></away>
 
 
-</match><match alternate_id="4181856" alternate_id_2="4410914" date="27.09.2015" id="4299374" static_id="27091523436442343838" status="18:45" time="18:45">
+</match><match alternate_id="4181856" alternate_id_2="4410914" date="27.09.2015" id="4299374" static_id="27091523436442343838" status="13:00" time="13:00">
 <home id="2343644" name="Atalanta"></home>
 <away id="2343838" name="Sampdoria"></away>
 
 
-</match><match alternate_id="4181857" alternate_id_2="4410915" date="27.09.2015" id="4299375" static_id="27091523436552343884" status="18:45" time="18:45">
+</match><match alternate_id="4181857" alternate_id_2="4410915" date="27.09.2015" id="4299375" static_id="27091523436552343884" status="13:00" time="13:00">
 <home id="2343655" name="Bologna"></home>
 <away id="2343884" name="Udinese"></away>
 
 
-</match><match alternate_id="4181858" alternate_id_2="4410916" date="27.09.2015" id="4299376" static_id="27091523437312343700" status="18:45" time="18:45">
+</match><match alternate_id="4181858" alternate_id_2="4410916" date="27.09.2015" id="4299376" static_id="27091523437312343700" status="13:00" time="13:00">
 <home id="2343731" name="Frosinone"></home>
 <away id="2343700" name="Empoli"></away>
 
 
-</match><match alternate_id="4181859" alternate_id_2="4410917" date="27.09.2015" id="4299377" static_id="27091523437362343771" status="18:45" time="18:45">
+</match><match alternate_id="4181859" alternate_id_2="4410917" date="27.09.2015" id="4299377" static_id="27091523437362343771" status="13:00" time="13:00">
 <home id="2343736" name="Genoa"></home>
 <away id="2343771" name="AC Milan"></away>
 
 
-</match><match alternate_id="4181861" alternate_id_2="4410918" date="27.09.2015" id="4299379" static_id="27091523437502343727" status="18:45" time="18:45">
+</match><match alternate_id="4181861" alternate_id_2="4410918" date="27.09.2015" id="4299379" static_id="27091523437502343727" status="13:00" time="13:00">
 <home id="2343750" name="Inter"></home>
 <away id="2343727" name="Fiorentina"></away>
 
 
-</match><match alternate_id="4181862" alternate_id_2="4410919" date="27.09.2015" id="4299380" static_id="27091523437802343755" status="18:45" time="18:45">
+</match><match alternate_id="4181862" alternate_id_2="4410919" date="27.09.2015" id="4299380" static_id="27091523437802343755" status="13:00" time="13:00">
 <home id="2343780" name="Napoli"></home>
 <away id="2343755" name="Juventus"></away>
 
 
-</match><match alternate_id="4181864" alternate_id_2="4410920" date="27.09.2015" id="4299382" static_id="27091523438462343683" status="18:45" time="18:45">
+</match><match alternate_id="4181864" alternate_id_2="4410920" date="27.09.2015" id="4299382" static_id="27091523438462343683" status="13:00" time="13:00">
 <home id="2343846" name="Sassuolo"></home>
 <away id="2343683" name="Chievo"></away>
 
 
-</match><match alternate_id="4181865" alternate_id_2="4410921" date="27.09.2015" id="4299383" static_id="27091523438792343791" status="18:45" time="18:45">
+</match><match alternate_id="4181865" alternate_id_2="4410921" date="27.09.2015" id="4299383" static_id="27091523438792343791" status="13:00" time="13:00">
 <home id="2343879" name="Torino"></home>
 <away id="2343791" name="Palermo"></away>
 
 
-</match><match alternate_id="4181860" alternate_id_2="4410922" date="27.09.2015" id="4299378" static_id="27091523437472343758" status="18:45" time="18:45">
+</match><match alternate_id="4181860" alternate_id_2="4410922" date="27.09.2015" id="4299378" static_id="27091523437472343758" status="13:00" time="13:00">
 <home id="2343747" name="Verona"></home>
 <away id="2343758" name="Lazio"></away>
 
 
-</match><match alternate_id="4181872" alternate_id_2="4410923" date="04.10.2015" id="4299390" static_id="04101523437712343780" status="18:45" time="18:45">
+</match><match alternate_id="4181872" alternate_id_2="4410923" date="04.10.2015" id="4299390" static_id="04101523437712343780" status="13:00" time="13:00">
 <home id="2343771" name="AC Milan"></home>
 <away id="2343780" name="Napoli"></away>
 
 
-</match><match alternate_id="4181866" alternate_id_2="4410924" date="04.10.2015" id="4299384" static_id="04101523436702343879" status="18:45" time="18:45">
+</match><match alternate_id="4181866" alternate_id_2="4410924" date="04.10.2015" id="4299384" static_id="04101523436702343879" status="13:00" time="13:00">
 <home id="2343670" name="Carpi"></home>
 <away id="2343879" name="Torino"></away>
 
 
-</match><match alternate_id="4181867" alternate_id_2="4410925" date="04.10.2015" id="4299385" static_id="04101523436832343747" status="18:45" time="18:45">
+</match><match alternate_id="4181867" alternate_id_2="4410925" date="04.10.2015" id="4299385" static_id="04101523436832343747" status="13:00" time="13:00">
 <home id="2343683" name="Chievo"></home>
 <away id="2343747" name="Verona"></away>
 
 
-</match><match alternate_id="4181868" alternate_id_2="4410926" date="04.10.2015" id="4299386" static_id="04101523437002343846" status="18:45" time="18:45">
+</match><match alternate_id="4181868" alternate_id_2="4410926" date="04.10.2015" id="4299386" static_id="04101523437002343846" status="13:00" time="13:00">
 <home id="2343700" name="Empoli"></home>
 <away id="2343846" name="Sassuolo"></away>
 
 
-</match><match alternate_id="4181869" alternate_id_2="4410927" date="04.10.2015" id="4299387" static_id="04101523437272343644" status="18:45" time="18:45">
+</match><match alternate_id="4181869" alternate_id_2="4410927" date="04.10.2015" id="4299387" static_id="04101523437272343644" status="13:00" time="13:00">
 <home id="2343727" name="Fiorentina"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="4181870" alternate_id_2="4410928" date="04.10.2015" id="4299388" static_id="04101523437552343655" status="18:45" time="18:45">
+</match><match alternate_id="4181870" alternate_id_2="4410928" date="04.10.2015" id="4299388" static_id="04101523437552343655" status="13:00" time="13:00">
 <home id="2343755" name="Juventus"></home>
 <away id="2343655" name="Bologna"></away>
 
 
-</match><match alternate_id="4181871" alternate_id_2="4410929" date="04.10.2015" id="4299389" static_id="04101523437582343731" status="18:45" time="18:45">
+</match><match alternate_id="4181871" alternate_id_2="4410929" date="04.10.2015" id="4299389" static_id="04101523437582343731" status="13:00" time="13:00">
 <home id="2343758" name="Lazio"></home>
 <away id="2343731" name="Frosinone"></away>
 
 
-</match><match alternate_id="4181873" alternate_id_2="4410930" date="04.10.2015" id="4299391" static_id="04101523437912343831" status="18:45" time="18:45">
+</match><match alternate_id="4181873" alternate_id_2="4410930" date="04.10.2015" id="4299391" static_id="04101523437912343831" status="13:00" time="13:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343831" name="AS Roma"></away>
 
 
-</match><match alternate_id="4181874" alternate_id_2="4410931" date="04.10.2015" id="4299392" static_id="04101523438382343750" status="18:45" time="18:45">
+</match><match alternate_id="4181874" alternate_id_2="4410931" date="04.10.2015" id="4299392" static_id="04101523438382343750" status="13:00" time="13:00">
 <home id="2343838" name="Sampdoria"></home>
 <away id="2343750" name="Inter"></away>
 
 
-</match><match alternate_id="4181875" alternate_id_2="4410932" date="04.10.2015" id="4299393" static_id="04101523438842343736" status="18:45" time="18:45">
+</match><match alternate_id="4181875" alternate_id_2="4410932" date="04.10.2015" id="4299393" static_id="04101523438842343736" status="13:00" time="13:00">
 <home id="2343884" name="Udinese"></home>
 <away id="2343736" name="Genoa"></away>
 
 
-</match><match alternate_id="4181883" alternate_id_2="4410933" date="18.10.2015" id="4299401" static_id="18101523438312343700" status="18:45" time="18:45">
+</match><match alternate_id="4181883" alternate_id_2="4410933" date="18.10.2015" id="4299401" static_id="18101523438312343700" status="13:00" time="13:00">
 <home id="2343831" name="AS Roma"></home>
 <away id="2343700" name="Empoli"></away>
 
 
-</match><match alternate_id="4181876" alternate_id_2="4410934" date="18.10.2015" id="4299394" static_id="18101523436442343670" status="18:45" time="18:45">
+</match><match alternate_id="4181876" alternate_id_2="4410934" date="18.10.2015" id="4299394" static_id="18101523436442343670" status="13:00" time="13:00">
 <home id="2343644" name="Atalanta"></home>
 <away id="2343670" name="Carpi"></away>
 
 
-</match><match alternate_id="4181877" alternate_id_2="4410935" date="18.10.2015" id="4299395" static_id="18101523436552343791" status="18:45" time="18:45">
+</match><match alternate_id="4181877" alternate_id_2="4410935" date="18.10.2015" id="4299395" static_id="18101523436552343791" status="13:00" time="13:00">
 <home id="2343655" name="Bologna"></home>
 <away id="2343791" name="Palermo"></away>
 
 
-</match><match alternate_id="4181878" alternate_id_2="4410936" date="18.10.2015" id="4299396" static_id="18101523437312343838" status="18:45" time="18:45">
+</match><match alternate_id="4181878" alternate_id_2="4410936" date="18.10.2015" id="4299396" static_id="18101523437312343838" status="13:00" time="13:00">
 <home id="2343731" name="Frosinone"></home>
 <away id="2343838" name="Sampdoria"></away>
 
 
-</match><match alternate_id="4181879" alternate_id_2="4410937" date="18.10.2015" id="4299397" static_id="18101523437362343683" status="18:45" time="18:45">
+</match><match alternate_id="4181879" alternate_id_2="4410937" date="18.10.2015" id="4299397" static_id="18101523437362343683" status="13:00" time="13:00">
 <home id="2343736" name="Genoa"></home>
 <away id="2343683" name="Chievo"></away>
 
 
-</match><match alternate_id="4181881" alternate_id_2="4410938" date="18.10.2015" id="4299399" static_id="18101523437502343755" status="18:45" time="18:45">
+</match><match alternate_id="4181881" alternate_id_2="4410938" date="18.10.2015" id="4299399" static_id="18101523437502343755" status="13:00" time="13:00">
 <home id="2343750" name="Inter"></home>
 <away id="2343755" name="Juventus"></away>
 
 
-</match><match alternate_id="4181882" alternate_id_2="4410939" date="18.10.2015" id="4299400" static_id="18101523437802343727" status="18:45" time="18:45">
+</match><match alternate_id="4181882" alternate_id_2="4410939" date="18.10.2015" id="4299400" static_id="18101523437802343727" status="13:00" time="13:00">
 <home id="2343780" name="Napoli"></home>
 <away id="2343727" name="Fiorentina"></away>
 
 
-</match><match alternate_id="4181884" alternate_id_2="4410940" date="18.10.2015" id="4299402" static_id="18101523438462343758" status="18:45" time="18:45">
+</match><match alternate_id="4181884" alternate_id_2="4410940" date="18.10.2015" id="4299402" static_id="18101523438462343758" status="13:00" time="13:00">
 <home id="2343846" name="Sassuolo"></home>
 <away id="2343758" name="Lazio"></away>
 
 
-</match><match alternate_id="4181885" alternate_id_2="4410941" date="18.10.2015" id="4299403" static_id="18101523438792343771" status="18:45" time="18:45">
+</match><match alternate_id="4181885" alternate_id_2="4410941" date="18.10.2015" id="4299403" static_id="18101523438792343771" status="13:00" time="13:00">
 <home id="2343879" name="Torino"></home>
 <away id="2343771" name="AC Milan"></away>
 
 
-</match><match alternate_id="4181880" alternate_id_2="4410942" date="18.10.2015" id="4299398" static_id="18101523437472343884" status="18:45" time="18:45">
+</match><match alternate_id="4181880" alternate_id_2="4410942" date="18.10.2015" id="4299398" static_id="18101523437472343884" status="13:00" time="13:00">
 <home id="2343747" name="Verona"></home>
 <away id="2343884" name="Udinese"></away>
 
 
-</match><match alternate_id="4181892" alternate_id_2="4410943" date="25.10.2015" id="4299410" static_id="25101523437712343846" status="19:45" time="19:45">
+</match><match alternate_id="4181892" alternate_id_2="4410943" date="25.10.2015" id="4299410" static_id="25101523437712343846" status="14:00" time="14:00">
 <home id="2343771" name="AC Milan"></home>
 <away id="2343846" name="Sassuolo"></away>
 
 
-</match><match alternate_id="4181886" alternate_id_2="4410944" date="25.10.2015" id="4299404" static_id="25101523436702343655" status="19:45" time="19:45">
+</match><match alternate_id="4181886" alternate_id_2="4410944" date="25.10.2015" id="4299404" static_id="25101523436702343655" status="14:00" time="14:00">
 <home id="2343670" name="Carpi"></home>
 <away id="2343655" name="Bologna"></away>
 
 
-</match><match alternate_id="4181887" alternate_id_2="4410945" date="25.10.2015" id="4299405" static_id="25101523436832343780" status="19:45" time="19:45">
+</match><match alternate_id="4181887" alternate_id_2="4410945" date="25.10.2015" id="4299405" static_id="25101523436832343780" status="14:00" time="14:00">
 <home id="2343683" name="Chievo"></home>
 <away id="2343780" name="Napoli"></away>
 
 
-</match><match alternate_id="4181888" alternate_id_2="4410946" date="25.10.2015" id="4299406" static_id="25101523437002343736" status="19:45" time="19:45">
+</match><match alternate_id="4181888" alternate_id_2="4410946" date="25.10.2015" id="4299406" static_id="25101523437002343736" status="14:00" time="14:00">
 <home id="2343700" name="Empoli"></home>
 <away id="2343736" name="Genoa"></away>
 
 
-</match><match alternate_id="4181889" alternate_id_2="4410947" date="25.10.2015" id="4299407" static_id="25101523437272343831" status="19:45" time="19:45">
+</match><match alternate_id="4181889" alternate_id_2="4410947" date="25.10.2015" id="4299407" static_id="25101523437272343831" status="14:00" time="14:00">
 <home id="2343727" name="Fiorentina"></home>
 <away id="2343831" name="AS Roma"></away>
 
 
-</match><match alternate_id="4181890" alternate_id_2="4410948" date="25.10.2015" id="4299408" static_id="25101523437552343644" status="19:45" time="19:45">
+</match><match alternate_id="4181890" alternate_id_2="4410948" date="25.10.2015" id="4299408" static_id="25101523437552343644" status="14:00" time="14:00">
 <home id="2343755" name="Juventus"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="4181891" alternate_id_2="4410949" date="25.10.2015" id="4299409" static_id="25101523437582343879" status="19:45" time="19:45">
+</match><match alternate_id="4181891" alternate_id_2="4410949" date="25.10.2015" id="4299409" static_id="25101523437582343879" status="14:00" time="14:00">
 <home id="2343758" name="Lazio"></home>
 <away id="2343879" name="Torino"></away>
 
 
-</match><match alternate_id="4181893" alternate_id_2="4410950" date="25.10.2015" id="4299411" static_id="25101523437912343750" status="19:45" time="19:45">
+</match><match alternate_id="4181893" alternate_id_2="4410950" date="25.10.2015" id="4299411" static_id="25101523437912343750" status="14:00" time="14:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343750" name="Inter"></away>
 
 
-</match><match alternate_id="4181894" alternate_id_2="4410951" date="25.10.2015" id="4299412" static_id="25101523438382343747" status="19:45" time="19:45">
+</match><match alternate_id="4181894" alternate_id_2="4410951" date="25.10.2015" id="4299412" static_id="25101523438382343747" status="14:00" time="14:00">
 <home id="2343838" name="Sampdoria"></home>
 <away id="2343747" name="Verona"></away>
 
 
-</match><match alternate_id="4181895" alternate_id_2="4410952" date="25.10.2015" id="4299413" static_id="25101523438842343731" status="19:45" time="19:45">
+</match><match alternate_id="4181895" alternate_id_2="4410952" date="25.10.2015" id="4299413" static_id="25101523438842343731" status="14:00" time="14:00">
 <home id="2343884" name="Udinese"></home>
 <away id="2343731" name="Frosinone"></away>
 
 
-</match><match alternate_id="4181900" alternate_id_2="4410953" date="28.10.2015" id="4299418" static_id="28101523437712343683" status="19:45" time="19:45">
+</match><match alternate_id="4181900" alternate_id_2="4410953" date="28.10.2015" id="4299418" static_id="28101523437712343683" status="14:00" time="14:00">
 <home id="2343771" name="AC Milan"></home>
 <away id="2343683" name="Chievo"></away>
 
 
-</match><match alternate_id="4181902" alternate_id_2="4410954" date="28.10.2015" id="4299420" static_id="28101523438312343884" status="19:45" time="19:45">
+</match><match alternate_id="4181902" alternate_id_2="4410954" date="28.10.2015" id="4299420" static_id="28101523438312343884" status="14:00" time="14:00">
 <home id="2343831" name="AS Roma"></home>
 <away id="2343884" name="Udinese"></away>
 
 
-</match><match alternate_id="4181896" alternate_id_2="4410955" date="28.10.2015" id="4299414" static_id="28101523436442343758" status="19:45" time="19:45">
+</match><match alternate_id="4181896" alternate_id_2="4410955" date="28.10.2015" id="4299414" static_id="28101523436442343758" status="14:00" time="14:00">
 <home id="2343644" name="Atalanta"></home>
 <away id="2343758" name="Lazio"></away>
 
 
-</match><match alternate_id="4181897" alternate_id_2="4410956" date="28.10.2015" id="4299415" static_id="28101523436552343750" status="19:45" time="19:45">
+</match><match alternate_id="4181897" alternate_id_2="4410956" date="28.10.2015" id="4299415" static_id="28101523436552343750" status="14:00" time="14:00">
 <home id="2343655" name="Bologna"></home>
 <away id="2343750" name="Inter"></away>
 
 
-</match><match alternate_id="4181898" alternate_id_2="4410957" date="28.10.2015" id="4299416" static_id="28101523437312343670" status="19:45" time="19:45">
+</match><match alternate_id="4181898" alternate_id_2="4410957" date="28.10.2015" id="4299416" static_id="28101523437312343670" status="14:00" time="14:00">
 <home id="2343731" name="Frosinone"></home>
 <away id="2343670" name="Carpi"></away>
 
 
-</match><match alternate_id="4181901" alternate_id_2="4410958" date="28.10.2015" id="4299419" static_id="28101523437802343791" status="19:45" time="19:45">
+</match><match alternate_id="4181901" alternate_id_2="4410958" date="28.10.2015" id="4299419" static_id="28101523437802343791" status="14:00" time="14:00">
 <home id="2343780" name="Napoli"></home>
 <away id="2343791" name="Palermo"></away>
 
 
-</match><match alternate_id="4181903" alternate_id_2="4410959" date="28.10.2015" id="4299421" static_id="28101523438382343700" status="19:45" time="19:45">
+</match><match alternate_id="4181903" alternate_id_2="4410959" date="28.10.2015" id="4299421" static_id="28101523438382343700" status="14:00" time="14:00">
 <home id="2343838" name="Sampdoria"></home>
 <away id="2343700" name="Empoli"></away>
 
 
-</match><match alternate_id="4181904" alternate_id_2="4410960" date="28.10.2015" id="4299422" static_id="28101523438462343755" status="19:45" time="19:45">
+</match><match alternate_id="4181904" alternate_id_2="4410960" date="28.10.2015" id="4299422" static_id="28101523438462343755" status="14:00" time="14:00">
 <home id="2343846" name="Sassuolo"></home>
 <away id="2343755" name="Juventus"></away>
 
 
-</match><match alternate_id="4181905" alternate_id_2="4410961" date="28.10.2015" id="4299423" static_id="28101523438792343736" status="19:45" time="19:45">
+</match><match alternate_id="4181905" alternate_id_2="4410961" date="28.10.2015" id="4299423" static_id="28101523438792343736" status="14:00" time="14:00">
 <home id="2343879" name="Torino"></home>
 <away id="2343736" name="Genoa"></away>
 
 
-</match><match alternate_id="4181899" alternate_id_2="4410962" date="28.10.2015" id="4299417" static_id="28101523437472343727" status="19:45" time="19:45">
+</match><match alternate_id="4181899" alternate_id_2="4410962" date="28.10.2015" id="4299417" static_id="28101523437472343727" status="14:00" time="14:00">
 <home id="2343747" name="Verona"></home>
 <away id="2343727" name="Fiorentina"></away>
 
 
-</match><match alternate_id="4181906" alternate_id_2="4410963" date="01.11.2015" id="4299424" static_id="01111523436552343644" status="19:45" time="19:45">
+</match><match alternate_id="4181906" alternate_id_2="4410963" date="01.11.2015" id="4299424" static_id="01111523436552343644" status="14:00" time="14:00">
 <home id="2343655" name="Bologna"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="4181907" alternate_id_2="4410964" date="01.11.2015" id="4299425" static_id="01111523436702343747" status="19:45" time="19:45">
+</match><match alternate_id="4181907" alternate_id_2="4410964" date="01.11.2015" id="4299425" static_id="01111523436702343747" status="14:00" time="14:00">
 <home id="2343670" name="Carpi"></home>
 <away id="2343747" name="Verona"></away>
 
 
-</match><match alternate_id="4181908" alternate_id_2="4410965" date="01.11.2015" id="4299426" static_id="01111523436832343838" status="19:45" time="19:45">
+</match><match alternate_id="4181908" alternate_id_2="4410965" date="01.11.2015" id="4299426" static_id="01111523436832343838" status="14:00" time="14:00">
 <home id="2343683" name="Chievo"></home>
 <away id="2343838" name="Sampdoria"></away>
 
 
-</match><match alternate_id="4181909" alternate_id_2="4410966" date="01.11.2015" id="4299427" static_id="01111523437272343731" status="19:45" time="19:45">
+</match><match alternate_id="4181909" alternate_id_2="4410966" date="01.11.2015" id="4299427" static_id="01111523437272343731" status="14:00" time="14:00">
 <home id="2343727" name="Fiorentina"></home>
 <away id="2343731" name="Frosinone"></away>
 
 
-</match><match alternate_id="4181910" alternate_id_2="4410967" date="01.11.2015" id="4299428" static_id="01111523437362343780" status="19:45" time="19:45">
+</match><match alternate_id="4181910" alternate_id_2="4410967" date="01.11.2015" id="4299428" static_id="01111523437362343780" status="14:00" time="14:00">
 <home id="2343736" name="Genoa"></home>
 <away id="2343780" name="Napoli"></away>
 
 
-</match><match alternate_id="4181911" alternate_id_2="4410968" date="01.11.2015" id="4299429" static_id="01111523437502343831" status="19:45" time="19:45">
+</match><match alternate_id="4181911" alternate_id_2="4410968" date="01.11.2015" id="4299429" static_id="01111523437502343831" status="14:00" time="14:00">
 <home id="2343750" name="Inter"></home>
 <away id="2343831" name="AS Roma"></away>
 
 
-</match><match alternate_id="4181912" alternate_id_2="4410969" date="01.11.2015" id="4299430" static_id="01111523437552343879" status="19:45" time="19:45">
+</match><match alternate_id="4181912" alternate_id_2="4410969" date="01.11.2015" id="4299430" static_id="01111523437552343879" status="14:00" time="14:00">
 <home id="2343755" name="Juventus"></home>
 <away id="2343879" name="Torino"></away>
 
 
-</match><match alternate_id="4181913" alternate_id_2="4410970" date="01.11.2015" id="4299431" static_id="01111523437582343771" status="19:45" time="19:45">
+</match><match alternate_id="4181913" alternate_id_2="4410970" date="01.11.2015" id="4299431" static_id="01111523437582343771" status="14:00" time="14:00">
 <home id="2343758" name="Lazio"></home>
 <away id="2343771" name="AC Milan"></away>
 
 
-</match><match alternate_id="4181914" alternate_id_2="4410971" date="01.11.2015" id="4299432" static_id="01111523437912343700" status="19:45" time="19:45">
+</match><match alternate_id="4181914" alternate_id_2="4410971" date="01.11.2015" id="4299432" static_id="01111523437912343700" status="14:00" time="14:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343700" name="Empoli"></away>
 
 
-</match><match alternate_id="4181915" alternate_id_2="4410972" date="01.11.2015" id="4299433" static_id="01111523438842343846" status="19:45" time="19:45">
+</match><match alternate_id="4181915" alternate_id_2="4410972" date="01.11.2015" id="4299433" static_id="01111523438842343846" status="14:00" time="14:00">
 <home id="2343884" name="Udinese"></home>
 <away id="2343846" name="Sassuolo"></away>
 
 
-</match><match alternate_id="4181919" alternate_id_2="4410973" date="08.11.2015" id="4299437" static_id="08111523437712343644" status="19:45" time="19:45">
+</match><match alternate_id="4181919" alternate_id_2="4410973" date="08.11.2015" id="4299437" static_id="08111523437712343644" status="14:00" time="14:00">
 <home id="2343771" name="AC Milan"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="4181922" alternate_id_2="4410974" date="08.11.2015" id="4299440" static_id="08111523438312343758" status="19:45" time="19:45">
+</match><match alternate_id="4181922" alternate_id_2="4410974" date="08.11.2015" id="4299440" static_id="08111523438312343758" status="14:00" time="14:00">
 <home id="2343831" name="AS Roma"></home>
 <away id="2343758" name="Lazio"></away>
 
 
-</match><match alternate_id="4181916" alternate_id_2="4410975" date="08.11.2015" id="4299434" static_id="08111523437002343755" status="19:45" time="19:45">
+</match><match alternate_id="4181916" alternate_id_2="4410975" date="08.11.2015" id="4299434" static_id="08111523437002343755" status="14:00" time="14:00">
 <home id="2343700" name="Empoli"></home>
 <away id="2343755" name="Juventus"></away>
 
 
-</match><match alternate_id="4181917" alternate_id_2="4410976" date="08.11.2015" id="4299435" static_id="08111523437312343736" status="19:45" time="19:45">
+</match><match alternate_id="4181917" alternate_id_2="4410976" date="08.11.2015" id="4299435" static_id="08111523437312343736" status="14:00" time="14:00">
 <home id="2343731" name="Frosinone"></home>
 <away id="2343736" name="Genoa"></away>
 
 
-</match><match alternate_id="4181920" alternate_id_2="4410977" date="08.11.2015" id="4299438" static_id="08111523437802343884" status="19:45" time="19:45">
+</match><match alternate_id="4181920" alternate_id_2="4410977" date="08.11.2015" id="4299438" static_id="08111523437802343884" status="14:00" time="14:00">
 <home id="2343780" name="Napoli"></home>
 <away id="2343884" name="Udinese"></away>
 
 
-</match><match alternate_id="4181921" alternate_id_2="4410978" date="08.11.2015" id="4299439" static_id="08111523437912343683" status="19:45" time="19:45">
+</match><match alternate_id="4181921" alternate_id_2="4410978" date="08.11.2015" id="4299439" static_id="08111523437912343683" status="14:00" time="14:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343683" name="Chievo"></away>
 
 
-</match><match alternate_id="4181923" alternate_id_2="4410979" date="08.11.2015" id="4299441" static_id="08111523438382343727" status="19:45" time="19:45">
+</match><match alternate_id="4181923" alternate_id_2="4410979" date="08.11.2015" id="4299441" static_id="08111523438382343727" status="14:00" time="14:00">
 <home id="2343838" name="Sampdoria"></home>
 <away id="2343727" name="Fiorentina"></away>
 
 
-</match><match alternate_id="4181924" alternate_id_2="4410980" date="08.11.2015" id="4299442" static_id="08111523438462343670" status="19:45" time="19:45">
+</match><match alternate_id="4181924" alternate_id_2="4410980" date="08.11.2015" id="4299442" static_id="08111523438462343670" status="14:00" time="14:00">
 <home id="2343846" name="Sassuolo"></home>
 <away id="2343670" name="Carpi"></away>
 
 
-</match><match alternate_id="4181925" alternate_id_2="4410981" date="08.11.2015" id="4299443" static_id="08111523438792343750" status="19:45" time="19:45">
+</match><match alternate_id="4181925" alternate_id_2="4410981" date="08.11.2015" id="4299443" static_id="08111523438792343750" status="14:00" time="14:00">
 <home id="2343879" name="Torino"></home>
 <away id="2343750" name="Inter"></away>
 
 
-</match><match alternate_id="4181918" alternate_id_2="4410982" date="08.11.2015" id="4299436" static_id="08111523437472343655" status="19:45" time="19:45">
+</match><match alternate_id="4181918" alternate_id_2="4410982" date="08.11.2015" id="4299436" static_id="08111523437472343655" status="14:00" time="14:00">
 <home id="2343747" name="Verona"></home>
 <away id="2343655" name="Bologna"></away>
 
 
-</match></league><league country="italy" name="Italy: Coppa Italia" cup="True" id="3097" sub_id="30970"><match alternate_id="4186844" alternate_id_2="4452332" date="17.08.2015" id="4304350" static_id="17081523436832343835" status="17:00" time="17:00">
+</match><match alternate_id="4181926" alternate_id_2="4456618" date="22.11.2015" id="4299444" static_id="22111523436442343879" status="14:00" time="14:00">
+<home id="2343644" name="Atalanta"></home>
+<away id="2343879" name="Torino"></away>
+
+
+</match><match alternate_id="4181927" alternate_id_2="4456619" date="22.11.2015" id="4299445" static_id="22111523436552343831" status="14:00" time="14:00">
+<home id="2343655" name="Bologna"></home>
+<away id="2343831" name="AS Roma"></away>
+
+
+</match><match alternate_id="4181928" alternate_id_2="4456620" date="22.11.2015" id="4299446" static_id="22111523436702343683" status="14:00" time="14:00">
+<home id="2343670" name="Carpi"></home>
+<away id="2343683" name="Chievo"></away>
+
+
+</match><match alternate_id="4181929" alternate_id_2="4456621" date="22.11.2015" id="4299447" static_id="22111523437272343700" status="14:00" time="14:00">
+<home id="2343727" name="Fiorentina"></home>
+<away id="2343700" name="Empoli"></away>
+
+
+</match><match alternate_id="4181930" alternate_id_2="4456622" date="22.11.2015" id="4299448" static_id="22111523437362343846" status="14:00" time="14:00">
+<home id="2343736" name="Genoa"></home>
+<away id="2343846" name="Sassuolo"></away>
+
+
+</match><match alternate_id="4181932" alternate_id_2="4456623" date="22.11.2015" id="4299450" static_id="22111523437502343731" status="14:00" time="14:00">
+<home id="2343750" name="Inter"></home>
+<away id="2343731" name="Frosinone"></away>
+
+
+</match><match alternate_id="4181933" alternate_id_2="4456624" date="22.11.2015" id="4299451" static_id="22111523437552343771" status="14:00" time="14:00">
+<home id="2343755" name="Juventus"></home>
+<away id="2343771" name="AC Milan"></away>
+
+
+</match><match alternate_id="4181934" alternate_id_2="4456625" date="22.11.2015" id="4299452" static_id="22111523437582343791" status="14:00" time="14:00">
+<home id="2343758" name="Lazio"></home>
+<away id="2343791" name="Palermo"></away>
+
+
+</match><match alternate_id="4181935" alternate_id_2="4456626" date="22.11.2015" id="4299453" static_id="22111523438842343838" status="14:00" time="14:00">
+<home id="2343884" name="Udinese"></home>
+<away id="2343838" name="Sampdoria"></away>
+
+
+</match><match alternate_id="4181931" alternate_id_2="4456627" date="22.11.2015" id="4299449" static_id="22111523437472343780" status="14:00" time="14:00">
+<home id="2343747" name="Verona"></home>
+<away id="2343780" name="Napoli"></away>
+
+
+</match><match alternate_id="4181940" alternate_id_2="4459140" date="29.11.2015" id="4299458" static_id="29111523437712343838" status="14:00" time="14:00">
+<home id="2343771" name="AC Milan"></home>
+<away id="2343838" name="Sampdoria"></away>
+
+
+</match><match alternate_id="4181943" alternate_id_2="4459141" date="29.11.2015" id="4299461" static_id="29111523438312343644" status="14:00" time="14:00">
+<home id="2343831" name="AS Roma"></home>
+<away id="2343644" name="Atalanta"></away>
+
+
+</match><match alternate_id="4181936" alternate_id_2="4459142" date="29.11.2015" id="4299454" static_id="29111523436832343884" status="14:00" time="14:00">
 <home id="2343683" name="Chievo"></home>
+<away id="2343884" name="Udinese"></away>
+
+
+</match><match alternate_id="4181937" alternate_id_2="4459143" date="29.11.2015" id="4299455" static_id="29111523437002343758" status="14:00" time="14:00">
+<home id="2343700" name="Empoli"></home>
+<away id="2343758" name="Lazio"></away>
+
+
+</match><match alternate_id="4181938" alternate_id_2="4459144" date="29.11.2015" id="4299456" static_id="29111523437312343747" status="14:00" time="14:00">
+<home id="2343731" name="Frosinone"></home>
+<away id="2343747" name="Verona"></away>
+
+
+</match><match alternate_id="4181939" alternate_id_2="4459145" date="29.11.2015" id="4299457" static_id="29111523437362343670" status="14:00" time="14:00">
+<home id="2343736" name="Genoa"></home>
+<away id="2343670" name="Carpi"></away>
+
+
+</match><match alternate_id="4181941" alternate_id_2="4459146" date="29.11.2015" id="4299459" static_id="29111523437802343750" status="14:00" time="14:00">
+<home id="2343780" name="Napoli"></home>
+<away id="2343750" name="Inter"></away>
+
+
+</match><match alternate_id="4181942" alternate_id_2="4459147" date="29.11.2015" id="4299460" static_id="29111523437912343755" status="14:00" time="14:00">
+<home id="2343791" name="Palermo"></home>
+<away id="2343755" name="Juventus"></away>
+
+
+</match><match alternate_id="4181944" alternate_id_2="4459148" date="29.11.2015" id="4299462" static_id="29111523438462343727" status="14:00" time="14:00">
+<home id="2343846" name="Sassuolo"></home>
+<away id="2343727" name="Fiorentina"></away>
+
+
+</match><match alternate_id="4181945" alternate_id_2="4459149" date="29.11.2015" id="4299463" static_id="29111523438792343655" status="14:00" time="14:00">
+<home id="2343879" name="Torino"></home>
+<away id="2343655" name="Bologna"></away>
+
+
+</match></league><league country="italy" name="Italy: Serie B" cup="False" id="3098" sub_id="30980"><match alternate_id="4203830" alternate_id_2="4457198" date="05.09.2015" id="4321334" static_id="05091523436822343659" status="18:30" time="18:30">
+<home id="2343682" name="Cesena"></home>
+<away id="2343659" name="Brescia"></away>
+
+
+</match><match alternate_id="4203831" alternate_id_2="4457199" date="06.09.2015" id="4321335" static_id="06091523437622343798" status="13:00" time="13:00">
+<home id="2343762" name="Livorno"></home>
+<away id="2343798" name="Pescara"></away>
+
+
+</match><match alternate_id="4203832" alternate_id_2="4457200" date="06.09.2015" id="4321336" static_id="06091523437732343925" status="13:00" time="13:00">
+<home id="2343773" name="Modena"></home>
+<away id="2343925" name="Vicenza"></away>
+
+
+</match><match alternate_id="4203833" alternate_id_2="4457201" date="06.09.2015" id="4321337" static_id="06091523437842343757" status="13:00" time="13:00">
+<home id="2343784" name="Novara"></home>
+<away id="2343757" name="Latina"></away>
+
+
+</match><match alternate_id="4203834" alternate_id_2="4457202" date="06.09.2015" id="4321338" static_id="06091523437972343689" status="13:00" time="13:00">
+<home id="2343797" name="Perugia"></home>
+<away id="2343689" name="Como"></away>
+
+
+</match><match alternate_id="4203835" alternate_id_2="4457203" date="06.09.2015" id="4321339" static_id="06091523438212343931" status="13:00" time="13:00">
+<home id="2343821" name="Pro Vercelli"></home>
+<away id="2343931" name="Lanciano"></away>
+
+
+</match><match alternate_id="4203836" alternate_id_2="4457204" date="06.09.2015" id="4321340" static_id="06091523438352343647" status="13:00" time="13:00">
+<home id="2343835" name="Salernitana"></home>
+<away id="2343647" name="Avellino"></away>
+
+
+</match><match alternate_id="4203837" alternate_id_2="4457205" date="06.09.2015" id="4321341" static_id="06091523436412343878" status="13:00" time="13:00">
+<home id="2343641" name="Trapani"></home>
+<away id="2343878" name="Ternana"></away>
+
+
+</match><match alternate_id="4203838" alternate_id_2="4457196" date="06.09.2015" id="4321342" static_id="06091523436492343860" status="15:30" time="15:30">
+<home id="2343649" name="Bari"></home>
+<away id="2343860" name="Spezia"></away>
+
+
+</match><match alternate_id="4203839" alternate_id_2="4457197" date="07.09.2015" id="4321343" static_id="07091523436632343694" status="18:30" time="18:30">
+<home id="2343663" name="Cagliari"></home>
+<away id="2343694" name="Crotone"></away>
+
+
+</match><match alternate_id="4203841" alternate_id_2="4457206" date="12.09.2015" id="4321345" static_id="12091523436472343773" status="16:00" time="16:00">
+<home id="2343647" name="Avellino"></home>
+<away id="2343773" name="Modena"></away>
+
+
+</match><match alternate_id="4203842" alternate_id_2="4457207" date="12.09.2015" id="4321346" static_id="12091523436592343835" status="16:00" time="16:00">
+<home id="2343659" name="Brescia"></home>
 <away id="2343835" name="Salernitana"></away>
 
 
-</match><match alternate_id="4186845" alternate_id_2="4452316" date="17.08.2015" id="4304351" static_id="17081523437712343797" status="19:00" time="19:00">
-<home id="2343771" name="AC Milan"></home>
+</match><match alternate_id="4203843" alternate_id_2="4457208" date="12.09.2015" id="4321347" static_id="12091523436892343762" status="16:00" time="16:00">
+<home id="2343689" name="Como"></home>
+<away id="2343762" name="Livorno"></away>
+
+
+</match><match alternate_id="4203844" alternate_id_2="4457209" date="12.09.2015" id="4321348" static_id="12091523436942343784" status="16:00" time="16:00">
+<home id="2343694" name="Crotone"></home>
+<away id="2343784" name="Novara"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457210" date="12.09.2015" id="" static_id="12091523437572343641" status="16:00" time="16:00">
+<home id="2343757" name="Latina"></home>
+<away id="2343641" name="Trapani"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457211" date="12.09.2015" id="" static_id="12091523437982343797" status="16:00" time="16:00">
+<home id="2343798" name="Pescara"></home>
 <away id="2343797" name="Perugia"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4452950" date="20.08.2015" id="" static_id="20081523436772343682" status="18:30" time="18:30">
-<home id="2343677" name="Catania"></home>
-<away id="2343682" name="Cesena"></away>
+</match><match alternate_id="4203845" alternate_id_2="4457212" date="12.09.2015" id="4321349" static_id="12091523438602343821" status="16:00" time="16:00">
+<home id="2343860" name="Spezia"></home>
+<away id="2343821" name="Pro Vercelli"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4453820" date="02.12.2015" id="" static_id="02121523437912343585" status="19:00" time="19:00">
+</match><match alternate_id="4203846" alternate_id_2="4457213" date="12.09.2015" id="4321350" static_id="12091523438782343663" status="16:00" time="16:00">
+<home id="2343878" name="Ternana"></home>
+<away id="2343663" name="Cagliari"></away>
+
+
+</match><match alternate_id="4203847" alternate_id_2="4457214" date="12.09.2015" id="4321351" static_id="12091523439252343649" status="16:00" time="16:00">
+<home id="2343925" name="Vicenza"></home>
+<away id="2343649" name="Bari"></away>
+
+
+</match><match alternate_id="4203854" alternate_id_2="4457239" date="19.09.2015" id="4321358" static_id="19091523438212343757" status="16:00" time="16:00">
+<home id="2343821" name="Pro Vercelli"></home>
+<away id="2343757" name="Latina"></away>
+
+
+</match></league><league country="italy" name="Italy: Lega Pro - Group A" cup="False" id="3384" sub_id=""><match alternate_id="" alternate_id_2="4457714" date="06.09.2015" id="" static_id="06091523517092343813" status="13:00" time="13:00">
+<home id="2351709" name="Pro Piacenza"></home>
+<away id="2343813" name="Pordenone"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457708" date="06.09.2015" id="" static_id="06091523435842343874" status="15:00" time="15:00">
+<home id="2343584" name="AlbinoLeffe"></home>
+<away id="2343874" name="Sudtirol"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457710" date="06.09.2015" id="" static_id="06091523436512343692" status="15:00" time="15:00">
+<home id="2343651" name="Bassano"></home>
+<away id="2343692" name="Cremonese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457711" date="06.09.2015" id="" static_id="06091523436852343555" status="15:00" time="15:00">
+<home id="2343685" name="Cittadella"></home>
+<away id="2343555" name="Cuneo"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457712" date="06.09.2015" id="" static_id="06091523543322343765" status="15:00" time="15:00">
+<home id="2354332" name="Giana Erminio"></home>
+<away id="2343765" name="Lumezzane"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457715" date="06.09.2015" id="" static_id="06091523438242343789" status="15:00" time="15:00">
+<home id="2343824" name="Reggiana"></home>
+<away id="2343789" name="Padova"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457709" date="06.09.2015" id="" static_id="06091523435852343724" status="18:30" time="18:30">
+<home id="2343585" name="Alessandria"></home>
+<away id="2343724" name="FeralpiSalo"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457713" date="06.09.2015" id="" static_id="06091523437672343566" status="18:30" time="18:30">
+<home id="2343767" name="Mantova"></home>
+<away id="2343566" name="Renate"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457717" date="13.09.2015" id="" static_id="13091523436922343794" status="13:00" time="13:00">
+<home id="2343692" name="Cremonese"></home>
+<away id="2343794" name="Pavia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457718" date="13.09.2015" id="" static_id="13091523435552343585" status="13:00" time="13:00">
+<home id="2343555" name="Cuneo"></home>
+<away id="2343585" name="Alessandria"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457719" date="13.09.2015" id="" static_id="13091523437242343651" status="13:00" time="13:00">
+<home id="2343724" name="FeralpiSalo"></home>
+<away id="2343651" name="Bassano"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457720" date="13.09.2015" id="" static_id="13091523437652343824" status="13:00" time="13:00">
+<home id="2343765" name="Lumezzane"></home>
+<away id="2343824" name="Reggiana"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457716" date="13.09.2015" id="" static_id="13091523437892351709" status="13:00" time="13:00">
+<home id="2343789" name="Padova"></home>
+<away id="2351709" name="Pro Piacenza"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457721" date="13.09.2015" id="" static_id="13091523438132343584" status="13:00" time="13:00">
+<home id="2343813" name="Pordenone"></home>
+<away id="2343584" name="AlbinoLeffe"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457722" date="13.09.2015" id="" static_id="13091523435662354332" status="13:00" time="13:00">
+<home id="2343566" name="Renate"></home>
+<away id="2354332" name="Giana Erminio"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457723" date="13.09.2015" id="" static_id="13091523438742343767" status="13:00" time="13:00">
+<home id="2343874" name="Sudtirol"></home>
+<away id="2343767" name="Mantova"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457724" date="20.09.2015" id="" static_id="20091523437892343765" status="13:00" time="13:00">
+<home id="2343789" name="Padova"></home>
+<away id="2343765" name="Lumezzane"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457727" date="20.09.2015" id="" static_id="20091523437942343874" status="13:00" time="13:00">
+<home id="2343794" name="Pavia"></home>
+<away id="2343874" name="Sudtirol"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457750" date="20.09.2015" id="" static_id="20091523517092343824" status="13:00" time="13:00">
+<home id="2351709" name="Pro Piacenza"></home>
+<away id="2343824" name="Reggiana"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457751" date="20.09.2015" id="" static_id="20091523435662343685" status="13:00" time="13:00">
+<home id="2343566" name="Renate"></home>
+<away id="2343685" name="Cittadella"></away>
+
+
+</match></league><league country="italy" name="Italy: Lega Pro - Group B" cup="False" id="3384" sub_id=""><match alternate_id="" alternate_id_2="4457734" date="06.09.2015" id="" static_id="06091523461282343900" status="12:30" time="12:30">
+<home id="2346128" name="Torres"></home>
+<away id="2343900" name="Pontedera"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457728" date="06.09.2015" id="" static_id="06091523437562343802" status="13:00" time="13:00">
+<home id="2343756" name="L Aquila"></home>
+<away id="2343802" name="Pistoiese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457735" date="06.09.2015" id="" static_id="06091523498302343829" status="13:00" time="13:00">
+<home id="2349830" name="Tuttocuoio"></home>
+<away id="2343829" name="Rimini"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457729" date="06.09.2015" id="" static_id="06091523436222343560" status="15:00" time="15:00">
+<home id="2343622" name="Lupa Roma"></home>
+<away id="2343560" name="Maceratese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457731" date="06.09.2015" id="" static_id="06091523436362343589" status="15:00" time="15:00">
+<home id="2343636" name="Santarcangelo"></home>
+<away id="2343589" name="Arezzo"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457730" date="06.09.2015" id="" static_id="06091523438012343816" status="18:30" time="18:30">
+<home id="2343801" name="Pisa"></home>
+<away id="2343816" name="Prato"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457732" date="06.09.2015" id="" static_id="06091523438512343671" status="18:30" time="18:30">
+<home id="2343851" name="Siena"></home>
+<away id="2343671" name="Carrarese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457733" date="06.09.2015" id="" static_id="06091523438592343764" status="18:30" time="18:30">
+<home id="2343859" name="Spal"></home>
+<away id="2343764" name="Lucchese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457736" date="13.09.2015" id="" static_id="13091523435892343756" status="13:00" time="13:00">
+<home id="2343589" name="Arezzo"></home>
+<away id="2343756" name="L Aquila"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457737" date="13.09.2015" id="" static_id="13091523436712343636" status="13:00" time="13:00">
+<home id="2343671" name="Carrarese"></home>
+<away id="2343636" name="Santarcangelo"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457738" date="13.09.2015" id="" static_id="13091523437642343622" status="13:00" time="13:00">
+<home id="2343764" name="Lucchese"></home>
+<away id="2343622" name="Lupa Roma"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457739" date="13.09.2015" id="" static_id="13091523435602346128" status="13:00" time="13:00">
+<home id="2343560" name="Maceratese"></home>
+<away id="2346128" name="Torres"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457740" date="13.09.2015" id="" static_id="13091523438022343851" status="13:00" time="13:00">
+<home id="2343802" name="Pistoiese"></home>
+<away id="2343851" name="Siena"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457741" date="13.09.2015" id="" static_id="13091523439002349830" status="13:00" time="13:00">
+<home id="2343900" name="Pontedera"></home>
+<away id="2349830" name="Tuttocuoio"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457742" date="13.09.2015" id="" static_id="13091523438162343587" status="13:00" time="13:00">
+<home id="2343816" name="Prato"></home>
+<away id="2343587" name="Ancona"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457743" date="13.09.2015" id="" static_id="13091523438292343859" status="13:00" time="13:00">
+<home id="2343829" name="Rimini"></home>
+<away id="2343859" name="Spal"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457746" date="20.09.2015" id="" static_id="20091523438512343816" status="13:00" time="13:00">
+<home id="2343851" name="Siena"></home>
+<away id="2343816" name="Prato"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457747" date="20.09.2015" id="" static_id="20091523438592343802" status="13:00" time="13:00">
+<home id="2343859" name="Spal"></home>
+<away id="2343802" name="Pistoiese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457754" date="20.09.2015" id="" static_id="20091523461282343671" status="13:00" time="13:00">
+<home id="2346128" name="Torres"></home>
+<away id="2343671" name="Carrarese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457755" date="20.09.2015" id="" static_id="20091523498302343589" status="13:00" time="13:00">
+<home id="2349830" name="Tuttocuoio"></home>
+<away id="2343589" name="Arezzo"></away>
+
+
+</match></league><league country="italy" name="Italy: Lega Pro - Group C" cup="False" id="3384" sub_id=""><match alternate_id="" alternate_id_2="4457766" date="05.09.2015" id="" static_id="05091523437902343728" status="18:30" time="18:30">
+<home id="2343790" name="Paganese"></home>
+<away id="2343728" name="Foggia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457760" date="06.09.2015" id="" static_id="06091523436782343672" status="13:00" time="13:00">
+<home id="2343678" name="Catanzaro"></home>
+<away id="2343672" name="Casertana"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457761" date="06.09.2015" id="" static_id="06091523436202355781" status="13:00" time="13:00">
+<home id="2343620" name="Ischia"></home>
+<away id="2355781" name="Castelli Romani"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457763" date="06.09.2015" id="" static_id="06091523437132354356" status="13:00" time="13:00">
+<home id="2343713" name="Matera"></home>
+<away id="2354356" name="Akragas"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457765" date="06.09.2015" id="" static_id="06091523436912343561" status="13:00" time="13:00">
+<home id="2343691" name="Nuova Cosenza"></home>
+<away id="2343561" name="Martina Franca"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457764" date="06.09.2015" id="" static_id="06091523437692343754" status="15:00" time="15:00">
+<home id="2343769" name="Melfi"></home>
+<away id="2343754" name="Juve Stabia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457759" date="06.09.2015" id="" static_id="06091523436542343928" status="18:30" time="18:30">
+<home id="2343654" name="Benevento"></home>
+<away id="2343928" name="Vigor Lamezia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457762" date="06.09.2015" id="" static_id="06091523437592343588" status="18:30" time="18:30">
+<home id="2343759" name="Lecce"></home>
+<away id="2343588" name="Andria"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457767" date="13.09.2015" id="" static_id="13091523435882343713" status="13:00" time="13:00">
+<home id="2343588" name="Andria"></home>
+<away id="2343713" name="Matera"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457768" date="13.09.2015" id="" static_id="13091523436722343769" status="13:00" time="13:00">
+<home id="2343672" name="Casertana"></home>
+<away id="2343769" name="Melfi"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457769" date="13.09.2015" id="" static_id="13091523557812343654" status="13:00" time="13:00">
+<home id="2355781" name="Castelli Romani"></home>
+<away id="2343654" name="Benevento"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457770" date="13.09.2015" id="" static_id="13091523437282343678" status="13:00" time="13:00">
+<home id="2343728" name="Foggia"></home>
+<away id="2343678" name="Catanzaro"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457771" date="13.09.2015" id="" static_id="13091523437542343759" status="13:00" time="13:00">
+<home id="2343754" name="Juve Stabia"></home>
+<away id="2343759" name="Lecce"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457772" date="13.09.2015" id="" static_id="13091523435612343790" status="13:00" time="13:00">
+<home id="2343561" name="Martina Franca"></home>
+<away id="2343790" name="Paganese"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457773" date="13.09.2015" id="" static_id="13091523439282343620" status="13:00" time="13:00">
+<home id="2343928" name="Vigor Lamezia"></home>
+<away id="2343620" name="Ischia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457780" date="20.09.2015" id="" static_id="20091523436542343728" status="13:00" time="13:00">
+<home id="2343654" name="Benevento"></home>
+<away id="2343728" name="Foggia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457779" date="20.09.2015" id="" static_id="20091523436782343754" status="13:00" time="13:00">
+<home id="2343678" name="Catanzaro"></home>
+<away id="2343754" name="Juve Stabia"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457776" date="20.09.2015" id="" static_id="20091523437692355781" status="13:00" time="13:00">
+<home id="2343769" name="Melfi"></home>
+<away id="2355781" name="Castelli Romani"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457777" date="20.09.2015" id="" static_id="20091523436912354356" status="13:00" time="13:00">
+<home id="2343691" name="Nuova Cosenza"></home>
+<away id="2354356" name="Akragas"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4457778" date="20.09.2015" id="" static_id="20091523437902343588" status="13:00" time="13:00">
+<home id="2343790" name="Paganese"></home>
+<away id="2343588" name="Andria"></away>
+
+
+</match></league><league country="italy" name="Italy: Coppa Italia" cup="True" id="3097" sub_id="30970"><match alternate_id="4193552" alternate_id_2="4454715" date="02.12.2015" id="4311057" static_id="02121523437712343694" status="19:00" time="19:00">
+<home id="2343771" name="AC Milan"></home>
+<away id="2343694" name="Crotone"></away>
+
+
+</match><match alternate_id="4193553" alternate_id_2="4454342" date="02.12.2015" id="4311058" static_id="02121523436702343925" status="19:00" time="19:00">
+<home id="2343670" name="Carpi"></home>
+<away id="2343925" name="Vicenza"></away>
+
+
+</match><match alternate_id="4193551" alternate_id_2="4453820" date="02.12.2015" id="4311056" static_id="02121523437912343585" status="19:00" time="19:00">
 <home id="2343791" name="Palermo"></home>
 <away id="2343585" name="Alessandria"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4453825" date="02.12.2015" id="" static_id="02121523438462343663" status="19:00" time="19:00">
+</match><match alternate_id="4193548" alternate_id_2="4453825" date="02.12.2015" id="4311053" static_id="02121523438462343663" status="19:00" time="19:00">
 <home id="2343846" name="Sassuolo"></home>
 <away id="2343663" name="Cagliari"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4454168" date="02.12.2015" id="" static_id="02121523438842343644" status="19:00" time="19:00">
+</match><match alternate_id="4193550" alternate_id_2="4454684" date="02.12.2015" id="4311055" static_id="02121523438602343835" status="19:00" time="19:00">
+<home id="2343860" name="Spezia"></home>
+<away id="2343835" name="Salernitana"></away>
+
+
+</match><match alternate_id="4196933" alternate_id_2="4455352" date="02.12.2015" id="4314438" static_id="02121523438792343682" status="19:00" time="19:00">
+<home id="2343879" name="Torino"></home>
+<away id="2343682" name="Cesena"></away>
+
+
+</match><match alternate_id="4193547" alternate_id_2="4454168" date="02.12.2015" id="4311052" static_id="02121523438842343644" status="19:00" time="19:00">
 <home id="2343884" name="Udinese"></home>
 <away id="2343644" name="Atalanta"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4453817" date="02.12.2015" id="" static_id="02121523437472343794" status="19:00" time="19:00">
+</match><match alternate_id="4193549" alternate_id_2="4453817" date="02.12.2015" id="4311054" static_id="02121523437472343794" status="19:00" time="19:00">
 <home id="2343747" name="Verona"></home>
 <away id="2343794" name="Pavia"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4454342" date="02.12.2015" id="" static_id="02121523439252343670" status="19:00" time="19:00">
-<home id="2343925" name="Vicenza"></home>
-<away id="2343670" name="Carpi"></away>
-
-
-</match></league><league country="italy" name="Italy: Coppa Italia Lega Pro" cup="True" id="3980" sub_id=""><match alternate_id="4186759" alternate_id_2="4452796" date="18.08.2015" id="4304265" static_id="18081523543562343928" status="17:00" time="17:00">
-<home id="2354356" name="Akragas"></home>
-<away id="2343928" name="Vigor Lamezia"></away>
-
-
-</match><match alternate_id="4186658" alternate_id_2="4452799" date="23.08.2015" id="4304164" static_id="23081523461282355781" status="15:00" time="15:00">
-<home id="2346128" name="Torres"></home>
-<away id="2355781" name="Castelli Romani"></away>
 
 
 </match></league></fixtures>
