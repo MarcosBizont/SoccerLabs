@@ -426,6 +426,8 @@ function inplay_block_info() {
   
   $blocks['inplay_controls'] = array('info' => t('Controls for in play'), );
   
+  $blocks['inplay_trial'] = array('info' => t('Trial'), );
+  
   return $blocks;
 }
 
@@ -479,8 +481,29 @@ function inplay_block_view($delta='') {
       $block['subject'] = '';
       $block['content'] = drupal_get_form('inplay_controls_form');
       break;
+    case 'inplay_trial' :
+      $block['subject'] = '';
+      $block['content'] = inplay_trial();
+      break;
   } 
   return $block;
+}
+
+function inplay_trial()
+{
+	$message = '';
+	if(inplay_is_ontrial())
+	{
+		$message = '<div class="inplaymessages messages warning">' . 
+				t('You are on trial period. Don\'t forgot to <a href="/en/be-member">become a member</a> and win money with our tips all the time.') . '</div>';	
+	}
+	elseif(!inplay_is_member() && !inplay_is_ontrial())
+	{
+		$message = '<div class="inplaymessages messages error">' . 
+				t('Your trial period is over!. <a href="/en/be-member">Become a member</a> and win money with our tips all the time.') . '</div>';	
+	}
+	return $message;
+				
 }
 
 function inplay_getmatchtitle($nid)
@@ -862,6 +885,12 @@ function inplay_is_member()
 {
 	global $user;
 	return in_array(7, array_keys($user->roles)) || in_array(6, array_keys($user->roles)) || in_array(4, array_keys($user->roles)) || in_array(3, array_keys($user->roles));
+}
+
+function inplay_is_ontrial()
+{
+	global $user;
+	return in_array(7, array_keys($user->roles));
 }
 
 function inplay_is_tipster()

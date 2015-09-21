@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="02.09.2015 00:40:51" sport="soccer" country="egypt"><league country="egypt" name="Egypt: Premier League" cup="False" id="3026" sub_id="30260"><match alternate_id="4112476" alternate_id_2="4337988" date="03.08.2015" id="4230024" static_id="03081523407922340791" status="FT" time="17:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:51" sport="soccer" country="egypt"><league country="egypt" name="Egypt: Premier League" cup="False" id="3026" sub_id="30260"><match alternate_id="4112476" alternate_id_2="4337988" date="03.08.2015" id="4230024" static_id="03081523407922340791" status="FT" time="17:30">
 <home goals="0" id="2340792" name="Zamalek"></home>
 <away goals="0" id="2340791" name="Wadi Degla"></away>
 <events>
@@ -201,6 +201,21 @@
 <event id="20418676" minute="76" player="Kamal I." playerid="2558043" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match><match alternate_id="4095266" alternate_id_2="4305561" date="02.07.2015" id="4212830" static_id="02071523407162340791" status="FT" time="20:00">
+<home goals="3" id="2340716" name="Al Ahly"></home>
+<away goals="1" id="2340791" name="Wadi Degla"></away>
+<events>
+<event id="19966164" minute="13" player="Sobhi R." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19966165" minute="22" player="Abdul Fadhil S." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19966166" minute="44" player="Saied M." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19966167" minute="45" player="Gamal A." playerid="2629851" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19966168" minute="63" player="Ghaly H." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="19966169" minute="73" player="Adel M." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19966170" minute="74" player="Nabiel R." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="19966171" minute="77" player="Ohawuchi S." playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="19966172" minute="90+1" player="Moteab E." playerid="2406921" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="4140516" alternate_id_2="4341713" date="02.07.2015" id="4258055" static_id="02071523407632340783" status="FT" time="20:00">
 <home goals="3" id="2340763" name="El Ismaily"></home>
 <away goals="1" id="2340783" name="Smouha"></away>
@@ -214,18 +229,28 @@
 <event id="20418670" minute="90+3" player="Al Sulaya A." playerid="2429156" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match><match alternate_id="4127449" alternate_id_2="4332942" date="02.07.2015" id="4244991" static_id="02071523407732340792" status="FT" time="20:00">
-<home goals="2" id="2340773" name="Misr Elmaqasah"></home>
-<away goals="1" id="2340792" name="Zamalek"></away>
+</match></league><league country="egypt" name="Egypt: Egypt Cup" cup="True" id="3923" sub_id="39230"><match alternate_id="4215074" alternate_id_2="4464739" date="21.09.2015" id="4332575" static_id="21091523407162340792" status="17:00" time="17:00">
+<home goals="?" id="2340716" name="Al Ahly"></home>
+<away goals="?" id="2340792" name="Zamalek"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4213138" alternate_id_2="4454953" date="17.09.2015" id="4330639" static_id="17091523407832340792" status="Pen." time="17:00">
+<home goals="0" id="2340783" name="Smouha"></home>
+<away goals="0" id="2340792" name="Zamalek"></away>
 <events>
-<event id="20287994" minute="30" player="Gaber O. (pen.)" playerid="2470775" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20287995" minute="38" player="Ahmed A." playerid="" result="" team="away" type="yellowcard"></event>
-<event id="20287996" minute="61" player="El S. A." playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="20287997" minute="74" player="Said H. (pen.)" playerid="2353231" result="[2 - 1]" team="home" type="goal"></event>
-<event id="20287998" minute="77" player="El S. A." playerid="" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[0-1]"></ht>
-</match></league><league country="egypt" name="Egypt: Egypt Cup" cup="True" id="3923" sub_id="39230"><match alternate_id="4190770" alternate_id_2="4453803" date="18.08.2015" id="4308276" static_id="18081523384522340792" status="Pen." time="17:30">
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213137" alternate_id_2="4454316" date="16.09.2015" id="4330638" static_id="16091523407162340780" status="FT" time="17:00">
+<home goals="3" id="2340716" name="Al Ahly"></home>
+<away goals="1" id="2340780" name="Petrojet"></away>
+<events>
+<event id="21144874" minute="23" player="Ragab M." playerid="2526493" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21144875" minute="42" player="Sobhi R." playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="21144876" minute="70" player="Sayed H." playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="21144877" minute="88" player="Fathy A." playerid="2337065" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4190770" alternate_id_2="4453803" date="18.08.2015" id="4308276" static_id="18081523384522340792" status="Pen." time="17:30">
 <home goals="0" id="2338452" name="Al Ittihad"></home>
 <away goals="0" id="2340792" name="Zamalek"></away>
 <events>
@@ -378,41 +403,4 @@
 <event id="19965365" minute="69" player="Hosni S." playerid="2418651" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4095185" alternate_id_2="4302141" date="16.01.2015" id="4212749" static_id="16011523407632340734" status="FT" time="15:30">
-<home goals="1" id="2340763" name="El Ismaily"></home>
-<away goals="0" id="2340734" name="El Gaish"></away>
-<events>
-<event id="19965354" minute="4" player="Antwi J. (pen.)" playerid="2615409" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19965355" minute="85" player="Antwi J." playerid="2615409" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4095184" alternate_id_2="4302140" date="16.01.2015" id="4212748" static_id="" status="FT" time="12:30">
-<home goals="2" id="2340780" name="Petrojet"></home>
-<away goals="0" id="" name="Baladiyet El Mahallah"></away>
-<events>
-<event id="19965344" minute="38" player="Abdelaziz E." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19965345" minute="71" player="" playerid="" result="" team="away" type="redcard"></event>
-<event id="19965346" minute="72" player="Shebeita M." playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4095178" alternate_id_2="4302131" date="15.01.2015" id="4212742" static_id="" status="FT" time="15:30">
-<home goals="6" id="2340716" name="Al Ahly"></home>
-<away goals="1" id="" name="Tahta SC"></away>
-<events>
-<event id="19965284" minute="23" player="Soliman W." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19965285" minute="25" player="Al-Saied A." playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="19965286" minute="37" player="Naguib M." playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="19965287" minute="39" player="" playerid="" result="" team="away" type="redcard"></event>
-<event id="19965288" minute="40" player="Rezk M. (pen.)" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="19965289" minute="45+3" player="" playerid="" result="[4 - 1]" team="away" type="goal"></event>
-<event id="19965290" minute="66" player="Meteab E. (pen.)" playerid="" result="[5 - 1]" team="home" type="goal"></event>
-<event id="19965291" minute="68" player="Meteab E." playerid="" result="[6 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[4-1]"></ht>
-</match></league><league country="egypt" name="Egypt: Super Cup" cup="True" id="4098" sub_id=""><match alternate_id="" alternate_id_2="4273362" date="14.09.2014" id="" static_id="14091423407162340792" status="Pen." time="17:00">
-<home goals="0" id="2340716" name="Al Ahly"></home>
-<away goals="0" id="2340792" name="Zamalek"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league></recent_results>

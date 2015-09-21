@@ -806,3 +806,10 @@ padding-bottom: 10px;
 {
 	vertical-align: middle;
 }
+
+
+.view-analyze-bets-performance .bef-checkboxes
+{
+	height: 200px;
+    overflow: scroll;
+}

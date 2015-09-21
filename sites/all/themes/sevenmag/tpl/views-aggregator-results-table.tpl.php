@@ -45,7 +45,7 @@
             foreach (array_keys(reset($rows)) as $field):
           ?>
             <th <?php if (!empty($field_classes[$field])): ?>class="<?php print reset($field_classes[$field]); ?>"<?php endif ?>>
-              <?php print isset($totals[$field]) ? $totals[$field] : ''; ?>
+              <?php print isset($totals[$field]) ? $totals[$field] . ' -  ' .   number_format(($totals[$field]/count($rows))*100,2) . '%' : ''; ?>
             </th>
           <?php endforeach ?>
         </tr>
@@ -71,7 +71,7 @@
           foreach (array_keys(reset($rows)) as $field):
         ?>
           <th <?php if (!empty($field_classes[$field])): ?>class="<?php print reset($field_classes[$field]); ?>"<?php endif ?>>
-            <?php print isset($totals[$field]) ? $totals[$field]  : ''; ?>
+            <?php print isset($totals[$field]) ? $totals[$field] . ' -  ' .   number_format(($totals[$field]/count($rows))*100,2) . '%' : ''; ?>
           </th>
         <?php endforeach ?>
       </tr>

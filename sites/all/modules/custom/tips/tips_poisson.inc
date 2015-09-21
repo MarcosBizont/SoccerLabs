@@ -270,7 +270,7 @@ function tips_check_poisson_tips_creation_processmatch()
 						tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_1_5_by_match, 578);	
 					}
 					
-					if($over_1_5_by_match >= OVER_1_5_BY_MATCH_PROBABILITY)
+					if($over_1_5_by_match >= OVER_1_5_BY_MATCH_PROBABILITY || $over_2_5_by_match >= OVER_2_5_BY_MATCH_PROBABILITY || $over_3_5_by_match >= OVER_3_5_BY_MATCH_PROBABILITY)
 					{
 						$title = 'Over 1.5 by match : '  . intval($over_1_5_by_match*100) . '% ';	
 						tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_1_5_by_match, 753);	
@@ -282,7 +282,7 @@ function tips_check_poisson_tips_creation_processmatch()
 						tips_create_tip($match, json_encode($posson_stats), $title, 0, $under_2_5_by_match, 576);	
 					}
 					
-					if($over_2_5_by_match >= OVER_2_5_BY_MATCH_PROBABILITY)
+					if($over_2_5_by_match >= OVER_2_5_BY_MATCH_PROBABILITY || $over_3_5_by_match >= OVER_3_5_BY_MATCH_PROBABILITY)
 					{
 						$title = 'Over 2.5 by match : '  . intval($over_2_5_by_match*100) . '% ';	
 						tips_create_tip($match, json_encode($posson_stats), $title, 0, $over_2_5_by_match, 577);	

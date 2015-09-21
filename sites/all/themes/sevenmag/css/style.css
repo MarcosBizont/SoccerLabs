@@ -5460,6 +5460,10 @@ a.notification-close {
 	font-size: 150px;
 	line-height: 100%;
 }
+.node-type-blog-real #block-views-header-in-match-block .views-field .score {
+    font-size: 130px;
+    line-height: 150%;
+}
 
 #block-views-header-in-match-block .views-field .score i
 {
@@ -5812,3 +5816,17 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 .bar-point .allowed-to-rate .review-result i, .percentage-point .allowed-to-rate .review-result i, .mts-user-review-star-container .selected i { color: #55b2f3; opacity: 1; filter: alpha(opacity=100); }
 .review-wrapper, .review-title, .review-list li, .review-list li:last-child, .user-review-area{border-color: #efefef;}
 
+
+.node-type-blog-real .title-p
+{
+	display: none;
+}
+
+#block-block-21
+{
+	text-align: center;
+}
+
+#block-block-21 .matchsocial {
+    margin: 10px auto;
+}
