@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:35" sport="soccer" country="belarus"><league country="belarus" name="Belarus: Vysshaya Liga" cup="False" id="2932" sub_id="29320"><match alternate_id="4205419" alternate_id_2="4458748" date="21.09.2015" id="4322923" static_id="21091523385442338519" status="15:30" time="15:30">
-<home goals="?" id="2338544" name="Neman"></home>
-<away goals="?" id="2338519" name="FC Minsk"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4214363" alternate_id_2="4456793" date="21.09.2015" id="4331864" static_id="21091523385102338525" status="14:00" time="14:00">
-<home goals="?" id="2338510" name="Din. Minsk"></home>
-<away goals="?" id="2338525" name="Vitebsk"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:36" sport="soccer" country="belarus"><league country="belarus" name="Belarus: Vysshaya Liga" cup="False" id="2932" sub_id="29320"><match alternate_id="4205419" alternate_id_2="4458748" date="21.09.2015" id="4322923" static_id="21091523385442338519" status="FT" time="15:30">
+<home goals="1" id="2338544" name="Neman"></home>
+<away goals="1" id="2338519" name="FC Minsk"></away>
+<events>
+<event id="23600984" minute="10" player="Y. Ostroukh" playerid="2371400" result="" team="away" type="yellowcard"></event>
+<event id="23600985" minute="38" player="A. Bykov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23600986" minute="56" player="A. Limit" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23600987" minute="76" player="A. Sverchinski" playerid="2466279" result="" team="away" type="yellowcard"></event>
+<event id="23600988" minute="88" player="D. Kovalenok" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4214363" alternate_id_2="4456793" date="21.09.2015" id="4331864" static_id="21091523385102338525" status="FT" time="13:00">
+<home goals="0" id="2338510" name="Din. Minsk"></home>
+<away goals="0" id="2338525" name="Vitebsk"></away>
+<events>
+<event id="23581434" minute="21" player="R. Begunov" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23581435" minute="37" player="N. Korzun" playerid="2542327" result="" team="home" type="yellowcard"></event>
+<event id="23581436" minute="89" player="A. Aleksandrovich" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4203255" alternate_id_2="4456899" date="20.09.2015" id="4320760" static_id="20091523385042338561" status="FT" time="16:30">
 <home goals="1" id="2338504" name="BATE"></home>
 <away goals="0" id="2338561" name="Zhodino"></away>

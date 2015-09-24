@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:41" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104077" alternate_id_2="4454267" date="21.09.2015" id="4221632" static_id="21091523398742339882" status="11:35" time="11:35">
-<home goals="?" id="2339874" name="Guangzhou RandF"></home>
-<away goals="?" id="2339882" name="Guangzhou Evergrande"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:43" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104077" alternate_id_2="4454267" date="21.09.2015" id="4221632" static_id="21091523398742339882" status="FT" time="11:35">
+<home goals="1" id="2339874" name="Guangzhou RandF"></home>
+<away goals="2" id="2339882" name="Guangzhou Evergrande"></away>
+<events>
+<event id="23556174" minute="17" player="Renatinho" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23556175" minute="25" player="Zhang Yaokun" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23556176" minute="26" player="Liu Jian" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23556177" minute="32" player="R. Goulart (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23556178" minute="41" player="Zheng Zou" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23556179" minute="90" player="Zheng Zou" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23556180" minute="90+4" player="J. Bokila" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4104302" alternate_id_2="4456592" date="20.09.2015" id="4221857" static_id="20091523398862339873" status="FT" time="11:45">
 <home goals="0" id="2339886" name="Henan Jianye"></home>
 <away goals="0" id="2339873" name="Changchun Yatai"></away>
@@ -231,7 +239,17 @@
 <event id="23119069" minute="90+2" player="M. Constantin" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="china" name="China: Jia League" cup="False" id="2995" sub_id=""><match alternate_id="4114811" alternate_id_2="4465298" date="20.09.2015" id="4232359" static_id="20091523509262339927" status="FT" time="07:00">
+</match></league><league country="china" name="China: Jia League" cup="False" id="2995" sub_id=""><match alternate_id="4114793" alternate_id_2="4466787" date="23.09.2015" id="4232341" static_id="23091523398682350925" status="FT" time="11:30">
+<home goals="4" id="2339868" name="Beijing"></home>
+<away goals="0" id="2350925" name="Guizhou Zhicheng"></away>
+<events>
+<event id="23681374" minute="15" player="Chen HaoWei" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23681375" minute="63" player="Chen HaoWei" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23681376" minute="78" player="Chen HaoWei" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23681377" minute="84" player="Godfred Karikari" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4114811" alternate_id_2="4465298" date="20.09.2015" id="4232359" static_id="20091523509262339927" status="FT" time="07:00">
 <home goals="1" id="2350926" name="Tianjin SongJiang"></home>
 <away goals="0" id="2339927" name="Harbin Yiteng"></away>
 <events>
@@ -401,19 +419,6 @@
 <event id="23593368" minute="90" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-2]"></ht>
-</match><match alternate_id="4114791" alternate_id_2="4457987" date="29.08.2015" id="4232339" static_id="29081523496462355081" status="FT" time="11:30">
-<home goals="3" id="2349646" name="Hunan Xiangtao"></home>
-<away goals="1" id="2355081" name="Jiangxi Liansheng"></away>
-<events>
-<event id="23593374" minute="15" player="Di Zhaoyu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23593375" minute="27" player="Huang Jiaqiang" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23593376" minute="34" player="Yao Jiangshan" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23593377" minute="44" player="Wang Jianwen" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23593378" minute="70" player="Liu Chao" playerid="" result="" team="home" type="redcard"></event>
-<event id="23593379" minute="80" player="Igor Burzanovic" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23593380" minute="90" player="Luis Carlos Cabezas Mairongo" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match></league><league country="china" name="China: Fa Cup" cup="True" id="4077" sub_id="40770"><match alternate_id="4157529" alternate_id_2="4346659" date="19.08.2015" id="4275058" static_id="19081523398862339910" status="Pen." time="11:45">
 <home goals="1" id="2339886" name="Henan Jianye"></home>
 <away goals="1" id="2339910" name="Shandong Luneng"></away>

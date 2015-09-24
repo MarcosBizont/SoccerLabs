@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:18" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4159303" alternate_id_2="4362554" date="18.09.2015" id="4276829" static_id="18091523449532344950" status="FT" time="18:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:18" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4159314" alternate_id_2="4362564" date="22.09.2015" id="4276840" static_id="22091523449502344941" status="FT" time="19:30">
+<home goals="2" id="2344950" name="Moghreb Tétouan"></home>
+<away goals="4" id="2344941" name="Hassania Agadir"></away>
+<events>
+<event id="20606644" minute="11" player="El Gourch" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20606645" minute="20" player="El Gourch" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="20606646" minute="50" player="El Gourch" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="20606647" minute="67" player="Aouk" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="20606648" minute="84" player="Bellakhdar (pen.)" playerid="" result="[1 - 4]" team="home" type="goal"></event>
+<event id="20606649" minute="90" player="Abourazzouk" playerid="" result="[2 - 4]" team="home" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4159303" alternate_id_2="4362554" date="18.09.2015" id="4276829" static_id="18091523449532344950" status="FT" time="18:00">
 <home goals="1" id="2344953" name="Olympique de Safi"></home>
 <away goals="0" id="2344950" name="Moghreb Tétouan"></away>
 <events>
@@ -10,7 +22,8 @@
 <away goals="1" id="2344939" name="FUS Rabat"></away>
 <events>
 <event id="20606594" minute="25" player="Mandaw" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="20606595" minute="90" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20606595" minute="89" player="Ennaffati" playerid="" result="" team="away" type="redcard"></event>
+<event id="20606596" minute="90" player="Sidibe (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4159312" alternate_id_2="4362562" date="13.09.2015" id="4159312" static_id="13091523449522344970" status="FT" time="16:15">
@@ -27,8 +40,8 @@
 <home goals="0" id="2344937" name="Difaâ El Jadidi"></home>
 <away goals="1" id="2344960" name="Berkane"></away>
 <events>
-<event id="20606634" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="20606635" minute="90" player="Al Najy Laarbi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20606634" minute="89" player="Aguerdoum" playerid="" result="" team="home" type="redcard"></event>
+<event id="20606635" minute="90" player="Laarbi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4159307" alternate_id_2="4362561" date="13.09.2015" id="4159307" static_id="13091523449512344947" status="FT" time="14:00">
@@ -54,7 +67,7 @@
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4159310" alternate_id_2="4362559" date="12.09.2015" id="4159310" static_id="" status="FT" time="16:00">
-<home goals="0" id="2344933" name="Hoceima"></home>
+<home goals="1" id="2344933" name="Hoceima"></home>
 <away goals="0" id="" name="IR Tanger"></away>
 <events>
 <event id="20606604" minute="75" player="Elmobaraky" playerid="" result="[1 - 0]" team="home" type="goal"></event>
@@ -74,12 +87,12 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4362549" date="06.09.2015" id="" static_id="06091523449392344957" status="FT" time="15:00">
+</match><match alternate_id="4159300" alternate_id_2="4362549" date="06.09.2015" id="4159300" static_id="06091523449392344957" status="FT" time="15:00">
 <home goals="2" id="2344939" name="FUS Rabat"></home>
 <away goals="0" id="2344957" name="Raja Casablanca"></away>
 <events>
-<event id="2331834" minute="45" player="Batna" playerid="2617180" result="[1 - 0]" team="home" type="goal"></event>
-<event id="2331835" minute="54" player="Fouzair" playerid="2620732" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20606504" minute="45" player="Batna" playerid="2617180" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20606505" minute="54" player="Fouzair" playerid="2620732" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4159304" alternate_id_2="4362555" date="06.09.2015" id="4159304" static_id="06091523449702344938" status="FT" time="15:00">
@@ -114,13 +127,15 @@
 <events>
 <event id="20606524" minute="33" player="Lirki" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="20606525" minute="36" player="El Gourch" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="20606526" minute="43" player="Benhania" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="20606526" minute="43" player="Benhania (pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match></league><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4035389" alternate_id_2="4329892" date="24.05.2015" id="4153004" static_id="24051523449702344952" status="FT" time="17:00">
 <home goals="0" id="2344970" name="Wydad Casablanca"></home>
 <away goals="1" id="2344952" name="Olympique Khouribga"></away>
 <events>
+<event id="19367394" minute="21" player="Mazgouri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19367395" minute="28" player="Bezghoudi" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4035390" alternate_id_2="4329919" date="24.05.2015" id="4035390" static_id="24051523449392344941" status="FT" time="16:00">
@@ -138,15 +153,7 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4035393" alternate_id_2="4329783" date="23.05.2015" id="4153008" static_id="23051523449602344938" status="FT" time="16:00">
-<home goals="1" id="2344960" name="Berkane"></home>
-<away goals="1" id="2344938" name="FAR Rabat"></away>
-<events>
-<event id="19367434" minute="48" player="Azziz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19367435" minute="67" player="Berrahma" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4035392" alternate_id_2="4329784" date="23.05.2015" id="4035392" static_id="23051523449332344937" status="FT" time="16:00">
+</match><match alternate_id="4035392" alternate_id_2="4329784" date="23.05.2015" id="4153007" static_id="23051523449332344937" status="FT" time="16:00">
 <home goals="1" id="2344933" name="Hoceima"></home>
 <away goals="0" id="2344937" name="Difaâ El Jadidi"></away>
 <events>
@@ -183,7 +190,7 @@
 <events>
 </events>
 <ht score="[1-2]"></ht>
-</match><match alternate_id="4159557" alternate_id_2="4362667" date="12.09.2015" id="4159557" static_id="12091523449452344965" status="FT" time="16:00">
+</match><match alternate_id="4159557" alternate_id_2="4362667" date="12.09.2015" id="4277083" static_id="12091523449452344965" status="FT" time="16:00">
 <home goals="2" id="2344945" name="Kasba Tadla"></home>
 <away goals="1" id="2344965" name="Union Ait Melloul"></away>
 <events>
@@ -213,13 +220,13 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4159548" alternate_id_2="4362660" date="06.09.2015" id="4277074" static_id="06091523449462344935" status="FT" time="15:00">
+</match><match alternate_id="4159548" alternate_id_2="4362660" date="06.09.2015" id="4159548" static_id="06091523449462344935" status="FT" time="15:00">
 <home goals="2" id="2344946" name="Jeunesse Massira"></home>
 <away goals="3" id="2344935" name="Meknes"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4159553" alternate_id_2="4362658" date="05.09.2015" id="4159553" static_id="05091523449322344945" status="FT" time="16:00">
+</match><match alternate_id="4159553" alternate_id_2="4362658" date="05.09.2015" id="4277079" static_id="05091523449322344945" status="FT" time="16:00">
 <home goals="1" id="2344932" name="Chabab Atlas Khenifra"></home>
 <away goals="1" id="2344945" name="Kasba Tadla"></away>
 <events>
@@ -249,43 +256,72 @@
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="morocco" name="Morocco: Elite 2" cup="False" id="3150" sub_id="31500"><match alternate_id="4047360" alternate_id_2="4325453" date="03.05.2015" id="4164972" static_id="03051523449352344946" status="FT" time="15:00">
-<home goals="1" id="2344935" name="Meknes"></home>
-<away goals="0" id="2344946" name="Jeunesse Massira"></away>
-<events>
-<event id="19487104" minute="45" player="Talib" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4047361" alternate_id_2="4325454" date="03.05.2015" id="4164973" static_id="03051523518772344956" status="FT" time="15:00">
-<home goals="0" id="2351877" name="Raja Beni Mellal"></home>
-<away goals="0" id="2344956" name="RAC Casablanca"></away>
+</match></league><league country="morocco" name="Morocco: Elite 2" cup="False" id="3150" sub_id="31500"><match alternate_id="4047365" alternate_id_2="4325596" date="03.05.2015" id="4164977" static_id="" status="FT" time="15:00">
+<home goals="1" id="" name="IR Tanger"></home>
+<away goals="1" id="2344929" name="Sale"></away>
 <events>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4047367" alternate_id_2="4325455" date="03.05.2015" id="4047367" static_id="03051523449712344931" status="FT" time="15:00">
-<home goals="1" id="2344971" name="Wydad Fes"></home>
-<away goals="3" id="2344931" name="Chabab Houara"></away>
+<ht score="[-]"></ht>
+</match><match alternate_id="4047364" alternate_id_2="4325667" date="03.05.2015" id="4047364" static_id="03051523449512344968" status="FT" time="15:00">
+<home goals="1" id="2344951" name="Mouloudia Oujda"></home>
+<away goals="0" id="2344968" name="US Témara"></away>
+<events>
+<event id="19487144" minute="87" player="Aly Thiam" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="4047362" alternate_id_2="4325605" date="03.05.2015" id="4164974" static_id="03051523449672344965" status="FT" time="15:00">
+<home goals="2" id="2344967" name="Union de Mohammédia"></home>
+<away goals="4" id="2344965" name="Union Ait Melloul"></away>
+<events>
+<event id="19487124" minute="19" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19487125" minute="26" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19487126" minute="55" player="" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="19487127" minute="60" player="" playerid="" result="" team="home" type="redcard"></event>
+<event id="19487128" minute="61" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="19487129" minute="66" player="" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="19487130" minute="80" player="" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4047363" alternate_id_2="4325606" date="03.05.2015" id="4047363" static_id="03051523556482355647" status="FT" time="15:00">
+<home goals="2" id="2355648" name="Widad Temara"></home>
+<away goals="1" id="2355647" name="Dcheira"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4047366" alternate_id_2="4325456" date="03.05.2015" id="4164978" static_id="03051523449302344945" status="FT" time="15:00">
-<home goals="1" id="2344930" name="Youssoufia Berrechid"></home>
-<away goals="1" id="2344945" name="Kasba Tadla"></away>
+</match></league><league country="morocco" name="Morocco: Coupe Du Trone" cup="False" id="5029" sub_id=""><match alternate_id="" alternate_id_2="4462099" date="22.09.2015" id="" static_id="22091523449492344957" status="Pen." time="17:15">
+<home goals="1" id="2344949" name="Maghreb Fez"></home>
+<away goals="1" id="2344957" name="Raja Casablanca"></away>
 <events>
-<event id="19487164" minute="45" player="Almosawi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19487165" minute="90" player="Bihi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="2331834" minute="13" player="El Ouadi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="85" player="Bencharki" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match></league><league country="morocco" name="Morocco: Coupe Du Trone" cup="False" id="5029" sub_id=""><match alternate_id="" alternate_id_2="4462098" date="21.09.2015" id="" static_id="" status="18:00" time="18:00">
-<home goals="?" id="" name="IR Tanger"></home>
-<away goals="?" id="2344952" name="Olympique Khouribga"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4462097" date="21.09.2015" id="" static_id="21091523449332344932" status="15:30" time="15:30">
-<home goals="?" id="2344933" name="Hoceima"></home>
-<away goals="?" id="2344932" name="Chabab Atlas Khenifra"></away>
-<events></events>
-<ht score=""></ht>
+<ht score="[0-1]"></ht>
+<penalty localteam="2" visitorteam="4"></penalty>
+</match><match alternate_id="" alternate_id_2="4462096" date="22.09.2015" id="" static_id="22091523449392344947" status="Pen." time="15:00">
+<home goals="0" id="2344939" name="FUS Rabat"></home>
+<away goals="1" id="2344947" name="KAC Kenitra"></away>
+<events>
+<event id="2331834" minute="10" player="El Masskini" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+<penalty localteam="8" visitorteam="7"></penalty>
+</match><match alternate_id="" alternate_id_2="4462098" date="21.09.2015" id="" static_id="" status="FT" time="18:00">
+<home goals="1" id="" name="IR Tanger"></home>
+<away goals="2" id="2344952" name="Olympique Khouribga"></away>
+<events>
+<event id="2331834" minute="36" player="Abdessamad (pen.)" playerid="2353382" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="45" player="Diomande" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="2331836" minute="54" player="Tiberkanine (pen.)" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4462097" date="21.09.2015" id="" static_id="21091523449332344932" status="Pen." time="15:30">
+<home goals="1" id="2344933" name="Hoceima"></home>
+<away goals="0" id="2344932" name="Chabab Atlas Khenifra"></away>
+<events>
+<event id="2331834" minute="78" player="Labhiri (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="3" visitorteam="5"></penalty>
 </match><match alternate_id="" alternate_id_2="4462095" date="19.09.2015" id="" static_id="19091523449572344949" status="FT" time="17:00">
 <home goals="1" id="2344957" name="Raja Casablanca"></home>
 <away goals="1" id="2344949" name="Maghreb Fez"></away>
@@ -299,6 +335,7 @@
 <away goals="1" id="2344939" name="FUS Rabat"></away>
 <events>
 <event id="2331834" minute="37" player="Benjelloun" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="90" player="Berouas" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4462092" date="18.09.2015" id="" static_id="18091523449322344933" status="FT" time="16:00">
@@ -313,7 +350,7 @@
 <away goals="1" id="" name="IR Tanger"></away>
 <events>
 <event id="2331834" minute="81" player="Lahrari" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="2331835" minute="89" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="89" player="Abdelghani" playerid="2490004" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4459421" date="09.09.2015" id="" static_id="09091523449702344947" status="FT" time="19:30">
@@ -398,7 +435,7 @@
 <away goals="0" id="2344970" name="Wydad Casablanca"></away>
 <events>
 <event id="2331834" minute="40" player="Berouas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="2331835" minute="81" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="2331835" minute="81" player="Saidi" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4459409" date="01.09.2015" id="" static_id="01091523449372344939" status="FT" time="16:30">
@@ -410,16 +447,4 @@
 <event id="2331836" minute="83" player="Jarici" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4459408" date="01.09.2015" id="" static_id="01091523449322344967" status="FT" time="16:00">
-<home goals="0" id="2344932" name="Chabab Atlas Khenifra"></home>
-<away goals="0" id="2344967" name="Union de Mohammédia"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4459411" date="01.09.2015" id="" static_id="01091523505922344952" status="FT" time="16:00">
-<home goals="0" id="2350592" name="Rachad Bernoussi"></home>
-<away goals="3" id="2344952" name="Olympique Khouribga"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match></league></recent_results>

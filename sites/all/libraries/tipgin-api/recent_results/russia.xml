@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:28" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="4140628" alternate_id_2="4456548" date="21.09.2015" id="4258166" static_id="21091523466362346729" status="16:00" time="16:00">
-<home goals="?" id="2346636" name="Dynamo Moscow"></home>
-<away goals="?" id="2346729" name="Rubin Kazan"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4140629" alternate_id_2="4456549" date="21.09.2015" id="4258167" static_id="21091523467722346660" status="13:30" time="13:30">
-<home goals="?" id="2346772" name="Ural"></home>
-<away goals="?" id="2346660" name="Krasnodar"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:27" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="4140628" alternate_id_2="4456548" date="21.09.2015" id="4258166" static_id="21091523466362346729" status="FT" time="16:00">
+<home goals="0" id="2346636" name="Dynamo Moscow"></home>
+<away goals="0" id="2346729" name="Rubin Kazan"></away>
+<events>
+<event id="23578984" minute="23" player="S. Kverkvelia" playerid="2466166" result="" team="away" type="yellowcard"></event>
+<event id="23578985" minute="28" player="A. Kokorin" playerid="2397092" result="" team="home" type="yellowcard"></event>
+<event id="23578986" minute="44" player="S. Kislyak" playerid="2408359" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4140629" alternate_id_2="4456549" date="21.09.2015" id="4258167" static_id="21091523467722346660" status="FT" time="13:30">
+<home goals="3" id="2346772" name="Ural"></home>
+<away goals="1" id="2346660" name="Krasnodar"></away>
+<events>
+<event id="23578994" minute="22" player="O. Ahmedov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23578995" minute="36" player="V. Podberezkin" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23578996" minute="45" player="C. Kabore" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23578997" minute="69" player="G. Acevedo" playerid="2397225" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23578998" minute="73" player="Y. Gazinskiy" playerid="2452671" result="" team="away" type="yellowcard"></event>
+<event id="23578999" minute="74" player="P. Fontanello" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4140627" alternate_id_2="4456614" date="20.09.2015" id="4258165" static_id="20091523467042346695" status="FT" time="16:30">
 <home goals="2" id="2346704" name="Lokomotiv Moscow"></home>
 <away goals="0" id="2346695" name="Krylya Sovetov Samara"></away>
@@ -287,11 +298,18 @@
 <event id="22398027" minute="83" player="A. Stavpets" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="russia" name="Russia: Division 1" cup="False" id="3196" sub_id="31960"><match alternate_id="4155579" alternate_id_2="4461655" date="21.09.2015" id="4273110" static_id="21091523538482346708" status="16:00" time="16:00">
-<home goals="?" id="2353848" name="Tosno"></home>
-<away goals="?" id="2346708" name="Luch Energiya"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="russia" name="Russia: Division 1" cup="False" id="3196" sub_id="31960"><match alternate_id="4155579" alternate_id_2="4461655" date="21.09.2015" id="4273110" static_id="21091523538482346708" status="FT" time="16:00">
+<home goals="0" id="2353848" name="Tosno"></home>
+<away goals="2" id="2346708" name="Luch Energiya"></away>
+<events>
+<event id="23630054" minute="10" player="M. Kowalczyk" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23630055" minute="26" player="M. Zyuzin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23630056" minute="31" player="M. Kazankov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23630057" minute="41" player="M. Kowalczyk" playerid="" result="" team="home" type="yellowred"></event>
+<event id="23630058" minute="83" player="E. Kobozev" playerid="" result="" team="home" type="redcard"></event>
+<event id="23630059" minute="90+6" player="D. Klopkov" playerid="2360398" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4155584" alternate_id_2="4461650" date="20.09.2015" id="4273115" static_id="20091523466452346744" status="FT" time="15:00">
 <home goals="2" id="2346645" name="F. Voronezh"></home>
 <away goals="1" id="2346744" name="Sibir"></away>
@@ -512,11 +530,15 @@
 <event id="23604740" minute="85" player="K. Troyanov" playerid="2634293" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="russia" name="Russia: Youth League" cup="False" id="4220" sub_id="42200"><match alternate_id="4214993" alternate_id_2="4455952" date="21.09.2015" id="4332494" static_id="21091523540592354061" status="06:00" time="06:00">
-<home goals="?" id="2354059" name="Ural U21"></home>
-<away goals="?" id="2354061" name="Krasnodar U21"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="russia" name="Russia: Youth League" cup="False" id="4220" sub_id="42200"><match alternate_id="4214993" alternate_id_2="4455952" date="21.09.2015" id="4332494" static_id="21091523540592354061" status="FT" time="06:00">
+<home goals="1" id="2354059" name="Ural U21"></home>
+<away goals="2" id="2354061" name="Krasnodar U21"></away>
+<events>
+<event id="23573024" minute="20" player="A. Shcherbakov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23573025" minute="52" player="D. Vasenin" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23573026" minute="55" player="A. Tataev" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4214992" alternate_id_2="4455950" date="20.09.2015" id="4332493" static_id="20091523540182354023" status="FT" time="15:00">
 <home goals="0" id="2354018" name="Dynamo Moscow U21"></home>
 <away goals="1" id="2354023" name="Rubin Kazan U21"></away>
@@ -686,6 +708,141 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match></league><league country="russia" name="Russia: Russian Cup" cup="True" id="3197" sub_id="31970"><match alternate_id="4206508" alternate_id_2="4460328" date="24.09.2015" id="4324012" static_id="24091523466592346715" status="16:00" time="16:00">
+<home goals="?" id="2346659" name="Khimki"></home>
+<away goals="?" id="2346715" name="M. Saransk"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4206507" alternate_id_2="4460335" date="24.09.2015" id="4324011" static_id="24091523538482346670" status="16:00" time="16:00">
+<home goals="?" id="2353848" name="Tosno"></home>
+<away goals="?" id="2346670" name="FK Rostov"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4206504" alternate_id_2="4460334" date="24.09.2015" id="4324008" static_id="24091523467562346617" status="15:30" time="15:30">
+<home goals="?" id="2346756" name="Spartak Nalchik"></home>
+<away goals="?" id="2346617" name="Amkar"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4206500" alternate_id_2="4460329" date="24.09.2015" id="4324004" static_id="24091523467032346636" status="15:00" time="15:00">
+<home goals="?" id="2346703" name="Liski"></home>
+<away goals="?" id="2346636" name="Dynamo Moscow"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4206499" alternate_id_2="4460338" date="24.09.2015" id="4324003" static_id="24091523467122346772" status="45" time="12:00">
+<home goals="1" id="2346712" name="Yenisey"></home>
+<away goals="0" id="2346772" name="Ural"></away>
+<events>
+<event id="23616884" minute="16" player="J. Lezcano (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4206510" alternate_id_2="4460339" date="24.09.2015" id="4324014" static_id="24091523467512346660" status="45" time="12:00">
+<home goals="0" id="2346751" name="Zenit-Izhevsk"></home>
+<away goals="0" id="2346660" name="Krasnodar"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4206502" alternate_id_2="4460333" date="24.09.2015" id="4324006" static_id="24091523466432346729" status="FT" time="09:00">
+<home goals="2" id="2346643" name="SKA Energiya"></home>
+<away goals="0" id="2346729" name="Rubin Kazan"></away>
+<events>
+<event id="23616834" minute="3" player="M. Popov" playerid="2359426" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23616835" minute="90+1" player="K. Bazelyuk" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4206503" alternate_id_2="4460332" date="23.09.2015" id="4324007" static_id="23091523467502346619" status="FT" time="16:00">
+<home goals="2" id="2346750" name="Saratov"></home>
+<away goals="4" id="2346619" name="Anzhi"></away>
+<events>
+<event id="23616824" minute="17" player="A. Stolyarenko" playerid="2427579" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23616825" minute="36" player="Y. Boli" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23616826" minute="61" player="Leonardo" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23616827" minute="74" player="H. Almeida" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="23616828" minute="88" player="A. Korotaev" playerid="" result="[2 - 3]" team="home" type="goal"></event>
+<event id="23616829" minute="90+1" player="H. Almeida" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4214911" alternate_id_2="4463798" date="23.09.2015" id="4332412" static_id="23091523467432346696" status="FT" time="15:30">
+<home goals="1" id="2346743" name="Shinnik Yaroslavl"></home>
+<away goals="2" id="2346696" name="Kuban"></away>
+<events>
+<event id="23651484" minute="52" player="I. Nuris" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23651485" minute="85" player="K. Volchkov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23651486" minute="90" player="M. Platica" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4206498" alternate_id_2="4460337" date="23.09.2015" id="4324002" static_id="23091523467762346754" status="FT" time="15:00">
+<home goals="0" id="2346776" name="Volga N. Novgorod"></home>
+<away goals="7" id="2346754" name="Spartak Moscow"></away>
+<events>
+<event id="23616874" minute="4" player="Ze Luis" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23616875" minute="21" player="I. Popov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23616876" minute="26" player="Ze Luis" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23616877" minute="38" player="S. Bokketti" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23616878" minute="45+1" player="I. Popov" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="23616879" minute="51" player="S. Tasci" playerid="2333778" result="[0 - 5]" team="away" type="goal"></event>
+<event id="23616880" minute="54" player="A. Zotov" playerid="" result="[0 - 6]" team="away" type="goal"></event>
+<event id="23616881" minute="70" player="A. Ozbiliz" playerid="2469969" result="[0 - 7]" team="away" type="goal"></event>
+<event id="23616882" minute="81" player="Z. Bakaev" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-4]"></ht>
+</match><match alternate_id="4206509" alternate_id_2="4460330" date="23.09.2015" id="4324013" static_id="23091523467212346763" status="FT" time="13:00">
+<home goals="0" id="2346721" name="Nosta"></home>
+<away goals="2" id="2346763" name="Terek Grozni"></away>
+<events>
+<event id="23616804" minute="63" player="K. Kadyrov" playerid="2467486" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23616805" minute="84" player="Kanu" playerid="2378956" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4206505" alternate_id_2="4460325" date="23.09.2015" id="4324009" static_id="23091523466782346704" status="FT" time="12:30">
+<home goals="0" id="2346678" name="Armavir"></home>
+<away goals="1" id="2346704" name="Lokomotiv Moscow"></away>
+<events>
+<event id="23616754" minute="78" player="P. Skuletic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4206506" alternate_id_2="4460327" date="23.09.2015" id="4324010" static_id="23091523538492346695" status="FT" time="12:00">
+<home goals="2" id="2353849" name="FC Tambov"></home>
+<away goals="3" id="2346695" name="Krylya Sovetov Samara"></away>
+<events>
+<event id="23616774" minute="4" player="O. Chernyshov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23616775" minute="15" player="A. Chochiev" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23616776" minute="45+3" player="A. Chasovskikh" playerid="2633383" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23616777" minute="57" player="M. Rodic" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="23616778" minute="85" player="I. Tsallagov" playerid="2453706" result="[2 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4206511" alternate_id_2="4460336" date="23.09.2015" id="4324015" static_id="23091523467772346783" status="AET" time="12:00">
+<home goals="0" id="2346777" name="Tver"></home>
+<away goals="3" id="2346783" name="Zenit Petersburg"></away>
+<events>
+<event id="23616864" minute="94" player="D. Tkachuk" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23616865" minute="106" player="D. Tkachuk" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23616866" minute="112" player="D. Tkachuk" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4206497" alternate_id_2="4460326" date="23.09.2015" id="4324001" static_id="23091523497062346629" status="AET" time="10:30">
+<home goals="1" id="2349706" name="Baikal Irkutsk"></home>
+<away goals="2" id="2346629" name="CSKA Moscow"></away>
+<events>
+<event id="23616764" minute="5" player="A. M. Wernbloom P." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23616765" minute="31" player="M. Mashnev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23616766" minute="45" player="N. Chernov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23616767" minute="78" player="A. Cauna" playerid="2361494" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23616768" minute="109" player="K. Panchenko" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23616769" minute="112" player="V. Vasin" playerid="2338622" result="" team="away" type="yellowcard"></event>
+<event id="23616770" minute="118" player="M. Merkulov" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4206501" alternate_id_2="4460331" date="23.09.2015" id="4324005" static_id="23091523467332346625" status="FT" time="09:00">
+<home goals="0" id="2346733" name="Sakhalin"></home>
+<away goals="4" id="2346625" name="Ufa"></away>
+<events>
+<event id="23616814" minute="18" player="A. Zaseyev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23616815" minute="25" player="V. Krotov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23616816" minute="73" player="V. Krotov" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23616817" minute="90+2" player="" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
 </match></league><league country="russia" name="Russia: Russian Cup - Qualification" cup="True" id="3197" sub_id="31972"><match alternate_id="" alternate_id_2="4454561" date="11.09.2015" id="" static_id="11091523566142346743" status="AET" time="13:00">
 <home goals="2" id="2356614" name="Shakhter Peshelan"></home>
 <away goals="3" id="2346743" name="Shinnik Yaroslavl"></away>
@@ -856,12 +1013,13 @@
 </events>
 <ht score="[1-1]"></ht>
 <penalty localteam="6" visitorteam="7"></penalty>
-</match><match alternate_id="4181795" alternate_id_2="4411082" date="08.08.2015" id="4299313" static_id="08081523509662346756" status="FT" time="14:00">
-<home goals="0" id="2350966" name="Dynamo Stavropol"></home>
-<away goals="3" id="2346756" name="Spartak Nalchik"></away>
+</match><match alternate_id="4181796" alternate_id_2="4411081" date="08.08.2015" id="4299314" static_id="08081523467772346668" status="Pen." time="14:00">
+<home goals="1" id="2346777" name="Tver"></home>
+<away goals="1" id="2346668" name="Pskov 747"></away>
 <events>
 </events>
-<ht score="[0-2]"></ht>
+<ht score="[0-0]"></ht>
+<penalty localteam="4" visitorteam="3"></penalty>
 </match></league><league country="russia" name="Russia: Russian Cup" cup="True" id="3197" sub_id="31970"><match alternate_id="" alternate_id_2="4330468" date="21.05.2015" id="" static_id="21051523467042346696" status="AET" time="16:00">
 <home goals="3" id="2346704" name="Lokomotiv Moscow"></home>
 <away goals="1" id="2346696" name="Kuban"></away>
@@ -925,171 +1083,6 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="4" visitorteam="2"></penalty>
-</match><match alternate_id="4082281" alternate_id_2="4286921" date="03.03.2015" id="4199864" static_id="03031523466202346685" status="AET" time="15:00">
-<home goals="0" id="2346620" name="Arsenal Tula"></home>
-<away goals="1" id="2346685" name="Orenburg"></away>
-<events>
-<event id="21882714" minute="112" player="K. Appaev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21882715" minute="114" player="A. Zotov" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21882716" minute="120" player="A. Kobyalko" playerid="2359509" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4082279" alternate_id_2="4286924" date="02.03.2015" id="4199862" static_id="02031523466962346715" status="FT" time="17:00">
-<home goals="1" id="2346696" name="Kuban"></home>
-<away goals="0" id="2346715" name="M. Saransk"></away>
-<events>
-<event id="21882744" minute="14" player="E. Lutsenko" playerid="2359661" result="" team="away" type="yellowcard"></event>
-<event id="21882745" minute="33" player="T. Sunjic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21882746" minute="78" player="V. Kulik" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21882747" minute="88" player="V. Bozovic" playerid="2343743" result="" team="away" type="yellowcard"></event>
-<event id="21882748" minute="90+4" player="I. Popov" playerid="2383643" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4082280" alternate_id_2="4286922" date="02.03.2015" id="4199863" static_id="02031523466292346695" status="FT" time="15:00">
-<home goals="1" id="2346629" name="CSKA Moscow"></home>
-<away goals="0" id="2346695" name="Krylya Sovetov Samara"></away>
-<events>
-<event id="21882724" minute="50" player="B. Natcho" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21882725" minute="62" player="R. Eremenko" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21882726" minute="85" player="Y. Adis" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21882727" minute="87" player="R. Eremenko" playerid="" result="" team="home" type="yellowred"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4080275" alternate_id_2="4276656" date="30.10.2014" id="4197865" static_id="30101423466602346695" status="FT" time="16:00">
-<home goals="1" id="2346660" name="Krasnodar"></home>
-<away goals="3" id="2346695" name="Krylya Sovetov Samara"></away>
-<events>
-<event id="21780064" minute="26" player="A. Pomerko" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21780065" minute="47" player="D. Yatchenko" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21780066" minute="55" player="A. Chochiev" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21780067" minute="70" player="W. Wanderson" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="21780068" minute="73" player="P. Mamaev" playerid="2348569" result="" team="home" type="yellowcard"></event>
-<event id="21780069" minute="88" player="I. Callagov (pen.)" playerid="2453706" result="[1 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4080276" alternate_id_2="4276660" date="30.10.2014" id="4197866" static_id="30101423467292346754" status="AET" time="16:00">
-<home goals="2" id="2346729" name="Rubin Kazan"></home>
-<away goals="0" id="2346754" name="Spartak Moscow"></away>
-<events>
-<event id="21780104" minute="26" player="T. Costa" playerid="2369518" result="" team="away" type="yellowcard"></event>
-<event id="21780105" minute="31" player="E. Nabiullin" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21780106" minute="72" player="J. Carlos" playerid="2345326" result="" team="away" type="yellowcard"></event>
-<event id="21780107" minute="76" player="C. Eduardo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21780108" minute="108" player="M. Livaja" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21780109" minute="109" player="M. Livaja" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21780110" minute="112" player="T. Costa" playerid="2369518" result="" team="away" type="yellowred"></event>
-<event id="21780111" minute="112" player="O. Kuzmin" playerid="2338394" result="" team="home" type="yellowcard"></event>
-<event id="21780112" minute="120+6" player="S. Azmoun (pen.)" playerid="2509975" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4080274" alternate_id_2="4276658" date="30.10.2014" id="4197864" static_id="30101423467152346743" status="FT" time="14:00">
-<home goals="5" id="2346715" name="M. Saransk"></home>
-<away goals="1" id="2346743" name="Shinnik Yaroslavl"></away>
-<events>
-<event id="21780084" minute="36" player="N. Malyarov" playerid="" result="" team="away" type="redcard"></event>
-<event id="21780085" minute="52" player="D. Sysuev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21780086" minute="54" player="E. Lutsenko" playerid="2359661" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21780087" minute="65" player="E. Lutsenko" playerid="2359661" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21780088" minute="67" player="V. Vasin" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21780089" minute="73" player="R. Mukhametshin" playerid="2419557" result="[5 - 0]" team="home" type="goal"></event>
-<event id="21780090" minute="87" player="A. Rylov (pen.)" playerid="" result="[5 - 1]" team="away" type="goal"></event>
-<event id="21780091" minute="87" player="R. Nakhushev" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4080270" alternate_id_2="4276657" date="29.10.2014" id="4197860" static_id="29101423466962353848" status="FT" time="18:00">
-<home goals="3" id="2346696" name="Kuban"></home>
-<away goals="0" id="2353848" name="Tosno"></away>
-<events>
-<event id="21780074" minute="26" player="I. Popov" playerid="2383643" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21780075" minute="32" player="I. Balde" playerid="2442979" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21780076" minute="35" player="I. Balde" playerid="2442979" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21780077" minute="58" player="C. Kabore" playerid="2352908" result="" team="home" type="yellowcard"></event>
-<event id="21780078" minute="59" player="N. Zaicevs" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21780079" minute="76" player="A. Jescenko" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[3-0]"></ht>
-</match><match alternate_id="4080272" alternate_id_2="4276654" date="29.10.2014" id="4197862" static_id="29101423467832346620" status="AET" time="16:00">
-<home goals="2" id="2346783" name="Zenit Petersburg"></home>
-<away goals="3" id="2346620" name="Arsenal Tula"></away>
-<events>
-<event id="21780044" minute="20" player="A. Arshavin" playerid="2338713" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21780045" minute="27" player="Neto" playerid="2388754" result="" team="home" type="yellowcard"></event>
-<event id="21780046" minute="70" player="M. Rodic" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21780047" minute="71" player="M. Rodic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21780048" minute="81" player="I. Kaleshin" playerid="2359445" result="[2 - 1]" team="away" type="goal"></event>
-<event id="21780049" minute="90" player="D. A. Smirnov" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="21780050" minute="104" player="A. Malojan" playerid="" result="[2 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4080273" alternate_id_2="4276659" date="29.10.2014" id="4197863" static_id="29101423508402346685" status="FT" time="15:00">
-<home goals="0" id="2350840" name="Syzran"></home>
-<away goals="1" id="2346685" name="Orenburg"></away>
-<events>
-<event id="21780094" minute="90" player="K. Appaev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4080444" alternate_id_2="4276661" date="29.10.2014" id="4198034" static_id="29101423466252346704" status="FT" time="14:00">
-<home goals="0" id="2346625" name="Ufa"></home>
-<away goals="1" id="2346704" name="Lokomotiv Moscow"></away>
-<events>
-<event id="21780114" minute="19" player="M. Boussoufa" playerid="2344729" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21780115" minute="23" player="A. Sukhov" playerid="2404410" result="" team="home" type="yellowcard"></event>
-<event id="21780116" minute="57" player="A. Zaseyev" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21780117" minute="68" player="A. Kilin" playerid="2460370" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4080271" alternate_id_2="4276655" date="29.10.2014" id="4197861" static_id="29101423466292346768" status="FT" time="10:30">
-<home goals="2" id="2346629" name="CSKA Moscow"></home>
-<away goals="0" id="2346768" name="T. Moscow"></away>
-<events>
-<event id="21780054" minute="12" player="K. Bazelyuk" playerid="2601206" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21780055" minute="39" player="A. Dzagoev" playerid="2364913" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4058379" alternate_id_2="4269583" date="25.09.2014" id="4175988" static_id="25091423466452346768" status="AET" time="15:00">
-<home goals="1" id="2346645" name="F. Voronezh"></home>
-<away goals="2" id="2346768" name="T. Moscow"></away>
-<events>
-<event id="21709334" minute="39" player="A. Katsalapov" playerid="2408064" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21709335" minute="82" player="M. Biryukov" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21709336" minute="101" player="A. Salugin" playerid="2357999" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4058374" alternate_id_2="4269589" date="25.09.2014" id="4175983" static_id="25091423467432346636" status="FT" time="14:00">
-<home goals="2" id="2346743" name="Shinnik Yaroslavl"></home>
-<away goals="0" id="2346636" name="Dynamo Moscow"></away>
-<events>
-<event id="21709394" minute="68" player="S. Samodin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21709395" minute="75" player="S. Samodin" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4058380" alternate_id_2="4269588" date="25.09.2014" id="4175989" static_id="25091423467502346660" status="FT" time="12:00">
-<home goals="0" id="2346750" name="Saratov"></home>
-<away goals="5" id="2346660" name="Krasnodar"></away>
-<events>
-<event id="21709384" minute="22" player="S. Petrov" playerid="2469766" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21709385" minute="42" player="Ari" playerid="2338110" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21709386" minute="51" player="Joaozinho" playerid="2383543" result="[0 - 3]" team="away" type="goal"></event>
-<event id="21709387" minute="56" player="Joaozinho" playerid="2383543" result="[0 - 4]" team="away" type="goal"></event>
-<event id="21709388" minute="77" player="A. Ageev" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
-</match><match alternate_id="4058377" alternate_id_2="4269593" date="25.09.2014" id="4175986" static_id="25091423538482346617" status="Pen." time="11:00">
-<home goals="0" id="2353848" name="Tosno"></home>
-<away goals="0" id="2346617" name="Amkar"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="4" visitorteam="2"></penalty>
-</match><match alternate_id="4058376" alternate_id_2="4269582" date="24.09.2014" id="4175985" static_id="24091423466232346696" status="FT" time="17:00">
-<home goals="1" id="2346623" name="Baltika"></home>
-<away goals="2" id="2346696" name="Kuban"></away>
-<events>
-<event id="21709324" minute="9" player="S. Tsukanov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21709325" minute="25" player="T. Sunjic" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21709326" minute="73" player="R. Bugaev" playerid="2338524" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match></league><league country="russia" name="Russia: Super Cup" cup="True" id="3400" sub_id=""><match alternate_id="4141186" alternate_id_2="4339699" date="12.07.2015" id="4258724" static_id="12071523467832346704" status="Pen." time="15:00">
 <home goals="1" id="2346783" name="Zenit Petersburg"></home>
 <away goals="1" id="2346704" name="Lokomotiv Moscow"></away>

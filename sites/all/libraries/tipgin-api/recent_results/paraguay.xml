@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:22" sport="soccer" country="paraguay"><league country="paraguay" name="Paraguay: Primera Division - Clausura" cup="False" id="3171" sub_id="31711"><match alternate_id="4213108" alternate_id_2="4461972" date="20.09.2015" id="4330609" static_id="20091523378782345715" status="78" time="23:10">
-<home goals="1" id="2337878" name="San Lorenzo"></home>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:22" sport="soccer" country="paraguay"><league country="paraguay" name="Paraguay: Primera Division - Clausura" cup="False" id="3171" sub_id="31711"><match alternate_id="4187426" alternate_id_2="4452659" date="23.09.2015" id="4304932" static_id="23091523457192345708" status="FT" time="22:00">
+<home goals="1" id="2345719" name="Nacional Asuncion"></home>
+<away goals="0" id="2345708" name="Cerro Porteno"></away>
+<events>
+<event id="23540094" minute="12" player="D. Mendoza Ayala" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23540095" minute="28" player="B. Montenegro" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23540096" minute="64" player="F. Oviedo" playerid="2404776" result="" team="away" type="yellowcard"></event>
+<event id="23540097" minute="71" player="R. Rojas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23540098" minute="75" player="D. Lugano" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23540099" minute="86" player="C. Bonet" playerid="2349038" result="" team="away" type="yellowcard"></event>
+<event id="23540100" minute="89" player="D. Lugano" playerid="" result="" team="away" type="yellowred"></event>
+<event id="23540101" minute="89" player="R. Coronel" playerid="2579345" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4213108" alternate_id_2="4461972" date="20.09.2015" id="4330609" static_id="20091523378782345715" status="FT" time="23:10">
+<home goals="2" id="2337878" name="San Lorenzo"></home>
 <away goals="2" id="2345715" name="Guarani"></away>
 <events>
 <event id="23633224" minute="16" player="L. Cabral" playerid="2355785" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23633225" minute="23" player="G. Arevalos" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="23633226" minute="32" player="J. Patino Martinez" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 <event id="23633227" minute="66" player="A. Garcete" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23633228" minute="85" player="O. Romero" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="23633229" minute="88" player="L. Cabral" playerid="2355785" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-2]"></ht>
 </match><match alternate_id="4212670" alternate_id_2="4461969" date="20.09.2015" id="4330172" static_id="20091523457082352094" status="FT" time="21:00">
@@ -286,22 +302,6 @@
 <event id="214415444" minute="79" player="J. Leguizamon" playerid="2626250" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="3968076" alternate_id_2="4410576" date="02.09.2015" id="4085733" static_id="02091523457192352094" status="FT" time="23:00">
-<home goals="1" id="2345719" name="Nacional Asuncion"></home>
-<away goals="1" id="2352094" name="Deportivo Santani"></away>
-<events>
-<event id="23119264" minute="27" player="R. Ortigoza" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23119265" minute="35" player="D. Orue" playerid="2428782" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23119266" minute="50" player="R. Servin" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23119267" minute="51" player="R. Coronel" playerid="2579345" result="" team="home" type="yellowcard"></event>
-<event id="23119268" minute="69" player="B. Turco" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23119269" minute="72" player="J. Maidana" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23119270" minute="78" player="M. Riveros" playerid="2409509" result="" team="home" type="yellowcard"></event>
-<event id="23119271" minute="81" player="R. D. Baez A." playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23119272" minute="83" player="J. Maidana" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="210206143" minute="89" player="R. Ortigoza" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4101090" alternate_id_2="4333667" date="31.05.2015" id="4218648" static_id="31051523457152345720" status="FT" time="22:50">
 <home goals="1" id="2345715" name="Guarani"></home>
 <away goals="0" id="2345720" name="Olimpia Asuncion"></away>

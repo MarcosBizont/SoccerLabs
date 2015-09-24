@@ -24,57 +24,57 @@
  * @ingroup views_templates
  */
 ?>
-<table <?php if ($classes): ?>class="<?php print $classes; ?>"<?php endif ?><?php print $attributes; ?>>
+<div <?php if ($classes): ?>class="<?php print $classes; ?>"<?php endif ?><?php print $attributes; ?>>
   <?php if (!empty($title) || !empty($caption)) : ?>
     <caption><?php print $caption . $title; ?></caption>
   <?php endif; ?>
-    <thead>
+    <div>
       <?php if (!empty($header)) : ?>
-        <tr>
+        <div>
           <?php foreach ($header as $field => $label): ?>
-            <th <?php if ($header_classes[$field]): ?>class="<?php print $header_classes[$field]; ?>"<?php endif ?>>
+            <div <?php if ($header_classes[$field]): ?>class="<?php print $header_classes[$field]; ?>"<?php endif ?>>
               <?php print $label; ?>
-            </th>
+            </div>
           <?php endforeach ?>
-        </tr>
+        </div>
       <?php endif ?>
       <?php if (($totals_row_position & 1) && !empty($totals)) : ?>
-        <tr>
+        <div>
           <?php
             // Use order of the row fields to output the totals likewise.
             foreach (array_keys(reset($rows)) as $field):
           ?>
-            <th <?php if (!empty($field_classes[$field])): ?>class="<?php print reset($field_classes[$field]); ?>"<?php endif ?>>
+            <div <?php if (!empty($field_classes[$field])): ?>class="<?php print reset($field_classes[$field]); ?>"<?php endif ?>>
               <?php print isset($totals[$field]) ? $totals[$field] . ' -  ' .   number_format(($totals[$field]/count($rows))*100,2) . '%' : ''; ?>
-            </th>
+            </div>
           <?php endforeach ?>
-        </tr>
+        </div>
       <?php endif; ?>
-    </thead>
-  <tbody>
+    </div>
+  <div>
     <?php foreach ($rows as $r => $row): ?>
-      <tr <?php if (!empty($row_classes[$r])): ?>class="<?php print implode(' ', $row_classes[$r]); ?>"<?php endif ?>>
+      <div <?php if (!empty($row_classes[$r])): ?>class="<?php print implode(' ', $row_classes[$r]); ?>"<?php endif ?>>
         <?php foreach ($row as $field => $content): ?>
-          <td <?php if (!empty($field_classes[$field][$r])): ?>class="<?php print $field_classes[$field][$r]; ?>"<?php endif ?>
+          <div <?php if (!empty($field_classes[$field][$r])): ?>class="<?php print $field_classes[$field][$r]; ?>"<?php endif ?>
               <?php if (!empty($field_attributes[$field][$r])): ?><?php print drupal_attributes($field_attributes[$field][$r]); ?><?php endif ?>>
             <?php print $content; ?>
-          </td>
+          </div>
         <?php endforeach ?>
-      </tr>
+      </div>
     <?php endforeach ?>
-  </tbody>
+  </div>
   <?php if (($totals_row_position & 2) && !empty($totals)) : ?>
-    <tfoot>
-      <tr>
+    <div>
+      <div>
         <?php
           // Use order of the row fields to output the totals likewise.
           foreach (array_keys(reset($rows)) as $field):
         ?>
-          <th <?php if (!empty($field_classes[$field])): ?>class="<?php print reset($field_classes[$field]); ?>"<?php endif ?>>
+          <div <?php if (!empty($field_classes[$field])): ?>class="<?php print reset($field_classes[$field]); ?>"<?php endif ?>>
             <?php print isset($totals[$field]) ? $totals[$field] . ' -  ' .   number_format(($totals[$field]/count($rows))*100,2) . '%' : ''; ?>
-          </th>
+          </div>
         <?php endforeach ?>
-      </tr>
-    </tfoot>
+      </div>
+    </div>
   <?php endif ?>
-</table>
+</div>

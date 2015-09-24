@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:27" sport="soccer" country="romania"><league country="romania" name="Romania: Liga 1" cup="False" id="4454" sub_id="44540"><match alternate_id="4206416" alternate_id_2="4455465" date="21.09.2015" id="4323920" static_id="21091523465892346401" status="18:00" time="18:00">
-<home goals="?" id="2346589" name="Steaua Bucuresti"></home>
-<away goals="?" id="2346401" name="Concordia"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:26" sport="soccer" country="romania"><league country="romania" name="Romania: Liga 1" cup="False" id="4454" sub_id="44540"><match alternate_id="4206416" alternate_id_2="4455465" date="21.09.2015" id="4323920" static_id="21091523465892346401" status="FT" time="18:00">
+<home goals="3" id="2346589" name="Steaua Bucuresti"></home>
+<away goals="1" id="2346401" name="Concordia"></away>
+<events>
+<event id="23568154" minute="5" player="F. Varela" playerid="2388582" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23568155" minute="24" player="B. Bucurica" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23568156" minute="24" player="N. C. Stanciu (pen.)" playerid="2462453" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23568157" minute="43" player="A. Chipciu" playerid="2375439" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23568158" minute="44" player="T. Serediuc" playerid="2463255" result="" team="away" type="yellowcard"></event>
+<event id="23568159" minute="61" player="A. Chipciu" playerid="2375439" result="" team="home" type="yellowcard"></event>
+<event id="23568160" minute="71" player="G. Tade" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23568161" minute="90+4" player="F. Varela" playerid="2388582" result="" team="home" type="yellowcard"></event>
+<event id="23568162" minute="90+4" player="V. Lazar (pen.)" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4206415" alternate_id_2="4455438" date="20.09.2015" id="4323919" static_id="20091523463862346475" status="FT" time="18:00">
 <home goals="1" id="2346386" name="FC Botosani"></home>
 <away goals="1" id="2346475" name="Din. Bucuresti"></away>
@@ -415,6 +425,13 @@
 <event id="23571054" minute="75" player="Musca" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4211152" alternate_id_2="4455742" date="29.08.2015" id="4328656" static_id="29081523465732346448" status="FT" time="08:00">
+<home goals="1" id="2346573" name="Braila"></home>
+<away goals="0" id="2346448" name="Rapid Suceava"></away>
+<events>
+<event id="23570924" minute="31" player="M. Onofras" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4211153" alternate_id_2="4455743" date="29.08.2015" id="4328657" static_id="29081523465752354064" status="FT" time="08:00">
 <home goals="1" id="2346575" name="Calarasi"></home>
 <away goals="1" id="2354064" name="SC Bacau"></away>
@@ -432,15 +449,6 @@
 <event id="23570954" minute="18" player="A. Antohi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23570955" minute="40" player="A. Neagu (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="23570956" minute="90+4" player="V. Bujor" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4211155" alternate_id_2="4455748" date="29.08.2015" id="4328659" static_id="29081523465682350627" status="FT" time="08:00">
-<home goals="3" id="2346568" name="Rapid Bucuresti"></home>
-<away goals="0" id="2350627" name="Balotesti"></away>
-<events>
-<event id="23570984" minute="3" player="I. Popa" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23570985" minute="42" player="I. Popa" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23570986" minute="47" player="G. M. Tudoran" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match></league><league country="romania" name="Romania: Liga 2/Serie 1 - Promotion Group" cup="False" id="3192" sub_id=""><match alternate_id="" alternate_id_2="4326791" date="30.05.2015" id="" static_id="30051523465732346601" status="FT" time="08:00">
@@ -662,15 +670,17 @@
 <event id="22226427" minute="90+3" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="romania" name="Romania: Liga 2/Serie 1 - Promotion Group" cup="False" id="3192" sub_id=""><match alternate_id="" alternate_id_2="4321284" date="25.04.2015" id="" static_id="25041523465262354064" status="FT" time="08:00">
-<home goals="2" id="2346526" name="Gloria Buzau"></home>
-<away goals="1" id="2354064" name="SC Bacau"></away>
+</match></league><league country="romania" name="Romania: Liga 2/Serie 1 - Promotion Group" cup="False" id="3192" sub_id=""><match alternate_id="" alternate_id_2="4321283" date="25.04.2015" id="" static_id="25041523463782346573" status="FT" time="08:00">
+<home goals="3" id="2346378" name="Clinceni"></home>
+<away goals="1" id="2346573" name="Braila"></away>
 <events>
-<event id="22226344" minute="2" player="C. Curiliuc" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22226345" minute="32" player="I. Danita" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22226346" minute="75" player="A. Raduca" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22226334" minute="38" player="V. Olariu (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22226335" minute="51" player="S. Chitu" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22226336" minute="63" player="C. Puscas" playerid="" result="" team="home" type="redcard"></event>
+<event id="22226337" minute="72" player="V. Munteanu" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22226338" minute="79" player="B. Spataru" playerid="" result="[3 - 1]" team="away" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4321285" date="25.04.2015" id="" static_id="25041523464482346601" status="FT" time="08:00">
 <home goals="1" id="2346448" name="Rapid Suceava"></home>
 <away goals="3" id="2346601" name="Voluntari"></away>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:45" sport="soccer" country="vietnam"><league country="vietnam" name="Vietnam: V-League" cup="False" id="3282" sub_id="32820"><match alternate_id="4091489" alternate_id_2="4458187" date="20.09.2015" id="4209055" static_id="20091523494242349407" status="FT" time="10:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:44" sport="soccer" country="vietnam"><league country="vietnam" name="Vietnam: V-League" cup="False" id="3282" sub_id="32820"><match alternate_id="4091489" alternate_id_2="4458187" date="20.09.2015" id="4209055" static_id="20091523494242349407" status="FT" time="10:00">
 <home goals="0" id="2349424" name="BHTS Quang Nam"></home>
 <away goals="0" id="2349407" name="Can Tho"></away>
 <events>
@@ -156,6 +156,19 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4091478" alternate_id_2="4454133" date="01.09.2015" id="4209044" static_id="01091523494172349426" status="FT" time="10:00">
+<home goals="0" id="2349417" name="Khanh Hoa"></home>
+<away goals="5" id="2349426" name="Than Quang Ninh"></away>
+<events>
+<event id="19928284" minute="34" player="Nghiem Xuan Tu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="19928285" minute="45" player="Nguyen Hai Huy" playerid="" result="" team="away" type="redcard"></event>
+<event id="19928286" minute="54" player="Dinh Hoang Max" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="19928287" minute="59" player="Nguyen T. T." playerid="" result="" team="home" type="redcard"></event>
+<event id="19928288" minute="79" player="Dinh Hoang Max" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="19928289" minute="90+1" player="Nghiem Xuan Tu" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="19928290" minute="90+3" player="Nghiem Xuan Tu" playerid="" result="[0 - 5]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4091476" alternate_id_2="4454071" date="01.09.2015" id="4209042" static_id="01091523494182349410" status="FT" time="10:00">
 <home goals="4" id="2349418" name="Long An"></home>
 <away goals="4" id="2349410" name="Dong Nai"></away>
@@ -172,17 +185,4 @@
 <event id="178296143" minute="90+5" player="Huynh Quang Thanh" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[3-3]"></ht>
-</match><match alternate_id="4091480" alternate_id_2="4454116" date="01.09.2015" id="4209046" static_id="01091523494312349424" status="FT" time="10:00">
-<home goals="3" id="2349431" name="Thanh Hoa"></home>
-<away goals="4" id="2349424" name="BHTS Quang Nam"></away>
-<events>
-<event id="19928304" minute="2" player="Faye P. O." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19928305" minute="21" player="Faye P. O." playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="19928306" minute="35" player="Dinh T." playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="19928307" minute="39" player="Tambwe P." playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="19928308" minute="60" player="Dinh T." playerid="" result="[2 - 3]" team="away" type="goal"></event>
-<event id="19928309" minute="70" player="Le Duc Tuan" playerid="2496482" result="[3 - 3]" team="home" type="goal"></event>
-<event id="19928310" minute="87" player="Phan Thanh Hung" playerid="" result="[3 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[2-2]"></ht>
 </match></league></recent_results>

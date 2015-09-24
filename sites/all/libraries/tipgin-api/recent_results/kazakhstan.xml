@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:08" sport="soccer" country="kazakhstan"><league country="kazakhstan" name="Kazakhstan: Premier League - Championship Group" cup="False" id="3109" sub_id="31091"><match alternate_id="4184002" alternate_id_2="4423068" date="20.09.2015" id="4301516" static_id="20091523440732344081" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:10" sport="soccer" country="kazakhstan"><league country="kazakhstan" name="Kazakhstan: Premier League - Championship Group" cup="False" id="3109" sub_id="31091"><match alternate_id="4184002" alternate_id_2="4423068" date="20.09.2015" id="4301516" static_id="20091523440732344081" status="FT" time="14:00">
 <home goals="0" id="2344073" name="FC Astana"></home>
 <away goals="1" id="2344081" name="K. Almaty"></away>
 <events>
@@ -1045,7 +1045,23 @@
 <event id="174052145" minute="85" player="Amirkhanov M.Bayaliev D." playerid="" result="" team="away" type=""></event>
 </events>
 <ht score="[1-2]"></ht>
-</match></league><league country="kazakhstan" name="Kazakhstan: Kazakhstan Cup" cup="True" id="3954" sub_id=""><match alternate_id="" alternate_id_2="4335358" date="02.06.2015" id="" static_id="02061523441002344081" status="FT" time="14:00">
+</match></league><league country="kazakhstan" name="Kazakhstan: Kazakhstan Cup" cup="True" id="3954" sub_id=""><match alternate_id="" alternate_id_2="4335360" date="23.09.2015" id="" static_id="23091523440812344100" status="FT" time="14:00">
+<home goals="2" id="2344081" name="K. Almaty"></home>
+<away goals="1" id="2344100" name="Tobol"></away>
+<events>
+<event id="2331834" minute="8" player="Riera" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="2331835" minute="19" player="Gorman" playerid="2400259" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4335359" date="23.09.2015" id="" static_id="23091523440732344051" status="FT" time="12:00">
+<home goals="1" id="2344073" name="FC Astana"></home>
+<away goals="1" id="2344051" name="Aktobe"></away>
+<events>
+<event id="2331834" minute="40" player="Santana" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="2331835" minute="68" player="Twumasi" playerid="2567300" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4335358" date="02.06.2015" id="" static_id="02061523441002344081" status="FT" time="14:00">
 <home goals="0" id="2344100" name="Tobol"></home>
 <away goals="3" id="2344081" name="K. Almaty"></away>
 <events>
@@ -1194,16 +1210,4 @@
 </events>
 <ht score="[-]"></ht>
 <penalty localteam="1" visitorteam="4"></penalty>
-</match><match alternate_id="" alternate_id_2="2331833" date="29.03.2015" id="" static_id="29031523509232344084" status="FT" time="13:00">
-<home goals="1" id="2350923" name="FK Kyran"></home>
-<away goals="2" id="2344084" name="Kaspij Aktau"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="2331833" date="29.03.2015" id="" static_id="29031523509232344084" status="FT" time="13:00">
-<home goals="1" id="2350923" name="FK Kyran"></home>
-<away goals="2" id="2344084" name="Kaspij Aktau"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match></league></recent_results>

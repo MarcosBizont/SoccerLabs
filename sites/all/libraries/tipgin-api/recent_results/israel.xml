@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:05" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al" cup="False" id="3094" sub_id="30940"><match alternate_id="4155070" alternate_id_2="4458334" date="21.09.2015" id="4272601" static_id="21091523434832343525" status="17:55" time="17:55">
-<home goals="?" id="2343483" name="H. Beer Sheva"></home>
-<away goals="?" id="2343525" name="Maccabi Haifa"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:07" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al" cup="False" id="3094" sub_id="30940"><match alternate_id="4155070" alternate_id_2="4458334" date="21.09.2015" id="4272601" static_id="21091523434832343525" status="FT" time="17:55">
+<home goals="0" id="2343483" name="H. Beer Sheva"></home>
+<away goals="0" id="2343525" name="Maccabi Haifa"></away>
+<events>
+<event id="23596844" minute="3" player="T. Tawabcha" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4155071" alternate_id_2="4457053" date="20.09.2015" id="4272602" static_id="20091523435392343502" status="FT" time="17:15">
 <home goals="1" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="2" id="2343502" name="H. Raanana"></away>
@@ -514,21 +516,30 @@
 <event id="22192347" minute="85" player="M. Oremus" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League" cup="False" id="3093" sub_id="30930"><match alternate_id="4155244" alternate_id_2="4346133" date="21.09.2015" id="4272775" static_id="21091523434812343491" status="16:00" time="16:00">
-<home goals="?" id="2343481" name="Ashkelon"></home>
-<away goals="?" id="2343491" name="Hapoel Jerusalem"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155236" alternate_id_2="4346138" date="21.09.2015" id="4272767" static_id="21091523556352343460" status="16:00" time="16:00">
-<home goals="?" id="2355635" name="Kiryat Gat"></home>
-<away goals="?" id="2343460" name="Moadon Sport Ashdod"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155243" alternate_id_2="4346135" date="21.09.2015" id="4272774" static_id="21091523435412343527" status="16:00" time="16:00">
-<home goals="?" id="2343541" name="Maccabi Yavne"></home>
-<away goals="?" id="2343527" name="M. Herzliya"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="israel" name="Israel: Leumit League" cup="False" id="3093" sub_id="30930"><match alternate_id="4155244" alternate_id_2="4346133" date="21.09.2015" id="4272775" static_id="21091523434812343491" status="FT" time="16:00">
+<home goals="2" id="2343481" name="Ashkelon"></home>
+<away goals="0" id="2343491" name="Hapoel Jerusalem"></away>
+<events>
+<event id="22474834" minute="31" player="Shriki" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22474835" minute="46" player="Itzerin" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4155236" alternate_id_2="4346138" date="21.09.2015" id="4272767" static_id="21091523556352343460" status="FT" time="16:00">
+<home goals="1" id="2355635" name="Kiryat Gat"></home>
+<away goals="2" id="2343460" name="Moadon Sport Ashdod"></away>
+<events>
+<event id="22474884" minute="36" player="Ohed" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22474885" minute="43" player="David" playerid="2379176" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4155243" alternate_id_2="4346135" date="21.09.2015" id="4272774" static_id="21091523435412343527" status="FT" time="16:00">
+<home goals="2" id="2343541" name="Maccabi Yavne"></home>
+<away goals="1" id="2343527" name="M. Herzliya"></away>
+<events>
+<event id="22474854" minute="35" player="Ofir" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22474855" minute="89" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4155239" alternate_id_2="4346141" date="18.09.2015" id="4272770" static_id="18091523434922343523" status="FT" time="13:00">
 <home goals="1" id="2343492" name="Hapoel Katamon"></home>
 <away goals="0" id="2343523" name="M. Nazareth"></away>
@@ -1429,16 +1440,6 @@
 <event id="21916527" minute="90" player="M. A. Anza" playerid="" result="[3 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4072221" alternate_id_2="4271012" date="23.09.2014" id="4189830" static_id="23091423435042343460" status="FT" time="17:30">
-<home goals="1" id="2343504" name="Hapoel Tel Aviv"></home>
-<away goals="2" id="2343460" name="Moadon Sport Ashdod"></away>
-<events>
-<event id="21723624" minute="25" player="S. Abutbul" playerid="2352214" result="" team="home" type="redcard"></event>
-<event id="21723625" minute="30" player="M. A. Anza" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21723626" minute="40" player="M. A. Anza" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21723627" minute="57" player="M. A. El Hija" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match></league><league country="israel" name="Israel: Super Cup" cup="True" id="4479" sub_id=""><match alternate_id="" alternate_id_2="4452745" date="15.08.2015" id="" static_id="15081523435392343509" status="Pen." time="17:50">
 <home goals="2" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="2" id="2343509" name="Shmona"></away>

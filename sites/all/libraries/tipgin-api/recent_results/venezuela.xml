@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:44" sport="soccer" country="venezuela"><league country="venezuela" name="Venezuela: Primera Division" cup="False" id="3280" sub_id="32800"><match alternate_id="4135329" alternate_id_2="4459135" date="20.09.2015" id="4252868" static_id="20091523494002349358" status="FT" time="22:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:43" sport="soccer" country="venezuela"><league country="venezuela" name="Venezuela: Primera Division" cup="False" id="3280" sub_id="32800"><match alternate_id="" alternate_id_2="4459169" date="21.09.2015" id="" static_id="21091523493872339337" status="FT" time="21:30">
+<home goals="3" id="2349387" name="La Guaira"></home>
+<away goals="1" id="2339337" name="Portuguesa"></away>
+<events>
+<event id="23605194" minute="8" player="A. Osorio" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23605195" minute="55" player="F. Villegas" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23605196" minute="73" player="B. Manzano" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="23605197" minute="90+3" player="" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4135329" alternate_id_2="4459135" date="20.09.2015" id="4252868" static_id="20091523494002349358" status="FT" time="22:30">
 <home goals="2" id="2349400" name="Zamora"></home>
 <away goals="1" id="2349358" name="Carabobo"></away>
 <events>
@@ -168,19 +178,6 @@
 <event id="23584545" minute="86" player="G. Rojas" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4135251" alternate_id_2="4346743" date="03.09.2015" id="4252790" static_id="03091523493912349387" status="FT" time="19:30">
-<home goals="0" id="2349391" name="Tucanes"></home>
-<away goals="5" id="2349387" name="La Guaira"></away>
-<events>
-<event id="22480934" minute="12" player="G. Rojas" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22480935" minute="14" player="M. Manzano" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22480936" minute="23" player="O. Gonzalez" playerid="2570827" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22480937" minute="34" player="E. Briceno" playerid="2531094" result="" team="home" type="redcard"></event>
-<event id="22480938" minute="50" player="I. Gonzalez" playerid="2570827" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22480939" minute="71" player="J. Garcia" playerid="2355187" result="[0 - 5]" team="away" type="goal"></event>
-<event id="22480940" minute="81" player="J. Manriquez" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-3]"></ht>
 </match></league><league country="venezuela" name="Venezuela: Primera Division - Copa Sudamericana - Play Offs" cup="True" id="3280" sub_id=""><match alternate_id="4128346" alternate_id_2="4334084" date="21.05.2015" id="4245888" static_id="21051523494002349381" status="FT" time="00:00">
 <home goals="3" id="2349400" name="Zamora"></home>
 <away goals="2" id="2349381" name="Mineros"></away>
@@ -719,21 +716,46 @@
 <event id="21915378" minute="75" player="I. Iriberri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4019657" alternate_id_2="4290183" date="30.11.2014" id="4137276" static_id="30111423493562349344" status="FT" time="20:30">
-<home goals="0" id="2349356" name="Atl. Venezuela"></home>
-<away goals="2" id="2349344" name="Aragua"></away>
+</match><match alternate_id="4019660" alternate_id_2="4290189" date="30.11.2014" id="4137279" static_id="30111423393372349400" status="FT" time="20:30">
+<home goals="1" id="2339337" name="Portuguesa"></home>
+<away goals="2" id="2349400" name="Zamora"></away>
 <events>
-<event id="21915334" minute="33" player="L. Torres (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21915335" minute="34" player="D. Valdes" playerid="2354556" result="" team="home" type="yellowcard"></event>
-<event id="21915336" minute="72" player="J. Quintero" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="21915337" minute="78" player="J. Neto" playerid="2389697" result="" team="away" type="yellowcard"></event>
+<event id="21915394" minute="5" player="Y. Abreu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21915395" minute="20" player="E. Mendoza" playerid="2498667" result="" team="away" type="yellowcard"></event>
+<event id="21915396" minute="24" player="J. Torres Catire" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21915397" minute="39" player="A. Flores" playerid="2419271" result="" team="away" type="yellowcard"></event>
+<event id="21915398" minute="45" player="J. Torres Catire" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="21915399" minute="49" player="J. Moreno" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="21915400" minute="52" player="J. Ortiz" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="21915401" minute="87" player="L. Melo" playerid="2608335" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="venezuela" name="Venezuela: Copa Venezuela" cup="True" id="4241" sub_id="42410"><match alternate_id="4214831" alternate_id_2="4460254" date="18.09.2015" id="4332332" static_id="18091523493872349360" status="Postp." time="00:30">
-<home goals="?" id="2349387" name="La Guaira"></home>
-<away goals="?" id="2349360" name="Caracas"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="venezuela" name="Venezuela: Copa Venezuela" cup="True" id="4241" sub_id="42410"><match alternate_id="4215191" alternate_id_2="4464814" date="23.09.2015" id="4332692" static_id="23091523493582349365" status="FT" time="23:30">
+<home goals="6" id="2349358" name="Carabobo"></home>
+<away goals="5" id="2349365" name="Lara"></away>
+<events>
+<event id="23661644" minute="44" player="Jacobo Salvador Kouffaty (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23661645" minute="45" player="Ocanto" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23661646" minute="47" player="Hernandez" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23661647" minute="51" player="Gimenez" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="23661648" minute="57" player="Rivero (o.g.)" playerid="2471148" result="[3 - 2]" team="home" type="goal"></event>
+<event id="23661649" minute="65" player="Bello" playerid="" result="[4 - 2]" team="home" type="goal"></event>
+<event id="23661650" minute="67" player="Jacobo Salvador Kouffaty" playerid="" result="[4 - 3]" team="away" type="goal"></event>
+<event id="23661651" minute="69" player="Hernandez" playerid="" result="[4 - 4]" team="away" type="goal"></event>
+<event id="23661652" minute="76" player="Romero" playerid="" result="[4 - 5]" team="away" type="goal"></event>
+<event id="215629943" minute="84" player="Ocanto" playerid="" result="[5 - 5]" team="home" type="goal"></event>
+<event id="215629944" minute="90" player="Reyes" playerid="2631816" result="[6 - 5]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4216081" alternate_id_2="4460254" date="23.09.2015" id="4333581" static_id="23091523493872349360" status="FT" time="23:30">
+<home goals="2" id="2349387" name="La Guaira"></home>
+<away goals="1" id="2349360" name="Caracas"></away>
+<events>
+<event id="23616044" minute="15" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23616045" minute="71" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23616046" minute="89" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4212759" alternate_id_2="4460257" date="16.09.2015" id="4330261" static_id="16091523493582349400" status="FT" time="23:30">
 <home goals="2" id="2349358" name="Carabobo"></home>
 <away goals="1" id="2349400" name="Zamora"></away>
@@ -896,13 +918,4 @@
 <event id="23559354" minute="8" player="Gonzalez" playerid="2640197" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4191309" alternate_id_2="4454577" date="19.08.2015" id="4308814" static_id="19081523493692349367" status="FT" time="23:30">
-<home goals="1" id="2349369" name="Estudiantes Merida"></home>
-<away goals="2" id="2349367" name="Dep. Tachira"></away>
-<events>
-<event id="23559274" minute="21" player="Gonzalez" playerid="2345737" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23559275" minute="58" player="Jose Miguel Reyes Marin" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23559276" minute="90" player="Alzate (pen.)" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league></recent_results>

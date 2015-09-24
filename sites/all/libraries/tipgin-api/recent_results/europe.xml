@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:18" sport="soccer" country="europe"><league country="europe" name="Europe: Euro - Qualification" cup="False" id="3364" sub_id="33640"><match alternate_id="3883101" alternate_id_2="4080123" date="08.09.2015" id="4000873" static_id="08091523385012344452" status="FT" time="18:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:19" sport="soccer" country="europe"><league country="europe" name="Europe: Euro - Qualification" cup="False" id="3364" sub_id="33640"><match alternate_id="3883101" alternate_id_2="4080123" date="08.09.2015" id="4000873" static_id="08091523385012344452" status="FT" time="18:45">
 <home goals="2" id="2338501" name="Belarus"></home>
 <away goals="0" id="2344452" name="Luxembourg"></away>
 <events>
@@ -1248,6 +1248,16 @@
 <event id="23591862" minute="89" player="T. Serero" playerid="2389591" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-2]"></ht>
+</match><match alternate_id="4204522" alternate_id_2="4457865" date="17.09.2015" id="4322026" static_id="17091523417082341082" status="FT" time="17:00">
+<home goals="1" id="2341708" name="Bordeaux"></home>
+<away goals="1" id="2341082" name="Liverpool"></away>
+<events>
+<event id="23592154" minute="12" player="K. Toure" playerid="2332133" result="" team="away" type="yellowcard"></event>
+<event id="23592155" minute="38" player="C. Chantome" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23592156" minute="65" player="A. Lallana" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23592157" minute="81" player="Jussie" playerid="2333281" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4204525" alternate_id_2="4457885" date="17.09.2015" id="4322029" static_id="17091523421362346660" status="FT" time="17:00">
 <home goals="2" id="2342136" name="Dortmund"></home>
 <away goals="1" id="2346660" name="Krasnodar"></away>
@@ -1325,20 +1335,6 @@
 <event id="23592910" minute="80" player="N. Korzun" playerid="2542327" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4204576" alternate_id_2="4457948" date="17.09.2015" id="4322080" static_id="17091523382872348103" status="FT" time="17:00">
-<home goals="2" id="2338287" name="Rapid Vienna"></home>
-<away goals="1" id="2348103" name="Villarreal"></away>
-<events>
-<event id="23592984" minute="36" player="L. Baptistao" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23592985" minute="45" player="L. Baptistao" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23592986" minute="49" player="D. Bonera" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23592987" minute="50" player="S. Schwab" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23592988" minute="53" player="S. Hofmann (pen.)" playerid="2342963" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23592989" minute="78" player="A. Rukavina" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23592990" minute="80" player="S. Grahovac" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23592991" minute="88" player="S. Schwab" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="europe" name="Europe: Europa League - Qualification" cup="False" id="2840" sub_id="284015"><match alternate_id="4185410" alternate_id_2="4451435" date="27.08.2015" id="4302916" static_id="27081523460982338294" status="FT" time="20:30">
 <home goals="0" id="2346098" name="Belenenses (Por)"></home>
 <away goals="0" id="2338294" name="Altach (Aut)"></away>
@@ -2896,7 +2892,38 @@
 <event id="21729650" minute="82" player="C. Mane" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="europe" name="Europe: Euro U19 - Qualification - First Stage" cup="False" id="4107" sub_id="41070"><match alternate_id="4199713" alternate_id_2="4296257" date="20.09.2015" id="4317218" static_id="20091523500322350011" status="FT" time="14:00">
+</match></league><league country="europe" name="Europe: Euro U19 - Qualification - First Stage" cup="False" id="4107" sub_id="41070"><match alternate_id="4205960" alternate_id_2="4296256" date="23.09.2015" id="4323464" static_id="23091523500152350032" status="FT" time="14:00">
+<home goals="1" id="2350015" name="Hungary U19"></home>
+<away goals="1" id="2350032" name="Croatia U19"></away>
+<events>
+<event id="21976064" minute="15" player="K. Korozman" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21976065" minute="17" player="K. Korozman" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21976066" minute="17" player="T. Kulenovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21976067" minute="21" player="B. Kalaica" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21976068" minute="49" player="M. Czingaber" playerid="" result="" team="home" type="redcard"></event>
+<event id="21976069" minute="50" player="B. Knezevic (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21976070" minute="51" player="M. Fintic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21976071" minute="54" player="K. Korozman" playerid="" result="" team="home" type="yellowred"></event>
+<event id="21976072" minute="85" player="B. Vogyicska" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="198774143" minute="90+2" player="A. Haris" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4199716" alternate_id_2="4296260" date="23.09.2015" id="4317221" static_id="23091523500112350040" status="FT" time="14:00">
+<home goals="1" id="2350011" name="Kazakhstan U19"></home>
+<away goals="2" id="2350040" name="Montenegro U19"></away>
+<events>
+<event id="21976104" minute="15" player="V. Zyabko" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21976105" minute="22" player="B. Magud" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21976106" minute="55" player="M. Raso" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="21976107" minute="61" player="V. Pron" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21976108" minute="73" player="B. Vukicevic" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="21976109" minute="77" player="B. Boricic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21976110" minute="81" player="R. Abdrazakov" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21976111" minute="85" player="A. Temirbayev" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="21976112" minute="90" player="R. Abdrazakov" playerid="" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4199713" alternate_id_2="4296257" date="20.09.2015" id="4317218" static_id="20091523500322350011" status="FT" time="14:00">
 <home goals="1" id="2350032" name="Croatia U19"></home>
 <away goals="0" id="2350011" name="Kazakhstan U19"></away>
 <events>
@@ -3601,30 +3628,60 @@
 <event id="21836509" minute="90+3" player="V. Nordin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4282188" date="13.11.2014" id="" static_id="13111423500172353339" status="FT" time="19:45">
-<home goals="1" id="2350017" name="Ireland U19"></home>
-<away goals="0" id="2353339" name="Malta U19"></away>
+</match></league><league country="europe" name="Europe: Euro U17 - Qualification - First Stage" cup="False" id="4105" sub_id="41050"><match alternate_id="4215056" alternate_id_2="4296538" date="24.09.2015" id="4332557" static_id="24091523502452351898" status="15:00" time="15:00">
+<home goals="?" id="2350245" name="Denmark U17"></home>
+<away goals="?" id="2351898" name="Kazakhstan U17"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4087160" alternate_id_2="4296547" date="24.09.2015" id="4204727" static_id="24091523500182350005" status="15:00" time="15:00">
+<home goals="?" id="2350018" name="Ireland U17"></home>
+<away goals="?" id="2350005" name="Finland U17"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4087159" alternate_id_2="4296544" date="24.09.2015" id="4204726" static_id="24091523385712350027" status="13:00" time="13:00">
+<home goals="?" id="2338571" name="Belgium U17"></home>
+<away goals="?" id="2350027" name="Slovenia U17"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4087162" alternate_id_2="4296554" date="24.09.2015" id="4204729" static_id="24091523487952351410" status="13:00" time="13:00">
+<home goals="?" id="2348795" name="Turkey U17"></home>
+<away goals="?" id="2351410" name="Faroe Islands U17"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4087161" alternate_id_2="4296552" date="24.09.2015" id="4204728" static_id="24091523500222352290" status="FT" time="11:00">
+<home goals="5" id="2350022" name="Sweden U17"></home>
+<away goals="1" id="2352290" name="Malta U17"></away>
 <events>
-<event id="21835384" minute="11" player="F. Kelleher" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21835385" minute="17" player="E. Stokes" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21979024" minute="11" player="H. Bellman" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21979025" minute="15" player="T. Bergqvist" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21979026" minute="25" player="T. Bergqvist" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21979027" minute="35" player="T. Bergqvist" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21979028" minute="62" player="T. Bergqvist" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="21979029" minute="69" player="O. Elouni" playerid="" result="[5 - 1]" team="away" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4282189" date="13.11.2014" id="" static_id="13111423500422354608" status="FT" time="15:00">
-<home goals="8" id="2350042" name="Switzerland U19"></home>
-<away goals="0" id="2354608" name="Gibraltar U19"></away>
+<ht score="[4-0]"></ht>
+</match><match alternate_id="4087158" alternate_id_2="4296540" date="22.09.2015" id="4204725" static_id="22091523502452350246" status="FT" time="16:00">
+<home goals="0" id="2350245" name="Denmark U17"></home>
+<away goals="0" id="2350246" name="Greece U17"></away>
 <events>
-<event id="21835394" minute="30" player="F. Picardo" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21835395" minute="32" player="M. Dominguez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21835396" minute="35" player="L. Gebistorf" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21835397" minute="39" player="D. Oberlin" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21835398" minute="41" player="A. Turkes" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21835399" minute="45" player="D. Oberlin" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21835400" minute="45+3" player="A. Turkes" playerid="" result="[5 - 0]" team="home" type="goal"></event>
-<event id="21835401" minute="56" player="D. Oberlin" playerid="" result="[6 - 0]" team="home" type="goal"></event>
-<event id="21835402" minute="58" player="D. Zakaria" playerid="" result="[7 - 0]" team="home" type="goal"></event>
-<event id="197367443" minute="65" player="J. De Oliveira" playerid="" result="[8 - 0]" team="home" type="goal"></event>
+<event id="21978904" minute="44" player="N. Igkmpinompa" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21978905" minute="68" player="G. Manolakis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21978906" minute="80+4" player="G. Xenitidis" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[5-0]"></ht>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4087158" alternate_id_2="4296542" date="22.09.2015" id="4204725" static_id="22091523502502351898" status="FT" time="16:00">
+<home goals="5" id="2350250" name="Iceland U17"></home>
+<away goals="0" id="2351898" name="Kazakhstan U17"></away>
+<events>
+<event id="21978924" minute="18" player="B. V. Jonsson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="21978925" minute="22" player="A. Hauksson" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="21978926" minute="29" player="M. Bekmurza" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="21978927" minute="33" player="I. Kristjansson" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="21978928" minute="35" player="B. V. Jonsson" playerid="" result="[4 - 0]" team="home" type="goal"></event>
+<event id="21978929" minute="78" player="A. Andrason (pen.)" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+<event id="21978930" minute="78" player="S. Astanov" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[4-0]"></ht>
 </match></league><league country="europe" name="Europe: Euro U17 - Play Offs" cup="False" id="3942" sub_id=""><match alternate_id="4128698" alternate_id_2="4335135" date="22.05.2015" id="4246239" static_id="22051523416492342079" status="FT" time="17:00">
 <home goals="4" id="2341649" name="France U17"></home>
 <away goals="1" id="2342079" name="Germany U17"></away>
@@ -4358,101 +4415,6 @@
 <event id="21845481" minute="79" player="D. Carlson" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4080034" alternate_id_2="4283195" date="26.10.2014" id="4197627" static_id="26101423502472350248" status="FT" time="12:30">
-<home goals="1" id="2350247" name="Hungary U17"></home>
-<away goals="2" id="2350248" name="Croatia U17"></away>
-<events>
-<event id="21845454" minute="21" player="D. Lovren" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21845455" minute="36" player="B. Szabo" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21845456" minute="58" player="S. Hudecek" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845457" minute="60" player="J. Bodrogi" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21845458" minute="67" player="A. Szalai" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21845459" minute="69" player="L. Pasaricek" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="21845460" minute="80" player="B. Szabo" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4080035" alternate_id_2="4283196" date="26.10.2014" id="4197628" static_id="26101423518922351898" status="FT" time="12:30">
-<home goals="6" id="2351892" name="Israel U17"></home>
-<away goals="0" id="2351898" name="Kazakhstan U17"></away>
-<events>
-<event id="21845464" minute="9" player="R. Y. Ronen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21845465" minute="18" player="R. Kazimov (o.g.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21845466" minute="26" player="Y. Cohen" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21845467" minute="33" player="R. Y. Ronen" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="21845468" minute="38" player="B. Risbekov" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845469" minute="40" player="N. Zhagorov" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845470" minute="40+1" player="Z. Soltanov" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845471" minute="55" player="R. Kazimov" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845472" minute="64" player="G. Kataby" playerid="" result="[5 - 0]" team="home" type="goal"></event>
-<event id="197468143" minute="70" player="A. Mahamid" playerid="" result="[6 - 0]" team="home" type="goal"></event>
-<event id="197468144" minute="73" player="Y. D. Perez" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[4-0]"></ht>
-</match><match alternate_id="4080033" alternate_id_2="4283194" date="26.10.2014" id="4197626" static_id="26101423500232351897" status="FT" time="11:00">
-<home goals="3" id="2350023" name="Georgia U17"></home>
-<away goals="0" id="2351897" name="Liechtenstein U17"></away>
-<events>
-<event id="21845444" minute="28" player="G. Arabidze (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21845445" minute="30" player="Y. Frick" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845446" minute="51" player="L. Lezhava" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21845447" minute="72" player="G. Kokhreidze" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4080032" alternate_id_2="4283193" date="26.10.2014" id="4197625" static_id="26101423502432351895" status="FT" time="10:00">
-<home goals="2" id="2350243" name="Slovakia U17"></home>
-<away goals="0" id="2351895" name="Lithuania U17"></away>
-<events>
-<event id="21845434" minute="19" player="E. Kloniunas" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845435" minute="28" player="B. Susolik" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21845436" minute="43" player="L. Tupta" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21845437" minute="56" player="L. Tupta" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4080031" alternate_id_2="4283192" date="26.10.2014" id="4197624" static_id="26101423500212350047" status="FT" time="09:00">
-<home goals="4" id="2350021" name="Poland U17"></home>
-<away goals="0" id="2350047" name="Estonia U17"></away>
-<events>
-<event id="21845424" minute="7" player="K. Wojtkowski" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21845425" minute="11" player="M. Villota" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845426" minute="12" player="K. Wojtkowski (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21845427" minute="25" player="R. Kannel" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845428" minute="38" player="D. Prusaczyk" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21845429" minute="65" player="C. Kuusma" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21845430" minute="80" player="H. Adamczyk" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="21845431" minute="84" player="H. Adamczyk" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4079789" alternate_id_2="4282837" date="25.10.2014" id="4197382" static_id="25101423500242348432" status="FT" time="17:00">
-<home goals="2" id="2350024" name="Azerbaijan U17"></home>
-<away goals="1" id="2348432" name="Switzerland U17"></away>
-<events>
-<event id="21841874" minute="3" player="J. Guillemenot" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21841875" minute="11" player="A. Sediyev" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21841876" minute="15" player="K. Zulfugarov" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21841877" minute="22" player="H. Samardzic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="21841878" minute="28" player="N. Suleymanov" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="21841879" minute="36" player="R. Bediyev" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21841880" minute="68" player="K. Birkan" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21841881" minute="68" player="L. Nitaj" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21841882" minute="69" player="G. Garayev" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="197432243" minute="75" player="E. Damirov" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="197432244" minute="80" player="T. Kunz" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4079788" alternate_id_2="4282836" date="25.10.2014" id="4197381" static_id="25101423385712350048" status="FT" time="13:30">
-<home goals="4" id="2338571" name="Belgium U17"></home>
-<away goals="1" id="2350048" name="Bosnia and Herzegovina U17"></away>
-<events>
-<event id="21841864" minute="17" player="M. Verreth" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21841865" minute="23" player="C. Janssens" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="21841866" minute="42" player="A. Mujagic" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="21841867" minute="56" player="L. Daneels" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="21841868" minute="57" player="K. Tanriver" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="21841869" minute="61" player="M. Verreth" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="21841870" minute="72" player="B. Bajic" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="21841871" minute="80+3" player="M. Mustafic" playerid="" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[2-0]"></ht>
 </match></league><league country="europe" name="Europe: Emirates Cup" cup="True" id="3592" sub_id="35920"><match alternate_id="4131627" alternate_id_2="4339569" date="26.07.2015" id="4249166" static_id="26071523408352342486" status="FT" time="15:20">
 <home goals="1" id="2340835" name="Arsenal"></home>
 <away goals="0" id="2342486" name="Wolfsburg"></away>

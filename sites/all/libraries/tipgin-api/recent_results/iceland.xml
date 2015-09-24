@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:59" sport="soccer" country="iceland"><league country="iceland" name="Iceland: Pepsideild" cup="False" id="3082" sub_id="30820"><match alternate_id="4104455" alternate_id_2="4455327" date="20.09.2015" id="4222010" static_id="20091523431002343101" status="FT" time="16:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:59" sport="soccer" country="iceland"><league country="iceland" name="Iceland: Pepsideild" cup="False" id="3082" sub_id="30820"><match alternate_id="4104455" alternate_id_2="4455327" date="20.09.2015" id="4222010" static_id="20091523431002343101" status="FT" time="16:30">
 <home goals="2" id="2343100" name="Breidablik"></home>
 <away goals="1" id="2343101" name="Hafnarfjordur"></away>
 <events>
@@ -951,6 +951,24 @@
 <event id="22368157" minute="90+2" player="H. Gunnlaugsson" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match><match alternate_id="4129028" alternate_id_2="4335456" date="03.06.2015" id="4246569" static_id="03061523431132343103" status="FT" time="19:15">
+<home goals="0" id="2343113" name="Akranes"></home>
+<away goals="3" id="2343103" name="Fjolnir"></away>
+<events>
+<event id="22368064" minute="13" player="M. Magee" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22368065" minute="18" player="M. Magee" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22368066" minute="83" player="A. Siguraarson" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4129030" alternate_id_2="4335458" date="03.06.2015" id="4246571" static_id="03061523431012343110" status="FT" time="19:15">
+<home goals="2" id="2343101" name="Hafnarfjordur"></home>
+<away goals="1" id="2343110" name="Kopavogur"></away>
+<events>
+<event id="22368084" minute="5" player="G. Steinthorsson (pen.)" playerid="2364940" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22368085" minute="33" player="S. Lennon" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22368086" minute="45" player="T. Valdimarsson" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="4129031" alternate_id_2="4335459" date="03.06.2015" id="4246572" static_id="03061523431212343123" status="FT" time="19:15">
 <home goals="0" id="2343121" name="Keflavik"></home>
 <away goals="5" id="2343123" name="KR Reykjavik"></away>
@@ -972,25 +990,6 @@
 </events>
 <ht score="[1-1]"></ht>
 <penalty localteam="6" visitorteam="5"></penalty>
-</match><match alternate_id="4129035" alternate_id_2="4335463" date="03.06.2015" id="4246576" static_id="03061523431432343132" status="FT" time="19:15">
-<home goals="4" id="2343143" name="Valur"></home>
-<away goals="0" id="2343132" name="Selfoss"></away>
-<events>
-<event id="22368134" minute="24" player="P. Pedersen" playerid="2527796" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22368135" minute="65" player="P. Pedersen" playerid="2527796" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22368136" minute="90" player="P. Pedersen" playerid="2527796" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22368137" minute="90+2" player="T. Gardarsson" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4129036" alternate_id_2="4335464" date="03.06.2015" id="4246577" static_id="03061523431462343111" status="AET" time="19:15">
-<home goals="2" id="2343146" name="Vikingur Reykjavik"></home>
-<away goals="0" id="2343111" name="Hottur"></away>
-<events>
-<event id="22368144" minute="88" player="S. Magnusson" playerid="2577701" result="" team="away" type="redcard"></event>
-<event id="22368145" minute="96" player="R. Toft" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22368146" minute="111" player="I. Taskovic" playerid="2419635" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="iceland" name="Iceland: Super Cup" cup="True" id="3575" sub_id="35750"><match alternate_id="4101938" alternate_id_2="4306376" date="27.04.2015" id="4219496" static_id="27041523431352343123" status="FT" time="19:15">
 <home goals="1" id="2343135" name="Stjarnan"></home>
 <away goals="0" id="2343123" name="KR Reykjavik"></away>

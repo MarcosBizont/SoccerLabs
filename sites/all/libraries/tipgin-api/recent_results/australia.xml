@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:29" sport="soccer" country="australia"><league country="australia" name="Australia: A-League - Play Offs" cup="False" id="2919" sub_id=""><match alternate_id="4127668" alternate_id_2="4332800" date="17.05.2015" id="4245210" static_id="17051523380492338103" status="FT" time="06:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:31" sport="soccer" country="australia"><league country="australia" name="Australia: A-League - Play Offs" cup="False" id="2919" sub_id=""><match alternate_id="4127668" alternate_id_2="4332800" date="17.05.2015" id="4245210" static_id="17051523380492338103" status="FT" time="06:00">
 <home goals="3" id="2338049" name="Melbourne Victory"></home>
 <away goals="0" id="2338103" name="Sydney FC"></away>
 <events>
@@ -564,12 +564,6 @@
 <event id="22443088" minute="86" player="" playerid="" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match></league><league country="australia" name="Australia: Brisbane Premier League - Play Offs" cup="False" id="3440" sub_id="34403"><match alternate_id="4072703" alternate_id_2="4272734" date="21.09.2014" id="4190312" static_id="21091423379922338075" status="FT" time="07:00">
-<home goals="0" id="2337992" name="Wolves FC"></home>
-<away goals="5" id="2338075" name="Peninsula"></away>
-<events>
-</events>
-<ht score="[0-2]"></ht>
 </match></league><league country="australia" name="Australia: Apl Premier League - Play Offs" cup="False" id="2918" sub_id="29182"><match alternate_id="4210825" alternate_id_2="4461159" date="12.09.2015" id="4328329" static_id="12091523379722354826" status="FT" time="05:00">
 <home goals="2" id="2337972" name="Blue Eagles"></home>
 <away goals="4" id="2354826" name="West Adelaide"></away>
@@ -1441,7 +1435,42 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="australia" name="Australia: Ffa Cup" cup="True" id="4369" sub_id="43690"><match alternate_id="" alternate_id_2="4452953" date="01.09.2015" id="" static_id="01091523380352338104" status="FT" time="09:30">
+</match></league><league country="australia" name="Australia: Ffa Cup" cup="True" id="4369" sub_id="43690"><match alternate_id="" alternate_id_2="4459695" date="22.09.2015" id="" static_id="22091523380352338068" status="AET" time="09:30">
+<home goals="3" id="2338035" name="Hume City"></home>
+<away goals="2" id="2338068" name="Oakleigh Cannons"></away>
+<events>
+<event id="23610454" minute="3" player="S. Rooney" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23610455" minute="17" player="T. Markelis" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23610456" minute="34" player="D. Piedmonte" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23610457" minute="45" player="M. Schroen" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23610458" minute="54" player="A. Wilford" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23610459" minute="58" player="M. Pavlovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23610460" minute="71" player="J. McLean" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23610461" minute="76" player="S. Pantelidis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23610462" minute="84" player="T. Markelis" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="215118043" minute="96" player="J. Honos" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="215118044" minute="102" player="S. Rooney" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="215118045" minute="107" player="M. Foschini" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="215118046" minute="118" player="M. Schroen" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="" alternate_id_2="4459696" date="22.09.2015" id="" static_id="22091523380492337977" status="FT" time="09:30">
+<home goals="3" id="2338049" name="Melbourne Victory"></home>
+<away goals="1" id="2337977" name="Adelaide United"></away>
+<events>
+<event id="23610464" minute="9" player="O. Malik" playerid="2400869" result="" team="away" type="yellowcard"></event>
+<event id="23610465" minute="10" player="Guilherme" playerid="2345022" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23610466" minute="40" player="F. Ben Khalfallah" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23610467" minute="45+1" player="K. Barbarouses" playerid="2349478" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23610468" minute="63" player="S. Cirio" playerid="2351045" result="" team="away" type="yellowcard"></event>
+<event id="23610469" minute="68" player="O. Bozanic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23610470" minute="76" player="K. Barbarouses" playerid="2349478" result="" team="home" type="yellowcard"></event>
+<event id="23610471" minute="78" player="M. Carrusca (pen.)" playerid="2336596" result="[2 - 1]" team="away" type="goal"></event>
+<event id="23610472" minute="82" player="B. Berisha (pen.)" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event id="215118143" minute="82" player="E. Galekovic" playerid="2349360" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4452953" date="01.09.2015" id="" static_id="01091523380352338104" status="FT" time="09:30">
 <home goals="3" id="2338035" name="Hume City"></home>
 <away goals="1" id="2338104" name="Sydney Olympic"></away>
 <events>
@@ -1621,44 +1650,25 @@
 <event id="22452035" minute="74" player="M. Burgess" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4343840" date="04.08.2015" id="" static_id="04081523566522338049" status="FT" time="09:30">
-<home goals="0" id="2356652" name="Balmain Tigers"></home>
-<away goals="6" id="2338049" name="Melbourne Victory"></away>
-<events>
-<event id="22451904" minute="11" player="B. Berisha" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22451905" minute="41" player="C. Pain" playerid="2615305" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22451906" minute="56" player="K. Barbarouses" playerid="2349478" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22451907" minute="58" player="D. Georgievski" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="22451908" minute="70" player="G. Howard" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="22451909" minute="84" player="F. Ben Khalfallah" playerid="" result="[0 - 6]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match><match alternate_id="" alternate_id_2="4343846" date="04.08.2015" id="" static_id="04081523380192349637" status="FT" time="09:30">
 <home goals="1" id="2338019" name="Edgeworth E."></home>
 <away goals="2" id="2349637" name="Melbourne City"></away>
 <events>
-<event id="22451964" minute="25" player="B. Hammel (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22451964" minute="25" player="B. Abbott-Hammel (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22451965" minute="35" player="A. Mooy" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22451966" minute="90+3" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22451966" minute="90+4" player="A. Mooy" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4343847" date="04.08.2015" id="" static_id="04081523561952338104" status="FT" time="09:30">
-<home goals="1" id="2356195" name="Gungahlin"></home>
-<away goals="0" id="2338104" name="Sydney Olympic"></away>
-<events>
-<event id="22451974" minute="83" player="D. Barac" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4343854" date="04.08.2015" id="" static_id="04081523381062338092" status="Pen." time="09:30">
 <home goals="3" id="2338106" name="Sydney Utd"></home>
 <away goals="3" id="2338092" name="South Hobart"></away>
 <events>
-<event id="22452044" minute="29" player="C. Hunt" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22452045" minute="49" player="B. Mann" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22452044" minute="27" player="C. Hunt" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22452045" minute="47" player="B. Mann" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="22452046" minute="58" player="P. Nikas" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 <event id="22452047" minute="71" player="P. Nikas" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 <event id="22452048" minute="81" player="C. Triantis" playerid="" result="[3 - 2]" team="home" type="goal"></event>
-<event id="22452049" minute="90+1" player="A. Hess" playerid="" result="[3 - 3]" team="away" type="goal"></event>
+<event id="22452049" minute="87" player="A. Hess" playerid="" result="[3 - 3]" team="away" type="goal"></event>
 <event id="22452050" minute="120+2" player="D. Brown" playerid="" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-1]"></ht>

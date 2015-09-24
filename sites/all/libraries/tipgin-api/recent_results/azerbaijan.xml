@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:34" sport="soccer" country="azerbaijan"><league country="azerbaijan" name="Azerbaijan: Premier League" cup="False" id="2927" sub_id="29270"><match alternate_id="4183315" alternate_id_2="4452497" date="21.09.2015" id="4300832" static_id="21091523384222338401" status="16:00" time="16:00">
-<home goals="?" id="2338422" name="Gabala"></home>
-<away goals="?" id="2338401" name="SumQayit"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:36" sport="soccer" country="azerbaijan"><league country="azerbaijan" name="Azerbaijan: Premier League" cup="False" id="2927" sub_id="29270"><match alternate_id="4183315" alternate_id_2="4452497" date="21.09.2015" id="4300832" static_id="21091523384222338401" status="FT" time="16:00">
+<home goals="1" id="2338422" name="Gabala"></home>
+<away goals="0" id="2338401" name="SumQayit"></away>
+<events>
+<event id="20846654" minute="90+2" player="Qay A. (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4183316" alternate_id_2="4452490" date="20.09.2015" id="4300833" static_id="20091523384182338410" status="FT" time="16:00">
 <home goals="1" id="2338418" name="Neftci Baku"></home>
 <away goals="1" id="2338410" name="Khazar Lenkoran"></away>
@@ -266,7 +268,7 @@
 <event id="20119166" minute="32" player="Reynaldo" playerid="2403639" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4215507" alternate_id_2="4282467" date="03.12.2014" id="4215507" static_id="03121423384102354686" status="WO" time="14:00">
+</match><match alternate_id="3860738" alternate_id_2="4282467" date="03.12.2014" id="3860738" static_id="03121423384102354686" status="WO" time="14:00">
 <home goals="?" id="2338410" name="Khazar Lenkoran"></home>
 <away goals="?" id="2354686" name="Araz"></away>
 <events></events>
@@ -322,13 +324,14 @@
 </events>
 <ht score="[0-0]"></ht>
 <penalty localteam="3" visitorteam="4"></penalty>
-</match><match alternate_id="4080133" alternate_id_2="4282465" date="03.12.2014" id="4080133" static_id="03121423383872338421" status="FT" time="09:00">
-<home goals="1" id="2338387" name="ANSAD Neftcala"></home>
-<away goals="2" id="2338421" name="AZAL PFK"></away>
+</match><match alternate_id="4081735" alternate_id_2="4284586" date="03.12.2014" id="4081735" static_id="03121423384182338420" status="FT" time="09:00">
+<home goals="3" id="2338418" name="Neftci Baku"></home>
+<away goals="0" id="2338420" name="Lokbatan"></away>
 <events>
-<event id="19814834" minute="10" player="Aliyev M." playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="19814835" minute="89" player="Mombongo-Dues F." playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="19814836" minute="90+2" player="Kasradze L." playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="19830854" minute="17" player="Webnje E." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="19830855" minute="67" player="Caue" playerid="" result="" team="home" type="redcard"></event>
+<event id="19830856" minute="75" player="Qurbanov R." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="19830857" minute="78" player="Silva Cruz D." playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league></recent_results>

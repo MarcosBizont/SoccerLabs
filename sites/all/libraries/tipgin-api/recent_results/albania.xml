@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:31" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4154300" alternate_id_2="4345011" date="21.09.2015" id="4271831" static_id="21091523375612337564" status="18:00" time="18:00">
-<home goals="?" id="2337561" name="Skenderbeu"></home>
-<away goals="?" id="2337564" name="KF Tirana"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:33" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4154300" alternate_id_2="4345011" date="21.09.2015" id="4271831" static_id="21091523375612337564" status="FT" time="18:00">
+<home goals="2" id="2337561" name="Skenderbeu"></home>
+<away goals="1" id="2337564" name="KF Tirana"></away>
+<events>
+<event id="20556504" minute="3" player="Fukui" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="20556505" minute="26" player="Berisha" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="20556506" minute="84" player="Progni" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match><match alternate_id="4154299" alternate_id_2="4345008" date="20.09.2015" id="4271830" static_id="20091523375212337565" status="FT" time="17:00">
 <home goals="2" id="2337521" name="Flamurtari"></home>
 <away goals="0" id="2337565" name="Vllaznia"></away>

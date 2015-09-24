@@ -1,20 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:46" sport="soccer" country="cyprus"><league country="cyprus" name="Cyprus: First Division" cup="False" id="3012" sub_id="30120"><match alternate_id="4153790" alternate_id_2="4456369" date="21.09.2015" id="4271321" static_id="21091523402672340259" status="16:00" time="16:00">
-<home goals="?" id="2340267" name="Doxa"></home>
-<away goals="?" id="2340259" name="APOEL"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:47" sport="soccer" country="cyprus"><league country="cyprus" name="Cyprus: First Division" cup="False" id="3012" sub_id="30120"><match alternate_id="4153790" alternate_id_2="4456369" date="21.09.2015" id="4271321" static_id="21091523402672340259" status="FT" time="16:00">
+<home goals="0" id="2340267" name="Doxa"></home>
+<away goals="1" id="2340259" name="APOEL"></away>
+<events>
+<event id="23577194" minute="13" player="S. Demetriou" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23577195" minute="13" player="F. Cavenaghi (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23577196" minute="39" player="Vander" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23577197" minute="82" player="A. Solomou" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4153788" alternate_id_2="4456370" date="20.09.2015" id="4271319" static_id="20091523402812340260" status="FT" time="16:00">
 <home goals="2" id="2340281" name="Nea Salamis"></home>
 <away goals="0" id="2340260" name="Apollon"></away>
 <events>
-<event id="23577204" minute="40" player="M. Stylianou" playerid="2574308" result="" team="away" type="yellowcard"></event>
-<event id="23577205" minute="42" player="D. Makriev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23577204" minute="42" player="M. Stylianou" playerid="2574308" result="" team="away" type="yellowcard"></event>
+<event id="23577205" minute="42" player="D. Makriev (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23577206" minute="45" player="B. Vale" playerid="2332173" result="" team="away" type="yellowcard"></event>
 <event id="23577207" minute="55" player="M. Andic" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="23577208" minute="63" player="Jaime" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="23577209" minute="69" player="K. Pavlou" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="23577210" minute="70" player="F. Papoulis" playerid="2400212" result="" team="away" type="yellowcard"></event>
-<event id="23577211" minute="83" player="D. Mezga" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23577211" minute="82" player="D. Mezga" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="23577212" minute="83" player="G. Skopelitis" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
@@ -28,7 +33,7 @@
 <event id="23576547" minute="52" player="C. Charalambous" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="23576548" minute="59" player="I. Efstathiou" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="23576549" minute="68" player="M. Maragoudakis" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23576550" minute="90+3" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23576550" minute="90+3" player="K. Mintikkis" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4153785" alternate_id_2="4456418" date="20.09.2015" id="4271316" static_id="20091523402712340291" status="FT" time="15:00">
@@ -51,7 +56,6 @@
 <event id="23577314" minute="20" player="F. Gonzalez" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="23577315" minute="44" player="F. Feltscher" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23577316" minute="55" player="M. Niang" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23577317" minute="59" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4153781" alternate_id_2="4456405" date="19.09.2015" id="4271312" static_id="19091523402732340257" status="FT" time="16:00">
@@ -63,7 +67,8 @@
 <event id="23577556" minute="58" player="G. Lambropoulos" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="23577557" minute="64" player="M. Felgate" playerid="2403053" result="" team="away" type="yellowcard"></event>
 <event id="23577558" minute="67" player="M. Elia" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23577559" minute="90+2" player="C. Coto (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23577559" minute="68" player="F. Bamba" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23577560" minute="90+2" player="C. Coto (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4153782" alternate_id_2="4456305" date="19.09.2015" id="4271313" static_id="19091523402852340256" status="FT" time="16:00">
@@ -82,9 +87,9 @@
 <events>
 <event id="22468884" minute="22" player="C. Dickson" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468885" minute="43" player="A. Vasilogiannis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22468886" minute="45" player="P. Frangeskou" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468887" minute="59" player="A. Azmy" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468888" minute="60" player="A. Koumis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468886" minute="44" player="P. Frangeskou" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468887" minute="60" player="A. Azmy" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468888" minute="61" player="A. Koumis" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468889" minute="64" player="P. Frangeskou (o.g.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22468890" minute="73" player="Y. Yenga" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="22468891" minute="80" player="E. de Jesus" playerid="" result="" team="away" type="yellowcard"></event>
@@ -98,10 +103,10 @@
 <away goals="0" id="2340273" name="Achnas"></away>
 <events>
 <event id="22468864" minute="2" player="J. Victor" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22468865" minute="14" player="S. Cojocnean" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468866" minute="42" player="A. Iacob" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468865" minute="13" player="S. Cojocnean" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468866" minute="41" player="A. Iacob" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468867" minute="42" player="V. Pele" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22468868" minute="62" player="I. Maisuradze" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468868" minute="61" player="I. Maisuradze" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22468869" minute="72" player="D. Ndlovu" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
@@ -110,25 +115,23 @@
 <away goals="0" id="2340248" name="AEL Limassol"></away>
 <events>
 <event id="22468914" minute="13" player="V. Sielis" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468915" minute="17" player="M. Niang" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468915" minute="16" player="M. Niang" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468916" minute="32" player="J. Pedro" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22468917" minute="59" player="F. Papoulis" playerid="2400212" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22468918" minute="90+1" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468919" minute="90+3" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4153772" alternate_id_2="4345537" date="13.09.2015" id="4271303" static_id="13091523402572340281" status="FT" time="15:00">
 <home goals="1" id="2340257" name="Ayia Napa"></home>
 <away goals="3" id="2340281" name="Nea Salamis"></away>
 <events>
-<event id="22468874" minute="30" player="G. Skopelitis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468874" minute="29" player="G. Skopelitis" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468875" minute="58" player="D. Makriev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22468876" minute="74" player="A. Kittos" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22468877" minute="75" player="D. Makriev (pen.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22468878" minute="79" player="B. Markoski" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468879" minute="84" player="U. Stojanov" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="22468880" minute="87" player="L. Mertakkas" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468881" minute="90+2" player="I. Curjuric" playerid="2417427" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22468878" minute="77" player="E. A. Fusco" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468879" minute="83" player="U. Stojanov" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="22468880" minute="86" player="I. Georghiou" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468881" minute="90+1" player="I. Curjuric" playerid="2417427" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4153779" alternate_id_2="4345535" date="12.09.2015" id="4271310" static_id="12091523402472340259" status="FT" time="17:00">
@@ -136,10 +139,10 @@
 <away goals="2" id="2340259" name="APOEL"></away>
 <events>
 <event id="22468854" minute="28" player="V. Oliveira" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468855" minute="36" player="M. Antoniades" playerid="2372102" result="" team="away" type="yellowcard"></event>
+<event id="22468855" minute="35" player="M. Antoniades" playerid="2372102" result="" team="away" type="yellowcard"></event>
 <event id="22468856" minute="38" player="J. Tomas" playerid="2394732" result="" team="home" type="yellowcard"></event>
-<event id="22468857" minute="42" player="Kante" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22468858" minute="67" player="I. Astiz" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468857" minute="41" player="Kante" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22468858" minute="66" player="I. Astiz" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468859" minute="68" player="Vander" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22468860" minute="75" player="Monteiro" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 <event id="22468861" minute="82" player="F. Cavenaghi" playerid="" result="[2 - 2]" team="away" type="goal"></event>
@@ -155,19 +158,21 @@
 <event id="22468896" minute="36" player="A. Schembri" playerid="2369829" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22468897" minute="45+1" player="C. Ramos" playerid="" result="" team="home" type="yellowred"></event>
 <event id="22468898" minute="63" player="H. Eninful" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468899" minute="90+5" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22468899" minute="90+4" player="Z. Badibanga" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468900" minute="90+4" player="L. Silva" playerid="2412773" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4153777" alternate_id_2="4345540" date="12.09.2015" id="4271308" static_id="12091523402912340262" status="FT" time="16:00">
 <home goals="3" id="2340291" name="Paphos"></home>
 <away goals="0" id="2340262" name="Aris"></away>
 <events>
-<event id="22468904" minute="25" player="I. Efstathiou" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468904" minute="24" player="I. Efstathiou" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="22468905" minute="42" player="C. Marques" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22468906" minute="45+1" player="N. Gelashvili" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22468907" minute="49" player="N. Maachi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="22468908" minute="65" player="T. Ioannou" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468909" minute="84" player="J. Damahou" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22468909" minute="84" player="J. Damahou (pen.)" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22468910" minute="84" player="C. Theofilou" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4153759" alternate_id_2="4345530" date="30.08.2015" id="4271290" static_id="30081523402592340291" status="FT" time="17:00">
@@ -182,9 +187,9 @@
 <event id="22468809" minute="61" player="K. Charalambidis" playerid="2352863" result="[3 - 1]" team="home" type="goal"></event>
 <event id="22468810" minute="68" player="N. Alexandrou" playerid="2350802" result="" team="home" type="yellowcard"></event>
 <event id="22468811" minute="71" player="V. Oliveira" playerid="" result="[4 - 1]" team="home" type="goal"></event>
-<event id="22468812" minute="87" player="F. Cavenaghi" playerid="" result="[5 - 1]" team="home" type="goal"></event>
+<event id="22468812" minute="86" player="F. Cavenaghi" playerid="" result="[5 - 1]" team="home" type="goal"></event>
 <event id="203701543" minute="89" player="G. Grigalava" playerid="" result="[5 - 2]" team="away" type="goal"></event>
-<event id="203701544" minute="90+1" player="" playerid="" result="[6 - 2]" team="home" type="goal"></event>
+<event id="203701544" minute="90+1" player="F. Cavenaghi" playerid="" result="[6 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match><match alternate_id="4153764" alternate_id_2="4345529" date="30.08.2015" id="4271295" static_id="30081523402482340257" status="FT" time="16:00">
@@ -195,6 +200,7 @@
 <event id="22468795" minute="61" player="S. Adrian" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="22468796" minute="71" player="M. Sambou" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22468797" minute="87" player="M. Felgate" playerid="2403053" result="" team="away" type="yellowcard"></event>
+<event id="22468798" minute="89" player="E. A. Fusco" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4153762" alternate_id_2="4345534" date="30.08.2015" id="4271293" static_id="30081523402712340260" status="FT" time="16:00">
@@ -215,25 +221,25 @@
 <home goals="1" id="2340262" name="Aris"></home>
 <away goals="1" id="2340272" name="Ermis"></away>
 <events>
-<event id="22468814" minute="20" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22468815" minute="37" player="" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468816" minute="82" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22468817" minute="90+2" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468814" minute="20" player="M. Quaynor" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22468815" minute="37" player="I. Efstathiou" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468816" minute="81" player="S. Gonzalez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22468817" minute="90" player="S. Borg" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4153766" alternate_id_2="4345533" date="29.08.2015" id="4271297" static_id="29081523402812340256" status="FT" time="17:00">
 <home goals="1" id="2340281" name="Nea Salamis"></home>
 <away goals="3" id="2340256" name="Anorthosis"></away>
 <events>
-<event id="22468834" minute="7" player="Atorno" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22468835" minute="15" player="" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468836" minute="26" player="Gabrie" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468837" minute="47" player="Entlovou" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22468838" minute="48" player="A. Zarkovic" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468839" minute="55" player="K. Kyriacou" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22468840" minute="56" player="Entlovou" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22468841" minute="59" player="" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22468842" minute="66" player="Endlovu" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="22468834" minute="10" player="A. Adorno" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22468835" minute="15" player="I. Kousoulos" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468836" minute="26" player="G. Moura" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468837" minute="47" player="D. Zarkovic" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468838" minute="48" player="D. Ndlovu" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22468839" minute="56" player="K. Kyriacou" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22468840" minute="57" player="D. Ndlovu (pen.)" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="22468841" minute="59" player="R. Nuhu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22468842" minute="66" player="D. Ndlovu" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4153767" alternate_id_2="4345532" date="29.08.2015" id="4271298" static_id="29081523402672340247" status="FT" time="16:00">
@@ -912,12 +918,12 @@
 <event id="22162418" minute="88" player="Terjek" playerid="" result="[1 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4076115" alternate_id_2="4314734" date="28.03.2015" id="4193724" static_id="28031523402722340284" status="FT" time="13:30">
-<home goals="2" id="2340272" name="Erimis"></home>
-<away goals="2" id="2340284" name="Omonia Aradippou"></away>
+</match><match alternate_id="4076114" alternate_id_2="4314735" date="28.03.2015" id="4193723" static_id="28031523532952340291" status="FT" time="13:30">
+<home goals="0" id="2353295" name="Karmiotissa"></home>
+<away goals="1" id="2340291" name="Paphos"></away>
 <events>
 </events>
-<ht score="[0-2]"></ht>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4076113" alternate_id_2="4314736" date="28.03.2015" id="4193722" static_id="28031523402712340246" status="FT" time="13:30">
 <home goals="3" id="2340271" name="Paralimni"></home>
 <away goals="0" id="2340246" name="Zakakiou"></away>

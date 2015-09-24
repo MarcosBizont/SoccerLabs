@@ -1,23 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:40" sport="soccer" country="uae"><league country="uae" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="4181591" alternate_id_2="4362487" date="21.09.2015" id="4299109" static_id="21091523490632349066" status="16:15" time="16:15">
-<home goals="?" id="2349063" name="Al Ahli Dubai"></home>
-<away goals="?" id="2349066" name="Al Dhafra"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4362484" date="21.09.2015" id="" static_id="21091523490732349080" status="16:15" time="16:15">
-<home goals="?" id="2349073" name="Al Nasr"></home>
-<away goals="?" id="2349080" name="Al Wasl"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4362481" date="21.09.2015" id="" static_id="21091523490642349089" status="13:30" time="13:30">
-<home goals="?" id="2349064" name="Al Ain"></home>
-<away goals="?" id="2349089" name="Al Sharjah"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4362486" date="21.09.2015" id="" static_id="21091523490762349082" status="13:30" time="13:30">
-<home goals="?" id="2349076" name="Al Shabab"></home>
-<away goals="?" id="2349082" name="Dibba Al Fujairah"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:39" sport="soccer" country="uae"><league country="uae" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="4181591" alternate_id_2="4362487" date="21.09.2015" id="4299109" static_id="21091523490632349066" status="FT" time="16:15">
+<home goals="2" id="2349063" name="Al Ahli Dubai"></home>
+<away goals="1" id="2349066" name="Al Dhafra"></away>
+<events>
+<event id="20829414" minute="59" player="Al N. A." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20829415" minute="62" player="Sow M.Fardan H." playerid="" result="" team="home" type=""></event>
+<event id="20829416" minute="67" player="Lima" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20829417" minute="68" player="Abbas W.Sanqour A." playerid="" result="" team="home" type=""></event>
+<event id="20829418" minute="68" player="Ali Al HammadiLuna J." playerid="" result="" team="away" type=""></event>
+<event id="20829419" minute="71" player="Abdulraheem Jumaa" playerid="2411453" result="[1 - 1]" team="away" type="goal"></event>
+<event id="20829420" minute="80" player="Al Hamadi Ismaeel" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="20829421" minute="81" player="Salmeen K." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20829422" minute="82" player="Abbas H.Khalil A." playerid="" result="" team="home" type=""></event>
+<event id="187307643" minute="86" player="Al Alebri A.Mohammed K." playerid="" result="" team="away" type=""></event>
+<event id="187307644" minute="88" player="Sow M." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="187307645" minute="88" player="Khalaf A." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="187307646" minute="89" player="Al Ali SalimAl N. A." playerid="" result="" team="away" type=""></event>
+<event id="187307647" minute="90" player="Ali Al Hammadi" playerid="2518395" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4181592" alternate_id_2="4362484" date="21.09.2015" id="4299110" static_id="21091523490732349080" status="FT" time="16:15">
+<home goals="2" id="2349073" name="Al Nasr"></home>
+<away goals="0" id="2349080" name="Al Wasl"></away>
+<events>
+<event id="20829424" minute="20" player="Kembo-Ekoko J." playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20829425" minute="23" player="Waheed Ismail" playerid="2358163" result="" team="away" type="yellowcard"></event>
+<event id="20829426" minute="25" player="Viana H." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20829427" minute="42" player="Tariq Ahmed" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20829428" minute="59" player="Ali A. I." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20829429" minute="68" player="Kembo-Ekoko J." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20829430" minute="68" player="Pitroipa J." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20829431" minute="76" player="Taher H.Viana H." playerid="" result="" team="away" type=""></event>
+<event id="20829432" minute="76" player="Al Shamisi A.Kazim A." playerid="" result="" team="away" type=""></event>
+<event id="187307743" minute="79" player="Saeed Mubarak Saquer" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="187307744" minute="84" player="Maroof J.Nilmar" playerid="" result="" team="home" type=""></event>
+<event id="187307745" minute="86" player="Ghanim K." playerid="2509053" result="" team="home" type="yellowcard"></event>
+<event id="187307746" minute="88" player="Salman Y. J.Pitroipa J." playerid="" result="" team="home" type=""></event>
+<event id="187307747" minute="90+4" player="Mubarak A.Kembo-Ekoko J." playerid="" result="" team="home" type=""></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4181589" alternate_id_2="4362481" date="21.09.2015" id="4299107" static_id="21091523490642349089" status="FT" time="13:30">
+<home goals="2" id="2349064" name="Al Ain"></home>
+<away goals="1" id="2349089" name="Al Sharjah"></away>
+<events>
+<event id="20829394" minute="6" player="Rashed E." playerid="2600235" result="[1 - 0]" team="home" type="goal"></event>
+<event id="20829395" minute="25" player="Babel R." playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="20829396" minute="29" player="Bastos F." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20829397" minute="41" player="Ahmed W." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20829398" minute="46" player="Khalifa M.Rashid S." playerid="" result="" team="away" type=""></event>
+<event id="20829399" minute="59" player="Surour M." playerid="2509887" result="" team="away" type="yellowcard"></event>
+<event id="20829400" minute="61" player="Barman A.Bastos F." playerid="" result="" team="home" type=""></event>
+<event id="20829401" minute="63" player="Juma O.Ahmed W." playerid="" result="" team="away" type=""></event>
+<event id="20829402" minute="70" player="Diaky I.Rashed E." playerid="" result="" team="home" type=""></event>
+<event id="187307443" minute="78" player="Abdulrahman M.Babel R." playerid="" result="" team="home" type=""></event>
+<event id="187307444" minute="78" player="Juma Y. S.Maicon" playerid="" result="" team="away" type=""></event>
+<event id="187307445" minute="90+4" player="Renato Caja" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="187307446" minute="90+7" player="Al Bloushi H." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="187307447" minute="90+7" player="Al Bloushi H." playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4181588" alternate_id_2="4362486" date="21.09.2015" id="4299106" static_id="21091523490762349082" status="FT" time="13:30">
+<home goals="0" id="2349076" name="Al Shabab"></home>
+<away goals="0" id="2349082" name="Dibba Al Fujairah"></away>
+<events>
+<event id="20829384" minute="36" player="Saeed M." playerid="2600013" result="" team="away" type="yellowcard"></event>
+<event id="20829385" minute="38" player="Ahmed F." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20829386" minute="45+3" player="Abdulhadi N." playerid="" result="" team="away" type="yellowcard"></event>
+<event id="20829387" minute="70" player="Mohammad E.Al Balooshi D." playerid="" result="" team="home" type=""></event>
+<event id="20829388" minute="74" player="Marzouq A. F.Qassim M." playerid="" result="" team="home" type=""></event>
+<event id="20829389" minute="79" player="Ibrahim H. A.Ibraheem K." playerid="" result="" team="away" type=""></event>
+<event id="20829390" minute="87" player="Essa Mohammed" playerid="2408699" result="" team="home" type="yellowcard"></event>
+<event id="20829391" minute="88" player="Ali Ayed M." playerid="" result="" team="home" type="yellowcard"></event>
+<event id="20829392" minute="89" player="Qassim M.Ahmed T." playerid="" result="" team="away" type=""></event>
+<event id="187307343" minute="90+1" player="Qassim M." playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4181587" alternate_id_2="4362483" date="18.09.2015" id="4299105" static_id="18091523490702349079" status="FT" time="16:15">
 <home goals="3" id="2349070" name="Al Jazira"></home>
 <away goals="2" id="2349079" name="Al Wahda"></away>

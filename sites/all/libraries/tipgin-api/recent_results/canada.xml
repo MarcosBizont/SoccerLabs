@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:40:39" sport="soccer" country="canada"><league country="canada" name="Canada: Csl" cup="False" id="2989" sub_id="29890"><match alternate_id="4126579" alternate_id_2="4459190" date="20.09.2015" id="4244122" static_id="20091523523022349989" status="FT" time="22:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:40:41" sport="soccer" country="canada"><league country="canada" name="Canada: Csl" cup="False" id="2989" sub_id="29890"><match alternate_id="4126579" alternate_id_2="4459190" date="20.09.2015" id="4244122" static_id="20091523523022349989" status="FT" time="22:30">
 <home goals="3" id="2352302" name="Waterloo"></home>
 <away goals="0" id="2349989" name="Brantford"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4126578" alternate_id_2="4458780" date="20.09.2015" id="4244121" static_id="20091523537262339766" status="22:00" time="22:00">
-<home goals="?" id="2353726" name="Burlington"></home>
-<away goals="?" id="2339766" name="Serbian W. E."></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4126578" alternate_id_2="4458780" date="20.09.2015" id="4244121" static_id="20091523537262339766" status="FT" time="22:00">
+<home goals="0" id="2353726" name="Burlington"></home>
+<away goals="5" id="2339766" name="Serbian W. E."></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4126577" alternate_id_2="4458779" date="19.09.2015" id="4244120" static_id="19091523397722349986" status="FT" time="23:30">
 <home goals="3" id="2339772" name="Toronto Croatia"></home>
 <away goals="1" id="2349986" name="York Region"></away>
@@ -51,11 +52,12 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4126569" alternate_id_2="4454480" date="12.09.2015" id="4244112" static_id="12091523397722352301" status="Postp." time="23:30">
-<home goals="?" id="2339772" name="Toronto Croatia"></home>
-<away goals="?" id="2352301" name="Niagara"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4126569" alternate_id_2="4454480" date="12.09.2015" id="4244112" static_id="12091523397722352301" status="FT" time="23:30">
+<home goals="2" id="2339772" name="Toronto Croatia"></home>
+<away goals="0" id="2352301" name="Niagara"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="4126568" alternate_id_2="4454479" date="11.09.2015" id="4244111" static_id="11091523397662356143" status="FT" time="23:00">
 <home goals="1" id="2339766" name="Serbian W. E."></home>
 <away goals="0" id="2356143" name="Scarborough B."></away>
@@ -197,7 +199,24 @@
 <event id="19803046" minute="116" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="canada" name="Canada: Cis" cup="False" id="4875" sub_id=""><match alternate_id="" alternate_id_2="4465720" date="20.09.2015" id="" static_id="" status="FT" time="20:30">
+</match></league><league country="canada" name="Canada: Cis" cup="False" id="4875" sub_id=""><match alternate_id="" alternate_id_2="4465723" date="24.09.2015" id="" static_id="" status="22:30" time="22:30">
+<home goals="?" id="" name="UQAM"></home>
+<away goals="?" id="" name="UQTR"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4466254" date="24.09.2015" id="" static_id="24091523549022352688" status="FT" time="00:15">
+<home goals="0" id="2354902" name="Western"></home>
+<away goals="1" id="2352688" name="Windsor"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4465722" date="22.09.2015" id="" static_id="" status="FT" time="16:30">
+<home goals="0" id="" name="Guelph"></home>
+<away goals="0" id="" name="Laurier"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4465720" date="20.09.2015" id="" static_id="" status="FT" time="20:30">
 <home goals="2" id="" name="MacEwan"></home>
 <away goals="1" id="2350697" name="Winnipeg"></away>
 <events>
@@ -221,11 +240,12 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4465713" date="20.09.2015" id="" static_id="" status="19:15" time="19:15">
-<home goals="?" id="" name="Ryerson"></home>
-<away goals="?" id="2353625" name="Queens"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4465713" date="20.09.2015" id="" static_id="" status="FT" time="19:15">
+<home goals="1" id="" name="Ryerson"></home>
+<away goals="4" id="2353625" name="Queens"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4465714" date="20.09.2015" id="" static_id="" status="FT" time="19:15">
 <home goals="3" id="2339773" name="Toronto"></home>
 <away goals="0" id="" name="RMC"></away>
@@ -280,40 +300,24 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4465708" date="20.09.2015" id="" static_id="" status="17:00" time="17:00">
-<home goals="?" id="" name="UQTR"></home>
-<away goals="?" id="2341824" name="Laval"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4465706" date="20.09.2015" id="" static_id="20091523511722342859" status="02:30" time="02:30">
-<home goals="?" id="2351172" name="UFV"></home>
-<away goals="?" id="2342859" name="Victoria"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4465708" date="20.09.2015" id="" static_id="" status="FT" time="17:00">
+<home goals="2" id="" name="UQTR"></home>
+<away goals="1" id="2341824" name="Laval"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4465706" date="20.09.2015" id="" static_id="20091523511722342859" status="FT" time="02:30">
+<home goals="2" id="2351172" name="UFV"></home>
+<away goals="1" id="2342859" name="Victoria"></away>
+<events>
+</events>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4465705" date="20.09.2015" id="" static_id="20091523549022340364" status="FT" time="02:15">
 <home goals="0" id="2354902" name="Trinity Western"></home>
 <away goals="2" id="2340364" name="UBC"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4465704" date="20.09.2015" id="" static_id="" status="FT" time="01:00">
-<home goals="0" id="" name="UBC Okanagan"></home>
-<away goals="1" id="" name="UNBC"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4465148" date="19.09.2015" id="" static_id="" status="FT" time="20:45">
-<home goals="1" id="" name="Mount Royal"></home>
-<away goals="2" id="" name="Saskatchewan"></away>
-<events>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4465147" date="19.09.2015" id="" static_id="" status="FT" time="20:30">
-<home goals="1" id="" name="MacEwan"></home>
-<away goals="3" id="2350697" name="Winnipeg"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="canada" name="Canada: Championship" cup="False" id="3571" sub_id="35710"><match alternate_id="" alternate_id_2="4335312" date="27.08.2015" id="" static_id="27081523397752339753" status="FT" time="02:00">
 <home goals="2" id="2339775" name="Vancouver Whitecaps"></home>
 <away goals="0" id="2339753" name="Montreal Impact"></away>

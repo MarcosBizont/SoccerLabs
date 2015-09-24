@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="21.09.2015 00:41:39" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4154741" alternate_id_2="4456688" date="21.09.2015" id="4272272" static_id="21091523488682348827" status="17:00" time="17:00">
-<home goals="?" id="2348868" name="Genclerbirligi"></home>
-<away goals="?" id="2348827" name="Besiktas"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="24.09.2015 12:41:38" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4154741" alternate_id_2="4456688" date="21.09.2015" id="4272272" static_id="21091523488682348827" status="FT" time="17:00">
+<home goals="1" id="2348868" name="Genclerbirligi"></home>
+<away goals="1" id="2348827" name="Besiktas"></away>
+<events>
+<event id="23580384" minute="23" player="D. Tosic (o.g.)" playerid="2333177" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23580385" minute="38" player="O. Skulason" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23580386" minute="44" player="I. Kahveci" playerid="2567120" result="" team="home" type="yellowcard"></event>
+<event id="23580387" minute="45+3" player="O. Sahan" playerid="2389514" result="" team="away" type="yellowcard"></event>
+<event id="23580388" minute="54" player="M. Gomez" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23580389" minute="58" player="N. Uysal" playerid="2397809" result="" team="away" type="yellowcard"></event>
+<event id="23580390" minute="67" player="G. Tore" playerid="2403782" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23580391" minute="69" player="D. Campos" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23580392" minute="83" player="E. Gulum" playerid="2336817" result="" team="away" type="yellowcard"></event>
+<event id="214817343" minute="90+2" player="" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4154737" alternate_id_2="4456701" date="20.09.2015" id="4272268" static_id="20091523488602348835" status="FT" time="17:00">
 <home goals="2" id="2348860" name="Fenerbahce"></home>
 <away goals="1" id="2348835" name="Bursaspor"></away>
@@ -516,17 +527,19 @@
 <event id="23560019" minute="90+5" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4158509" alternate_id_2="4362011" date="30.08.2015" id="4276038" static_id="30081523487992348830" status="FT" time="18:00">
-<home goals="1" id="2348799" name="Adana Demirspor"></home>
-<away goals="0" id="2348830" name="Boluspor"></away>
+</match><match alternate_id="4158506" alternate_id_2="4362010" date="30.08.2015" id="4276035" static_id="30081523489272348871" status="FT" time="18:00">
+<home goals="1" id="2348927" name="Sanliurfaspor"></home>
+<away goals="1" id="2348871" name="Goztepe"></away>
 <events>
-<event id="22633614" minute="13" player="Y. E. Gultekin" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22633615" minute="40" player="R. Sal" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22633616" minute="65" player="B. Calik" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22633617" minute="76" player="D. Mojsov" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22633618" minute="88" player="E. Aydin" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22633619" minute="89" player="Ferreira" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22633620" minute="90+3" player="B. Calik" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22633604" minute="24" player="G. Karadeniz" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22633605" minute="34" player="I. Ozgur" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22633606" minute="45" player="Y. Yesilmen" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22633607" minute="45" player="B. Basdas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="22633608" minute="54" player="T. Silva" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22633609" minute="85" player="T. Silva" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22633610" minute="86" player="K. Karisik" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22633611" minute="90+3" player="B. Vleminckx" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22633612" minute="90+3" player="S. Ozel" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4158511" alternate_id_2="4362019" date="30.08.2015" id="4276040" static_id="30081523489052348806" status="FT" time="18:00">
@@ -1086,185 +1099,182 @@
 <event id="22332537" minute="90+3" player="E. Kokoc (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="turkey" name="Turkey: Turkish Cup - First Stage" cup="True" id="3256" sub_id="32560"><match alternate_id="4206980" alternate_id_2="4460768" date="16.09.2015" id="4324484" static_id="16091523517512353263" status="FT" time="11:30">
-<home goals="3" id="2351751" name="Erzurum BB"></home>
-<away goals="1" id="2353263" name="Dersim Spor"></away>
+</match></league><league country="turkey" name="Turkey: Turkish Cup - First Stage" cup="True" id="3256" sub_id="32560"><match alternate_id="4213453" alternate_id_2="4464449" date="23.09.2015" id="4330954" static_id="23091523488562348878" status="FT" time="18:00">
+<home goals="1" id="2348856" name="Eskisehirspor"></home>
+<away goals="0" id="2348878" name="Iskenderun"></away>
 <events>
-<event id="23621184" minute="1" player="Y. Kaymaz" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23621185" minute="33" player="M. Yeniler" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23621186" minute="35" player="S. Deniz" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23621187" minute="44" player="O. Karakullukcu" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[3-1]"></ht>
-</match><match alternate_id="4206981" alternate_id_2="4460769" date="16.09.2015" id="4324485" static_id="16091523556642348826" status="FT" time="11:30">
-<home goals="1" id="2355664" name="Igdir Aras Spor"></home>
-<away goals="0" id="2348826" name="Vanspor Bld."></away>
-<events>
-<event id="23621194" minute="90" player="K. Aras" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23657994" minute="49" player="E. Senturk" playerid="2487248" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4206988" alternate_id_2="4460771" date="09.09.2015" id="4324492" static_id="09091523528952353262" status="AET" time="14:00">
-<home goals="2" id="2352895" name="Kahramanmaras Bld"></home>
-<away goals="0" id="2353262" name="Nigde Bld."></away>
+</match><match alternate_id="4213489" alternate_id_2="4464172" date="23.09.2015" id="4330990" static_id="23091523488902356503" status="FT" time="15:30">
+<home goals="3" id="2348890" name="Kasimpasa"></home>
+<away goals="0" id="2356503" name="Tire"></away>
 <events>
-<event id="23621214" minute="107" player="H. Celik" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23621215" minute="120" player="D. Genc" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4206995" alternate_id_2="4460778" date="09.09.2015" id="4324499" static_id="09091523541982355744" status="FT" time="12:30">
-<home goals="1" id="2354198" name="Ayvalikgucu"></home>
-<away goals="2" id="2355744" name="Cine M."></away>
-<events>
-<event id="23621284" minute="37" player="M. Ozkaya" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23621285" minute="73" player="Y. Bozkir" playerid="" result="" team="away" type="redcard"></event>
-<event id="23621286" minute="85" player="O. Dogru" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23621287" minute="89" player="A. Akbey" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4206996" alternate_id_2="4460851" date="09.09.2015" id="4324500" static_id="09091523488292356723" status="FT" time="12:30">
-<home goals="0" id="2348829" name="Beylerbeyi SK"></home>
-<away goals="3" id="2356723" name="Sultanbeyli"></away>
-<events>
-<event id="23622014" minute="30" player="E. Hifsullah" playerid="" result="" team="home" type="redcard"></event>
-<event id="23622015" minute="32" player="G. Cingirt" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622016" minute="74" player="B. Kazer" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23622017" minute="89" player="C. Gunes" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4207006" alternate_id_2="4460852" date="09.09.2015" id="4324510" static_id="09091523567242352884" status="FT" time="12:30">
-<home goals="2" id="2356724" name="Bodrumspor"></home>
-<away goals="1" id="2352884" name="Bergama Bld."></away>
-<events>
-<event id="23622024" minute="63" player="G. Cetinus" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622025" minute="77" player="Y. Ayakli" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23622026" minute="87" player="Y. Ayakli" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4207009" alternate_id_2="4460853" date="09.09.2015" id="4324513" static_id="09091523488342353251" status="FT" time="12:30">
-<home goals="2" id="2348834" name="Bursa Niluferspor"></home>
-<away goals="1" id="2353251" name="Altinova Bld."></away>
-<events>
-<event id="23622034" minute="8" player="M. Sevinc" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622035" minute="78" player="(pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23622036" minute="85" player="H. Demir" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4207010" alternate_id_2="4460854" date="09.09.2015" id="4324514" static_id="09091523488372354381" status="FT" time="12:30">
-<home goals="1" id="2348837" name="Dardanelspor"></home>
-<away goals="0" id="2354381" name="Yesil Bursa"></away>
-<events>
-<event id="23622044" minute="53" player="H. Kelleci" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622045" minute="70" player="U. Arslan" playerid="" result="" team="home" type="yellowred"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4207002" alternate_id_2="4460855" date="09.09.2015" id="4324506" static_id="09091523528902354383" status="FT" time="12:30">
-<home goals="0" id="2352890" name="Derince Bld."></home>
-<away goals="1" id="2354383" name="Zonguldak"></away>
-<events>
-<event id="23622054" minute="66" player="C. Cimen" playerid="" result="" team="home" type="redcard"></event>
-<event id="23622055" minute="67" player="S. Vural" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622056" minute="87" player="Y. Ayazoglu" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4207001" alternate_id_2="4460857" date="09.09.2015" id="4324505" static_id="09091523488512348924" status="FT" time="12:30">
-<home goals="2" id="2348851" name="Duzcespor"></home>
-<away goals="1" id="2348924" name="Sakaryaspor"></away>
-<events>
-<event id="23622074" minute="30" player="M. Sari" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622075" minute="64" player="B. Seres" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23622076" minute="68" player="B. Seres" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23622077" minute="79" player="D. Savkin" playerid="2604179" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4206999" alternate_id_2="4460860" date="09.09.2015" id="4324503" static_id="09091523488662355730" status="FT" time="12:30">
-<home goals="1" id="2348866" name="Gaziosmanpasa"></home>
-<away goals="3" id="2355730" name="Catalca"></away>
-<events>
-<event id="23622104" minute="16" player="I. Aslanoglu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622105" minute="83" player="I. Aslanoglu" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23622106" minute="84" player="E. Balkan" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="23622107" minute="90" player="E. Yilmaz (pen.)" playerid="" result="[1 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4207000" alternate_id_2="4460861" date="09.09.2015" id="4324504" static_id="09091523488702348843" status="Pen." time="12:30">
-<home goals="0" id="2348870" name="Golcukspor"></home>
-<away goals="0" id="2348843" name="Darica Genclerbirligi"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="4" visitorteam="3"></penalty>
-</match><match alternate_id="4207005" alternate_id_2="4460862" date="09.09.2015" id="4324509" static_id="09091523541942348845" status="AET" time="12:30">
-<home goals="3" id="2354194" name="Kizilcabolukspor"></home>
-<away goals="2" id="2348845" name="Denizli BB"></away>
-<events>
-<event id="23622124" minute="19" player="B. Gokbel" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622125" minute="37" player="H. Akman (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23622126" minute="49" player="H. Demir" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="23622127" minute="75" player="U. Pusat" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-<event id="23622128" minute="99" player="H. Akman" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="23655224" minute="17" player="H. Arslan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23655225" minute="34" player="Y. Del Valle" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23655226" minute="90+2" player="E. Derdiyok" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4206998" alternate_id_2="4460863" date="09.09.2015" id="4324502" static_id="09091523517462354379" status="Pen." time="12:30">
-<home goals="1" id="2351746" name="Maltepespor"></home>
-<away goals="1" id="2354379" name="Tekirdagspor"></away>
+</match><match alternate_id="4213449" alternate_id_2="4464175" date="23.09.2015" id="4330950" static_id="23091523488392354193" status="FT" time="13:00">
+<home goals="2" id="2348839" name="Rizespor"></home>
+<away goals="0" id="2354193" name="Ankara Adliyespor"></away>
 <events>
-<event id="23622134" minute="34" player="B. Ozturk" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622135" minute="69" player="C. Kasimoglu" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23622136" minute="90" player="H. Demir" playerid="" result="" team="away" type="yellowred"></event>
-<event id="23622137" minute="90" player="T. Vurgun" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-<penalty localteam="5" visitorteam="6"></penalty>
-</match><match alternate_id="4207004" alternate_id_2="4460864" date="09.09.2015" id="4324508" static_id="09091523517442348934" status="FT" time="12:30">
-<home goals="3" id="2351744" name="Manavgatspor"></home>
-<away goals="1" id="2348934" name="Tekirova Bld."></away>
-<events>
-<event id="23622144" minute="5" player="F. Belen" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622145" minute="18" player="E. Kahraman (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23622146" minute="70" player="B. Yardimci" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23622147" minute="86" player="A. Tez" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4207007" alternate_id_2="4460865" date="09.09.2015" id="4324511" static_id="09091523567252348808" status="FT" time="12:30">
-<home goals="2" id="2356725" name="Manisa"></home>
-<away goals="0" id="2348808" name="Altay"></away>
-<events>
-<event id="23622154" minute="42" player="K. Ari" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622155" minute="80" player="T. Kurt" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4207011" alternate_id_2="4460866" date="09.09.2015" id="4324515" static_id="09091523489182348933" status="FT" time="12:30">
-<home goals="2" id="2348918" name="Orhangazispor"></home>
-<away goals="0" id="2348933" name="Tavsanli Linyitspor"></away>
-<events>
-<event id="23622164" minute="63" player="C. Parlayan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622165" minute="72" player="H. Uzun" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23655254" minute="55" player="P. Tuszynski" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23655255" minute="58" player="M. Akyuz" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4206997" alternate_id_2="4460867" date="09.09.2015" id="4324501" static_id="09091523508342352889" status="Pen." time="12:30">
-<home goals="1" id="2350834" name="Sancaktepe"></home>
-<away goals="1" id="2352889" name="Silivrispor"></away>
+</match><match alternate_id="4213465" alternate_id_2="4464446" date="23.09.2015" id="4330966" static_id="23091523488302355730" status="FT" time="12:00">
+<home goals="3" id="2348830" name="Boluspor"></home>
+<away goals="0" id="2355730" name="Catalca"></away>
 <events>
-<event id="23622174" minute="21" player="S. Gokkaya" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23622175" minute="28" player="M. Derin" playerid="2604514" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23657964" minute="17" player="A. Karadag" playerid="2483253" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23657965" minute="23" player="E. Kilinc" playerid="2550750" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23657966" minute="52" player="H. Gundogdu" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
-<penalty localteam="5" visitorteam="4"></penalty>
-</match><match alternate_id="4207008" alternate_id_2="4460868" date="09.09.2015" id="4324512" static_id="09091523489402356503" status="FT" time="12:30">
-<home goals="0" id="2348940" name="Turgutluspor"></home>
-<away goals="1" id="2356503" name="Tire"></away>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4213484" alternate_id_2="4464447" date="23.09.2015" id="4330985" static_id="23091523488522348834" status="FT" time="12:00">
+<home goals="1" id="2348852" name="Elazigspor"></home>
+<away goals="0" id="2348834" name="Bursa Niluferspor"></away>
 <events>
-<event id="23622184" minute="30" player="M. Kara" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23657974" minute="65" player="U. Tutunci" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213476" alternate_id_2="4464167" date="23.09.2015" id="4330977" static_id="23091523488642354199" status="Pen." time="12:00">
+<home goals="1" id="2348864" name="Gaziantep BB"></home>
+<away goals="1" id="2354199" name="Tuzlaspor"></away>
+<events>
+<event id="23655174" minute="23" player="H. Turkeri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23655175" minute="62" player="S. Ornek" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23655176" minute="90" player="A. Fener" playerid="" result="" team="home" type="yellowred"></event>
+<event id="23655177" minute="93" player="B. Demircan" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4207003" alternate_id_2="4460869" date="09.09.2015" id="4324507" static_id="09091523489432351742" status="FT" time="12:30">
-<home goals="2" id="2348943" name="Usakspor"></home>
-<away goals="0" id="2351742" name="Sandiklispor"></away>
+<penalty localteam="3" visitorteam="4"></penalty>
+</match><match alternate_id="4213455" alternate_id_2="4464448" date="23.09.2015" id="4330956" static_id="23091523488692348858" status="FT" time="12:00">
+<home goals="2" id="2348869" name="Giresunspor"></home>
+<away goals="0" id="2348858" name="Eyupspor"></away>
 <events>
-<event id="23622194" minute="28" player="Y. Hatipoglu" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23622195" minute="90" player="Y. Hatipoglu" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23657984" minute="68" player="A. Tosun" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23657985" minute="90+3" player="H. Tchami" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213472" alternate_id_2="4464186" date="23.09.2015" id="4330973" static_id="23091523488862348816" status="FT" time="12:00">
+<home goals="2" id="2348886" name="Kardemir Karabuk"></home>
+<away goals="0" id="2348816" name="Arsinspor"></away>
+<events>
+<event id="23655364" minute="86" player="G. Iancu" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23655365" minute="89" player="O. Aynaoglu" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213487" alternate_id_2="4464162" date="23.09.2015" id="4330988" static_id="23091523517502348810" status="FT" time="11:30">
+<home goals="3" id="2351750" name="Aydinspor"></home>
+<away goals="1" id="2348810" name="Anadolu Uskudar"></away>
+<events>
+<event id="23655124" minute="18" player="S. Karaduman" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23655125" minute="62" player="S. Onger" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23655126" minute="70" player="S. Sezgin" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23655127" minute="77" player="S. Karaduman" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4213486" alternate_id_2="4464164" date="23.09.2015" id="4330987" static_id="23091523488322350834" status="FT" time="11:30">
+<home goals="1" id="2348832" name="Bucaspor"></home>
+<away goals="0" id="2350834" name="Sancaktepe"></away>
+<events>
+<event id="23655144" minute="39" player="S. Yuksel" playerid="" result="" team="away" type="redcard"></event>
+<event id="23655145" minute="39" player="M. Vardar" playerid="2432460" result="" team="home" type="redcard"></event>
+<event id="23655146" minute="82" player="Y. Avci" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23655147" minute="90" player="B. Kunt" playerid="" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213456" alternate_id_2="4464184" date="23.09.2015" id="4330957" static_id="23091523488372348936" status="FT" time="11:30">
+<home goals="5" id="2348837" name="Dardanelspor"></home>
+<away goals="4" id="2348936" name="Tokatspor"></away>
+<events>
+<event id="23655344" minute="9" player="S. Yagiz" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23655345" minute="13" player="G. Demir" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23655346" minute="20" player="E. Kilarci" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23655347" minute="35" player="S. Ergencay" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="23655348" minute="38" player="O. Kutlu" playerid="" result="[1 - 4]" team="home" type="goal"></event>
+<event id="23655349" minute="41" player="O. Kutlu" playerid="" result="[2 - 4]" team="home" type="goal"></event>
+<event id="23655350" minute="66" player="O. Kutlu" playerid="" result="[3 - 4]" team="home" type="goal"></event>
+<event id="23655351" minute="88" player="H. Kelleci" playerid="" result="[4 - 4]" team="home" type="goal"></event>
+<event id="23655352" minute="90" player="H. Kelleci" playerid="" result="[5 - 4]" team="home" type="goal"></event>
+</events>
+<ht score="[2-4]"></ht>
+</match><match alternate_id="4213458" alternate_id_2="4464166" date="23.09.2015" id="4330959" static_id="23091523488512348899" status="Pen." time="11:30">
+<home goals="1" id="2348851" name="Duzcespor"></home>
+<away goals="1" id="2348899" name="Kocaeli Birlikspor"></away>
+<events>
+<event id="23655164" minute="41" player="U. Bayraktar" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23655165" minute="64" player="N. Kaba (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+<penalty localteam="2" visitorteam="4"></penalty>
+</match><match alternate_id="4213481" alternate_id_2="4464168" date="23.09.2015" id="4330982" static_id="23091523488702348892" status="FT" time="11:30">
+<home goals="1" id="2348870" name="Golcukspor"></home>
+<away goals="0" id="2348892" name="Kayseri Erciyesspor"></away>
+<events>
+<event id="23655184" minute="37" player="A. Kizilgun" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4213447" alternate_id_2="4464438" date="23.09.2015" id="4330948" static_id="23091523488772348872" status="AET" time="11:30">
+<home goals="1" id="2348877" name="Inegolspor"></home>
+<away goals="0" id="2348872" name="Gumushanespor"></away>
+<events>
+<event id="23657884" minute="94" player="M. Vargel" playerid="2597776" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213461" alternate_id_2="4464171" date="23.09.2015" id="4330962" static_id="23091523488892354197" status="FT" time="11:30">
+<home goals="3" id="2348889" name="Kartalspor"></home>
+<away goals="1" id="2354197" name="Duzyurtspor"></away>
+<events>
+<event id="23655214" minute="9" player="R. B. Yilmaz" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23655215" minute="39" player="H. Aydin" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23655216" minute="47" player="M. Ocak" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23655217" minute="90" player="M. Ocak" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4213457" alternate_id_2="4464174" date="23.09.2015" id="4330958" static_id="23091523508312348798" status="FT" time="11:30">
+<home goals="2" id="2350831" name="Kirklarelispor"></home>
+<away goals="1" id="2348798" name="Bugsasspor"></away>
+<events>
+<event id="23655244" minute="16" player="M. Kocak" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23655245" minute="68" player="E. Gungor" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23655246" minute="85" player="C. Aksu" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4213475" alternate_id_2="4464440" date="23.09.2015" id="4330976" static_id="23091523517442348799" status="AET" time="11:30">
+<home goals="0" id="2351744" name="Manavgatspor"></home>
+<away goals="1" id="2348799" name="Adana Demirspor"></away>
+<events>
+<event id="23657904" minute="31" player="T. Bilgin" playerid="" result="" team="home" type="yellowred"></event>
+<event id="23657905" minute="104" player="O. Ozcan" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213480" alternate_id_2="4464442" date="23.09.2015" id="4330981" static_id="23091523489222352891" status="AET" time="11:30">
+<home goals="0" id="2348922" name="Pendikspor"></home>
+<away goals="1" id="2352891" name="Erzincan"></away>
+<events>
+<event id="23657924" minute="94" player="F. Ozer" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4213450" alternate_id_2="4464443" date="23.09.2015" id="4330951" static_id="23091523567232348927" status="FT" time="11:30">
+<home goals="1" id="2356723" name="Sultanbeyli"></home>
+<away goals="3" id="2348927" name="Sanliurfaspor"></away>
+<events>
+<event id="23657934" minute="28" player="C. Cicero" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23657935" minute="43" player="T. Silva" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23657936" minute="74" player="D. Valente" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="23657937" minute="88" player="D. Mangni" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4213473" alternate_id_2="4464445" date="23.09.2015" id="4330974" static_id="23091523489432348824" status="FT" time="11:30">
+<home goals="1" id="2348943" name="Usakspor"></home>
+<away goals="0" id="2348824" name="Bayrampasa"></away>
+<events>
+<event id="23657954" minute="66" player="H. Dogan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="turkey" name="Turkey: Turkish Cup - Play Offs" cup="True" id="3256" sub_id="32565"><match alternate_id="4128998" alternate_id_2="4335424" date="03.06.2015" id="4246539" static_id="03061523488622348835" status="FT" time="17:30">
 <home goals="3" id="2348862" name="Galatasaray"></home>
 <away goals="2" id="2348835" name="Bursaspor"></away>
