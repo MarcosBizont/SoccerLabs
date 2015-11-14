@@ -161,7 +161,7 @@
 .symple-pricing-table div { list-style: none }
 .symple-pricing-table > div { margin-right: 4%; list-style: none; text-shadow: none; margin-bottom: 0; border: 1px solid #ddd; transition: all 0.25s ease-in-out; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); }
 .symple-pricing-table .symple-pricing-header { background: #333; text-align: center; padding: 20px 0; border-bottom: 1px solid #111; }
-.symple-pricing-table .symple-pricing-header h5 { color: #fff; font-size: 1.313em; margin: 0; padding: 0 20px 10px; font-weight: bold; background: url("images/dotted-border-half.png") bottom repeat-x; border-bottom: 1px solid #111; }
+.symple-pricing-table .symple-pricing-header h5 { color: #fff; font-size: 1.313em; margin: 0; padding: 0 20px 10px; font-weight: bold;  border-bottom: 1px solid #111; }
 .symple-pricing-table .symple-pricing-cost { color: #fff; font-size: 1.500em; line-height: 1em; padding-top: 20px; border-top: 1px solid #444; }
 .symple-pricing-table .featured .symple-pricing-header { background: #fd5c41; margin: -1px; color: #fff; border-bottom: 1px solid #e72302; }
 .symple-pricing-table .featured .symple-pricing-header h5 { color: #fff; border-bottom: 1px solid #e72302; }

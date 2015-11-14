@@ -61,6 +61,7 @@ function tips_buffer_generate()
 	$to = $to->modify('+2 days');
 	
 	
+	// ToDo : En lugar de buscar los partidos 
 	$query = new EntityFieldQuery();
 	$query->entityCondition('entity_type', 'node')
 		  ->entityCondition('bundle', 'match')

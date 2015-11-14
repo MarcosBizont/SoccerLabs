@@ -667,16 +667,17 @@ padding-bottom: 10px;
 {
 }
 
-#edit-commerce-payment 
+#edit-commerce-payment,
+.page-checkout #edit-account 
 {
 	box-sizing: border-box;
     text-align: center;
     margin-top: 20px;
 }
-#edit-commerce-payment .fieldset-wrapper
+#edit-commerce-payment .fieldset-wrapper,
+.page-checkout #edit-account .fieldset-wrapper
 {
-	border: 1px solid #666;
-	padding: 20px;
+	
 }
 
 #edit-buttons
@@ -685,13 +686,47 @@ padding-bottom: 10px;
 	padding: 20px;
 }
 
-#edit-commerce-payment legend,
-#edit-commerce-payment #edit-commerce-payment-payment-method
+
+#edit-commerce-payment #edit-commerce-payment-payment-method,
+#edit-buttons.checkout-buttons .button-operator,
+#edit-buttons.checkout-buttons #edit-back
 {
 	display: none;
 }
 
-#edit-commerce-payment label
+#edit-buttons.checkout-buttons #edit-continue
+{
+	font-size: 24px;
+	font-family: "Montserrat", Helvetica, Tahoma, Arial;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+#edit-commerce-payment legend,
+.page-checkout #edit-account legend,
+#commerce-checkout-form-review .checkout-help
+{
+	color: #000;
+	width: 100%;
+	font-size: 28px;
+	margin: 30px 0 0px 0;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#commerce-checkout-form-review .view-footer
+{
+	border-top: 1px solid #000;
+}
+
+#commerce-checkout-form-review td
+{
+	color: #000;
+}
+
+#edit-commerce-payment label,
+.page-checkout #edit-account label
 {
 	display: inline-block;
     margin: 10px 0;
@@ -700,11 +735,13 @@ padding-bottom: 10px;
     color: #000;
 }
 
-#edit-commerce-payment input
+#edit-commerce-payment input,
+.page-checkout #edit-account input
 {
 	width: 100%;
 	text-align: center;
 	font-size: 16px;
+	border-color: #55b2f3;
 }
 
 .symple-pricing-table .symple-pricing-content 
@@ -727,6 +764,11 @@ padding-bottom: 10px;
 	display: none;	
 }
 
+
+#edit-checkout-review .pane-title
+{
+	display: none;
+}
 
 /* Blog Form */
 
@@ -868,4 +910,5 @@ padding-bottom: 10px;
     font-size: 20px;
     line-height: 300%;
     text-align: center;
+    margin-bottom: 20px;
 }
