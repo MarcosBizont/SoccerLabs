@@ -1,5 +1,7 @@
 <?php
-	
+
+// TODO : Ignorar ciertas casas. 
+// BetVictor	
 	
 function tips_tipfin_odds_library_check_odds_for_match($matchid, $tiptypestocheck)
 {
@@ -263,6 +265,12 @@ function tips_tipfin_odds_library_check_options_simple_bet($tip, $type, $namebet
 }
 
 
+function tips_tipfin_odds_library_format_odds($odds)
+{
+	$ret_odds = array();
+	foreach($odds as $odd) $ret_odds[$odd[1]][$odd[2]][$odd[5]][$odd[4]][$odd[6]] = $odd[7];
+	return $ret_odds;
+}
 
 function tips_tipfin_odds_library_check_odds_for_country($country)
 {
@@ -317,7 +325,7 @@ function tips_tipfin_odds_library_check_odds_for_country($country)
 												$match['@attributes']['id'],
 												$type['@attributes']['name'],
 												$odds['@attributes']['updated'],
-												'',
+												'N/A',
 												$odd['@attributes']['name'],
 												$bookmaker['@attributes']['name'],
 												$odd['@attributes']['value']);
@@ -329,62 +337,9 @@ function tips_tipfin_odds_library_check_odds_for_country($country)
 						}
 					}
 				}
-				
-				/*
-if($tipginapi_id==$match['@attributes']['id'])
-				{
-					if(isset($match['odds']['type']))
-					{
-						foreach($match['odds']['type'] as $type)
-						{
-							if($type['@attributes']['name']=='Both Teams to Score' && $tiptype->tid == 573)
-								return tips_tipfin_odds_library_check_options_simple_bet(FALSE, $type, 'Yes', $oddssuggested, $odds['@attributes']['updated']);
-								
-							if($type['@attributes']['name']=='Over/Under' && ($tiptype->tid == 578 || $tiptype->tid == 753))
-								return tips_tipfin_odds_library_check_options_overunder_bet(FALSE, $type, '1.5', ($tiptype->tid == 753) ? 'Over' : 'Under', $oddssuggested, $odds['@attributes']['updated']);
-							
-							if($type['@attributes']['name']=='Over/Under' && ($tiptype->tid == 577 || $tiptype->tid == 576))
-								return tips_tipfin_odds_library_check_options_overunder_bet(FALSE, $type, '2.5', ($tiptype->tid == 577) ? 'Over' : 'Under', $oddssuggested, $odds['@attributes']['updated']);
-							
-							if($type['@attributes']['name']=='Over/Under' && ($tiptype->tid == 754 || $tiptype->tid == 755) )
-								return tips_tipfin_odds_library_check_options_overunder_bet(FALSE, $type, '3.5', ($tiptype->tid == 755) ? 'Over' : 'Under', $oddssuggested, $odds['@attributes']['updated']);
-							
-							if($type['@attributes']['name']=='Double Chance' && $tiptype->tid == 886)
-							{
-								$retarray = array();
-								$retarray['1X'] =  
-									tips_tipfin_odds_library_check_options_simple_bet(FALSE, 
-										$type,'1X',$oddssuggested, $odds['@attributes']['updated']);
-								$retarray['X2'] =  
-									tips_tipfin_odds_library_check_options_simple_bet(FALSE, 
-										$type,'X2',$oddssuggested, $odds['@attributes']['updated']);
-											
-								return $retarray;
-							}
-								
-							
-							if($type['@attributes']['name']=='1x2' && $tiptype->tid == 787)
-								return tips_tipfin_odds_library_check_options_simple_bet(FALSE, $type, 'X', $oddssuggested, $odds['@attributes']['updated']);
-							
-							if($type['@attributes']['name']=='1x2' && $tiptype->tid == 832)
-							{
-								$retarray = array();
-								$retarray['1'] =  
-									tips_tipfin_odds_library_check_options_simple_bet(FALSE, 
-										$type, '1', $oddssuggested, $odds['@attributes']['updated']);
-								$retarray['2'] =  
-									tips_tipfin_odds_library_check_options_simple_bet(FALSE, 
-										$type, '2', $oddssuggested, $odds['@attributes']['updated']);
-											
-								return $retarray;
-							}
-						}	
-					}
-				}
-*/
 			}
 		}	
-	dpm($ret_odds);
+		
 	return $ret_odds;
 }
 

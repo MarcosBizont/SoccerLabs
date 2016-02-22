@@ -552,9 +552,9 @@ function simbet_permission() {
       'title' => t('Can make a simulated bet'),
       'description' => t('User with permissions to make a simulated bet .'),
     ),
-    'make only n simulated bet' => array(
-      'title' => t('Can make a simulated bet, but only n bets'),
-      'description' => t('User with permissions to make N simulated bets .'),
+    'make more than only n simulated bet' => array(
+      'title' => t('Can make more than only n simulated bet'),
+      'description' => t('User with permissions to make more than N simulated bets .'),
     ),
   );
 }
@@ -592,6 +592,16 @@ function _simbet_create_simbet($usersimbet,$matchid,$bookmakername,$teamid,$tipt
 	$match = node_load($matchid);
 	$term = taxonomy_get_term_by_name($bookmakername);
 	$term = reset($term);
+	
+	if(!isset($term->tid))
+	{
+		$term = taxonomy_term_save((object) array(
+		  'name' => $bookmakername,
+		  'vid' => 13,
+		));
+		$term = taxonomy_get_term_by_name($bookmakername);
+		$term = reset($term);
+	}
 	
 	$nc = new stdClass();
 	$nc->type = 'simbet';
@@ -787,7 +797,7 @@ function simbet_bet_isvalid_in_confirmation($matchid, $odds, $bookmakername,  $t
 	// ToDo : Slow it down baby, avoid abuse with multiple simulate bets
 	// One bet by ?
 
-	if(user_access('make only n simulated bet'))
+	if(!user_access('make more than only n simulated bet'))
 	{
 		
 		if(_simbet_getcount_bets_by_user_last24h($user) >= N_BETS_BY_DAY)

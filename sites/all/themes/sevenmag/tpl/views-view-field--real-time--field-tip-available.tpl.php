@@ -22,12 +22,14 @@
  * the view is modified.
  */
  // commentaries_inplaytips_have_stats($node)
- if(tips_match_have_tip_withoffers($row->entity,$accuracy))
+// Social Changes : Todos pueden apostar mientras esten registrados
+/* if(tips_match_have_tip_withoffers($row->entity,$accuracy))
  { 
 	$class = $accuracy >= .5 ? 'green' : '';
  	print '<i class="fa fa-bolt ' . $class . '" title="' . t('Tip with booker\'s offers available') . '"></i>';
  }
- elseif(tips_match_have_tip($row->entity,$accuracy))
+ else*/
+ if(tips_match_have_tip($row->entity,$accuracy))
  { 
  	$class = $accuracy >= .5 ? 'green' : '';
  	print '<i class="fa fa-lightbulb-o ' . $class . '" title="' . t('Tip available') .  '"></i>';

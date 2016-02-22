@@ -1,0 +1,47 @@
+body.newstyle
+{
+	background-color: #f7f7f7;
+}
+
+body.newstyle .page-content .post.clearfix
+{
+	background-color: #FFF;
+}
+
+body.newstyle .thecontent
+{
+	font-variant: normal;
+	background-color: #FFF;
+}
+
+body.newstyle .thecontent p {
+    margin-bottom: 10px;
+}
+
+
+body.newstyle .thecontent h2
+{
+	line-height: 150%;
+}
+
+body.newstyle .widget, 
+body.newstyle .b_block 
+{
+	border: none;
+	box-shadow: none;
+}
+
+body.newstyle .page-content
+{
+	background-color: #f7f7f7;
+}
+
+body.newstyle #layout
+{
+	background-color: #f7f7f7;
+}
+
+body.newstyle .b_title
+{
+	display: none;
+}

@@ -114,6 +114,7 @@
 			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_header/node/' + nid, '#block-inplay-inplay-header', '.content', false);
 			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_quickbet/node/' + nid, '#block-inplay-inplay-quickbet', '.content', false);
 			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_tips/node/' + nid, '#block-inplay-inplay-tips', '.content', false);
+			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_odds/node/' + nid, '#block-inplay-inplay-odds', '.content', false);
 			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_last5_game_stats_lv/node/' + nid, '#block-inplay-inplay-last5-game-stats-lv', '.content', false);
 			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_last5_game_stats/node/' + nid, '#block-inplay-inplay-last5-game-stats', '.content', false);
 			BlockRefreshContentInPlay(pathbase + 'inplay/inplay_game_stats/node/' + nid, '#block-inplay-inplay-game-stats', '.content', false);

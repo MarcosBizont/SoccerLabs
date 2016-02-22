@@ -28,7 +28,7 @@
  * @see template_preprocess_simplenews_newsletter_footer()
  */
 ?>
-<?php if (!$opt_out_hidden): ?>
+
 <!-- footer --><table bgcolor="#f8f8f8" class="footer-wrap" style="font-family: 'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif'; font-size: 100%; line-height: 1.6; width: 100%; clear: both !important; margin: 0; padding: 0;"><tr style="font-family: 'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif'; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;"><td style="font-family: 'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif'; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;"></td>
 		<td class="container" style="font-family: 'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif'; font-size: 100%; line-height: 1.6; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto; padding: 0;">
 			
@@ -49,4 +49,3 @@ You can <a href='https://soccer-labs.com/user'>change your notification settings
 		</td>
 		<td style="font-family: 'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif'; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;"></td>
 	</tr></table><!-- /footer -->
-<?php endif; ?>

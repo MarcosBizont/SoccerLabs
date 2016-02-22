@@ -203,6 +203,10 @@ function inplay_permission() {
       'title' => t('Administer inplay settings'),
       'description' => t('Perform administer inplay settings.'),
     ),
+    'check odds' => array(
+      'title' => t('Check odds by match'),
+      'description' => t('Check odds by match.'),
+    ),
   );
 }
 
@@ -428,6 +432,8 @@ function inplay_block_info() {
   
   $blocks['inplay_trial'] = array('info' => t('Trial'), );
   
+  $blocks['inplay_odds'] = array('info' => t('Odds'), );
+  
   return $blocks;
 }
 
@@ -485,8 +491,88 @@ function inplay_block_view($delta='') {
       $block['subject'] = '';
       $block['content'] = inplay_trial();
       break;
+    case 'inplay_odds' :
+      $block['subject'] = '<i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds');
+      $block['content'] = inplay_odds();
+      break;
   } 
   return $block;
+}
+
+// Cache : ToDo
+function inplay_odds()
+{
+	if(!user_access('check odds')) return '';
+	
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('betname', 'ASC')
+					    ->orderBy('betsubname', 'ASC')
+					    ->orderBy('betsubname2', 'ASC')
+					    ->orderBy('bookie', 'ASC')
+					    ->orderBy('created', 'ASC')
+					    ->execute();
+		
+		
+		
+		$header = array(t('Bet type'), t('Bookmaker'), t('Odds'), t('Created') );
+		
+		$rows = array();
+		
+		$lastrecord  = array('','','','');
+		while($record = $result->fetchAssoc())		
+		{
+			$newrecord = array($record['betname'] . ' - ' . $record['betsubname'] . ' - ' . $record['betsubname2'], 
+								$record['bookie'], $record['odds'], $record['created'] );
+								
+			if($newrecord[0] != $lastrecord[0] || $newrecord[1] != $lastrecord[1]  )
+			{
+				$rows[] = $lastrecord;
+				$rows[] = $newrecord;
+			}
+			$lastrecord = $newrecord;
+			
+		}
+		
+		if(count($rows)==0) return '';
+		
+		$table = theme('table', array('header' => $header, 'rows'=> $rows));
+					    
+		$block = "<div class='b_block'>" . $table . "</div>";
+		
+		
+/*
+		if ($cache = cache_get('commentaries_inplaylast5_games_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaylast5_games($nid);
+			cache_set('commentaries_inplaylast5_games_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*60*48);
+		}
+*/
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
 }
 
 function inplay_trial()
@@ -770,6 +856,8 @@ function inplay_quickbet_view()
 		if(inplay_is_quickview_available($nid))
 		{
 			// ToDo : Si ya no tiene bets hoy mostrar los planes
+			// Social Changes : Todos pueden apostar mientras esten registrados
+/*
 			if(!inplay_is_member())
 			{
 				$block .= "<div class='b_block'>" . t('Please consider <a href="be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
@@ -777,11 +865,12 @@ function inplay_quickbet_view()
 			}
 			else
 			{
+*/
 				$url =  url("simulate_bet", array('query' => array('as_iframe' => 1, 'field_match_simbet' => $nid)));
 				$link = '<iframe src="' . $url . '" 
 								style="width: 100%; height: 500px;"></iframe>';
 				$block .= "<div class='b_block quickbet'>" . $link . "</div>";	
-			}
+			//}
 		}
 	}
 	

@@ -12,6 +12,8 @@ function sevenmag_preprocess_html(&$variables) {
 	
 	drupal_add_css(base_path().path_to_theme().'/css/symple_shortcodes_styles.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/style.css', array('type' => 'external'));
+	drupal_add_css(base_path().path_to_theme().'/css/stylev2.css', array('type' => 'external'));
+	
 	
 	//drupal_add_css(base_path().path_to_theme().'/css/style.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/icons.css', array('type' => 'external'));

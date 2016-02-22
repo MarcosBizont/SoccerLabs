@@ -1,16 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="14.11.2015 13:41:03" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4098735" alternate_id_2="4469460" date="07.11.2015" id="4216295" static_id="07111523413632356083" status="FT" time="12:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:40:53" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga - Relegation" cup="False" id="3042" sub_id="30422"><match alternate_id="4223601" alternate_id_2="4480669" date="21.11.2015" id="4341094" static_id="21111523413482341383" status="FT" time="11:00">
+<home goals="1" id="2341348" name="Tallinna Kalev"></home>
+<away goals="0" id="2341383" name="Tammeka Tartu"></away>
+<events>
+<event id="23820194" minute="50" player="G. Wahl" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4223600" alternate_id_2="4480668" date="18.11.2015" id="4341093" static_id="18111523413832341348" status="FT" time="17:00">
+<home goals="4" id="2341383" name="Tammeka Tartu"></home>
+<away goals="1" id="2341348" name="Tallinna Kalev"></away>
+<events>
+<event id="23820184" minute="54" player="A. Larin" playerid="2492913" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23820185" minute="55" player="K. Kiidron" playerid="2409568" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23820186" minute="55" player="G. Wahl" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23820187" minute="59" player="K. Tiirik" playerid="2357742" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23820188" minute="64" player="M. Hurt" playerid="2357622" result="[3 - 1]" team="home" type="goal"></event>
+<event id="23820189" minute="66" player="I. Paal" playerid="2648308" result="" team="away" type="yellowcard"></event>
+<event id="23820190" minute="89" player="A. Paju" playerid="2565466" result="[4 - 1]" team="home" type="goal"></event>
+<event id="23820191" minute="89" player="P. Peinar" playerid="2730452" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match></league><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4098735" alternate_id_2="4469460" date="07.11.2015" id="4216295" static_id="07111523413632350533" status="FT" time="12:00">
 <home goals="5" id="2341363" name="Levadia"></home>
-<away goals="0" id="2356083" name="Infonet"></away>
+<away goals="0" id="2350533" name="Infonet"></away>
 <events>
 <event id="23708104" minute="7" player="I. Teever" playerid="2357769" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23708105" minute="19" player="T. Kink" playerid="2357641" result="" team="home" type="yellowcard"></event>
 <event id="23708106" minute="25" player="O. Elhussieny" playerid="2663456" result="" team="home" type="yellowcard"></event>
 <event id="23708107" minute="29" player="S. Luts" playerid="2399589" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23708108" minute="45" player="A. Semakhin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23708108" minute="45" player="A. Semakhin" playerid="2663533" result="" team="away" type="yellowcard"></event>
 <event id="23708109" minute="71" player="P. Marin" playerid="2511954" result="[3 - 0]" team="home" type="goal"></event>
 <event id="23708110" minute="78" player="D. Kruglov" playerid="2367071" result="[4 - 0]" team="home" type="goal"></event>
 <event id="23708111" minute="87" player="R. Peetson" playerid="2625111" result="[5 - 0]" team="home" type="goal"></event>
-<event id="23708112" minute="88" player="J. Harin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23708112" minute="88" player="J. Harin" playerid="2542122" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="4098733" alternate_id_2="4469437" date="07.11.2015" id="4216293" static_id="07111523413152341329" status="FT" time="12:00">
@@ -22,9 +43,9 @@
 <event id="23707876" minute="87" player="R. Sappinen" playerid="2544501" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4098732" alternate_id_2="4469458" date="07.11.2015" id="4216292" static_id="07111523514122341338" status="FT" time="12:00">
+</match><match alternate_id="4231093" alternate_id_2="4469458" date="07.11.2015" id="4348581" static_id="07111523514122341338" status="FT" time="12:00">
 <home goals="1" id="2351412" name="Parnu Linnameeskond"></home>
-<away goals="2" id="2341338" name="Sillamäe Kalev"></away>
+<away goals="2" id="2341338" name="Sillamae Kalev"></away>
 <events>
 <event id="23708084" minute="35" player="R. Parnat" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23708085" minute="45" player="E. Lauter" playerid="" result="" team="home" type="yellowcard"></event>
@@ -76,7 +97,7 @@
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4098731" alternate_id_2="4467722" date="01.11.2015" id="4216291" static_id="01111523413382350920" status="FT" time="12:00">
-<home goals="2" id="2341338" name="Sillamäe Kalev"></home>
+<home goals="2" id="2341338" name="Sillamae Kalev"></home>
 <away goals="1" id="2350920" name="Tulevik"></away>
 <events>
 <event id="23690724" minute="6" player="Y. Kvasov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
@@ -90,11 +111,11 @@
 <away goals="2" id="2341329" name="Flora"></away>
 <events>
 <event id="23690694" minute="27" player="S. Pareiko" playerid="2338649" result="" team="home" type="yellowcard"></event>
-<event id="23690695" minute="33" player="M. Jürgenson" playerid="2357665" result="" team="away" type="yellowcard"></event>
+<event id="23690695" minute="33" player="M. Jurgenson" playerid="2357665" result="" team="away" type="yellowcard"></event>
 <event id="23690696" minute="43" player="S. Pareiko" playerid="2338649" result="" team="home" type="redcard"></event>
 <event id="23690697" minute="45" player="A. Frolov" playerid="2357812" result="" team="away" type="yellowcard"></event>
 <event id="23690698" minute="45" player="I. Antonov" playerid="2511941" result="" team="home" type="yellowcard"></event>
-<event id="23690699" minute="45" player="M. Jürgenson (pen.)" playerid="2357665" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23690699" minute="45" player="M. Jurgenson (pen.)" playerid="2357665" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23690700" minute="48" player="A. Pikk" playerid="2515746" result="" team="home" type="yellowcard"></event>
 <event id="23690701" minute="63" player="B. Lepistu" playerid="2511988" result="[0 - 2]" team="away" type="goal"></event>
 <event id="23690702" minute="82" player="A. Artjunin" playerid="2416011" result="" team="home" type="yellowcard"></event>
@@ -112,25 +133,25 @@
 <event id="23690709" minute="88" player="E. Lauter" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4098729" alternate_id_2="4467295" date="30.10.2015" id="4216289" static_id="30101523413502356083" status="FT" time="17:00">
+</match><match alternate_id="4098729" alternate_id_2="4467295" date="30.10.2015" id="4216289" static_id="30101523413502350533" status="FT" time="17:00">
 <home goals="0" id="2341350" name="Narva"></home>
-<away goals="1" id="2356083" name="Infonet"></away>
+<away goals="1" id="2350533" name="Infonet"></away>
 <events>
 <event id="23686454" minute="53" player="R. Nesterovski" playerid="2357705" result="" team="home" type="yellowcard"></event>
-<event id="23686455" minute="68" player="V. Ivanov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23686455" minute="68" player="V. Ivanov" playerid="2357799" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4098726" alternate_id_2="4465341" date="24.10.2015" id="4216286" static_id="24101523560832341329" status="FT" time="13:30">
-<home goals="0" id="2356083" name="Infonet"></home>
+</match><match alternate_id="4098726" alternate_id_2="4465341" date="24.10.2015" id="4216286" static_id="24101523505332341329" status="FT" time="13:30">
+<home goals="0" id="2350533" name="Infonet"></home>
 <away goals="1" id="2341329" name="Flora"></away>
 <events>
-<event id="23666914" minute="8" player="T. Melts" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23666915" minute="11" player="A. Semakhin" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23666914" minute="8" player="T. Melts" playerid="2357780" result="" team="home" type="yellowcard"></event>
+<event id="23666915" minute="11" player="A. Semakhin" playerid="2663533" result="" team="home" type="yellowcard"></event>
 <event id="23666916" minute="63" player="J. Saliste" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23666917" minute="73" player="A. Dmitrijev" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23666917" minute="73" player="A. Dmitrijev" playerid="2357624" result="" team="home" type="yellowcard"></event>
 <event id="23666918" minute="73" player="B. Lepistu" playerid="2511988" result="" team="away" type="yellowcard"></event>
-<event id="23666919" minute="85" player="V. Kozlovs" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23666920" minute="86" player="K. Aidara" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23666919" minute="85" player="V. Kozlovs" playerid="2457737" result="" team="home" type="yellowcard"></event>
+<event id="23666920" minute="86" player="K. Aidara" playerid="2565326" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4215194" alternate_id_2="4464883" date="24.10.2015" id="4332695" static_id="24101523413422341350" status="FT" time="11:00">
@@ -138,7 +159,7 @@
 <away goals="1" id="2341350" name="Narva"></away>
 <events>
 <event id="23662334" minute="26" player="D. Barkov" playerid="2518522" result="" team="away" type="yellowcard"></event>
-<event id="23662335" minute="37" player="A. Bärengrub" playerid="2360071" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23662335" minute="37" player="A. Barengrub" playerid="2360071" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23662336" minute="39" player="D. Barkov" playerid="2518522" result="[1 - 1]" team="away" type="goal"></event>
 <event id="23662337" minute="85" player="V. Andrejev" playerid="2357709" result="" team="away" type="yellowcard"></event>
 </events>
@@ -171,7 +192,7 @@
 <ht score="[1-3]"></ht>
 </match><match alternate_id="4215193" alternate_id_2="4464882" date="23.10.2015" id="4332694" static_id="23101523413832341338" status="FT" time="16:00">
 <home goals="1" id="2341383" name="Tammeka Tartu"></home>
-<away goals="4" id="2341338" name="Sillamäe Kalev"></away>
+<away goals="4" id="2341338" name="Sillamae Kalev"></away>
 <events>
 <event id="23662324" minute="13" player="K. Silich" playerid="2487221" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23662325" minute="40" player="K. Tiirik" playerid="2357742" result="[1 - 1]" team="home" type="goal"></event>
@@ -208,25 +229,25 @@
 <event id="23653608" minute="36" player="R. Sappinen" playerid="2544501" result="[0 - 2]" team="away" type="goal"></event>
 <event id="23653609" minute="74" player="R. Nesterovski" playerid="2357705" result="" team="home" type="yellowcard"></event>
 <event id="23653610" minute="80" player="V. Zils" playerid="2361481" result="[1 - 2]" team="home" type="goal"></event>
-<event id="23653611" minute="89" player="M. Jürgenson" playerid="2357665" result="[1 - 3]" team="away" type="goal"></event>
+<event id="23653611" minute="89" player="M. Jurgenson" playerid="2357665" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4214406" alternate_id_2="4463980" date="17.10.2015" id="4331907" static_id="17101523514122356083" status="FT" time="11:00">
+</match><match alternate_id="4214406" alternate_id_2="4463980" date="17.10.2015" id="4331907" static_id="17101523514122350533" status="FT" time="11:00">
 <home goals="0" id="2351412" name="Parnu Linnameeskond"></home>
-<away goals="4" id="2356083" name="Infonet"></away>
+<away goals="4" id="2350533" name="Infonet"></away>
 <events>
-<event id="23653304" minute="34" player="V. Kozlovs" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23653304" minute="34" player="V. Kozlovs" playerid="2457737" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23653305" minute="47" player="R. Tutk (o.g.)" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23653306" minute="53" player="V. Kozlovs" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23653306" minute="53" player="V. Kozlovs" playerid="2457737" result="[0 - 3]" team="away" type="goal"></event>
 <event id="23653307" minute="56" player="S. Tumasjan" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23653308" minute="61" player="A. Volodin" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23653308" minute="61" player="A. Volodin" playerid="2357660" result="" team="away" type="yellowcard"></event>
 <event id="23653309" minute="63" player="E. Lauter" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23653310" minute="76" player="J. Harin" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="23653310" minute="76" player="J. Harin" playerid="2542122" result="[0 - 4]" team="away" type="goal"></event>
 <event id="23653311" minute="77" player="G. Konninge" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4098717" alternate_id_2="4463861" date="17.10.2015" id="4216277" static_id="17101523413382341342" status="FT" time="11:00">
-<home goals="0" id="2341338" name="Sillamäe Kalev"></home>
+<home goals="0" id="2341338" name="Sillamae Kalev"></home>
 <away goals="4" id="2341342" name="Kalju"></away>
 <events>
 <event id="23652114" minute="4" player="T. Neemelo" playerid="2403730" result="[0 - 1]" team="away" type="goal"></event>
@@ -250,9 +271,19 @@
 <event id="23653618" minute="88" player="I. Teever" playerid="2357769" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4469616" date="08.11.2015" id="" static_id="08111523413302356083" status="FT" time="12:00">
+</match></league><league country="estonia" name="Estonia: Esi Liiga - Relegation" cup="False" id="3802" sub_id="38021"><match alternate_id="" alternate_id_2="4480671" date="21.11.2015" id="" static_id="21111523552352350255" status="Cancl." time="11:00">
+<home goals="?" id="2355235" name="Santos Tartu"></home>
+<away goals="?" id="2350255" name="Sillamae Kalev II"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4480670" date="15.11.2015" id="" static_id="15111523502552355235" status="Cancl." time="11:00">
+<home goals="?" id="2350255" name="Sillamae Kalev II"></home>
+<away goals="?" id="2355235" name="Santos Tartu"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4469616" date="08.11.2015" id="" static_id="" status="FT" time="12:00">
 <home goals="3" id="2341330" name="Flora II"></home>
-<away goals="1" id="2356083" name="Infonet II"></away>
+<away goals="1" id="" name="Infonet II"></away>
 <events>
 <event id="23709664" minute="86" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
@@ -264,13 +295,13 @@
 <event id="23709734" minute="36" player="Mamontov" playerid="2453407" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4469639" date="08.11.2015" id="" static_id="08111523413192341343" status="FT" time="12:00">
+</match><match alternate_id="" alternate_id_2="4469639" date="08.11.2015" id="" static_id="" status="FT" time="12:00">
 <home goals="2" id="2341319" name="Kuressaare"></home>
-<away goals="3" id="2341343" name="Nomme Kalju II"></away>
+<away goals="3" id="" name="Nomme Kalju II"></away>
 <events>
 <event id="23709894" minute="18" player="Goldberg" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23709895" minute="27" player="Suursaar" playerid="2632383" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23709896" minute="53" player="Klein" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23709895" minute="27" player="Suursaar" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23709896" minute="53" player="Klein" playerid="2437234" result="[1 - 2]" team="away" type="goal"></event>
 <event id="23709897" minute="73" player="Goldberg" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 <event id="23709898" minute="75" player="Laht" playerid="" result="[2 - 3]" team="home" type="goal"></event>
 </events>
@@ -320,17 +351,17 @@
 <event id="23699145" minute="53" player="Saaremets" playerid="2729898" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4467723" date="31.10.2015" id="" static_id="31101523413432356083" status="FT" time="17:00">
-<home goals="0" id="2341343" name="Nomme Kalju II"></home>
-<away goals="3" id="2356083" name="Infonet II"></away>
+</match><match alternate_id="" alternate_id_2="4467723" date="31.10.2015" id="" static_id="" status="FT" time="17:00">
+<home goals="0" id="" name="Nomme Kalju II"></home>
+<away goals="3" id="" name="Infonet II"></away>
 <events>
 <event id="23690734" minute="27" player="Ogorodnik" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23690735" minute="48" player="Golovljov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="23690736" minute="84" player="Golovljov" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4467296" date="25.10.2015" id="" static_id="25101523560832341364" status="FT" time="14:30">
-<home goals="3" id="2356083" name="Infonet II"></home>
+</match><match alternate_id="" alternate_id_2="4467296" date="25.10.2015" id="" static_id="" status="FT" time="14:30">
+<home goals="3" id="" name="Infonet II"></home>
 <away goals="4" id="2341364" name="Levadia Tallinn II"></away>
 <events>
 <event id="23686464" minute="89" player="" playerid="" result="" team="home" type="redcard"></event>
@@ -357,15 +388,15 @@
 <event id="23666928" minute="83" player="Pluum" playerid="2645020" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4465392" date="25.10.2015" id="" static_id="25101523536512341343" status="FT" time="12:00">
+</match><match alternate_id="" alternate_id_2="4465392" date="25.10.2015" id="" static_id="" status="FT" time="12:00">
 <home goals="0" id="2353651" name="Vandra Vaprus"></home>
-<away goals="5" id="2341343" name="Nomme Kalju II"></away>
+<away goals="5" id="" name="Nomme Kalju II"></away>
 <events>
-<event id="23667424" minute="17" player="Ilves" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23667424" minute="17" player="Ilves" playerid="2333925" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23667425" minute="19" player="Goldberg" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="23667426" minute="20" player="Jarva" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 <event id="23667427" minute="57" player="Junolainen (pen.)" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="23667428" minute="69" player="Klein" playerid="" result="[0 - 5]" team="away" type="goal"></event>
+<event id="23667428" minute="69" player="Klein" playerid="2437234" result="[0 - 5]" team="away" type="goal"></event>
 </events>
 <ht score="[0-3]"></ht>
 </match><match alternate_id="" alternate_id_2="4465376" date="24.10.2015" id="" static_id="24101523413192341348" status="FT" time="11:00">
@@ -376,9 +407,9 @@
 <event id="23667265" minute="29" player="Paal" playerid="2648308" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4464372" date="18.10.2015" id="" static_id="18101523413572356083" status="FT" time="11:00">
+</match><match alternate_id="" alternate_id_2="4464372" date="18.10.2015" id="" static_id="" status="FT" time="11:00">
 <home goals="1" id="2341357" name="Kivioli Irbis"></home>
-<away goals="4" id="2356083" name="Infonet II"></away>
+<away goals="4" id="" name="Infonet II"></away>
 <events>
 <event id="23657224" minute="2" player="Golovljov" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23657225" minute="20" player="Malov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
@@ -425,28 +456,13 @@
 <event id="23657687" minute="63" player="Aavik" playerid="2511883" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[1-2]"></ht>
-</match><match alternate_id="" alternate_id_2="4464370" date="16.10.2015" id="" static_id="16101523413432341364" status="FT" time="16:00">
-<home goals="1" id="2341343" name="Nomme Kalju II"></home>
+</match><match alternate_id="" alternate_id_2="4464370" date="16.10.2015" id="" static_id="" status="FT" time="16:00">
+<home goals="1" id="" name="Nomme Kalju II"></home>
 <away goals="0" id="2341364" name="Levadia Tallinn II"></away>
 <events>
 <event id="23657204" minute="39" player="Helaia" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="estonia" name="Estonia: Esi Liiga - Promotion" cup="False" id="3802" sub_id=""><match alternate_id="" alternate_id_2="4290678" date="22.11.2014" id="" static_id="22111423413552350920" status="FT" time="11:00">
-<home goals="1" id="2341355" name="Johvi Lokomotiv"></home>
-<away goals="1" id="2350920" name="Tulevik"></away>
-<events>
-<event id="21920284" minute="52" player="S. Yablokov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="21920285" minute="71" player="I. Ilves" playerid="2608951" result="[1 - 1]" team="away" type="goal"></event>
-<event id="21920286" minute="87" player="D. Kulikov" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4290677" date="16.11.2014" id="" static_id="16111423509202341355" status="FT" time="11:00">
-<home goals="0" id="2350920" name="Tulevik"></home>
-<away goals="0" id="2341355" name="Johvi Lokomotiv"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="estonia" name="Estonia: Estonian Cup" cup="True" id="3650" sub_id="36500"><match alternate_id="" alternate_id_2="4471375" date="10.11.2015" id="" static_id="10111523514122341383" status="FT" time="17:00">
 <home goals="1" id="2351412" name="Parnu Linnameeskond"></home>
 <away goals="2" id="2341383" name="Tammeka Tartu"></away>
@@ -461,23 +477,34 @@
 <home goals="4" id="" name="Viimsi MRJK"></home>
 <away goals="0" id="" name="Vastseliina Tannem"></away>
 <events>
+<event id="23727234" minute="9" player="K. Kane" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23727235" minute="30" player="O. Tanna" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23727236" minute="64" player="R. Kirsima" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23727237" minute="85" player="U. Ounapuu" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4471372" date="01.11.2015" id="" static_id="" status="FT" time="10:00">
 <home goals="0" id="" name="Vutiselts"></home>
 <away goals="7" id="" name="Torva"></away>
 <events>
-<event id="23727224" minute="77" player="V. Dobrovolski" playerid="" result="" team="home" type="yellowred"></event>
+<event id="23727224" minute="18" player="O. Suur" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23727225" minute="20" player="O. Suur" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23727226" minute="25" player="M. Allik" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23727227" minute="25" player="M. Volt" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+<event id="23727228" minute="76" player="M. Vister" playerid="" result="[0 - 5]" team="away" type="goal"></event>
+<event id="23727229" minute="77" player="V. Dobrovolski" playerid="" result="" team="home" type="yellowred"></event>
+<event id="23727230" minute="83" player="J. Kondike" playerid="" result="[0 - 6]" team="away" type="goal"></event>
+<event id="23727231" minute="85" player="A. Kasak" playerid="" result="[0 - 7]" team="away" type="goal"></event>
 </events>
 <ht score="[0-3]"></ht>
-</match><match alternate_id="" alternate_id_2="4471370" date="28.10.2015" id="" static_id="28101523413442355235" status="FT" time="17:30">
-<home goals="2" id="2341344" name="Nomme Utd"></home>
+</match><match alternate_id="" alternate_id_2="4471370" date="28.10.2015" id="" static_id="" status="FT" time="17:30">
+<home goals="2" id="" name="Nomme Utd"></home>
 <away goals="3" id="2355235" name="Santos Tartu"></away>
 <events>
-<event id="23727204" minute="4" player="J. Aaviste" playerid="2729907" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23727205" minute="15" player="J. Aaviste" playerid="2729907" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23727204" minute="4" player="J. Aaviste" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23727205" minute="15" player="J. Aaviste" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 <event id="23727206" minute="29" player="A. Valge" playerid="" result="[1 - 2]" team="home" type="goal"></event>
-<event id="23727207" minute="32" player="A. Alve" playerid="2510654" result="[1 - 3]" team="away" type="goal"></event>
+<event id="23727207" minute="32" player="A. Alve" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 <event id="23727208" minute="88" player="K. Muraveiski" playerid="" result="[2 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[1-3]"></ht>
@@ -531,25 +558,25 @@
 </events>
 <ht score="[8-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4471374" date="20.10.2015" id="" static_id="20101523413382341363" status="FT" time="12:00">
-<home goals="1" id="2341338" name="Sillamäe Kalev"></home>
+<home goals="1" id="2341338" name="Sillamae Kalev"></home>
 <away goals="0" id="2341363" name="Levadia"></away>
 <events>
-<event id="23727244" minute="62" player="T. Rähn" playerid="2359216" result="" team="away" type="redcard"></event>
+<event id="23727244" minute="62" player="T. Rahn" playerid="2359216" result="" team="away" type="redcard"></event>
 <event id="23727245" minute="81" player="D. Ratnikov" playerid="2357668" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4455119" date="04.10.2015" id="" static_id="04101523509202356083" status="FT" time="11:00">
+</match><match alternate_id="" alternate_id_2="4455119" date="04.10.2015" id="" static_id="04101523509202350533" status="FT" time="11:00">
 <home goals="2" id="2350920" name="Tulevik"></home>
-<away goals="1" id="2356083" name="Infonet"></away>
+<away goals="1" id="2350533" name="Infonet"></away>
 <events>
 <event id="23564694" minute="1" player="G. Juhkam" playerid="2608952" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23564695" minute="43" player="N. Mashichev" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23564695" minute="43" player="N. Mashichev" playerid="2408745" result="[1 - 1]" team="away" type="goal"></event>
 <event id="23564696" minute="81" player="S. Tukiainen" playerid="2670136" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4455118" date="30.09.2015" id="" static_id="30091523413832341387" status="FT" time="16:00">
 <home goals="1" id="2341383" name="Tammeka Tartu"></home>
-<away goals="0" id="2341387" name="HÜJK Emmaste"></away>
+<away goals="0" id="2341387" name="HUJK Emmaste"></away>
 <events>
 <event id="23564684" minute="59" player="A. Paju" playerid="2565466" result="[1 - 0]" team="home" type="goal"></event>
 </events>
@@ -562,8 +589,8 @@
 <event id="23564675" minute="90" player="J. Saliste" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4455115" date="29.09.2015" id="" static_id="29091523560832351412" status="FT" time="16:00">
-<home goals="0" id="2356083" name="Infonet II"></home>
+</match><match alternate_id="" alternate_id_2="4455115" date="29.09.2015" id="" static_id="" status="FT" time="16:00">
+<home goals="0" id="" name="Infonet II"></home>
 <away goals="3" id="2351412" name="Parnu Linnameeskond"></away>
 <events>
 <event id="23564654" minute="34" player="E. Lauter" playerid="" result="[0 - 1]" team="away" type="goal"></event>
@@ -571,14 +598,14 @@
 <event id="23564656" minute="90" player="K. Saarts" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4455116" date="29.09.2015" id="" static_id="29091523413632341368" status="FT" time="16:00">
+</match><match alternate_id="" alternate_id_2="4455116" date="29.09.2015" id="" static_id="" status="FT" time="16:00">
 <home goals="13" id="2341363" name="Levadia"></home>
-<away goals="1" id="2341368" name="Merkuur Tartu"></away>
+<away goals="1" id="" name="Merkuur Tartu"></away>
 <events>
 <event id="23564664" minute="13" player="Gussev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23564665" minute="20" player="Saag" playerid="2374096" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23564665" minute="20" player="Saag" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 <event id="23564666" minute="28" player="(o.g.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23564667" minute="30" player="Saag" playerid="2374096" result="[3 - 1]" team="home" type="goal"></event>
+<event id="23564667" minute="30" player="Saag" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[7-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4457218" date="29.09.2015" id="" static_id="29091523413502341342" status="AET" time="16:00">
@@ -591,21 +618,21 @@
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4455113" date="08.09.2015" id="" static_id="" status="Pen." time="15:00">
-<home goals="1" id="2352084" name="EMU"></home>
+<home goals="1" id="" name="EMU"></home>
 <away goals="2" id="" name="Torva"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
 <penalty localteam="2" visitorteam="4"></penalty>
 </match><match alternate_id="" alternate_id_2="4455114" date="08.09.2015" id="" static_id="" status="FT" time="15:00">
-<home goals="4" id="" name="Tabivere"></home>
+<home goals="4" id="" name="Tabivere RSK"></home>
 <away goals="7" id="" name="Vaatsa Vald"></away>
 <events>
 </events>
 <ht score="[2-5]"></ht>
 </match><match alternate_id="" alternate_id_2="4455111" date="06.09.2015" id="" static_id="" status="FT" time="14:00">
 <home goals="5" id="" name="Vastseliina Tannem"></home>
-<away goals="0" id="2341323" name="Soccernet"></away>
+<away goals="0" id="" name="Soccernet"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -620,7 +647,7 @@
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4455109" date="06.09.2015" id="" static_id="06091523413382341315" status="FT" time="11:00">
-<home goals="4" id="2341338" name="Sillamäe Kalev"></home>
+<home goals="4" id="2341338" name="Sillamae Kalev"></home>
 <away goals="3" id="2341315" name="Paide Linnameeskond"></away>
 <events>
 <event id="23564594" minute="5" player="A. Volkov" playerid="2567193" result="[1 - 0]" team="home" type="goal"></event>

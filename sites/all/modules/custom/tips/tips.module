@@ -75,7 +75,63 @@ function tips_cronapi() {
   $items['tips_generate_tweet_tips'] = array();
   $items['tips_process_tweet_tips'] = array();
   
+  $items['tips_save_odds'] = array();
+  
   return $items;
+}
+
+function tips_save_odds()
+{
+	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	$countries = array('africa', 'albania', 'algeria', 'argentina', 'austria', 'algeria', 'angola', 'armenia', 'asia', 'australia', 'azerbaijan', 'belarus', 'belgium', 'bolivia', 'bosnia', 'brazil', 'bulgaria', 'cameroon', 'canada', 'chile', 'china', 'colombia', 'concacaf', 'congo', 'croatia', 'cyprus', 'czech', 'costarica', 'denmark', 'equador', 'egypt', 'elsalvador', 'england', 'estonia', 'europe', 'finland', 'france', 'georgia', 'germany', 'ghana', 'greece', 'guatemala', 'holland', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'international', 'iran', 'ireland', 'israel', 'italy', 'japan', 'jordan', 'kazakhstan', 'kenya', 'korea', 'kuwait', 'latvia', 'lithuania', 'macedonia', 'malaysia', 'malta', 'mexico', 'moldova', 'montenegro', 'morocco', 'newzealand', 'nigeria', 'norway', 'oceania', 'paraguay', 'peru', 'poland', 'portugal', 'qatar', 'romania', 'russia', 'saudiarabia', 'scotland', 'serbia', 'singapore', 'slovakia', 'slovenia', 'southafrica', 'southamerica', 'spain', 'sweden', 'switzerland', 'thailand', 'tunisia', 'turkey', 'uae', 'usa', 'ukraine', 'uruguay', 'uzbekistan', 'venezuela', 'vietnam', 'wales', 'worldcup' ); // ToDo : Variable de configuracion
+	foreach($countries as $country)
+	{
+		$odds = tips_tipfin_odds_library_check_odds_for_country($country);
+		$original_odds = $odds;
+		$cache_odds = cache_get('odds_country_short_' . $country, 'cache');
+		$cache_odds = $cache_odds->data;
+		if(is_array($cache_odds))
+			foreach($odds as $key => $odd)
+				if( isset($cache_odds[$odd[1]][$odd[2]][$odd[5]][$odd[4]][$odd[6]]) )
+					if( $odd[7] == $cache_odds[$odd[1]][$odd[2]][$odd[5]][$odd[4]][$odd[6]] )
+						unset($odds[$key]);
+					
+		cache_set('odds_country_short_' . $country, 
+								tips_tipfin_odds_library_format_odds($original_odds), 'cache', time() + 60*10);
+
+		
+		foreach($odds as $odd)
+		{
+			$result = db_select('Odds', 'o')
+					    ->fields('o',array('odds'))
+					    ->condition('matchid', $odd[1],'=')
+					    ->condition('betname', $odd[2],'=')
+					    ->condition('betsubname', $odd[5],'=')
+					    ->condition('betsubname2', $odd[4],'=')
+					    ->condition('bookie', $odd[6],'=')
+					    ->orderBy('created', 'DESC')
+						->range(0,1)
+					    ->execute();
+					    
+			$record = $result->fetchField(); 
+			if( $record != $odd[7] )
+			{
+				if(intval($odd[1]) > 0)
+					db_insert('Odds')
+					->fields(array(
+						'competitionid' => $odd[0],
+						'matchid' =>  $odd[1],
+						'betname'  =>  $odd[2],
+						'updated_external'  =>  strtotime($odd[3]),
+						'betsubname2'  =>  $odd[4],
+						'betsubname'  =>  $odd[5],
+						'bookie'  =>  $odd[6],
+						'odds'  =>  $odd[7],
+					))
+					->execute();
+			}
+		}
+	}
 }
 
 function tips_buffer()

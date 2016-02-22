@@ -1373,6 +1373,13 @@
   content: "\f196";
 }
 
+.fa-user-plus:before {
+  content: "\f0c0";
+}
+.fa-bar-chart:before {
+  content: "\f080";
+}
+
 
 
 @charset "UTF-8";
@@ -1802,6 +1809,13 @@
 
 .icon-soccer:before {
   content: "\f1e3";
+}
+
+.icon-user-plus:before {
+  content: "\f234";
+}
+.icon-bar-chart:before {
+  content: "\f080";
 }
 
 .arqicon-delicious:before { content: '\23'; } /* '#' */
