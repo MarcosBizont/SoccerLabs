@@ -144,6 +144,7 @@ function soccer_labs_api_get_games() {
 			$obj = array();
 			$obj['nid'] = $node->nid;
 			$obj['match_date'] = $node->field_match_date[LANGUAGE_NONE][0];
+			$obj['match_date']['formatted_value'] = date('j M', strtotime($obj['match_date']['value']) );
 			$obj['match_status'] = $node->field_match_status[LANGUAGE_NONE][0]['value'];
 			
 			if(isset($node->field_competition[LANGUAGE_NONE][0]['target_id']))
