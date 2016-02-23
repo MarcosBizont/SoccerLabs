@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:41:25" sport="soccer" country="scotland"><league country="scotland" name="Scotland: Premiership" cup="False" id="3203" sub_id="32030"><match alternate_id="4180519" alternate_id_2="4494209" date="20.02.2016" id="4298040" static_id="20021623468822346923" status="FT" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:30" sport="soccer" country="scotland"><league country="scotland" name="Scotland: Premiership" cup="False" id="3203" sub_id="32030"><match alternate_id="4180519" alternate_id_2="4494209" date="20.02.2016" id="4298040" static_id="20021623468822346923" status="FT" time="15:00">
 <home goals="3" id="2346882" name="Celtic"></home>
 <away goals="0" id="2346923" name="Inverness"></away>
 <events>
@@ -206,6 +206,18 @@
 <event id="23790259" minute="90" player="S. Lawless" playerid="2468049" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4180508" alternate_id_2="4490690" date="30.01.2016" id="4298029" static_id="30011623468962346935" status="FT" time="15:00">
+<home goals="2" id="2346896" name="Dundee FC"></home>
+<away goals="2" id="2346935" name="Motherwell"></away>
+<events>
+<event id="23920404" minute="4" player="C. Cadden" playerid="2663174" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23920405" minute="6" player="P. McGowan" playerid="2377882" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23920406" minute="23" player="S. Pearson" playerid="2332631" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23920407" minute="78" player="J. Law" playerid="2366182" result="" team="away" type="yellowcard"></event>
+<event id="23920408" minute="87" player="C. Cadden" playerid="2663174" result="" team="away" type="yellowcard"></event>
+<event id="23920409" minute="88" player="K. Hemmings (pen.)" playerid="2511919" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
 </match><match alternate_id="4180509" alternate_id_2="4490688" date="30.01.2016" id="4298030" static_id="30011623469282346917" status="FT" time="15:00">
 <home goals="0" id="2346928" name="Kilmarnock"></home>
 <away goals="1" id="2346917" name="Hamilton"></away>
@@ -218,11 +230,6 @@
 <event id="23920389" minute="80" player="D. Mackinnon" playerid="2586431" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4180512" alternate_id_2="4490694" date="30.01.2016" id="4298033" static_id="30011623469522346923" status="Postp." time="15:00">
-<home goals="?" id="2346952" name="St Johnstone"></home>
-<away goals="?" id="2346923" name="Inverness"></away>
-<events></events>
-<ht score=""></ht>
 </match></league><league country="scotland" name="Scotland: Premiership - Relegation" cup="False" id="3203" sub_id="32034"><match alternate_id="4129237" alternate_id_2="4337236" date="31.05.2015" id="4246777" static_id="31051523469352346946" status="FT" time="14:00">
 <home goals="3" id="2346935" name="Motherwell"></home>
 <away goals="0" id="2346946" name="Rangers"></away>
@@ -875,15 +882,15 @@
 <event id="23902851" minute="90" player="A. Stokes" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match><match alternate_id="4138796" alternate_id_2="4488935" date="23.01.2016" id="4256335" static_id="23011623469302346905" status="FT" time="15:00">
-<home goals="1" id="2346930" name="Livingston"></home>
-<away goals="1" id="2346905" name="Falkirk"></away>
+</match><match alternate_id="4138799" alternate_id_2="4488937" date="23.01.2016" id="4256338" static_id="23011623469452346895" status="FT" time="15:00">
+<home goals="0" id="2346945" name="Raith"></home>
+<away goals="0" id="2346895" name="Dumbarton"></away>
 <events>
-<event id="23902854" minute="43" player="M. Kerr" playerid="2332845" result="" team="away" type="yellowcard"></event>
-<event id="23902855" minute="44" player="C. Sibbald" playerid="2528912" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23902856" minute="51" player="L. Buchanan" playerid="2370414" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23902874" minute="56" player="L. Longridge" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23902875" minute="62" player="I. Davidson" playerid="2377810" result="" team="home" type="yellowcard"></event>
+<event id="23902876" minute="90" player="R. Callachan" playerid="2491017" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="scotland" name="Scotland: Championship - Relegation" cup="False" id="3206" sub_id=""><match alternate_id="4127695" alternate_id_2="4332802" date="17.05.2015" id="4245237" static_id="17051523468692346906" status="FT" time="16:30">
 <home goals="3" id="2346869" name="Alloa"></home>
 <away goals="0" id="2346906" name="Forfar Athletic"></away>
@@ -1492,18 +1499,18 @@
 <event id="23921426" minute="68" player="B. Linn" playerid="2470643" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4139157" alternate_id_2="4490164" date="23.01.2016" id="4256696" static_id="23011623469042346876" status="FT" time="15:00">
-<home goals="1" id="2346904" name="Elgin City"></home>
-<away goals="0" id="2346876" name="Berwick"></away>
+</match><match alternate_id="4139155" alternate_id_2="4490162" date="23.01.2016" id="4256694" static_id="23011623468712346870" status="FT" time="15:00">
+<home goals="2" id="2346871" name="Arbroath"></home>
+<away goals="1" id="2346870" name="Annan"></away>
 <events>
-<event id="23915144" minute="12" player="C. Gunn" playerid="2370447" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23915145" minute="31" player="S. Notman" playerid="2332724" result="" team="away" type="yellowcard"></event>
-<event id="23915146" minute="37" player="B. Martin" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23915147" minute="52" player="J. Fairbairn" playerid="" result="" team="away" type="redcard"></event>
-<event id="23915148" minute="54" player="C. Crane" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23915149" minute="89" player="C. McLean" playerid="2485982" result="" team="home" type="yellowcard"></event>
+<event id="23915124" minute="46" player="C. Watson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23915125" minute="49" player="R. Omar" playerid="2706320" result="" team="away" type="yellowcard"></event>
+<event id="23915126" minute="58" player="M. McNiff (o.g.)" playerid="2418538" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23915127" minute="83" player="B. Gilfillan" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23915128" minute="88" player="P. Weatherson (pen.)" playerid="2370388" result="[2 - 1]" team="away" type="goal"></event>
+<event id="23915129" minute="89" player="C. Watson" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="scotland" name="Scotland: League Two - Relegation" cup="False" id="3208" sub_id=""><match alternate_id="" alternate_id_2="4331862" date="16.05.2015" id="" static_id="16051523469342346879" status="FT" time="14:00">
 <home goals="3" id="2346934" name="Montrose"></home>
 <away goals="1" id="2346879" name="Brora Rangers"></away>
@@ -1736,26 +1743,22 @@
 <event id="23878384" minute="3" player="C. Paterson" playerid="2587987" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4229109" alternate_id_2="4486793" date="09.01.2016" id="4346597" static_id="09011623468952346943" status="FT" time="15:00">
-<home goals="2" id="2346895" name="Dumbarton"></home>
-<away goals="1" id="2346943" name="Queen of South"></away>
+</match><match alternate_id="4228222" alternate_id_2="4486487" date="09.01.2016" id="4345712" static_id="09011623468982346947" status="FT" time="15:00">
+<home goals="2" id="2346898" name="Dunfermline"></home>
+<away goals="2" id="2346947" name="Ross County"></away>
 <events>
-<event id="23881434" minute="17" player="G. Fleming" playerid="2547199" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23881435" minute="52" player="D. Lyle" playerid="2370356" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23881436" minute="57" player="G. Fleming" playerid="2547199" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23878374" minute="4" player="A. Schalk" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23878375" minute="15" player="F. El Bakhtaoui" playerid="2617595" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23878376" minute="27" player="B. Graham (pen.)" playerid="2370390" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23878377" minute="56" player="B. McKay" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4229049" alternate_id_2="4486490" date="09.01.2016" id="4346537" static_id="09011623469352346888" status="FT" time="15:00">
-<home goals="5" id="2346935" name="Motherwell"></home>
-<away goals="0" id="2346888" name="Cove Rangers"></away>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4229047" alternate_id_2="4486492" date="09.01.2016" id="4346535" static_id="09011623469552346923" status="FT" time="15:00">
+<home goals="0" id="2346955" name="Stirling"></home>
+<away goals="0" id="2346923" name="Inverness"></away>
 <events>
-<event id="23878404" minute="2" player="L. Moult" playerid="2423559" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878405" minute="6" player="S. McDonald" playerid="2332751" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23878406" minute="34" player="M. Johnson" playerid="2425614" result="[3 - 0]" team="home" type="goal"></event>
-<event id="23878407" minute="44" player="S. Pearson" playerid="2332631" result="[4 - 0]" team="home" type="goal"></event>
-<event id="23878408" minute="61" player="S. Pearson" playerid="2332631" result="[5 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[4-0]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="scotland" name="Scotland: Insurance League Cup" cup="True" id="3205" sub_id="32050"><match alternate_id="4223444" alternate_id_2="4480664" date="31.01.2016" id="4340937" static_id="31011623469472346882" status="FT" time="15:00">
 <home goals="3" id="2346947" name="Ross County"></home>
 <away goals="1" id="2346882" name="Celtic"></away>
@@ -1968,16 +1971,35 @@
 <event id="23523134" minute="54" player="S. Rumsby (o.g.)" playerid="2641685" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4185146" alternate_id_2="4450960" date="25.08.2015" id="4302653" static_id="25081523468982346896" status="FT" time="18:45">
-<home goals="3" id="2346898" name="Dunfermline"></home>
-<away goals="1" id="2346896" name="Dundee FC"></away>
+</match><match alternate_id="4185148" alternate_id_2="4450962" date="25.08.2015" id="4302655" static_id="25081523469062346919" status="AET" time="18:45">
+<home goals="1" id="2346906" name="Forfar Athletic"></home>
+<away goals="2" id="2346919" name="Hearts"></away>
 <events>
-<event id="23523104" minute="11" player="F. El Bakhtaoui" playerid="2617595" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23523105" minute="48" player="K. Hemmings" playerid="2511919" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23523106" minute="86" player="J. Cardle" playerid="2379858" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23523107" minute="90" player="F. El Bakhtaoui" playerid="2617595" result="[3 - 1]" team="home" type="goal"></event>
+<event id="23523124" minute="74" player="K. McHattie" playerid="2532941" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23523125" minute="84" player="M. Dunlop" playerid="2586426" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23523126" minute="90" player="D. Denholm" playerid="2441892" result="" team="home" type="redcard"></event>
+<event id="23523127" minute="105" player="C. Paterson" playerid="2587987" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23523128" minute="120" player="K. Nicoll" playerid="2378125" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4185150" alternate_id_2="4450964" date="25.08.2015" id="4302657" static_id="25081523469282346876" status="FT" time="18:45">
+<home goals="4" id="2346928" name="Kilmarnock"></home>
+<away goals="1" id="2346876" name="Berwick"></away>
+<events>
+<event id="23523144" minute="16" player="K. Boyd (pen.)" playerid="2332672" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23523145" minute="55" player="D. Lavery" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23523146" minute="70" player="R. McKenzie" playerid="2508236" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23523147" minute="77" player="C. Slater" playerid="2486026" result="[3 - 1]" team="home" type="goal"></event>
+<event id="23523148" minute="90" player="K. Higginbotham" playerid="2382552" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4185151" alternate_id_2="4450965" date="25.08.2015" id="4302658" static_id="25081523469382346905" status="FT" time="18:45">
+<home goals="0" id="2346938" name="Partick"></home>
+<away goals="1" id="2346905" name="Falkirk"></away>
+<events>
+<event id="23523154" minute="32" player="P. Grant" playerid="2554479" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4185152" alternate_id_2="4450966" date="25.08.2015" id="4302659" static_id="25081523469432346915" status="FT" time="18:45">
 <home goals="0" id="2346943" name="Queen of South"></home>
 <away goals="1" id="2346915" name="Morton"></away>
@@ -1985,23 +2007,6 @@
 <event id="23523164" minute="69" player="R. Forbes" playerid="2378310" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4185153" alternate_id_2="4450967" date="25.08.2015" id="4302660" static_id="25081523469452346917" status="FT" time="18:45">
-<home goals="2" id="2346945" name="Raith"></home>
-<away goals="1" id="2346917" name="Hamilton"></away>
-<events>
-<event id="23523174" minute="3" player="I. Davidson" playerid="2377810" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23523175" minute="66" player="C. Nade" playerid="2334448" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23523176" minute="81" player="K. Benedictus" playerid="2401965" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4185154" alternate_id_2="4450968" date="25.08.2015" id="4302661" static_id="25081523469472346873" status="FT" time="18:45">
-<home goals="2" id="2346947" name="Ross County"></home>
-<away goals="0" id="2346873" name="Ayr"></away>
-<events>
-<event id="23523184" minute="3" player="L. Boyce" playerid="2409110" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23523185" minute="50" player="M. Gardyne" playerid="2370444" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="scotland" name="Scotland: Challenge Cup" cup="True" id="3207" sub_id="32070"><match alternate_id="4220235" alternate_id_2="4474882" date="28.11.2015" id="4337733" static_id="28111523469462346953" status="FT" time="12:15">
 <home goals="4" id="2346946" name="Rangers"></home>
 <away goals="0" id="2346953" name="St. Mirren"></away>
@@ -2143,54 +2148,62 @@
 <event id="23121394" minute="96" player="J. Bradley" playerid="2497302" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4145039" alternate_id_2="4343331" date="25.07.2015" id="4262576" static_id="25071523468702346867" status="FT" time="14:00">
-<home goals="3" id="2346870" name="Annan"></home>
-<away goals="1" id="2346867" name="Airdrieonians"></away>
+</match><match alternate_id="4145033" alternate_id_2="4343332" date="25.07.2015" id="4262570" static_id="25071523468712346898" status="FT" time="14:00">
+<home goals="1" id="2346871" name="Arbroath"></home>
+<away goals="4" id="2346898" name="Dunfermline"></away>
 <events>
-<event id="22446814" minute="11" player="S. Crighton" playerid="2378797" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22446815" minute="51" player="J. Todd" playerid="2497804" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22446816" minute="72" player="J. Todd" playerid="2497804" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22446817" minute="74" player="J. Todd" playerid="2497804" result="[3 - 1]" team="home" type="goal"></event>
+<event id="22446824" minute="9" player="F. El Bakhtaoui" playerid="2617595" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22446825" minute="20" player="M. Moffat" playerid="2430368" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22446826" minute="28" player="F. El Bakhtaoui" playerid="2617595" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22446827" minute="62" player="R. Wallace" playerid="2435571" result="[0 - 4]" team="away" type="goal"></event>
+<event id="22446828" minute="72" player="M. Grehan" playerid="2354199" result="[1 - 4]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4145038" alternate_id_2="4343335" date="25.07.2015" id="4262575" static_id="25071523468792346869" status="FT" time="14:00">
-<home goals="0" id="2346879" name="Brora Rangers"></home>
-<away goals="1" id="2346869" name="Alloa"></away>
+<ht score="[0-3]"></ht>
+</match><match alternate_id="4145043" alternate_id_2="4343333" date="25.07.2015" id="4262580" static_id="25071523468732346868" status="FT" time="14:00">
+<home goals="3" id="2346873" name="Ayr"></home>
+<away goals="1" id="2346868" name="Albion Rovers"></away>
 <events>
-<event id="22446854" minute="49" player="G. Mitchell" playerid="2649789" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4145031" alternate_id_2="4343336" date="25.07.2015" id="4262568" static_id="25071523468892346945" status="FT" time="14:00">
-<home goals="0" id="2346889" name="Cowdenbeath"></home>
-<away goals="1" id="2346945" name="Raith"></away>
-<events>
-<event id="22446864" minute="23" player="L. Vaughan" playerid="2574801" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4145037" alternate_id_2="4343337" date="25.07.2015" id="4262574" static_id="25071523469002346954" status="FT" time="14:00">
-<home goals="2" id="2346900" name="East Stirlingshire"></home>
-<away goals="3" id="2346954" name="Stenhousemuir"></away>
-<events>
-<event id="22446874" minute="30" player="R. Donaldson" playerid="2472955" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22446875" minute="35" player="S. Stirling" playerid="2487156" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22446876" minute="45" player="S. Stirling" playerid="2487156" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22446877" minute="59" player="C. McMenamin" playerid="2344832" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22446878" minute="77" player="D. McKenna" playerid="2332915" result="[2 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4145032" alternate_id_2="4343341" date="25.07.2015" id="4262569" static_id="25071523469062346934" status="FT" time="14:00">
-<home goals="1" id="2346906" name="Forfar Athletic"></home>
-<away goals="0" id="2346934" name="Montrose"></away>
-<events>
-<event id="22446914" minute="79" player="I. Campbell" playerid="2344910" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4145045" alternate_id_2="4343345" date="25.07.2015" id="4262582" static_id="25071523469432346956" status="FT" time="14:00">
-<home goals="2" id="2346943" name="Queen of South"></home>
-<away goals="0" id="2346956" name="Stranraer"></away>
-<events>
-<event id="22446954" minute="20" player="D. Lyle" playerid="2370356" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22446955" minute="90" player="R. Conroy" playerid="2377881" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22446834" minute="39" player="A. Trouten (pen.)" playerid="2370303" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22446835" minute="50" player="N. Devlin" playerid="2493395" result="[2 - 0]" team="home" type="goal"></event>
+<event id="22446836" minute="71" player="R. Caldwell" playerid="2530392" result="[3 - 0]" team="home" type="goal"></event>
+<event id="22446837" minute="90" player="A. Love" playerid="2442178" result="[3 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4145034" alternate_id_2="4343334" date="25.07.2015" id="4262571" static_id="25071523468782346940" status="FT" time="14:00">
+<home goals="0" id="2346878" name="Brechin"></home>
+<away goals="3" id="2346940" name="Peterhead"></away>
+<events>
+<event id="22446844" minute="57" player="J. Brown" playerid="2485907" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22446845" minute="67" player="J. Brown" playerid="2485907" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22446846" minute="75" player="R. McAllister" playerid="2332782" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4145041" alternate_id_2="4343338" date="25.07.2015" id="4262578" static_id="25071523469022346944" status="Pen." time="14:00">
+<home goals="0" id="2346902" name="Edinburgh City"></home>
+<away goals="1" id="2346944" name="Queen's Park"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+<penalty localteam="1" visitorteam="3"></penalty>
+</match><match alternate_id="4145035" alternate_id_2="4343340" date="25.07.2015" id="4262572" static_id="25071523469052346899" status="FT" time="14:00">
+<home goals="3" id="2346905" name="Falkirk"></home>
+<away goals="1" id="2346899" name="East Fife"></away>
+<events>
+<event id="22446904" minute="2" player="P. Grant" playerid="2554479" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22446905" minute="14" player="K. Smith" playerid="2377829" result="[1 - 1]" team="away" type="goal"></event>
+<event id="22446906" minute="90" player="B. McHugh" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22446907" minute="90" player="J. Baird" playerid="2332928" result="[3 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4145042" alternate_id_2="4343344" date="25.07.2015" id="4262579" static_id="25071523469152346895" status="FT" time="14:00">
+<home goals="2" id="2346915" name="Morton"></home>
+<away goals="3" id="2346895" name="Dumbarton"></away>
+<events>
+<event id="22446944" minute="6" player="G. Gallagher" playerid="2466497" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22446945" minute="30" player="G. Gallagher" playerid="2466497" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22446946" minute="65" player="G. Fleming" playerid="2547199" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22446947" minute="73" player="L. Kilday" playerid="2502146" result="[1 - 3]" team="home" type="goal"></event>
+<event id="22446948" minute="83" player="P. MacDonald (pen.)" playerid="2363310" result="[2 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
 </match></league></recent_results>

@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:51:35" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4154894" alternate_id_2="4497954" date="22.02.2016" id="4272425" static_id="22021623488272348868" status="18:00" time="18:00">
-<home goals="?" id="2348827" name="Besiktas"></home>
-<away goals="?" id="2348868" name="Genclerbirligi"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:38" sport="soccer" country="turkey"><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4154894" alternate_id_2="4497954" date="22.02.2016" id="4272425" static_id="22021623488272348868" status="FT" time="18:00">
+<home goals="1" id="2348827" name="Besiktas"></home>
+<away goals="0" id="2348868" name="Genclerbirligi"></away>
+<events>
+<event id="23993044" minute="48" player="O. Sahan" playerid="2389514" result="" team="home" type="yellowcard"></event>
+<event id="23993045" minute="57" player="U. Ciftci" playerid="2498225" result="" team="away" type="yellowcard"></event>
+<event id="23993046" minute="64" player="M. Gomez" playerid="2333775" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23993047" minute="68" player="M. El Kabir" playerid="2396868" result="" team="away" type="yellowcard"></event>
+<event id="23993048" minute="85" player="I. Kahveci" playerid="2567120" result="" team="away" type="yellowcard"></event>
+<event id="23993049" minute="89" player="R. Quaresma" playerid="2336410" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4154897" alternate_id_2="4497953" date="21.02.2016" id="4272428" static_id="21021623488622348939" status="FT" time="17:00">
 <home goals="2" id="2348862" name="Galatasaray"></home>
 <away goals="1" id="2348939" name="Trabzonspor"></away>
@@ -276,11 +283,19 @@
 <event id="23917138" minute="85" player="I. Kahveci" playerid="2567120" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="turkey" name="Turkey: Ptt 1. Lig" cup="False" id="3255" sub_id="32550"><match alternate_id="4158677" alternate_id_2="4494654" date="22.02.2016" id="4276206" static_id="22021623488642348799" status="17:00" time="17:00">
-<home goals="?" id="2348864" name="Gaziantep BB"></home>
-<away goals="?" id="2348799" name="Adana Demirspor"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="turkey" name="Turkey: Ptt 1. Lig" cup="False" id="3255" sub_id="32550"><match alternate_id="4158677" alternate_id_2="4494654" date="22.02.2016" id="4276206" static_id="22021623488642348799" status="FT" time="17:00">
+<home goals="0" id="2348864" name="Gaziantep BB"></home>
+<away goals="2" id="2348799" name="Adana Demirspor"></away>
+<events>
+<event id="23960044" minute="5" player="A. Stachowiak" playerid="2384906" result="" team="home" type="redcard"></event>
+<event id="23960045" minute="30" player="M. Yildirim" playerid="" result="" team="home" type="redcard"></event>
+<event id="23960046" minute="32" player="M. Pote (pen.)" playerid="2369459" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23960047" minute="50" player="O. Tahtaisleyen" playerid="2347983" result="" team="away" type="yellowcard"></event>
+<event id="23960048" minute="60" player="I. Moro" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23960049" minute="76" player="I. Alin" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23960050" minute="90" player="M. Pote" playerid="2369459" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4158681" alternate_id_2="4494659" date="21.02.2016" id="4276210" static_id="21021623488062348809" status="FT" time="16:30">
 <home goals="2" id="2348806" name="Alanyaspor"></home>
 <away goals="0" id="2348809" name="Altinordu"></away>
@@ -793,21 +808,26 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4214112" alternate_id_2="4494572" date="07.02.2016" id="4331613" static_id="07021623488212348900" status="FT" time="11:30">
-<home goals="0" id="2348821" name="Bandirmaspor"></home>
-<away goals="1" id="2348900" name="Anadolu Selcukspor"></away>
+</match><match alternate_id="4214110" alternate_id_2="4494571" date="07.02.2016" id="4331611" static_id="07021623488102351743" status="FT" time="11:30">
+<home goals="2" id="2348810" name="Anadolu Uskudar"></home>
+<away goals="3" id="2351743" name="Umraniyespor"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23959224" minute="58" player="O. Derici" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23959214" minute="23" player="S. Asatekin" playerid="2599445" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23959215" minute="54" player="I. Sahin" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23959216" minute="63" player="S. Asatekin" playerid="2599445" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23959217" minute="86" player="C. Saritas" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="23959218" minute="89" player="C. Saritas" playerid="" result="[2 - 3]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4214114" alternate_id_2="4494576" date="07.02.2016" id="4331615" static_id="07021623489222348875" status="FT" time="11:30">
-<home goals="1" id="2348922" name="Pendikspor"></home>
-<away goals="1" id="2348875" name="Hatayspor"></away>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4214117" alternate_id_2="4494574" date="07.02.2016" id="4331618" static_id="07021623488742348861" status="FT" time="11:30">
+<home goals="3" id="2348874" name="Hacettepe"></home>
+<away goals="0" id="2348861" name="Fethiyespor"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23959264" minute="19" player="E. Metoglu" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23959265" minute="24" player="A. Guven" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23959244" minute="35" player="A. Okumus" playerid="2567118" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23959245" minute="53" player="A. Okumus" playerid="2567118" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23959246" minute="89" player="A. Okumus" playerid="2567118" result="[3 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[1-0]"></ht>
 </match></league><league country="turkey" name="Turkey: Tff 2. Lig Red Group" cup="False" id="3254" sub_id="32541"><match alternate_id="4213828" alternate_id_2="4497658" date="21.02.2016" id="4331329" static_id="21021623488112348907" status="FT" time="11:30">
 <home goals="1" id="2348811" name="Ankara Demirspor"></home>
 <away goals="1" id="2348907" name="Manisaspor"></away>
@@ -978,15 +998,13 @@
 <event id="23959371" minute="69" player="M. Tasdemir" playerid="" result="[6 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4213804" alternate_id_2="4494584" date="07.02.2016" id="4331305" static_id="07021623541992352888" status="FT" time="11:30">
-<home goals="3" id="2354199" name="Tuzlaspor"></home>
-<away goals="0" id="2352888" name="Sivas Belediyespor"></away>
+</match><match alternate_id="4213810" alternate_id_2="4494583" date="07.02.2016" id="4331311" static_id="07021623489352348812" status="FT" time="11:30">
+<home goals="1" id="2348935" name="Tepecik"></home>
+<away goals="0" id="2348812" name="Ankaragucu"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23959344" minute="2" player="O. Papaker" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23959345" minute="64" player="M. Aktas" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="2" id="23959346" minute="90" player="S. Durmus" playerid="2482121" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23959334" minute="66" player="A. Topkara" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="turkey" name="Turkey: Tff 2. Lig Play Offs" cup="False" id="3254" sub_id=""><match alternate_id="" alternate_id_2="4335233" date="25.05.2015" id="" static_id="25051523489382348877" status="Pen." time="16:00">
 <home goals="3" id="2348938" name="Trabzon"></home>
 <away goals="2" id="2348877" name="Inegolspor"></away>

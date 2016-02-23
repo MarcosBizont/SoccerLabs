@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:40:44" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4240398" alternate_id_2="4499180" date="22.02.2016" id="4357871" static_id="22021623399742339990" status="FT" time="01:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:40:45" sport="soccer" country="colombia"><league country="colombia" name="Colombia: Liga Aguila - Apertura" cup="False" id="3000" sub_id="30005"><match alternate_id="4240398" alternate_id_2="4499180" date="22.02.2016" id="4357871" static_id="22021623399742339990" status="FT" time="01:00">
 <home goals="2" id="2339974" name="Envigado"></home>
 <away goals="1" id="2339990" name="Santa Fe"></away>
 <events>
@@ -966,7 +966,21 @@
 <event id="202643044" minute="82" player="C. Nasuti" playerid="2395406" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-2]"></ht>
-</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4239108" alternate_id_2="4494840" date="21.02.2016" id="4356587" static_id="21021623399612344804" status="FT" time="20:00">
+</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4239107" alternate_id_2="4494839" date="23.02.2016" id="4356586" static_id="23021623399572339989" status="37" time="01:00">
+<home goals="1" id="2339957" name="America De Cali"></home>
+<away goals="0" id="2339989" name="Real Santander"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23961894" minute="5" player="J. Hinestroza" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4244862" alternate_id_2="4494845" date="22.02.2016" id="4362323" static_id="22021623399722339968" status="FT" time="23:00">
+<home goals="1" id="2339972" name="Pereira"></home>
+<away goals="0" id="2339968" name="Quindio"></away>
+<events>
+<event id="23961954" minute="76" player="M. Bustamante" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4239108" alternate_id_2="4494840" date="21.02.2016" id="4356587" static_id="21021623399612344804" status="FT" time="20:00">
 <home goals="0" id="2339961" name="Barranquilla"></home>
 <away goals="2" id="2344804" name="Tigres"></away>
 <events>
@@ -1310,22 +1324,6 @@
 <event id="22690417" minute="74" player="D. Quinonez" playerid="2615465" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4220577" alternate_id_2="4367692" date="01.11.2015" id="4338075" static_id="01111523399912339975" status="FT" time="20:00">
-<home goals="2" id="2339991" name="U. Magdalena"></home>
-<away goals="1" id="2339975" name="Expreso Rojo"></away>
-<events>
-<event id="22690424" minute="56" player="C. Correa" playerid="2406276" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22690425" minute="63" player="D. Gomez" playerid="2505987" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22690426" minute="76" player="J. Viveros" playerid="2525953" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4167780" alternate_id_2="4367685" date="31.10.2015" id="4285306" static_id="31101523399552339141" status="FT" time="20:00">
-<home goals="0" id="2339955" name="Bogota"></home>
-<away goals="0" id="2339141" name="Fortaleza"></away>
-<events>
-<event id="22690354" minute="84" player="C. A. Pérez Ochoa" playerid="" result="" team="away" type="yellowred"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4245151" alternate_id_2="4497102" date="11.02.2016" id="4362612" static_id="11021623399622344804" status="FT" time="19:00">
 <home goals="1" id="2339962" name="Bogota"></home>
 <away goals="2" id="2344804" name="Tigres"></away>
@@ -1664,8 +1662,8 @@
 <home goals="1" id="2339968" name="Quindio"></home>
 <away goals="0" id="2339972" name="Pereira"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22287994" minute="54" player="L. Paz" playerid="2468022" result="" team="home" type="redcard"></event>
-<event assist="" assistid="" extra_min="" id="22287995" minute="79" player="W. Carpintero" playerid="2354155" result="[1 - 0]" team="home" type="goal"></event>
+<event id="22287994" minute="54" player="L. Paz" playerid="2468022" result="" team="home" type="redcard"></event>
+<event id="22287995" minute="79" player="W. Carpintero" playerid="2354155" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="colombia" name="Colombia: Super Cup" cup="True" id="4141" sub_id="41410"><match alternate_id="4238018" alternate_id_2="4490684" date="28.01.2016" id="4355497" static_id="28011623399832339970" status="FT" time="00:00">
@@ -1699,7 +1697,14 @@
 <event id="218216845" minute="90:01" player="D. Sanchez" playerid="2622330" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4239108" alternate_id_2="4494840" date="21.02.2016" id="4356587" static_id="21021623399612344804" status="FT" time="20:00">
+</match></league><league country="colombia" name="Colombia: Torneo Aguila" cup="False" id="3974" sub_id="39740"><match alternate_id="4244862" alternate_id_2="4494845" date="22.02.2016" id="4362323" static_id="22021623399722339968" status="FT" time="23:00">
+<home goals="1" id="2339972" name="Pereira"></home>
+<away goals="0" id="2339968" name="Quindio"></away>
+<events>
+<event id="23961954" minute="76" player="M. Bustamante" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4239108" alternate_id_2="4494840" date="21.02.2016" id="4356587" static_id="21021623399612344804" status="FT" time="20:00">
 <home goals="0" id="2339961" name="Barranquilla"></home>
 <away goals="2" id="2344804" name="Tigres"></away>
 <events>

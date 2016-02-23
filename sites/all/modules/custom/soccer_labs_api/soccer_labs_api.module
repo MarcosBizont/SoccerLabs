@@ -108,6 +108,9 @@ function soccer_labs_api_get_games() {
 	if(isset($_POST['to_match_date']))	
 		$query->fieldCondition('field_match_date', 'value', $_POST['to_match_date'], '<=');
 		
+	if(isset($_POST['bring_big_leagues']))
+		$query->fieldCondition('field_competition', 'target_id', variable_get('inplay_competitions_default', ''), 'IN');
+		
 	if(isset($_POST['in_progress']))
 	{
 		$query->fieldCondition('field_available_live_score', 'value', '1', '=');

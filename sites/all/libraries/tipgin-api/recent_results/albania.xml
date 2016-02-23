@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:40:28" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4154388" alternate_id_2="4489879" date="22.02.2016" id="4271919" static_id="22021623375562337546" status="17:00" time="17:00">
-<home goals="?" id="2337556" name="Partizani"></home>
-<away goals="?" id="2337546" name="Kukesi"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4154390" alternate_id_2="4489880" date="22.02.2016" id="4271921" static_id="22021623375612337564" status="17:00" time="17:00">
-<home goals="?" id="2337561" name="Skenderbeu"></home>
-<away goals="?" id="2337564" name="KF Tirana"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:40:32" sport="soccer" country="albania"><league country="albania" name="Albania: Super League" cup="False" id="2897" sub_id="28970"><match alternate_id="4154388" alternate_id_2="4489879" date="22.02.2016" id="4271919" static_id="22021623375562337546" status="FT" time="17:00">
+<home goals="1" id="2337556" name="Partizani"></home>
+<away goals="0" id="2337546" name="Kukesi"></away>
+<events>
+<event id="23912294" minute="41" player="R. Kalari" playerid="2429946" result="" team="home" type="yellowcard"></event>
+<event id="23912295" minute="50" player="X. Sukaj" playerid="2372952" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23912296" minute="80" player="N. Ferraj" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23912297" minute="90" player="Y. Shameti" playerid="2429939" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4154390" alternate_id_2="4489880" date="22.02.2016" id="4271921" static_id="22021623375612337564" status="FT" time="17:00">
+<home goals="1" id="2337561" name="Skenderbeu"></home>
+<away goals="0" id="2337564" name="KF Tirana"></away>
+<events>
+<event id="23912304" minute="37" player="K. Vangjeli" playerid="2350683" result="" team="home" type="yellowcard"></event>
+<event id="23912305" minute="48" player="D. Kerciku" playerid="2527067" result="" team="away" type="yellowcard"></event>
+<event id="23912306" minute="49" player="R. Gerxhalliu" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23912307" minute="58" player="G. Progni" playerid="2389188" result="" team="home" type="yellowcard"></event>
+<event id="23912308" minute="75" player="H. Salihi (pen.)" playerid="2342842" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23912309" minute="85" player="R. Arapi" playerid="2374080" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4154389" alternate_id_2="4489877" date="21.02.2016" id="4271920" static_id="21021623375212337565" status="FT" time="16:00">
 <home goals="2" id="2337521" name="Flamurtari"></home>
 <away goals="0" id="2337565" name="Vllaznia"></away>

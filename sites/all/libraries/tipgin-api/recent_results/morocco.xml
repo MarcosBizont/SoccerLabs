@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:41:15" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4240007" alternate_id_2="4495338" date="22.02.2016" id="4357482" static_id="22021623449532344938" status="15:00" time="15:00">
-<home goals="?" id="2344953" name="Olympique de Safi"></home>
-<away goals="?" id="2344938" name="FAR Rabat"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:18" sport="soccer" country="morocco"><league country="morocco" name="Morocco: Botola Pro" cup="False" id="3146" sub_id="31460"><match alternate_id="4240007" alternate_id_2="4495338" date="22.02.2016" id="4357482" static_id="22021623449532344938" status="FT" time="15:00">
+<home goals="2" id="2344953" name="Olympique de Safi"></home>
+<away goals="1" id="2344938" name="FAR Rabat"></away>
+<events>
+<event id="23966884" minute="7" player="Chedli" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23966885" minute="10" player="Naghmi" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23966886" minute="27" player="Robinho (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23966887" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="4240010" alternate_id_2="4495341" date="21.02.2016" id="4357485" static_id="21021623449482344957" status="FT" time="19:00">
 <home goals="0" id="2344948" name="Kawkab Marrakech"></home>
 <away goals="2" id="2344957" name="Raja Casablanca"></away>
@@ -274,15 +279,15 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4242289" alternate_id_2="4496529" date="06.02.2016" id="4359762" static_id="06021623449322350592" status="FT" time="15:00">
+</match><match alternate_id="4242289" alternate_id_2="4496529" date="06.02.2016" id="4359762" static_id="06021623449322350592" status="FT" time="15:00" v="0">
 <home goals="2" id="2344932" name="Chabab Atlas Khenifra"></home>
 <away goals="0" id="2350592" name="Rachad Bernoussi"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4242290" alternate_id_2="4496530" date="06.02.2016" id="4359763" static_id="06021623449442344954" status="FT" time="15:00">
-<home goals="1" id="2344944" name="Ittihad Khemisset"></home>
-<away goals="0" id="2344954" name="Olympique Marrakech"></away>
+</match><match alternate_id="4242287" alternate_id_2="4496531" date="06.02.2016" id="4359760" static_id="06021623449462355647" status="FT" time="15:00" v="0">
+<home goals="1" id="2344946" name="Jeunesse Massira"></home>
+<away goals="0" id="2355647" name="Dcheira"></away>
 <events>
 </events>
 <ht score="[-]"></ht>

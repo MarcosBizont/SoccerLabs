@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:41:20" sport="soccer" country="poland"><league country="poland" name="Poland: Ekstraklasa" cup="False" id="3177" sub_id="31770"><match alternate_id="4134313" alternate_id_2="4487672" date="22.02.2016" id="4251852" static_id="22021623460432345826" status="17:00" time="17:00">
-<home goals="?" id="2346043" name="Wisla"></home>
-<away goals="?" id="2345826" name="Leczna"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:24" sport="soccer" country="poland"><league country="poland" name="Poland: Ekstraklasa" cup="False" id="3177" sub_id="31770"><match alternate_id="4134313" alternate_id_2="4487672" date="22.02.2016" id="4251852" static_id="22021623460432345826" status="FT" time="17:00">
+<home goals="1" id="2346043" name="Wisla"></home>
+<away goals="1" id="2345826" name="Leczna"></away>
+<events>
+<event id="23890224" minute="19" player="W. Guerrier" playerid="2495365" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23890225" minute="34" player="A. Glowacki" playerid="2344609" result="" team="home" type="yellowcard"></event>
+<event id="23890226" minute="76" player="K. Danielewicz" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23890227" minute="79" player="R. Guzmics" playerid="2366631" result="" team="home" type="yellowcard"></event>
+<event id="23890228" minute="85" player="L. Boguslawski" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4134314" alternate_id_2="4488927" date="21.02.2016" id="4251853" static_id="21021623458302346002" status="FT" time="17:00">
 <home goals="0" id="2345830" name="Gornik Z."></home>
 <away goals="2" id="2346002" name="Ruch"></away>
@@ -237,23 +243,22 @@
 <event id="23869690" minute="59" player="N. Nikolic" playerid="2365708" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4134299" alternate_id_2="4485426" date="19.12.2015" id="4251838" static_id="19121523458392345808" status="FT" time="17:00">
-<home goals="2" id="2345839" name="Jagiellonia"></home>
-<away goals="2" id="2345808" name="Cracovia"></away>
+</match><match alternate_id="4134295" alternate_id_2="4485436" date="19.12.2015" id="4251834" static_id="19121523458262345899" status="FT" time="17:00">
+<home goals="3" id="2345826" name="Leczna"></home>
+<away goals="1" id="2345899" name="Lechia Gdansk"></away>
 <events>
-<event id="23867764" minute="10" player="E. Jendrisek" playerid="2333605" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23867765" minute="56" player="M. Budzinski" playerid="2395151" result="" team="away" type="yellowcard"></event>
-<event id="23867766" minute="59" player="B. Rymaniak" playerid="2418416" result="" team="away" type="yellowcard"></event>
-<event id="23867767" minute="64" player="P. Frankowski" playerid="2607167" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23867768" minute="68" player="S. Sretenovic" playerid="2348407" result="" team="away" type="yellowcard"></event>
-<event id="23867769" minute="70" player="K. Mackiewicz" playerid="2627995" result="" team="home" type="yellowcard"></event>
-<event id="23867770" minute="77" player="M. Covilo" playerid="2475210" result="" team="away" type="yellowcard"></event>
-<event id="23867771" minute="83" player="P. Grzelczak" playerid="2344600" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23867772" minute="87" player="R. Grzyb" playerid="2346432" result="" team="home" type="yellowcard"></event>
-<event id="217691143" minute="88" player="D. Rakels" playerid="2417042" result="[2 - 2]" team="away" type="goal"></event>
-<event id="217691144" minute="90" player="E. Jendrisek" playerid="2333605" result="" team="away" type="yellowcard"></event>
+<event id="23867864" minute="2" player="G. Piesio" playerid="2344425" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23867865" minute="9" player="V. Nikitovic" playerid="2375072" result="" team="home" type="yellowcard"></event>
+<event id="23867866" minute="16" player="R. Janicki" playerid="2469326" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23867867" minute="18" player="A. Borysiuk" playerid="2362894" result="" team="away" type="yellowcard"></event>
+<event id="23867868" minute="26" player="G. Bonin" playerid="2344399" result="" team="home" type="yellowcard"></event>
+<event id="23867869" minute="40" player="G. Piesio" playerid="2344425" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23867870" minute="43" player="L. Tyminski" playerid="2383060" result="" team="home" type="yellowcard"></event>
+<event id="23867871" minute="50" player="Gerson" playerid="2507787" result="" team="away" type="yellowcard"></event>
+<event id="23867872" minute="75" player="B. Spiaczka" playerid="2483653" result="[3 - 1]" team="home" type="goal"></event>
+<event id="217692143" minute="81" player="J. Wawrzyniak" playerid="2344443" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[2-1]"></ht>
 </match></league><league country="poland" name="Poland: Ekstraklasa - Championship Group" cup="False" id="3177" sub_id="31774"><match alternate_id="4126329" alternate_id_2="4334216" date="07.06.2015" id="4243872" static_id="07061523458392345899" status="FT" time="16:00">
 <home goals="4" id="2345839" name="Jagiellonia"></home>
 <away goals="2" id="2345899" name="Lechia Gdansk"></away>

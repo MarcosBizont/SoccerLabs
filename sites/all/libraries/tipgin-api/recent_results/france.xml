@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:40:10" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="4136780" alternate_id_2="4498058" date="21.02.2016" id="4254319" static_id="21021623418372341873" status="FT" time="20:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:40:14" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="4136780" alternate_id_2="4498058" date="21.02.2016" id="4254319" static_id="21021623418372341873" status="FT" time="20:00">
 <home goals="1" id="2341837" name="Lille"></home>
 <away goals="0" id="2341873" name="Lyon"></away>
 <events>
@@ -247,11 +247,18 @@
 <event id="23973227" minute="88" player="T. Motta" playerid="2334823" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="france" name="France: Ligue 2" cup="False" id="3050" sub_id="30500"><match alternate_id="4138258" alternate_id_2="4498355" date="22.02.2016" id="4255797" static_id="22021623418672341851" status="19:30" time="19:30">
-<home goals="?" id="2341867" name="Nimes"></home>
-<away goals="?" id="2341851" name="Metz"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="france" name="France: Ligue 2" cup="False" id="3050" sub_id="30500"><match alternate_id="4138258" alternate_id_2="4498355" date="22.02.2016" id="4255797" static_id="22021623418672341851" status="FT" time="19:30">
+<home goals="2" id="2341867" name="Nimes"></home>
+<away goals="1" id="2341851" name="Metz"></away>
+<events>
+<event id="23997054" minute="31" player="A. Briancon" playerid="2595124" result="" team="home" type="yellowcard"></event>
+<event id="23997055" minute="39" player="T. Maoulida" playerid="2333378" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23997056" minute="51" player="G. Mandjeck" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23997057" minute="55" player="H. Diallo" playerid="2659261" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23997058" minute="73" player="T. Maoulida" playerid="2333378" result="" team="home" type="yellowcard"></event>
+<event id="23997059" minute="90" player="O. Cissokho" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4138257" alternate_id_2="4497508" date="20.02.2016" id="4255796" static_id="20021623418252341738" status="FT" time="13:00">
 <home goals="1" id="2341825" name="Le Havre"></home>
 <away goals="0" id="2341738" name="Creteil"></away>
@@ -638,29 +645,33 @@
 <event id="23940178" minute="90" player="J. Lopy" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4172981" alternate_id_2="4492670" date="05.02.2016" id="4290506" static_id="05021623417522342000" status="FT" time="19:00">
-<home goals="2" id="2341752" name="Epinal"></home>
-<away goals="2" id="2342000" name="Lucon"></away>
+</match><match alternate_id="4172988" alternate_id_2="4492666" date="05.02.2016" id="4290513" static_id="05021623416732341688" status="FT" time="19:00">
+<home goals="1" id="2341673" name="Beziers"></home>
+<away goals="0" id="2341688" name="ASM Belfort"></away>
 <events>
-<event id="23940204" minute="45" player="K. Achahbar" playerid="2624798" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23940205" minute="59" player="S. Amoussou" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23940206" minute="64" player="L. Ajorque" playerid="2596299" result="[1 - 2]" team="away" type="goal"></event>
-<event id="23940207" minute="90" player="Y. Chadili" playerid="2477094" result="[2 - 2]" team="home" type="goal"></event>
+<event id="23940164" minute="25" player="R. Atassi" playerid="2499966" result="" team="home" type="redcard"></event>
+<event id="23940165" minute="41" player="S. Ebuya" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23940166" minute="90" player="S. Cucu" playerid="2467360" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4172977" alternate_id_2="4492669" date="05.02.2016" id="4290502" static_id="05021623417332341804" status="FT" time="19:00">
+<home goals="1" id="2341733" name="Colmar"></home>
+<away goals="2" id="2341804" name="Consolat"></away>
+<events>
+<event id="23940194" minute="40" player="Y. M'Changama" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23940195" minute="50" player="N. Belvito" playerid="2419060" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23940196" minute="53" player="F. Borgniet" playerid="2548447" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4172983" alternate_id_2="4492671" date="05.02.2016" id="4290508" static_id="05021623417942341696" status="FT" time="19:00">
-<home goals="0" id="2341794" name="Frejus Saint Raphael"></home>
-<away goals="0" id="2341696" name="Avranches"></away>
+</match><match alternate_id="4172990" alternate_id_2="4492673" date="05.02.2016" id="4290515" static_id="05021623418782341745" status="FT" time="19:00">
+<home goals="1" id="2341878" name="Orleans"></home>
+<away goals="1" id="2341745" name="Dunkerque"></away>
 <events>
+<event id="23940234" minute="52" player="R. Bayard" playerid="2508157" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23940235" minute="64" player="R. Armand" playerid="2369520" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23940236" minute="68" player="C. Mandouki" playerid="2595422" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4172984" alternate_id_2="4492674" date="05.02.2016" id="4290509" static_id="05021623419312341714" status="FT" time="19:00">
-<home goals="0" id="2341931" name="Sedan"></home>
-<away goals="1" id="2341714" name="CA Bastia"></away>
-<events>
-<event id="23940244" minute="41" player="M. Doumbia" playerid="2376681" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="france" name="France: Cfa - Group A" cup="False" id="3049" sub_id=""><match alternate_id="4170346" alternate_id_2="4494539" date="20.02.2016" id="4287871" static_id="20021623416602341832" status="Postp." time="17:00">
 <home goals="?" id="2341660" name="Amiens AC"></home>
 <away goals="?" id="2341832" name="Lens II"></away>
@@ -943,9 +954,9 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4170564" alternate_id_2="4489135" date="30.01.2016" id="4288089" static_id="30011623417872341802" status="FT" time="15:00">
-<home goals="0" id="2341787" name="St. Louis Neuweg"></home>
-<away goals="0" id="2341802" name="Grenoble"></away>
+</match><match alternate_id="4170565" alternate_id_2="4489133" date="30.01.2016" id="4288090" static_id="30011623418172349745" status="FT" time="15:00">
+<home goals="0" id="2341817" name="Jura Sud"></home>
+<away goals="0" id="2349745" name="Le Puy"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
@@ -1058,20 +1069,20 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4170808" alternate_id_2="4489226" date="30.01.2016" id="4288333" static_id="30011623418502341699" status="FT" time="17:00">
-<home goals="1" id="2341850" name="Martigues"></home>
-<away goals="1" id="2341699" name="Bayonne"></away>
-<events>
-<event id="23905764" minute="30" player="Ba (o.g.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23905765" minute="90" player="Ouchmid" playerid="2579442" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match><match alternate_id="4170807" alternate_id_2="4489138" date="30.01.2016" id="4288332" static_id="30011623418542341963" status="FT" time="17:00">
 <home goals="0" id="2341854" name="Monaco II"></home>
 <away goals="1" id="2341963" name="Tarbes"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="4170805" alternate_id_2="4489139" date="30.01.2016" id="4288330" static_id="30011623418712341846" status="FT" time="17:00">
+<home goals="0" id="2341871" name="Nice II"></home>
+<away goals="1" id="2341846" name="Marignane"></away>
+<events>
+<event id="23904894" minute="37" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23904895" minute="45" player="Aiglons" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match></league><league country="france" name="France: Cfa - Group D" cup="False" id="3049" sub_id=""><match alternate_id="4171061" alternate_id_2="4496039" date="20.02.2016" id="4288586" static_id="20021623417022351384" status="FT" time="18:00">
 <home goals="0" id="2341702" name="Bergerac"></home>
 <away goals="0" id="2351384" name="Fleury-Merogis"></away>
@@ -1178,12 +1189,6 @@
 <event id="23931724" minute="12" player="Janin" playerid="2444428" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4171050" alternate_id_2="4489227" date="30.01.2016" id="4288575" static_id="30011623419372341999" status="FT" time="17:00">
-<home goals="0" id="2341937" name="Cholet"></home>
-<away goals="0" id="2341999" name="Fontenay"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4171044" alternate_id_2="4489141" date="30.01.2016" id="4288569" static_id="30011623417852341981" status="FT" time="17:00">
 <home goals="0" id="2341785" name="Nantes II"></home>
 <away goals="1" id="2341981" name="Concarneau"></away>
@@ -1192,15 +1197,24 @@
 <event id="23904915" minute="32" player="Gourmelon (pen.)" playerid="2523541" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4171043" alternate_id_2="4489142" date="30.01.2016" id="4288568" static_id="30011623497552341972" status="FT" time="17:00">
-<home goals="2" id="2349755" name="Saint-Malo"></home>
-<away goals="1" id="2341972" name="Trelissac"></away>
+</match><match alternate_id="4171048" alternate_id_2="4489143" date="30.01.2016" id="4288573" static_id="30011623420072341911" status="FT" time="17:00">
+<home goals="2" id="2342007" name="Viry-Chatillon"></home>
+<away goals="2" id="2341911" name="Romorantin"></away>
 <events>
-<event id="23904924" minute="7" player="Papin" playerid="2500578" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23904925" minute="71" player="Simon" playerid="2695900" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23904926" minute="90" player="Vermet" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23904934" minute="6" player="Souyeux (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23904935" minute="11" player="Brahim" playerid="2643834" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23904936" minute="14" player="Brahim" playerid="2643834" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23904937" minute="39" player="Kibundu" playerid="2391339" result="[2 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4171049" alternate_id_2="4489144" date="30.01.2016" id="4288574" static_id="30011623420082341887" status="FT" time="17:00">
+<home goals="1" id="2342008" name="Vitre"></home>
+<away goals="1" id="2341887" name="Plabennec"></away>
+<events>
+<event id="23904944" minute="69" player="Besnard" playerid="2369659" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23904945" minute="74" player="Diatta" playerid="2680286" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="france" name="France: Coupe De La Ligue" cup="False" id="3052" sub_id="30520"><match alternate_id="4236539" alternate_id_2="4492487" date="27.01.2016" id="4354020" static_id="27011623418942341967" status="FT" time="20:05">
 <home goals="2" id="2341894" name="Paris SG"></home>
 <away goals="0" id="2341967" name="Toulouse"></away>

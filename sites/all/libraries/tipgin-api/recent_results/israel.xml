@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:41:03" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al" cup="False" id="3094" sub_id="30940"><match alternate_id="4155204" alternate_id_2="4495912" date="22.02.2016" id="4272735" static_id="22021623434832343470" status="18:55" time="18:55">
-<home goals="?" id="2343483" name="H. Beer Sheva"></home>
-<away goals="?" id="2343470" name="Yehuda"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:06" sport="soccer" country="israel"><league country="israel" name="Israel: Ligat Ha'Al" cup="False" id="3094" sub_id="30940"><match alternate_id="4155204" alternate_id_2="4495912" date="22.02.2016" id="4272735" static_id="22021623434832343470" status="FT" time="18:55">
+<home goals="2" id="2343483" name="H. Beer Sheva"></home>
+<away goals="0" id="2343470" name="Yehuda"></away>
+<events>
+<event id="23972624" minute="55" player="E. Barda" playerid="2345576" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23972625" minute="90" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4155200" alternate_id_2="4495850" date="21.02.2016" id="4272731" static_id="21021623434782343464" status="FT" time="18:15">
 <home goals="1" id="2343478" name="H. Akko"></home>
 <away goals="3" id="2343464" name="Beitar Jerusalem"></away>
@@ -150,15 +153,16 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4155191" alternate_id_2="4492746" date="06.02.2016" id="4272722" static_id="06021623434942343470" status="FT" time="15:00">
-<home goals="1" id="2343494" name="Hapoel Kfar-Saba"></home>
-<away goals="2" id="2343470" name="Yehuda"></away>
+</match><match alternate_id="4155186" alternate_id_2="4492747" date="06.02.2016" id="4272717" static_id="06021623435252343537" status="FT" time="15:00">
+<home goals="4" id="2343525" name="Maccabi Haifa"></home>
+<away goals="0" id="2343537" name="Maccabi Petah Tikva"></away>
 <events>
-<event id="23940964" minute="41" player="A. Agajev" playerid="2466784" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23940965" minute="45" player="D. Mori" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23940966" minute="59" player="D. Biton" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="2" id="23940974" minute="45" player="Y. Benayoun" playerid="2334554" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23940975" minute="47" player="E. Atar" playerid="2387802" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23940976" minute="65" player="E. Atar" playerid="2387802" result="[3 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23940977" minute="79" player="G. Vermouth" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-2]"></ht>
+<ht score="[1-0]"></ht>
 </match></league><league country="israel" name="Israel: Ligat Ha'Al - Championship Group" cup="False" id="3094" sub_id="30945"><match alternate_id="4115701" alternate_id_2="4325299" date="01.06.2015" id="4233249" static_id="01061523435392343537" status="FT" time="17:55">
 <home goals="0" id="2343539" name="Maccabi Tel Aviv"></home>
 <away goals="2" id="2343537" name="Maccabi Petah Tikva"></away>
@@ -508,21 +512,35 @@
 <event id="22192347" minute="85" player="M. Oremus" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="israel" name="Israel: Leumit League" cup="False" id="3093" sub_id="30930"><match alternate_id="4155425" alternate_id_2="4495682" date="22.02.2016" id="4272956" static_id="22021623435412343501" status="17:00" time="17:00">
-<home goals="?" id="2343541" name="Maccabi Yavne"></home>
-<away goals="?" id="2343501" name="Hapoel Petah Tikva"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155424" alternate_id_2="4495681" date="22.02.2016" id="4272955" static_id="22021623434812343492" status="16:00" time="16:00">
-<home goals="?" id="2343481" name="Ashkelon"></home>
-<away goals="?" id="2343492" name="Hapoel Katamon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155422" alternate_id_2="4495699" date="22.02.2016" id="4272953" static_id="22021623435032355635" status="16:00" time="16:00">
-<home goals="?" id="2343503" name="Hap. Ramat Gan"></home>
-<away goals="?" id="2355635" name="Kiryat Gat"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="israel" name="Israel: Leumit League" cup="False" id="3093" sub_id="30930"><match alternate_id="4155425" alternate_id_2="4495682" date="22.02.2016" id="4272956" static_id="22021623435412343501" status="FT" time="17:00">
+<home goals="2" id="2343541" name="Maccabi Yavne"></home>
+<away goals="2" id="2343501" name="Hapoel Petah Tikva"></away>
+<events>
+<event id="23970324" minute="7" player="N. Muniss" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23970325" minute="10" player="Y. Ofir" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23970326" minute="13" player="A. Ben Shabat" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="23970327" minute="32" player="B. Malka" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-2]"></ht>
+</match><match alternate_id="4155424" alternate_id_2="4495681" date="22.02.2016" id="4272955" static_id="22021623434812343492" status="FT" time="16:00">
+<home goals="2" id="2343481" name="Ashkelon"></home>
+<away goals="2" id="2343492" name="Hapoel Katamon"></away>
+<events>
+<event id="23970314" minute="15" player="Y. Eliyahu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23970315" minute="34" player="Y. Lerman" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23970316" minute="60" player="I. Shriki" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="23970317" minute="76" player="Y. Abuhetsera" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="23970318" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4155422" alternate_id_2="4495699" date="22.02.2016" id="4272953" static_id="22021623435032355635" status="FT" time="16:00">
+<home goals="2" id="2343503" name="Hap. Ramat Gan"></home>
+<away goals="0" id="2355635" name="Kiryat Gat"></away>
+<events>
+<event id="23970494" minute="83" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23970495" minute="87" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4155421" alternate_id_2="4495675" date="19.02.2016" id="4272952" static_id="19021623528552343486" status="FT" time="13:00">
 <home goals="3" id="2352855" name="Beitar Tel Aviv"></home>
 <away goals="2" id="2343486" name="Hapoel Bnei Lod"></away>
@@ -1229,14 +1247,15 @@
 <event id="23914544" minute="36" player="B. Sahar" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4233196" alternate_id_2="4490106" date="12.01.2016" id="4350680" static_id="12011623435372343509" status="FT" time="17:00">
-<home goals="2" id="2343537" name="Maccabi Petah Tikva"></home>
-<away goals="0" id="2343509" name="Shmona"></away>
+</match><match alternate_id="4233202" alternate_id_2="4490112" date="12.01.2016" id="4350686" static_id="12011623434702343478" status="FT" time="17:00">
+<home goals="2" id="2343470" name="Yehuda"></home>
+<away goals="1" id="2343478" name="H. Akko"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23914564" minute="50" player="D. Hugy" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23914565" minute="61" player="G. Melamed" playerid="2542763" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23914624" minute="28" player="Z. Tzemah" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23914625" minute="65" player="P. Galvan" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23914626" minute="88" player="P. Galvan" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[0-1]"></ht>
 </match></league><league country="israel" name="Israel: Toto Cup - Play Offs" cup="True" id="3095" sub_id="30951"><match alternate_id="4234846" alternate_id_2="4491073" date="02.02.2016" id="4352327" static_id="02021623435092343537" status="FT" time="17:30">
 <home goals="1" id="2343509" name="Shmona"></home>
 <away goals="3" id="2343537" name="Maccabi Petah Tikva"></away>

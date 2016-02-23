@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:51:33" sport="soccer" country="tunisia"><league country="tunisia" name="Tunisia: Ligue Professionnelle 1" cup="False" id="3253" sub_id="32530"><match alternate_id="4234278" alternate_id_2="4491051" date="21.02.2016" id="4351760" static_id="21021623487602348753" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:37" sport="soccer" country="tunisia"><league country="tunisia" name="Tunisia: Ligue Professionnelle 1" cup="False" id="3253" sub_id="32530"><match alternate_id="4234278" alternate_id_2="4491051" date="21.02.2016" id="4351760" static_id="21021623487602348753" status="FT" time="14:00">
 <home goals="1" id="2348760" name="Sfaxien"></home>
 <away goals="0" id="2348753" name="Bizertin"></away>
 <events>
@@ -128,20 +128,20 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4233456" alternate_id_2="4490346" date="06.01.2016" id="4350938" static_id="06011623567342348790" status="FT" time="13:00" v="0">
+</match><match alternate_id="4233454" alternate_id_2="4490350" date="06.01.2016" id="4350936" static_id="06011623487742353506" status="FT" time="13:00">
+<home goals="1" id="2348774" name="JS Kairouan"></home>
+<away goals="0" id="2353506" name="Metlaoui"></away>
+<events>
+<event id="23917004" minute="12" player="Aouichi" playerid="2554998" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4233456" alternate_id_2="4490346" date="06.01.2016" id="4350938" static_id="06011623567342348790" status="FT" time="13:00">
 <home goals="1" id="2356734" name="Sidi Bouzid"></home>
 <away goals="0" id="2348790" name="Ben Guerdane"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23916964" minute="25" player="Kamerji" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23916964" minute="25" player="Kamerji" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4233457" alternate_id_2="4490349" date="06.01.2016" id="4350939" static_id="06011623487872348768" status="FT" time="13:00">
-<home goals="0" id="2348787" name="Stade Tunisien"></home>
-<away goals="1" id="2348768" name="Hammam-Lif"></away>
-<events>
-<event id="23916994" minute="70" player="Zekri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4233458" alternate_id_2="4490338" date="06.01.2016" id="4350940" static_id="06011623487932348785" status="FT" time="13:00">
 <home goals="3" id="2348793" name="Zarzis"></home>
 <away goals="3" id="2348785" name="Stade Gabesien"></away>
@@ -229,13 +229,13 @@
 <event id="23978717" minute="82" player="Mejri" playerid="" result="[1 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4490543" date="30.01.2016" id="4490543" static_id="" status="FT" time="12:30" v="0">
+</match><match alternate_id="" alternate_id_2="4490543" date="30.01.2016" id="4490543" static_id="" status="FT" time="12:30">
 <home goals="3" id="2348753" name="Bizertin"></home>
 <away goals="0" id="" name="US Seliana"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23918934" minute="53" player="Ouanness (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23918935" minute="75" player="Sow" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23918936" minute="77" player="Trabelsi" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23918934" minute="53" player="Ouanness (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23918935" minute="75" player="Sow" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23918936" minute="77" player="Trabelsi" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4490544" date="30.01.2016" id="4490544" static_id="" status="FT" time="12:30">
@@ -247,6 +247,15 @@
 <event id="23918946" minute="82" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4490545" date="30.01.2016" id="4490545" static_id="" status="FT" time="12:30">
+<home goals="2" id="" name="Chebba"></home>
+<away goals="0" id="" name="Jendouba Sport"></away>
+<events>
+<event id="23918954" minute="22" player="Mhadhebi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23918955" minute="31" player="Mhadhebi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23918956" minute="74" player="" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4490546" date="30.01.2016" id="4490546" static_id="30011623487542348790" status="FT" time="12:30">
 <home goals="2" id="2348754" name="Club Africain"></home>
 <away goals="1" id="2348790" name="Ben Guerdane"></away>
@@ -254,13 +263,6 @@
 <event id="23918964" minute="45" player="Iffa" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23918965" minute="79" player="Khlifa" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 <event id="23918966" minute="90" player="Jacob (pen.)" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4490547" date="30.01.2016" id="4490547" static_id="" status="FT" time="12:30">
-<home goals="1" id="" name="ES Fahs"></home>
-<away goals="0" id="2348762" name="Gafsa"></away>
-<events>
-<event id="23918974" minute="40" player="Mannai" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4490548" date="30.01.2016" id="4490548" static_id="" status="FT" time="12:30">
@@ -276,11 +278,11 @@
 <event id="23918990" minute="84" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
 <ht score="[3-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4490549" date="30.01.2016" id="4490549" static_id="" status="FT" time="12:30" v="0">
+</match><match alternate_id="" alternate_id_2="4490549" date="30.01.2016" id="4490549" static_id="" status="FT" time="12:30">
 <home goals="1" id="" name="Gafsa Ksar"></home>
 <away goals="0" id="2348768" name="Hammam-Lif"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23918994" minute="48" player="Troudi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23918994" minute="48" player="Troudi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4490550" date="30.01.2016" id="4490550" static_id="" status="FT" time="12:30">
@@ -291,6 +293,16 @@
 <event id="23919005" minute="60" player="Baccar" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4490551" date="30.01.2016" id="4490551" static_id="" status="FT" time="12:30">
+<home goals="0" id="" name="Ksour Sef"></home>
+<away goals="4" id="2348766" name="Esperance Tunis"></away>
+<events>
+<event id="23919014" minute="29" player="Jelassi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23919015" minute="50" player="Jouini" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23919016" minute="64" player="Yaakoubi" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23919017" minute="85" player="Mhirssi" playerid="" result="[0 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="" alternate_id_2="4490552" date="30.01.2016" id="4490552" static_id="" status="FT" time="12:30">
 <home goals="2" id="" name="Msaken"></home>
 <away goals="0" id="" name="Oued Ellil"></away>
@@ -299,16 +311,12 @@
 <event id="23919025" minute="90" player="Saidi" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4490554" date="30.01.2016" id="4490554" static_id="" status="Pen." time="12:30">
-<home goals="2" id="" name="Rades"></home>
-<away goals="3" id="2348774" name="JS Kairouan"></away>
+</match><match alternate_id="" alternate_id_2="4490553" date="30.01.2016" id="4490553" static_id="30011623487782348787" status="Pen." time="12:30">
+<home goals="1" id="2348778" name="Olympique Beja"></home>
+<away goals="0" id="2348787" name="Stade Tunisien"></away>
 <events>
-<event id="23919044" minute="24" player="Nabli" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23919045" minute="80" player="Azzouz" playerid="2435857" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23919046" minute="94" player="Kaab" playerid="2425906" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23919047" minute="108" player="Raggoubi" playerid="" result="[2 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4490555" date="30.01.2016" id="4490555" static_id="30011623487602348776" status="FT" time="12:30">
 <home goals="0" id="2348760" name="Sfaxien"></home>
 <away goals="1" id="2348776" name="AS Marsa"></away>
@@ -316,13 +324,6 @@
 <event id="23919054" minute="82" player="Jaziri" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4490556" date="30.01.2016" id="4490556" static_id="30011623487852348793" status="FT" time="12:30">
-<home goals="1" id="2348785" name="Stade Gabesien"></home>
-<away goals="0" id="2348793" name="Zarzis"></away>
-<events>
-<event id="23919064" minute="37" player="Mejri" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="" alternate_id_2="4490542" date="30.01.2016" id="4490542" static_id="" status="FT" time="12:30">
 <home goals="3" id="" name="Stir Zarzouna"></home>
 <away goals="1" id="" name="NA Bouhjar"></away>

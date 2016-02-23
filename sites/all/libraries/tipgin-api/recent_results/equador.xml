@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:40:51" sport="soccer" country="equador"><league country="equador" name="Ecuador: Serie A - First Stage" cup="False" id="3024" sub_id="30244"><match alternate_id="4240987" alternate_id_2="4495024" date="21.02.2016" id="4358460" static_id="21021623406852356125" status="FT" time="22:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:40:53" sport="soccer" country="equador"><league country="equador" name="Ecuador: Serie A - First Stage" cup="False" id="3024" sub_id="30244"><match alternate_id="4240989" alternate_id_2="4495001" date="23.02.2016" id="4358462" static_id="23021623406902340693" status="37" time="01:00">
+<home goals="0" id="2340690" name="Dep. Cuenca"></home>
+<away goals="0" id="2340693" name="Emelec"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23963514" minute="34" player="L. Saritama" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23963515" minute="38" player="F. Gaibor" playerid="2445234" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4240987" alternate_id_2="4495024" date="21.02.2016" id="4358460" static_id="21021623406852356125" status="FT" time="22:00">
 <home goals="2" id="2340685" name="Barcelona SC"></home>
 <away goals="1" id="2356125" name="Fuerza A."></away>
 <events>
@@ -205,19 +213,6 @@
 <event id="23963311" minute="84" player="P. Saucedo" playerid="2410343" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4240969" alternate_id_2="4494981" date="07.02.2016" id="4358442" static_id="07021623406922340685" status="FT" time="16:15">
-<home goals="2" id="2340692" name="EL Nacional"></home>
-<away goals="1" id="2340685" name="Barcelona SC"></away>
-<events>
-<event id="23963314" minute="11" player="O. Minda" playerid="2356369" result="" team="away" type="yellowcard"></event>
-<event id="23963315" minute="12" player="C. Penilla" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23963316" minute="26" player="M. S. Estrada Martinez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23963317" minute="44" player="P. Larrea" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23963318" minute="57" player="M. Chala" playerid="2627882" result="" team="home" type="yellowcard"></event>
-<event id="23963319" minute="59" player="C. Lara" playerid="2332113" result="" team="home" type="yellowcard"></event>
-<event id="23963320" minute="81" player="C. Lara (pen.)" playerid="2332113" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match></league><league country="equador" name="Ecuador: Serie A - Third Stage" cup="False" id="3024" sub_id=""><match alternate_id="" alternate_id_2="4488084" date="20.12.2015" id="" static_id="20121523406992340693" status="FT" time="16:30">
 <home goals="0" id="2340699" name="LDU Quito"></home>
 <away goals="0" id="2340693" name="Emelec"></away>
@@ -517,13 +512,19 @@
 <event id="23784248" minute="80" player="J. Narvaez" playerid="2416593" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4159944" alternate_id_2="4477085" date="29.11.2015" id="4277470" static_id="29111523407002340691" status="FT" time="16:30">
-<home goals="1" id="2340700" name="LDU Loja"></home>
-<away goals="0" id="2340691" name="Dep. Quito"></away>
+</match><match alternate_id="4159940" alternate_id_2="4477080" date="29.11.2015" id="4277466" static_id="29111523406922340690" status="FT" time="16:30">
+<home goals="2" id="2340692" name="EL Nacional"></home>
+<away goals="0" id="2340690" name="Dep. Cuenca"></away>
 <events>
-<event id="23784354" minute="34" player="P. Larrea" playerid="2354810" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23784355" minute="45" player="F. Macias" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23784356" minute="82" player="P. Larrea" playerid="2354810" result="" team="home" type="yellowcard"></event>
+<event id="23784304" minute="18" player="A. Ordonez" playerid="2577974" result="" team="home" type="yellowcard"></event>
+<event id="23784305" minute="20" player="M. Mosquera" playerid="2354602" result="" team="home" type="yellowcard"></event>
+<event id="23784306" minute="33" player="L. Quinteros Gasset" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23784307" minute="51" player="D. Samaniego" playerid="2446844" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23784308" minute="71" player="A. Villalva" playerid="2610103" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23784309" minute="72" player="E. Solari" playerid="2347058" result="" team="away" type="yellowcard"></event>
+<event id="23784310" minute="84" player="E. Mendez" playerid="2332114" result="" team="home" type="redcard"></event>
+<event id="23784311" minute="88" player="A. Bone" playerid="2354643" result="" team="home" type="yellowcard"></event>
+<event id="23784312" minute="90" player="E. Solari" playerid="2347058" result="" team="away" type="yellowred"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-0]"></ht>
 </match></league></recent_results>

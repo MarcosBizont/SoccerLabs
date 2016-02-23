@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:51:32" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="4139762" alternate_id_2="4484058" date="21.02.2016" id="4257301" static_id="21021623485722348607" status="FT" time="15:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:36" sport="soccer" country="switzerland"><league country="switzerland" name="Switzerland: Super League" cup="False" id="3241" sub_id="32410"><match alternate_id="4139762" alternate_id_2="4484058" date="21.02.2016" id="4257301" static_id="21021623485722348607" status="FT" time="15:00">
 <home goals="0" id="2348572" name="Luzern"></home>
 <away goals="1" id="2348607" name="St. Gallen"></away>
 <events>
@@ -260,11 +260,16 @@
 <event id="23789666" minute="90" player="E. Zverotic" playerid="2369169" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="switzerland" name="Switzerland: Challenge League" cup="False" id="3245" sub_id="32450"><match alternate_id="4139943" alternate_id_2="4484046" date="22.02.2016" id="4257482" static_id="22021623485832348435" status="18:45" time="18:45">
-<home goals="?" id="2348583" name="Xamax"></home>
-<away goals="?" id="2348435" name="Aarau"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="switzerland" name="Switzerland: Challenge League" cup="False" id="3245" sub_id="32450"><match alternate_id="4139943" alternate_id_2="4484046" date="22.02.2016" id="4257482" static_id="22021623485832348435" status="FT" time="18:45">
+<home goals="0" id="2348583" name="Xamax"></home>
+<away goals="0" id="2348435" name="Aarau"></away>
+<events>
+<event id="23853964" minute="17" player="S. Afum" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23853965" minute="60" player="M. Peralta" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23853966" minute="90" player="M. Perrier" playerid="2368996" result="" team="away" type="yellowcard"></event>
+<event id="23853967" minute="90" player="F. Mveng" playerid="2467138" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4139940" alternate_id_2="4484001" date="21.02.2016" id="4257479" static_id="21021623484552348624" status="FT" time="14:00">
 <home goals="1" id="2348455" name="Chiasso"></home>
 <away goals="0" id="2348624" name="Wohlen"></away>

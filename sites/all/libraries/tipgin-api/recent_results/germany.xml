@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="22.02.2016 13:40:08" sport="soccer" country="germany"><league country="germany" name="Germany: Bundesliga" cup="False" id="3062" sub_id="30620"><match alternate_id="4142472" alternate_id_2="4497805" date="21.02.2016" id="4260010" static_id="21021623422562342102" status="FT" time="16:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:40:09" sport="soccer" country="germany"><league country="germany" name="Germany: Bundesliga" cup="False" id="3062" sub_id="30620"><match alternate_id="4142472" alternate_id_2="4497805" date="21.02.2016" id="4260010" static_id="21021623422562342102" status="FT" time="16:30">
 <home goals="0" id="2342256" name="Hannover"></home>
 <away goals="1" id="2342102" name="Augsburg"></away>
 <events>
@@ -290,11 +290,21 @@
 <event id="22389821" minute="83" player="G. Kacar" playerid="2380459" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="germany" name="Germany: 2. Bundesliga" cup="False" id="3058" sub_id="30580"><match alternate_id="4142777" alternate_id_2="4489577" date="22.02.2016" id="4260315" static_id="22021623422102342205" status="19:15" time="19:15">
-<home goals="?" id="2342210" name="Dusseldorf"></home>
-<away goals="?" id="2342205" name="Nurnberg"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="germany" name="Germany: 2. Bundesliga" cup="False" id="3058" sub_id="30580"><match alternate_id="4142777" alternate_id_2="4489577" date="22.02.2016" id="4260315" static_id="22021623422102342205" status="FT" time="19:15">
+<home goals="1" id="2342210" name="Dusseldorf"></home>
+<away goals="1" id="2342205" name="Nurnberg"></away>
+<events>
+<event id="23909274" minute="33" player="K. Demirbay (pen.)" playerid="2584554" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23909275" minute="39" player="J. Schauerte" playerid="2386637" result="" team="home" type="yellowcard"></event>
+<event id="23909276" minute="45" player="L. Sepsi" playerid="2343976" result="" team="away" type="yellowcard"></event>
+<event id="23909277" minute="51" player="S. Kerk" playerid="2586689" result="" team="away" type="yellowcard"></event>
+<event id="23909278" minute="74" player="M. Brecko" playerid="2348333" result="" team="away" type="yellowcard"></event>
+<event id="23909279" minute="81" player="L. Schmitz" playerid="2386924" result="" team="home" type="yellowcard"></event>
+<event id="23909280" minute="82" player="N. Fullkrug" playerid="2498202" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23909281" minute="90" player="P. Erras" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23909282" minute="90" player="A. Bellinghausen" playerid="2348508" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4142782" alternate_id_2="4489796" date="21.02.2016" id="4260320" static_id="21021623420952342372" status="FT" time="12:30">
 <home goals="1" id="2342095" name="Arminia Bielefeld"></home>
 <away goals="1" id="2342372" name="Paderborn"></away>
@@ -1253,12 +1263,16 @@
 <event id="23887524" minute="90" player="H. Al Ghaddioui" playerid="2531286" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4153684" alternate_id_2="4487400" date="06.02.2016" id="4271215" static_id="06021623539682342392" status="FT" time="13:00">
-<home goals="0" id="2353968" name="Rodinghausen"></home>
-<away goals="0" id="2342392" name="RW Essen"></away>
+</match><match alternate_id="4153679" alternate_id_2="4487401" date="06.02.2016" id="4271210" static_id="06021623425012342141" status="FT" time="13:00">
+<home goals="1" id="2342501" name="Wattenscheid"></home>
+<away goals="2" id="2342141" name="B. Monchengladbach II"></away>
 <events>
+<event id="23887514" minute="10" player="G. Kaya" playerid="2419945" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23887515" minute="45" player="M. Rodriguez" playerid="2504636" result="" team="away" type="redcard"></event>
+<event id="23887516" minute="45" player="T. Knipping" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23887517" minute="84" player="T. Knipping" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-1]"></ht>
 </match></league><league country="germany" name="Germany: Regionalliga Sudwest" cup="False" id="3060" sub_id="30606"><match alternate_id="4146447" alternate_id_2="4483046" date="07.12.2015" id="4263982" static_id="07121523422932342377" status="FT" time="18:00">
 <home goals="2" id="2342293" name="Kaiserslautern II"></home>
 <away goals="0" id="2342377" name="Pirmasens"></away>
@@ -1846,12 +1860,12 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4174634" alternate_id_2="4481637" date="06.12.2015" id="4292159" static_id="06121523528702342260" status="FT" time="12:00">
-<home goals="0" id="2352870" name="Lichtenberg"></home>
-<away goals="1" id="2342260" name="Hansa Rostock II"></away>
+</match><match alternate_id="4174639" alternate_id_2="4481526" date="06.12.2015" id="4292164" static_id="06121523423342356589" status="FT" time="12:00">
+<home goals="3" id="2342334" name="Malchower"></home>
+<away goals="1" id="2356589" name="1.FC Frankfurt"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="4174641" alternate_id_2="4481729" date="06.12.2015" id="4292166" static_id="06121523539662342233" status="FT" time="12:00">
 <home goals="0" id="2353966" name="Strausberg"></home>
 <away goals="1" id="2342233" name="Schoneiche"></away>
@@ -1971,9 +1985,9 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4187122" alternate_id_2="4480233" date="05.12.2015" id="4304628" static_id="05121523566742342336" status="FT" time="12:00">
-<home goals="0" id="2356674" name="Barleben"></home>
-<away goals="1" id="2342336" name="Markranstadt"></away>
+</match><match alternate_id="4187124" alternate_id_2="4480234" date="05.12.2015" id="4304630" static_id="05121523555312342396" status="FT" time="12:00">
+<home goals="0" id="2355531" name="Bernburg"></home>
+<away goals="1" id="2342396" name="Erfurt II"></away>
 <events>
 </events>
 <ht score="[0-1]"></ht>
@@ -2213,7 +2227,12 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="germany" name="Germany: Oberliga Bremen" cup="False" id="3061" sub_id="30612"><match alternate_id="4199610" alternate_id_2="4489228" date="21.02.2016" id="4317115" static_id="21021623555222342249" status="FT" time="14:00">
+</match></league><league country="germany" name="Germany: Oberliga Bremen" cup="False" id="3061" sub_id="30612"><match alternate_id="4199603" alternate_id_2="4486214" date="23.02.2016" id="4317108" static_id="23021623555212356770" status="18:00" time="18:00">
+<home goals="?" id="2355521" name="Leher"></home>
+<away goals="?" id="2356770" name="Geestemunde"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4199610" alternate_id_2="4489228" date="21.02.2016" id="4317115" static_id="21021623555222342249" status="FT" time="14:00">
 <home goals="4" id="2355522" name="Grolland"></home>
 <away goals="3" id="2342249" name="Habenhauser"></away>
 <events>
@@ -2325,12 +2344,6 @@
 <events>
 </events>
 <ht score="[4-0]"></ht>
-</match><match alternate_id="4199568" alternate_id_2="4478631" date="31.01.2016" id="4317073" static_id="31011623567692342243" status="FT" time="10:00">
-<home goals="2" id="2356769" name="BTS Neustadt"></home>
-<away goals="2" id="2342243" name="Grohn"></away>
-<events>
-</events>
-<ht score="[2-2]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Niedersachsen" cup="False" id="3061" sub_id="30615"><match alternate_id="4174445" alternate_id_2="4486300" date="21.02.2016" id="4291970" static_id="21021623528132342097" status="Postp." time="14:00">
 <home goals="?" id="2352813" name="Egestorf-Langreder"></home>
 <away goals="?" id="2342097" name="Arminia Hannover"></away>
@@ -2660,18 +2673,18 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4177229" alternate_id_2="4478002" date="21.11.2015" id="4294753" static_id="21111523539632352699" status="FT" time="13:30">
-<home goals="4" id="2353963" name="SV Wiesbaden"></home>
-<away goals="2" id="2352699" name="Viktoria Griesheim"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="4177228" alternate_id_2="4478067" date="21.11.2015" id="4294752" static_id="21111523424722342149" status="FT" time="13:30">
 <home goals="1" id="2342472" name="Vellmar"></home>
 <away goals="4" id="2342149" name="Flieden"></away>
 <events>
 </events>
 <ht score="[1-3]"></ht>
+</match><match alternate_id="4172725" alternate_id_2="4478095" date="21.11.2015" id="4290250" static_id="21111523565742355476" status="FT" time="13:30">
+<home goals="2" id="2356574" name="Watzenborn"></home>
+<away goals="2" id="2355476" name="Oberrad"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match></league><league country="germany" name="Germany: Oberliga Rheinland-Pfalz/Saar" cup="False" id="3061" sub_id="306119"><match alternate_id="4173617" alternate_id_2="4482545" date="06.12.2015" id="4291142" static_id="06121523565802342223" status="FT" time="13:30">
 <home goals="0" id="2356580" name="Karbach"></home>
 <away goals="0" id="2342223" name="Salmrohr"></away>
@@ -3121,12 +3134,6 @@
 <events>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4185716" alternate_id_2="4481672" date="05.12.2015" id="4303222" static_id="05121523528372354052" status="FT" time="13:00">
-<home goals="2" id="2352837" name="Bissingen"></home>
-<away goals="0" id="2354052" name="Ravensburg"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4185712" alternate_id_2="4481644" date="05.12.2015" id="4303218" static_id="05121523423562342491" status="FT" time="13:00">
 <home goals="5" id="2342356" name="FC Nottingen"></home>
 <away goals="0" id="2342491" name="FC 08 Villingen"></away>
@@ -3139,6 +3146,12 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4185717" alternate_id_2="4481645" date="05.12.2015" id="4303223" static_id="05121523423762342214" status="FT" time="13:00">
+<home goals="0" id="2342376" name="Pfullendorf"></home>
+<away goals="3" id="2342214" name="Freiberg"></away>
+<events>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4185714" alternate_id_2="4481547" date="05.12.2015" id="4303220" static_id="05121523423882356660" status="FT" time="13:00">
 <home goals="1" id="2342388" name="Reutlingen"></home>
 <away goals="3" id="2356660" name="CfR Pforzheim"></away>
