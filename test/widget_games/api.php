@@ -3,26 +3,47 @@
 header('content-type: application/json; charset=utf-8');
 header("access-control-allow-origin: *");
 
-$post_data =
+do {
+
+	$diaFinal++;
+	$diasInicio = " -3 days";
+	$diasFin = "+ ". $diaFinal ." days";
+
+	$fechaInicio = date("Y-m-d", strtotime($diasInicio));
+	$fechaFin = date("Y-m-d", strtotime($diasFin));
+
+	$post_data =
 	array(
-		'in_progress' => '1'
+		'from_match_date' => $fechaInicio,
+		'to_match_date' => $fechaFin,
+		'bring_big_leagues' => '1'
 	);
 
-$post_data = http_build_query($post_data, '', '&');
+	$post_data = http_build_query($post_data, '', '&');
 
-$process = curl_init('https://soccer-labs.com/api/slb/get_games?api-key=testkey');
-curl_setopt($process, CURLOPT_RETURNTRANSFER, TRUE);
-curl_setopt($process, CURLOPT_POST, TRUE);
-curl_setopt($process, CURLOPT_POSTFIELDS, $post_data);
-curl_setopt($process, CURLOPT_VERBOSE, TRUE);
-curl_setopt($process, CURLOPT_FAILONERROR, TRUE);
+	$process = curl_init('https://soccer-labs.com/api/slb/get_games?api-key=testkey');
+	curl_setopt($process, CURLOPT_RETURNTRANSFER, TRUE);
+	curl_setopt($process, CURLOPT_POST, TRUE);
+	curl_setopt($process, CURLOPT_POSTFIELDS, $post_data);
+	curl_setopt($process, CURLOPT_VERBOSE, TRUE);
+	curl_setopt($process, CURLOPT_FAILONERROR, TRUE);
 
-$return = curl_exec($process);
-curl_close($process);
+	$return = curl_exec($process);
+	curl_close($process);
 
-//codificamos en json:
-$json = json_encode($return);
+	if($return != null)
+	{
+		$esData = true;
+	}else{
+		$esData = false;
+	}
 
-echo $json;
+	$json = json_encode($return);
+	echo $json;
+
+	$diaFinal++;
+
+} while ($esData == false);
+
 
 ?>
