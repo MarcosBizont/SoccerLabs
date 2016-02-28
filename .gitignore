@@ -4,3 +4,11 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+sites/all/libraries/tipgin-api/fixtures/*
+sites/all/libraries/tipgin-api/livescore/*
+sites/all/libraries/tipgin-api/odds/*
+sites/all/libraries/tipgin-api/recent_results/*
+sites/all/libraries/tipgin-api/results/*
+sites/all/libraries/tipgin-api/scorers/*
+sites/all/libraries/tipgin-api/standings/*
