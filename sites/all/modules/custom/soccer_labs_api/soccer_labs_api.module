@@ -83,6 +83,7 @@ function soccer_labs_api_get_teams()
 }
 
 function soccer_labs_api_get_games() {
+	
 	module_load_include('inc', 'commentaries', 'commentaries_strategies');
 	
 	$limit = (isset($_POST['limit'])) ? $_POST['limit'] : 100;
@@ -90,7 +91,8 @@ function soccer_labs_api_get_games() {
 	$query->entityCondition('entity_type', 'node')
 		  ->entityCondition('bundle', 'match')
 		  ->addMetaData('account', user_load(1))
-		  ->range(0, $limit);
+		  ->range(0, $limit)
+		  ->fieldOrderBy('field_match_date','value','DESC');
 		  
 	
 	if(isset($_POST['competition']))
@@ -110,7 +112,14 @@ function soccer_labs_api_get_games() {
 		
 	if(isset($_POST['bring_big_leagues']))
 		$query->fieldCondition('field_competition', 'target_id', variable_get('inplay_competitions_default', ''), 'IN');
-		
+	
+	if(isset($_POST['bring_big_leagues_mexico']))
+	{
+		$big_leagues = variable_get('inplay_competitions_default', '');
+		$big_leagues[] = 2609;
+		$big_leagues[] = 2169;
+		$query->fieldCondition('field_competition', 'target_id', $big_leagues, 'IN');
+	}		
 	if(isset($_POST['in_progress']))
 	{
 		$query->fieldCondition('field_available_live_score', 'value', '1', '=');
@@ -143,8 +152,12 @@ function soccer_labs_api_get_games() {
 			$node = node_load($id);		
 			$obj = array();
 			$obj['nid'] = $node->nid;
+			
 			$obj['match_date'] = $node->field_match_date[LANGUAGE_NONE][0];
-			$obj['match_date']['formatted_value'] = date('j M', strtotime($obj['match_date']['value']) );
+			$date = new DateTime($obj['match_date']['value'], new DateTimeZone($obj['match_date']['timezone_db']));
+			$date->setTimeZone(new DateTimeZone('America/Mexico_City'));
+			$obj['match_date']['formatted_value'] = $date->format('j M');
+			$obj['match_date']['time_formatted_value'] = $date->format('H:i');
 			$obj['match_status'] = $node->field_match_status[LANGUAGE_NONE][0]['value'];
 			
 			if(isset($node->field_competition[LANGUAGE_NONE][0]['target_id']))

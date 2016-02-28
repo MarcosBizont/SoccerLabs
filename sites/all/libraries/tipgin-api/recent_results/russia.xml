@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:41:27" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="4140701" alternate_id_2="4482298" date="04.12.2015" id="4258239" static_id="04121523466362346619" status="FT" time="16:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="28.02.2016 13:41:51" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="4140701" alternate_id_2="4482298" date="04.12.2015" id="4258239" static_id="04121523466362346619" status="FT" time="16:00">
 <home goals="1" id="2346636" name="Dynamo Moscow"></home>
 <away goals="2" id="2346619" name="Anzhi"></away>
 <events>
@@ -758,11 +758,6 @@
 <event id="22636377" minute="79" player="Vladimir Mihalev" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4466810" date="22.10.2015" id="" static_id="" status="Postp." time="09:00">
-<home goals="?" id="" name="Omsk"></home>
-<away goals="?" id="" name="Chita"></away>
-<events></events>
-<ht score=""></ht>
 </match><match alternate_id="4175396" alternate_id_2="4466790" date="22.10.2015" id="4292921" static_id="22101523508392346632" status="FT" time="09:00">
 <home goals="2" id="2350839" name="Yakutiya"></home>
 <away goals="2" id="2346632" name="Barnaul"></away>
@@ -924,6 +919,16 @@
 <event id="23602575" minute="84" player="Razborov" playerid="2635795" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4175379" alternate_id_2="4459058" date="29.09.2015" id="4292904" static_id="29091523467112355405" status="FT" time="09:00">
+<home goals="2" id="2346711" name="FC Novokuznetsk"></home>
+<away goals="1" id="2355405" name="Tomsk 2"></away>
+<events>
+<event id="23604084" minute="13" player="Sasin" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23604085" minute="42" player="Maltsev" playerid="2582539" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23604086" minute="76" player="Maltsev" playerid="2582539" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23604087" minute="81" player="Maltsev" playerid="2582539" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match></league><league country="russia" name="Russia: Division 2 - Center" cup="False" id="3195" sub_id="31950"><match alternate_id="4175262" alternate_id_2="4474123" date="08.11.2015" id="4292787" static_id="08111523467032346633" status="FT" time="13:00">
 <home goals="3" id="2346703" name="Liski"></home>
 <away goals="1" id="2346633" name="D. Bryansk"></away>
@@ -1836,7 +1841,12 @@
 <event id="23770665" minute="59" player="Y. Zhuravlev" playerid="" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="russia" name="Russia: Russian Cup" cup="True" id="3197" sub_id="31970"><match alternate_id="4216909" alternate_id_2="4467202" date="29.10.2015" id="4334409" static_id="29101523466602346619" status="FT" time="16:00">
+</match></league><league country="russia" name="Russia: Russian Cup" cup="True" id="3197" sub_id="31970"><match alternate_id="4221145" alternate_id_2="4477017" date="28.02.2016" id="4338643" static_id="28021623467832346696" status="17:00" time="17:00">
+<home goals="?" id="2346783" name="Zenit Petersburg"></home>
+<away goals="?" id="2346696" name="Kuban"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4216909" alternate_id_2="4467202" date="29.10.2015" id="4334409" static_id="29101523466602346619" status="FT" time="16:00">
 <home goals="3" id="2346660" name="Krasnodar"></home>
 <away goals="1" id="2346619" name="Anzhi"></away>
 <events>
@@ -2001,13 +2011,6 @@
 <events>
 <event id="23616804" minute="63" player="K. Kadyrov" playerid="2467486" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23616805" minute="83" player="Kanu" playerid="2378956" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4206505" alternate_id_2="4460325" date="23.09.2015" id="4324009" static_id="23091523466782346704" status="FT" time="12:30">
-<home goals="0" id="2346678" name="Armavir"></home>
-<away goals="1" id="2346704" name="Lokomotiv Moscow"></away>
-<events>
-<event id="23616754" minute="78" player="P. Skuletic" playerid="2420310" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="russia" name="Russia: Russian Cup - Qualification" cup="True" id="3197" sub_id="31972"><match alternate_id="4186854" alternate_id_2="4454561" date="11.09.2015" id="4304360" static_id="11091523566142346743" status="AET" time="13:00">
@@ -2205,26 +2208,49 @@
 </events>
 <ht score="[0-1]"></ht>
 <penalty localteam="4" visitorteam="2"></penalty>
-</match></league><league country="russia" name="Russia: Fnl Cup - Placement Play Offs" cup="True" id="4415" sub_id=""><match alternate_id="4250336" alternate_id_2="4500985" date="23.02.2016" id="4367784" static_id="23021623467432346685" status="16:00" time="16:00">
-<home goals="?" id="2346743" name="Shinnik Yaroslavl"></home>
-<away goals="?" id="2346685" name="Orenburg"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4250335" alternate_id_2="4500984" date="23.02.2016" id="4367783" static_id="23021623466232346779" status="13:30" time="13:30">
-<home goals="?" id="2346623" name="Baltika"></home>
-<away goals="?" id="2346779" name="Volgar-Astrakhan"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4250334" alternate_id_2="4500983" date="23.02.2016" id="4367782" static_id="23021623519512346645" status="10:30" time="10:30">
-<home goals="?" id="2351951" name="Zenit Petersburg 2"></home>
-<away goals="?" id="2346645" name="F. Voronezh"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4250333" alternate_id_2="4500982" date="23.02.2016" id="4367781" static_id="23021623467662346679" status="08:00" time="08:00">
-<home goals="?" id="2346766" name="Tomsk"></home>
-<away goals="?" id="2346679" name="Tyumen"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="russia" name="Russia: Fnl Cup - Placement Play Offs" cup="True" id="4415" sub_id=""><match alternate_id="4250336" alternate_id_2="4500985" date="23.02.2016" id="4367784" static_id="23021623467432346685" status="FT" time="16:00">
+<home goals="0" id="2346743" name="Shinnik Yaroslavl"></home>
+<away goals="1" id="2346685" name="Orenburg"></away>
+<events>
+<event id="24023354" minute="7" player="I. Markelov" playerid="2408104" result="" team="away" type="yellowcard"></event>
+<event id="24023355" minute="57" player="M. Shogenov" playerid="2446475" result="" team="away" type="yellowcard"></event>
+<event id="24023356" minute="78" player="I. Koronov" playerid="2454923" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24023357" minute="84" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24023358" minute="88" player="" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4250335" alternate_id_2="4500984" date="23.02.2016" id="4367783" static_id="23021623466232346779" status="FT" time="13:00">
+<home goals="0" id="2346623" name="Baltika"></home>
+<away goals="2" id="2346779" name="Volgar-Astrakhan"></away>
+<events>
+<event id="24023344" minute="72" player="I. Geloyan" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24023345" minute="73" player="A. Sutormin" playerid="2632890" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24023346" minute="82" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24023347" minute="85" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24023348" minute="90" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4250334" alternate_id_2="4500983" date="23.02.2016" id="4367782" static_id="23021623519512346645" status="FT" time="10:30">
+<home goals="1" id="2351951" name="Zenit Petersburg 2"></home>
+<away goals="4" id="2346645" name="F. Voronezh"></away>
+<events>
+<event id="24023334" minute="15" player="M. Biryukov (pen.)" playerid="2460192" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24023335" minute="23" player="M. Biryukov" playerid="2460192" result="[0 - 2]" team="away" type="goal"></event>
+<event id="24023336" minute="28" player="D. Mildzihov" playerid="" result="[1 - 2]" team="home" type="goal"></event>
+<event id="24023337" minute="29" player="Y. Bavin" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24023338" minute="41" player="A. Murnin" playerid="2359626" result="[1 - 3]" team="away" type="goal"></event>
+<event id="24023339" minute="45" player="M. Biryukov" playerid="2460192" result="[1 - 4]" team="away" type="goal"></event>
+<event id="24023340" minute="53" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24023341" minute="81" player="D. Maykov" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[1-4]"></ht>
+</match><match alternate_id="4250333" alternate_id_2="4500982" date="23.02.2016" id="4367781" static_id="23021623467662346679" status="FT" time="08:00">
+<home goals="1" id="2346766" name="Tomsk"></home>
+<away goals="0" id="2346679" name="Tyumen"></away>
+<events>
+<event id="24023324" minute="56" player="P. Nekhajchik" playerid="2371413" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4250332" alternate_id_2="4500981" date="22.02.2016" id="4367780" static_id="22021623467442353320" status="FT" time="16:00">
 <home goals="0" id="2346744" name="Sibir"></home>
 <away goals="1" id="2353320" name="Spartak Moscow 2"></away>
@@ -2579,54 +2605,4 @@
 <event id="23995970" minute="84" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="russia" name="Russia: Fnl Cup - Placement Play Offs" cup="True" id="4415" sub_id=""><match alternate_id="4109211" alternate_id_2="4310506" date="23.02.2015" id="4226763" static_id="23021523467662346779" status="Pen." time="16:45">
-<home goals="2" id="2346766" name="Tomsk"></home>
-<away goals="3" id="2346779" name="Volgar-Astrakhan"></away>
-<events>
-<event id="22118564" minute="33" player="S. Bendz" playerid="2338450" result="" team="home" type="yellowcard"></event>
-<event id="22118565" minute="34" player="A. Dimidko" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22118566" minute="37" player="A. Alkhazov" playerid="2359711" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22118567" minute="45" player="N. Bazhenov" playerid="2338217" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22118568" minute="48" player="P. Nekhajchik" playerid="2371413" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22118569" minute="52" player="A. Krendelev" playerid="2408162" result="[2 - 2]" team="away" type="goal"></event>
-<event id="22118570" minute="72" player="G. Dzhioev" playerid="2338509" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
-<penalty localteam="7" visitorteam="8"></penalty>
-</match><match alternate_id="4109212" alternate_id_2="4310505" date="23.02.2015" id="4226764" static_id="23021523467442346679" status="Pen." time="14:15">
-<home goals="2" id="2346744" name="Sibir"></home>
-<away goals="3" id="2346679" name="Tyumen"></away>
-<events>
-<event id="22118554" minute="64" player="A. Ivanov" playerid="2357942" result="" team="home" type="yellowcard"></event>
-<event id="22118555" minute="68" player="A. Shlyapkin" playerid="2408031" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22118556" minute="72" player="A. Pavlenko" playerid="2359536" result="" team="away" type="yellowcard"></event>
-<event id="22118557" minute="78" player="V. Golovatenko" playerid="2358054" result="" team="home" type="yellowcard"></event>
-<event id="22118558" minute="78" player="K. Mamtov" playerid="2361684" result="" team="away" type="yellowcard"></event>
-<event id="22118559" minute="81" player="V. Golovatenko" playerid="2358054" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22118560" minute="82" player="A. Gladyshev" playerid="2470203" result="" team="home" type="yellowcard"></event>
-<event id="22118561" minute="83" player="E. Cebotaru" playerid="2343836" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22118562" minute="88" player="I. Lambarschi" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="3" visitorteam="4"></penalty>
-</match><match alternate_id="4109210" alternate_id_2="4310504" date="23.02.2015" id="4226762" static_id="23021523467432346643" status="FT" time="10:45">
-<home goals="3" id="2346743" name="Shinnik Yaroslavl"></home>
-<away goals="0" id="2346643" name="SKA Energiya"></away>
-<events>
-<event id="22118544" minute="19" player="P. Deobald" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22118545" minute="21" player="E. Steshin" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22118546" minute="51" player="N. Malyarov" playerid="2447345" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22118547" minute="68" player="N." playerid="2359612" result="" team="away" type="yellowcard"></event>
-<event id="22118548" minute="85" player="N. Malyarov" playerid="2447345" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4109213" alternate_id_2="4310503" date="23.02.2015" id="4226765" static_id="23021523467082346695" status="Pen." time="08:15">
-<home goals="1" id="2346708" name="Luch Energiya"></home>
-<away goals="2" id="2346695" name="Krylya Sovetov Samara"></away>
-<events>
-<event id="22118534" minute="52" player="S. Kornilenko" playerid="2368713" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22118535" minute="67" player="M. Palienko (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="7" visitorteam="8"></penalty>
 </match></league></recent_results>

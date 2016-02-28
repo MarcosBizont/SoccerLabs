@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="22.02.2016 07:50:54" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="" alternate_id_2="4482973" date="05.03.2016" id="" static_id="05031623466952346670" status="11:30" time="11:30">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="28.02.2016 07:51:04" sport="soccer" country="russia"><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="" alternate_id_2="4482973" date="05.03.2016" id="" static_id="05031623466952346670" status="11:30" time="11:30">
 <home id="2346695" name="Krylya Sovetov Samara"></home>
 <away id="2346670" name="FK Rostov"></away>
 
@@ -108,11 +108,6 @@
 <away id="2346766" name="Tomsk"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4483497" date="12.03.2016" id="" static_id="12031623466202346743" status="13:00" time="13:00">
-<home id="2346620" name="Arsenal Tula"></home>
-<away id="2346743" name="Shinnik Yaroslavl"></away>
-
-
 </match><match alternate_id="" alternate_id_2="4483498" date="12.03.2016" id="" static_id="12031623466232346750" status="13:00" time="13:00">
 <home id="2346623" name="Baltika"></home>
 <away id="2346750" name="Saratov"></away>
@@ -123,7 +118,7 @@
 <away id="2346679" name="Tyumen"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4483500" date="12.03.2016" id="" static_id="12031623466912346643" status="13:00" time="13:00">
+</match><match alternate_id="4155700" alternate_id_2="4483500" date="12.03.2016" id="4273231" static_id="12031623466912346643" status="13:00" time="13:00">
 <home id="2346691" name="Kamaz"></home>
 <away id="2346643" name="SKA Energiya"></away>
 
@@ -138,7 +133,7 @@
 <away id="2346685" name="Orenburg"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4483504" date="12.03.2016" id="" static_id="12031623467122349706" status="13:00" time="13:00">
+</match><match alternate_id="4155694" alternate_id_2="4483504" date="12.03.2016" id="4273225" static_id="12031623467122349706" status="13:00" time="13:00">
 <home id="2346712" name="Yenisey"></home>
 <away id="2349706" name="Baikal Irkutsk"></away>
 
@@ -146,6 +141,11 @@
 </match><match alternate_id="" alternate_id_2="4483505" date="12.03.2016" id="" static_id="12031623519512346779" status="13:00" time="13:00">
 <home id="2351951" name="Zenit Petersburg 2"></home>
 <away id="2346779" name="Volgar-Astrakhan"></away>
+
+
+</match><match alternate_id="4155696" alternate_id_2="4483497" date="12.03.2016" id="4273227" static_id="12031623466202346743" status="14:00" time="14:00">
+<home id="2346620" name="Arsenal Tula"></home>
+<away id="2346743" name="Shinnik Yaroslavl"></away>
 
 
 </match><match alternate_id="" alternate_id_2="4484424" date="16.03.2016" id="" static_id="16031623467442346678" status="12:00" time="12:00">
@@ -298,6 +298,11 @@
 <away id="2355523" name="Afips"></away>
 
 
+</match></league><league country="russia" name="Russia: Division 2 - East" cup="False" id="3195" sub_id="31951"><match alternate_id="" alternate_id_2="4466810" date="01.03.2016" id="" static_id="01031623467662346654" status="10:00" time="10:00">
+<home id="2346766" name="Omsk"></home>
+<away id="2346654" name="Chita"></away>
+
+
 </match></league><league country="russia" name="Russia: Division 2 - Center" cup="False" id="3195" sub_id="31950"><match alternate_id="" alternate_id_2="4476247" date="10.04.2016" id="" static_id="10041623553962346703" status="15:00" time="15:00">
 <home id="2355396" name="Arsenal Tula 2"></home>
 <away id="2346703" name="Liski"></away>
@@ -373,6 +378,11 @@
 <away id="2349669" name="Z. Ryazan"></away>
 
 
+</match><match alternate_id="" alternate_id_2="4480097" date="23.04.2016" id="" static_id="23041623466332346768" status="15:00" time="15:00">
+<home id="2346633" name="D. Bryansk"></home>
+<away id="2346768" name="T. Moscow"></away>
+
+
 </match><match alternate_id="" alternate_id_2="4480098" date="23.04.2016" id="" static_id="23041623496702346782" status="15:00" time="15:00">
 <home id="2349670" name="Kaluga"></home>
 <away id="2346782" name="Penza"></away>
@@ -391,11 +401,6 @@
 </match><match alternate_id="" alternate_id_2="4480100" date="23.04.2016" id="" static_id="23041623467032356539" status="15:00" time="15:00">
 <home id="2346703" name="Liski"></home>
 <away id="2356539" name="Energomash Belgorod"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4480101" date="23.04.2016" id="" static_id="23041623467752353849" status="15:00" time="15:00">
-<home id="2346775" name="Vityaz"></home>
-<away id="2353849" name="FC Tambov"></away>
 
 
 </match></league><league country="russia" name="Russia: Division 2 - West" cup="False" id="3195" sub_id="31954"><match alternate_id="" alternate_id_2="4476696" date="10.04.2016" id="" static_id="10041623553732350843" status="15:00" time="15:00">
@@ -598,69 +603,54 @@
 <away id="2346778" name="Ulyanovsk"></away>
 
 
-</match></league><league country="russia" name="Russia: Youth League" cup="False" id="4220" sub_id="42200"><match alternate_id="4239653" alternate_id_2="4482391" date="01.03.2016" id="4357132" static_id="01031623540202354032" status="11:00" time="11:00">
-<home id="2354020" name="Anzhi U21"></home>
-<away id="2354032" name="Amkar U21"></away>
-
-
-</match><match alternate_id="4239654" alternate_id_2="4482412" date="01.03.2016" id="4357133" static_id="01031623540602354035" status="11:00" time="11:00">
-<home id="2354060" name="CSKA Moscow U21"></home>
-<away id="2354035" name="Spartak Moscow U21"></away>
-
-
-</match><match alternate_id="4239655" alternate_id_2="4482454" date="01.03.2016" id="4357134" static_id="01031623540612354062" status="11:00" time="11:00">
+</match></league><league country="russia" name="Russia: Youth League" cup="False" id="4220" sub_id="42200"><match alternate_id="4251199" alternate_id_2="4482454" date="04.03.2016" id="4368640" static_id="04031623540612354062" status="11:00" time="11:00">
 <home id="2354061" name="Krasnodar U21"></home>
 <away id="2354062" name="Zenit Petersburg U21"></away>
 
 
-</match><match alternate_id="4239656" alternate_id_2="4482413" date="01.03.2016" id="4357135" static_id="01031623540342354026" status="11:00" time="11:00">
+</match><match alternate_id="4251200" alternate_id_2="4482413" date="04.03.2016" id="4368641" static_id="04031623540342354026" status="11:00" time="11:00">
 <home id="2354034" name="Krylya Sovetov Samara U21"></home>
 <away id="2354026" name="FK Rostov U21"></away>
 
 
-</match><match alternate_id="4239657" alternate_id_2="4482449" date="01.03.2016" id="4357136" static_id="01031623540232354022" status="11:00" time="11:00">
+</match><match alternate_id="4251201" alternate_id_2="4482449" date="04.03.2016" id="4368642" static_id="04031623540232354022" status="11:00" time="11:00">
 <home id="2354023" name="Rubin Kazan U21"></home>
 <away id="2354022" name="Kuban U21"></away>
 
 
-</match><match alternate_id="4239658" alternate_id_2="4482311" date="01.03.2016" id="4357137" static_id="01031623540272354021" status="11:00" time="11:00">
+</match><match alternate_id="4251202" alternate_id_2="4482412" date="05.03.2016" id="4368643" static_id="05031623540602354035" status="11:00" time="11:00">
+<home id="2354060" name="CSKA Moscow U21"></home>
+<away id="2354035" name="Spartak Moscow U21"></away>
+
+
+</match><match alternate_id="4251203" alternate_id_2="4482311" date="05.03.2016" id="4368644" static_id="05031623540272354021" status="11:00" time="11:00">
 <home id="2354027" name="Terek Grozni U21"></home>
 <away id="2354021" name="Lokomotiv Moscow U21"></away>
 
 
-</match><match alternate_id="4239659" alternate_id_2="4482429" date="01.03.2016" id="4357138" static_id="01031623555352355508" status="11:00" time="11:00">
+</match><match alternate_id="4251204" alternate_id_2="4482429" date="05.03.2016" id="4368645" static_id="05031623555352355508" status="11:00" time="11:00">
 <home id="2355535" name="Ufa U21"></home>
 <away id="2355508" name="M. Saransk U21"></away>
 
 
-</match><match alternate_id="4239660" alternate_id_2="4482312" date="01.03.2016" id="4357139" static_id="01031623540592354018" status="11:00" time="11:00">
+</match><match alternate_id="4251205" alternate_id_2="4482391" date="06.03.2016" id="4368646" static_id="06031623540202354032" status="11:00" time="11:00">
+<home id="2354020" name="Anzhi U21"></home>
+<away id="2354032" name="Amkar U21"></away>
+
+
+</match><match alternate_id="4251206" alternate_id_2="4482312" date="06.03.2016" id="4368647" static_id="06031623540592354018" status="11:00" time="11:00">
 <home id="2354059" name="Ural U21"></home>
 <away id="2354018" name="Dynamo Moscow U21"></away>
 
 
-</match><match alternate_id="4239661" alternate_id_2="4484033" date="11.03.2016" id="4357140" static_id="11031623540182354027" status="11:00" time="11:00">
-<home id="2354018" name="Dynamo Moscow U21"></home>
-<away id="2354027" name="Terek Grozni U21"></away>
+</match><match alternate_id="4227618" alternate_id_2="4484069" date="10.03.2016" id="4345108" static_id="10031623540222354034" status="11:00" time="11:00">
+<home id="2354022" name="Kuban U21"></home>
+<away id="2354034" name="Krylya Sovetov Samara U21"></away>
 
 
 </match><match alternate_id="4239662" alternate_id_2="4484055" date="11.03.2016" id="4357141" static_id="11031623540262354060" status="11:00" time="11:00">
 <home id="2354026" name="FK Rostov U21"></home>
 <away id="2354060" name="CSKA Moscow U21"></away>
-
-
-</match><match alternate_id="4239663" alternate_id_2="4484069" date="11.03.2016" id="4357142" static_id="11031623540222354034" status="11:00" time="11:00">
-<home id="2354022" name="Kuban U21"></home>
-<away id="2354034" name="Krylya Sovetov Samara U21"></away>
-
-
-</match><match alternate_id="4239664" alternate_id_2="4484038" date="11.03.2016" id="4357143" static_id="11031623540212355535" status="11:00" time="11:00">
-<home id="2354021" name="Lokomotiv Moscow U21"></home>
-<away id="2355535" name="Ufa U21"></away>
-
-
-</match><match alternate_id="4239665" alternate_id_2="4483996" date="11.03.2016" id="4357144" static_id="11031623555082354061" status="11:00" time="11:00">
-<home id="2355508" name="M. Saransk U21"></home>
-<away id="2354061" name="Krasnodar U21"></away>
 
 
 </match><match alternate_id="4239666" alternate_id_2="4484007" date="11.03.2016" id="4357145" static_id="11031623540352354032" status="11:00" time="11:00">
@@ -673,17 +663,32 @@
 <away id="2354020" name="Anzhi U21"></away>
 
 
-</match><match alternate_id="4239668" alternate_id_2="4484054" date="11.03.2016" id="4357147" static_id="11031623540622354023" status="11:00" time="11:00">
+</match><match alternate_id="4251207" alternate_id_2="4484038" date="12.03.2016" id="4368648" static_id="12031623540212355535" status="11:00" time="11:00">
+<home id="2354021" name="Lokomotiv Moscow U21"></home>
+<away id="2355535" name="Ufa U21"></away>
+
+
+</match><match alternate_id="4251208" alternate_id_2="4483996" date="12.03.2016" id="4368649" static_id="12031623555082354061" status="11:00" time="11:00">
+<home id="2355508" name="M. Saransk U21"></home>
+<away id="2354061" name="Krasnodar U21"></away>
+
+
+</match><match alternate_id="4251209" alternate_id_2="4484054" date="12.03.2016" id="4368650" static_id="12031623540622354023" status="11:00" time="11:00">
 <home id="2354062" name="Zenit Petersburg U21"></home>
 <away id="2354023" name="Rubin Kazan U21"></away>
 
 
-</match><match alternate_id="4239674" alternate_id_2="4485317" date="18.03.2016" id="4357153" static_id="18031623540322354026" status="11:00" time="11:00">
+</match><match alternate_id="4251210" alternate_id_2="4484033" date="13.03.2016" id="4368651" static_id="13031623540182354027" status="11:00" time="11:00">
+<home id="2354018" name="Dynamo Moscow U21"></home>
+<away id="2354027" name="Terek Grozni U21"></away>
+
+
+</match><match alternate_id="4228302" alternate_id_2="4485317" date="17.03.2016" id="4345792" static_id="17031623540322354026" status="11:00" time="11:00">
 <home id="2354032" name="Amkar U21"></home>
 <away id="2354026" name="FK Rostov U21"></away>
 
 
-</match><match alternate_id="4239669" alternate_id_2="4485308" date="18.03.2016" id="4357148" static_id="18031623540202354035" status="11:00" time="11:00">
+</match><match alternate_id="4228299" alternate_id_2="4485308" date="17.03.2016" id="4345789" static_id="17031623540202354035" status="11:00" time="11:00">
 <home id="2354020" name="Anzhi U21"></home>
 <away id="2354035" name="Spartak Moscow U21"></away>
 
@@ -693,69 +698,29 @@
 <away id="2354022" name="Kuban U21"></away>
 
 
-</match><match alternate_id="4239676" alternate_id_2="4485319" date="18.03.2016" id="4357155" static_id="18031623540272354059" status="11:00" time="11:00">
-<home id="2354027" name="Terek Grozni U21"></home>
-<away id="2354059" name="Ural U21"></away>
+</match><match alternate_id="4239677" alternate_id_2="4485320" date="18.03.2016" id="4357156" static_id="18031623555352354018" status="11:00" time="11:00">
+<home id="2355535" name="Ufa U21"></home>
+<away id="2354018" name="Dynamo Moscow U21"></away>
 
 
-</match></league><league country="russia" name="Russia: Russian Cup" cup="True" id="3197" sub_id="31970"><match alternate_id="" alternate_id_2="4477017" date="28.02.2016" id="" static_id="28021623467832346696" status="17:00" time="17:00">
+</match></league><league country="russia" name="Russia: Russian Cup" cup="True" id="3197" sub_id="31970"><match alternate_id="4221145" alternate_id_2="4477017" date="28.02.2016" id="4338643" static_id="28021623467832346696" status="17:00" time="17:00">
 <home id="2346783" name="Zenit Petersburg"></home>
 <away id="2346696" name="Kuban"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4477066" date="01.03.2016" id="" static_id="01031623466602346763" status="16:00" time="16:00">
-<home id="2346660" name="Krasnodar"></home>
-<away id="2346763" name="Terek Grozni"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4477016" date="01.03.2016" id="" static_id="01031623466252346629" status="16:00" time="16:00">
+</match><match alternate_id="4221146" alternate_id_2="4477016" date="01.03.2016" id="4338644" static_id="01031623466252346629" status="14:00" time="14:00">
 <home id="2346625" name="Ufa"></home>
 <away id="2346629" name="CSKA Moscow"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4477065" date="02.03.2016" id="" static_id="02031623466172346636" status="16:00" time="16:00">
+</match><match alternate_id="4221444" alternate_id_2="4477066" date="01.03.2016" id="4338941" static_id="01031623466602346763" status="16:15" time="16:15">
+<home id="2346660" name="Krasnodar"></home>
+<away id="2346763" name="Terek Grozni"></away>
+
+
+</match><match alternate_id="4221443" alternate_id_2="4477065" date="02.03.2016" id="4338940" static_id="02031623466172346636" status="14:00" time="14:00">
 <home id="2346617" name="Amkar"></home>
 <away id="2346636" name="Dynamo Moscow"></away>
-
-
-</match></league><league country="russia" name="Russia: Fnl Cup - Placement Play Offs" cup="True" id="4415" sub_id=""><match alternate_id="4250329" alternate_id_2="4500978" date="22.02.2016" id="4367777" static_id="22021623466432355406" status="08:15" time="08:15">
-<home id="2346643" name="SKA Energiya"></home>
-<away id="2355406" name="Chertanovo M."></away>
-
-
-</match><match alternate_id="4250330" alternate_id_2="4500979" date="22.02.2016" id="4367778" static_id="22021623466202352815" status="10:45" time="10:45">
-<home id="2346620" name="Arsenal Tula"></home>
-<away id="2352815" name="Volgar-Astrakhan 2"></away>
-
-
-</match><match alternate_id="4250331" alternate_id_2="4500980" date="22.02.2016" id="4367779" static_id="22021623467122353319" status="13:30" time="13:30">
-<home id="2346712" name="Yenisey"></home>
-<away id="2353319" name="Krasnodar 2"></away>
-
-
-</match><match alternate_id="4250332" alternate_id_2="4500981" date="22.02.2016" id="4367780" static_id="22021623467442353320" status="16:00" time="16:00">
-<home id="2346744" name="Sibir"></home>
-<away id="2353320" name="Spartak Moscow 2"></away>
-
-
-</match><match alternate_id="4250333" alternate_id_2="4500982" date="23.02.2016" id="4367781" static_id="23021623467662346679" status="08:15" time="08:15">
-<home id="2346766" name="Tomsk"></home>
-<away id="2346679" name="Tyumen"></away>
-
-
-</match><match alternate_id="4250334" alternate_id_2="4500983" date="23.02.2016" id="4367782" static_id="23021623519512346645" status="10:45" time="10:45">
-<home id="2351951" name="Zenit Petersburg 2"></home>
-<away id="2346645" name="F. Voronezh"></away>
-
-
-</match><match alternate_id="4250335" alternate_id_2="4500984" date="23.02.2016" id="4367783" static_id="23021623466232346779" status="13:30" time="13:30">
-<home id="2346623" name="Baltika"></home>
-<away id="2346779" name="Volgar-Astrakhan"></away>
-
-
-</match><match alternate_id="4250336" alternate_id_2="4500985" date="23.02.2016" id="4367784" static_id="23021623467432346685" status="16:00" time="16:00">
-<home id="2346743" name="Shinnik Yaroslavl"></home>
-<away id="2346685" name="Orenburg"></away>
 
 
 </match></league></fixtures>

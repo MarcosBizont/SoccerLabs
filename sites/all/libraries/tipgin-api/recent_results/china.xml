@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="23.02.2016 01:40:44" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104327" alternate_id_2="4468512" date="31.10.2015" id="4221882" static_id="31101523398682339882" status="FT" time="07:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="28.02.2016 13:40:58" sport="soccer" country="china"><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4104327" alternate_id_2="4468512" date="31.10.2015" id="4221882" static_id="31101523398682339882" status="FT" time="07:00">
 <home goals="0" id="2339868" name="Beijing Guoan"></home>
 <away goals="2" id="2339882" name="Guangzhou Evergrande"></away>
 <events>
@@ -437,6 +437,18 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match></league><league country="china" name="China: Super Cup" cup="True" id="4156" sub_id=""><match alternate_id="4233277" alternate_id_2="4490364" date="27.02.2016" id="4350761" static_id="27021623398822339889" status="FT" time="11:35">
+<home goals="2" id="2339882" name="Guangzhou Evergrande"></home>
+<away goals="0" id="2339889" name="Jiangsu Suning"></away>
+<events>
+<event id="23917144" minute="14" player="R. Goulart" playerid="2405889" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23917145" minute="27" player="Hang Ren" playerid="2360841" result="" team="away" type="yellowcard"></event>
+<event id="23917146" minute="38" player="Li Xuepeng" playerid="2409257" result="" team="home" type="yellowcard"></event>
+<event id="23917147" minute="39" player="R. Goulart" playerid="2405889" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23917148" minute="74" player="Huang Bowen" playerid="2358186" result="" team="home" type="yellowcard"></event>
+<event id="23917149" minute="90" player="A. Teixeira" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
 </match></league><league country="china" name="China: Fa Cup" cup="True" id="4077" sub_id="40770"><match alternate_id="4222039" alternate_id_2="4475106" date="29.11.2015" id="4339536" static_id="29111523399132339889" status="AET" time="08:00">
 <home goals="0" id="2339913" name="Shanghai Shenhua"></home>
 <away goals="1" id="2339889" name="Jiangsu Sainty"></away>

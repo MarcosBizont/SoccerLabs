@@ -81,7 +81,7 @@ function tips_buffer_generate()
 		
 		foreach($match_items as $match)
 		{
-			if(tips_match_have_tip($match->nid,$accuracy))
+			//if(tips_match_have_tip($match->nid,$accuracy))
 			if (!cache_get('tips_buffer_generate_' . $match->nid, 'cache')) 
 			{
 				
@@ -125,65 +125,6 @@ function tips_buffer_generate()
 				
 				cache_set('tips_buffer_generate_' . $match->nid, 1, 'cache', time() + (7 * 24 * 60 * 60) );	
 			}	
-			
-			
-			if(tips_match_have_tip($match->nid,$accuracy))
-			if($match->field_match_status[LANGUAGE_NONE][0]['value']=='FT') 
-			{
-				if($accuracy >= .75)
-				{
-					if (!cache_get('tips_buffer_accuracy_' . $match->nid, 'cache')) 
-					{
-						
-						$matchdate = $match->field_match_date[LANGUAGE_NONE][0]['value'];
-						
-						$texten = array();
-						$textes = array();
-						$date = new DateTime($matchdate,new DateTimeZone('UTC'));
-						$date = $date->modify('+1 day');
-						
-						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowES($match,$textes), 
-									getImagesByMatch($match), TRUE, FALSE, '@soccer_labs');
-						//tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowES($match,$textes), 
-						//			getImagesByMatch($match), TRUE, FALSE, 'Soccer Labs');
-						tips_buffer_bufferapp_data(TRUE, NULL, getTweetTextAccuracyNowEN($match,$texten), 
-									getImagesByMatch($match), TRUE, FALSE, '@soccer_labsen');
-						
-						
-						$date->setTimezone(new DateTimeZone('America/Mexico_City'));
-						// ToDo : Random between 1 y 20 para los minutos
-						$date1100am = new DateTime($date->format('Y-m-d') . ' 11:' . getRandomMinutesStr(0,20),new DateTimeZone('America/Mexico_City'));
-						$date1100am->setTimezone(new DateTimeZone('UTC'));
-						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), '@soccer_labs');
-						//tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), 'Soccer Labs');
-						
-/*
-						// ToDo : Random between 1 y 20 para los minutos
-						$date300pm = new DateTime($date->format('Y-m-d') . ' 15:00',new DateTimeZone('America/Mexico_City'));
-						$date300pm->setTimezone(new DateTimeZone('UTC'));
-						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyES($match,$textes), getImagesByMatch($match), FALSE, $date300pm->getTimestamp(), '@soccer_labs');
-						
-*/
-						$date->setTimezone(new DateTimeZone('Europe/London'));
-						// ToDo : Random between 1 y 20 para los minutos
-						$date1100am = new DateTime($date->format('Y-m-d') . ' 11:' . getRandomMinutesStr(0,20) ,new DateTimeZone('Europe/London'));
-						$date1100am->setTimezone(new DateTimeZone('UTC'));
-						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyEN($match,$texten), getImagesByMatch($match), FALSE, $date1100am->getTimestamp(), '@soccer_labsen');
-						
-						// ToDo : Random between 1 y 20 para los minutos
-/*
-						$date300pm = new DateTime($date->format('Y-m-d') . ' 15:' . getRandomMinutesStr(0,20),new DateTimeZone('Europe/London'));
-						$date300pm->setTimezone(new DateTimeZone('UTC'));
-						tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextAccuracyEN($match,$texten), getImagesByMatch($match), FALSE, $date300pm->getTimestamp(), '@soccer_labsen');
-						
-*/
-						cache_set('tips_buffer_accuracy_' . $match->nid, 1, 'cache', time() + (7 * 24 * 60 * 60) );	
-					}
-				}
-				
-			}	
-			
-			
 			
 			
 		}
@@ -322,6 +263,7 @@ function getMsgTextEN($match,&$oldtexts,$nourl=false)
 function getTweetTextES($match,&$oldtexts,$nourl=false)
 {
 	$arraystr = array();
+/*
 	$arraystr[] = '[local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas RT pls';
 	$arraystr[] = 'Descubre los tips para el partido [local_team] vs [visitor_team] [url] #pronósticos #futbol #apuestas';
 	$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
@@ -335,6 +277,21 @@ function getTweetTextES($match,&$oldtexts,$nourl=false)
 	$arraystr[] = '[url] , [local_team] vs [visitor_team] #pronosticos #futbol #apuestas RT pls';
 	$arraystr[] = '[url] Pronósticos [local_team] vs [visitor_team] #pronosticos #futbol #apuestas RT pls';
 	$arraystr[] = '[url] Tips, [local_team] contra [visitor_team] #pronosticos #futbol #apuestas RT pls';
+	
+*/
+	$arraystr[] = '[local_team] vs [visitor_team] [url] atrévete a apostar gratis #pronosticos #futbol #apuestas RT pls';
+	$arraystr[] = 'Apuesta en el siguiente partido y gana [local_team] vs [visitor_team] [url] #pronósticos #futbol #apuestas';
+	$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Tramos los pronósticos para que ganes [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = '[local_team] vs [visitor_team] se enfrentan hoy [url] Apuesta gratis #futbol #apuestas';
+	$arraystr[] = 'Te damos los mejores tips para apostar en [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Tips en el [local_team] vs [visitor_team] [url] para apostar gratis #pronosticos #futbol #apuestas';
+	$arraystr[] = 'Hoy [local_team] vs [visitor_team] [url] apuesta gratis #futbol #apuestas';
+	$arraystr[] = 'Los mejores tips en [local_team] vs [visitor_team] [url] para apostar #futbol #apuestas';
+	$arraystr[] = 'Dale click [url] para ver los tips, [local_team] vs [visitor_team] y apostar #futbol #apuestas RT pls';
+	$arraystr[] = '[url] , [local_team] vs [visitor_team] aprovecha tips y apuesta gratis #futbol #apuestas RT pls';
+	$arraystr[] = '[url] Pronósticos [local_team] vs [visitor_team] aprovecha, apuesta y gana #futbol #apuestas RT pls';
+	$arraystr[] = '[url] Tips, [local_team] contra [visitor_team] apostar gratis está a tu alcance #futbol #apuestas RT pls';
 	
 	foreach($arraystr as $id => $str)
 		if(is_array($oldtexts)) 

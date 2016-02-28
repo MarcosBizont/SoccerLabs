@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * Implements hook_cronapi().
+ */
+function soccer_labs_measure_cronapi() {
+  $items = array();
+  $items['soccer_labs_measure_update_actions'] = array();
+    
+  return $items;
+}
+
+
+function soccer_labs_measure_update_actions()
+{
+	// Recorrer todos los usuarios 
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'user')
+		  ->addMetaData('account', user_load(1));
+	
+	$result = $query->execute();
+	
+	if (isset($result['user'])) 
+	{
+		$user_ids = array_keys($result['user']);
+		foreach($user_ids as $id_user)
+		{
+			$c_user = user_load($id_user);
+			$c_user->field_stats_actions = array();
+			//Activation
+			$query_int = new EntityFieldQuery();
+			$query_int->entityCondition('entity_type', 'node')
+					->entityCondition('bundle', 'simbet')
+					->addMetaData('account', user_load(1))
+					->propertyCondition('uid', $id_user);
+			$count = $query_int->count()->execute();
+			if($count>0)
+				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 976;
+			
+			//Retention
+			$ago_last_access = time() - $c_user->access;
+			if($ago_last_access > (60 * 60 * 24 * 7))
+				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 977;
+			
+			//Convert
+			//Refferal
+			
+			user_save($c_user);
+			
+		}
+/*
+		
+		$queue = DrupalQueue::get('processTipsMark');
+		foreach($tipsids as $idtip)
+			$queue->createItem($idtip);
+*/
+	}
+}
