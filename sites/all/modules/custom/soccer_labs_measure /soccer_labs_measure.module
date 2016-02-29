@@ -39,13 +39,20 @@ function soccer_labs_measure_update_actions()
 			
 			//Retention
 			$ago_last_access = time() - $c_user->access;
-			if($ago_last_access > (60 * 60 * 24 * 7))
+			if($ago_last_access <= (60 * 60 * 24 * 7))
 				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 977;
 			
 			//Convert
 			//Refferal
+			try
+			{
+				 user_save($c_user);
+			}
+			catch(Exception $e)
+			{
+			}
+
 			
-			user_save($c_user);
 			
 		}
 /*
