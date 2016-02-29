@@ -205,7 +205,8 @@ function kwresearch_util($pid) {
 }
     
 /**
- * Implements hook_permission()().
+ * Implements hook_permission()
+().
  */
 function kwresearch_permission() {
   return array(
@@ -1030,6 +1031,10 @@ function kwresearch_node_update($node) {
 function kwresearch_node_save($node) {
   static $vocab_filtered = FALSE;
 
+  if (!isset($node->kwresearch_sync_vocab)) {
+  	$node->kwresearch_sync_vocab = 0;
+  }
+
   if (!$kw_vid = $node->kwresearch_sync_vocab) {
     return;
   }
@@ -1100,7 +1105,8 @@ function kwresearch_node_delete($node) {
 }
 
 /**
- * Implements hook_nodeapi().().
+ * Implements hook_nodeapi().
+().
  * @param $node
  * @param $op
  * @param $a3
@@ -1109,7 +1115,8 @@ function kwresearch_node_delete($node) {
 function kwresearch_nodeapi_OLD(&$node, $op, $a3 = NULL, $a4 = NULL) { }
 
 /**
- * Implements hook_form_alter().().
+ * Implements hook_form_alter().
+().
  *
  * Add Content Optimizer field set to node edit forms.
  * Add Content Analysis enabled field to content type admin form
