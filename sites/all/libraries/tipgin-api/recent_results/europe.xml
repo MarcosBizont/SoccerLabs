@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="28.02.2016 13:40:22" sport="soccer" country="europe"><league country="europe" name="Europe: Euro - Qualification - Promotion" cup="False" id="3364" sub_id=""><match alternate_id="4219995" alternate_id_2="4474101" date="17.11.2015" id="4337493" static_id="17111523405042348233" status="FT" time="19:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:50:20" sport="soccer" country="europe"><league country="europe" name="Europe: Euro - Qualification - Promotion" cup="False" id="3364" sub_id=""><match alternate_id="4219995" alternate_id_2="4474101" date="17.11.2015" id="4337493" static_id="17111523405042348233" status="FT" time="19:45">
 <home goals="2" id="2340504" name="Denmark"></home>
 <away goals="2" id="2348233" name="Sweden"></away>
 <events>
@@ -349,7 +349,29 @@
 <event id="23715212" minute="90" player="J. Walters" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match></league><league country="europe" name="Europe: Champions League - Play Offs" cup="False" id="2838" sub_id="283810"><match alternate_id="4229400" alternate_id_2="4488070" date="24.02.2016" id="4346888" static_id="24021623489852341092" status="FT" time="19:45">
+</match></league><league country="europe" name="Europe: Champions League - Play Offs" cup="False" id="2838" sub_id="283810"><match alternate_id="4229389" alternate_id_2="4488082" date="09.03.2016" id="4346877" static_id="09031623467832346100" status="17:00" time="17:00">
+<home goals="?" id="2346783" name="Zenit Petersburg"></home>
+<away goals="?" id="2346100" name="Benfica"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4229393" alternate_id_2="4488080" date="08.03.2016" id="4346881" static_id="08031623479432343831" status="FT" time="19:45">
+<home goals="2" id="2347943" name="Real Madrid"></home>
+<away goals="0" id="2343831" name="AS Roma"></away>
+<events>
+<event id="23894304" minute="37" player="Danilo" playerid="2407681" result="" team="home" type="yellowcard"></event>
+<event id="23894305" minute="64" player="C. Ronaldo" playerid="2332215" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23894306" minute="68" player="J. Rodriguez" playerid="2404241" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23894307" minute="76" player="E. Zukanovic" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4229391" alternate_id_2="4488081" date="08.03.2016" id="4346879" static_id="08031623424862338609" status="FT" time="19:45">
+<home goals="1" id="2342486" name="Wolfsburg"></home>
+<away goals="0" id="2338609" name="Gent"></away>
+<events>
+<event id="23894314" minute="74" player="A. Schurrle" playerid="2418336" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4229400" alternate_id_2="4488070" date="24.02.2016" id="4346888" static_id="24021623489852341092" status="FT" time="19:45">
 <home goals="1" id="2348985" name="Dyn. Kiev"></home>
 <away goals="3" id="2341092" name="Manchester City"></away>
 <events>
@@ -649,15 +671,15 @@
 <home goals="4" id="2342140" name="B. Monchengladbach"></home>
 <away goals="2" id="2348008" name="Sevilla"></away>
 <events>
-<event assist="G. Xhaka" assistid="102647" extra_min="" id="23589144" minute="29" player="L. Stindl" playerid="2371312" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23589145" minute="34" player="E. Banega" playerid="2352189" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23589146" minute="50" player="M. Dahoud" playerid="2639491" result="" team="home" type="yellowcard"></event>
-<event assist="J. Korb" assistid="126631" extra_min="" id="23589147" minute="68" player="F. Johnson" playerid="2348727" result="[2 - 0]" team="home" type="goal"></event>
-<event assist="L. Stindl" assistid="39479" extra_min="" id="23589148" minute="78" player="R. Raffael" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event assist="F. Llorente" assistid="3153" extra_min="" id="23589149" minute="82" player="Vitolo" playerid="2480685" result="[3 - 1]" team="away" type="goal"></event>
-<event assist="F. Johnson" assistid="16894" extra_min="" id="23589150" minute="83" player="L. Stindl" playerid="2371312" result="[4 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23589151" minute="84" player="J. Drmic" playerid="2446911" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="1" id="23589152" minute="90" player="E. Banega (pen.)" playerid="2352189" result="[4 - 2]" team="away" type="goal"></event>
+<event id="23589144" minute="29" player="L. Stindl" playerid="2371312" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23589145" minute="34" player="E. Banega" playerid="2352189" result="" team="away" type="yellowcard"></event>
+<event id="23589146" minute="50" player="M. Dahoud" playerid="2639491" result="" team="home" type="yellowcard"></event>
+<event id="23589147" minute="68" player="F. Johnson" playerid="2348727" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23589148" minute="78" player="R. Raffael" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23589149" minute="82" player="Vitolo" playerid="2480685" result="[3 - 1]" team="away" type="goal"></event>
+<event id="23589150" minute="83" player="L. Stindl" playerid="2371312" result="[4 - 1]" team="home" type="goal"></event>
+<event id="23589151" minute="84" player="J. Drmic" playerid="2446911" result="" team="home" type="yellowcard"></event>
+<event id="23589152" minute="90" player="E. Banega (pen.)" playerid="2352189" result="[4 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4203783" alternate_id_2="4457589" date="25.11.2015" id="4321287" static_id="25111523437552341092" status="FT" time="19:45">
@@ -670,33 +692,29 @@
 <event id="23589397" minute="69" player="B. Sagna" playerid="2333240" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4203777" alternate_id_2="4457599" date="25.11.2015" id="4321281" static_id="25111523483532341894" status="FT" time="19:45">
-<home goals="0" id="2348353" name="Malmo FF"></home>
-<away goals="5" id="2341894" name="Paris SG"></away>
+</match><match alternate_id="4203780" alternate_id_2="4457605" date="25.11.2015" id="4321284" static_id="25111523410932345197" status="FT" time="19:45">
+<home goals="0" id="2341093" name="Manchester United"></home>
+<away goals="0" id="2345197" name="PSV"></away>
 <events>
-<event id="23589494" minute="3" player="A. Rabiot" playerid="2574601" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23589495" minute="14" player="A. Di Maria" playerid="2348412" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23589496" minute="42" player="M. Rosenberg" playerid="2332003" result="" team="home" type="yellowcard"></event>
-<event id="23589497" minute="50" player="Z. Ibrahimovic" playerid="2332001" result="[0 - 3]" team="away" type="goal"></event>
-<event id="23589498" minute="68" player="A. Di Maria" playerid="2348412" result="[0 - 4]" team="away" type="goal"></event>
-<event id="23589499" minute="82" player="Lucas" playerid="2473803" result="[0 - 5]" team="away" type="goal"></event>
-<event id="23589500" minute="90" player="R. Bengtsson" playerid="2338186" result="" team="home" type="yellowcard"></event>
+<event id="23589554" minute="82" player="L. de Jong" playerid="2396889" result="" team="away" type="yellowcard"></event>
+<event id="23589555" minute="90" player="J. Lingard" playerid="2551952" result="" team="home" type="yellowcard"></event>
+<event id="23589556" minute="90" player="S. Arias" playerid="2408518" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-2]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4203778" alternate_id_2="4457623" date="25.11.2015" id="4321282" static_id="25111523490382347943" status="FT" time="19:45">
 <home goals="3" id="2349038" name="Shakhtar"></home>
 <away goals="4" id="2347943" name="Real Madrid"></away>
 <events>
-<event assist="G. Bale" assistid="15482" extra_min="" id="23589734" minute="18" player="C. Ronaldo" playerid="2332215" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23589735" minute="35" player="T. Stepanenko" playerid="2368871" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23589736" minute="48" player="D. Carvajal" playerid="2477263" result="" team="away" type="yellowcard"></event>
-<event assist="C. Ronaldo" assistid="382" extra_min="" id="23589737" minute="50" player="L. Modric" playerid="2332198" result="[0 - 2]" team="away" type="goal"></event>
-<event assist="C. Ronaldo" assistid="382" extra_min="" id="23589738" minute="52" player="D. Carvajal" playerid="2477263" result="[0 - 3]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23589739" minute="70" player="C. Ronaldo" playerid="2332215" result="[0 - 4]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23589740" minute="77" player="A. Teixeira (pen.)" playerid="2364907" result="[1 - 4]" team="home" type="goal"></event>
-<event assist="T. Stepanenko" assistid="37038" extra_min="" id="23589741" minute="83" player="Dentinho" playerid="2364394" result="[2 - 4]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23589742" minute="87" player="Danilo" playerid="2407681" result="" team="away" type="yellowcard"></event>
-<event assist="Taison" assistid="39549" extra_min="" id="214910843" minute="88" player="A. Teixeira" playerid="2364907" result="[3 - 4]" team="home" type="goal"></event>
+<event id="23589734" minute="18" player="C. Ronaldo" playerid="2332215" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23589735" minute="35" player="T. Stepanenko" playerid="2368871" result="" team="home" type="yellowcard"></event>
+<event id="23589736" minute="48" player="D. Carvajal" playerid="2477263" result="" team="away" type="yellowcard"></event>
+<event id="23589737" minute="50" player="L. Modric" playerid="2332198" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23589738" minute="52" player="D. Carvajal" playerid="2477263" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23589739" minute="70" player="C. Ronaldo" playerid="2332215" result="[0 - 4]" team="away" type="goal"></event>
+<event id="23589740" minute="77" player="A. Teixeira (pen.)" playerid="2364907" result="[1 - 4]" team="home" type="goal"></event>
+<event id="23589741" minute="83" player="Dentinho" playerid="2364394" result="[2 - 4]" team="home" type="goal"></event>
+<event id="23589742" minute="87" player="Danilo" playerid="2407681" result="" team="away" type="yellowcard"></event>
+<event id="214910843" minute="88" player="A. Teixeira" playerid="2364907" result="[3 - 4]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match></league><league country="europe" name="Europe: Champions League - Qualification" cup="False" id="2838" sub_id="283811"><match alternate_id="4185390" alternate_id_2="4451390" date="26.08.2015" id="4302896" static_id="26081523402592344073" status="FT" time="18:45">
@@ -1117,47 +1135,6 @@
 <event id="200978646" minute="88" player="X. Alonso" playerid="2332165" result="[6 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[5-0]"></ht>
-</match><match alternate_id="4116080" alternate_id_2="4318297" date="15.04.2015" id="4233628" static_id="15041523462412342118" status="FT" time="18:45">
-<home goals="3" id="2346241" name="FC Porto"></home>
-<away goals="1" id="2342118" name="Bayern Munich"></away>
-<events>
-<event id="22196474" minute="2" player="M. Neuer" playerid="2333803" result="" team="away" type="yellowcard"></event>
-<event id="22196475" minute="3" player="R. Quaresma (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22196476" minute="10" player="R. Quaresma" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22196477" minute="16" player="J. Bernat" playerid="2536675" result="" team="away" type="yellowcard"></event>
-<event id="22196478" minute="28" player="T. Alcantara" playerid="2410850" result="[2 - 1]" team="away" type="goal"></event>
-<event id="22196479" minute="31" player="Casemiro" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22196480" minute="37" player="Alex Sandro" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22196481" minute="38" player="P. Lahm" playerid="2331847" result="" team="away" type="yellowcard"></event>
-<event id="22196482" minute="65" player="J. Martinez" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="200978243" minute="71" player="S. Rode" playerid="2369853" result="" team="away" type="yellowcard"></event>
-<event id="200978244" minute="83" player="Danilo" playerid="2481951" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[2-1]"></ht>
-</match><match alternate_id="4116076" alternate_id_2="4318299" date="15.04.2015" id="4233624" static_id="15041523418942347535" status="FT" time="18:45">
-<home goals="1" id="2341894" name="Paris SG"></home>
-<away goals="3" id="2347535" name="Barcelona"></away>
-<events>
-<event id="22196494" minute="18" player="Neymar" playerid="2434530" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22196495" minute="32" player="G. Pique" playerid="2342438" result="" team="away" type="yellowcard"></event>
-<event id="22196496" minute="37" player="Y. Cabaye" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22196497" minute="54" player="L. Messi" playerid="2331952" result="" team="away" type="yellowcard"></event>
-<event id="22196498" minute="67" player="L. Suarez" playerid="2334123" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22196499" minute="79" player="L. Suarez" playerid="2334123" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22196500" minute="82" player="J. Mathieu (o.g.)" playerid="2333127" result="[1 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4116078" alternate_id_2="4318296" date="14.04.2015" id="4233626" static_id="14041523475252347943" status="FT" time="18:45">
-<home goals="0" id="2347525" name="Atl. Madrid"></home>
-<away goals="0" id="2347943" name="Real Madrid"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="22196464" minute="55" player="M. Mandzukic" playerid="" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22196465" minute="80" player="S. Ramos" playerid="2332159" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22196466" minute="80" player="R. Garcia" playerid="" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22196467" minute="85" player="M. Suarez" playerid="" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="22196468" minute="89" player="Marcelo" playerid="2349295" result="" team="away" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="europe" name="Europe: Europa League - Play Offs" cup="False" id="2840" sub_id="284014"><match alternate_id="4229433" alternate_id_2="4488105" date="25.02.2016" id="4346921" static_id="25021623484422341918" status="FT" time="20:05">
 <home goals="2" id="2348442" name="Basel"></home>
 <away goals="1" id="2341918" name="St Etienne"></away>
@@ -1371,53 +1348,54 @@
 <event id="23894609" minute="62" player="Josue" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-2]"></ht>
-</match><match alternate_id="4229416" alternate_id_2="4488086" date="18.02.2016" id="4346904" static_id="18021623421022341082" status="FT" time="20:05">
-<home goals="0" id="2342102" name="Augsburg"></home>
-<away goals="0" id="2341082" name="Liverpool"></away>
+</match><match alternate_id="4229420" alternate_id_2="4488090" date="18.02.2016" id="4346908" static_id="18021623488622343758" status="FT" time="20:05">
+<home goals="1" id="2348862" name="Galatasaray"></home>
+<away goals="1" id="2343758" name="Lazio"></away>
 <events>
-<event id="23894364" minute="20" player="C. Janker" playerid="2348523" result="" team="home" type="yellowcard"></event>
-<event id="23894365" minute="59" player="D. Kohr" playerid="2569184" result="" team="home" type="yellowcard"></event>
-<event id="23894366" minute="73" player="T. Werner" playerid="2348133" result="" team="home" type="yellowcard"></event>
-<event id="23894367" minute="77" player="A. Moreno" playerid="2524575" result="" team="away" type="yellowcard"></event>
-<event id="23894368" minute="90" player="M. Feulner" playerid="2333526" result="" team="home" type="yellowcard"></event>
+<event id="23894404" minute="12" player="S. Sarioglu" playerid="2336464" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23894405" minute="21" player="R. Donk" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23894406" minute="21" player="S. Milinkovic-Savic" playerid="2630939" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23894407" minute="60" player="M. Parolo" playerid="2426178" result="" team="away" type="yellowcard"></event>
+<event id="23894408" minute="77" player="L. Biglia" playerid="2336361" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4229422" alternate_id_2="4488094" date="18.02.2016" id="4346910" static_id="18021623490382342409" status="FT" time="20:05">
+<home goals="0" id="2349038" name="Shakhtar"></home>
+<away goals="0" id="2342409" name="Schalke"></away>
+<events>
+<event id="23894444" minute="77" player="L. Sane" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23894445" minute="79" player="O. Kucher" playerid="2336500" result="" team="home" type="yellowcard"></event>
+<event id="23894446" minute="84" player="O. Gladkyj" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23894447" minute="86" player="O. Kucher" playerid="2336500" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4229418" alternate_id_2="4488096" date="18.02.2016" id="4346906" static_id="18021623404512346660" status="FT" time="20:05">
-<home goals="1" id="2340451" name="Sparta Prague"></home>
-<away goals="0" id="2346660" name="Krasnodar"></away>
+</match><match alternate_id="4229404" alternate_id_2="4488095" date="18.02.2016" id="4346892" static_id="18021623486042346279" status="FT" time="20:05">
+<home goals="1" id="2348604" name="Sion"></home>
+<away goals="2" id="2346279" name="Braga"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23894464" minute="30" player="V. Kalesin" playerid="2338519" result="" team="away" type="yellowcard"></event>
-<event assist="B. Dockal" assistid="15037" extra_min="" id="23894465" minute="64" player="L. Julis" playerid="2520864" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23894466" minute="67" player="P. Mamaev" playerid="2348569" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="4" id="23894467" minute="90" player="J. Brabec" playerid="2411928" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4229428" alternate_id_2="4488097" date="18.02.2016" id="4346916" static_id="18021623462812342114" status="FT" time="20:05">
-<home goals="0" id="2346281" name="Sporting"></home>
-<away goals="1" id="2342114" name="Bayer Leverkusen"></away>
-<events>
-<event id="23894474" minute="22" player="T. Jedvaj" playerid="2577634" result="" team="away" type="yellowcard"></event>
-<event id="23894475" minute="26" player="K. Bellarabi" playerid="2411243" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23894476" minute="30" player="A. Mehmedi" playerid="2376261" result="" team="away" type="yellowcard"></event>
-<event id="23894477" minute="46" player="H. Calhanoglu" playerid="2487243" result="" team="away" type="yellowcard"></event>
-<event id="23894478" minute="58" player="R. Semedo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23894479" minute="74" player="R. Semedo" playerid="" result="" team="home" type="yellowred"></event>
+<event id="23894454" minute="13" player="N. Stojiljkovic" playerid="2422491" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23894455" minute="19" player="N. Vukcevic" playerid="2518374" result="" team="away" type="yellowcard"></event>
+<event id="23894456" minute="20" player="E. Fernandes" playerid="2630006" result="" team="home" type="yellowcard"></event>
+<event id="23894457" minute="53" player="M. Konate" playerid="2527652" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23894458" minute="61" player="R. Silva" playerid="2538845" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23894459" minute="71" player="Carlitos" playerid="2343276" result="" team="home" type="yellowcard"></event>
+<event id="23894460" minute="90" player="N. Vukcevic" playerid="2518374" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4229406" alternate_id_2="4488099" date="18.02.2016" id="4346894" static_id="18021623480942338287" status="FT" time="20:05">
 <home goals="6" id="2348094" name="Valencia"></home>
 <away goals="0" id="2338287" name="Rapid Vienna"></away>
 <events>
-<event assist="A. Gomes" assistid="245897" extra_min="" id="23894494" minute="4" player="S. Mina" playerid="2613243" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="S. Mina" assistid="281410" extra_min="" id="23894495" minute="10" player="D. Parejo" playerid="2383111" result="[2 - 0]" team="home" type="goal"></event>
-<event assist="P. Piatti" assistid="59253" extra_min="" id="23894496" minute="25" player="S. Mina" playerid="2613243" result="[3 - 0]" team="home" type="goal"></event>
-<event assist="S. Mina" assistid="281410" extra_min="" id="23894497" minute="29" player="A. Negredo" playerid="2349731" result="[4 - 0]" team="home" type="goal"></event>
-<event assist="S. Mina" assistid="281410" extra_min="" id="23894498" minute="35" player="A. Gomes" playerid="2577730" result="[5 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23894499" minute="57" player="S. Schwab" playerid="2407235" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23894500" minute="65" player="S. Grahovac" playerid="" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23894501" minute="70" player="J. Cancelo" playerid="2493617" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23894502" minute="76" player="T. Petsos" playerid="2454655" result="" team="away" type="yellowcard"></event>
-<event assist="R. Vezo" assistid="244107" extra_min="" id="217958443" minute="89" player="Rodrigo" playerid="2448559" result="[6 - 0]" team="home" type="goal"></event>
+<event id="23894494" minute="4" player="S. Mina" playerid="2613243" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23894495" minute="10" player="D. Parejo" playerid="2383111" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23894496" minute="25" player="S. Mina" playerid="2613243" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23894497" minute="29" player="A. Negredo" playerid="2349731" result="[4 - 0]" team="home" type="goal"></event>
+<event id="23894498" minute="35" player="A. Gomes" playerid="2577730" result="[5 - 0]" team="home" type="goal"></event>
+<event id="23894499" minute="57" player="S. Schwab" playerid="2407235" result="" team="away" type="yellowcard"></event>
+<event id="23894500" minute="65" player="S. Grahovac" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23894501" minute="70" player="J. Cancelo" playerid="2493617" result="" team="home" type="yellowcard"></event>
+<event id="23894502" minute="76" player="T. Petsos" playerid="2454655" result="" team="away" type="yellowcard"></event>
+<event id="217958443" minute="89" player="Rodrigo" playerid="2448559" result="[6 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[5-0]"></ht>
 </match></league><league country="europe" name="Europe: Europa League - Group Stage" cup="False" id="2840" sub_id="28401"><match alternate_id="4204676" alternate_id_2="4457840" date="10.12.2015" id="4322180" static_id="10121523385732338406" status="FT" time="20:05">
@@ -1578,20 +1556,6 @@
 <event id="23593242" minute="78" player="T. Carroll" playerid="2505454" result="[4 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
-</match><match alternate_id="4204551" alternate_id_2="4457837" date="10.12.2015" id="4322055" static_id="10121523450162345582" status="FT" time="18:00">
-<home goals="1" id="2345016" name="Ajax"></home>
-<away goals="1" id="2345582" name="Molde"></away>
-<events>
-<event id="23591874" minute="14" player="D. van de Beek" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23591875" minute="29" player="H. Singh" playerid="2360039" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23591876" minute="62" player="N. Gudelj" playerid="2418237" result="" team="home" type="yellowcard"></event>
-<event id="23591877" minute="70" player="A. Milik" playerid="2529807" result="" team="home" type="yellowcard"></event>
-<event id="23591878" minute="70" player="D. Klaassen" playerid="2490414" result="" team="home" type="yellowcard"></event>
-<event id="23591879" minute="90" player="N. Gudelj" playerid="2418237" result="" team="home" type="yellowred"></event>
-<event id="23591880" minute="90" player="F. Gulbrandsen" playerid="2410267" result="" team="away" type="yellowcard"></event>
-<event id="23591881" minute="90" player="J. Riedewald" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match><match alternate_id="4204552" alternate_id_2="4457867" date="10.12.2015" id="4322056" static_id="10121523417082346729" status="FT" time="18:00">
 <home goals="2" id="2341708" name="Bordeaux"></home>
 <away goals="2" id="2346729" name="Rubin Kazan"></away>
@@ -1607,15 +1571,41 @@
 <event id="23592182" minute="86" player="F. Guilbert" playerid="2558061" result="" team="home" type="yellowred"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4204555" alternate_id_2="4457884" date="10.12.2015" id="4322059" static_id="10121523421362342685" status="FT" time="18:00">
-<home goals="0" id="2342136" name="Dortmund"></home>
-<away goals="1" id="2342685" name="PAOK"></away>
+</match><match alternate_id="4204550" alternate_id_2="4457887" date="10.12.2015" id="4322054" static_id="10121523488602346882" status="FT" time="18:00">
+<home goals="1" id="2348860" name="Fenerbahce"></home>
+<away goals="1" id="2346882" name="Celtic"></away>
 <events>
-<event assist="D. Konstantinidis" assistid="233602" extra_min="" id="23592344" minute="33" player="R. Mak" playerid="2461605" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592345" minute="36" player="D. Konstantinidis" playerid="2565435" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23592346" minute="43" player="A. Januzaj" playerid="2626272" result="" team="home" type="yellowcard"></event>
+<event id="23592374" minute="5" player="Diego" playerid="2333860" result="" team="home" type="yellowcard"></event>
+<event id="23592375" minute="5" player="S. Johansen" playerid="2360064" result="" team="away" type="yellowcard"></event>
+<event id="23592376" minute="14" player="J. Simunovic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23592377" minute="39" player="L. Markovic" playerid="2520951" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23592378" minute="51" player="A. Ba" playerid="2474175" result="" team="home" type="yellowcard"></event>
+<event id="23592379" minute="67" player="Diego" playerid="2333860" result="" team="home" type="redcard"></event>
+<event id="23592380" minute="75" player="K. Commons" playerid="2378086" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23592381" minute="83" player="D. Boyata" playerid="2442944" result="" team="away" type="yellowcard"></event>
+<event id="23592382" minute="90" player="K. Tierney" playerid="2655235" result="" team="away" type="yellowcard"></event>
+<event id="214937243" minute="90" player="M. Lustig" playerid="2360019" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4204554" alternate_id_2="4457892" date="10.12.2015" id="4322058" static_id="10121523384222346660" status="FT" time="18:00">
+<home goals="0" id="2338422" name="Gabala"></home>
+<away goals="3" id="2346660" name="Krasnodar"></away>
+<events>
+<event id="23592424" minute="9" player="C. Kabore" playerid="2352908" result="" team="away" type="yellowcard"></event>
+<event id="23592425" minute="25" player="Dodo" playerid="2417566" result="" team="home" type="yellowcard"></event>
+<event id="23592426" minute="26" player="R. Sigurdsson" playerid="2338078" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23592427" minute="41" player="M. Pereyra" playerid="2405854" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23592428" minute="76" player="W. Wanderson" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4204671" alternate_id_2="4457897" date="10.12.2015" id="4322175" static_id="10121523451132346279" status="FT" time="18:00">
+<home goals="0" id="2345113" name="Groningen"></home>
+<away goals="0" id="2346279" name="Braga"></away>
+<events>
+<event id="23592474" minute="58" player="M. Goiano" playerid="2506088" result="" team="away" type="yellowcard"></event>
+<event id="23592475" minute="71" player="C. Luiz" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4204670" alternate_id_2="4457910" date="10.12.2015" id="4322174" static_id="10121523404402341875" status="FT" time="18:00">
 <home goals="2" id="2340440" name="Liberec"></home>
 <away goals="4" id="2341875" name="Marseille"></away>
@@ -1637,51 +1627,21 @@
 <event id="214939548" minute="90" player="L. Ocampos" playerid="2512679" result="[2 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4204666" alternate_id_2="4457924" date="10.12.2015" id="4322170" static_id="10121523406002338585" status="FT" time="18:00">
-<home goals="1" id="2340600" name="Midtjylland"></home>
-<away goals="1" id="2338585" name="Club Brugge KV"></away>
-<events>
-<event assist="K. Olsson" assistid="209823" extra_min="" id="23592744" minute="27" player="P. Sisto" playerid="2608343" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592745" minute="52" player="A. Romer" playerid="2527685" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23592746" minute="56" player="V. Vazquez" playerid="2394640" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23592747" minute="67" player="J. Vossen" playerid="2341766" result="" team="away" type="yellowcard"></event>
-<event assist="T. Meunier" assistid="94078" extra_min="" id="23592748" minute="68" player="J. Vossen" playerid="2341766" result="[1 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592749" minute="87" player="J. Poulsen" playerid="2334143" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="3" id="23592750" minute="90" player="M. Andersen" playerid="2337151" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4204667" alternate_id_2="4457933" date="10.12.2015" id="4322171" static_id="10121523437802345902" status="FT" time="18:00">
 <home goals="5" id="2343780" name="Napoli"></home>
 <away goals="2" id="2345902" name="Legia"></away>
 <events>
-<event assist="O. El Kaddouri" assistid="63056" extra_min="" id="23592834" minute="32" player="N. Chalobah" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592835" minute="39" player="L. Insigne" playerid="2444993" result="[2 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592836" minute="55" player="I. Strinic" playerid="2377244" result="" team="home" type="yellowcard"></event>
-<event assist="D. Mertens" assistid="49531" extra_min="" id="23592837" minute="57" player="J. Callejon" playerid="2390153" result="[3 - 0]" team="home" type="goal"></event>
-<event assist="A. Prijovic" assistid="31558" extra_min="" id="23592838" minute="62" player="S. Vranjes" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-<event assist="J. Callejon" assistid="58320" extra_min="" id="23592839" minute="65" player="D. Mertens" playerid="2381364" result="[4 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592840" minute="89" player="N. Chalobah" playerid="" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="1" id="23592841" minute="90" player="D. Mertens" playerid="2381364" result="[5 - 1]" team="home" type="goal"></event>
-<event assist="I. Trickovski" assistid="47178" extra_min="2" id="23592842" minute="90" player="A. Prijovic" playerid="2363391" result="[5 - 2]" team="away" type="goal"></event>
+<event id="23592834" minute="32" player="N. Chalobah" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23592835" minute="39" player="L. Insigne" playerid="2444993" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23592836" minute="55" player="I. Strinic" playerid="2377244" result="" team="home" type="yellowcard"></event>
+<event id="23592837" minute="57" player="J. Callejon" playerid="2390153" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23592838" minute="62" player="S. Vranjes" playerid="" result="[3 - 1]" team="away" type="goal"></event>
+<event id="23592839" minute="65" player="D. Mertens" playerid="2381364" result="[4 - 1]" team="home" type="goal"></event>
+<event id="23592840" minute="89" player="N. Chalobah" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23592841" minute="90" player="D. Mertens" playerid="2381364" result="[5 - 1]" team="home" type="goal"></event>
+<event id="23592842" minute="90" player="A. Prijovic" playerid="2363391" result="[5 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4204669" alternate_id_2="4457941" date="10.12.2015" id="4322173" static_id="10121523404822348103" status="FT" time="18:00">
-<home goals="3" id="2340482" name="Plzen"></home>
-<away goals="3" id="2348103" name="Villarreal"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="23592914" minute="8" player="B. Jokic" playerid="2344718" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23592915" minute="8" player="D. Kolar (pen.)" playerid="2346842" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592916" minute="35" player="A. Mateju" playerid="2600647" result="" team="home" type="yellowcard"></event>
-<event assist="R. Soldado" assistid="3967" extra_min="" id="23592917" minute="40" player="C. Bakambu" playerid="2467974" result="[1 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592918" minute="45" player="J. Kopic" playerid="2418359" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23592919" minute="62" player="J. dos Santos" playerid="2426104" result="[1 - 2]" team="away" type="goal"></event>
-<event assist="J. Kopic" assistid="86526" extra_min="" id="23592920" minute="65" player="J. Kovarik" playerid="2380618" result="[2 - 2]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23592921" minute="77" player="T. Kucera" playerid="2564992" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23592922" minute="83" player="A. Mahmutovic" playerid="2371676" result="" team="home" type="yellowcard"></event>
-<event assist="D. Kolar" assistid="15009" extra_min="" id="214942643" minute="90" player="T. Horava" playerid="2363810" result="[3 - 2]" team="home" type="goal"></event>
-<event assist="D. Suarez" assistid="" extra_min="4" id="214942644" minute="90" player="Bruno" playerid="2352331" result="[3 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match><match alternate_id="4204668" alternate_id_2="4457947" date="10.12.2015" id="4322172" static_id="10121523382872338510" status="FT" time="18:00">
 <home goals="2" id="2338287" name="Rapid Vienna"></home>
 <away goals="1" id="2338510" name="Din. Minsk"></away>
@@ -1692,6 +1652,15 @@
 <event id="23592977" minute="65" player="M. El-Monir" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="4204553" alternate_id_2="4457960" date="10.12.2015" id="4322057" static_id="10121523486042341082" status="FT" time="18:00">
+<home goals="0" id="2348604" name="Sion"></home>
+<away goals="0" id="2341082" name="Liverpool"></away>
+<events>
+<event id="23593104" minute="34" player="E. Assifuah" playerid="2631563" result="" team="home" type="yellowcard"></event>
+<event id="23593105" minute="52" player="L. Kouassi" playerid="2435737" result="" team="home" type="yellowcard"></event>
+<event id="23593106" minute="82" player="N. Clyne" playerid="2398212" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="europe" name="Europe: Europa League - Qualification" cup="False" id="2840" sub_id="284015"><match alternate_id="4185410" alternate_id_2="4451435" date="27.08.2015" id="4302916" static_id="27081523460982338294" status="FT" time="20:30">
 <home goals="0" id="2346098" name="Belenenses"></home>
 <away goals="0" id="2338294" name="Altach"></away>
@@ -1947,19 +1916,6 @@
 <event id="23528029" minute="90" player="D. Formella" playerid="2545737" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4185416" alternate_id_2="4451432" date="27.08.2015" id="4302922" static_id="27081523403622345016" status="FT" time="16:00">
-<home goals="0" id="2340362" name="Jablonec"></home>
-<away goals="0" id="2345016" name="Ajax"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="23527824" minute="5" player="A. Milik" playerid="2529807" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23527825" minute="16" player="N. Crnkic" playerid="2578009" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23527826" minute="33" player="R. Bazoer" playerid="" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23527827" minute="42" player="J. Gregus" playerid="2418787" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23527828" minute="59" player="R. Bazoer" playerid="" result="" team="away" type="yellowred"></event>
-<event assist="" assistid="" extra_min="" id="23527829" minute="86" player="A. El-Ghazi" playerid="" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="4" id="23527830" minute="90" player="M. Travnik" playerid="2525329" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4185426" alternate_id_2="4451445" date="27.08.2015" id="4302932" static_id="27081523384062348626" status="FT" time="16:00">
 <home goals="3" id="2338406" name="Qarabag"></home>
 <away goals="0" id="2348626" name="Young Boys"></away>
@@ -1974,6 +1930,20 @@
 <event id="23527961" minute="88" player="F. Hadergjonaj" playerid="2646100" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[2-0]"></ht>
+</match><match alternate_id="4185444" alternate_id_2="4451447" date="27.08.2015" id="4302950" static_id="27081523467292344587" status="FT" time="16:00">
+<home goals="1" id="2346729" name="Rubin Kazan"></home>
+<away goals="0" id="2344587" name="Rabotnicki"></away>
+<events>
+<event id="23527974" minute="26" player="K. Ristevski" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23527975" minute="35" player="E. Carlos" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23527976" minute="51" player="M. Kanunnikov" playerid="2423079" result="" team="home" type="yellowcard"></event>
+<event id="23527977" minute="60" player="D. Trajcevski" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23527978" minute="85" player="O. Kuzmin" playerid="2338394" result="" team="home" type="yellowcard"></event>
+<event id="23527979" minute="90" player="B. Georgiev" playerid="2348291" result="" team="home" type="yellowcard"></event>
+<event id="23527980" minute="90" player="B. Ilijoski" playerid="2371568" result="" team="away" type="yellowcard"></event>
+<event id="23527981" minute="90" player="M. Altiparmakovski" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match></league><league country="europe" name="Europe: Uefa Super Cup" cup="True" id="3436" sub_id="34360"><match alternate_id="4131547" alternate_id_2="4339451" date="11.08.2015" id="4249086" static_id="11081523475352348008" status="AET" time="18:45">
 <home goals="5" id="2347535" name="Barcelona"></home>
 <away goals="4" id="2348008" name="Sevilla"></away>
@@ -1998,7 +1968,48 @@
 <event id="203093651" minute="120" player="D. Alves" playerid="2334956" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[3-1]"></ht>
-</match></league><league country="europe" name="Europe: Uefa Youth League - Play Offs" cup="False" id="4255" sub_id="42551"><match alternate_id="4249038" alternate_id_2="4499944" date="24.02.2016" id="4366488" static_id="24021623568542352192" status="FT" time="16:00">
+</match></league><league country="europe" name="Europe: Uefa Youth League - Play Offs" cup="False" id="4255" sub_id="42551"><match alternate_id="4252198" alternate_id_2="4502426" date="09.03.2016" id="4369636" static_id="09031623533872354766" status="15:00" time="15:00">
+<home goals="?" id="2353387" name="Paris SG U19"></home>
+<away goals="?" id="2354766" name="AS Roma U19"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251520" alternate_id_2="4504581" date="08.03.2016" id="4368960" static_id="08031623533832352191" status="FT" time="17:00">
+<home goals="2" id="2353383" name="Anderlecht U19"></home>
+<away goals="0" id="2352191" name="Barcelona U19"></away>
+<events>
+<event id="24059314" minute="16" player="F. Sarsanedas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24059315" minute="21" player="S. Van Der Heyden" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24059316" minute="33" player="S. Palencia" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24059317" minute="35" player="T. Amrani" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24059318" minute="53" player="J. Van Camp" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24059319" minute="88" player="A. Bernier" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24059320" minute="90" player="O. Mangala" playerid="" result="" team="home" type="redcard"></event>
+<event id="24059321" minute="90" player="C. Alena" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4251521" alternate_id_2="4502428" date="08.03.2016" id="4368961" static_id="08031623544332351431" status="FT" time="15:00">
+<home goals="2" id="2354433" name="Real Madrid U19"></home>
+<away goals="0" id="2351431" name="Benfica U19"></away>
+<events>
+<event id="24037784" minute="4" player="J. Lima" playerid="2622026" result="" team="away" type="yellowcard"></event>
+<event id="24037785" minute="32" player="D. Goncalves" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24037786" minute="49" player="R. Arnaiz Oscar" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24037787" minute="57" player="P. Amaral" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24037788" minute="66" player="A. Febas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24037789" minute="70" player="P. Amaral" playerid="" result="" team="away" type="yellowred"></event>
+<event id="24037790" minute="74" player="G. Rodrigues" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24037791" minute="77" player="A. Salto" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24037792" minute="79" player="J. Carvalho" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="219391343" minute="80" player="H. Pereira" playerid="2645909" result="" team="away" type="yellowcard"></event>
+<event id="219391344" minute="82" player="C. Cedres" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4251033" alternate_id_2="4502240" date="08.03.2016" id="4368474" static_id="08031623568502352191" status="Cancl." time="13:00">
+<home goals="?" id="2356850" name="D. Zagreb U19"></home>
+<away goals="?" id="2352191" name="Barcelona U19"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4249038" alternate_id_2="4499944" date="24.02.2016" id="4366488" static_id="24021623568542352192" status="FT" time="16:00">
 <home goals="0" id="2356854" name="Lyon U19"></home>
 <away goals="3" id="2352192" name="Ajax U19"></away>
 <events>
@@ -2739,62 +2750,6 @@
 <event id="23611700" minute="90" player="S. Edera" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="europe" name="Europe: Uefa Youth League - Play Offs" cup="False" id="4255" sub_id="42551"><match alternate_id="4119905" alternate_id_2="4323972" date="13.04.2015" id="4237449" static_id="13041523544352353380" status="FT" time="14:00">
-<home goals="2" id="2354435" name="Shakhtar U19"></home>
-<away goals="3" id="2353380" name="Chelsea U19"></away>
-<events>
-<event id="22253224" minute="7" player="I. Brown" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22253225" minute="37" player="A. Christensen (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22253226" minute="47" player="D. Solanke" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22253227" minute="55" player="I. Brown" playerid="" result="[1 - 3]" team="away" type="goal"></event>
-<event id="22253228" minute="80" player="B. Vachiberadze" playerid="2607556" result="" team="home" type="yellowcard"></event>
-<event id="22253229" minute="85" player="V. Kovalenko" playerid="2607661" result="" team="home" type="yellowcard"></event>
-<event id="22253230" minute="90" player="V. Kovalenko" playerid="2607661" result="[2 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4115261" alternate_id_2="4317935" date="10.04.2015" id="4232809" static_id="10041523547662353380" status="FT" time="15:15">
-<home goals="0" id="2354766" name="AS Roma U19"></home>
-<away goals="4" id="2353380" name="Chelsea U19"></away>
-<events>
-<event id="22192854" minute="20" player="L. Pellegrini" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22192855" minute="47" player="C. Colkett" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22192856" minute="49" player="D. Solanke" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22192857" minute="55" player="F. Di Mariano" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22192858" minute="56" player="D. Solanke" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="22192859" minute="65" player="J. Clarke-Salter" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22192860" minute="72" player="S. Anocic" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22192861" minute="83" player="T. Abraham" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4115629" alternate_id_2="4318119" date="10.04.2015" id="4233177" static_id="10041523533832354435" status="FT" time="11:00">
-<home goals="1" id="2353383" name="Anderlecht U19"></home>
-<away goals="3" id="2354435" name="Shakhtar U19"></away>
-<events>
-<event id="22194694" minute="16" player="S. Bourard" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22194695" minute="55" player="S. Bourard" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22194696" minute="65" player="O. Mangala" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22194697" minute="69" player="D. Arendaruk" playerid="2607660" result="" team="away" type="yellowcard"></event>
-<event id="22194698" minute="76" player="V. Kovalenko" playerid="2607661" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22194699" minute="77" player="G. Leemans" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22194700" minute="80" player="D. Arendaruk" playerid="2607660" result="[1 - 2]" team="away" type="goal"></event>
-<event id="22194701" minute="87" player="V. Kovalenko" playerid="2607661" result="[1 - 3]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4110399" alternate_id_2="4311728" date="18.03.2015" id="4227951" static_id="18031523533832354447" status="FT" time="18:00">
-<home goals="5" id="2353383" name="Anderlecht U19"></home>
-<away goals="0" id="2354447" name="FC Porto U19"></away>
-<events>
-<event id="22130784" minute="4" player="A. I. Leya" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22130785" minute="16" player="A. I. Leya (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="22130786" minute="25" player="S. Bourard" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="22130787" minute="36" player="S. Ribeiro" playerid="2601930" result="" team="away" type="yellowcard"></event>
-<event id="22130788" minute="55" player="A. I. Leya (pen.)" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-<event id="22130789" minute="62" player="L. Agbenyenu (o.g.)" playerid="" result="[5 - 0]" team="home" type="goal"></event>
-<event id="22130790" minute="69" player="S. Bastien" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22130791" minute="74" player="F. Irhene" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="22130792" minute="83" player="D. Lukebakio" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[3-0]"></ht>
 </match></league><league country="europe" name="Europe: Euro U21 - Qualification" cup="False" id="3940" sub_id="39402"><match alternate_id="4223396" alternate_id_2="4306543" date="17.11.2015" id="4340889" static_id="17111523454542348969" status="FT" time="19:30">
 <home goals="1" id="2345454" name="Northern Ireland U21"></home>
 <away goals="2" id="2348969" name="Ukraine U21"></away>
@@ -4098,12 +4053,19 @@
 <event id="216582144" minute="74" player="V. Muller" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4220025" alternate_id_2="4474335" date="26.10.2015" id="4337523" static_id="26101523511032351895" status="FT" time="15:00">
-<home goals="0" id="2351103" name="Serbia U17"></home>
-<away goals="0" id="2351895" name="Lithuania U17"></away>
+</match><match alternate_id="4220023" alternate_id_2="4474333" date="26.10.2015" id="4337521" static_id="26101523500302351879" status="FT" time="15:00">
+<home goals="0" id="2350030" name="FYR Macedonia U17"></home>
+<away goals="0" id="2351879" name="Bulgaria U17"></away>
 <events>
-<event id="23756854" minute="48" player="G. Daskevicius" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23756855" minute="79" player="T. Krapikas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23756834" minute="22" player="D. Kostadinov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23756835" minute="45" player="D. Mitrovski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23756836" minute="51" player="K. Nikolov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23756837" minute="59" player="P. Hristov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23756838" minute="59" player="B. Zdravevski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23756839" minute="61" player="P. Hristov" playerid="" result="" team="away" type="yellowred"></event>
+<event id="23756840" minute="66" player="H. Delevski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23756841" minute="74" player="H. Stevkovski" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23756842" minute="78" player="K. Ristovski" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="europe" name="Europe: Euro U17 - Play Offs" cup="False" id="3942" sub_id=""><match alternate_id="4128698" alternate_id_2="4335135" date="22.05.2015" id="4246239" static_id="22051523416492342079" status="FT" time="17:00">
@@ -4958,7 +4920,27 @@
 <event id="23566186" minute="87" player="B. G. Mujangi" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match></league><league country="europe" name="Europe: Premier League (Crimea)" cup="False" id="4480" sub_id="44800"><match alternate_id="4220007" alternate_id_2="4474127" date="22.11.2015" id="4337505" static_id="22111523555882356965" status="FT" time="12:00">
+</match></league><league country="europe" name="Europe: Premier League (Crimea)" cup="False" id="4480" sub_id="44800"><match alternate_id="4230337" alternate_id_2="4488517" date="06.03.2016" id="4347825" static_id="06031623569642356809" status="13:00" time="13:00">
+<home goals="?" id="2356964" name="Berkut Evpatoria"></home>
+<away goals="?" id="2356809" name="Yevpatoriya"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4252586" alternate_id_2="4488516" date="06.03.2016" id="4370023" static_id="06031623569662356893" status="12:00" time="12:00">
+<home goals="?" id="2356966" name="Rubin Yalta"></home>
+<away goals="?" id="2356893" name="Bakhchisaray"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4252585" alternate_id_2="4488515" date="06.03.2016" id="4370022" static_id="06031623571002356965" status="11:00" time="11:00">
+<home goals="?" id="2357100" name="Kafa"></home>
+<away goals="?" id="2356965" name="Ocean Kerch"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4252584" alternate_id_2="4488518" date="05.03.2016" id="4370021" static_id="05031623555882355587" status="13:00" time="13:00">
+<home goals="?" id="2355588" name="SKCHF Sevastopol"></home>
+<away goals="?" id="2355587" name="TSK Simferopol"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4220007" alternate_id_2="4474127" date="22.11.2015" id="4337505" static_id="22111523555882356965" status="FT" time="12:00">
 <home goals="2" id="2355588" name="SKCHF Sevastopol"></home>
 <away goals="0" id="2356965" name="Ocean Kerch"></away>
 <events>
@@ -5051,30 +5033,6 @@
 </match><match alternate_id="4219817" alternate_id_2="4467718" date="31.10.2015" id="4337316" static_id="31101523568092356965" status="FT" time="11:00">
 <home goals="1" id="2356809" name="Yevpatoriya"></home>
 <away goals="0" id="2356965" name="Ocean Kerch"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4219814" alternate_id_2="4466147" date="25.10.2015" id="4337313" static_id="25101523569652356964" status="FT" time="12:00">
-<home goals="3" id="2356965" name="Ocean Kerch"></home>
-<away goals="0" id="2356964" name="Berkut Evpatoria"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4219813" alternate_id_2="4465340" date="24.10.2015" id="4337312" static_id="24101523555872357100" status="FT" time="15:00">
-<home goals="2" id="2355587" name="TSK Simferopol"></home>
-<away goals="0" id="2357100" name="Kafa"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4220487" alternate_id_2="4466148" date="24.10.2015" id="4337985" static_id="24101523555882356966" status="FT" time="13:00">
-<home goals="3" id="2355588" name="SKCHF Sevastopol"></home>
-<away goals="0" id="2356966" name="Rubin Yalta"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="4219812" alternate_id_2="4465339" date="24.10.2015" id="4337311" static_id="24101523568932356809" status="FT" time="12:00">
-<home goals="2" id="2356893" name="Bakhchisaray"></home>
-<away goals="1" id="2356809" name="Yevpatoriya"></away>
 <events>
 </events>
 <ht score="[-]"></ht>

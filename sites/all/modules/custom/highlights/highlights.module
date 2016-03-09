@@ -1,0 +1,183 @@
+<?php
+
+
+/**
+ * Implements hook_cronapi().
+ */
+function highlights_cronapi() {
+  $items = array();
+  $items['highlights_buffer'] = array();
+  
+ 
+  
+  return $items;
+}
+
+/**
+ * Implements hook_view_menu().
+ */
+ 
+ function highlights_menu(){
+    
+    $items['admin/highlights/list'] = array(
+		'title' => 'List of highlights',
+		'page callback' => 'highlights_listall',
+		'access arguments' => array('view all highlights'),  
+		'type' => MENU_CALLBACK
+    );
+        
+	return $items;
+}
+
+function highlights_permission() {
+  return array(
+    'view all highlights' => array(
+      'title' => t('View all highlights'),
+      'description' => t('View all highlights'),
+    ),
+  );
+}
+
+function highlights_listall()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$highlights = $tipgin->getHighlights('today');
+	
+	
+	// Check all leagues
+	$str = '<h2>Hoy</h2>';
+	$str .= highlights_showit($highlights);
+	
+	$highlights = $tipgin->getHighlights('d-1');
+	$str .= '<h2>Ayer</h2>';
+	$str .= highlights_showit($highlights);
+	return $str;
+	
+	
+}
+
+function highlights_showit($highlights)
+{
+	$str = '';
+	
+	if(isset($highlights['league']['@attributes'])) $highlights['league'] = array($highlights['league']);
+	
+	if(isset($highlights['league']))
+		foreach($highlights['league'] as $league)
+		{
+			if(isset($league['match']['@attributes'])) $league['match'] = array($league['match']);
+			foreach($league['match'] as $match) 
+			{
+				$str .= "<strong>" 
+						. $match['home']['@attributes']['name'] . " vs " . $match['away']['@attributes']['name'] . '</strong><br>';
+				
+				if(is_array($match['match_highlights']['match_highlight']))
+				{
+					foreach($match['match_highlights']['match_highlight'] as $match_highlight)
+						$str .=	$match_highlight . '<br>';
+				}
+				else
+				{
+					if(isset($match['match_highlights']['match_highlight']))
+						$str .=	$match['match_highlights']['match_highlight'] . '<br>';
+				}
+			}
+		}
+		
+	
+	return $str;
+}
+
+
+/**
+ * Prepare data before sending to Buffer
+ * See README.txt for more informations.
+ * @param bool $send
+ * @param object $node
+ * @param string $text
+ * @param array $media
+ * @param bool $now 
+ */
+function highlights_bufferapp_data($send = TRUE, $node = NULL, $text, $media = array(), $now = FALSE, $scheduled_at = FALSE, $profile_only = false, $shorten = TRUE) {
+	$data['text'] = $text;
+	$data['media'] = $media;
+	$data['now'] = $now;
+	$data['shorten'] = $shorten;
+	$data['attachment'] = FALSE;
+	
+	if ($scheduled_at > 1) {
+		$data['now'] = FALSE;
+		$data['scheduled_at'] = $scheduled_at;
+	}
+	
+	// Get enabled profiles
+	$bufferapp_profiles = bufferapp_profiles();
+	if(!$profile_only)
+	{
+		$bufferapp_enabled = variable_get('bufferapp_selected_profiles');
+		foreach ($bufferapp_profiles as $profile) {
+			if ($bufferapp_enabled[$profile->id] == '0') {
+				unset($bufferapp_enabled[$profile->id]);
+			}
+		}
+	}
+	else
+	{
+		$bufferapp_enabled = array();
+		foreach ($bufferapp_profiles as $profile)
+			if($profile->formatted_username == $profile_only)
+				$bufferapp_enabled[$profile->id] = $profile->id;
+				
+	}
+	$data['profile_ids'] = array_keys($bufferapp_enabled);
+	
+	// Call hooks from other modules
+	//drupal_alter('bufferapp_data', $data, $node);
+	
+	if ($send) {
+		bufferapp_send_update($data);
+	} else {
+		return $data;
+	}
+}
+
+
+
+function highlights_buffer()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$highlights = $tipgin->getHighlights('d-1');
+	
+	
+	// Check all leagues
+	if(is_array($highlights['league']))
+		foreach($highlights['league'] as $league)
+		{
+			if(is_array($league['match']))
+				foreach($league['match'] as $match)
+				{
+					if(is_array($match['match_highlights']['match_highlight']))
+					{
+						
+					}
+					else
+					{
+						if(isset($match['match_highlights']['match_highlight']))
+						{
+							if($match['@attributes']['id']==4358646)
+							{
+								//dpm($match['match_highlights']['match_highlight']);
+								//https://www.youtube.com/watch?v=bKpJkoMMYhg
+								highlights_bufferapp_data(TRUE,NULL, 'Vide https://www.youtube.com/watch?v=bKpJkoMMYhg ', 
+									FALSE, TRUE, FALSE, '@soccer_labsen', FALSE);
+							}
+						}
+					}
+				}
+		}
+	
+	//dpm($highlights);
+	
+}

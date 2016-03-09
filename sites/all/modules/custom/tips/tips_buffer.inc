@@ -94,8 +94,8 @@ function tips_buffer_generate()
 				$date930am = new DateTime($date->format('Y-m-d') . ' 09:30',new DateTimeZone('America/Mexico_City'));
 				if($date > $date930am)
 				{
-					// ToDo : Random between 1 y 20 para los minutos
-					$date900am = new DateTime($date->format('Y-m-d') . ' 09:' . getRandomMinutesStr(0,20) ,new DateTimeZone('America/Mexico_City'));
+					// ToDo : Random between 1 y 59 para los minutos
+					$date900am = new DateTime($date->format('Y-m-d') . ' 09:' . getRandomMinutesStr(0,59) ,new DateTimeZone('America/Mexico_City'));
 					$date900am->setTimezone(new DateTimeZone('UTC'));
 					tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date900am->getTimestamp(), '@soccer_labs');
 					//tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date900am->getTimestamp(), 'Soccer Labs');
@@ -105,8 +105,8 @@ function tips_buffer_generate()
 				$date930am = new DateTime($date->format('Y-m-d') . ' 09:30',new DateTimeZone('Europe/London'));
 				if($date > $date930am)
 				{
-					// ToDo : Random between 1 y 20 para los minutos
-					$date900am = new DateTime($date->format('Y-m-d') . ' 09:' . getRandomMinutesStr(0,20) ,new DateTimeZone('Europe/London'));
+					// ToDo : Random between 1 y 59 para los minutos
+					$date900am = new DateTime($date->format('Y-m-d') . ' 09:' . getRandomMinutesStr(0,59) ,new DateTimeZone('Europe/London'));
 					$date900am->setTimezone(new DateTimeZone('UTC'));
 					tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextEN($match,$texten), getImagesByMatch($match), FALSE, $date900am->getTimestamp(), '@soccer_labsen');
 				}
@@ -118,7 +118,7 @@ function tips_buffer_generate()
 */
 				
 				
-				$date = $date->modify('-15 minutes');
+				$date = $date->modify('-' . rand(20,120) . ' minutes');
 				tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date->getTimestamp(), '@soccer_labs');
 				//tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextES($match,$textes), getImagesByMatch($match), FALSE, $date->getTimestamp(), 'Soccer Labs');
 				tips_buffer_bufferapp_data(TRUE,NULL, getTweetTextEN($match,$texten), getImagesByMatch($match), FALSE, $date->getTimestamp(), '@soccer_labsen');
@@ -279,19 +279,19 @@ function getTweetTextES($match,&$oldtexts,$nourl=false)
 	$arraystr[] = '[url] Tips, [local_team] contra [visitor_team] #pronosticos #futbol #apuestas RT pls';
 	
 */
-	$arraystr[] = '[local_team] vs [visitor_team] [url] atrévete a apostar gratis #pronosticos #futbol #apuestas RT pls';
-	$arraystr[] = 'Apuesta en el siguiente partido y gana [local_team] vs [visitor_team] [url] #pronósticos #futbol #apuestas';
-	$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
-	$arraystr[] = 'Tramos los pronósticos para que ganes [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	$arraystr[] = '[local_team] vs [visitor_team] [url] atrévete a apostar gratis #futbol #apuestas RT pls';
+	$arraystr[] = 'Apuesta en el siguiente partido y gana [local_team] vs [visitor_team] [url]  #futbol #apuestas';
+	//$arraystr[] = 'Revisa los tips para [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
+	//$arraystr[] = 'Traemos los pronósticos para que ganes [local_team] vs [visitor_team] [url] #pronosticos #futbol #apuestas';
 	$arraystr[] = '[local_team] vs [visitor_team] se enfrentan hoy [url] Apuesta gratis #futbol #apuestas';
-	$arraystr[] = 'Te damos los mejores tips para apostar en [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas';
-	$arraystr[] = 'Tips en el [local_team] vs [visitor_team] [url] para apostar gratis #pronosticos #futbol #apuestas';
+	//$arraystr[] = 'Te damos los mejores tips para apostar en [local_team] contra [visitor_team] [url] #pronosticos #futbol #apuestas';
+	//$arraystr[] = 'Tips en el [local_team] vs [visitor_team] [url] para apostar gratis #pronosticos #futbol #apuestas';
 	$arraystr[] = 'Hoy [local_team] vs [visitor_team] [url] apuesta gratis #futbol #apuestas';
-	$arraystr[] = 'Los mejores tips en [local_team] vs [visitor_team] [url] para apostar #futbol #apuestas';
-	$arraystr[] = 'Dale click [url] para ver los tips, [local_team] vs [visitor_team] y apostar #futbol #apuestas RT pls';
-	$arraystr[] = '[url] , [local_team] vs [visitor_team] aprovecha tips y apuesta gratis #futbol #apuestas RT pls';
-	$arraystr[] = '[url] Pronósticos [local_team] vs [visitor_team] aprovecha, apuesta y gana #futbol #apuestas RT pls';
-	$arraystr[] = '[url] Tips, [local_team] contra [visitor_team] apostar gratis está a tu alcance #futbol #apuestas RT pls';
+	//$arraystr[] = 'Los mejores tips en [local_team] vs [visitor_team] [url] para apostar #futbol #apuestas';
+	//$arraystr[] = 'Dale click [url] para ver los tips, [local_team] vs [visitor_team] y apostar #futbol #apuestas RT pls';
+	//$arraystr[] = '[url] , [local_team] vs [visitor_team] aprovecha tips y apuesta gratis #futbol #apuestas RT pls';
+	//$arraystr[] = '[url] Pronósticos [local_team] vs [visitor_team] aprovecha, apuesta y gana #futbol #apuestas RT pls';
+	//$arraystr[] = '[url] Tips, [local_team] contra [visitor_team] apostar gratis está a tu alcance #futbol #apuestas RT pls';
 	
 	foreach($arraystr as $id => $str)
 		if(is_array($oldtexts)) 
@@ -329,10 +329,10 @@ function getTweetTextEN($match,&$oldtexts,$nourl=false)
 	$arraystr = array();
 	$arraystr[] = '[local_team] vs [visitor_team] [url] #soccer #football';
 	$arraystr[] = '[url] , [local_team] vs [visitor_team] RT pls';
-	$arraystr[] = '[url] Tips, [local_team] vs [visitor_team] RT pls';
-	$arraystr[] = 'Check tips for [local_team] vs [visitor_team] [url] #soccer #football';
+	//$arraystr[] = '[url] Tips, [local_team] vs [visitor_team] RT pls';
+	//$arraystr[] = 'Check tips for [local_team] vs [visitor_team] [url] #soccer #football';
 	$arraystr[] = 'Today [local_team] vs [visitor_team] [url] RT pls';
-	$arraystr[] = 'Amazing tips for [local_team] vs [visitor_team] [url] RT pls';
+	//$arraystr[] = 'Amazing tips for [local_team] vs [visitor_team] [url] RT pls';
 	$arraystr[] = '[local_team] is playing vs [visitor_team] today! [url] #soccer #football';
 	$arraystr[] = 'Who are you backing today? [local_team] vs [visitor_team] ! [url] RT pls';
 	

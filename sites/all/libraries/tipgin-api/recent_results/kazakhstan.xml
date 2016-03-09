@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="28.02.2016 13:41:32" sport="soccer" country="kazakhstan"><league country="kazakhstan" name="Kazakhstan: Premier League - Relegation" cup="False" id="3109" sub_id=""><match alternate_id="" alternate_id_2="4480519" date="14.11.2015" id="4480519" static_id="14111523441142344103" status="FT" time="09:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:10" sport="soccer" country="kazakhstan"><league country="kazakhstan" name="Kazakhstan: Premier League - Relegation" cup="False" id="3109" sub_id=""><match alternate_id="" alternate_id_2="4480519" date="14.11.2015" id="4480519" static_id="14111523441142344103" status="FT" time="09:00">
 <home goals="1" id="2344114" name="Zhetysu Taldykorgan"></home>
 <away goals="0" id="2344103" name="Vostok Oskemen"></away>
 <events>
@@ -98,9 +98,9 @@
 <home goals="1" id="2344073" name="FC Astana"></home>
 <away goals="0" id="2344079" name="I. Pavlodar"></away>
 <events>
-<event id="23585064" minute="13" player="K. Geterijev" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23585064" minute="13" player="K. Geteriev" playerid="2338629" result="" team="away" type="yellowcard"></event>
 <event id="23585065" minute="26" player="E. Postnikov" playerid="2458024" result="" team="home" type="yellowcard"></event>
-<event id="23585066" minute="37" player="V. Cernysov" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23585066" minute="37" player="V. Chernyshov" playerid="2414778" result="" team="away" type="yellowcard"></event>
 <event id="23585067" minute="57" player="T. Nuserbajev" playerid="2397804" result="[1 - 0]" team="home" type="goal"></event>
 <event id="23585068" minute="70" player="S. Muzhikov" playerid="2456186" result="" team="home" type="yellowcard"></event>
 </events>
@@ -479,7 +479,7 @@
 <away goals="3" id="2344068" name="Okzhetpes"></away>
 <events>
 <event id="23244164" minute="23" player="A. Kuksin" playerid="2586651" result="" team="away" type="yellowcard"></event>
-<event id="23244165" minute="30" player="O. Chizhov" playerid="2384899" result="" team="away" type="yellowcard"></event>
+<event id="23244165" minute="30" player="O. Chyzhov" playerid="" result="" team="away" type="yellowcard"></event>
 <event id="23244166" minute="35" player="I. Samigullin" playerid="2466704" result="" team="home" type="yellowcard"></event>
 <event id="23244167" minute="40" player="A. Buleshev" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23244168" minute="53" player="D. Savic" playerid="2416091" result="" team="home" type="yellowcard"></event>
@@ -537,7 +537,7 @@
 <event id="22445804" minute="20" player="D. Despotovic" playerid="2490040" result="[0 - 1]" team="away" type="goal"></event>
 <event id="22445805" minute="41" player="S. Yavorsky" playerid="" result="" team="home" type="yellowcard"></event>
 <event id="22445806" minute="48" player="D. Despotovic" playerid="2490040" result="[0 - 2]" team="away" type="goal"></event>
-<event id="22445807" minute="58" player="A. Darabaev" playerid="2456158" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22445807" minute="58" player="A. Darabayev" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 <event id="22445808" minute="73" player="N. Zhumaskaliyev" playerid="" result="[1 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
@@ -562,7 +562,7 @@
 <event id="22445797" minute="53" player="J. Kabananga" playerid="2491851" result="[1 - 1]" team="away" type="goal"></event>
 <event id="22445798" minute="54" player="J. Kabananga" playerid="2491851" result="[1 - 2]" team="away" type="goal"></event>
 <event id="22445799" minute="82" player="S. Muzhikov" playerid="2456186" result="" team="away" type="yellowcard"></event>
-<event id="22445800" minute="86" player="E. Akhmetov" playerid="2455020" result="" team="away" type="yellowcard"></event>
+<event id="22445800" minute="86" player="Y. Akhmetov" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4110040" alternate_id_2="4343073" date="19.07.2015" id="4227592" static_id="19071523440512344095" status="FT" time="14:00">
@@ -645,7 +645,7 @@
 <away goals="0" id="2344051" name="Aktobe"></away>
 <events>
 <event id="22436794" minute="30" player="A. Zulpa" playerid="2408301" result="" team="away" type="yellowcard"></event>
-<event id="22436795" minute="67" player="V. Cernysov" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="22436795" minute="67" player="V. Chernyshov" playerid="2414778" result="" team="home" type="yellowcard"></event>
 <event id="22436796" minute="73" player="D. Zhalmukan" playerid="2605106" result="" team="away" type="yellowcard"></event>
 <event id="22436797" minute="80" player="A. Kislitsyn" playerid="2373210" result="" team="home" type="yellowcard"></event>
 <event id="22436798" minute="90" player="C. Fonseca" playerid="2473710" result="[1 - 0]" team="home" type="goal"></event>
@@ -723,6 +723,12 @@
 <event id="22427430" minute="89" player="Y. Tunggyshbayev" playerid="2654279" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match></league><league country="kazakhstan" name="Kazakhstan: Super Cup" cup="True" id="4333" sub_id=""><match alternate_id="" alternate_id_2="4502697" date="08.03.2016" id="4502697" static_id="08031623440732344081" status="Pen." time="09:00">
+<home goals="0" id="2344073" name="FC Astana"></home>
+<away goals="1" id="2344081" name="K. Almaty"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="kazakhstan" name="Kazakhstan: Kazakhstan Cup" cup="True" id="3957" sub_id="39570"><match alternate_id="4216851" alternate_id_2="4467181" date="21.11.2015" id="4334351" static_id="21111523440732344081" status="FT" time="09:00">
 <home goals="1" id="2344073" name="FC Astana"></home>
 <away goals="2" id="2344081" name="K. Almaty"></away>
@@ -889,10 +895,4 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match></league><league country="kazakhstan" name="Kazakhstan: Super Cup" cup="True" id="4333" sub_id=""><match alternate_id="" alternate_id_2="2331833" date="01.03.2015" id="2331833" static_id="01031523440732344081" status="Pen." time="09:30">
-<home goals="1" id="2344073" name="FC Astana"></home>
-<away goals="0" id="2344081" name="K. Almaty"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league></recent_results>

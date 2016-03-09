@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="28.02.2016 07:51:16" sport="soccer" country="wales"><league country="wales" name="Wales: Premier League - Relegation Group" cup="False" id="3285" sub_id="32853"><match alternate_id="4237660" alternate_id_2="4493546" date="05.03.2016" id="4355140" static_id="05031623494642349443" status="14:30" time="14:30">
-<home id="2349464" name="Carmarthen Town"></home>
-<away id="2349443" name="Bangor"></away>
-
-
-</match><match alternate_id="4237644" alternate_id_2="4493533" date="05.03.2016" id="4355124" static_id="05031623494642349486" status="Postp." time="14:30">
-<home id="2349464" name="Carmarthen Town"></home>
-<away id="2349486" name="Haverfordwest"></away>
-
-
-</match><match alternate_id="4237669" alternate_id_2="4493557" date="11.03.2016" id="4355149" static_id="11031623494432349439" status="19:45" time="19:45">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="09.03.2016 07:51:07" sport="soccer" country="wales"><league country="wales" name="Wales: Premier League - Relegation Group" cup="False" id="3285" sub_id="32853"><match alternate_id="4237669" alternate_id_2="4493557" date="11.03.2016" id="4355149" static_id="11031623494432349439" status="19:45" time="19:45">
 <home id="2349443" name="Bangor"></home>
 <away id="2349439" name="Aberystwyth"></away>
 
@@ -53,11 +43,6 @@
 <away id="2349464" name="Carmarthen Town"></away>
 
 
-</match><match alternate_id="4237679" alternate_id_2="4493565" date="19.03.2016" id="4355159" static_id="19031623495252349443" status="14:30" time="14:30">
-<home id="2349525" name="Rhyl"></home>
-<away id="2349443" name="Bangor"></away>
-
-
 </match></league><league country="wales" name="Wales: Premier League - Championship Group" cup="False" id="3285" sub_id="32854"><match alternate_id="4237675" alternate_id_2="4493566" date="19.03.2016" id="4355155" static_id="19031623494412349492" status="14:30" time="14:30">
 <home id="2349441" name="Airbus"></home>
 <away id="2349492" name="Llandudno"></away>
@@ -73,7 +58,12 @@
 <away id="2349442" name="Bala"></away>
 
 
-</match><match alternate_id="4237682" alternate_id_2="4493570" date="25.03.2016" id="4355162" static_id="25031623494422349441" status="14:30" time="14:30">
+</match></league><league country="wales" name="Wales: Premier League - Relegation Group" cup="False" id="3285" sub_id="32853"><match alternate_id="4237679" alternate_id_2="4493565" date="19.03.2016" id="4355159" static_id="19031623495252349443" status="17:15" time="17:15">
+<home id="2349525" name="Rhyl"></home>
+<away id="2349443" name="Bangor"></away>
+
+
+</match></league><league country="wales" name="Wales: Premier League - Championship Group" cup="False" id="3285" sub_id="32854"><match alternate_id="4237682" alternate_id_2="4493570" date="25.03.2016" id="4355162" static_id="25031623494422349441" status="14:30" time="14:30">
 <home id="2349442" name="Bala"></home>
 <away id="2349441" name="Airbus"></away>
 
@@ -88,12 +78,7 @@
 <away id="2349525" name="Rhyl"></away>
 
 
-</match></league><league country="wales" name="Wales: Premier League - Championship Group" cup="False" id="3285" sub_id="32854"><match alternate_id="4237683" alternate_id_2="4493571" date="25.03.2016" id="4355163" static_id="25031623495292349509" status="19:45" time="19:45">
-<home id="2349529" name="TNS"></home>
-<away id="2349509" name="Newtown"></away>
-
-
-</match></league><league country="wales" name="Wales: Premier League - Relegation Group" cup="False" id="3285" sub_id="32853"><match alternate_id="4237684" alternate_id_2="4493572" date="26.03.2016" id="4355164" static_id="26031623494432349486" status="14:30" time="14:30">
+</match><match alternate_id="4237684" alternate_id_2="4493572" date="26.03.2016" id="4355164" static_id="26031623494432349486" status="14:30" time="14:30">
 <home id="2349443" name="Bangor"></home>
 <away id="2349486" name="Haverfordwest"></away>
 
@@ -103,9 +88,19 @@
 <away id="2349468" name="Connahs Q."></away>
 
 
+</match><match alternate_id="4237683" alternate_id_2="4493571" date="26.03.2016" id="4355163" static_id="26031623495292349509" status="17:15" time="17:15">
+<home id="2349529" name="TNS"></home>
+<away id="2349509" name="Newtown"></away>
+
+
 </match></league><league country="wales" name="Wales: Premier League - Relegation Group" cup="False" id="3285" sub_id="32853"><match alternate_id="4237659" alternate_id_2="4493548" date="28.03.2016" id="4355139" static_id="28031623495172349525" status="13:30" time="13:30">
 <home id="2349517" name="Port Talbot"></home>
 <away id="2349525" name="Rhyl"></away>
+
+
+</match><match alternate_id="4237644" alternate_id_2="4493533" date="02.04.2016" id="4355124" static_id="02041623494642349486" status="13:30" time="13:30">
+<home id="2349464" name="Carmarthen Town"></home>
+<away id="2349486" name="Haverfordwest"></away>
 
 
 </match><match alternate_id="4237686" alternate_id_2="4495869" date="08.04.2016" id="4355166" static_id="08041623494392349486" status="18:45" time="18:45">
@@ -178,6 +173,11 @@
 <away id="2349486" name="Haverfordwest"></away>
 
 
+</match><match alternate_id="4237703" alternate_id_2="4501091" date="23.04.2016" id="4355183" static_id="23041623495252349464" status="16:15" time="16:15">
+<home id="2349525" name="Rhyl"></home>
+<away id="2349464" name="Carmarthen Town"></away>
+
+
 </match></league><league country="wales" name="Wales: Premier League - Championship Group" cup="False" id="3285" sub_id="32854"><match alternate_id="4237699" alternate_id_2="4501013" date="23.04.2016" id="4355179" static_id="23041623494412349509" status="16:15" time="16:15">
 <home id="2349441" name="Airbus"></home>
 <away id="2349509" name="Newtown"></away>
@@ -193,52 +193,7 @@
 <away id="2349529" name="TNS"></away>
 
 
-</match></league><league country="wales" name="Wales: Division 1" cup="False" id="3283" sub_id="32831"><match alternate_id="" alternate_id_2="4488968" date="01.03.2016" id="" static_id="01031623495302349528" status="19:30" time="19:30">
-<home id="2349530" name="Ton Pentre"></home>
-<away id="2349528" name="Taffs Well"></away>
-
-
-</match><match alternate_id="4194628" alternate_id_2="4499023" date="04.03.2016" id="4312133" static_id="04031623494522349481" status="19:30" time="19:30">
-<home id="2349452" name="Briton Ferry"></home>
-<away id="2349481" name="Goytre Utd"></away>
-
-
-</match><match alternate_id="4194625" alternate_id_2="4499062" date="05.03.2016" id="4312130" static_id="05031623494382349437" status="14:30" time="14:30">
-<home id="2349438" name="Aberbargoed"></home>
-<away id="2349437" name="Aberdare"></away>
-
-
-</match><match alternate_id="4194626" alternate_id_2="4499024" date="05.03.2016" id="4312131" static_id="05031623494402344504" status="14:30" time="14:30">
-<home id="2349440" name="Afan Lido"></home>
-<away id="2344504" name="Risca"></away>
-
-
-</match><match alternate_id="4194627" alternate_id_2="4499025" date="05.03.2016" id="4312132" static_id="05031623494452349456" status="14:30" time="14:30">
-<home id="2349445" name="Barry"></home>
-<away id="2349456" name="Caerau Ely"></away>
-
-
-</match><match alternate_id="4194629" alternate_id_2="4499071" date="05.03.2016" id="4312134" static_id="05031623494612352098" status="14:30" time="14:30">
-<home id="2349461" name="Cambrian and Clydach"></home>
-<away id="2352098" name="Goytre AFC"></away>
-
-
-</match><match alternate_id="4194631" alternate_id_2="4499094" date="05.03.2016" id="4312136" static_id="05031623495282354327" status="14:30" time="14:30">
-<home id="2349528" name="Taffs Well"></home>
-<away id="2354327" name="Penybont"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4499095" date="05.03.2016" id="" static_id="05031623495302349477" status="14:30" time="14:30">
-<home id="2349530" name="Ton Pentre"></home>
-<away id="2349477" name="Garden Village"></away>
-
-
-</match><match alternate_id="" alternate_id_2="4485690" date="08.03.2016" id="" static_id="08031623495302354327" status="19:30" time="19:30">
-<home id="2349530" name="Ton Pentre"></home>
-<away id="2354327" name="Penybont"></away>
-
-
-</match><match alternate_id="4194587" alternate_id_2="4491676" date="09.03.2016" id="4312092" static_id="09031623494372354327" status="19:30" time="19:30">
+</match></league><league country="wales" name="Wales: Division 1" cup="False" id="3283" sub_id="32831"><match alternate_id="4194587" alternate_id_2="4491676" date="09.03.2016" id="4312092" static_id="09031623494372354327" status="19:30" time="19:30">
 <home id="2349437" name="Aberdare"></home>
 <away id="2354327" name="Penybont"></away>
 
@@ -293,23 +248,58 @@
 <away id="2349438" name="Aberbargoed"></away>
 
 
-</match></league><league country="wales" name="Wales: Fa Cup" cup="True" id="3407" sub_id="34070"><match alternate_id="4248562" alternate_id_2="4499938" date="05.03.2016" id="4366013" static_id="05031623494712349517" status="14:00" time="14:00">
-<home id="2349471" name="Cwmbran Celtic"></home>
-<away id="2349517" name="Port Talbot"></away>
+</match><match alternate_id="4194499" alternate_id_2="4472138" date="19.03.2016" id="4312004" static_id="19031623495302349445" status="14:30" time="14:30">
+<home id="2349530" name="Ton Pentre"></home>
+<away id="2349445" name="Barry"></away>
 
 
-</match><match alternate_id="4249358" alternate_id_2="4500358" date="05.03.2016" id="4366807" static_id="05031623494412349442" status="14:30" time="14:30">
-<home id="2349441" name="Airbus"></home>
-<away id="2349442" name="Bala"></away>
+</match><match alternate_id="4194549" alternate_id_2="4483988" date="22.03.2016" id="4312054" static_id="22031623494372349481" status="19:30" time="19:30">
+<home id="2349437" name="Aberdare"></home>
+<away id="2349481" name="Goytre Utd"></away>
 
 
-</match><match alternate_id="4248563" alternate_id_2="4499939" date="05.03.2016" id="4366014" static_id="05031623495292349509" status="14:30" time="14:30">
+</match><match alternate_id="4194510" alternate_id_2="4475706" date="23.03.2016" id="4312015" static_id="23031623494382349456" status="19:30" time="19:30">
+<home id="2349438" name="Aberbargoed"></home>
+<away id="2349456" name="Caerau Ely"></away>
+
+
+</match><match alternate_id="4194492" alternate_id_2="4471756" date="25.03.2016" id="4311997" static_id="25031623494402349481" status="19:30" time="19:30">
+<home id="2349440" name="Afan Lido"></home>
+<away id="2349481" name="Goytre Utd"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4471779" date="25.03.2016" id="" static_id="25031623495282349437" status="19:30" time="19:30">
+<home id="2349528" name="Taffs Well"></home>
+<away id="2349437" name="Aberdare"></away>
+
+
+</match><match alternate_id="4194533" alternate_id_2="4481107" date="26.03.2016" id="4312038" static_id="26031623494452349533" status="14:30" time="14:30">
+<home id="2349445" name="Barry"></home>
+<away id="2349533" name="Cardiff Metropolitan"></away>
+
+
+</match><match alternate_id="4194528" alternate_id_2="4479553" date="26.03.2016" id="4312033" static_id="26031623494522349456" status="14:30" time="14:30">
+<home id="2349452" name="Briton Ferry"></home>
+<away id="2349456" name="Caerau Ely"></away>
+
+
+</match><match alternate_id="4194513" alternate_id_2="4475725" date="26.03.2016" id="4312018" static_id="26031623494612349530" status="14:30" time="14:30">
+<home id="2349461" name="Cambrian and Clydach"></home>
+<away id="2349530" name="Ton Pentre"></away>
+
+
+</match><match alternate_id="4194610" alternate_id_2="4494229" date="26.03.2016" id="4312115" static_id="26031623520982344504" status="14:30" time="14:30">
+<home id="2352098" name="Goytre AFC"></home>
+<away id="2344504" name="Risca"></away>
+
+
+</match></league><league country="wales" name="Wales: Fa Cup" cup="True" id="3407" sub_id="34070"><match alternate_id="" alternate_id_2="4506310" date="02.04.2016" id="" static_id="02041623495172349441" status="13:30" time="13:30">
+<home id="2349517" name="Port Talbot"></home>
+<away id="2349441" name="Airbus"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4506311" date="02.04.2016" id="" static_id="02041623495292349468" status="13:30" time="13:30">
 <home id="2349529" name="TNS"></home>
-<away id="2349509" name="Newtown"></away>
-
-
-</match><match alternate_id="4248561" alternate_id_2="4499937" date="05.03.2016" id="4366012" static_id="05031623495332349468" status="17:00" time="17:00">
-<home id="2349533" name="Cardiff Metropolitan"></home>
 <away id="2349468" name="Connahs Q."></away>
 
 

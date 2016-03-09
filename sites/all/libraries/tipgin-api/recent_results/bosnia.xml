@@ -1,19 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="28.02.2016 13:40:54" sport="soccer" country="bosnia"><league country="bosnia" name="Bosnia And Herzegovina: Premier League" cup="False" id="2944" sub_id="29440"><match alternate_id="4185916" alternate_id_2="4482792" date="28.02.2016" id="4303422" static_id="28021623389112338902" status="15:30" time="15:30">
-<home goals="?" id="2338911" name="Zeljeznicar"></home>
-<away goals="?" id="2338902" name="Siroki Brijeg"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4185920" alternate_id_2="4482847" date="28.02.2016" id="4303426" static_id="28021623389122338901" status="14:00" time="14:00">
-<home goals="?" id="2338912" name="Zrinjski"></home>
-<away goals="?" id="2338901" name="FK Sarajevo"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4185923" alternate_id_2="4482659" date="28.02.2016" id="4303429" static_id="28021623389042338894" status="4" time="13:30" v="0">
-<home goals="0" id="2338904" name="Slavija"></home>
-<away goals="0" id="2338894" name="Olimpic Sarajevo"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:40:43" sport="soccer" country="bosnia"><league country="bosnia" name="Bosnia And Herzegovina: Premier League" cup="False" id="2944" sub_id="29440"><match alternate_id="4185924" alternate_id_2="4484410" date="06.03.2016" id="4303430" static_id="06031623389022338912" status="FT" time="16:00">
+<home goals="3" id="2338902" name="Siroki Brijeg"></home>
+<away goals="4" id="2338912" name="Zrinjski"></away>
+<events>
+<event id="23857604" minute="6" player="I. Crnov" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23857605" minute="12" player="I. Krstanovic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23857606" minute="30" player="J. Mesanovic" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event id="23857607" minute="47" player="O. Petrak" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+<event id="23857608" minute="70" player="O. Todorovic" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="23857609" minute="76" player="B. Pandza" playerid="" result="[3 - 3]" team="home" type="goal"></event>
+<event id="23857610" minute="90" player="" playerid="" result="[3 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4185928" alternate_id_2="4484354" date="06.03.2016" id="4303434" static_id="06031623389052338854" status="FT" time="14:00">
+<home goals="1" id="2338905" name="Sloboda"></home>
+<away goals="0" id="2338854" name="Radnik Bijeljina"></away>
+<events>
+<event id="23857044" minute="44" player="E. Saric" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4185925" alternate_id_2="4484392" date="05.03.2016" id="4303431" static_id="05031623389012338836" status="FT" time="16:00">
+<home goals="2" id="2338901" name="FK Sarajevo"></home>
+<away goals="1" id="2338836" name="Celik Zenica"></away>
+<events>
+<event id="23857424" minute="59" player="M. Popovic" playerid="2620242" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23857425" minute="69" player="L. Benko" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23857426" minute="90" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4185927" alternate_id_2="4484406" date="05.03.2016" id="4303433" static_id="05031623388422338904" status="FT" time="14:00">
+<home goals="1" id="2338842" name="Drina Zvornik"></home>
+<away goals="1" id="2338904" name="Slavija"></away>
+<events>
+<event id="23857564" minute="42" player="S. Culibrk" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23857565" minute="89" player="N. Pusara" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4185929" alternate_id_2="4484250" date="05.03.2016" id="4303435" static_id="05031623541082338892" status="FT" time="14:00">
+<home goals="0" id="2354108" name="Mladost DK"></home>
+<away goals="0" id="2338892" name="NK Vitez"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4185926" alternate_id_2="4484371" date="05.03.2016" id="4303432" static_id="05031623388942338835" status="FT" time="14:00">
+<home goals="3" id="2338894" name="Olimpic Sarajevo"></home>
+<away goals="0" id="2338835" name="Borac Banja Luka"></away>
+<events>
+<event id="23857214" minute="28" player="V. Muharemovic" playerid="2352964" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23857215" minute="55" player="B. Raspudic" playerid="2467678" result="" team="away" type="redcard"></event>
+<event id="23857216" minute="71" player="Andu?ic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23857217" minute="86" player="D. Uzelac" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4185931" alternate_id_2="4484405" date="05.03.2016" id="4303437" static_id="05031623389092338900" status="FT" time="14:00">
+<home goals="0" id="2338909" name="Travnik"></home>
+<away goals="0" id="2338900" name="Prijedor"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4185930" alternate_id_2="4484324" date="05.03.2016" id="4303436" static_id="05031623389102338911" status="FT" time="14:00">
+<home goals="0" id="2338910" name="Velez Mostar"></home>
+<away goals="1" id="2338911" name="Zeljeznicar"></away>
+<events>
+<event id="23856744" minute="59" player="S. Bekric (pen.)" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4185916" alternate_id_2="4482792" date="28.02.2016" id="4303422" static_id="28021623389112338902" status="FT" time="15:30">
+<home goals="2" id="2338911" name="Zeljeznicar"></home>
+<away goals="0" id="2338902" name="Siroki Brijeg"></away>
+<events>
+<event id="23841424" minute="20" player="I. Lendric" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23841425" minute="85" player="S. Bekric" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4185920" alternate_id_2="4482847" date="28.02.2016" id="4303426" static_id="28021623389122338901" status="FT" time="14:00">
+<home goals="2" id="2338912" name="Zrinjski"></home>
+<away goals="2" id="2338901" name="FK Sarajevo"></away>
+<events>
+<event id="23841974" minute="23" player="D. Simeunovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23841975" minute="45" player="O. Todorovic" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23841976" minute="68" player="A. Bekic" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23841977" minute="84" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4185923" alternate_id_2="4482659" date="28.02.2016" id="4303429" static_id="28021623389042338894" status="FT" time="13:30">
+<home goals="1" id="2338904" name="Slavija"></home>
+<away goals="0" id="2338894" name="Olimpic Sarajevo"></away>
+<events>
+<event id="23840094" minute="45" player="D. Spalevic (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4185917" alternate_id_2="4482791" date="27.02.2016" id="4303423" static_id="27021623388352338905" status="FT" time="16:00">
 <home goals="0" id="2338835" name="Borac Banja Luka"></home>
 <away goals="0" id="2338905" name="Sloboda"></away>
@@ -74,24 +149,6 @@
 <event id="23812747" minute="90" player="A. Hadziahmetovic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4185910" alternate_id_2="4479827" date="05.12.2015" id="4303416" static_id="05121523388422338836" status="FT" time="12:00">
-<home goals="0" id="2338842" name="Drina Zvornik"></home>
-<away goals="2" id="2338836" name="Celik Zenica"></away>
-<events>
-<event id="23811774" minute="38" player="B. Colic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23811775" minute="75" player="B. Eric" playerid="" result="" team="home" type="redcard"></event>
-<event id="23811776" minute="76" player="M. Popovic (pen.)" playerid="2620242" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4185911" alternate_id_2="4479961" date="05.12.2015" id="4303417" static_id="05121523541082338835" status="FT" time="12:00">
-<home goals="1" id="2354108" name="Mladost DK"></home>
-<away goals="2" id="2338835" name="Borac Banja Luka"></away>
-<events>
-<event id="23813114" minute="77" player="E. Husic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23813115" minute="86" player="U. Radinovic" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23813116" minute="90" player="L. Marjanovic" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
 </match><match alternate_id="4185913" alternate_id_2="4479984" date="05.12.2015" id="4303419" static_id="05121523388942338900" status="FT" time="12:00">
 <home goals="6" id="2338894" name="Olimpic Sarajevo"></home>
 <away goals="2" id="2338900" name="Prijedor"></away>
@@ -110,67 +167,33 @@
 <home goals="4" id="2338905" name="Sloboda"></home>
 <away goals="0" id="2338904" name="Slavija"></away>
 <events>
-<event id="23812984" minute="19" player="M. Ahmetovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23812985" minute="40" player="(pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23812986" minute="79" player="A. Ordagic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23812984" minute="20" player="M. Ahmetovic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23812985" minute="40" player="Z. Zeba (pen.)" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23812986" minute="78" player="A. Ordagic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 <event id="23812987" minute="82" player="S. Krpic" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4185909" alternate_id_2="4479986" date="05.12.2015" id="4303415" static_id="05121523389092338912" status="FT" time="12:00">
-<home goals="1" id="2338909" name="Travnik"></home>
-<away goals="4" id="2338912" name="Zrinjski"></away>
-<events>
-<event id="23813364" minute="4" player="J. Mesanovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23813365" minute="16" player="G. Zakaric" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23813366" minute="40" player="G. Zakaric" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="23813367" minute="57" player="N. Lastro" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="23813368" minute="62" player="A. Nuhic" playerid="2466145" result="[1 - 4]" team="home" type="goal"></event>
-</events>
-<ht score="[0-3]"></ht>
-</match><match alternate_id="4185915" alternate_id_2="4479992" date="05.12.2015" id="4303421" static_id="05121523389102338854" status="FT" time="12:00">
-<home goals="0" id="2338910" name="Velez Mostar"></home>
-<away goals="2" id="2338854" name="Radnik Bijeljina"></away>
-<events>
-<event id="23813424" minute="26" player="A. Skaljic" playerid="2427078" result="" team="home" type="yellowred"></event>
-<event id="23813425" minute="31" player="M. Obradovic" playerid="2421753" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23813426" minute="72" player="M. Maksimovic" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4185904" alternate_id_2="4477907" date="29.11.2015" id="4303410" static_id="29111523389012338909" status="FT" time="12:00">
-<home goals="4" id="2338901" name="FK Sarajevo"></home>
-<away goals="0" id="2338909" name="Travnik"></away>
-<events>
-<event id="23792574" minute="25" player="L. Benko" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23792575" minute="26" player="H. Duljevic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23792576" minute="52" player="A. Kovacevic" playerid="2523380" result="[3 - 0]" team="home" type="goal"></event>
-<event id="23792577" minute="87" player="A. Osmanovic" playerid="" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4185902" alternate_id_2="4478021" date="29.11.2015" id="4303408" static_id="29111523388542338911" status="FT" time="12:00">
-<home goals="0" id="2338854" name="Radnik Bijeljina"></home>
-<away goals="0" id="2338911" name="Zeljeznicar"></away>
-<events>
-<event id="23793714" minute="57" player="O. Delmic" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4185906" alternate_id_2="4478080" date="29.11.2015" id="4303412" static_id="29111523389042354108" status="FT" time="12:00">
-<home goals="1" id="2338904" name="Slavija"></home>
-<away goals="1" id="2354108" name="Mladost DK"></away>
-<events>
-<event id="23794304" minute="26" player="A. Delic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23794305" minute="39" player="S. Baric" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4185903" alternate_id_2="4478139" date="28.11.2015" id="4303409" static_id="28111523388352338910" status="FT" time="14:00">
-<home goals="2" id="2338835" name="Borac Banja Luka"></home>
-<away goals="1" id="2338910" name="Velez Mostar"></away>
-<events>
-<event id="23794894" minute="14" player="A. Redzic" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23794895" minute="71" player="S. Jandric" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23794896" minute="87" player="M. Cemalovic" playerid="2433193" result="[2 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match></league><league country="bosnia" name="Bosnia And Herzegovina: Bosnia And Herzegovina Cup" cup="True" id="3726" sub_id="37260"><match alternate_id="4224739" alternate_id_2="4473167" date="04.11.2015" id="4342231" static_id="" status="FT" time="12:30">
+</match></league><league country="bosnia" name="Bosnia And Herzegovina: Bosnia And Herzegovina Cup" cup="True" id="3726" sub_id="37260"><match alternate_id="4249942" alternate_id_2="4500765" date="09.03.2016" id="4367390" static_id="09031623388352338911" status="17:00" time="17:00">
+<home goals="?" id="2338835" name="Borac Banja Luka"></home>
+<away goals="?" id="2338911" name="Zeljeznicar"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4249943" alternate_id_2="4500766" date="09.03.2016" id="4367391" static_id="09031623388532338854" status="14:00" time="14:00">
+<home goals="?" id="2338853" name="FK Radnicki Lukavac"></home>
+<away goals="?" id="2338854" name="Radnik Bijeljina"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4249944" alternate_id_2="4500767" date="09.03.2016" id="4367392" static_id="09031623389022354108" status="14:00" time="14:00">
+<home goals="?" id="2338902" name="Siroki Brijeg"></home>
+<away goals="?" id="2354108" name="Mladost DK"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4249945" alternate_id_2="4500768" date="09.03.2016" id="4367393" static_id="09031623471482338901" status="14:00" time="14:00">
+<home goals="?" id="2347148" name="Sloboda"></home>
+<away goals="?" id="2338901" name="FK Sarajevo"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4224739" alternate_id_2="4473167" date="04.11.2015" id="4342231" static_id="" status="FT" time="12:30">
 <home goals="0" id="" name="Bratstvo Gracanica"></home>
 <away goals="2" id="2338835" name="Borac Banja Luka"></away>
 <events>
@@ -322,38 +345,4 @@
 <event id="23745166" minute="76" player="D. Beganovic" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4214957" alternate_id_2="4464257" date="23.09.2015" id="4332458" static_id="23091523389122338901" status="Pen." time="16:00">
-<home goals="1" id="2338912" name="Zrinjski"></home>
-<away goals="2" id="2338901" name="FK Sarajevo"></away>
-<events>
-<event id="23656074" minute="60" player="S. Nikolic" playerid="2371487" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23656075" minute="62" player="A. Bekic" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4215962" alternate_id_2="4464242" date="23.09.2015" id="4333462" static_id="23091523388362338892" status="FT" time="14:00">
-<home goals="1" id="2338836" name="Celik Zenica"></home>
-<away goals="0" id="2338892" name="NK Vitez"></away>
-<events>
-<event id="23655924" minute="88" player="A. Dedic (pen.)" playerid="2528748" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4214944" alternate_id_2="4464244" date="23.09.2015" id="4332445" static_id="" status="FT" time="14:00">
-<home goals="0" id="2338842" name="Drina Zvornik"></home>
-<away goals="1" id="" name="Bratstvo Gracanica"></away>
-<events>
-<event id="23655944" minute="81" player="V. Kahrimanovic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4215970" alternate_id_2="4464251" date="23.09.2015" id="4333470" static_id="23091523566802338909" status="FT" time="14:00">
-<home goals="1" id="2356680" name="NK Novi Travnik"></home>
-<away goals="5" id="2338909" name="Travnik"></away>
-<events>
-<event id="23656014" minute="37" player="I. Smajic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23656015" minute="45" player="A. Plakalo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23656016" minute="67" player="A. Curic" playerid="2426275" result="[0 - 3]" team="away" type="goal"></event>
-<event id="23656017" minute="75" player="G. Kouadio" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="23656018" minute="85" player="A. Prutina" playerid="" result="[1 - 4]" team="home" type="goal"></event>
-<event id="23656019" minute="89" player="A. Curic" playerid="2426275" result="[1 - 5]" team="away" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match></league></recent_results>

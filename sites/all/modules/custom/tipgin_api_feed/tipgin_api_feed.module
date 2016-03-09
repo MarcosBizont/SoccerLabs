@@ -501,10 +501,17 @@ function tipgin_api_feed_cronapi() {
 	$items['tipgin_api_feed_action_gethistory'] = array();
 	
 	$items['tipgin_api_feed_action_getoddsfile'] = array();
+	$items['tipgin_api_feed_action_gethighlightsfile'] = array();
 	
 	return $items;
 }
 
+function tipgin_api_feed_action_gethighlightsfile()
+{
+	libraries_load('tipgin-api');
+	$tipgin = new TipGinApi(variable_get('tipgin_api_feed_apikey', ''));
+	$tipgin->getHighlightsFile();
+}
 
 function tipgin_api_feed_action_getoddsfile()
 {

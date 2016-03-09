@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="28.02.2016 13:42:06" sport="soccer" country="sweden"><league country="sweden" name="Sweden: Allsvenskan - Relegation" cup="False" id="3240" sub_id="32402"><match alternate_id="4221775" alternate_id_2="4478707" date="08.11.2015" id="4339272" static_id="08111523482692348384" status="FT" time="16:15">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:39" sport="soccer" country="sweden"><league country="sweden" name="Sweden: Allsvenskan - Relegation" cup="False" id="3240" sub_id="32402"><match alternate_id="4221775" alternate_id_2="4478707" date="08.11.2015" id="4339272" static_id="08111523482692348384" status="FT" time="16:15">
 <home goals="1" id="2348269" name="Falkenbergs"></home>
 <away goals="1" id="2348384" name="Sirius"></away>
 <events>
@@ -830,9 +830,9 @@
 <home goals="0" id="2348306" name="IFK Lulea"></home>
 <away goals="0" id="2348251" name="Brage"></away>
 <events>
-<event id="23691904" minute="31" player="L. Zetterstrom" playerid="2643422" result="" team="away" type="yellowcard"></event>
-<event id="23691905" minute="55" player="P. Cyr" playerid="2362144" result="" team="away" type="yellowcard"></event>
-<event id="23691906" minute="78" player="A. Jallow" playerid="2725154" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23691904" minute="31" player="L. Zetterstrom" playerid="2643422" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23691905" minute="55" player="P. Cyr" playerid="2362144" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23691906" minute="78" player="A. Jallow" playerid="2725154" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="sweden" name="Sweden: Division 1 - Södra" cup="False" id="3403" sub_id="34031"><match alternate_id="4121965" alternate_id_2="4472088" date="01.11.2015" id="4239509" static_id="01111523482952348335" status="FT" time="14:00">
@@ -1077,175 +1077,184 @@
 <event id="23691635" minute="37" player="A. Beqiri (pen.)" playerid="2408651" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match></league><league country="sweden" name="Sweden: Svenska Cupen" cup="True" id="3239" sub_id="32391"><match alternate_id="4231152" alternate_id_2="4486518" date="28.02.2016" id="4348636" static_id="28021623483142348302" status="15:30" time="15:30">
-<home goals="?" id="2348314" name="Frej"></home>
-<away goals="?" id="2348302" name="Goteborg"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4231151" alternate_id_2="4486528" date="28.02.2016" id="4348635" static_id="28021623484042348236" status="15:00" time="15:00">
-<home goals="?" id="2348404" name="Tenhults"></home>
-<away goals="?" id="2348236" name="AIK"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4231148" alternate_id_2="4486572" date="28.02.2016" id="4348632" static_id="28021623482412348353" status="38" time="13:00">
-<home goals="0" id="2348241" name="Angelholms"></home>
-<away goals="0" id="2348353" name="Malmo FF"></away>
+</match></league><league country="sweden" name="Sweden: Svenska Cupen" cup="True" id="3239" sub_id="32391"><match alternate_id="4231168" alternate_id_2="4503435" date="06.03.2016" id="4348652" static_id="06031623482592348314" status="FT" time="15:00">
+<home goals="1" id="2348259" name="Degerfors"></home>
+<away goals="1" id="2348314" name="Frej"></away>
 <events>
+<event id="24047854" minute="42" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24047855" minute="89" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4231169" alternate_id_2="4503436" date="06.03.2016" id="4348653" static_id="06031623483022348285" status="FT" time="15:00">
+<home goals="3" id="2348302" name="Goteborg"></home>
+<away goals="0" id="2348285" name="Halmstad"></away>
+<events>
+<event id="24047864" minute="13" player="G. Engvall" playerid="2601871" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24047865" minute="33" player="S. Rieks" playerid="2343544" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24047866" minute="64" player="T. Hysen" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4231164" alternate_id_2="4503086" date="06.03.2016" id="4348648" static_id="06031623483702348424" status="FT" time="13:45">
+<home goals="3" id="2348370" name="Ostersunds"></home>
+<away goals="0" id="2348424" name="AFC United"></away>
+<events>
+<event id="24044364" minute="30" player="A. Gero" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044365" minute="32" player="S. Ghoddos" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24044366" minute="34" player="A. Gero" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match><match alternate_id="4231167" alternate_id_2="4503083" date="06.03.2016" id="4348651" static_id="06031623482612348286" status="FT" time="13:00">
+<home goals="1" id="2348261" name="Djurgarden"></home>
+<away goals="3" id="2348286" name="Hammarby"></away>
+<events>
+<event id="24044334" minute="4" player="S. Andersson" playerid="2458998" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044335" minute="20" player="Alex" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24044336" minute="26" player="J. Persson" playerid="2362185" result="[1 - 2]" team="away" type="goal"></event>
+<event id="24044337" minute="77" player="P. Haglund" playerid="2338039" result="[1 - 3]" team="away" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4231166" alternate_id_2="4503084" date="06.03.2016" id="4348650" static_id="06031623483482348401" status="FT" time="13:00">
+<home goals="0" id="2348348" name="Ljungskile"></home>
+<away goals="1" id="2348401" name="Syrianska"></away>
+<events>
+<event id="24044344" minute="52" player="B. Katourgi" playerid="2563020" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4231150" alternate_id_2="4486522" date="28.02.2016" id="4348634" static_id="28021623482482348289" status="38" time="13:00">
+</match><match alternate_id="4231165" alternate_id_2="4503085" date="06.03.2016" id="4348649" static_id="06031623483632348318" status="FT" time="13:00">
+<home goals="1" id="2348363" name="Norrkoping"></home>
+<away goals="1" id="2348318" name="Jonkopings"></away>
+<events>
+<event id="24044354" minute="10" player="E. Kujovic" playerid="2359940" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044355" minute="14" player="D. Smylie" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4231162" alternate_id_2="4502914" date="05.03.2016" id="4348646" static_id="05031623482452348312" status="FT" time="15:00">
+<home goals="1" id="2348245" name="Assyriska FF"></home>
+<away goals="0" id="2348312" name="Varnamo"></away>
+<events>
+<event id="24042644" minute="38" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4231163" alternate_id_2="4502915" date="05.03.2016" id="4348647" static_id="05031623482632348324" status="FT" time="15:00">
+<home goals="0" id="2348263" name="Elfsborg"></home>
+<away goals="1" id="2348324" name="Kalmar"></away>
+<events>
+<event id="24042654" minute="83" player="C. Johansson" playerid="2706276" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4231155" alternate_id_2="4501471" date="05.03.2016" id="4348639" static_id="05031623482362348269" status="FT" time="13:00">
+<home goals="2" id="2348236" name="AIK"></home>
+<away goals="1" id="2348269" name="Falkenbergs"></away>
+<events>
+<event id="24028214" minute="6" player="A. Yasin" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24028215" minute="12" player="Z. Krizanovic" playerid="2474506" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24028216" minute="36" player="H. Hauksson" playerid="2364040" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4231158" alternate_id_2="4501626" date="05.03.2016" id="4348642" static_id="05031623482522348410" status="FT" time="13:00">
+<home goals="1" id="2348252" name="Brommapojkarna"></home>
+<away goals="1" id="2348410" name="Trollhattan"></away>
+<events>
+<event id="24029764" minute="12" player="V. Gyokeres" playerid="2744969" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24029765" minute="87" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4231160" alternate_id_2="4501589" date="05.03.2016" id="4348644" static_id="05031623482762348248" status="FT" time="13:00">
+<home goals="1" id="2348276" name="GAIS"></home>
+<away goals="5" id="2348248" name="Forward"></away>
+<events>
+<event id="24029394" minute="28" player="L. Lamu" playerid="2546550" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24029395" minute="40" player="E. Bjorndahl" playerid="2363038" result="[0 - 2]" team="away" type="goal"></event>
+<event id="24029396" minute="58" player="" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="24029397" minute="68" player="" playerid="" result="[1 - 3]" team="home" type="goal"></event>
+<event id="24029398" minute="82" player="" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+<event id="24029399" minute="85" player="" playerid="" result="[1 - 5]" team="away" type="goal"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4231159" alternate_id_2="4501614" date="05.03.2016" id="4348643" static_id="05031623482842348279" status="FT" time="13:00">
+<home goals="4" id="2348284" name="Hacken"></home>
+<away goals="0" id="2348279" name="Gefle"></away>
+<events>
+<event id="24029644" minute="43" player="Paulinho" playerid="2397925" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24029645" minute="53" player="Paulinho" playerid="2397925" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24029646" minute="56" player="A. Jeremejeff" playerid="2541231" result="[3 - 0]" team="home" type="goal"></event>
+<event id="24029647" minute="77" player="Paulinho" playerid="2397925" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4231161" alternate_id_2="4501590" date="05.03.2016" id="4348645" static_id="05031623482892348366" status="FT" time="13:00">
+<home goals="1" id="2348289" name="Helsingborg"></home>
+<away goals="1" id="2348366" name="Orebro"></away>
+<events>
+<event id="24029404" minute="12" player="A. Kamara" playerid="2530380" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24029405" minute="16" player="L. Hallenius" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4231157" alternate_id_2="4501627" date="05.03.2016" id="4348641" static_id="05031623483532348281" status="FT" time="13:00">
+<home goals="5" id="2348353" name="Malmo FF"></home>
+<away goals="0" id="2348281" name="Sundsvall"></away>
+<events>
+<event id="24029774" minute="5" player="V. Kjartansson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24029775" minute="69" player="A. Christiansen" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24029776" minute="76" player="G. Molins" playerid="2338121" result="[3 - 0]" team="home" type="goal"></event>
+<event id="24029777" minute="81" player="G. Molins" playerid="2338121" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4231156" alternate_id_2="4501472" date="05.03.2016" id="4348640" static_id="05031623483842348241" status="FT" time="13:00">
+<home goals="1" id="2348384" name="Sirius"></home>
+<away goals="1" id="2348241" name="Angelholms"></away>
+<events>
+<event id="24028224" minute="7" player="K. Skoglund" playerid="2362142" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24028225" minute="73" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4231154" alternate_id_2="4501473" date="05.03.2016" id="4348638" static_id="05031623484182348404" status="FT" time="13:00">
+<home goals="1" id="2348418" name="Varbergs"></home>
+<away goals="0" id="2348404" name="Tenhults"></away>
+<events>
+<event id="24028234" minute="90" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4231153" alternate_id_2="4486520" date="29.02.2016" id="4348637" static_id="29021623482862348348" status="FT" time="18:00">
+<home goals="4" id="2348286" name="Hammarby"></home>
+<away goals="2" id="2348348" name="Ljungskile"></away>
+<events>
+<event id="23878704" minute="2" player="J. Olsson" playerid="2458378" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23878705" minute="3" player="T. Nilsen" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23878706" minute="45" player="E. Israelsson" playerid="2371733" result="[1 - 2]" team="home" type="goal"></event>
+<event id="23878707" minute="67" player="M. Hallberg" playerid="" result="" team="home" type="redcard"></event>
+<event id="23878708" minute="71" player="K. Bakircioglu (pen.)" playerid="2334292" result="[2 - 2]" team="home" type="goal"></event>
+<event id="23878709" minute="82" player="Alex" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="23878710" minute="89" player="I. Khalili" playerid="2338015" result="[4 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4231152" alternate_id_2="4486518" date="28.02.2016" id="4348636" static_id="28021623483142348302" status="FT" time="15:30">
+<home goals="1" id="2348314" name="Frej"></home>
+<away goals="1" id="2348302" name="Goteborg"></away>
+<events>
+<event id="23878684" minute="12" player="V. Skold" playerid="2370979" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23878685" minute="31" player="J. Runnemo" playerid="2338044" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4231151" alternate_id_2="4486528" date="28.02.2016" id="4348635" static_id="28021623484042348236" status="FT" time="15:00">
+<home goals="0" id="2348404" name="Tenhults"></home>
+<away goals="6" id="2348236" name="AIK"></away>
+<events>
+<event id="23878784" minute="15" player="E. Markkanen" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23878785" minute="25" player="A. Affane" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23878786" minute="67" player="H. Hauksson" playerid="2364040" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23878787" minute="83" player="M. Nikolic" playerid="2666115" result="[0 - 4]" team="away" type="goal"></event>
+<event id="23878788" minute="86" player="S. Vaisanen" playerid="2571357" result="[0 - 5]" team="away" type="goal"></event>
+<event id="23878789" minute="87" player="A. Isak" playerid="" result="[0 - 6]" team="away" type="goal"></event>
+<event id="23878790" minute="88" player="B. David" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4231150" alternate_id_2="4486522" date="28.02.2016" id="4348634" static_id="28021623482482348289" status="FT" time="13:00">
 <home goals="0" id="2348248" name="Forward"></home>
 <away goals="1" id="2348289" name="Helsingborg"></away>
 <events>
 <event assist="" assistid="" extra_min="" id="23878724" minute="13" player="L. Hallenius" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4231149" alternate_id_2="4486521" date="28.02.2016" id="4348633" static_id="28021623484012348261" status="38" time="13:00">
-<home goals="0" id="2348401" name="Syrianska"></home>
-<away goals="0" id="2348261" name="Djurgarden"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4231146" alternate_id_2="4486523" date="27.02.2016" id="4348630" static_id="27021623483182348370" status="FT" time="14:00">
-<home goals="1" id="2348318" name="Jonkopings"></home>
-<away goals="0" id="2348370" name="Ostersunds"></away>
-<events>
-<event id="23878734" minute="17" player="T. Thelin (o.g.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4231147" alternate_id_2="4486524" date="27.02.2016" id="4348631" static_id="27021623482812348384" status="FT" time="14:00">
-<home goals="0" id="2348281" name="Sundsvall"></home>
-<away goals="1" id="2348384" name="Sirius"></away>
-<events>
-<event id="23878744" minute="25" player="P. Hopkins" playerid="2557015" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4231144" alternate_id_2="4486527" date="27.02.2016" id="4348628" static_id="27021623482792348252" status="FT" time="13:00">
-<home goals="4" id="2348279" name="Gefle"></home>
-<away goals="2" id="2348252" name="Brommapojkarna"></away>
-<events>
-<event id="23878774" minute="8" player="S. Ngouali" playerid="2453648" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23878775" minute="12" player="R. Nilsson" playerid="2338131" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23878776" minute="20" player="J. Oremo" playerid="2337932" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23878777" minute="39" player="S. Skrabb" playerid="" result="[3 - 1]" team="home" type="goal"></event>
-<event id="23878778" minute="90" player="" playerid="" result="[3 - 2]" team="away" type="goal"></event>
-<event id="23878779" minute="90" player="" playerid="" result="[4 - 2]" team="home" type="goal"></event>
-<event id="23878780" minute="90" player="" playerid="" result="" team="away" type="redcard"></event>
-</events>
-<ht score="[3-1]"></ht>
-</match><match alternate_id="4231140" alternate_id_2="4486519" date="27.02.2016" id="4348624" static_id="27021623482852348259" status="FT" time="13:00">
-<home goals="3" id="2348285" name="Halmstad"></home>
-<away goals="0" id="2348259" name="Degerfors"></away>
-<events>
-<event id="23878694" minute="10" player="T. Alexander" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878695" minute="12" player="T. Alexander" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23878696" minute="14" player="A. Henningsson" playerid="2362811" result="[3 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[3-0]"></ht>
-</match><match alternate_id="4231142" alternate_id_2="4486544" date="27.02.2016" id="4348626" static_id="27021623483242348245" status="FT" time="13:00">
-<home goals="3" id="2348324" name="Kalmar"></home>
-<away goals="1" id="2348245" name="Assyriska FF"></away>
-<events>
-<event id="23878944" minute="16" player="T. Eriksson" playerid="2360025" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878945" minute="45" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23878946" minute="82" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="23878947" minute="90" player="" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4231145" alternate_id_2="4486545" date="27.02.2016" id="4348629" static_id="27021623483662348276" status="FT" time="13:00">
-<home goals="3" id="2348366" name="Orebro"></home>
-<away goals="1" id="2348276" name="GAIS"></away>
-<events>
-<event id="23878954" minute="8" player="N. Gerzic" playerid="2360819" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878955" minute="64" player="D. Nordmark" playerid="2367581" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23878956" minute="79" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="23878957" minute="81" player="" playerid="" result="[3 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4231143" alternate_id_2="4486529" date="27.02.2016" id="4348627" static_id="27021623484102348284" status="FT" time="13:00">
-<home goals="2" id="2348410" name="Trollhattan"></home>
-<away goals="6" id="2348284" name="Hacken"></away>
-<events>
-<event id="23878794" minute="10" player="A. Jeremejeff" playerid="2541231" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23878795" minute="30" player="A. Jeremejeff" playerid="2541231" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23878796" minute="31" player="R. Bagger" playerid="2586539" result="[1 - 2]" team="home" type="goal"></event>
-<event id="23878797" minute="51" player="Paulinho" playerid="2397925" result="[1 - 3]" team="away" type="goal"></event>
-<event id="23878798" minute="65" player="Paulinho" playerid="2397925" result="[1 - 4]" team="away" type="goal"></event>
-<event id="23878799" minute="82" player="F. Sundstrom" playerid="2565148" result="[2 - 4]" team="home" type="goal"></event>
-<event id="23878800" minute="88" player="R. Makondele" playerid="2351063" result="[2 - 5]" team="away" type="goal"></event>
-<event id="23878801" minute="90" player="R. Makondele" playerid="2351063" result="[2 - 6]" team="away" type="goal"></event>
-</events>
-<ht score="[1-2]"></ht>
-</match><match alternate_id="4231141" alternate_id_2="4486525" date="27.02.2016" id="4348625" static_id="27021623483122348263" status="FT" time="13:00">
-<home goals="3" id="2348312" name="Varnamo"></home>
-<away goals="3" id="2348263" name="Elfsborg"></away>
-<events>
-<event id="23878754" minute="1" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878755" minute="28" player="O. Johansson" playerid="2620135" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23878756" minute="49" player="J. Horn" playerid="" result="[2 - 1]" team="away" type="goal"></event>
-<event id="23878757" minute="58" player="V. Claesson" playerid="2490144" result="[2 - 2]" team="away" type="goal"></event>
-<event id="23878758" minute="69" player="S. Hedlund" playerid="2570079" result="[2 - 3]" team="away" type="goal"></event>
-<event id="23878759" minute="79" player="" playerid="" result="[3 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[2-0]"></ht>
-</match><match alternate_id="4231138" alternate_id_2="4486571" date="27.02.2016" id="4348622" static_id="27021623484242348363" status="FT" time="12:00">
-<home goals="0" id="2348424" name="AFC United"></home>
-<away goals="1" id="2348363" name="Norrkoping"></away>
-<events>
-<event id="23879214" minute="53" player="E. Kujovic" playerid="2359940" result="[0 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4231139" alternate_id_2="4486526" date="27.02.2016" id="4348623" static_id="27021623482692348418" status="FT" time="12:00">
-<home goals="1" id="2348269" name="Falkenbergs"></home>
-<away goals="1" id="2348418" name="Varbergs"></away>
-<events>
-<event id="23878764" minute="36" player="R. Alba" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23878765" minute="90" player="" playerid="" result="" team="home" type="redcard"></event>
-<event id="23878766" minute="90" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4231137" alternate_id_2="4486503" date="22.02.2016" id="4348621" static_id="22021623482612348348" status="FT" time="18:00">
-<home goals="2" id="2348261" name="Djurgarden"></home>
-<away goals="1" id="2348348" name="Ljungskile"></away>
-<events>
-<event id="23878534" minute="58" player="E. Kack" playerid="2458459" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878535" minute="76" player="J. Olsson" playerid="2458378" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23878536" minute="86" player="S. Andersson" playerid="2458998" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4231135" alternate_id_2="4486506" date="21.02.2016" id="4348619" static_id="21021623483022348259" status="FT" time="15:00">
-<home goals="1" id="2348302" name="Goteborg"></home>
-<away goals="1" id="2348259" name="Degerfors"></away>
-<events>
-<event id="23878564" minute="29" player="H. Hermannsson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878565" minute="59" player="P. Samuelsson" playerid="2361024" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4231136" alternate_id_2="4486516" date="21.02.2016" id="4348620" static_id="21021623484042348269" status="FT" time="15:00">
-<home goals="0" id="2348404" name="Tenhults"></home>
-<away goals="2" id="2348269" name="Falkenbergs"></away>
-<events>
-<event id="23878664" minute="31" player="A. Nazari" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23878665" minute="65" player="G. Nilsson" playerid="2679746" result="[0 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4231134" alternate_id_2="4486509" date="21.02.2016" id="4348618" static_id="21021623482862348401" status="FT" time="14:00">
-<home goals="0" id="2348286" name="Hammarby"></home>
-<away goals="0" id="2348401" name="Syrianska"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4231133" alternate_id_2="4486505" date="21.02.2016" id="4348617" static_id="21021623482482348366" status="FT" time="13:00">
-<home goals="2" id="2348248" name="Forward"></home>
-<away goals="2" id="2348366" name="Orebro"></away>
-<events>
-<event id="23878554" minute="8" player="E. Bjorndahl" playerid="2363038" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23878555" minute="65" player="N. Gerzic" playerid="2360819" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23878556" minute="68" player="K. Holmberg" playerid="2508565" result="[1 - 2]" team="away" type="goal"></event>
-<event id="23878557" minute="70" player="K. Holmberg" playerid="2508565" result="" team="away" type="redcard"></event>
-<event id="23878558" minute="89" player="E. Berger" playerid="2362286" result="[2 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="sweden" name="Sweden: Svenska Cupen - Qualification" cup="True" id="3239" sub_id="32390"><match alternate_id="4218852" alternate_id_2="4452561" date="08.11.2015" id="4336351" static_id="08111523508622348353" status="FT" time="12:00">
 <home goals="0" id="2350862" name="Gotene"></home>
 <away goals="5" id="2348353" name="Malmo FF"></away>
@@ -1421,45 +1430,41 @@
 <event id="23539236" minute="88" player="G. Makdessi" playerid="2408640" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4186695" alternate_id_2="4452582" date="19.08.2015" id="4304201" static_id="19081523508662348366" status="FT" time="17:00">
-<home goals="0" id="2350866" name="Norrtalje"></home>
-<away goals="3" id="2348366" name="Orebro"></away>
+</match><match alternate_id="4186694" alternate_id_2="4452560" date="19.08.2015" id="4304200" static_id="19081523482652348281" status="FT" time="17:00">
+<home goals="0" id="2348265" name="Enskede"></home>
+<away goals="4" id="2348281" name="Sundsvall"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23539324" minute="5" player="D. Gustavsson" playerid="2363004" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539325" minute="65" player="K. Holmberg" playerid="2508565" result="[0 - 2]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539326" minute="80" player="N. Gerzic" playerid="2360819" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23539104" minute="22" player="S. Hasani" playerid="2362080" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23539105" minute="24" player="R. Sellin" playerid="2414548" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23539106" minute="50" player="S. Helg" playerid="2338000" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23539107" minute="87" player="P. Dibba" playerid="2531862" result="[0 - 4]" team="away" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-2]"></ht>
+</match><match alternate_id="4186868" alternate_id_2="4452570" date="19.08.2015" id="4304374" static_id="19081523483672348312" status="AET" time="17:00">
+<home goals="0" id="2348367" name="Orgryte"></home>
+<away goals="2" id="2348312" name="Varnamo"></away>
+<events>
+<event id="23539204" minute="119" player="D. Kozica" playerid="2459386" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23539205" minute="120" player="H. Bohman" playerid="2371732" result="" team="home" type="redcard"></event>
+<event id="23539206" minute="120" player="S. Goransson" playerid="2362884" result="[0 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4186693" alternate_id_2="4452572" date="19.08.2015" id="4304199" static_id="19081523483922348370" status="FT" time="17:00">
+<home goals="1" id="2348392" name="Soderhamns"></home>
+<away goals="2" id="2348370" name="Ostersunds"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23539224" minute="40" player="N. Celjo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23539225" minute="68" player="G. Tanda" playerid="2681582" result="[1 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23539226" minute="85" player="D. Widgren" playerid="2459294" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4187011" alternate_id_2="4452583" date="19.08.2015" id="4304517" static_id="19081523563242348263" status="FT" time="17:00">
 <home goals="0" id="2356324" name="Somaliska"></home>
 <away goals="1" id="2348263" name="Elfsborg"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23539334" minute="39" player="V. Prodell" playerid="2408868" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23539334" minute="39" player="V. Prodell" playerid="2408868" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4186629" alternate_id_2="4452584" date="19.08.2015" id="4304135" static_id="19081523521552348279" status="FT" time="17:00">
-<home goals="0" id="2352155" name="Team TG FF"></home>
-<away goals="4" id="2348279" name="Gefle"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="23539344" minute="4" player="J. Lantto" playerid="2337923" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539345" minute="68" player="T. Tshakasua" playerid="2651761" result="[0 - 2]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539346" minute="72" player="E. Bellander" playerid="2600173" result="[0 - 3]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539347" minute="83" player="J. Hjelte" playerid="2683594" result="[0 - 4]" team="away" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4186696" alternate_id_2="4452585" date="19.08.2015" id="4304202" static_id="19081523484102348415" status="AET" time="17:00">
-<home goals="4" id="2348410" name="Trollhattan"></home>
-<away goals="3" id="2348415" name="Utsiktens"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="23539354" minute="22" player="K. Bohm" playerid="2560724" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="1" id="23539355" minute="45" player="A. Mogren" playerid="2560118" result="[0 - 2]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539356" minute="49" player="D. Bennhage" playerid="2361670" result="[1 - 2]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539357" minute="87" player="D. Bennhage" playerid="2361670" result="[2 - 2]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539358" minute="103" player="G. Bilan" playerid="2731004" result="[3 - 2]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539359" minute="105" player="J. Westermark" playerid="2566476" result="[3 - 3]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23539360" minute="106" player="J. Daoud" playerid="2511082" result="[4 - 3]" team="home" type="goal"></event>
-</events>
-<ht score="[0-2]"></ht>
 </match></league><league country="sweden" name="Sweden: Svenska Cupen - Play Offs" cup="True" id="3239" sub_id="32392"><match alternate_id="4116815" alternate_id_2="4319205" date="17.05.2015" id="4234361" static_id="17051523483022348366" status="FT" time="13:30">
 <home goals="2" id="2348302" name="Goteborg"></home>
 <away goals="1" id="2348366" name="Orebro"></away>

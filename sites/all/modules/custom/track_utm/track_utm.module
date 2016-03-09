@@ -12,12 +12,38 @@ function track_utm_user_presave(&$edit, $account, $category)
 {
 	
 	if(isset($_SESSION['utm_source']))
-		$edit['field_utm_source'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_source'];	
+	{
+		if(!isset($edit['field_utm_source'][LANGUAGE_NONE][0]['value']))
+			$edit['field_utm_source'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_source'];	
+		else
+		{
+			if($edit['field_utm_source'][LANGUAGE_NONE][0]['value']=='')
+				$edit['field_utm_source'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_source'];	
+		}
+	}
 	
 	if(isset($_SESSION['utm_medium']))
-		$edit['field_utm_medium'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_medium'];	
+	{
+		if(!isset($edit['field_utm_medium'][LANGUAGE_NONE][0]['value']))
+			$edit['field_utm_medium'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_medium'];	
+		else
+		{
+			if($edit['field_utm_medium'][LANGUAGE_NONE][0]['value']=='')
+				$edit['field_utm_medium'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_medium'];	
+		}
+	}
+		
 		
 	if(isset($_SESSION['utm_campaign']))
-		$edit['field_utm_campaign'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_campaign'];	
+	{
+		if(!isset($edit['field_utm_campaign'][LANGUAGE_NONE][0]['value']))
+			$edit['field_utm_campaign'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_campaign'];	
+		else
+		{
+			if($edit['field_utm_campaign'][LANGUAGE_NONE][0]['value']=='')
+				$edit['field_utm_campaign'][LANGUAGE_NONE][0]['value'] = $_SESSION['utm_campaign'];	
+		}
+	}
+		
 	
 }

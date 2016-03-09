@@ -39,6 +39,10 @@ class TipGinApi
 	$this->TGAPI_SCORERS_COUNTRIES = array('albania', 'algeria', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'belarus', 'belgium', 'bosnia', 'brazil', 'bulgaria', 'chile', 'china', 'colombia', 'costarica', 'croatia', 'cyprus', 'czech', 'denmark', 'ecuador', 'egypt', 'england', 'estonia', 'finland', 'france', 'georgia', 'germany', 'greece', 'holland', 'hungary', 'iceland', 'ireland', 'israel', 'italy', 'japan', 'kazakhstan', 'korea', 'kuwait', 'latvia', 'lithuania', 'macedonia', 'mexico', 'moldova', 'morocco', 'norway', 'paraguay', 'peru', 'poland', 'qatar', 'romania', 'russia', 'saudiarabia', 'scotland', 'serbia', 'slovakia', 'slovenia', 'spain', 'sweden', 'switzerland', 'turkey', 'uae', 'ukraine', 'uruguay', 'usa'); 
 	$this->TGAPI_ODDS_COUNTRIES = array('africa', 'albania', 'algeria', 'argentina', 'austria', 'algeria', 'angola', 'armenia', 'asia', 'australia', 'azerbaijan', 'belarus', 'belgium', 'bolivia', 'bosnia', 'brazil', 'bulgaria', 'cameroon', 'canada', 'chile', 'china', 'colombia', 'concacaf', 'congo', 'croatia', 'cyprus', 'czech', 'costarica', 'denmark', 'equador', 'egypt', 'elsalvador', 'england', 'estonia', 'europe', 'finland', 'france', 'georgia', 'germany', 'ghana', 'greece', 'guatemala', 'holland', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'international', 'iran', 'ireland', 'israel', 'italy', 'japan', 'jordan', 'kazakhstan', 'kenya', 'korea', 'kuwait', 'latvia', 'lithuania', 'macedonia', 'malaysia', 'malta', 'mexico', 'moldova', 'montenegro', 'morocco', 'newzealand', 'nigeria', 'norway', 'oceania', 'paraguay', 'peru', 'poland', 'portugal', 'qatar', 'romania', 'russia', 'saudiarabia', 'scotland', 'serbia', 'singapore', 'slovakia', 'slovenia', 'southafrica', 'southamerica', 'spain', 'sweden', 'switzerland', 'thailand', 'tunisia', 'turkey', 'uae', 'usa', 'ukraine', 'uruguay', 'uzbekistan', 'venezuela', 'vietnam', 'wales', 'worldcup'); 
 	
+	$this->TGAPI_COMMENTARIES_COUNTRIES = array('afc_champleague', 'africa_nations_cup', 'argentina', 'argentina_b', 'asia_cup', 'australia', 'austria', 'belgium', 'bolivia', 'brazil_a', 'brazil_b', 'championship', 'champleague', 'chile', 'club_wc', 'colombia', 'concacaf_champleague', 'concacaf_gold_cup', 'concacaf_superliga', 'confiderationscup', 'copaamerica', 'denmark', 'ecuador', 'eng_league_carling', 'eng_league_charity', 'eng_league_conference', 'eng_league_one', 'eng_league_two', 'epl', 'holland', 'poland', 'euro', 'eredivisie', 'europaleague', 'euroqualifying', 'facup', 'france', 'france_cup', 'france_league2', 'france_league_cup', 'germany', 'germany_cup', 'germany_liga2', 'greece', 'holland_cup', 'holland_division2', 'ireland', 'italy', 'italy_cup', 'italy_serieb', 'japan', 'libertadores', 'mexico', 'mls', 'n_ireland', 'olympic', 'paraguay', 'peru', 'portugal', 'rsa', 'russia', 'scotland', 'scotland_cup', 'scotland_division2', 'scotland_league_cup', 'spain', 'spain_cup', 'spain_segunda', 'spain_supercup', 'uefa_supercup', 'sudamericana', 'sweden', 'switzerland', 'turkey', 'uruguay', 'venezuela', 'wales', 'worldcupqualifying');
+	$this->TGAPI_EXTENDED_FIXTURES_COUNTRIES = array('albania', 'algeria', 'andorra', 'angola', 'argentina', 'armenia', 'aruba', 'australia', 'austria', 'azerbaijan', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'bermuda', 'bhutan', 'bolivia', 'bosnia', 'botswana', 'brazil', 'brunei', 'bulgaria', 'cambodia', 'cameroon', 'canada', 'chile', 'china', 'chinesetaipei', 'colombia', 'costarica', 'croatia', 'cyprus', 'czech', 'denmark', 'ecuador', 'egypt', 'elsalvador', 'england', 'estonia', 'europe', 'faroeislands', 'fiji', 'finland', 'france', 'friendly', 'gabon', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guadeloupe', 'guatemala', 'haiti', 'holland', 'honduras', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'international', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'ivorycoast', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'korea', 'kuwait', 'latvia', 'lebanon', 'libya', 'lithuania', 'luxembourg', 'macedonia', 'malaysia', 'malta', 'mexico', 'moldova', 'montenegro', 'morocco', 'namibia', 'nepal', 'newzealand', 'nicaragua', 'nigeria', 'northernireland', 'norway', 'oman', 'pakistan', 'panama', 'paraguay', 'peru', 'poland', 'portugal', 'qatar', 'romania', 'russia', 'sanmarino', 'saudiarabia', 'scotland', 'senegal', 'serbia', 'singapore', 'slovakia', 'slovenia', 'southafrica', 'spain', 'sudan', 'surinam', 'sweden', 'switzerland', 'syria', 'thailand', 'trinidadandtobago', 'tunisia', 'turkey', 'uae', 'ukraine', 'uruguay', 'usa', 'uzbekistan', 'venezuela', 'vietnam', 'wales', 'worldcup', 'yemen');
+	$this->TGAPI_HIGHLIGHTS_COUNTRIES = array('today','d-1','d-2','d-3','d-4','d-5','d-6','d-7');
+	
 		$this->apikey = $apikey;
 	}
 	
@@ -52,6 +56,10 @@ class TipGinApi
 		$this->getStandingsFile();
 		$this->getScorersFile();
 		$this->getOddsFile();
+		
+		$this->getCommentariesFile();
+		$this->getExtendedFixturesFile();
+		$this->getHighlightsFile();
 	}
 	// livescore
 	public function getLivescoreFile()
@@ -114,6 +122,34 @@ class TipGinApi
 		foreach($countries as $country)
 		{
 			$this->_getFile('odds',$country);
+		}		
+	}
+	
+	// commentaries
+	public function getCommentariesFile()
+	{
+		$countries = $this->TGAPI_COMMENTARIES_COUNTRIES;
+		foreach($countries as $country)
+		{
+			$this->_getFile('commentaries',$country);
+		}		
+	}
+	// extended_fixtures
+	public function getExtendedFixturesFile()
+	{
+		$countries = $this->TGAPI_EXTENDED_FIXTURES_COUNTRIES;
+		foreach($countries as $country)
+		{
+			$this->_getFile('extended_fixtures',$country);
+		}		
+	}
+	// highlights
+	public function getHighlightsFile()
+	{
+		$countries = $this->TGAPI_HIGHLIGHTS_COUNTRIES;
+		foreach($countries as $country)
+		{
+			$this->_getFile('highlights',$country);
 		}		
 	}
 	
@@ -194,6 +230,31 @@ class TipGinApi
 	{
 		if(!in_array($country, $this->TGAPI_ODDS_COUNTRIES)) return array();
 		$operation = 'odds';
+		$file = file_get_contents(self::TGAPI_PATH . $operation . '/' . $country . '.xml');
+		return $this->_convertXmlToArray($file);
+	}
+	
+	// commentaries
+	public function getCommentaries($country)
+	{
+		if(!in_array($country, $this->TGAPI_COMMENTARIES_COUNTRIES)) return array();
+		$operation = 'commentaries';
+		$file = file_get_contents(self::TGAPI_PATH . $operation . '/' . $country . '.xml');
+		return $this->_convertXmlToArray($file);
+	}
+	// extended_fixtures
+	public function getExtendedFixtures($country)
+	{
+		if(!in_array($country, $this->TGAPI_EXTENDED_FIXTURES_COUNTRIES)) return array();
+		$operation = 'extended_fixtures';
+		$file = file_get_contents(self::TGAPI_PATH . $operation . '/' . $country . '.xml');
+		return $this->_convertXmlToArray($file);
+	}
+	// highlights
+	public function getHighlights($country)
+	{
+		if(!in_array($country, $this->TGAPI_HIGHLIGHTS_COUNTRIES)) return array();
+		$operation = 'highlights';
 		$file = file_get_contents(self::TGAPI_PATH . $operation . '/' . $country . '.xml');
 		return $this->_convertXmlToArray($file);
 	}
