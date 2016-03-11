@@ -1,8 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:40:42" sport="soccer" country="bolivia"><league country="bolivia" name="Bolivia: Liga De Futbol Prof - Clausura" cup="False" id="2942" sub_id="29422"><match alternate_id="4236954" alternate_id_2="4495641" date="09.03.2016" id="4354435" static_id="09031623457692338830" status="19:00" time="19:00">
-<home goals="?" id="2345769" name="Sport Boys"></home>
-<away goals="?" id="2338830" name="The Strongest"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:40:40" sport="soccer" country="bolivia"><league country="bolivia" name="Bolivia: Liga De Futbol Prof - Clausura" cup="False" id="2942" sub_id="29422"><match alternate_id="4236954" alternate_id_2="4495641" date="09.03.2016" id="4354435" static_id="09031623457692338830" status="FT" time="19:00">
+<home goals="1" id="2345769" name="Sport Boys"></home>
+<away goals="1" id="2338830" name="The Strongest"></away>
+<events>
+<event id="23969914" minute="21" player="M. Alonso" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23969915" minute="27" player="D. Vaca" playerid="2356370" result="" team="away" type="yellowcard"></event>
+<event id="23969916" minute="41" player="J. Torrico" playerid="2369812" result="" team="away" type="yellowcard"></event>
+<event id="23969917" minute="62" player="R. Castro" playerid="2585546" result="" team="away" type="yellowcard"></event>
+<event id="23969918" minute="65" player="P. Escobar" playerid="2356825" result="" team="away" type="yellowcard"></event>
+<event id="23969919" minute="66" player="M. Ovejero" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23969920" minute="69" player="R. Castro" playerid="2585546" result="" team="away" type="yellowred"></event>
+<event id="23969921" minute="71" player="D. Bejarano" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23969922" minute="72" player="R. Ramallo" playerid="2482468" result="" team="away" type="redcard"></event>
+<event id="218712643" minute="88" player="A. Vera" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="218712644" minute="90" player="M. Ovejero" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="218712645" minute="90" player="F. Pereyra" playerid="2481498" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4236963" alternate_id_2="4497144" date="06.03.2016" id="4354444" static_id="06031623388212338830" status="FT" time="21:15">
 <home goals="1" id="2338821" name="Wilstermann"></home>
 <away goals="0" id="2338830" name="The Strongest"></away>

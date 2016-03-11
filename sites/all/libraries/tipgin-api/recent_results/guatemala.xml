@@ -1,28 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:01" sport="soccer" country="guatemala"><league country="guatemala" name="Guatemala: Liga Nacional - Clausura" cup="False" id="3070" sub_id="30703"><match alternate_id="4232940" alternate_id_2="4502667" date="09.03.2016" id="4350424" static_id="09031623427722342786" status="22:00" time="22:00">
-<home goals="?" id="2342772" name="Comunicaciones"></home>
-<away goals="?" id="2342786" name="Petapa"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4232942" alternate_id_2="4502461" date="09.03.2016" id="4350426" static_id="09031623427662342793" status="21:30" time="21:30">
-<home goals="?" id="2342766" name="Antigua"></home>
-<away goals="?" id="2342793" name="Xelaju"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4232939" alternate_id_2="4502460" date="09.03.2016" id="4350423" static_id="09031623427922342783" status="21:05" time="21:05">
-<home goals="?" id="2342792" name="Universidad SC"></home>
-<away goals="?" id="2342783" name="Municipal"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4232941" alternate_id_2="4501703" date="09.03.2016" id="4350425" static_id="09031623427732342771" status="21:00" time="21:00">
-<home goals="?" id="2342773" name="Guastatoya"></home>
-<away goals="?" id="2342771" name="Coban Imperial"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4232938" alternate_id_2="4501702" date="09.03.2016" id="4350422" static_id="09031623427692342781" status="18:00" time="18:00">
-<home goals="?" id="2342769" name="Malacateco"></home>
-<away goals="?" id="2342781" name="Mictlan"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:05" sport="soccer" country="guatemala"><league country="guatemala" name="Guatemala: Liga Nacional - Clausura" cup="False" id="3070" sub_id="30703"><match alternate_id="4232937" alternate_id_2="4502668" date="10.03.2016" id="4350421" static_id="10031623427802342790" status="FT" time="02:00">
+<home goals="1" id="2342780" name="Marquense"></home>
+<away goals="1" id="2342790" name="Suchitepequez"></away>
+<events>
+<event id="24040184" minute="61" player="F. Ladogana" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24040185" minute="86" player="F. de Leon" playerid="2650892" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4232940" alternate_id_2="4502667" date="09.03.2016" id="4350424" static_id="09031623427722342786" status="FT" time="22:00">
+<home goals="1" id="2342772" name="Comunicaciones"></home>
+<away goals="1" id="2342786" name="Petapa"></away>
+<events>
+<event id="24040174" minute="36" player="O. Alvarez" playerid="" result="" team="away" type="redcard"></event>
+<event id="24040175" minute="56" player="A. Jimenez" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24040176" minute="74" player="E. Lopez" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4232942" alternate_id_2="4502461" date="09.03.2016" id="4350426" static_id="09031623427662342793" status="FT" time="21:30">
+<home goals="0" id="2342766" name="Antigua"></home>
+<away goals="0" id="2342793" name="Xelaju"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4232939" alternate_id_2="4502460" date="09.03.2016" id="4350423" static_id="09031623427922342783" status="FT" time="21:05">
+<home goals="1" id="2342792" name="Universidad SC"></home>
+<away goals="2" id="2342783" name="Municipal"></away>
+<events>
+<event id="24038104" minute="1" player="L. De Leon" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24038105" minute="47" player="C. Martinez" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24038106" minute="76" player="L. Torres" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4232941" alternate_id_2="4501703" date="09.03.2016" id="4350425" static_id="09031623427732342771" status="FT" time="21:00">
+<home goals="3" id="2342773" name="Guastatoya"></home>
+<away goals="0" id="2342771" name="Coban Imperial"></away>
+<events>
+<event id="24030534" minute="1" player="O. Zuniga" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24030535" minute="6" player="F. Garcia" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24030536" minute="54" player="N. Vasquez" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4232938" alternate_id_2="4501702" date="09.03.2016" id="4350422" static_id="09031623427692342781" status="FT" time="18:00">
+<home goals="3" id="2342769" name="Malacateco"></home>
+<away goals="0" id="2342781" name="Mictlan"></away>
+<events>
+<event id="24030524" minute="17" player="P. Solorzano" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24030525" minute="21" player="D. Aroche" playerid="2472550" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24030526" minute="29" player="J. Valenzuela" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="24030527" minute="90" player="P. Solorzano" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[3-0]"></ht>
 </match><match alternate_id="4232934" alternate_id_2="4501701" date="06.03.2016" id="4350418" static_id="06031623427862342793" status="FT" time="22:00">
 <home goals="2" id="2342786" name="Petapa"></home>
 <away goals="2" id="2342793" name="Xelaju"></away>
@@ -131,16 +157,6 @@
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4232921" alternate_id_2="4498546" date="25.02.2016" id="4350405" static_id="25021623427862342766" status="FT" time="02:00">
-<home goals="1" id="2342786" name="Petapa"></home>
-<away goals="1" id="2342766" name="Antigua"></away>
-<events>
-<event id="23998964" minute="8" player="A. Apellaniz" playerid="2374608" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23998965" minute="29" player="R. Pena" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23998966" minute="52" player="D. James" playerid="" result="" team="away" type="redcard"></event>
-<event id="23998967" minute="79" player="S. Jucup" playerid="2374760" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match></league><league country="guatemala" name="Guatemala: Liga Nacional - Apertura - Play Offs" cup="False" id="3070" sub_id=""><match alternate_id="4229701" alternate_id_2="4488057" date="20.12.2015" id="4347189" static_id="20121523427662342773" status="FT" time="17:30">
 <home goals="2" id="2342766" name="Antigua"></home>
 <away goals="0" id="2342773" name="Guastatoya"></away>

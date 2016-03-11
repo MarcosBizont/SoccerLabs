@@ -1,13 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:37" sport="soccer" country="southafrica"><league country="southafrica" name="South Africa: Premier League" cup="False" id="3227" sub_id="32270"><match alternate_id="4158177" alternate_id_2="4499437" date="09.03.2016" id="4275706" static_id="09031623474332347410" status="17:30" time="17:30">
-<home goals="?" id="2347433" name="Platinum Stars"></home>
-<away goals="?" id="2347410" name="Kaizer Chiefs"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:40" sport="soccer" country="southafrica"><league country="southafrica" name="South Africa: Premier League" cup="False" id="3227" sub_id="32270"><match alternate_id="4158179" alternate_id_2="4500752" date="11.03.2016" id="4275708" static_id="11031623474172347402" status="18:00" time="18:00">
+<home goals="?" id="2347417" name="Maritzburg Utd"></home>
+<away goals="?" id="2347402" name="Golden Arrows"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4158178" alternate_id_2="4499620" date="09.03.2016" id="4275707" static_id="09031623473822347451" status="17:30" time="17:30">
-<home goals="?" id="2347382" name="Polokwane"></home>
-<away goals="?" id="2347451" name="Bidvest Wits"></away>
-<events></events>
-<ht score=""></ht>
+</match><match alternate_id="4158177" alternate_id_2="4499437" date="09.03.2016" id="4275706" static_id="09031623474332347410" status="FT" time="17:30">
+<home goals="2" id="2347433" name="Platinum Stars"></home>
+<away goals="0" id="2347410" name="Kaizer Chiefs"></away>
+<events>
+<event id="24007874" minute="24" player="N. Mabena" playerid="2426616" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24007875" minute="29" player="W. Katsande" playerid="2494218" result="" team="away" type="yellowcard"></event>
+<event id="24007876" minute="55" player="M. Zongo" playerid="2394397" result="" team="home" type="yellowcard"></event>
+<event id="24007877" minute="78" player="B. Parker" playerid="2394179" result="" team="away" type="yellowcard"></event>
+<event id="24007878" minute="79" player="N. Mabena" playerid="2426616" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24007879" minute="85" player="S. Tshabalala" playerid="2353494" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4158178" alternate_id_2="4499620" date="09.03.2016" id="4275707" static_id="09031623473822347451" status="FT" time="17:30">
+<home goals="0" id="2347382" name="Polokwane"></home>
+<away goals="1" id="2347451" name="Bidvest Wits"></away>
+<events>
+<event id="24009704" minute="57" player="T. Ntshangase" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24009705" minute="69" player="S. Hlongwane" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24009706" minute="74" player="J. Lupeta" playerid="2628826" result="" team="away" type="yellowcard"></event>
+<event id="24009707" minute="81" player="L. Motumi" playerid="2711562" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4158176" alternate_id_2="4499064" date="01.03.2016" id="4275705" static_id="01031623473772350809" status="FT" time="17:30">
 <home goals="1" id="2347377" name="Ajax Cape Town"></home>
 <away goals="1" id="2350809" name="Chippa Utd."></away>
@@ -222,18 +239,6 @@
 <event id="218850244" minute="90" player="N. Mdabuka" playerid="2618610" result="[1 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4158159" alternate_id_2="4497015" date="19.02.2016" id="4275688" static_id="19021623474512352019" status="FT" time="18:00">
-<home goals="2" id="2347451" name="Bidvest Wits"></home>
-<away goals="1" id="2352019" name="Pretoria U."></away>
-<events>
-<event id="23983654" minute="36" player="T. Hlatshwayo" playerid="2420583" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23983655" minute="60" player="P. Jaure" playerid="2578543" result="" team="away" type="yellowcard"></event>
-<event id="23983656" minute="61" player="" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23983657" minute="62" player="T. Mnyamane" playerid="2660810" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23983658" minute="87" player="M. Maruping" playerid="2582412" result="" team="away" type="yellowcard"></event>
-<event id="23983659" minute="88" player="T. Hlatshwayo" playerid="2420583" result="[2 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="southafrica" name="South Africa: Premier League - Relegation Group" cup="False" id="3227" sub_id="32272"><match alternate_id="" alternate_id_2="4333892" date="03.06.2015" id="" static_id="03061523474222347408" status="FT" time="17:30">
 <home goals="0" id="2347422" name="Moroka Swallows"></home>
 <away goals="1" id="2347408" name="Jomo Cosmos"></away>
@@ -426,15 +431,16 @@
 <event id="23956247" minute="68" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4238918" alternate_id_2="4494269" date="13.02.2016" id="4356397" static_id="13021623474222356791" status="FT" time="13:30">
-<home goals="1" id="2347422" name="Moroka Swallows"></home>
-<away goals="2" id="2356791" name="Mthatha Bucks"></away>
+</match><match alternate_id="4238913" alternate_id_2="4494243" date="13.02.2016" id="4356392" static_id="13021623394952353645" status="FT" time="13:30">
+<home goals="1" id="2339495" name="Vasco Da Gama"></home>
+<away goals="2" id="2353645" name="Cape Town All Stars"></away>
 <events>
-<event id="23956194" minute="22" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23956195" minute="41" player="Spandeel" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23956196" minute="62" player="Amathol'amnyama" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23955934" minute="36" player="Chivaviro" playerid="" result="" team="away" type="redcard"></event>
+<event id="23955935" minute="45" player="Wambi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23955936" minute="50" player="Lorch" playerid="2621369" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23955937" minute="79" player="Lorch" playerid="2621369" result="[1 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[1-1]"></ht>
+<ht score="[1-0]"></ht>
 </match></league><league country="southafrica" name="South Africa: Nedbank Cup" cup="True" id="4188" sub_id="41880"><match alternate_id="4247493" alternate_id_2="4496624" date="08.03.2016" id="4364947" static_id="08031623474082347380" status="Pen." time="17:30">
 <home goals="2" id="2347408" name="Jomo Cosmos"></home>
 <away goals="1" id="2347380" name="Amazulu"></away>
@@ -597,23 +603,25 @@
 <event id="23846194" minute="45" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4227072" alternate_id_2="4483267" date="15.12.2015" id="4344563" static_id="15121523473762347386" status="Pen." time="13:00">
-<home goals="1" id="2347376" name="African Warriors"></home>
-<away goals="2" id="2347386" name="Black Leopards"></away>
+</match><match alternate_id="4227076" alternate_id_2="4483271" date="15.12.2015" id="4344567" static_id="15121523474222347399" status="FT" time="13:00">
+<home goals="4" id="2347422" name="Moroka Swallows"></home>
+<away goals="0" id="2347399" name="FC Cape Town"></away>
 <events>
-<event id="23846174" minute="16" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23846175" minute="64" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23846214" minute="18" player="" playerid="" result="" team="away" type="redcard"></event>
+<event id="23846215" minute="45" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23846216" minute="52" player="" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23846217" minute="81" player="" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event id="23846218" minute="90" player="" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-<penalty localteam="1" visitorteam="3"></penalty>
-</match><match alternate_id="4227077" alternate_id_2="4483272" date="15.12.2015" id="4344568" static_id="15121523567912353645" status="FT" time="13:00">
-<home goals="2" id="2356791" name="Mthatha Bucks"></home>
-<away goals="0" id="2353645" name="Cape Town All Stars"></away>
+</match><match alternate_id="4227079" alternate_id_2="4483274" date="15.12.2015" id="4344570" static_id="15121523474492339393" status="FT" time="13:00">
+<home goals="0" id="2347449" name="Witbank"></home>
+<away goals="2" id="2339393" name="Santos"></away>
 <events>
-<event id="23846224" minute="7" player="Jonasi" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23846225" minute="15" player="Spandeel" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23846244" minute="40" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23846245" minute="66" player="" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
-<ht score="[2-0]"></ht>
+<ht score="[0-1]"></ht>
 </match></league><league country="southafrica" name="South Africa: Telkom Knockout" cup="False" id="4267" sub_id="42670"><match alternate_id="4227734" alternate_id_2="4480665" date="16.12.2015" id="4345224" static_id="16121523474152347410" status="FT" time="16:00">
 <home goals="3" id="2347415" name="Mamelodi Sundowns"></home>
 <away goals="1" id="2347410" name="Kaizer Chiefs"></away>

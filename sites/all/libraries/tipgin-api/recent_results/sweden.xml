@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:39" sport="soccer" country="sweden"><league country="sweden" name="Sweden: Allsvenskan - Relegation" cup="False" id="3240" sub_id="32402"><match alternate_id="4221775" alternate_id_2="4478707" date="08.11.2015" id="4339272" static_id="08111523482692348384" status="FT" time="16:15">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:43" sport="soccer" country="sweden"><league country="sweden" name="Sweden: Allsvenskan - Relegation" cup="False" id="3240" sub_id="32402"><match alternate_id="4221775" alternate_id_2="4478707" date="08.11.2015" id="4339272" static_id="08111523482692348384" status="FT" time="16:15">
 <home goals="1" id="2348269" name="Falkenbergs"></home>
 <away goals="1" id="2348384" name="Sirius"></away>
 <events>
@@ -826,15 +826,18 @@
 <event id="23697757" minute="90" player="J. Isaksson" playerid="2363076" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4122128" alternate_id_2="4467840" date="18.10.2015" id="4239672" static_id="18101523483062348251" status="FT" time="12:00">
-<home goals="0" id="2348306" name="IFK Lulea"></home>
-<away goals="0" id="2348251" name="Brage"></away>
+</match><match alternate_id="4122129" alternate_id_2="4467810" date="18.10.2015" id="4239673" static_id="18101523483652348257" status="FT" time="12:00">
+<home goals="1" id="2348365" name="Nykopings"></home>
+<away goals="1" id="2348257" name="Carlstad"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23691904" minute="31" player="L. Zetterstrom" playerid="2643422" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23691905" minute="55" player="P. Cyr" playerid="2362144" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23691906" minute="78" player="A. Jallow" playerid="2725154" result="" team="away" type="yellowcard"></event>
+<event id="23691604" minute="12" player="T. Larsson" playerid="2635076" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23691605" minute="16" player="M. Eid" playerid="2518526" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23691606" minute="51" player="S. Carlsson" playerid="2397807" result="" team="away" type="yellowcard"></event>
+<event id="23691607" minute="80" player="E. Ahmetovic" playerid="2473979" result="" team="home" type="yellowcard"></event>
+<event id="23691608" minute="83" player="A. Fagerstrom" playerid="2446531" result="" team="home" type="yellowcard"></event>
+<event id="23691609" minute="90" player="T. Larsson" playerid="2635076" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[1-1]"></ht>
 </match></league><league country="sweden" name="Sweden: Division 1 - Södra" cup="False" id="3403" sub_id="34031"><match alternate_id="4121965" alternate_id_2="4472088" date="01.11.2015" id="4239509" static_id="01111523482952348335" status="FT" time="14:00">
 <home goals="2" id="2348295" name="Husqvarna"></home>
 <away goals="3" id="2348335" name="Kristianstads"></away>
@@ -1248,13 +1251,14 @@
 <event id="23878790" minute="88" player="B. David" playerid="" result="" team="home" type="redcard"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4231150" alternate_id_2="4486522" date="28.02.2016" id="4348634" static_id="28021623482482348289" status="FT" time="13:00">
-<home goals="0" id="2348248" name="Forward"></home>
-<away goals="1" id="2348289" name="Helsingborg"></away>
+</match><match alternate_id="4231149" alternate_id_2="4486521" date="28.02.2016" id="4348633" static_id="28021623484012348261" status="FT" time="13:00">
+<home goals="1" id="2348401" name="Syrianska"></home>
+<away goals="0" id="2348261" name="Djurgarden"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23878724" minute="13" player="L. Hallenius" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23878714" minute="50" player="K. Walker" playerid="2338158" result="" team="away" type="redcard"></event>
+<event id="23878715" minute="52" player="B. Katourgi" playerid="2563020" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="sweden" name="Sweden: Svenska Cupen - Qualification" cup="True" id="3239" sub_id="32390"><match alternate_id="4218852" alternate_id_2="4452561" date="08.11.2015" id="4336351" static_id="08111523508622348353" status="FT" time="12:00">
 <home goals="0" id="2350862" name="Gotene"></home>
 <away goals="5" id="2348353" name="Malmo FF"></away>

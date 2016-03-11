@@ -8,10 +8,18 @@ function login_facebook_button_form_alter(&$form, &$form_state, $form_id)
 {
 	if($form_id=='user_register_form')
 	{	
+		$node = menu_get_object();
+		$reg_title = t('We teach you how to bet in soccer');
+		$reg_sub_title =  t('Join the platform who give you what you need to bet in soccer. Get started for free.');
 		
-		
-		$form['#prefix'] = '<h2>' . t('We teach you how to bet in soccer') . '</h2>' . 
-			'<h5>' . t('Join the platform who give you what you need to bet in soccer. Get started for free.') . '</h5>' .
+		if(isset($node->field_register_title[LANGUAGE_NONE][0]['safe_value']) 
+				|| isset($node->field_register_sub_title[LANGUAGE_NONE][0]['safe_value']))
+		{
+			$reg_title = isset($node->field_register_title[LANGUAGE_NONE][0]['safe_value']) ? $node->field_register_title[LANGUAGE_NONE][0]['safe_value'] : '';	
+			$reg_sub_title = isset($node->field_register_sub_title[LANGUAGE_NONE][0]['safe_value']) ? $node->field_register_sub_title[LANGUAGE_NONE][0]['safe_value'] : '';	
+		}
+		$form['#prefix'] = '<h2>' . $reg_title . '</h2>' . 
+			'<h5>' . $reg_sub_title . '</h5>' .
 			l('<i class="fa fa-facebook"></i> | Connect with Facebook', 'user/simple-fb-connect', 
 				array('html' => true, 'attributes' => array('class' => 'btnsocial btn-facebook') ) )
 			. l('<i class="fa fa-twitter"></i> | Connect with Twitter', 'twitter/redirect', 

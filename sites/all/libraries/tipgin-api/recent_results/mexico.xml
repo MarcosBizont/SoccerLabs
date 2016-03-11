@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:21" sport="soccer" country="mexico"><league country="mexico" name="Mexico: Primera Division - Clausura" cup="False" id="3141" sub_id="31414"><match alternate_id="4230137" alternate_id_2="4501523" date="06.03.2016" id="4347625" static_id="06031623447922344812" status="FT" time="23:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:21" sport="soccer" country="mexico"><league country="mexico" name="Mexico: Primera Division - Clausura" cup="False" id="3141" sub_id="31414"><match alternate_id="4230137" alternate_id_2="4501523" date="06.03.2016" id="4347625" static_id="06031623447922344812" status="FT" time="23:00">
 <home goals="1" id="2344792" name="Puebla"></home>
 <away goals="1" id="2344812" name="Veracruz"></away>
 <events>
@@ -1465,7 +1465,47 @@
 <event id="22272975" minute="47" player="Padilla" playerid="2347121" result="[1 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="mexico" name="Mexico: Copa Mexico - Clausura" cup="True" id="4083" sub_id="40831"><match alternate_id="4230718" alternate_id_2="4500488" date="09.03.2016" id="4348206" static_id="09031623447512344807" status="FT" time="03:00">
+</match></league><league country="mexico" name="Mexico: Copa Mexico - Clausura" cup="True" id="4083" sub_id="40831"><match alternate_id="4230722" alternate_id_2="4502434" date="10.03.2016" id="4348210" static_id="10031623447552354124" status="FT" time="03:00">
+<home goals="2" id="2344755" name="Celaya"></home>
+<away goals="4" id="2354124" name="Atl. San Luis"></away>
+<events>
+<event id="24037844" minute="5" player="M. Vidal" playerid="2376009" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24037845" minute="28" player="C. Monsalvo" playerid="2355033" result="[1 - 1]" team="home" type="goal"></event>
+<event id="24037846" minute="31" player="A. Lozoya" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="24037847" minute="62" player="L. Villagra" playerid="2508526" result="[2 - 2]" team="away" type="goal"></event>
+<event id="24037848" minute="74" player="O. Arce" playerid="2469363" result="[2 - 3]" team="away" type="goal"></event>
+<event id="24037849" minute="90" player="" playerid="" result="[2 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4230723" alternate_id_2="4502435" date="10.03.2016" id="4348211" static_id="10031623447772344783" status="FT" time="03:00">
+<home goals="1" id="2344777" name="Club Leon"></home>
+<away goals="4" id="2344783" name="Monarcas"></away>
+<events>
+<event id="24037854" minute="18" player="M. Sansores" playerid="2447351" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24037855" minute="19" player="J. Cuevas (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="24037856" minute="41" player="A. Gagliardi" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="24037857" minute="47" player="M. Sansores" playerid="2447351" result="[1 - 3]" team="away" type="goal"></event>
+<event id="24037858" minute="58" player="R. Vilchis" playerid="" result="[1 - 4]" team="away" type="goal"></event>
+</events>
+<ht score="[1-2]"></ht>
+</match><match alternate_id="4230721" alternate_id_2="4502433" date="10.03.2016" id="4348209" static_id="10031623447672344761" status="FT" time="02:30">
+<home goals="1" id="2344767" name="Cafetaleros de Tapachula"></home>
+<away goals="2" id="2344761" name="Cruz Azul"></away>
+<events>
+<event id="24037834" minute="29" player="J. Benitez" playerid="2464178" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24037835" minute="41" player="C. A. Utrilla Cruz" playerid="" result="" team="home" type="redcard"></event>
+<event id="24037836" minute="46" player="J. Pardini" playerid="2373789" result="[1 - 1]" team="home" type="goal"></event>
+<event id="24037837" minute="49" player="J. Benitez" playerid="2464178" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4230720" alternate_id_2="4502432" date="10.03.2016" id="4348208" static_id="10031623447692344765" status="FT" time="01:00">
+<home goals="0" id="2344769" name="Guadalajara Chivas"></home>
+<away goals="1" id="2344765" name="Dorados de Sinaloa"></away>
+<events>
+<event id="24037824" minute="76" player="J. R. Angulo Uriarte" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4230718" alternate_id_2="4500488" date="09.03.2016" id="4348206" static_id="09031623447512344807" status="FT" time="03:00">
 <home goals="3" id="2344751" name="Atlas"></home>
 <away goals="2" id="2344807" name="Club Tijuana"></away>
 <events>
@@ -1595,16 +1635,6 @@
 <event id="23986150" minute="71" player="L. Lopez" playerid="2634858" result="[3 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[2-2]"></ht>
-</match><match alternate_id="4230703" alternate_id_2="4497023" date="24.02.2016" id="4348191" static_id="24021623541242344755" status="FT" time="03:00">
-<home goals="2" id="2354124" name="Atl. San Luis"></home>
-<away goals="0" id="2344755" name="Celaya"></away>
-<events>
-<event id="23983734" minute="34" player="L. Villagra (pen.)" playerid="2508526" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23983735" minute="37" player="O. Pineda" playerid="2395802" result="" team="home" type="redcard"></event>
-<event id="23983736" minute="39" player="M. Almazan" playerid="" result="" team="away" type="redcard"></event>
-<event id="23983737" minute="90" player="S. Luis" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4230705" alternate_id_2="4497020" date="24.02.2016" id="4348193" static_id="24021623447612344767" status="FT" time="03:00">
 <home goals="5" id="2344761" name="Cruz Azul"></home>
 <away goals="2" id="2344767" name="Cafetaleros de Tapachula"></away>
@@ -1614,8 +1644,8 @@
 <event id="23983706" minute="45" player="M. Vuoso (pen.)" playerid="2349109" result="[3 - 0]" team="home" type="goal"></event>
 <event id="23983707" minute="59" player="G. Torrado" playerid="2332263" result="[4 - 0]" team="home" type="goal"></event>
 <event id="23983708" minute="65" player="M. Vuoso" playerid="2349109" result="[5 - 0]" team="home" type="goal"></event>
-<event id="23983709" minute="82" player="A. Jose" playerid="" result="[5 - 1]" team="away" type="goal"></event>
-<event id="23983710" minute="86" player="A. Escoto" playerid="" result="[5 - 2]" team="away" type="goal"></event>
+<event id="23983709" minute="82" player="F. Arismendi" playerid="" result="[5 - 1]" team="away" type="goal"></event>
+<event id="23983710" minute="85" player="A. Escoto" playerid="" result="[5 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[3-0]"></ht>
 </match><match alternate_id="4230706" alternate_id_2="4497018" date="24.02.2016" id="4348194" static_id="24021623563082355212" status="FT" time="03:00">
@@ -1623,8 +1653,8 @@
 <away goals="2" id="2355212" name="Dep. Tepic"></away>
 <events>
 <event id="23983684" minute="44" player="M. Martins" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23983685" minute="84" player="B. Martinez" playerid="" result="" team="home" type="redcard"></event>
-<event id="23983686" minute="89" player="E. Victor" playerid="" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23983685" minute="85" player="B. Martinez" playerid="" result="" team="home" type="redcard"></event>
+<event id="23983686" minute="89" player="V. Guajardo" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match><match alternate_id="4230704" alternate_id_2="4497014" date="24.02.2016" id="4348192" static_id="24021623552112344784" status="FT" time="03:00">
@@ -1632,36 +1662,11 @@
 <away goals="2" id="2344784" name="Necaxa"></away>
 <events>
 <event id="23983644" minute="23" player="O. Fernandez" playerid="2617945" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23983645" minute="58" player="J. Enriquez (pen.)" playerid="2392192" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23983646" minute="62" player="J. Enriquez" playerid="2392192" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23983645" minute="59" player="J. Enriquez (pen.)" playerid="2392192" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23983646" minute="61" player="J. Enriquez" playerid="2392192" result="[2 - 1]" team="home" type="goal"></event>
 <event id="23983647" minute="87" player="O. Fernandez" playerid="2617945" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match><match alternate_id="4230702" alternate_id_2="4497011" date="24.02.2016" id="4348190" static_id="24021623447502356309" status="FT" time="01:00">
-<home goals="2" id="2344750" name="Atlante"></home>
-<away goals="0" id="2356309" name="Venados"></away>
-<events>
-<event id="23983614" minute="51" player="A. Lopez" playerid="2446891" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23983615" minute="62" player="C. Garces" playerid="2614295" result="[2 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[0-0]"></ht>
-</match><match alternate_id="4230700" alternate_id_2="4497012" date="24.02.2016" id="4348188" static_id="24021623448112356311" status="FT" time="01:00">
-<home goals="0" id="2344811" name="Leones Negros"></home>
-<away goals="1" id="2356311" name="Juarez"></away>
-<events>
-<event id="23983624" minute="13" player="N. Maz (pen.)" playerid="2376012" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23983625" minute="28" player="A. Dominguez" playerid="" result="" team="away" type="redcard"></event>
-<event id="23983626" minute="90" player="F. Rodrigo" playerid="" result="" team="home" type="redcard"></event>
-<event id="23983627" minute="90" player="L. Telles" playerid="" result="" team="home" type="redcard"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="4230701" alternate_id_2="4497013" date="24.02.2016" id="4348189" static_id="24021623448122344774" status="FT" time="01:00">
-<home goals="1" id="2344812" name="Veracruz"></home>
-<away goals="0" id="2344774" name="Chiapas"></away>
-<events>
-<event id="23983634" minute="12" player="S. Saucedo" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="mexico" name="Mexico: Copa Mexico - Apertura - Play Offs" cup="True" id="4083" sub_id="40830"><match alternate_id="4221229" alternate_id_2="4477048" date="05.11.2015" id="4338727" static_id="05111523447772344769" status="FT" time="03:00">
 <home goals="0" id="2344777" name="Club Leon"></home>
 <away goals="1" id="2344769" name="Guadalajara Chivas"></away>
@@ -2004,33 +2009,6 @@
 <event id="22162682" minute="88" player="J. Ayovi" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4111994" alternate_id_2="4314915" date="11.03.2015" id="4229544" static_id="11031523447952344769" status="Pen." time="01:15">
-<home goals="0" id="2344795" name="Queretaro"></home>
-<away goals="1" id="2344769" name="Guadalajara Chivas"></away>
-<events>
-<event id="22162654" minute="10" player="Danilinho" playerid="2340761" result="" team="home" type="yellowcard"></event>
-<event id="22162655" minute="12" player="P. Rubio" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22162656" minute="22" player="E. Villa" playerid="2346172" result="" team="home" type="yellowcard"></event>
-<event id="22162657" minute="26" player="H. Marin" playerid="2613732" result="" team="away" type="yellowcard"></event>
-<event id="22162658" minute="49" player="M. Jimenez" playerid="2373707" result="" team="home" type="yellowcard"></event>
-<event id="22162659" minute="83" player="O. Bravo" playerid="2332265" result="" team="away" type="yellowcard"></event>
-<event id="22162660" minute="90" player="A. Martinez" playerid="2379118" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[0-0]"></ht>
-<penalty localteam="3" visitorteam="4"></penalty>
-</match><match alternate_id="4111993" alternate_id_2="4314914" date="10.03.2015" id="4229543" static_id="10031523447922356309" status="FT" time="23:00">
-<home goals="2" id="2344792" name="Puebla"></home>
-<away goals="1" id="2356309" name="Venados"></away>
-<events>
-<event id="22162644" minute="4" player="A. Mendoza" playerid="2565439" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22162645" minute="16" player="C. Blanco" playerid="2341904" result="[1 - 1]" team="home" type="goal"></event>
-<event id="22162646" minute="55" player="H. Gomez" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22162647" minute="63" player="H. Gomez" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="22162648" minute="71" player="E. Guzman" playerid="2464945" result="" team="away" type="yellowcard"></event>
-<event id="22162649" minute="80" player="L. Noriega" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="22162650" minute="89" player="E. Loboa" playerid="" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match></league><league country="mexico" name="Mexico: Super Cup" cup="True" id="4458" sub_id=""><match alternate_id="" alternate_id_2="4367812" date="21.07.2015" id="" static_id="21071523447492344797" status="FT" time="01:30">
 <home goals="0" id="2344749" name="Club America"></home>
 <away goals="1" id="2344797" name="Santos Laguna"></away>

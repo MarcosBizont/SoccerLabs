@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:50:59" sport="soccer" country="greece"><league country="greece" name="Greece: Super League" cup="False" id="3065" sub_id="30650"><match alternate_id="4159121" alternate_id_2="4501550" date="07.03.2016" id="4276650" static_id="07031623426052342580" status="FT" time="17:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:04" sport="soccer" country="greece"><league country="greece" name="Greece: Super League" cup="False" id="3065" sub_id="30650"><match alternate_id="4159121" alternate_id_2="4501550" date="07.03.2016" id="4276650" static_id="07031623426052342580" status="FT" time="17:30">
 <home goals="0" id="2342605" name="Asteras Tripolis"></home>
 <away goals="0" id="2342580" name="AEK"></away>
 <events>
@@ -418,7 +418,12 @@
 <event id="22351261" minute="90" player="F. Alloco" playerid="2381883" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match></league><league country="greece" name="Greece: Football League" cup="False" id="3068" sub_id="30680"><match alternate_id="4216313" alternate_id_2="4500240" date="07.03.2016" id="4333813" static_id="07031623426302342715" status="FT" time="16:00">
+</match></league><league country="greece" name="Greece: Football League" cup="False" id="3068" sub_id="30680"><match alternate_id="4216318" alternate_id_2="4502073" date="11.03.2016" id="4333818" static_id="11031623425992342673" status="16:00" time="16:00">
+<home goals="?" id="2342599" name="Smyrnis"></home>
+<away goals="?" id="2342673" name="Panegialios FC"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4216313" alternate_id_2="4500240" date="07.03.2016" id="4333813" static_id="07031623426302342715" status="FT" time="16:00">
 <home goals="1" id="2342630" name="Kallithea"></home>
 <away goals="1" id="2342715" name="Zakynthos"></away>
 <events>
@@ -563,14 +568,6 @@
 <event id="23996494" minute="82" player="A. Stamatis" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4216293" alternate_id_2="4496276" date="22.02.2016" id="4333793" static_id="22021623426302342710" status="FT" time="16:00">
-<home goals="1" id="2342630" name="Kallithea"></home>
-<away goals="1" id="2342710" name="Trikala FC"></away>
-<events>
-<event id="23976264" minute="18" player="F. Durmishaj" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23976265" minute="89" player="B. Ntoikits" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="greece" name="Greece: Division C - Group A" cup="False" id="3067" sub_id="30672"><match alternate_id="4225558" alternate_id_2="4499449" date="06.03.2016" id="4343050" static_id="06031623558272355826" status="FT" time="13:00">
 <home goals="0" id="2355827" name="Alexandroupoli"></home>
 <away goals="0" id="2355826" name="Thyella F."></away>
@@ -1442,8 +1439,8 @@
 <home goals="1" id="2342711" name="Veria"></home>
 <away goals="0" id="2342630" name="Kallithea"></away>
 <events>
-<event id="23661854" minute="17" player="R. Battion" playerid="2345627" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23661855" minute="42" player="G. Katsikogiannis" playerid="2399544" result="" team="away" type="yellowred"></event>
+<event assist="" assistid="" extra_min="" id="23661854" minute="17" player="R. Battion" playerid="2345627" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23661855" minute="42" player="G. Katsikogiannis" playerid="2399544" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league><league country="greece" name="Greece: Greek Cup - First Round" cup="True" id="3066" sub_id=""><match alternate_id="4212675" alternate_id_2="4461183" date="16.09.2015" id="4330177" static_id="16091523426302342694" status="FT" time="13:00">
@@ -1974,8 +1971,8 @@
 <home goals="0" id="2342705" name="Pierikos"></home>
 <away goals="2" id="2351976" name="Tyrnavos"></away>
 <events>
-<event id="22296094" minute="70" player="C. Alexiou" playerid="2551813" result="[0 - 1]" team="away" type="goal"></event>
-<event id="22296095" minute="82" player="F. Otta" playerid="2649243" result="[0 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22296094" minute="70" player="C. Alexiou" playerid="2551813" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22296095" minute="82" player="F. Otta" playerid="2649243" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match></league><league country="greece" name="Greece: Football League - Group 2" cup="False" id="3068" sub_id="30682"><match alternate_id="4073554" alternate_id_2="4317218" date="05.04.2015" id="4191163" static_id="05041523533632342626" status="FT" time="12:00">

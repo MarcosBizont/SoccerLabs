@@ -1,28 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:03" sport="soccer" country="hungary"><league country="hungary" name="Hungary: Otp Bank Liga" cup="False" id="3081" sub_id="30810"><match alternate_id="4143031" alternate_id_2="4499067" date="09.03.2016" id="4260569" static_id="09031623429202342965" status="17:00" time="17:00">
-<home goals="?" id="2342920" name="Bekescsaba 1912"></home>
-<away goals="?" id="2342965" name="Ferencvaros"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4143032" alternate_id_2="4499093" date="09.03.2016" id="4260570" static_id="09031623429492342963" status="17:00" time="17:00">
-<home goals="?" id="2342949" name="DVTK"></home>
-<away goals="?" id="2342963" name="Videoton"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4143033" alternate_id_2="4499053" date="09.03.2016" id="4260571" static_id="09031623430632343078" status="17:00" time="17:00">
-<home goals="?" id="2343063" name="Haladas"></home>
-<away goals="?" id="2343078" name="Ujpest"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4143034" alternate_id_2="4499084" date="09.03.2016" id="4260572" static_id="09031623430132342979" status="17:00" time="17:00">
-<home goals="?" id="2343013" name="MTK Budapest"></home>
-<away goals="?" id="2342979" name="Honved"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4143030" alternate_id_2="4498982" date="09.03.2016" id="4260568" static_id="09031623530162343027" status="15:00" time="15:00">
-<home goals="?" id="2353016" name="Puskas Academy"></home>
-<away goals="?" id="2343027" name="Paks"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:06" sport="soccer" country="hungary"><league country="hungary" name="Hungary: Otp Bank Liga" cup="False" id="3081" sub_id="30810"><match alternate_id="4143031" alternate_id_2="4499067" date="09.03.2016" id="4260569" static_id="09031623429202342965" status="FT" time="17:00">
+<home goals="0" id="2342920" name="Bekescsaba 1912"></home>
+<away goals="1" id="2342965" name="Ferencvaros"></away>
+<events>
+<event id="24004174" minute="33" player="T. Piermayr" playerid="2343058" result="" team="home" type="yellowcard"></event>
+<event id="24004175" minute="44" player="A. Rado" playerid="2498638" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
+</match><match alternate_id="4143032" alternate_id_2="4499093" date="09.03.2016" id="4260570" static_id="09031623429492342963" status="FT" time="17:00">
+<home goals="2" id="2342949" name="DVTK"></home>
+<away goals="1" id="2342963" name="Videoton"></away>
+<events>
+<event id="24004434" minute="16" player="M. Patkai" playerid="2365408" result="" team="away" type="yellowcard"></event>
+<event id="24004435" minute="22" player="A. Lang" playerid="2495799" result="" team="away" type="yellowcard"></event>
+<event id="24004436" minute="32" player="D. Barczi (pen.)" playerid="2423041" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24004437" minute="35" player="A. Suljic" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24004438" minute="42" player="L. Nego" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24004439" minute="57" player="F. Oliveira" playerid="2377451" result="" team="away" type="yellowcard"></event>
+<event id="24004440" minute="60" player="Z. Haraszti" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24004441" minute="72" player="M. Tamas" playerid="2604968" result="" team="home" type="yellowcard"></event>
+<event id="24004442" minute="88" player="S. Novothny" playerid="2523783" result="" team="home" type="yellowcard"></event>
+<event id="219057843" minute="90" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4143033" alternate_id_2="4499053" date="09.03.2016" id="4260571" static_id="09031623430632343078" status="FT" time="17:00">
+<home goals="1" id="2343063" name="Haladas"></home>
+<away goals="1" id="2343078" name="Ujpest"></away>
+<events>
+<event id="24004034" minute="14" player="D. Williams" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24004035" minute="31" player="L. Lencse" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24004036" minute="50" player="B. Iszlai" playerid="2416273" result="" team="home" type="yellowcard"></event>
+<event id="24004037" minute="73" player="S. Diarra" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24004038" minute="80" player="N. Andric" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4143034" alternate_id_2="4499084" date="09.03.2016" id="4260572" static_id="09031623430132342979" status="FT" time="17:00">
+<home goals="1" id="2343013" name="MTK Budapest"></home>
+<away goals="0" id="2342979" name="Honved"></away>
+<events>
+<event id="24004344" minute="29" player="A. Hrepka" playerid="2365411" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24004345" minute="70" player="S. Youla" playerid="2341792" result="" team="away" type="yellowcard"></event>
+<event id="24004346" minute="71" player="I. Lovric" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24004347" minute="84" player="D. Prosser" playerid="2514634" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4143030" alternate_id_2="4498982" date="09.03.2016" id="4260568" static_id="09031623530162343027" status="FT" time="15:00">
+<home goals="2" id="2353016" name="Puskas Academy"></home>
+<away goals="1" id="2343027" name="Paks"></away>
+<events>
+<event id="24003324" minute="37" player="T. Kecskes" playerid="2365406" result="" team="away" type="yellowcard"></event>
+<event id="24003325" minute="54" player="V. Churko" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24003326" minute="61" player="L. Zsidai" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24003327" minute="61" player="Z. Gevay" playerid="2418165" result="" team="away" type="yellowcard"></event>
+<event id="24003328" minute="65" player="K. Meszaros" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24003329" minute="69" player="B. Lenzser" playerid="2681810" result="" team="away" type="yellowcard"></event>
+<event id="24003330" minute="84" player="J. Hahn" playerid="2604862" result="[2 - 1]" team="away" type="goal"></event>
+<event id="24003331" minute="89" player="V. Churko" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24003332" minute="90" player="D. Lyopa" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4143029" alternate_id_2="4498981" date="08.03.2016" id="4260567" static_id="08031623430842342945" status="FT" time="17:00">
 <home goals="0" id="2343084" name="Vasas"></home>
 <away goals="0" id="2342945" name="Debrecen"></away>
@@ -218,19 +253,26 @@
 <event id="23865820" minute="90" player="A. Vass" playerid="2350262" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4143016" alternate_id_2="4485229" date="20.02.2016" id="4260554" static_id="20021623429452343027" status="FT" time="14:30">
-<home goals="2" id="2342945" name="Debrecen"></home>
-<away goals="0" id="2343027" name="Paks"></away>
+</match><match alternate_id="4143011" alternate_id_2="4485213" date="20.02.2016" id="4260549" static_id="20021623430842343063" status="FT" time="14:30">
+<home goals="1" id="2343084" name="Vasas"></home>
+<away goals="0" id="2343063" name="Haladas"></away>
 <events>
-<event id="23865794" minute="10" player="K. Papp" playerid="2487892" result="" team="away" type="yellowcard"></event>
-<event id="23865795" minute="20" player="I. Sidibe" playerid="2358060" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23865796" minute="35" player="P. Lazar" playerid="2365525" result="" team="home" type="yellowcard"></event>
-<event id="23865797" minute="44" player="D. Holman" playerid="" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23865798" minute="71" player="A. Jovanovic" playerid="2379167" result="" team="home" type="yellowcard"></event>
-<event id="23865799" minute="85" player="D. Szakaly" playerid="2365716" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23865634" minute="37" player="M. Vida" playerid="2605649" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23865635" minute="47" player="D. Williams" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23865636" minute="50" player="M. Jagodics" playerid="2487054" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23865637" minute="53" player="M. Jagodics" playerid="2487054" result="" team="away" type="yellowred"></event>
+<event assist="" assistid="" extra_min="" id="23865638" minute="67" player="C. Preklet" playerid="2441301" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23865639" minute="79" player="J. Pavlov" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23865640" minute="82" player="I. Ferenczi" playerid="2347819" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23865641" minute="85" player="P. Halmosi" playerid="2347481" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[2-0]"></ht>
-</match></league><league country="hungary" name="Hungary: Merkantil Bank Liga" cup="False" id="3078" sub_id="30782"><match alternate_id="4174906" alternate_id_2="4484939" date="06.03.2016" id="4292431" static_id="06031623430922343008" status="FT" time="17:00">
+<ht score="[0-0]"></ht>
+</match></league><league country="hungary" name="Hungary: Merkantil Bank Liga" cup="False" id="3078" sub_id="30782"><match alternate_id="4174920" alternate_id_2="4503036" date="11.03.2016" id="4292445" static_id="11031623430292343092" status="17:00" time="17:00">
+<home goals="?" id="2343029" name="Dunaujvaros PASE"></home>
+<away goals="?" id="2343092" name="Zalaegerszegi"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4174906" alternate_id_2="4484939" date="06.03.2016" id="4292431" static_id="06031623430922343008" status="FT" time="17:00">
 <home goals="0" id="2343092" name="Zalaegerszegi"></home>
 <away goals="1" id="2343008" name="Mezokovesd-Zsory"></away>
 <events>
@@ -359,12 +401,6 @@
 <events>
 </events>
 <ht score="[2-2]"></ht>
-</match><match alternate_id="4174893" alternate_id_2="4479526" date="20.02.2016" id="4292418" static_id="20021623430512342907" status="FT" time="16:00">
-<home goals="2" id="2343051" name="Soproni VSE"></home>
-<away goals="0" id="2342907" name="Ajka"></away>
-<events>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="hungary" name="Hungary: Hungarian Cup" cup="True" id="3079" sub_id="30790"><match alternate_id="4227898" alternate_id_2="4485050" date="02.03.2016" id="4345388" static_id="02031623429632342965" status="FT" time="17:00">
 <home goals="1" id="2342963" name="Videoton"></home>
 <away goals="2" id="2342965" name="Ferencvaros"></away>

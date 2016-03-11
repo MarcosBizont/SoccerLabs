@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:18" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4251296" alternate_id_2="4502495" date="09.03.2016" id="4368736" static_id="09031623444332344384" status="16:10" time="16:10">
-<home goals="?" id="2344433" name="Suduva"></home>
-<away goals="?" id="2344384" name="Atlantas"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:17" sport="soccer" country="lithuania"><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4251296" alternate_id_2="4502495" date="09.03.2016" id="4368736" static_id="09031623444332344384" status="FT" time="16:10">
+<home goals="1" id="2344433" name="Suduva"></home>
+<away goals="0" id="2344384" name="Atlantas"></away>
+<events>
+<event id="24038454" minute="15" player="D. Norvilas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24038455" minute="52" player="A. Jepifanovas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24038456" minute="53" player="M. Jablan" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24038457" minute="75" player="R. Gedminas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24038458" minute="81" player="A. Jepifanovas" playerid="" result="" team="away" type="yellowred"></event>
+<event id="24038459" minute="90" player="I. Kardum" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4251295" alternate_id_2="4502494" date="06.03.2016" id="4368735" static_id="06031623444132344433" status="FT" time="11:00">
 <home goals="1" id="2344413" name="Jonava"></home>
 <away goals="1" id="2344433" name="Suduva"></away>
@@ -552,12 +559,22 @@
 <event id="23651605" minute="90" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="4214367" alternate_id_2="4463806" date="22.09.2015" id="4331868" static_id="22091523566172344388" status="Awarded" time="14:00">
-<home goals="0" id="2356617" name="Druskininkai"></home>
-<away goals="3" id="2344388" name="Banga"></away>
+</match><match alternate_id="4214374" alternate_id_2="4463813" date="22.09.2015" id="4331875" static_id="" status="AET" time="14:00">
+<home goals="5" id="" name="Tauras Taurage"></home>
+<away goals="4" id="2355534" name="MRU TiuMenas"></away>
 <events>
+<event id="23651634" minute="24" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23651635" minute="43" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23651636" minute="66" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23651637" minute="68" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
+<event id="23651638" minute="84" player="" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="23651639" minute="87" player="" playerid="" result="[4 - 2]" team="home" type="goal"></event>
+<event id="23651640" minute="88" player="" playerid="" result="[4 - 3]" team="away" type="goal"></event>
+<event id="23651641" minute="90" player="" playerid="" result="[4 - 4]" team="away" type="goal"></event>
+<event id="23651642" minute="105" player="" playerid="" result="[5 - 4]" team="home" type="goal"></event>
+<event id="215529843" minute="112" player="" playerid="" result="" team="away" type="redcard"></event>
 </events>
-<ht score="[-]"></ht>
+<ht score="[1-1]"></ht>
 </match></league><league country="lithuania" name="Lithuania: Super Cup" cup="True" id="4155" sub_id=""><match alternate_id="4248387" alternate_id_2="4499609" date="28.02.2016" id="4365839" static_id="28021623444492350589" status="AET" time="13:30">
 <home goals="4" id="2344449" name="Zalgiris"></home>
 <away goals="1" id="2350589" name="Trakai"></away>

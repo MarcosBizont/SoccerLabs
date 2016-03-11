@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:40:45" sport="soccer" country="chile"><league country="chile" name="Chile: Primera Division - Clausura" cup="False" id="2992" sub_id="29923"><match alternate_id="4236281" alternate_id_2="4501513" date="07.03.2016" id="4353762" static_id="07031623398402339841" status="FT" time="22:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:40:45" sport="soccer" country="chile"><league country="chile" name="Chile: Primera Division - Clausura" cup="False" id="2992" sub_id="29923"><match alternate_id="4236281" alternate_id_2="4501513" date="07.03.2016" id="4353762" static_id="07031623398402339841" status="FT" time="22:30">
 <home goals="1" id="2339840" name="O'Higgins"></home>
 <away goals="1" id="2339841" name="Palestino"></away>
 <events>
@@ -1323,15 +1323,6 @@
 </events>
 <ht score="[2-1]"></ht>
 <penalty localteam="6" visitorteam="5"></penalty>
-</match><match alternate_id="4199729" alternate_id_2="4457521" date="06.09.2015" id="4317234" static_id="06091523397972339848" status="FT" time="19:00">
-<home goals="1" id="2339797" name="A. Italiano"></home>
-<away goals="1" id="2339848" name="S. Morning"></away>
-<events>
-<event id="23588714" minute="17" player="S. Vegas" playerid="2622355" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23588715" minute="83" player="D. Escalante (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23588716" minute="85" player="D. Escalante" playerid="" result="" team="away" type="yellowred"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match><match alternate_id="4199731" alternate_id_2="4457522" date="06.09.2015" id="4317236" static_id="06091523398362339813" status="FT" time="19:00">
 <home goals="1" id="2339836" name="Deportes Iquique"></home>
 <away goals="2" id="2339813" name="Copiapo"></away>
@@ -1342,6 +1333,20 @@
 <event id="23588727" minute="90" player="C. Bogado Morinigo" playerid="2357246" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
+</match><match alternate_id="4199735" alternate_id_2="4457523" date="06.09.2015" id="4317240" static_id="06091523398012339818" status="FT" time="19:00">
+<home goals="5" id="2339801" name="Huachipato"></home>
+<away goals="3" id="2339818" name="D. Puerto Montt"></away>
+<events>
+<event id="23588734" minute="17" player="L. Simon" playerid="2349845" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23588735" minute="18" player="N. Millan" playerid="2390000" result="[1 - 1]" team="away" type="goal"></event>
+<event id="23588736" minute="50" player="L. Simon" playerid="2349845" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23588737" minute="52" player="O. Merlo" playerid="2346201" result="[3 - 1]" team="home" type="goal"></event>
+<event id="23588738" minute="58" player="B. Vejar" playerid="2607481" result="[4 - 1]" team="home" type="goal"></event>
+<event id="23588739" minute="78" player="J. Castillo Marin" playerid="" result="[4 - 2]" team="away" type="goal"></event>
+<event id="23588740" minute="88" player="D. Alvarado" playerid="2457683" result="[4 - 3]" team="away" type="goal"></event>
+<event id="23588741" minute="88" player="L. Vazquez" playerid="2407849" result="[5 - 3]" team="home" type="goal"></event>
+</events>
+<ht score="[1-1]"></ht>
 </match></league><league country="chile" name="Chile: Chilean Cup" cup="True" id="3599" sub_id="35991"><match alternate_id="4141143" alternate_id_2="4362756" date="12.08.2015" id="4258681" static_id="12081523398102339833" status="FT" time="21:00">
 <home goals="0" id="2339810" name="Barnechea"></home>
 <away goals="3" id="2339833" name="Magallanes"></away>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:40:30" sport="soccer" country="asia"><league country="asia" name="Asia: World Cup - Qualification - Second Stage" cup="True" id="2882" sub_id="28823"><match alternate_id="4123973" alternate_id_2="4472859" date="17.11.2015" id="4241517" static_id="17111523495362349290" status="FT" time="15:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:40:28" sport="soccer" country="asia"><league country="asia" name="Asia: World Cup - Qualification - Second Stage" cup="True" id="2882" sub_id="28823"><match alternate_id="4123973" alternate_id_2="4472859" date="17.11.2015" id="4241517" static_id="17111523495362349290" status="FT" time="15:30">
 <home goals="1" id="2349536" name="Yemen"></home>
 <away goals="3" id="2349290" name="Uzbekistan"></away>
 <events>
@@ -1071,20 +1071,25 @@
 <event id="202391044" minute="83" player="I. Mohammed" playerid="" result="[2 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="asia" name="Asia: Afc Cup" cup="True" id="2856" sub_id="28560"><match alternate_id="4235978" alternate_id_2="4488456" date="09.03.2016" id="4353459" static_id="09031623433432345644" status="16:00" time="16:00">
-<home goals="?" id="2343343" name="Al Quwa Al Jawiya (Irq)"></home>
-<away goals="?" id="2345644" name="Al Oruba (Oma)"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="asia" name="Asia: Afc Cup" cup="True" id="2856" sub_id="28560"><match alternate_id="4235978" alternate_id_2="4488456" date="09.03.2016" id="4353459" static_id="09031623433432345644" status="FT" time="16:00">
+<home goals="2" id="2343343" name="Al Quwa Al Jawiya"></home>
+<away goals="1" id="2345644" name="Al Oruba"></away>
+<events>
+<event id="23898064" minute="14" player="H. Ahmad" playerid="2550465" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23898065" minute="66" player="S. Saeed" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23898066" minute="77" player="M. Kone" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4247480" alternate_id_2="4502442" date="09.03.2016" id="4364934" static_id="09031623463312357195" status="Postp." time="14:00">
 <home goals="?" id="2346331" name="Al Jaish (Syr)"></home>
 <away goals="?" id="2357195" name="Ahli Al-Khalil (Pal)"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4247461" alternate_id_2="4491231" date="09.03.2016" id="4364915" static_id="09031623545082344613" status="5" time="13:30">
+</match><match alternate_id="4247461" alternate_id_2="4491231" date="09.03.2016" id="4364915" static_id="09031623545082344613" status="FT" time="13:30">
 <home goals="0" id="2354508" name="Bengaluru"></home>
-<away goals="0" id="2344613" name="Johor DT"></away>
+<away goals="1" id="2344613" name="Johor DT"></away>
 <events>
+<event id="23925814" minute="55" player="S. Rahim" playerid="2401837" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4246806" alternate_id_2="4502225" date="09.03.2016" id="4364261" static_id="09031623468542354714" status="Postp." time="12:00">
@@ -1092,23 +1097,24 @@
 <away goals="?" id="2354714" name="Shabab Al-Dhahiriya (Pal)"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4235980" alternate_id_2="4488459" date="09.03.2016" id="4353461" static_id="09031623428882353299" status="65" time="12:00">
+</match><match alternate_id="4235980" alternate_id_2="4488459" date="09.03.2016" id="4353461" static_id="09031623428882353299" status="FT" time="12:00">
 <home goals="0" id="2342888" name="South China"></home>
-<away goals="3" id="2353299" name="Mohun Bagan"></away>
+<away goals="4" id="2353299" name="Mohun Bagan"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23898094" minute="15" player="L. Rodrigues" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23898095" minute="16" player="R. Che" playerid="2433350" result="" team="home" type="yellowred"></event>
-<event assist="" assistid="" extra_min="" id="23898096" minute="39" player="S. Norde" playerid="2460459" result="[0 - 2]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23898097" minute="44" player="C. Glen" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23898094" minute="15" player="L. Rodrigues" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23898095" minute="16" player="R. Che" playerid="2433350" result="" team="home" type="yellowred"></event>
+<event id="23898096" minute="39" player="S. Norde" playerid="2460459" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23898097" minute="45" player="C. Glen" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="23898098" minute="82" player="J. Lalpekhlua" playerid="2432507" result="[0 - 4]" team="away" type="goal"></event>
 </events>
 <ht score="[0-3]"></ht>
-</match><match alternate_id="4235979" alternate_id_2="4488458" date="09.03.2016" id="4353460" static_id="09031623509462338464" status="65" time="11:00">
+</match><match alternate_id="4235979" alternate_id_2="4488458" date="09.03.2016" id="4353460" static_id="09031623509462338464" status="FT" time="11:00">
 <home goals="1" id="2350946" name="Fanja SC"></home>
 <away goals="2" id="2338464" name="Al-Muharraq"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23898084" minute="20" player="Kanu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23898085" minute="31" player="Al Hosani Emad Ali" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23898086" minute="73" player="R. Salem" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="23898084" minute="20" player="Kanu" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23898085" minute="31" player="Al Hosani Emad Ali" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23898086" minute="73" player="R. Salem" playerid="" result="[1 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
 </match><match alternate_id="4247460" alternate_id_2="4491233" date="09.03.2016" id="4364914" static_id="09031623446642351964" status="FT" time="11:00">
@@ -2437,15 +2443,6 @@
 <event id="22044617" minute="90" player="Silva" playerid="" result="[4 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4303110" date="10.03.2015" id="" static_id="10031523384632344212" status="FT" time="15:30">
-<home goals="1" id="2338463" name="Manama Club"></home>
-<away goals="2" id="2344212" name="Kazma SC"></away>
-<events>
-<event id="22044604" minute="38" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="22044605" minute="63" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="22044606" minute="73" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
 </match></league><league country="asia" name="Asia: Saff Championship - Play Offs" cup="False" id="4249" sub_id=""><match alternate_id="4233466" alternate_id_2="4490685" date="03.01.2016" id="4350948" static_id="03011623431482337508" status="AET" time="13:00">
 <home goals="2" id="2343148" name="India"></home>
 <away goals="1" id="2337508" name="Afghanistan"></away>
@@ -2813,11 +2810,11 @@
 <event id="22391209" minute="80" player="Nguyen Van Tuan" playerid="" result="[5 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4131090" alternate_id_2="4337767" date="01.06.2015" id="4248630" static_id="" status="FT" time="12:30">
-<home goals="0" id="" name="Philippines U23"></home>
-<away goals="1" id="2344653" name="Singapore U23"></away>
+</match><match alternate_id="4131089" alternate_id_2="4337768" date="01.06.2015" id="4248629" static_id="01061523547192355837" status="FT" time="12:30">
+<home goals="1" id="2354719" name="Thailand U23"></home>
+<away goals="0" id="2355837" name="East Timor U23"></away>
 <events>
-<event id="22391174" minute="45" player="S. Abdul Hadi" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22391184" minute="44" player="R. Phumichantuk" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[1-0]"></ht>
 </match></league></recent_results>

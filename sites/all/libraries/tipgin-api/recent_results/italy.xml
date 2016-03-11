@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:50:11" sport="soccer" country="italy"><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4182083" alternate_id_2="4488152" date="06.03.2016" id="4299601" static_id="06031623437502343791" status="FT" time="19:45">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:50:12" sport="soccer" country="italy"><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4182083" alternate_id_2="4488152" date="06.03.2016" id="4299601" static_id="06031623437502343791" status="FT" time="19:45">
 <home goals="3" id="2343750" name="Inter"></home>
 <away goals="1" id="2343791" name="Palermo"></away>
 <events>
@@ -402,21 +402,6 @@
 <event id="219437043" minute="90" player="B. Petkovic" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[2-0]"></ht>
-</match><match alternate_id="4212641" alternate_id_2="4501357" date="01.03.2016" id="4330143" static_id="01031623436022343773" status="FT" time="19:30">
-<home goals="2" id="2343602" name="Ascoli"></home>
-<away goals="1" id="2343773" name="Modena"></away>
-<events>
-<event id="24027074" minute="22" player="D. Del Fabro" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="24027075" minute="23" player="D. Luppi" playerid="2479564" result="[0 - 1]" team="away" type="goal"></event>
-<event id="24027076" minute="26" player="M. Rubin" playerid="2349804" result="" team="away" type="yellowcard"></event>
-<event id="24027077" minute="37" player="S. Gozzi" playerid="2350240" result="" team="away" type="redcard"></event>
-<event id="24027078" minute="39" player="D. Cacia (pen.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="24027079" minute="44" player="J. Jankto" playerid="2722920" result="" team="home" type="yellowcard"></event>
-<event id="24027080" minute="60" player="D. Cacia" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="24027081" minute="69" player="L. Marzorati" playerid="2336219" result="" team="away" type="yellowcard"></event>
-<event id="24027082" minute="90" player="L. Perez" playerid="2481271" result="" team="home" type="yellowcard"></event>
-</events>
-<ht score="[1-1]"></ht>
 </match><match alternate_id="4204084" alternate_id_2="4501338" date="01.03.2016" id="4321588" static_id="01031623436492343878" status="FT" time="19:30">
 <home goals="4" id="2343649" name="Bari"></home>
 <away goals="0" id="2343878" name="Ternana"></away>
@@ -435,10 +420,10 @@
 <home goals="1" id="2343659" name="Brescia"></home>
 <away goals="0" id="2343647" name="Avellino"></away>
 <events>
-<event id="24026444" minute="37" player="A. Caracciolo" playerid="2335924" result="[1 - 0]" team="home" type="goal"></event>
-<event id="24026445" minute="66" player="L. Mazzitelli" playerid="2657384" result="" team="home" type="yellowcard"></event>
-<event id="24026446" minute="73" player="R. Insigne" playerid="2611574" result="" team="away" type="yellowcard"></event>
-<event id="24026447" minute="82" player="F. Paghera" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24026444" minute="37" player="A. Caracciolo" playerid="2335924" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24026445" minute="66" player="L. Mazzitelli" playerid="2657384" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24026446" minute="73" player="R. Insigne" playerid="2611574" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24026447" minute="82" player="F. Paghera" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match><match alternate_id="4204087" alternate_id_2="4501295" date="01.03.2016" id="4321591" static_id="01031623436892343931" status="FT" time="19:30">
@@ -512,6 +497,23 @@
 <event id="219278444" minute="90" player="S. Iacoponi" playerid="2349780" result="[2 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[1-1]"></ht>
+</match><match alternate_id="4204091" alternate_id_2="4501339" date="01.03.2016" id="4321595" static_id="01031623438602343682" status="FT" time="19:30">
+<home goals="1" id="2343860" name="Spezia"></home>
+<away goals="1" id="2343682" name="Cesena"></away>
+<events>
+<event id="24026894" minute="21" player="M. Kone" playerid="2358335" result="" team="away" type="yellowcard"></event>
+<event id="24026895" minute="27" player="C. Terzi" playerid="2351077" result="" team="home" type="yellowcard"></event>
+<event id="24026896" minute="30" player="D. Sciaudone" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24026897" minute="30" player="A. Gomis" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24026898" minute="35" player="A. Ragusa" playerid="2404359" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24026899" minute="45" player="D. Capelli" playerid="2336095" result="" team="away" type="yellowcard"></event>
+<event id="24026900" minute="50" player="A. Piccolo" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24026901" minute="55" player="F. Renzetti" playerid="2393260" result="" team="away" type="yellowcard"></event>
+<event id="24026902" minute="57" player="G. Perico" playerid="2350109" result="" team="away" type="yellowcard"></event>
+<event id="219282443" minute="59" player="E. Calaio" playerid="2349511" result="" team="home" type="yellowcard"></event>
+<event id="219282444" minute="70" player="Nene" playerid="2340819" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4204092" alternate_id_2="4501358" date="01.03.2016" id="4321596" static_id="01031623439252343821" status="FT" time="19:30">
 <home goals="1" id="2343925" name="Vicenza"></home>
 <away goals="1" id="2343821" name="Pro Vercelli"></away>
@@ -1259,11 +1261,6 @@
 <away goals="?" id="2351709" name="Pro Piacenza"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4333739" date="23.05.2015" id="" static_id="23051523517092343746" status="Cancl." time="13:00">
-<home goals="?" id="2351709" name="Pro Piacenza"></home>
-<away goals="?" id="2343746" name="Gubbio"></away>
-<events></events>
-<ht score=""></ht>
 </match><match alternate_id="" alternate_id_2="4335363" date="23.05.2015" id="" static_id="23051523517092343730" status="FT" time="13:00">
 <home goals="2" id="2351709" name="Pro Piacenza"></home>
 <away goals="1" id="2343730" name="Forli"></away>
@@ -1280,6 +1277,11 @@
 <event id="202684843" minute="89" player="L. Matteassi" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
+</match><match alternate_id="" alternate_id_2="4333739" date="23.05.2015" id="" static_id="23051523517092343746" status="Cancl." time="13:00">
+<home goals="?" id="2351709" name="Pro Piacenza"></home>
+<away goals="?" id="2343746" name="Gubbio"></away>
+<events></events>
+<ht score=""></ht>
 </match><match alternate_id="" alternate_id_2="4335364" date="23.05.2015" id="" static_id="23051523438472343746" status="FT" time="13:00">
 <home goals="2" id="2343847" name="Savona"></home>
 <away goals="1" id="2343746" name="Gubbio"></away>
@@ -1582,6 +1584,11 @@
 <event id="202523044" minute="80" player="F. Mangiacasale" playerid="" result="[3 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4333746" date="30.05.2015" id="" static_id="" status="Cancl." time="13:00">
+<home goals="?" id="2343714" name="Messina"></home>
+<away goals="?" id="" name="Savoia"></away>
+<events></events>
+<ht score=""></ht>
 </match><match alternate_id="" alternate_id_2="4335362" date="30.05.2015" id="" static_id="30051523437142343825" status="FT" time="13:00">
 <home goals="0" id="2343714" name="Messina"></home>
 <away goals="1" id="2343825" name="Reggio Calabria"></away>
@@ -1598,11 +1605,6 @@
 <event id="202684743" minute="90" player="S. Aronica" playerid="2336199" result="" team="away" type="yellowred"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4333746" date="30.05.2015" id="" static_id="" status="Cancl." time="13:00">
-<home goals="?" id="2343714" name="Messina"></home>
-<away goals="?" id="" name="Savoia"></away>
-<events></events>
-<ht score=""></ht>
 </match><match alternate_id="" alternate_id_2="4335361" date="26.05.2015" id="" static_id="26051523438252343714" status="FT" time="15:00">
 <home goals="1" id="2343825" name="Reggio Calabria"></home>
 <away goals="0" id="2343714" name="Messina"></away>
@@ -1880,9 +1882,9 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4208317" alternate_id_2="4499770" date="28.02.2016" id="4325821" static_id="28021623568642343656" status="FT" time="13:30">
-<home goals="1" id="2356864" name="Ligorna"></home>
-<away goals="0" id="2343656" name="Borgosesia"></away>
+</match><match alternate_id="4208321" alternate_id_2="4499771" date="28.02.2016" id="4325825" static_id="28021623557622343910" status="FT" time="13:30">
+<home goals="1" id="2355762" name="OltrepoVoghera"></home>
+<away goals="2" id="2343910" name="Lavagnese"></away>
 <events>
 </events>
 <ht score="[1-0]"></ht>
@@ -2480,12 +2482,12 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4210070" alternate_id_2="4496403" date="21.02.2016" id="4327574" static_id="21021623568812343664" status="FT" time="13:30">
-<home goals="2" id="2356881" name="Monticelli"></home>
-<away goals="2" id="2343664" name="Calcio Chieti"></away>
+</match><match alternate_id="4210071" alternate_id_2="4496455" date="21.02.2016" id="4327575" static_id="21021623437022349837" status="FT" time="13:30">
+<home goals="1" id="2343702" name="Fano"></home>
+<away goals="0" id="2349837" name="Jesina"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[0-0]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Group G" cup="False" id="3096" sub_id="30966"><match alternate_id="4210395" alternate_id_2="4499808" date="06.03.2016" id="4327899" static_id="06031623498462353067" status="FT" time="13:30">
 <home goals="1" id="2349846" name="Castiadas"></home>
 <away goals="1" id="2353067" name="San Cesareo"></away>
@@ -2726,7 +2728,12 @@
 <events>
 </events>
 <ht score="[1-1]"></ht>
-</match></league><league country="italy" name="Italy: Serie D - Group I" cup="False" id="3096" sub_id="30968"><match alternate_id="4214746" alternate_id_2="4501872" date="06.03.2016" id="4332247" static_id="06031623436792355775" status="FT" time="14:30">
+</match></league><league country="italy" name="Italy: Serie D - Group I" cup="False" id="3096" sub_id="30968"><match alternate_id="4214738" alternate_id_2="4499845" date="10.03.2016" id="4332239" static_id="10031623436482354360" status="14:00" time="14:00">
+<home goals="?" id="2343648" name="Aversa"></home>
+<away goals="?" id="2354360" name="Rende"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4214746" alternate_id_2="4501872" date="06.03.2016" id="4332247" static_id="06031623436792355775" status="FT" time="14:30">
 <home goals="2" id="2343679" name="Cavese"></home>
 <away goals="0" id="2355775" name="Leonfortese"></away>
 <events>
@@ -2840,12 +2847,6 @@
 <events>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4214731" alternate_id_2="4498562" date="28.02.2016" id="4332232" static_id="28021623557752355778" status="FT" time="13:30">
-<home goals="0" id="2355775" name="Leonfortese"></home>
-<away goals="0" id="2355778" name="Roccella"></away>
-<events>
-</events>
-<ht score="[0-0]"></ht>
 </match></league><league country="italy" name="Italy: Serie D - Play Offs" cup="False" id="3096" sub_id="309618"><match alternate_id="" alternate_id_2="4339788" date="14.06.2015" id="" static_id="14061523439042343775" status="FT" time="15:30">
 <home goals="1" id="2343904" name="Sestri Levante"></home>
 <away goals="0" id="2343775" name="Monopoli"></away>
@@ -3458,10 +3459,13 @@
 <event id="202527245" minute="90" player="S. Pesce" playerid="2336286" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-1]"></ht>
-</match></league><league country="italy" name="Italy: Coppa Italia Lega Pro - Play Offs" cup="True" id="3980" sub_id="39800"><match alternate_id="4251269" alternate_id_2="4502375" date="09.03.2016" id="4368710" static_id="09031623436852343859" status="16" time="13:30">
-<home goals="0" id="2343685" name="Cittadella"></home>
-<away goals="0" id="2343859" name="Spal"></away>
+</match></league><league country="italy" name="Italy: Coppa Italia Lega Pro - Play Offs" cup="True" id="3980" sub_id="39800"><match alternate_id="4251269" alternate_id_2="4502375" date="09.03.2016" id="4368710" static_id="09031623436852343859" status="FT" time="13:30">
+<home goals="2" id="2343685" name="Cittadella"></home>
+<away goals="1" id="2343859" name="Spal"></away>
 <events>
+<event id="24037254" minute="82" player="C. Coralli" playerid="2395735" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24037255" minute="88" player="M. Minesso" playerid="2399478" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24037256" minute="90" player="L. Grassi" playerid="" result="[2 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4250150" alternate_id_2="4500573" date="08.03.2016" id="4367598" static_id="08031623437282343851" status="FT" time="17:00">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:29" sport="soccer" country="portugal"><league country="portugal" name="Portugal: Primeira Liga" cup="False" id="3185" sub_id="31850"><match alternate_id="4151623" alternate_id_2="4501436" date="07.03.2016" id="4269158" static_id="07031623462472346150" status="FT" time="20:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:29" sport="soccer" country="portugal"><league country="portugal" name="Portugal: Primeira Liga" cup="False" id="3185" sub_id="31850"><match alternate_id="4151623" alternate_id_2="4501436" date="07.03.2016" id="4269158" static_id="07031623462472346150" status="FT" time="20:00">
 <home goals="1" id="2346247" name="Rio Ave"></home>
 <away goals="3" id="2346150" name="Estoril"></away>
 <events>
@@ -273,66 +273,125 @@
 <event id="218825046" minute="76" player="Arghus" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[2-2]"></ht>
-</match></league><league country="portugal" name="Portugal: Segunda Liga" cup="False" id="3186" sub_id="31860"><match alternate_id="4152314" alternate_id_2="4503170" date="09.03.2016" id="4269847" static_id="09031623462502346240" status="16:00" time="16:00">
-<home goals="?" id="2346250" name="Santa Clara"></home>
-<away goals="?" id="2346240" name="Portimonense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152321" alternate_id_2="4503168" date="09.03.2016" id="4269854" static_id="09031623460942346283" status="15:00" time="15:00">
-<home goals="?" id="2346094" name="Atletico CP"></home>
-<away goals="?" id="2346283" name="Sporting B"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152323" alternate_id_2="4503141" date="09.03.2016" id="4269856" static_id="09031623461622346120" status="15:00" time="15:00">
-<home goals="?" id="2346162" name="Famalicao"></home>
-<away goals="?" id="2346120" name="Mafra"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152318" alternate_id_2="4503049" date="09.03.2016" id="4269851" static_id="09031623461762346258" status="15:00" time="15:00">
-<home goals="?" id="2346176" name="Freamunde"></home>
-<away goals="?" id="2346258" name="SC Farense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152324" alternate_id_2="4503143" date="09.03.2016" id="4269857" static_id="09031623526202346230" status="15:00" time="15:00">
-<home goals="?" id="2352620" name="Guimaraes B"></home>
-<away goals="?" id="2346230" name="Oliveirense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152319" alternate_id_2="4503050" date="09.03.2016" id="4269852" static_id="09031623462042346172" status="15:00" time="15:00">
-<home goals="?" id="2346204" name="Leixoes"></home>
-<away goals="?" id="2346172" name="Feirense"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152317" alternate_id_2="4503051" date="09.03.2016" id="4269850" static_id="09031623462272346144" status="15:00" time="15:00">
-<home goals="?" id="2346227" name="Olhanense"></home>
-<away goals="?" id="2346144" name="Chaves"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152316" alternate_id_2="4503144" date="09.03.2016" id="4269849" static_id="09031623569732346104" status="15:00" time="15:00">
-<home goals="?" id="2356973" name="Oriental"></home>
-<away goals="?" id="2346104" name="Braga B"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152320" alternate_id_2="4503052" date="09.03.2016" id="4269853" static_id="09031623462372346195" status="15:00" time="15:00">
-<home goals="?" id="2346237" name="Penafiel"></home>
-<away goals="?" id="2346195" name="Gil Vicente"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152325" alternate_id_2="4503053" date="09.03.2016" id="4269858" static_id="09031623463002346070" status="15:00" time="15:00">
-<home goals="?" id="2346300" name="Varzim"></home>
-<away goals="?" id="2346070" name="Academico Viseu"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152322" alternate_id_2="4503169" date="09.03.2016" id="4269855" static_id="09031623461022346280" status="14:30" time="14:30">
-<home goals="?" id="2346102" name="Benfica B"></home>
-<away goals="?" id="2346280" name="Covilha"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4152315" alternate_id_2="4503142" date="09.03.2016" id="4269848" static_id="09031623462432346143" status="14:30" time="14:30">
-<home goals="?" id="2346243" name="FC Porto B"></home>
-<away goals="?" id="2346143" name="Aves"></away>
-<events></events>
-<ht score=""></ht>
+</match></league><league country="portugal" name="Portugal: Segunda Liga" cup="False" id="3186" sub_id="31860"><match alternate_id="4152314" alternate_id_2="4503170" date="09.03.2016" id="4269847" static_id="09031623462502346240" status="FT" time="16:00">
+<home goals="1" id="2346250" name="Santa Clara"></home>
+<away goals="1" id="2346240" name="Portimonense"></away>
+<events>
+<event id="24045204" minute="46" player="T. Ryuki" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24045205" minute="62" player="G. Carbonieri" playerid="2523433" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4152321" alternate_id_2="4503168" date="09.03.2016" id="4269854" static_id="09031623460942346283" status="FT" time="15:00">
+<home goals="1" id="2346094" name="Atletico CP"></home>
+<away goals="3" id="2346283" name="Sporting B"></away>
+<events>
+<event id="24045184" minute="11" player="D. Podence" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24045185" minute="20" player="C. Ponde" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24045186" minute="33" player="O. Jefferson" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="24045187" minute="39" player="C. Malele" playerid="2612078" result="[1 - 1]" team="home" type="goal"></event>
+<event id="24045188" minute="40" player="R. Gauld" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24045189" minute="42" player="Kikas" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24045190" minute="63" player="D. Podence" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24045191" minute="66" player="D. Duarte" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+<event id="24045192" minute="70" player="Rafael" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="219465343" minute="70" player="J. Ribeiro" playerid="2351092" result="" team="home" type="yellowcard"></event>
+<event id="219465344" minute="80" player="Betinho" playerid="" result="[1 - 3]" team="away" type="goal"></event>
+<event id="219465345" minute="89" player="R. Ribeiro" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4152323" alternate_id_2="4503141" date="09.03.2016" id="4269856" static_id="09031623461622346120" status="FT" time="15:00">
+<home goals="4" id="2346162" name="Famalicao"></home>
+<away goals="1" id="2346120" name="Mafra"></away>
+<events>
+<event id="24044914" minute="7" player="J. Pedro (pen.)" playerid="2388605" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044915" minute="19" player="J. Pedro" playerid="2388605" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24044916" minute="32" player="Feliz" playerid="2501187" result="[3 - 0]" team="home" type="goal"></event>
+<event id="24044917" minute="52" player="Feliz" playerid="2501187" result="[4 - 0]" team="home" type="goal"></event>
+<event id="24044918" minute="69" player="K. Ballack" playerid="2543247" result="[4 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match><match alternate_id="4152318" alternate_id_2="4503049" date="09.03.2016" id="4269851" static_id="09031623461762346258" status="FT" time="15:00">
+<home goals="3" id="2346176" name="Freamunde"></home>
+<away goals="0" id="2346258" name="SC Farense"></away>
+<events>
+<event id="24043994" minute="18" player="P. Pereira" playerid="2348986" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24043995" minute="25" player="P. Pereira" playerid="2348986" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24043996" minute="75" player="C. M. Dalla" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4152324" alternate_id_2="4503143" date="09.03.2016" id="4269857" static_id="09031623526202346230" status="FT" time="15:00">
+<home goals="4" id="2352620" name="Guimaraes B"></home>
+<away goals="2" id="2346230" name="Oliveirense"></away>
+<events>
+<event id="24044934" minute="19" player="B. Mendes" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044935" minute="28" player="Leleco" playerid="2542667" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24044936" minute="45" player="Luis Rocha" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="24044937" minute="63" player="Renan" playerid="2609613" result="[2 - 2]" team="away" type="goal"></event>
+<event id="24044938" minute="81" player="J. Pedro" playerid="" result="[3 - 2]" team="home" type="goal"></event>
+<event id="24044939" minute="87" player="" playerid="" result="[4 - 2]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+</match><match alternate_id="4152319" alternate_id_2="4503050" date="09.03.2016" id="4269852" static_id="09031623462042346172" status="FT" time="15:00">
+<home goals="0" id="2346204" name="Leixoes"></home>
+<away goals="1" id="2346172" name="Feirense"></away>
+<events>
+<event id="24044004" minute="77" player="Platiny" playerid="2599112" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24044005" minute="90" player="Serginho" playerid="2388505" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4152317" alternate_id_2="4503051" date="09.03.2016" id="4269850" static_id="09031623462272346144" status="FT" time="15:00">
+<home goals="1" id="2346227" name="Olhanense"></home>
+<away goals="0" id="2346144" name="Chaves"></away>
+<events>
+<event id="24044014" minute="11" player="L. Galassi" playerid="2528679" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4152316" alternate_id_2="4503144" date="09.03.2016" id="4269849" static_id="09031623569732346104" status="FT" time="15:00">
+<home goals="0" id="2356973" name="Oriental"></home>
+<away goals="0" id="2346104" name="Braga B"></away>
+<events>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4152320" alternate_id_2="4503052" date="09.03.2016" id="4269853" static_id="09031623462372346195" status="FT" time="15:00">
+<home goals="1" id="2346237" name="Penafiel"></home>
+<away goals="0" id="2346195" name="Gil Vicente"></away>
+<events>
+<event id="24044024" minute="18" player="Ricardinho" playerid="2644721" result="" team="away" type="yellowcard"></event>
+<event id="24044025" minute="27" player="Kalindi" playerid="2727927" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044026" minute="59" player="G. Abreu" playerid="2421770" result="" team="home" type="yellowcard"></event>
+<event id="24044027" minute="79" player="Kalindi" playerid="2727927" result="" team="home" type="yellowcard"></event>
+<event id="24044028" minute="85" player="V. Goncalves" playerid="2530698" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+</match><match alternate_id="4152325" alternate_id_2="4503053" date="09.03.2016" id="4269858" static_id="09031623463002346070" status="FT" time="15:00">
+<home goals="2" id="2346300" name="Varzim"></home>
+<away goals="1" id="2346070" name="Academico Viseu"></away>
+<events>
+<event id="24044034" minute="6" player="G. Dias" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24044035" minute="30" player="C. Eduardo" playerid="2589161" result="[1 - 1]" team="away" type="goal"></event>
+<event id="24044036" minute="83" player="S. N. Ribeiro d. (pen.)" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="24044037" minute="86" player="R. Ribeiro" playerid="2642236" result="" team="away" type="redcard"></event>
+<event id="24044038" minute="90" player="T. Costa" playerid="2388758" result="" team="away" type="yellowred"></event>
+</events>
+<ht score="[1-1]"></ht>
+</match><match alternate_id="4152322" alternate_id_2="4503169" date="09.03.2016" id="4269855" static_id="09031623461022346280" status="FT" time="14:30">
+<home goals="2" id="2346102" name="Benfica B"></home>
+<away goals="2" id="2346280" name="Covilha"></away>
+<events>
+<event id="24045194" minute="4" player="A. Benitez" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24045195" minute="10" player="I. Saponjic" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24045196" minute="46" player="P. Dawidowicz" playerid="" result="" team="home" type="yellowred"></event>
+<event id="24045197" minute="87" player="Ze Tiago" playerid="2538830" result="[2 - 1]" team="away" type="goal"></event>
+<event id="24045198" minute="90" player="Davidson (pen.)" playerid="" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4152315" alternate_id_2="4503142" date="09.03.2016" id="4269848" static_id="09031623462432346143" status="FT" time="14:30">
+<home goals="0" id="2346243" name="FC Porto B"></home>
+<away goals="1" id="2346143" name="Aves"></away>
+<events>
+<event id="24044924" minute="19" player="Jander" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4152307" alternate_id_2="4501437" date="05.03.2016" id="4269840" static_id="05031623460702346237" status="FT" time="15:00">
 <home goals="0" id="2346070" name="Academico Viseu"></home>
 <away goals="2" id="2346237" name="Penafiel"></away>
@@ -370,40 +429,34 @@
 <event id="24027904" minute="42" player="D. Ribeiro" playerid="" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4152312" alternate_id_2="4501573" date="05.03.2016" id="4269845" static_id="05031623461952346204" status="FT" time="15:00">
-<home goals="2" id="2346195" name="Gil Vicente"></home>
-<away goals="0" id="2346204" name="Leixoes"></away>
+</match><match alternate_id="4152306" alternate_id_2="4501572" date="05.03.2016" id="4269839" static_id="05031623462432346227" status="FT" time="15:00">
+<home goals="0" id="2346243" name="FC Porto B"></home>
+<away goals="0" id="2346227" name="Olhanense"></away>
 <events>
-<event id="24029234" minute="14" player="Slim" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="24029235" minute="20" player="B. Silva" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="24029236" minute="21" player="Simmy" playerid="2530699" result="[1 - 0]" team="home" type="goal"></event>
-<event id="24029237" minute="22" player="Malafaia" playerid="2388766" result="" team="away" type="yellowcard"></event>
-<event id="24029238" minute="59" player="Joao Pedro" playerid="2541268" result="" team="away" type="yellowcard"></event>
-<event id="24029239" minute="70" player="Simmy" playerid="2530699" result="[2 - 0]" team="home" type="goal"></event>
-<event id="24029240" minute="81" player="Ricardo Barros" playerid="2537559" result="" team="away" type="yellowcard"></event>
-<event id="24029241" minute="90" player="Renan" playerid="2667563" result="" team="home" type="yellowcard"></event>
-<event id="24029242" minute="90" player="B. China" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4152303" alternate_id_2="4501442" date="05.03.2016" id="4269836" static_id="05031623461202346102" status="FT" time="15:00">
 <home goals="0" id="2346120" name="Mafra"></home>
 <away goals="0" id="2346102" name="Benfica B"></away>
 <events>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4152304" alternate_id_2="4501443" date="05.03.2016" id="4269837" static_id="05031623462402346104" status="FT" time="15:00">
-<home goals="1" id="2346240" name="Portimonense"></home>
-<away goals="5" id="2346104" name="Braga B"></away>
+</match><match alternate_id="4152313" alternate_id_2="4501574" date="05.03.2016" id="4269846" static_id="05031623462302346300" status="FT" time="15:00">
+<home goals="1" id="2346230" name="Oliveirense"></home>
+<away goals="0" id="2346300" name="Varzim"></away>
 <events>
-<event id="24027934" minute="8" player="Oto'o" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="24027935" minute="15" player="Oto'o" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="24027936" minute="22" player="C. Fortes (pen.)" playerid="" result="[0 - 3]" team="away" type="goal"></event>
-<event id="24027937" minute="22" player="M. Yahaya" playerid="" result="" team="home" type="redcard"></event>
-<event id="24027938" minute="33" player="Didi" playerid="" result="[0 - 4]" team="away" type="goal"></event>
-<event id="24027939" minute="65" player="Joca" playerid="" result="[0 - 5]" team="away" type="goal"></event>
-<event id="24027940" minute="88" player="L. Possignolo" playerid="" result="[1 - 5]" team="home" type="goal"></event>
+<event id="24029244" minute="19" player="R. Coentrao" playerid="2537548" result="" team="away" type="yellowcard"></event>
+<event id="24029245" minute="20" player="M. Mendonca (pen.)" playerid="2595455" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24029246" minute="40" player="Guima" playerid="2657971" result="" team="home" type="yellowcard"></event>
+<event id="24029247" minute="40" player="Nelsinho" playerid="2388769" result="" team="away" type="yellowcard"></event>
+<event id="24029248" minute="64" player="W. Manafa" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="24029249" minute="73" player="J. Carneiro" playerid="2538071" result="" team="away" type="yellowcard"></event>
+<event id="24029250" minute="74" player="Ze Pedro" playerid="2388745" result="" team="home" type="yellowcard"></event>
+<event id="24029251" minute="81" player="M. Mendonca" playerid="2595455" result="" team="home" type="yellowcard"></event>
+<event id="24029252" minute="84" player="G. Dias" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="219305943" minute="85" player="Leleco" playerid="2542667" result="" team="home" type="yellowcard"></event>
 </events>
-<ht score="[0-4]"></ht>
+<ht score="[1-0]"></ht>
 </match><match alternate_id="4152311" alternate_id_2="4501444" date="05.03.2016" id="4269844" static_id="05031623462582356973" status="FT" time="15:00">
 <home goals="1" id="2346258" name="SC Farense"></home>
 <away goals="0" id="2356973" name="Oriental"></away>
@@ -679,11 +732,12 @@
 <event id="216673645" minute="120" player="D. Coelho" playerid="2531160" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4220702" alternate_id_2="4475242" date="22.11.2015" id="4338200" static_id="22111523461032346122" status="FT" time="15:00">
-<home goals="1" id="2346103" name="Boavista"></home>
-<away goals="0" id="2346122" name="Operario"></away>
+</match><match alternate_id="4220701" alternate_id_2="4475244" date="22.11.2015" id="4338199" static_id="22111523461162346307" status="FT" time="15:00">
+<home goals="0" id="2346116" name="Casa Pia"></home>
+<away goals="1" id="2346307" name="Setubal"></away>
 <events>
-<event id="23765924" minute="86" player="R. Santos" playerid="2502547" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23765944" minute="45" player="N. Pinto" playerid="" result="" team="away" type="redcard"></event>
+<event id="23765945" minute="70" player="Suk Hyun-Jun" playerid="" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
 </match><match alternate_id="4220697" alternate_id_2="4475247" date="22.11.2015" id="4338195" static_id="22111523462222346118" status="FT" time="15:00">
@@ -964,21 +1018,22 @@
 <event id="23783751" minute="90" player="V. Aboubakar" playerid="2462854" result="[1 - 3]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4221203" alternate_id_2="4477032" date="29.12.2015" id="4338701" static_id="29121523569732346220" status="FT" time="15:00">
-<home goals="2" id="2356973" name="Oriental"></home>
-<away goals="4" id="2346220" name="Moreirense"></away>
+</match><match alternate_id="4221207" alternate_id_2="4477031" date="29.12.2015" id="4338705" static_id="29121523462042346247" status="FT" time="15:00">
+<home goals="1" id="2346204" name="Leixoes"></home>
+<away goals="2" id="2346247" name="Rio Ave"></away>
 <events>
-<event id="23783824" minute="6" player="J. Sousa" playerid="2726536" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23783825" minute="35" player="A. Lopes" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23783826" minute="44" player="H. Grilo" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23783827" minute="45" player="E. Boateng" playerid="2684940" result="[1 - 2]" team="away" type="goal"></event>
-<event id="23783828" minute="57" player="L. Carlos" playerid="2402840" result="" team="away" type="yellowcard"></event>
-<event id="23783829" minute="63" player="F. Goncalves" playerid="2400226" result="" team="away" type="yellowcard"></event>
-<event id="23783830" minute="86" player="R. Martins (pen.)" playerid="2403953" result="[1 - 3]" team="away" type="goal"></event>
-<event id="23783831" minute="90" player="R. Martins" playerid="2403953" result="[1 - 4]" team="away" type="goal"></event>
-<event id="23783832" minute="90" player="Fernando" playerid="" result="[2 - 4]" team="home" type="goal"></event>
+<event id="23783814" minute="4" player="J. Kayembe" playerid="2643429" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23783815" minute="6" player="S. Abalo" playerid="2684930" result="" team="away" type="yellowcard"></event>
+<event id="23783816" minute="8" player="Malafaia" playerid="2388766" result="" team="home" type="yellowcard"></event>
+<event id="23783817" minute="21" player="M. Tandjigora" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23783818" minute="34" player="R. Miranda" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23783819" minute="37" player="Pan Ximing" playerid="2724365" result="" team="home" type="yellowcard"></event>
+<event id="23783820" minute="38" player="Tarantini" playerid="2388467" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23783821" minute="85" player="M. Lapushenko" playerid="2565165" result="" team="home" type="yellowcard"></event>
+<event id="23783822" minute="88" player="D. Nunes" playerid="2731299" result="" team="home" type="yellowcard"></event>
+<event id="216851643" minute="90" player="D. Nunes" playerid="2731299" result="[1 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[1-2]"></ht>
+<ht score="[0-2]"></ht>
 </match></league><league country="portugal" name="Portugal: League Cup - First Stage" cup="True" id="3744" sub_id="37443"><match alternate_id="4153075" alternate_id_2="4344901" date="21.10.2015" id="4270606" static_id="21101523462202346307" status="FT" time="15:00">
 <home goals="1" id="2346220" name="Moreirense"></home>
 <away goals="0" id="2346307" name="Setubal"></away>
@@ -1462,21 +1517,9 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4493033" date="23.01.2016" id="" static_id="23011623460892346235" status="FT" time="15:00">
-<home goals="1" id="2346089" name="Amarante"></home>
-<away goals="0" id="2346235" name="Pedras Rubras"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4493119" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
-<home goals="7" id="" name="Anadia"></home>
-<away goals="1" id="2350095" name="Oliveira de Frades"></away>
-<events>
-</events>
-<ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4493030" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
-<home goals="1" id="" name="Camacha"></home>
-<away goals="1" id="2346212" name="Maritimo B"></away>
+</match><match alternate_id="" alternate_id_2="4493082" date="23.01.2016" id="" static_id="23011623500942346109" status="FT" time="15:00">
+<home goals="1" id="2350094" name="Aguias do Moradal"></home>
+<away goals="1" id="2346109" name="Caldas"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -1510,6 +1553,12 @@
 <events>
 </events>
 <ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4493024" date="23.01.2016" id="" static_id="23011623558182346180" status="FT" time="15:00">
+<home goals="0" id="2355818" name="Minas de Argozelo"></home>
+<away goals="1" id="2346180" name="GD Braganca"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4493035" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
 <home goals="1" id="" name="Mondinense"></home>
 <away goals="2" id="2346078" name="AD Oliveirense"></away>
@@ -1522,15 +1571,21 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4493086" date="23.01.2016" id="" static_id="23011623462282350088" status="FT" time="15:00">
-<home goals="2" id="2346228" name="Oliveira Hospital"></home>
-<away goals="2" id="2350088" name="Sporting Ideal"></away>
+</match><match alternate_id="" alternate_id_2="4493120" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
+<home goals="2" id="" name="Nogueirense"></home>
+<away goals="1" id="2346266" name="SC Praiense"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4493028" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
 <home goals="3" id="" name="Pinhalnovense"></home>
 <away goals="0" id="2356712" name="Almancilense"></away>
+<events>
+</events>
+<ht score="[-]"></ht>
+</match><match alternate_id="" alternate_id_2="4493036" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
+<home goals="1" id="2346245" name="Real SC"></home>
+<away goals="2" id="" name="Dezembro"></away>
 <events>
 </events>
 <ht score="[-]"></ht>
@@ -1558,9 +1613,9 @@
 <events>
 </events>
 <ht score="[-]"></ht>
-</match><match alternate_id="" alternate_id_2="4493113" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
-<home goals="4" id="2346286" name="Torcatense"></home>
-<away goals="3" id="" name="Sao Martinho"></away>
+</match><match alternate_id="" alternate_id_2="4493090" date="23.01.2016" id="" static_id="" status="FT" time="15:00">
+<home goals="1" id="" name="Tirsense"></home>
+<away goals="0" id="2346268" name="SC Vila Real"></away>
 <events>
 </events>
 <ht score="[-]"></ht>

@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:51:35" sport="soccer" country="slovakia"><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4153397" alternate_id_2="4482465" date="09.03.2016" id="4270928" static_id="09031623472702347291" status="15:00" time="15:00">
-<home goals="?" id="2347270" name="Slovan Bratislava"></home>
-<away goals="?" id="2347291" name="Michalovce"></away>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:38" sport="soccer" country="slovakia"><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4153406" alternate_id_2="4485689" date="11.03.2016" id="4270937" static_id="11031623472232347264" status="17:00" time="17:00">
+<home goals="?" id="2347223" name="Dun. Streda"></home>
+<away goals="?" id="2347264" name="Senica"></away>
 <events></events>
 <ht score=""></ht>
+</match><match alternate_id="4153397" alternate_id_2="4482465" date="09.03.2016" id="4270928" static_id="09031623472702347291" status="FT" time="15:00">
+<home goals="1" id="2347270" name="Slovan Bratislava"></home>
+<away goals="0" id="2347291" name="Michalovce"></away>
+<events>
+<event id="23838154" minute="79" player="J. de Kamps" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23838155" minute="80" player="A. Sverchinski" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23838156" minute="89" player="M. Koscelnik" playerid="2685178" result="" team="away" type="yellowcard"></event>
+<event id="23838157" minute="90" player="T. Priskin" playerid="2336401" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match><match alternate_id="4153398" alternate_id_2="4482401" date="08.03.2016" id="4270929" static_id="08031623472922347287" status="FT" time="16:00">
 <home goals="2" id="2347292" name="Zilina"></home>
 <away goals="3" id="2347287" name="Trencin"></away>
@@ -234,28 +244,12 @@
 <event id="23807997" minute="77" player="T. Priskin" playerid="2336401" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
-</match><match alternate_id="4145415" alternate_id_2="4479448" date="05.12.2015" id="4262951" static_id="05121523472762347287" status="FT" time="17:20">
-<home goals="1" id="2347276" name="Trnava"></home>
-<away goals="1" id="2347287" name="Trencin"></away>
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - West" cup="False" id="3619" sub_id="36192"><match alternate_id="4177259" alternate_id_2="4479559" date="09.03.2016" id="4294783" static_id="09031623472662347293" status="FT" time="13:30">
+<home goals="1" id="2347266" name="SK Senec"></home>
+<away goals="3" id="2347293" name="Zilina B"></away>
 <events>
-<event id="23807984" minute="24" player="R. Ibrahim" playerid="2428836" result="" team="away" type="yellowcard"></event>
-<event id="23807985" minute="38" player="I. Schranz" playerid="2490346" result="" team="home" type="yellowcard"></event>
-<event id="23807986" minute="41" player="M. Sulek" playerid="2732716" result="" team="away" type="yellowcard"></event>
-<event id="23807987" minute="42" player="H. Harba (pen.)" playerid="2511133" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23807988" minute="45" player="B. Godal" playerid="2527873" result="" team="home" type="yellowcard"></event>
-<event id="23807989" minute="58" player="P. Klescik" playerid="2461598" result="" team="away" type="yellowcard"></event>
-<event id="23807990" minute="61" player="Wesley" playerid="2740601" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23807991" minute="64" player="L. Gressak" playerid="2415401" result="" team="home" type="yellowcard"></event>
-<event id="23807992" minute="65" player="B. Godal" playerid="2527873" result="" team="home" type="yellowred"></event>
-<event id="217093343" minute="68" player="D. Guba" playerid="2435047" result="" team="away" type="yellowcard"></event>
-<event id="217093344" minute="90" player="G. van Kessel" playerid="2608824" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[1-0]"></ht>
-</match></league><league country="slovakia" name="Slovakia: 2. Liga - West" cup="False" id="3619" sub_id="36192"><match alternate_id="4177259" alternate_id_2="4479559" date="09.03.2016" id="4294783" static_id="09031623472662347293" status="13:30" time="13:30">
-<home goals="?" id="2347266" name="SK Senec"></home>
-<away goals="?" id="2347293" name="Zilina B"></away>
-<events></events>
-<ht score=""></ht>
+<ht score="[0-1]"></ht>
 </match><match alternate_id="4177253" alternate_id_2="4479451" date="06.03.2016" id="4294777" static_id="06031623511312347248" status="FT" time="13:30">
 <home goals="0" id="2351131" name="D. Luzna"></home>
 <away goals="1" id="2347248" name="Nitra"></away>
@@ -401,12 +395,12 @@
 <event id="23755225" minute="82" player="Poliacik" playerid="" result="[0 - 2]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="4176014" alternate_id_2="4472520" date="07.11.2015" id="4293539" static_id="07111523472652355701" status="FT" time="12:00">
-<home goals="1" id="2347265" name="Sered"></home>
-<away goals="0" id="2355701" name="Borcice"></away>
+</match><match alternate_id="4176012" alternate_id_2="4472496" date="07.11.2015" id="4293537" static_id="07111523472732347271" status="Awarded" time="12:00">
+<home goals="0" id="2347273" name="Sala"></home>
+<away goals="3" id="2347271" name="Slovan Bratislava B"></away>
 <events>
 </events>
-<ht score="[1-0]"></ht>
+<ht score="[-]"></ht>
 </match></league><league country="slovakia" name="Slovakia: 2. Liga - West - Relegation Group" cup="False" id="3619" sub_id=""><match alternate_id="" alternate_id_2="4326900" date="07.06.2015" id="" static_id="07061523472502347277" status="FT" time="15:00">
 <home goals="1" id="2347250" name="Nove Mesto"></home>
 <away goals="2" id="2347277" name="Trnava B"></away>
@@ -731,18 +725,18 @@
 <event id="23749576" minute="65" player="Labun" playerid="2684978" result="[1 - 2]" team="home" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4177244" alternate_id_2="4472032" date="07.11.2015" id="4294768" static_id="07111523472562352979" status="FT" time="12:00">
-<home goals="4" id="2347256" name="Poprad"></home>
-<away goals="1" id="2352979" name="Haniska"></away>
+</match><match alternate_id="4175883" alternate_id_2="4472130" date="07.11.2015" id="4293408" static_id="07111523472812347244" status="FT" time="12:00">
+<home goals="2" id="2347281" name="L. Mikulas"></home>
+<away goals="0" id="2347244" name="Zvolen"></away>
 <events>
 </events>
-<ht score="[3-1]"></ht>
-</match><match alternate_id="4175884" alternate_id_2="4472137" date="07.11.2015" id="4293409" static_id="07111523472602347215" status="FT" time="12:00">
-<home goals="1" id="2347260" name="Rimavska Sobota"></home>
-<away goals="2" id="2347215" name="VSS Kosice"></away>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4175882" alternate_id_2="4472085" date="07.11.2015" id="4293407" static_id="07111523472822350059" status="FT" time="12:00">
+<home goals="2" id="2347282" name="Presov"></home>
+<away goals="1" id="2350059" name="Bardejov"></away>
 <events>
 </events>
-<ht score="[0-1]"></ht>
+<ht score="[-]"></ht>
 </match></league><league country="slovakia" name="Slovakia: 2. Liga - East - Relegation Group" cup="False" id="3619" sub_id=""><match alternate_id="" alternate_id_2="4327524" date="05.06.2015" id="" static_id="05061523472692347225" status="FT" time="15:00">
 <home goals="1" id="2347269" name="Trebisov"></home>
 <away goals="2" id="2347225" name="D. Kubin"></away>
@@ -899,17 +893,6 @@
 <event id="22227804" minute="73" player="Czingely" playerid="2685440" result="[1 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4321427" date="26.04.2015" id="" static_id="26041523511282347225" status="FT" time="14:00">
-<home goals="3" id="2351128" name="Lok. Kosice"></home>
-<away goals="1" id="2347225" name="D. Kubin"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="22227774" minute="2" player="Kinsky" playerid="2684986" result="[1 - 0]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22227775" minute="42" player="Otruba" playerid="2685220" result="[1 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22227776" minute="57" player="Petricko" playerid="2418298" result="[2 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22227777" minute="80" player="Santaguida" playerid="" result="" team="away" type="redcard"></event>
-<event assist="" assistid="" extra_min="" id="22227778" minute="88" player="Vilkovsky" playerid="2490356" result="[3 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[-]"></ht>
 </match><match alternate_id="" alternate_id_2="4321428" date="26.04.2015" id="" static_id="26041523472602347239" status="FT" time="14:00">
 <home goals="2" id="2347260" name="Rimavska Sobota"></home>
 <away goals="0" id="2347239" name="Kosice B"></away>
@@ -918,6 +901,14 @@
 <event id="22227785" minute="41" player="Certik" playerid="" result="[2 - 0]" team="home" type="goal"></event>
 </events>
 <ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4321429" date="26.04.2015" id="" static_id="" status="FT" time="14:00">
+<home goals="1" id="2347269" name="Trebisov"></home>
+<away goals="1" id="" name="Moldava"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="22227794" minute="59" player="Bushaj-Esso" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="22227795" minute="66" player="Lukac" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
 </match></league><league country="slovakia" name="Slovakia: 2. Liga - Promotion Group" cup="False" id="3619" sub_id="36193"><match alternate_id="" alternate_id_2="4337806" date="13.06.2015" id="" static_id="13061523540992347291" status="FT" time="15:00">
 <home goals="0" id="2354099" name="Skalica"></home>
 <away goals="2" id="2347291" name="Michalovce"></away>
@@ -1344,18 +1335,17 @@
 <event id="23680718" minute="86" player="T. Cakovsky" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match><match alternate_id="" alternate_id_2="4466713" date="13.10.2015" id="" static_id="" status="FT" time="13:30">
-<home goals="0" id="" name="MSK Martin"></home>
-<away goals="3" id="2347294" name="Z. Moravce"></away>
+</match><match alternate_id="" alternate_id_2="4466717" date="13.10.2015" id="" static_id="13101523472652347275" status="FT" time="13:30">
+<home goals="1" id="2347265" name="Sered"></home>
+<away goals="2" id="2347275" name="Myjava"></away>
 <events>
-<event id="23680634" minute="5" player="M. Sapieta" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23680635" minute="45" player="R. Danovsky" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23680636" minute="45" player="M. Ranilovic" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23680637" minute="54" player="T. Tipuric" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23680638" minute="55" player="P. Dungel" playerid="" result="" team="home" type="yellowcard"></event>
-<event id="23680639" minute="74" player="D. Skolnik" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23680640" minute="80" player="L. Tawamba" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23680641" minute="87" player="D. Skolnik" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23680674" minute="23" player="F. Koloredy" playerid="2685218" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23680675" minute="26" player="D. Skutka" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23680676" minute="37" player="E. Daniel" playerid="2546214" result="[0 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23680677" minute="73" player="T. Kona" playerid="2346841" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23680678" minute="76" player="D. Ba Tidiane" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23680679" minute="83" player="R. Meszlenyi" playerid="2731252" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23680680" minute="84" player="V. Kral" playerid="" result="[1 - 2]" team="home" type="goal"></event>
 </events>
-<ht score="[0-0]"></ht>
+<ht score="[0-2]"></ht>
 </match></league></recent_results>

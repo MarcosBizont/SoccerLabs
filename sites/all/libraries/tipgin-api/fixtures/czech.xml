@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="09.03.2016 07:50:32" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4141390" alternate_id_2="4501313" date="11.03.2016" id="4258928" static_id="11031623403622340302" status="16:30" time="16:30">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="10.03.2016 07:50:30" sport="soccer" country="czech"><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4141390" alternate_id_2="4501313" date="11.03.2016" id="4258928" static_id="11031623403622340302" status="16:30" time="16:30">
 <home id="2340362" name="Jablonec"></home>
 <away id="2340302" name="Ostrava"></away>
 
@@ -78,6 +78,16 @@
 <away id="2340432" name="Slavia Prague"></away>
 
 
+</match><match alternate_id="4141404" alternate_id_2="4506157" date="02.04.2016" id="4258942" static_id="02041623403372340432" status="15:00" time="15:00">
+<home id="2340337" name="Dukla Prague"></home>
+<away id="2340432" name="Slavia Prague"></away>
+
+
+</match><match alternate_id="4141405" alternate_id_2="4506158" date="02.04.2016" id="4258943" static_id="02041623403622340501" status="15:00" time="15:00">
+<home id="2340362" name="Jablonec"></home>
+<away id="2340501" name="Zlin"></away>
+
+
 </match><match alternate_id="4141406" alternate_id_2="4506159" date="02.04.2016" id="4258944" static_id="02041623404132340392" status="15:00" time="15:00">
 <home id="2340413" name="Pribram"></home>
 <away id="2340392" name="Mlada Boleslav"></away>
@@ -86,16 +96,6 @@
 </match><match alternate_id="4141407" alternate_id_2="4506084" date="02.04.2016" id="4258945" static_id="02041623404262340302" status="15:00" time="15:00">
 <home id="2340426" name="Sigma Olomouc"></home>
 <away id="2340302" name="Ostrava"></away>
-
-
-</match><match alternate_id="4141408" alternate_id_2="4506085" date="02.04.2016" id="4258946" static_id="02041623404382340451" status="15:00" time="15:00">
-<home id="2340438" name="Slovacko"></home>
-<away id="2340451" name="Sparta Prague"></away>
-
-
-</match><match alternate_id="4141409" alternate_id_2="4506086" date="02.04.2016" id="4258947" static_id="02041623404642340315" status="15:00" time="15:00">
-<home id="2340464" name="Teplice"></home>
-<away id="2340315" name="Brno"></away>
 
 
 </match></league><league country="czech" name="Czech Republic: Division 2" cup="False" id="3016" sub_id="30160"><match alternate_id="4144418" alternate_id_2="4481287" date="11.03.2016" id="4261956" static_id="11031623404762340443" status="17:00" time="17:00">
@@ -483,11 +483,6 @@
 <away id="2352596" name="Kutna Hora"></away>
 
 
-</match><match alternate_id="4228044" alternate_id_2="4484872" date="26.03.2016" id="4345534" static_id="26031623527782340402" status="14:00" time="14:00">
-<home id="2352778" name="Jablonec n. Jiz."></home>
-<away id="2340402" name="Novy Bor"></away>
-
-
 </match><match alternate_id="4228045" alternate_id_2="4484874" date="26.03.2016" id="4345535" static_id="26031623497262340407" status="14:00" time="14:00">
 <home id="2349726" name="Litol"></home>
 <away id="2340407" name="Pencin-Turnov"></away>
@@ -496,6 +491,11 @@
 </match><match alternate_id="4228048" alternate_id_2="4484875" date="26.03.2016" id="4345538" static_id="26031623538322340381" status="14:00" time="14:00">
 <home id="2353832" name="Vysoke Myto"></home>
 <away id="2340381" name="Letohrad"></away>
+
+
+</match><match alternate_id="4228046" alternate_id_2="4484871" date="26.03.2016" id="4345536" static_id="26031623404492340424" status="14:00" time="14:00">
+<home id="2340449" name="Zivanice"></home>
+<away id="2340424" name="Semily"></away>
 
 
 </match></league><league country="czech" name="Czech Republic: Division D" cup="False" id="3015" sub_id="30153"><match alternate_id="4167054" alternate_id_2="4478565" date="19.03.2016" id="4284580" static_id="19031623512122340473" status="14:00" time="14:00">
@@ -698,19 +698,24 @@
 <away id="2340334" name="Dolni Benesov"></away>
 
 
-</match></league><league country="czech" name="Czech Republic: Mol Cup" cup="True" id="3355" sub_id="33550"><match alternate_id="4228770" alternate_id_2="4486442" date="15.03.2016" id="4346258" static_id="15031623403922340358" status="16:00" time="16:00">
-<home id="2340392" name="Mlada Boleslav"></home>
-<away id="2340358" name="Hradec Kralove"></away>
-
-
-</match><match alternate_id="4228766" alternate_id_2="4486443" date="15.03.2016" id="4346254" static_id="15031623403622340337" status="16:30" time="16:30">
+</match></league><league country="czech" name="Czech Republic: Mol Cup" cup="True" id="3355" sub_id="33550"><match alternate_id="4228766" alternate_id_2="4486443" date="15.03.2016" id="4346254" static_id="15031623403622340337" status="16:30" time="16:30">
 <home id="2340362" name="Jablonec"></home>
 <away id="2340337" name="Dukla Prague"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4486440" date="16.03.2016" id="" static_id="16031623403582340392" status="16:00" time="16:00">
+<home id="2340358" name="Hradec Kralove"></home>
+<away id="2340392" name="Mlada Boleslav"></away>
 
 
 </match><match alternate_id="4228764" alternate_id_2="4486444" date="16.03.2016" id="4346252" static_id="16031623404262340482" status="16:00" time="16:00">
 <home id="2340426" name="Sigma Olomouc"></home>
 <away id="2340482" name="Plzen"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4486442" date="24.03.2016" id="" static_id="24031623403922340358" status="14:00" time="14:00">
+<home id="2340392" name="Mlada Boleslav"></home>
+<away id="2340358" name="Hradec Kralove"></away>
 
 
 </match><match alternate_id="4228768" alternate_id_2="4486445" date="30.03.2016" id="4346256" static_id="30031623404512340440" status="16:00" time="16:00">
@@ -728,11 +733,6 @@
 <away id="2355915" name="Slavia Prague U21"></away>
 
 
-</match><match alternate_id="4250852" alternate_id_2="4502172" date="13.03.2016" id="4368293" static_id="13031623559082355905" status="12:00" time="12:00">
-<home id="2355908" name="Liberec U21"></home>
-<away id="2355905" name="Jablonec U21"></away>
-
-
 </match><match alternate_id="4250853" alternate_id_2="4502173" date="13.03.2016" id="4368294" static_id="13031623559132355909" status="14:00" time="14:00">
 <home id="2355913" name="Plzen U21"></home>
 <away id="2355909" name="Trinec U21"></away>
@@ -746,6 +746,11 @@
 </match><match alternate_id="4251855" alternate_id_2="4503934" date="14.03.2016" id="4369293" static_id="14031623559002355907" status="12:00" time="12:00">
 <home id="2355900" name="Ceske Budejovice U21"></home>
 <away id="2355907" name="Teplice U21"></away>
+
+
+</match><match alternate_id="4254062" alternate_id_2="4502172" date="14.03.2016" id="4371496" static_id="14031623559082355905" status="12:00" time="12:00">
+<home id="2355908" name="Liberec U21"></home>
+<away id="2355905" name="Jablonec U21"></away>
 
 
 </match><match alternate_id="4251856" alternate_id_2="4503935" date="14.03.2016" id="4369294" static_id="14031623559012355904" status="12:00" time="12:00">

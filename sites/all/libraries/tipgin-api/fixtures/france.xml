@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><fixtures updated="09.03.2016 07:50:10" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="4136783" alternate_id_2="4497797" date="09.03.2016" id="4254322" static_id="09031623416982341864" status="17:30" time="17:30">
-<home id="2341698" name="Bastia"></home>
-<away id="2341864" name="Nantes"></away>
-
-
-</match><match alternate_id="4136790" alternate_id_2="4499730" date="09.03.2016" id="4254329" static_id="09031623417992341875" status="17:30" time="17:30">
-<home id="2341799" name="GFC Ajaccio"></home>
-<away id="2341875" name="Marseille"></away>
-
-
-</match><match alternate_id="4136806" alternate_id_2="4503566" date="11.03.2016" id="4254345" static_id="11031623418532341906" status="19:30" time="19:30">
+<?xml version="1.0" encoding="utf-8"?><fixtures updated="10.03.2016 07:50:11" sport="soccer" country="france"><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="4136806" alternate_id_2="4503566" date="11.03.2016" id="4254345" static_id="11031623418532341906" status="19:30" time="19:30">
 <home id="2341853" name="Monaco"></home>
 <away id="2341906" name="Reims"></away>
 
@@ -96,6 +86,16 @@
 </match><match alternate_id="4136818" alternate_id_2="4505986" date="20.03.2016" id="4254357" static_id="20031623417082341698" status="13:00" time="13:00">
 <home id="2341708" name="Bordeaux"></home>
 <away id="2341698" name="Bastia"></away>
+
+
+</match><match alternate_id="4136820" alternate_id_2="4506969" date="20.03.2016" id="4254359" static_id="20031623418662341799" status="16:00" time="16:00">
+<home id="2341866" name="Nice"></home>
+<away id="2341799" name="GFC Ajaccio"></away>
+
+
+</match><match alternate_id="4136823" alternate_id_2="4506970" date="20.03.2016" id="4254362" static_id="20031623418942341853" status="20:00" time="20:00">
+<home id="2341894" name="Paris SG"></home>
+<away id="2341853" name="Monaco"></away>
 
 
 </match></league><league country="france" name="France: Ligue 2" cup="False" id="3050" sub_id="30500"><match alternate_id="4138284" alternate_id_2="4502960" date="11.03.2016" id="4255823" static_id="11031623417112341862" status="19:00" time="19:00">
@@ -298,12 +298,7 @@
 <away id="2341710" name="Boulogne"></away>
 
 
-</match></league><league country="france" name="France: Cfa - Group A" cup="False" id="3049" sub_id=""><match alternate_id="4170302" alternate_id_2="4482780" date="09.03.2016" id="4287827" static_id="09031623419882341895" status="18:00" time="18:00">
-<home id="2341988" name="Roye"></home>
-<away id="2341895" name="Paris SG II"></away>
-
-
-</match><match alternate_id="4170358" alternate_id_2="4501227" date="12.03.2016" id="4287883" static_id="12031623417582341760" status="15:00" time="15:00">
+</match></league><league country="france" name="France: Cfa - Group A" cup="False" id="3049" sub_id=""><match alternate_id="4170358" alternate_id_2="4501227" date="12.03.2016" id="4287883" static_id="12031623417582341760" status="15:00" time="15:00">
 <home id="2341758" name="Troyes II"></home>
 <away id="2341760" name="ES Wasquehal"></away>
 
@@ -343,6 +338,11 @@
 <away id="2341832" name="Lens II"></away>
 
 
+</match><match alternate_id="4170367" alternate_id_2="4503569" date="19.03.2016" id="4287892" static_id="19031623418952341682" status="15:00" time="15:00">
+<home id="2341895" name="Paris SG II"></home>
+<away id="2341682" name="Poissy"></away>
+
+
 </match><match alternate_id="4170369" alternate_id_2="4503580" date="19.03.2016" id="4287894" static_id="19031623416692341776" status="17:00" time="17:00">
 <home id="2341669" name="Arras"></home>
 <away id="2341776" name="Dieppe"></away>
@@ -368,11 +368,6 @@
 <away id="2341710" name="Boulogne"></away>
 
 
-</match><match alternate_id="4170367" alternate_id_2="4503569" date="19.03.2016" id="4287892" static_id="19031623418952341682" status="17:00" time="17:00">
-<home id="2341895" name="Paris SG II"></home>
-<away id="2341682" name="Poissy"></away>
-
-
 </match><match alternate_id="4170370" alternate_id_2="4503581" date="19.03.2016" id="4287895" static_id="19031623419882341832" status="17:00" time="17:00">
 <home id="2341988" name="Roye"></home>
 <away id="2341832" name="Lens II"></away>
@@ -396,6 +391,11 @@
 </match><match alternate_id="4170336" alternate_id_2="4491811" date="23.03.2016" id="4287861" static_id="23031623419882351381" status="19:00" time="19:00">
 <home id="2341988" name="Roye"></home>
 <away id="2351381" name="IC Croix"></away>
+
+
+</match><match alternate_id="" alternate_id_2="4507022" date="02.04.2016" id="" static_id="" status="16:00" time="16:00">
+<home id="" name="Quevilly Rouen"></home>
+<away id="2341988" name="Roye"></away>
 
 
 </match></league><league country="france" name="France: Cfa - Group B" cup="False" id="3049" sub_id=""><match alternate_id="4170600" alternate_id_2="4499279" date="12.03.2016" id="4288125" static_id="12031623416942341939" status="15:00" time="15:00">
@@ -478,24 +478,24 @@
 <away id="2341744" name="Jeanne d Arc"></away>
 
 
-</match><match alternate_id="" alternate_id_2="4494403" date="23.03.2016" id="" static_id="23031623419902349745" status="Postp." time="19:00">
-<home id="2341990" name="Sarre Union"></home>
-<away id="2349745" name="Le Puy"></away>
-
-
 </match><match alternate_id="4170575" alternate_id_2="4491844" date="23.03.2016" id="4288100" static_id="23031623419392341843" status="19:00" time="19:00">
 <home id="2341939" name="Sochaux II"></home>
 <away id="2341843" name="Lyon Duchere"></away>
 
 
+</match><match alternate_id="4170591" alternate_id_2="4497801" date="25.03.2016" id="4288116" static_id="25031623418172341990" status="17:30" time="17:30">
+<home id="2341817" name="Jura Sud"></home>
+<away id="2341990" name="Sarre Union"></away>
+
+
+</match><match alternate_id="4170581" alternate_id_2="4494403" date="28.03.2016" id="4288106" static_id="28031623419902349745" status="15:00" time="15:00">
+<home id="2341990" name="Sarre Union"></home>
+<away id="2349745" name="Le Puy"></away>
+
+
 </match><match alternate_id="4170618" alternate_id_2="4505334" date="01.04.2016" id="4288143" static_id="01041623418552341860" status="18:00" time="18:00">
 <home id="2341855" name="Montceau"></home>
 <away id="2341860" name="Moulins"></away>
-
-
-</match><match alternate_id="4170614" alternate_id_2="4505987" date="02.04.2016" id="4288139" static_id="02041623418742341859" status="13:00" time="13:00">
-<home id="2341874" name="Lyon II"></home>
-<away id="2341859" name="Monts"></away>
 
 
 </match></league><league country="france" name="France: Cfa - Group C" cup="False" id="3049" sub_id=""><match alternate_id="4170836" alternate_id_2="4499284" date="12.03.2016" id="4288361" static_id="12031623418542341910" status="15:00" time="15:00">
@@ -583,19 +583,19 @@
 <away id="2341872" name="Marseille II"></away>
 
 
-</match><match alternate_id="4170852" alternate_id_2="4505337" date="02.04.2016" id="4288377" static_id="02041623418722341910" status="16:00" time="16:00">
-<home id="2341872" name="Marseille II"></home>
-<away id="2341910" name="Rodez"></away>
+</match><match alternate_id="4170853" alternate_id_2="4505564" date="02.04.2016" id="4288378" static_id="02041623417812341846" status="16:00" time="16:00">
+<home id="2341781" name="Le Las"></home>
+<away id="2341846" name="Marignane"></away>
+
+
+</match><match alternate_id="4170854" alternate_id_2="4505532" date="02.04.2016" id="4288379" static_id="02041623418502341734" status="16:00" time="16:00">
+<home id="2341850" name="Martigues"></home>
+<away id="2341734" name="Colomiers"></away>
 
 
 </match><match alternate_id="4170856" alternate_id_2="4505338" date="02.04.2016" id="4288381" static_id="02041623418542341809" status="16:00" time="16:00">
 <home id="2341854" name="Monaco II"></home>
 <away id="2341809" name="Hyeres"></away>
-
-
-</match><match alternate_id="4170851" alternate_id_2="4505339" date="02.04.2016" id="4288376" static_id="02041623419332341667" status="Cancl." time="16:00">
-<home id="2341933" name="Sete"></home>
-<away id="2341667" name="Arles-Avignon"></away>
 
 
 </match></league><league country="france" name="France: Cfa - Group D" cup="False" id="3049" sub_id=""><match alternate_id="4171082" alternate_id_2="4499365" date="12.03.2016" id="4288607" static_id="12031623419372341911" status="17:00" time="17:00">
@@ -678,24 +678,24 @@
 <away id="2341911" name="Romorantin"></away>
 
 
-</match><match alternate_id="4171053" alternate_id_2="4491823" date="23.03.2016" id="4288578" static_id="23031623513842341948" status="19:00" time="19:00">
+</match><match alternate_id="4171069" alternate_id_2="4497802" date="23.03.2016" id="4288594" static_id="23031623513842342007" status="19:00" time="19:00">
+<home id="2351384" name="Fleury-Merogis"></home>
+<away id="2342007" name="Viry-Chatillon"></away>
+
+
+</match><match alternate_id="4171053" alternate_id_2="4491823" date="26.03.2016" id="4288578" static_id="26031623513842341948" status="14:00" time="14:00">
 <home id="2351384" name="Fleury-Merogis"></home>
 <away id="2341948" name="Stade Bordelais"></away>
 
 
-</match><match alternate_id="4171097" alternate_id_2="4505344" date="02.04.2016" id="4288622" static_id="02041623419372341709" status="16:00" time="16:00">
-<home id="2341937" name="Cholet"></home>
-<away id="2341709" name="Bordeaux II"></away>
+</match><match alternate_id="4171094" alternate_id_2="4505346" date="02.04.2016" id="4288619" static_id="02041623420072341785" status="16:00" time="16:00">
+<home id="2342007" name="Viry-Chatillon"></home>
+<away id="2341785" name="Nantes II"></away>
 
 
-</match><match alternate_id="4171095" alternate_id_2="4505345" date="02.04.2016" id="4288620" static_id="02041623419112341783" status="16:00" time="16:00">
-<home id="2341911" name="Romorantin"></home>
-<away id="2341783" name="Lorient II"></away>
-
-
-</match><match alternate_id="4171098" alternate_id_2="4505590" date="02.04.2016" id="4288623" static_id="02041623419482342009" status="16:00" time="16:00">
-<home id="2341948" name="Stade Bordelais"></home>
-<away id="2342009" name="Chateaubriant"></away>
+</match><match alternate_id="4171092" alternate_id_2="4505565" date="02.04.2016" id="4288617" static_id="02041623420082341981" status="16:00" time="16:00">
+<home id="2342008" name="Vitre"></home>
+<away id="2341981" name="Concarneau"></away>
 
 
 </match></league><league country="france" name="France: Coupe De La Ligue" cup="False" id="3052" sub_id="30520"><match alternate_id="" alternate_id_2="4495458" date="23.04.2016" id="" static_id="23041623418942341837" status="19:00" time="19:00">

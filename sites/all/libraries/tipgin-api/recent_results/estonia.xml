@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:50:56" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4231186" alternate_id_2="4488245" date="09.03.2016" id="4348670" static_id="09031623505332341342" status="17:00" time="17:00">
-<home goals="?" id="2350533" name="Infonet"></home>
-<away goals="?" id="2341342" name="Kalju"></away>
-<events></events>
-<ht score=""></ht>
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:40:56" sport="soccer" country="estonia"><league country="estonia" name="Estonia: Meistriliiga" cup="False" id="3042" sub_id="30420"><match alternate_id="4231186" alternate_id_2="4488245" date="09.03.2016" id="4348670" static_id="09031623505332341342" status="FT" time="17:00">
+<home goals="2" id="2350533" name="Infonet"></home>
+<away goals="1" id="2341342" name="Kalju"></away>
+<events>
+<event id="23895954" minute="6" player="A. Dmitrijev" playerid="2357654" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23895955" minute="26" player="J. Rodrigues (o.g.)" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23895956" minute="33" player="M. Ofosu-Appiah" playerid="" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23895957" minute="46" player="N. Mashichev" playerid="2408745" result="" team="home" type="yellowcard"></event>
+<event id="23895958" minute="60" player="D. Quintieri" playerid="2561741" result="" team="away" type="yellowcard"></event>
+<event id="23895959" minute="62" player="M. Ofosu-Appiah" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23895960" minute="62" player="V. Teles" playerid="2405786" result="" team="away" type="yellowcard"></event>
+<event id="23895961" minute="79" player="R. Mbu-Alidor" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23895962" minute="89" player="V. Voskoboinikov" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-1]"></ht>
 </match><match alternate_id="4231185" alternate_id_2="4488244" date="08.03.2016" id="4348669" static_id="08031623413292341372" status="FT" time="18:00">
 <home goals="6" id="2341329" name="Flora"></home>
 <away goals="0" id="2341372" name="Rakvere"></away>
@@ -267,7 +277,16 @@
 <event id="23686455" minute="68" player="V. Ivanov" playerid="2357799" result="[0 - 1]" team="away" type="goal"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4496990" date="06.03.2016" id="" static_id="06031623413302357254" status="FT" time="11:00">
+</match></league><league country="estonia" name="Estonia: Esi Liiga" cup="False" id="3802" sub_id="38020"><match alternate_id="" alternate_id_2="4496994" date="10.03.2016" id="" static_id="10031623572542353651" status="FT" time="17:00">
+<home goals="3" id="2357254" name="Maardu"></home>
+<away goals="0" id="2353651" name="Vandra Vaprus"></away>
+<events>
+<event id="23983444" minute="27" player="Gussev" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23983445" minute="29" player="Salabai" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="23983446" minute="86" player="Aasmae" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="" alternate_id_2="4496990" date="06.03.2016" id="" static_id="06031623413302357254" status="FT" time="11:00">
 <home goals="5" id="2341330" name="Flora II"></home>
 <away goals="2" id="2357254" name="Maardu"></away>
 <events>
@@ -450,15 +469,6 @@
 <events>
 <event id="23699144" minute="43" player="Rajaver" playerid="2428275" result="[0 - 1]" team="away" type="goal"></event>
 <event id="23699145" minute="53" player="Saaremets" playerid="2729898" result="[1 - 1]" team="home" type="goal"></event>
-</events>
-<ht score="[0-1]"></ht>
-</match><match alternate_id="" alternate_id_2="4467723" date="31.10.2015" id="" static_id="" status="FT" time="17:00">
-<home goals="0" id="" name="Nomme Kalju II"></home>
-<away goals="3" id="" name="Infonet II"></away>
-<events>
-<event id="23690734" minute="27" player="Ogorodnik" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23690735" minute="48" player="Golovljov" playerid="" result="[0 - 2]" team="away" type="goal"></event>
-<event id="23690736" minute="84" player="Golovljov" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-1]"></ht>
 </match></league><league country="estonia" name="Estonia: Estonian Cup" cup="True" id="3650" sub_id="36500"><match alternate_id="" alternate_id_2="4471375" date="10.11.2015" id="" static_id="10111523514122341383" status="FT" time="17:00">

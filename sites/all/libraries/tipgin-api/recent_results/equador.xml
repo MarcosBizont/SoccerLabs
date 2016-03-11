@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="09.03.2016 13:50:54" sport="soccer" country="equador"><league country="equador" name="Ecuador: Serie A - First Stage" cup="False" id="3024" sub_id="30244"><match alternate_id="4240999" alternate_id_2="4500049" date="06.03.2016" id="4358472" static_id="06031623406852340708" status="FT" time="21:30">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:40:54" sport="soccer" country="equador"><league country="equador" name="Ecuador: Serie A - First Stage" cup="False" id="3024" sub_id="30244"><match alternate_id="4240979" alternate_id_2="4494995" date="10.03.2016" id="4358452" static_id="10031623406982340692" status="FT" time="00:00">
+<home goals="1" id="2340698" name="Ind. del Valle"></home>
+<away goals="0" id="2340692" name="EL Nacional"></away>
+<events>
+<event id="23963454" minute="44" player="J. Sornoza" playerid="2512633" result="" team="home" type="yellowcard"></event>
+<event id="23963455" minute="44" player="C. Cordero" playerid="2354901" result="" team="away" type="yellowcard"></event>
+<event id="23963456" minute="68" player="A. Chala" playerid="2632827" result="" team="away" type="yellowcard"></event>
+<event id="23963457" minute="70" player="L. Caicedo" playerid="2497799" result="" team="home" type="yellowcard"></event>
+<event id="23963458" minute="80" player="J. Angulo" playerid="2419143" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23963459" minute="86" player="M. Montano" playerid="2610584" result="" team="away" type="yellowcard"></event>
+<event id="23963460" minute="89" player="M. Montano" playerid="2610584" result="" team="away" type="yellowred"></event>
+<event id="23963461" minute="90" player="M. de Jesus" playerid="" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4240999" alternate_id_2="4500049" date="06.03.2016" id="4358472" static_id="06031623406852340708" status="FT" time="21:30">
 <home goals="3" id="2340685" name="Barcelona SC"></home>
 <away goals="0" id="2340708" name="Aucas"></away>
 <events>
@@ -221,17 +235,6 @@
 <event id="23963470" minute="85" player="D. Diaz" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[0-2]"></ht>
-</match><match alternate_id="4240978" alternate_id_2="4494997" date="18.02.2016" id="4358451" static_id="18021623407102340708" status="FT" time="00:00">
-<home goals="0" id="2340710" name="U. Catolica"></home>
-<away goals="1" id="2340708" name="Aucas"></away>
-<events>
-<event id="23963474" minute="11" player="E. Preciado" playerid="2541391" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23963475" minute="43" player="J. Anangono" playerid="2354943" result="" team="home" type="yellowcard"></event>
-<event id="23963476" minute="65" player="E. Carcelen" playerid="2726955" result="" team="away" type="yellowcard"></event>
-<event id="23963477" minute="90" player="H. Galindez" playerid="2388402" result="" team="home" type="yellowcard"></event>
-<event id="23963478" minute="90" player="E. Carcelen" playerid="2726955" result="" team="away" type="yellowred"></event>
-</events>
-<ht score="[0-1]"></ht>
 </match></league><league country="equador" name="Ecuador: Serie A - Third Stage" cup="False" id="3024" sub_id=""><match alternate_id="" alternate_id_2="4488084" date="20.12.2015" id="" static_id="20121523406992340693" status="FT" time="16:30">
 <home goals="0" id="2340699" name="LDU Quito"></home>
 <away goals="0" id="2340693" name="Emelec"></away>
@@ -535,9 +538,9 @@
 <home goals="1" id="2340700" name="LDU Loja"></home>
 <away goals="0" id="2340691" name="Dep. Quito"></away>
 <events>
-<event id="23784354" minute="34" player="P. Larrea" playerid="2354810" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23784355" minute="45" player="F. Macias" playerid="" result="" team="away" type="yellowcard"></event>
-<event id="23784356" minute="82" player="P. Larrea" playerid="2354810" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23784354" minute="34" player="P. Larrea" playerid="2354810" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="2" id="23784355" minute="45" player="F. Macias" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23784356" minute="82" player="P. Larrea" playerid="2354810" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league></recent_results>
