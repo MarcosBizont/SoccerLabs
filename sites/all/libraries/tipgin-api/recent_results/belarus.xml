@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:40:37" sport="soccer" country="belarus"><league country="belarus" name="Belarus: Vysshaya Liga" cup="False" id="2932" sub_id="29320"><match alternate_id="4219986" alternate_id_2="4474024" date="08.11.2015" id="4337484" static_id="08111523385042338556" status="FT" time="11:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="17.03.2016 00:50:38" sport="soccer" country="belarus"><league country="belarus" name="Belarus: Vysshaya Liga" cup="False" id="2932" sub_id="29320"><match alternate_id="4219986" alternate_id_2="4474024" date="08.11.2015" id="4337484" static_id="08111523385042338556" status="FT" time="11:00">
 <home goals="4" id="2338504" name="BATE"></home>
 <away goals="1" id="2338556" name="Slutsk"></away>
 <events>
@@ -435,11 +435,21 @@
 <event id="22415590" minute="90" player="V. Bulyga" playerid="2338675" result="[2 - 5]" team="away" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
-</match></league><league country="belarus" name="Belarus: Super Cup" cup="True" id="3352" sub_id=""><match alternate_id="4223348" alternate_id_2="4305041" date="14.03.2015" id="4340841" static_id="14031523385522338504" status="Pen." time="12:00">
-<home goals="0" id="2338552" name="Shakhtyor Soligorsk"></home>
-<away goals="1" id="2338504" name="BATE"></away>
+</match></league><league country="belarus" name="Belarus: Super Cup" cup="True" id="3352" sub_id=""><match alternate_id="4247026" alternate_id_2="4498607" date="13.03.2016" id="4364481" static_id="13031623385522338504" status="FT" time="12:00">
+<home goals="1" id="2338552" name="Shakhtyor Soligorsk"></home>
+<away goals="2" id="2338504" name="BATE"></away>
 <events>
+<event id="23999574" minute="24" player="Y. Yelezarenko" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23999575" minute="25" player="M. Ivanic" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23999576" minute="26" player="Y. Kovalev" playerid="2543822" result="" team="home" type="yellowcard"></event>
+<event id="23999577" minute="27" player="A. Karnitskiy" playerid="2460515" result="" team="away" type="yellowcard"></event>
+<event id="23999578" minute="27" player="D. Osipenko" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23999579" minute="50" player="P. Fisher" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="23999580" minute="57" player="Y. Kendysh" playerid="" result="" team="away" type="yellowcard"></event>
+<event id="23999581" minute="59" player="V. Rodionov" playerid="2371417" result="[0 - 2]" team="away" type="goal"></event>
+<event id="23999582" minute="73" player="" playerid="" result="" team="home" type="yellowcard"></event>
+<event id="219009243" minute="82" player="D. Polyakov (o.g.)" playerid="2367044" result="[1 - 2]" team="home" type="goal"></event>
+<event id="219009244" minute="90" player="" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
-<ht score="[0-0]"></ht>
-<penalty localteam="0" visitorteam="3"></penalty>
+<ht score="[0-1]"></ht>
 </match></league></recent_results>

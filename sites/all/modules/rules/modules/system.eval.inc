@@ -86,6 +86,7 @@ function rules_action_mail($to, $subject, $message, $from = NULL, $langcode, $se
   // Set a unique key for this mail.
   $name = isset($element->root()->name) ? $element->root()->name : 'unnamed';
   $key = 'rules_action_mail_' . $name . '_' . $element->elementId();
+  watchdog('key_mail_rules',$key);
   $languages = language_list();
   $language = isset($languages[$langcode]) ? $languages[$langcode] : language_default();
 

@@ -26,6 +26,7 @@ function soccer_labs_measure_update_actions()
 		foreach($user_ids as $id_user)
 		{
 			$c_user = user_load($id_user);
+			$old_stats_actions = $c_user->field_stats_actions;
 			$c_user->field_stats_actions = array();
 			//Activation
 			$query_int = new EntityFieldQuery();
@@ -37,10 +38,56 @@ function soccer_labs_measure_update_actions()
 			if($count>0)
 				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 976;
 			
-			//Retention
+			//Retention (1 week)
 			$ago_last_access = time() - $c_user->access;
 			if($ago_last_access <= (60 * 60 * 24 * 7))
 				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 977;
+				
+			if($ago_last_access <= (60 * 60 * 24 * 7 * 2))
+				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 982;
+			
+			if($ago_last_access <= (60 * 60 * 24 * 7 * 3))
+				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 983;
+				
+			if($ago_last_access <= (60 * 60 * 24 * 7 * 4))
+				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 984;
+			
+			if($ago_last_access <= (60 * 60 * 24 * 7 * 12))
+				$c_user->field_stats_actions[LANGUAGE_NONE][]['target_id'] = 985;
+			
+			// Envio de correos en caso de que haya cambio en la retencion
+			// Si existia un ID de los mencionados anteriormente y ya no esta en el nuevo se debe mandar mensaje.
+			$send_an_email = false;
+			if(isset($old_stats_actions[LANGUAGE_NONE]))
+				if(is_array($old_stats_actions[LANGUAGE_NONE]))
+					foreach($old_stats_actions[LANGUAGE_NONE] as $term)
+					{
+						$is_in_the_new_actions = false;
+						if(isset($c_user->field_stats_actions[LANGUAGE_NONE]))
+							if(is_array($c_user->field_stats_actions[LANGUAGE_NONE]))
+								foreach($c_user->field_stats_actions[LANGUAGE_NONE] as $termnew)
+									if($term['target_id']==$termnew['target_id'])
+										$is_in_the_new_actions = true;
+						
+						if(!$is_in_the_new_actions) $send_an_email = true;
+					}		
+			
+			
+			if($send_an_email)
+			{
+				if($c_user->language=='es')
+				{
+					rules_invoke_component('rules_we_miss_you_email_es_', $c_user);
+				}
+				// ToDo : English
+			}
+			// Considerar lenguajes
+/*
+			if()
+			{
+				
+			}
+*/
 			
 			//Convert
 			//Refferal

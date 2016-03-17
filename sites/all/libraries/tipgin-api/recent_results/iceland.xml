@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><recent_results updated="10.03.2016 19:51:07" sport="soccer" country="iceland"><league country="iceland" name="Iceland: Pepsideild" cup="False" id="3082" sub_id="30820"><match alternate_id="4104465" alternate_id_2="4459099" date="03.10.2015" id="4222020" static_id="03101523431032343100" status="FT" time="14:00">
+<?xml version="1.0" encoding="utf-8"?><recent_results updated="17.03.2016 00:51:03" sport="soccer" country="iceland"><league country="iceland" name="Iceland: Pepsideild" cup="False" id="3082" sub_id="30820"><match alternate_id="4104465" alternate_id_2="4459099" date="03.10.2015" id="4222020" static_id="03101523431032343100" status="FT" time="14:00">
 <home goals="0" id="2343103" name="Fjolnir"></home>
 <away goals="2" id="2343100" name="Breidablik"></away>
 <events>
@@ -271,12 +271,12 @@
 <home goals="2" id="2343128" name="Leiknir"></home>
 <away goals="3" id="2343103" name="Fjolnir"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="23541754" minute="16" player="G. Gudmundsson" playerid="2364020" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23541755" minute="20" player="H. Halldorsson" playerid="2363985" result="[1 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23541756" minute="25" player="K. Jonsson" playerid="2364995" result="[2 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="23541757" minute="56" player="C. Fomen" playerid="2418611" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="23541758" minute="83" player="G. Gudmundsson" playerid="2364020" result="[2 - 2]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="4" id="23541759" minute="90" player="K. Chopart" playerid="" result="[2 - 3]" team="away" type="goal"></event>
+<event id="23541754" minute="16" player="G. Gudmundsson" playerid="2364020" result="[0 - 1]" team="away" type="goal"></event>
+<event id="23541755" minute="20" player="H. Halldorsson" playerid="2363985" result="[1 - 1]" team="home" type="goal"></event>
+<event id="23541756" minute="25" player="K. Jonsson" playerid="2364995" result="[2 - 1]" team="home" type="goal"></event>
+<event id="23541757" minute="56" player="C. Fomen" playerid="2418611" result="" team="home" type="yellowcard"></event>
+<event id="23541758" minute="83" player="G. Gudmundsson" playerid="2364020" result="[2 - 2]" team="away" type="goal"></event>
+<event id="23541759" minute="90" player="K. Chopart" playerid="" result="[2 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match></league><league country="iceland" name="Iceland: Division 1" cup="False" id="3482" sub_id="34820"><match alternate_id="4104893" alternate_id_2="4455923" date="19.09.2015" id="4222448" static_id="19091523430992343107" status="FT" time="14:00">
@@ -555,7 +555,59 @@
 <event id="23546630" minute="90" player="H. Thrastarson" playerid="" result="" team="home" type="yellowcard"></event>
 </events>
 <ht score="[0-0]"></ht>
-</match></league><league country="iceland" name="Iceland: League Cup" cup="True" id="3373" sub_id="33730"><match alternate_id="4231825" alternate_id_2="4488593" date="09.03.2016" id="4349309" static_id="09031623431212343135" status="FT" time="19:00">
+</match></league><league country="iceland" name="Iceland: League Cup" cup="True" id="3373" sub_id="33730"><match alternate_id="" alternate_id_2="4501062" date="17.03.2016" id="" static_id="17031623431032343136" status="17:30" time="17:30">
+<home goals="?" id="2343103" name="Fjolnir"></home>
+<away goals="?" id="2343136" name="Thor Akureyri"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4231850" alternate_id_2="4488603" date="14.03.2016" id="4349334" static_id="14031623431432343114" status="FT" time="18:00">
+<home goals="2" id="2343143" name="Valur"></home>
+<away goals="0" id="2343114" name="IBV Vestmannaeyjar"></away>
+<events>
+<event id="23899534" minute="68" player="G. Lydsson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event id="23899535" minute="87" player="N. Hansen" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4231852" alternate_id_2="4501428" date="13.03.2016" id="4349336" static_id="13031623431282351012" status="FT" time="14:45">
+<home goals="1" id="2343128" name="Leiknir"></home>
+<away goals="1" id="2351012" name="Leiknir F."></away>
+<events>
+<event id="24027784" minute="48" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24027785" minute="66" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4231870" alternate_id_2="4501061" date="12.03.2016" id="4349354" static_id="12031623431102343109" status="FT" time="11:15">
+<home goals="5" id="2343110" name="Kopavogur"></home>
+<away goals="0" id="2343109" name="Haukar"></away>
+<events>
+<event id="24024114" minute="30" player="A. Hallsson" playerid="2630956" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24024115" minute="32" player="S. Stefansson" playerid="2577747" result="" team="away" type="redcard"></event>
+<event id="24024116" minute="34" player="H. I. Jonsson" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24024117" minute="41" player="A. Hallsson" playerid="2630956" result="[3 - 0]" team="home" type="goal"></event>
+<event id="24024118" minute="62" player="A. Hallsson" playerid="2630956" result="[4 - 0]" team="home" type="goal"></event>
+<event id="24024119" minute="73" player="H. I. Jonsson" playerid="" result="[5 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[3-0]"></ht>
+</match><match alternate_id="4231858" alternate_id_2="4501060" date="11.03.2016" id="4349342" static_id="11031623431002343145" status="FT" time="20:00">
+<home goals="2" id="2343100" name="Breidablik"></home>
+<away goals="2" id="2343145" name="Olafsvik"></away>
+<events>
+<event id="24024104" minute="14" player="H. Gunnlaugsson" playerid="2526286" result="[1 - 0]" team="home" type="goal"></event>
+<event id="24024105" minute="21" player="A. Sigurjonsson" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event id="24024106" minute="47" player="K. Turudija (pen.)" playerid="2676220" result="[2 - 1]" team="away" type="goal"></event>
+<event id="24024107" minute="54" player="H. Tokic" playerid="2547559" result="[2 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[2-0]"></ht>
+</match><match alternate_id="4231849" alternate_id_2="4501059" date="11.03.2016" id="4349333" static_id="11031623431372351012" status="FT" time="19:00">
+<home goals="1" id="2343137" name="Throttur"></home>
+<away goals="2" id="2351012" name="Leiknir F."></away>
+<events>
+<event id="24024094" minute="55" player="K. Vidarsson" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+<event id="24024095" minute="62" player="E. Atlason" playerid="" result="[1 - 1]" team="home" type="goal"></event>
+<event id="24024096" minute="74" player="K. Vidarsson" playerid="" result="[1 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+</match><match alternate_id="4231825" alternate_id_2="4488593" date="09.03.2016" id="4349309" static_id="09031623431212343135" status="FT" time="19:00">
 <home goals="3" id="2343121" name="Keflavik"></home>
 <away goals="2" id="2343135" name="Stjarnan"></away>
 <events>
@@ -680,63 +732,6 @@
 <event id="23899745" minute="77" player="J. Serwy" playerid="2458585" result="[2 - 0]" team="home" type="goal"></event>
 <event id="23899746" minute="83" player="A. Gudnason" playerid="" result="[3 - 0]" team="home" type="goal"></event>
 <event id="23899747" minute="88" player="J. Serwy" playerid="2458585" result="[4 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4231834" alternate_id_2="4488595" date="25.02.2016" id="4349318" static_id="25021623431432343104" status="FT" time="21:00">
-<home goals="2" id="2343143" name="Valur"></home>
-<away goals="2" id="2343104" name="Fram"></away>
-<events>
-<event id="23899454" minute="21" player="I. Sigurdsson" playerid="2341650" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23899455" minute="26" player="D. Bergsson" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23899456" minute="65" player="" playerid="" result="[2 - 1]" team="home" type="goal"></event>
-<event id="23899457" minute="82" player="" playerid="" result="[2 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4231832" alternate_id_2="4488628" date="21.02.2016" id="4349316" static_id="21021623431462343109" status="FT" time="18:15">
-<home goals="4" id="2343146" name="Vikingur Reykjavik"></home>
-<away goals="2" id="2343109" name="Haukar"></away>
-<events>
-<event id="23899784" minute="11" player="V. Jonsson" playerid="2612839" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23899785" minute="27" player="D. Atlason" playerid="2487337" result="[2 - 0]" team="home" type="goal"></event>
-<event id="23899786" minute="30" player="G. Martin" playerid="" result="[3 - 0]" team="home" type="goal"></event>
-<event id="23899787" minute="53" player="V. Jonsson" playerid="2612839" result="[4 - 0]" team="home" type="goal"></event>
-<event id="23899788" minute="74" player="S. Jonasson" playerid="" result="[4 - 1]" team="away" type="goal"></event>
-<event id="23899789" minute="75" player="A. Johannsson" playerid="2479465" result="[4 - 2]" team="away" type="goal"></event>
-</events>
-<ht score="[3-0]"></ht>
-</match><match alternate_id="4231831" alternate_id_2="4488627" date="21.02.2016" id="4349315" static_id="21021623431282343103" status="FT" time="16:15">
-<home goals="1" id="2343128" name="Leiknir"></home>
-<away goals="0" id="2343103" name="Fjolnir"></away>
-<events>
-<event id="23899774" minute="27" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4231830" alternate_id_2="4488626" date="20.02.2016" id="4349314" static_id="20021623431052343145" status="FT" time="17:15">
-<home goals="2" id="2343105" name="Fylkir"></home>
-<away goals="2" id="2343145" name="Olafsvik"></away>
-<events>
-<event id="23899764" minute="32" player="" playerid="" result="[0 - 1]" team="away" type="goal"></event>
-<event id="23899765" minute="43" player="" playerid="" result="[1 - 1]" team="home" type="goal"></event>
-<event id="23899766" minute="52" player="" playerid="" result="[1 - 2]" team="away" type="goal"></event>
-<event id="23899767" minute="85" player="" playerid="" result="[2 - 2]" team="home" type="goal"></event>
-</events>
-<ht score="[1-1]"></ht>
-</match><match alternate_id="4231829" alternate_id_2="4488625" date="20.02.2016" id="4349313" static_id="20021623431062343110" status="FT" time="16:30">
-<home goals="1" id="2343106" name="Grindavik"></home>
-<away goals="1" id="2343110" name="Kopavogur"></away>
-<events>
-<event id="23899754" minute="23" player="" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23899755" minute="78" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-</events>
-<ht score="[1-0]"></ht>
-</match><match alternate_id="4231827" alternate_id_2="4488623" date="20.02.2016" id="4349311" static_id="20021623431002343119" status="FT" time="15:00">
-<home goals="2" id="2343100" name="Breidablik"></home>
-<away goals="1" id="2343119" name="KA Akureyri"></away>
-<events>
-<event id="23899734" minute="5" player="D. Bjarnason" playerid="2462728" result="" team="away" type="redcard"></event>
-<event id="23899735" minute="6" player="A. Sigurjonsson (pen.)" playerid="" result="[1 - 0]" team="home" type="goal"></event>
-<event id="23899736" minute="54" player="" playerid="" result="[1 - 1]" team="away" type="goal"></event>
-<event id="23899737" minute="78" player="J. Glenn" playerid="" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[1-0]"></ht>
 </match></league><league country="iceland" name="Iceland: League Cup - Play Offs" cup="True" id="3373" sub_id=""><match alternate_id="4124618" alternate_id_2="4327452" date="23.04.2015" id="4242161" static_id="23041523431002343119" status="FT" time="17:00">
@@ -985,18 +980,18 @@
 <home goals="0" id="2343113" name="Akranes"></home>
 <away goals="3" id="2343103" name="Fjolnir"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22368064" minute="13" player="M. Magee" playerid="2525025" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22368065" minute="18" player="M. Magee" playerid="2525025" result="[0 - 2]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22368066" minute="83" player="A. Siguraarson" playerid="" result="[0 - 3]" team="away" type="goal"></event>
+<event id="22368064" minute="13" player="M. Magee" playerid="2525025" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22368065" minute="18" player="M. Magee" playerid="2525025" result="[0 - 2]" team="away" type="goal"></event>
+<event id="22368066" minute="83" player="A. Siguraarson" playerid="" result="[0 - 3]" team="away" type="goal"></event>
 </events>
 <ht score="[0-2]"></ht>
 </match><match alternate_id="4129030" alternate_id_2="4335458" date="03.06.2015" id="4246571" static_id="03061523431012343110" status="FT" time="19:15">
 <home goals="2" id="2343101" name="Hafnarfjordur"></home>
 <away goals="1" id="2343110" name="Kopavogur"></away>
 <events>
-<event assist="" assistid="" extra_min="" id="22368084" minute="5" player="G. Steinthorsson (pen.)" playerid="2364940" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22368085" minute="33" player="S. Lennon" playerid="2344783" result="[1 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="22368086" minute="45" player="T. Valdimarsson" playerid="2364109" result="[2 - 1]" team="home" type="goal"></event>
+<event id="22368084" minute="5" player="G. Steinthorsson (pen.)" playerid="2364940" result="[0 - 1]" team="away" type="goal"></event>
+<event id="22368085" minute="33" player="S. Lennon" playerid="2344783" result="[1 - 1]" team="home" type="goal"></event>
+<event id="22368086" minute="45" player="T. Valdimarsson" playerid="2364109" result="[2 - 1]" team="home" type="goal"></event>
 </events>
 <ht score="[2-1]"></ht>
 </match><match alternate_id="4129031" alternate_id_2="4335459" date="03.06.2015" id="4246572" static_id="03061523431212343123" status="FT" time="19:15">

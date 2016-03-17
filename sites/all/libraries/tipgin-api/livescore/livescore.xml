@@ -1,1236 +1,670 @@
-<?xml version="1.0" encoding="utf-8"?><livescore updated="11.03.2016 00:20:35" sport="soccer" ><league country="africa" name="Africa: Caf Champions League - Qualification" cup="False" id="3346" sub_id="33464"><match alternate_id="4252954" alternate_id_2="4503127" commentary="False" date="11.03.2016" id="4370391" static_id="11031623443402348164" status="16:00" time="16:00">
-<home goals="?" id="2344340" name="Al Ahly Tripoli"></home>
-<away goals="?" id="2348164" name="Al-Hilal Omdurman"></away>
+<?xml version="1.0" encoding="utf-8"?><livescore updated="17.03.2016 06:06:46" sport="soccer" ><league country="argentina" name="Argentina: Primera Division" cup="False" id="2914" sub_id="29144"><match alternate_id="4241126" alternate_id_2="4490644" commentary="True" date="17.03.2016" id="4358599" static_id="17031623379002337831" status="FT" time="00:00">
+<home goals="1" id="2337900" name="Tigre"></home>
+<away goals="2" id="2337831" name="Atl. Huracan"></away>
+<events>
+<event assist="L. Balbi" assistid="78889" extra_min="" id="23919944" minute="16" player="D. Montenegro" playerid="2346032" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="S. Rincon" assistid="176052" extra_min="" id="23919945" minute="24" player="J. Rodriguez" playerid="2379728" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23919946" minute="41" player="R. Abila" playerid="2383388" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23919947" minute="63" player="S. Izaguirre" playerid="2698156" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23919948" minute="63" player="K. Itabel" playerid="2507381" result="" team="home" type="yellowcard"></event>
+<event assist="R. Abila" assistid="51555" extra_min="" id="23919949" minute="70" player="M. Gonzalez" playerid="2335815" result="[1 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23919950" minute="70" player="E. Godoy" playerid="2552467" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23919951" minute="78" player="M. Gonzalez" playerid="2335815" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23919952" minute="80" player="C. Araujo" playerid="2346888" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="218212943" minute="89" player="K. Itabel" playerid="2507381" result="" team="home" type="yellowred"></event>
+</events>
+<ht score="[1-1]"></ht>
+<ft score="[1-2]"></ft>
+</match></league><league country="argentina" name="Argentina: Primera C Metropolitana" cup="False" id="2912" sub_id="29120"><match alternate_id="4242878" alternate_id_2="4493754" commentary="False" date="16.03.2016" id="4360351" static_id="16031623377382337877" status="FT" time="23:00">
+<home goals="0" id="2337738" name="Argentino de Merlo"></home>
+<away goals="0" id="2337877" name="Sacachispas"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23951044" minute="46" player="Gutierrez" playerid="2421212" result="" team="home" type="redcard"></event>
+<event assist="" assistid="" extra_min="" id="23951045" minute="86" player="Carpintero" playerid="" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-0]"></ft>
+</match></league><league country="bolivia" name="Bolivia: Liga De Futbol Prof - Clausura" cup="False" id="2942" sub_id="29422"><match alternate_id="4236993" alternate_id_2="4502459" commentary="True" date="17.03.2016" id="4354474" static_id="17031623388242338816" status="FT" time="00:30">
+<home goals="3" id="2338824" name="Oriente Petrolero"></home>
+<away goals="2" id="2338816" name="Bolivar"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24038094" minute="26" player="R. Vargas" playerid="2563282" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24038095" minute="34" player="A. Melean" playerid="2458218" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24038096" minute="41" player="D. Miranda" playerid="2410439" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24038097" minute="45" player="M. Bejarano" playerid="2356846" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24038098" minute="46" player="S. Almiron" playerid="2454183" result="[3 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24038099" minute="48" player="J. Callejon" playerid="2390149" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24038100" minute="53" player="G. Cellerino" playerid="2355490" result="[3 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24038101" minute="59" player="E. Saavedra" playerid="2642315" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24038102" minute="69" player="R. Eguino" playerid="2355353" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="219394443" minute="78" player="J. Ortiz" playerid="2342163" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="219394444" minute="80" player="J. Arrascaita" playerid="2552841" result="[3 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="219394445" minute="84" player="P. Laserna" playerid="2656080" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+<ft score="[3-2]"></ft>
+</match></league><league country="brazil" name="Brazil: Campeonato Alagoano - First Stage" cup="False" id="2968" sub_id=""><match alternate_id="4236395" alternate_id_2="4506574" commentary="False" date="16.03.2016" id="4353876" static_id="16031623392762339325" status="FT" time="23:00">
+<home goals="1" id="2339276" name="Murici"></home>
+<away goals="0" id="2339325" name="SC Penedense"></away>
 <events>
 </events>
-<ht score=""></ht>
-</match></league><league country="africa" name="Africa: Caf Confederations Cup - Qualification" cup="True" id="3468" sub_id="34682"><match alternate_id="4253137" alternate_id_2="4503220" commentary="False" date="11.03.2016" id="4370574" static_id="11031623412962344939" status="Cancl." time="14:00">
-<home goals="?" id="2341296" name="Dep. Mongomo"></home>
-<away goals="?" id="2344939" name="FUS Rabat"></away>
+<ht score="[0-0]"></ht>
+<ft score="[1-0]"></ft>
+</match><match alternate_id="4236396" alternate_id_2="4506571" commentary="False" date="16.03.2016" id="4353877" static_id="16031623389662339080" status="FT" time="23:30">
+<home goals="1" id="2338966" name="ASA"></home>
+<away goals="2" id="2339080" name="Coruripe"></away>
 <events>
 </events>
-<ht score=""></ht>
-</match><match alternate_id="4253137" alternate_id_2="4506317" commentary="False" date="11.03.2016" id="4370574" static_id="11031623548692344939" status="14:00" time="14:00">
-<home goals="?" id="2354869" name="UMS de Loum"></home>
-<away goals="?" id="2344939" name="FUS Rabat"></away>
+<ht score="[0-0]"></ht>
+<ft score="[1-2]"></ft>
+</match><match alternate_id="4236398" alternate_id_2="4506572" commentary="False" date="16.03.2016" id="4353879" static_id="16031623390952339389" status="FT" time="23:30">
+<home goals="3" id="2339095" name="CSA"></home>
+<away goals="0" id="2339389" name="Santa Rita"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24079224" minute="60" player="Cleiton" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24079225" minute="64" player="Cleiton" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24079226" minute="90" player="Oliveira" playerid="2402837" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[3-0]"></ft>
+</match><match alternate_id="4236399" alternate_id_2="4506573" commentary="False" date="17.03.2016" id="4353880" static_id="17031623390962339086" status="FT" time="00:45">
+<home goals="1" id="2339096" name="CSE"></home>
+<away goals="0" id="2339086" name="CRB"></away>
 <events>
 </events>
-<ht score=""></ht>
-</match></league><league country="argentina" name="Argentina: Primera Division" cup="False" id="2914" sub_id="29144"><match alternate_id="4241201" alternate_id_2="4504225" commentary="True" date="11.03.2016" id="4358674" static_id="11031623378692337851" status="23:15" time="23:15">
-<home goals="?" id="2337869" name="Racing Club"></home>
-<away goals="?" id="2337851" name="Lanus"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4241200" alternate_id_2="4504176" commentary="True" date="12.03.2016" id="4358673" static_id="12031623378612337749" status="00:00" time="00:00">
-<home goals="?" id="2337861" name="Newells Old Boys"></home>
-<away goals="?" id="2337749" name="Atl. Rafaela"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="argentina" name="Argentina: Primera B Nacional" cup="False" id="2911" sub_id="29110"><match alternate_id="4236724" alternate_id_2="4503818" commentary="False" date="12.03.2016" id="4354205" static_id="12031623378372337783" status="00:30" time="00:30">
-<home goals="?" id="2337837" name="Ind. Rivadavia"></home>
-<away goals="?" id="2337783" name="Crucero del Norte"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="argentina" name="Argentina: Primera C Metropolitana" cup="False" id="2912" sub_id="29120"><match alternate_id="4242916" alternate_id_2="4503193" commentary="False" date="11.03.2016" id="4360389" static_id="11031623377882337877" status="19:00" time="19:00">
-<home goals="?" id="2337788" name="Defensores de Cambaceres"></home>
-<away goals="?" id="2337877" name="Sacachispas"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="australia" name="Australia: A-League" cup="False" id="2919" sub_id="29190"><match alternate_id="4144189" alternate_id_2="4498806" commentary="True" date="11.03.2016" id="4261727" static_id="11031623379772349637" status="08:45" time="08:45">
-<home goals="?" id="2337977" name="Adelaide United"></home>
-<away goals="?" id="2349637" name="Melbourne City"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="australia" name="Australia: Npl Victoria" cup="False" id="4503" sub_id=""><match alternate_id="4254543" alternate_id_2="4500761" commentary="False" date="11.03.2016" id="4371974" static_id="11031623573002337986" status="09:30" time="09:30">
-<home goals="?" id="2357300" name="Avondale Heights SC"></home>
-<away goals="?" id="2337986" name="Bentleigh Greens"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254546" alternate_id_2="4500756" commentary="False" date="11.03.2016" id="4371976" static_id="11031623380682338035" status="09:30" time="09:30">
-<home goals="?" id="2338068" name="Oakleigh Cannons"></home>
-<away goals="?" id="2338035" name="Hume City"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254544" alternate_id_2="4500757" commentary="False" date="11.03.2016" id="4371975" static_id="11031623535172338048" status="09:30" time="09:30">
-<home goals="?" id="2353517" name="Port Melbourne Sharks"></home>
-<away goals="?" id="2338048" name="Melbourne Knights"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254545" alternate_id_2="4500758" commentary="False" date="11.03.2016" id="4371976" static_id="11031623380862357306" status="09:30" time="09:30">
-<home goals="?" id="2338086" name="Richmond"></home>
-<away goals="?" id="2357306" name="Melbourne Victory U21"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="australia" name="Australia: Npl Queensland" cup="False" id="4506" sub_id=""><match alternate_id="4254542" alternate_id_2="4500230" commentary="False" date="11.03.2016" id="4371973" static_id="11031623380852353627" status="09:00" time="09:00">
-<home goals="?" id="2338085" name="Redlands"></home>
-<away goals="?" id="2353627" name="Moreton Bay Utd"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="austria" name="Austria: Erste Liga" cup="False" id="2923" sub_id="29230"><match alternate_id="4139589" alternate_id_2="4482264" commentary="False" date="11.03.2016" id="4257128" static_id="11031623381792338149" status="17:30" time="17:30">
-<home goals="?" id="2338179" name="FAC Wien"></home>
-<away goals="?" id="2338149" name="A. Lustenau"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4139587" alternate_id_2="4482230" commentary="False" date="11.03.2016" id="4257126" static_id="11031623382462338233" status="17:30" time="17:30">
-<home goals="?" id="2338246" name="LASK Linz"></home>
-<away goals="?" id="2338233" name="A. Klagenfurt"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4139586" alternate_id_2="4482231" commentary="False" date="11.03.2016" id="4257125" static_id="11031623381402338151" status="17:30" time="17:30">
-<home goals="?" id="2338140" name="Liefering"></home>
-<away goals="?" id="2338151" name="A. Salzburg"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4139585" alternate_id_2="4482232" commentary="False" date="11.03.2016" id="4257124" static_id="11031623383712338227" status="17:30" time="17:30">
-<home goals="?" id="2338371" name="Neustadt"></home>
-<away goals="?" id="2338227" name="Kapfenberg"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4139588" alternate_id_2="4482233" commentary="False" date="11.03.2016" id="4257127" static_id="11031623383272338362" status="19:30" time="19:30">
-<home goals="?" id="2338327" name="St. Polten"></home>
-<away goals="?" id="2338362" name="Wacker Innsbruck"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="austria" name="Austria: Regionalliga East" cup="False" id="2925" sub_id="29251"><match alternate_id="4148992" alternate_id_2="4479308" commentary="False" date="11.03.2016" id="4266527" static_id="11031623381862338153" status="18:00" time="18:00">
-<home goals="?" id="2338186" name="First Vienna"></home>
-<away goals="?" id="2338153" name="Austria (Am)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4148993" alternate_id_2="4479309" commentary="False" date="11.03.2016" id="4266528" static_id="11031623382762338297" status="18:00" time="18:00">
-<home goals="?" id="2338276" name="Parndorf"></home>
-<away goals="?" id="2338297" name="Ritzing"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4148994" alternate_id_2="4479343" commentary="False" date="11.03.2016" id="4266529" static_id="11031623381372338133" status="18:30" time="18:30">
-<home goals="?" id="2338137" name="Amstetten"></home>
-<away goals="?" id="2338133" name="Admira (Am)"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4148997" alternate_id_2="4479310" commentary="False" date="11.03.2016" id="4266532" static_id="11031623554402338269" status="18:30" time="18:30">
-<home goals="?" id="2355440" name="Ebreichsdorf"></home>
-<away goals="?" id="2338269" name="Neusiedl"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4148996" alternate_id_2="4479369" commentary="False" date="11.03.2016" id="4266531" static_id="11031623383122338372" status="18:30" time="18:30">
-<home goals="?" id="2338312" name="Schwechat"></home>
-<away goals="?" id="2338372" name="Wiener"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4148995" alternate_id_2="4479355" commentary="False" date="11.03.2016" id="4266530" static_id="11031623382722338220" status="18:30" time="18:30">
-<home goals="?" id="2338272" name="SV Oberwart"></home>
-<away goals="?" id="2338220" name="Horn"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="austria" name="Austria: Regionalliga Central" cup="False" id="2925" sub_id="29250"><match alternate_id="4149232" alternate_id_2="4477846" commentary="False" date="11.03.2016" id="4266767" static_id="11031623381362338367" status="18:00" time="18:00">
-<home goals="?" id="2338136" name="Allerheiligen"></home>
-<away goals="?" id="2338367" name="SC Weiz"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4149236" alternate_id_2="4478131" commentary="False" date="11.03.2016" id="4266771" static_id="11031623383492353945" status="18:00" time="18:00">
-<home goals="?" id="2338349" name="Florian"></home>
-<away goals="?" id="2353945" name="Annabichler"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4149238" alternate_id_2="4477847" commentary="False" date="11.03.2016" id="4266773" static_id="11031623382142355441" status="18:00" time="18:00">
-<home goals="?" id="2338214" name="Hartberg"></home>
-<away goals="?" id="2355441" name="Stadl Paura"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4149235" alternate_id_2="4478116" commentary="False" date="11.03.2016" id="4266770" static_id="11031623383372338226" status="18:00" time="18:00">
-<home goals="?" id="2338337" name="Sturm Graz (Am)"></home>
-<away goals="?" id="2338226" name="Kalsdorf"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4149234" alternate_id_2="4478124" commentary="False" date="11.03.2016" id="4266769" static_id="11031623383652338163" status="18:00" time="18:00">
-<home goals="?" id="2338365" name="SV Wallern"></home>
-<away goals="?" id="2338163" name="BW Linz"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="belgium" name="Belgium: Proximus League" cup="False" id="2937" sub_id="29370"><match alternate_id="4145704" alternate_id_2="4499119" commentary="False" date="11.03.2016" id="4263240" static_id="11031623385832338742" status="19:30" time="19:30">
-<home goals="?" id="2338583" name="Cercle Brugge KSV"></home>
-<away goals="?" id="2338742" name="St. Gilloise"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="brazil" name="Brazil: Primeira Liga - First Stage" cup="False" id="4497" sub_id=""><match alternate_id="4254438" alternate_id_2="4495382" commentary="False" date="11.03.2016" id="4371869" static_id="11031623390782338984" status="00:45" time="00:45">
-<home goals="?" id="2339078" name="Coritiba"></home>
-<away goals="?" id="2338984" name="Avai"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254271" alternate_id_2="4495385" commentary="False" date="11.03.2016" id="4371705" static_id="11031623391372339087" status="00:45" time="00:45">
-<home goals="?" id="2339137" name="Fluminense"></home>
-<away goals="?" id="2339087" name="Criciuma"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="brazil" name="Brazil: Campeonato Brasiliense" cup="False" id="4510" sub_id=""><match alternate_id="" alternate_id_2="4506545" commentary="False" date="11.03.2016" id="" static_id="11031623560502339009" status="18:30" time="18:30">
-<home goals="?" id="2356050" name="Cruzeiro DF"></home>
-<away goals="?" id="2339009" name="Brasilia"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4506558" commentary="False" date="11.03.2016" id="" static_id="11031623572072346251" status="18:30" time="18:30">
-<home goals="?" id="2357207" name="Planaltina"></home>
+<ht score="[-]"></ht>
+<ft score="[1-0]"></ft>
+</match></league><league country="brazil" name="Brazil: Campeonato Brasiliense" cup="False" id="4510" sub_id=""><match alternate_id="4256064" alternate_id_2="4506568" commentary="False" date="17.03.2016" id="4373491" static_id="17031623572062346251" status="18:30" time="18:30">
+<home goals="?" id="2357206" name="Atletico Taguatinga"></home>
 <away goals="?" id="2346251" name="Santa Maria"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="brazil" name="Brazil: Copa Verde" cup="True" id="4408" sub_id=""><match alternate_id="4248617" alternate_id_2="4486840" commentary="False" date="11.03.2016" id="4366067" static_id="11031623392852339356" status="00:30" time="00:30">
-<home goals="?" id="2339285" name="Nautico FC"></home>
-<away goals="?" id="2339356" name="Remo"></away>
+</match><match alternate_id="4256079" alternate_id_2="4506578" commentary="False" date="17.03.2016" id="4373506" static_id="17031623390102350480" status="19:00" time="19:00">
+<home goals="?" id="2339010" name="Brasiliense"></home>
+<away goals="?" id="2350480" name="Bosque Formosa"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4254531" alternate_id_2="4504929" commentary="False" date="11.03.2016" id="4371962" static_id="11031623395032339245" status="00:30" time="00:30">
-<home goals="?" id="2339503" name="Vila Nova FC"></home>
-<away goals="?" id="2339245" name="Luverdense"></away>
+</match></league><league country="brazil" name="Brazil: Campeonato Catarinense - Second Stage" cup="False" id="2973" sub_id=""><match alternate_id="4233966" alternate_id_2="4485573" commentary="False" date="16.03.2016" id="4351448" static_id="16031623390112339263" status="FT" time="23:30">
+<home goals="1" id="2339011" name="Brusque"></home>
+<away goals="0" id="2339263" name="Metropolitano"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23869234" minute="20" player="Alberto" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23869235" minute="80" player="Alberto" playerid="" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[1-0]"></ht>
+<ft score="[1-0]"></ft>
+</match><match alternate_id="4233965" alternate_id_2="4485575" commentary="False" date="17.03.2016" id="4351447" static_id="17031623392252339087" status="FT" time="00:45">
+<home goals="1" id="2339225" name="Joinville"></home>
+<away goals="0" id="2339087" name="Criciuma"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23869254" minute="83" player="Aguiar (pen.)" playerid="2371387" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+<ft score="[1-0]"></ft>
+</match><match alternate_id="4233963" alternate_id_2="4485571" commentary="False" date="17.03.2016" id="4351445" static_id="17031623391742339061" status="22:00" time="22:00">
+<home goals="?" id="2339174" name="Guarani de Palhoca"></home>
+<away goals="?" id="2339061" name="Chapecoense-SC"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="brazil" name="Brazil: Copa Do Nordeste" cup="True" id="4305" sub_id=""><match alternate_id="4254276" alternate_id_2="4502745" commentary="False" date="11.03.2016" id="4371707" static_id="11031623496382339375" status="00:30" time="00:30">
-<home goals="?" id="2349638" name="Botafogo PB"></home>
-<away goals="?" id="2339375" name="River-PI"></away>
+</match><match alternate_id="4233967" alternate_id_2="4485572" commentary="False" date="18.03.2016" id="4351449" static_id="18031623389842351959" status="00:30" time="00:30">
+<home goals="?" id="2338984" name="Avai"></home>
+<away goals="?" id="2351959" name="Camboriu"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4254273" alternate_id_2="4502746" commentary="False" date="11.03.2016" id="4371705" static_id="11031623395092339381" status="00:30" time="00:30">
-<home goals="?" id="2339509" name="Vitoria da Conquista"></home>
-<away goals="?" id="2339381" name="Sampaio Correa"></away>
+</match></league><league country="brazil" name="Brazil: Campeonato Cearense - Second Round" cup="False" id="2979" sub_id="29792"><match alternate_id="4252546" alternate_id_2="4504761" commentary="False" date="16.03.2016" id="4369983" static_id="16031623390492339491" status="FT" time="23:00">
+<home goals="0" id="2339049" name="Ceara"></home>
+<away goals="0" id="2339491" name="Uniclinic"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24061114" minute="76" player="Guto" playerid="2364448" result="" team="away" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-0]"></ft>
+</match><match alternate_id="4252547" alternate_id_2="4504762" commentary="False" date="17.03.2016" id="4369984" static_id="17031623391772339255" status="FT" time="00:45">
+<home goals="1" id="2339177" name="Guarany"></home>
+<away goals="0" id="2339255" name="Maranguape"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24061124" minute="8" player="Eduardo" playerid="2726397" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+<ft score="[1-0]"></ft>
+</match></league><league country="brazil" name="Brazil: Campeonato Paraense - Second Stage" cup="False" id="2962" sub_id=""><match alternate_id="" alternate_id_2="4506576" commentary="False" date="17.03.2016" id="" static_id="17031623390262355988" status="23:30" time="23:30">
+<home goals="?" id="2339026" name="Cameta"></home>
+<away goals="?" id="2355988" name="Tapajos"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="chile" name="Chile: Primera Division - Clausura" cup="False" id="2992" sub_id="29923"><match alternate_id="4236292" alternate_id_2="4502080" commentary="True" date="11.03.2016" id="4353773" static_id="11031623398532339852" status="22:30" time="22:30">
-<home goals="?" id="2339853" name="Union La Calera"></home>
-<away goals="?" id="2339852" name="U. Espanola"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="chile" name="Chile: Primera B - Clausura" cup="False" id="2993" sub_id="29933"><match alternate_id="4244537" alternate_id_2="4504164" commentary="False" date="11.03.2016" id="4361999" static_id="11031623398482346946" status="20:00" time="20:00">
-<home goals="?" id="2339848" name="S. Morning"></home>
-<away goals="?" id="2346946" name="Rangers"></away>
+</match></league><league country="brazil" name="Brazil: Campeonato Sul-Matogrossense" cup="False" id="2949" sub_id="29490"><match alternate_id="4236594" alternate_id_2="4503672" commentary="False" date="17.03.2016" id="4354075" static_id="17031623390792339043" status="FT" time="00:15">
+<home goals="2" id="2339079" name="Corumbaense"></home>
+<away goals="0" id="2339043" name="7 de Setembro"></away>
 <events>
 </events>
-<ht score=""></ht>
-</match></league><league country="china" name="China: Super League" cup="False" id="2996" sub_id="29960"><match alternate_id="4248682" alternate_id_2="4500587" commentary="False" date="11.03.2016" id="4366132" static_id="11031623398892339926" status="11:35" time="11:35">
-<home goals="?" id="2339889" name="Jiangsu Suning"></home>
-<away goals="?" id="2339926" name="Yanbian"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4248683" alternate_id_2="4500588" commentary="False" date="11.03.2016" id="4366133" static_id="11031623399102339892" status="11:35" time="11:35">
-<home goals="?" id="2339910" name="Shandong Luneng"></home>
-<away goals="?" id="2339892" name="Liaoning"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4248687" alternate_id_2="4500592" commentary="False" date="11.03.2016" id="4366137" static_id="11031623399112339913" status="11:35" time="11:35">
-<home goals="?" id="2339911" name="Shanghai SIPG"></home>
-<away goals="?" id="2339913" name="Shanghai Shenhua"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4245172" alternate_id_2="4498668" commentary="False" date="11.03.2016" id="4362633" static_id="11031623399592339966" status="00:30" time="00:30">
-<home goals="?" id="2339959" name="Bucaramanga"></home>
-<away goals="?" id="2339966" name="Cucuta"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4253689" alternate_id_2="4498645" commentary="False" date="11.03.2016" id="4371123" static_id="11031623399622339982" status="00:45" time="00:45">
-<home goals="?" id="2339962" name="Bogota"></home>
-<away goals="?" id="2339982" name="Millonarios"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4245177" alternate_id_2="4498665" commentary="False" date="11.03.2016" id="4362638" static_id="11031623399572349632" status="01:00" time="01:00">
-<home goals="?" id="2339957" name="America De Cali"></home>
-<away goals="?" id="2349632" name="Cortulua"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="costarica" name="Costa Rica: Primera Division - Torneo De Verano" cup="False" id="3002" sub_id="30023"><match alternate_id="4152545" alternate_id_2="4502065" commentary="False" date="11.03.2016" id="4270078" static_id="11031623400312340050" status="02:00" time="02:00">
-<home goals="?" id="2340031" name="Saprissa"></home>
-<away goals="?" id="2340050" name="Santos DG"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="croatia" name="Croatia: 1. Hnl" cup="False" id="3005" sub_id="30050"><match alternate_id="4134074" alternate_id_2="4500933" commentary="False" date="11.03.2016" id="4251613" static_id="11031623401742340105" status="17:00" time="17:00">
-<home goals="?" id="2340174" name="Osijek"></home>
-<away goals="?" id="2340105" name="Zapresic"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="cyprus" name="Cyprus: First Division - Relegation Group" cup="False" id="3012" sub_id="30125"><match alternate_id="4253321" alternate_id_2="4504906" commentary="False" date="11.03.2016" id="4370755" static_id="11031623402622340291" status="16:00" time="16:00">
-<home goals="?" id="2340262" name="Aris"></home>
-<away goals="?" id="2340291" name="Paphos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4253322" alternate_id_2="4504907" commentary="False" date="11.03.2016" id="4370756" static_id="11031623402672340248" status="16:00" time="16:00">
-<home goals="?" id="2340267" name="Doxa"></home>
-<away goals="?" id="2340248" name="AEL Limassol"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="czech" name="Czech Republic: Synot Liga" cup="False" id="3017" sub_id="30170"><match alternate_id="4141390" alternate_id_2="4501313" commentary="True" date="11.03.2016" id="4258928" static_id="11031623403622340302" status="16:30" time="16:30">
-<home goals="?" id="2340362" name="Jablonec"></home>
-<away goals="?" id="2340302" name="Ostrava"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4141388" alternate_id_2="4501377" commentary="True" date="11.03.2016" id="4258926" static_id="11031623404322340501" status="19:15" time="19:15">
-<home goals="?" id="2340432" name="Slavia Prague"></home>
-<away goals="?" id="2340501" name="Zlin"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="czech" name="Czech Republic: Division 2" cup="False" id="3016" sub_id="30160"><match alternate_id="4144418" alternate_id_2="4481287" commentary="False" date="11.03.2016" id="4261956" static_id="11031623404762340443" status="17:00" time="17:00">
-<home goals="?" id="2340476" name="Usti nad Labem"></home>
-<away goals="?" id="2340443" name="Varnsdorf"></away>
+<ht score="[-]"></ht>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4236593" alternate_id_2="4504156" commentary="False" date="17.03.2016" id="4354074" static_id="17031623400152339269" status="FT" time="00:15">
+<home goals="2" id="2340015" name="Costa Rica"></home>
+<away goals="0" id="2339269" name="Misto"></away>
 <events>
 </events>
-<ht score=""></ht>
-</match></league><league country="denmark" name="Denmark: Superliga" cup="False" id="3018" sub_id="30180"><match alternate_id="4140144" alternate_id_2="4484687" commentary="True" date="11.03.2016" id="4257683" static_id="11031623405472340516" status="17:00" time="17:00">
-<home goals="?" id="2340547" name="Esbjerg"></home>
-<away goals="?" id="2340516" name="Aarhus"></away>
+<ht score="[-]"></ht>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4236592" alternate_id_2="4502584" commentary="False" date="17.03.2016" id="4354073" static_id="17031623391142339220" status="19:00" time="19:00">
+<home goals="?" id="2339114" name="Aquidauanense"></home>
+<away goals="?" id="2339220" name="Ivinhema"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="el_salvador" name="El Salvador: Primera Division - Clausura" cup="False" id="3027" sub_id="30273"><match alternate_id="4235568" alternate_id_2="4501698" commentary="False" date="11.03.2016" id="4353049" static_id="11031623499902340799" status="23:00" time="23:00">
-<home goals="?" id="2349990" name="UES"></home>
-<away goals="?" id="2340799" name="Alianza FC"></away>
+</match></league><league country="brazil" name="Brazil: Copa Do Brasil" cup="True" id="3354" sub_id="33540"><match alternate_id="4250907" alternate_id_2="4493597" commentary="False" date="16.03.2016" id="4368348" static_id="16031623504742338929" status="FT" time="23:30">
+<home goals="1" id="2350474" name="Goianesia"></home>
+<away goals="1" id="2338929" name="ABC"></away>
 <events>
+<event assist="" assistid="" extra_min="" id="23949474" minute="12" player="F. Souza" playerid="2397169" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949475" minute="36" player="R. Nonato" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23949476" minute="85" player="M. Passos" playerid="2403608" result="[1 - 1]" team="away" type="goal"></event>
 </events>
-<ht score=""></ht>
-</match></league><league country="england" name="England: Premier League U21" cup="False" id="4133" sub_id="41330"><match alternate_id="4250855" alternate_id_2="4502184" commentary="False" date="11.03.2016" id="4368296" static_id="11031623556342353572" status="19:00" time="19:00">
-<home goals="?" id="2355634" name="Derby U21"></home>
-<away goals="?" id="2353572" name="West Brom U21"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4253674" alternate_id_2="4504282" commentary="False" date="11.03.2016" id="4371108" static_id="11031623535672353582" status="19:00" time="19:00">
-<home goals="?" id="2353567" name="Liverpool U21"></home>
-<away goals="?" id="2353582" name="Manchester United U21"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4250854" alternate_id_2="4502179" commentary="False" date="11.03.2016" id="4368295" static_id="11031623535692353565" status="19:00" time="19:00">
-<home goals="?" id="2353569" name="Newcastle Utd U21"></home>
-<away goals="?" id="2353565" name="West Ham U21"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4250844" alternate_id_2="4502140" commentary="False" date="11.03.2016" id="4368285" static_id="11031623535642353568" status="19:00" time="19:00">
-<home goals="?" id="2353564" name="Tottenham U21"></home>
-<away goals="?" id="2353568" name="Norwich U21"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4253067" alternate_id_2="4504754" commentary="False" date="11.03.2016" id="4370504" static_id="11031623535622354201" status="19:05" time="19:05">
-<home goals="?" id="2353562" name="Chelsea U21"></home>
-<away goals="?" id="2354201" name="Leicester U21"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="england" name="England: Fa Cup" cup="True" id="3031" sub_id="30310"><match alternate_id="4250698" alternate_id_2="4501966" commentary="True" date="11.03.2016" id="4368142" static_id="11031623411572340960" status="19:55" time="19:55">
-<home goals="?" id="2341157" name="Reading"></home>
-<away goals="?" id="2340960" name="Crystal Palace"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="europe" name="Europe: Euro U17 - Qualification - Second Stage" cup="False" id="4040" sub_id="40400"><match alternate_id="4228489" alternate_id_2="4485399" commentary="False" date="11.03.2016" id="4345979" static_id="11031623385712350027" status="14:00" time="14:00">
-<home goals="?" id="2338571" name="Belgium U17"></home>
-<away goals="?" id="2350027" name="Slovenia U17"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4228490" alternate_id_2="4485400" commentary="False" date="11.03.2016" id="4345980" static_id="11031623474562351892" status="14:00" time="14:00">
-<home goals="?" id="2347456" name="Spain U17"></home>
-<away goals="?" id="2351892" name="Israel U17"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="finland" name="Finland: Suomen Cup" cup="True" id="3047" sub_id="30470"><match alternate_id="4251077" alternate_id_2="4502718" commentary="False" date="11.03.2016" id="4368518" static_id="11031623572402341523" status="17:00" time="17:00">
-<home goals="?" id="2357240" name="Korso United"></home>
-<away goals="?" id="2341523" name="JJK Jyvaskyla"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4251074" alternate_id_2="4502727" commentary="False" date="11.03.2016" id="4368515" static_id="11031623415222355484" status="18:00" time="18:00">
-<home goals="?" id="2341522" name="JIPPO"></home>
-<away goals="?" id="2355484" name="PeKa"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="france" name="France: Ligue 1" cup="False" id="3054" sub_id="30540"><match alternate_id="4136806" alternate_id_2="4503566" commentary="True" date="11.03.2016" id="4254345" static_id="11031623418532341906" status="19:30" time="19:30">
-<home goals="?" id="2341853" name="Monaco"></home>
-<away goals="?" id="2341906" name="Reims"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="france" name="France: Ligue 2" cup="False" id="3050" sub_id="30500"><match alternate_id="4138284" alternate_id_2="4502960" commentary="True" date="11.03.2016" id="4255823" static_id="11031623417112341862" status="19:00" time="19:00">
-<home goals="?" id="2341711" name="Bourg Peronnas"></home>
-<away goals="?" id="2341862" name="Nancy"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138290" alternate_id_2="4502961" commentary="True" date="11.03.2016" id="4255829" static_id="11031623417382341763" status="19:00" time="19:00">
-<home goals="?" id="2341738" name="Creteil"></home>
-<away goals="?" id="2341763" name="Evian TG"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138287" alternate_id_2="4502962" commentary="True" date="11.03.2016" id="4255826" static_id="11031623418312341729" status="19:00" time="19:00">
-<home goals="?" id="2341831" name="Lens"></home>
-<away goals="?" id="2341729" name="Clermont"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138285" alternate_id_2="4502963" commentary="True" date="11.03.2016" id="4255824" static_id="11031623418512341655" status="19:00" time="19:00">
-<home goals="?" id="2341851" name="Metz"></home>
-<away goals="?" id="2341655" name="AC Ajaccio"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138282" alternate_id_2="4502964" commentary="True" date="11.03.2016" id="4255821" static_id="11031623418692341883" status="19:00" time="19:00">
-<home goals="?" id="2341869" name="Niort"></home>
-<away goals="?" id="2341883" name="Paris FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138286" alternate_id_2="4502965" commentary="True" date="11.03.2016" id="4255825" static_id="11031623419382341825" status="19:00" time="19:00">
-<home goals="?" id="2341938" name="Sochaux"></home>
-<away goals="?" id="2341825" name="Le Havre"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138289" alternate_id_2="4502966" commentary="True" date="11.03.2016" id="4255828" static_id="11031623419702341824" status="19:00" time="19:00">
-<home goals="?" id="2341970" name="Tours"></home>
-<away goals="?" id="2341824" name="Laval"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4138291" alternate_id_2="4502967" commentary="True" date="11.03.2016" id="4255830" static_id="11031623419962341713" status="19:00" time="19:00">
-<home goals="?" id="2341996" name="Valenciennes"></home>
-<away goals="?" id="2341713" name="Brest"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="france" name="France: National" cup="False" id="3053" sub_id="30530"><match alternate_id="4173053" alternate_id_2="4500913" commentary="False" date="11.03.2016" id="4290578" static_id="11031623417102341696" status="19:00" time="19:00">
-<home goals="?" id="2341710" name="Boulogne"></home>
-<away goals="?" id="2341696" name="Avranches"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173049" alternate_id_2="4500914" commentary="False" date="11.03.2016" id="4290574" static_id="11031623497412341714" status="19:00" time="19:00">
-<home goals="?" id="2349741" name="Chambly"></home>
-<away goals="?" id="2341714" name="CA Bastia"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173057" alternate_id_2="4500929" commentary="False" date="11.03.2016" id="4290582" static_id="11031623417252342000" status="19:00" time="19:00">
-<home goals="?" id="2341725" name="Chateauroux"></home>
-<away goals="?" id="2342000" name="Lucon"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173062" alternate_id_2="4500915" commentary="False" date="11.03.2016" id="4290587" static_id="11031623418042341659" status="19:00" time="19:00">
-<home goals="?" id="2341804" name="Consolat"></home>
-<away goals="?" id="2341659" name="Amiens"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173051" alternate_id_2="4500916" commentary="False" date="11.03.2016" id="4290576" static_id="11031623417522341688" status="19:00" time="19:00">
-<home goals="?" id="2341752" name="Epinal"></home>
-<away goals="?" id="2341688" name="ASM Belfort"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173055" alternate_id_2="4500930" commentary="False" date="11.03.2016" id="4290580" static_id="11031623417942341745" status="19:00" time="19:00">
-<home goals="?" id="2341794" name="Frejus Saint Raphael"></home>
-<away goals="?" id="2341745" name="Dunkerque"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173060" alternate_id_2="4500917" commentary="False" date="11.03.2016" id="4290585" static_id="11031623418332341673" status="19:00" time="19:00">
-<home goals="?" id="2341833" name="Les Herbiers"></home>
-<away goals="?" id="2341673" name="Beziers"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173059" alternate_id_2="4500918" commentary="False" date="11.03.2016" id="4290584" static_id="11031623419312341878" status="19:00" time="19:00">
-<home goals="?" id="2341931" name="Sedan"></home>
-<away goals="?" id="2341878" name="Orleans"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4173047" alternate_id_2="4502968" commentary="False" date="11.03.2016" id="4290572" static_id="11031623417332341957" status="19:30" time="19:30">
-<home goals="?" id="2341733" name="Colmar"></home>
-<away goals="?" id="2341957" name="Strasbourg"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="georgia" name="Georgia: Umaglesi Liga" cup="False" id="3723" sub_id=""><match alternate_id="" alternate_id_2="4502306" commentary="False" date="11.03.2016" id="" static_id="11031623420512342067" status="11:00" time="11:00">
-<home goals="?" id="2342051" name="Lokomotiv Tbilisi"></home>
-<away goals="?" id="2342067" name="Bolnisi"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Bundesliga" cup="False" id="3062" sub_id="30620"><match alternate_id="4142508" alternate_id_2="4504060" commentary="True" date="11.03.2016" id="4260046" static_id="11031623422702342409" status="19:30" time="19:30">
-<home goals="?" id="2342270" name="Hertha Berlin"></home>
-<away goals="?" id="2342409" name="Schalke"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: 2. Bundesliga" cup="False" id="3058" sub_id="30580"><match alternate_id="4142817" alternate_id_2="4504061" commentary="True" date="11.03.2016" id="4260355" static_id="11031623420952342205" status="17:30" time="17:30">
-<home goals="?" id="2342095" name="Arminia Bielefeld"></home>
-<away goals="?" id="2342205" name="Nurnberg"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4142813" alternate_id_2="4503967" commentary="True" date="11.03.2016" id="4260351" static_id="11031623422402342178" status="17:30" time="17:30">
-<home goals="?" id="2342240" name="Greuther Furth"></home>
-<away goals="?" id="2342178" name="Braunschweig"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4142814" alternate_id_2="4503873" commentary="True" date="11.03.2016" id="4260352" static_id="11031623424362342372" status="17:30" time="17:30">
-<home goals="?" id="2342436" name="St. Pauli"></home>
-<away goals="?" id="2342372" name="Paderborn"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: 3. Liga" cup="False" id="3063" sub_id="30630"><match alternate_id="4147807" alternate_id_2="4504553" commentary="False" date="11.03.2016" id="4265342" static_id="11031623420852342170" status="18:00" time="18:00">
-<home goals="?" id="2342085" name="Aalen"></home>
-<away goals="?" id="2342170" name="Dresden"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4147810" alternate_id_2="4504462" commentary="False" date="11.03.2016" id="4265345" static_id="11031623422502342332" status="18:00" time="18:00">
-<home goals="?" id="2342250" name="Hallescher"></home>
-<away goals="?" id="2342332" name="Mainz II"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Regionalliga Nordost" cup="False" id="3060" sub_id="30604"><match alternate_id="4146875" alternate_id_2="4501856" commentary="False" date="11.03.2016" id="4264410" static_id="11031623421042342353" status="18:00" time="18:00">
-<home goals="?" id="2342104" name="Babelsberg"></home>
-<away goals="?" id="2342353" name="Neustrelitz"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Regionalliga West" cup="False" id="3060" sub_id="30602"><match alternate_id="4153740" alternate_id_2="4504048" commentary="False" date="11.03.2016" id="4271271" static_id="11031623423102342410" status="18:30" time="18:30">
-<home goals="?" id="2342310" name="Koln II"></home>
-<away goals="?" id="2342410" name="Schalke II"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4153733" alternate_id_2="4503878" commentary="False" date="11.03.2016" id="4271264" static_id="11031623423922342141" status="18:30" time="18:30">
-<home goals="?" id="2342392" name="RW Essen"></home>
-<away goals="?" id="2342141" name="B. Monchengladbach II"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Regionalliga Sudwest" cup="False" id="3060" sub_id="30606"><match alternate_id="4146508" alternate_id_2="4486406" commentary="False" date="11.03.2016" id="4264043" static_id="11031623422762342351" status="18:00" time="18:00">
-<home goals="?" id="2342276" name="Hoffenheim II"></home>
-<away goals="?" id="2342351" name="Neckarelz"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Regionalliga Bayern" cup="False" id="3060" sub_id="30607"><match alternate_id="4146069" alternate_id_2="4485244" commentary="False" date="11.03.2016" id="4263604" static_id="11031623421192342408" status="18:00" time="18:00">
-<home goals="?" id="2342119" name="Bayern II"></home>
-<away goals="?" id="2342408" name="Schalding"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4146074" alternate_id_2="4501258" commentary="False" date="11.03.2016" id="4263609" static_id="11031623422902342285" status="18:00" time="18:00">
-<home goals="?" id="2342290" name="Regensburg"></home>
-<away goals="?" id="2342285" name="Illertissen"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4146075" alternate_id_2="4485253" commentary="False" date="11.03.2016" id="4263610" static_id="11031623424192352806" status="18:00" time="18:00">
-<home goals="?" id="2342419" name="Schweinfurt"></home>
-<away goals="?" id="2352806" name="Amberg"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Oberliga Nofv-Nord" cup="False" id="3061" sub_id="30616"><match alternate_id="4174677" alternate_id_2="4501763" commentary="False" date="11.03.2016" id="4292202" static_id="11031623565872356589" status="18:00" time="18:00">
-<home goals="?" id="2356587" name="Seelow"></home>
-<away goals="?" id="2356589" name="1.FC Frankfurt"></away>
+<ht score="[1-0]"></ht>
+<ft score="[1-1]"></ft>
+</match><match alternate_id="4250911" alternate_id_2="4493583" commentary="False" date="16.03.2016" id="4368352" static_id="16031623392422349638" status="FT" time="23:30">
+<home goals="1" id="2339242" name="Linense"></home>
+<away goals="1" id="2349638" name="Botafogo PB"></away>
 <events>
-</events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Oberliga Nofv- Süd" cup="False" id="3061" sub_id="30617"><match alternate_id="4187165" alternate_id_2="4501770" commentary="False" date="11.03.2016" id="4304671" static_id="11031623423222342153" status="17:30" time="17:30">
-<home goals="?" id="2342322" name="Lokomotive Leipzig"></home>
-<away goals="?" id="2342153" name="Jena II"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Oberliga Rheinland-Pfalz/Saar" cup="False" id="3061" sub_id="306119"><match alternate_id="4173645" alternate_id_2="4486368" commentary="False" date="11.03.2016" id="4291170" static_id="11031623423082342142" status="19:00" time="19:00">
-<home goals="?" id="2342308" name="TuS Koblenz"></home>
-<away goals="?" id="2342142" name="Neunkirchen"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Oberliga Bayern Nord" cup="False" id="3061" sub_id="306120"><match alternate_id="4160586" alternate_id_2="4483060" commentary="False" date="11.03.2016" id="4278112" static_id="11031623421772356554" status="18:00" time="18:00">
-<home goals="?" id="2342177" name="Bamberg"></home>
-<away goals="?" id="2356554" name="Burglengenfeld"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4160587" alternate_id_2="4483061" commentary="False" date="11.03.2016" id="4278113" static_id="11031623512342342406" status="18:00" time="18:00">
-<home goals="?" id="2351234" name="Eltersdorf"></home>
-<away goals="?" id="2342406" name="1. SC Feucht"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="germany" name="Germany: Oberliga Baden-Württemberg" cup="False" id="3061" sub_id="30610"><match alternate_id="4185748" alternate_id_2="4501270" commentary="False" date="11.03.2016" id="4303254" static_id="11031623421102342376" status="18:30" time="18:30">
-<home goals="?" id="2342110" name="Balingen"></home>
-<away goals="?" id="2342376" name="Pfullendorf"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="gibraltar" name="Gibraltar: Premier Division" cup="False" id="4275" sub_id="42750"><match alternate_id="4253083" alternate_id_2="4504842" commentary="False" date="11.03.2016" id="4370520" static_id="11031623425682342572" status="19:30" time="19:30">
-<home goals="?" id="2342568" name="Manchester 62"></home>
-<away goals="?" id="2342572" name="St Josephs"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="greece" name="Greece: Football League" cup="False" id="3068" sub_id="30680"><match alternate_id="4216318" alternate_id_2="4502073" commentary="False" date="11.03.2016" id="4333818" static_id="11031623425992342673" status="16:00" time="16:00">
-<home goals="?" id="2342599" name="Smyrnis"></home>
-<away goals="?" id="2342673" name="Panegialios FC"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="hungary" name="Hungary: Merkantil Bank Liga" cup="False" id="3078" sub_id="30782"><match alternate_id="4174920" alternate_id_2="4503036" commentary="False" date="11.03.2016" id="4292445" static_id="11031623430292343092" status="17:00" time="17:00">
-<home goals="?" id="2343029" name="Dunaujvaros PASE"></home>
-<away goals="?" id="2343092" name="Zalaegerszegi"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="iceland" name="Iceland: League Cup" cup="True" id="3373" sub_id="33730"><match alternate_id="4231849" alternate_id_2="4501059" commentary="False" date="11.03.2016" id="4349333" static_id="11031623431372351012" status="19:00" time="19:00">
-<home goals="?" id="2343137" name="Throttur"></home>
-<away goals="?" id="2351012" name="Leiknir F."></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4231858" alternate_id_2="4501060" commentary="False" date="11.03.2016" id="4349342" static_id="11031623431002343145" status="20:00" time="20:00">
-<home goals="?" id="2343100" name="Breidablik"></home>
-<away goals="?" id="2343145" name="Olafsvik"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="iran" name="Iran: Persian Gulf Pro League" cup="False" id="3086" sub_id="30860"><match alternate_id="4158425" alternate_id_2="4500708" commentary="False" date="11.03.2016" id="4275954" static_id="11031623433132343310" status="12:30" time="12:30">
-<home goals="?" id="2343313" name="Saba Qom"></home>
-<away goals="?" id="2343310" name="Persepolis"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4158424" alternate_id_2="4500722" commentary="False" date="11.03.2016" id="4275953" static_id="11031623432842343312" status="13:00" time="13:00">
-<home goals="?" id="2343284" name="Esteghlal AHV"></home>
-<away goals="?" id="2343312" name="Sorinet"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="ireland" name="Ireland: Premier Division" cup="False" id="3091" sub_id=""><match alternate_id="4234877" alternate_id_2="4490079" commentary="False" date="11.03.2016" id="4352358" static_id="11031623433772343438" status="19:45" time="19:45">
-<home goals="?" id="2343377" name="Bohemians"></home>
-<away goals="?" id="2343438" name="Sligo Rovers"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4234878" alternate_id_2="4490080" commentary="False" date="11.03.2016" id="4352359" static_id="11031623454762343391" status="19:45" time="19:45">
-<home goals="?" id="2345476" name="Derry City"></home>
-<away goals="?" id="2343391" name="Cork City"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4234879" alternate_id_2="4490081" commentary="False" date="11.03.2016" id="4352360" static_id="11031623434002343406" status="19:45" time="19:45">
-<home goals="?" id="2343400" name="Dundalk"></home>
-<away goals="?" id="2343406" name="Finn Harps"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4234880" alternate_id_2="4490082" commentary="False" date="11.03.2016" id="4352361" static_id="11031623434092343379" status="19:45" time="19:45">
-<home goals="?" id="2343409" name="Galway"></home>
-<away goals="?" id="2343379" name="Bray"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4234881" alternate_id_2="4490083" commentary="False" date="11.03.2016" id="4352362" static_id="11031623434232343444" status="20:00" time="20:00">
-<home goals="?" id="2343423" name="Longford"></home>
-<away goals="?" id="2343444" name="St. Patricks"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4234882" alternate_id_2="4490084" commentary="False" date="11.03.2016" id="4352363" static_id="11031623434352343456" status="20:00" time="20:00">
-<home goals="?" id="2343435" name="Shamrock Rovers"></home>
-<away goals="?" id="2343456" name="Wexford"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="ireland" name="Ireland: Division 1" cup="False" id="3089" sub_id="30890"><match alternate_id="4239680" alternate_id_2="4495007" commentary="False" date="11.03.2016" id="4357159" static_id="11031623433712343437" status="19:45" time="19:45">
-<home goals="?" id="2343371" name="Athlone"></home>
-<away goals="?" id="2343437" name="Shelbourne"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4239597" alternate_id_2="4495008" commentary="False" date="11.03.2016" id="4357076" static_id="11031623434512356094" status="19:45" time="19:45">
-<home goals="?" id="2343451" name="UC Dublin"></home>
-<away goals="?" id="2356094" name="Cabinteely"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4239681" alternate_id_2="4495009" commentary="False" date="11.03.2016" id="4357160" static_id="11031623434542343419" status="19:45" time="19:45">
-<home goals="?" id="2343454" name="Waterford"></home>
-<away goals="?" id="2343419" name="Limerick"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="israel" name="Israel: Leumit League" cup="False" id="3093" sub_id="30930"><match alternate_id="4155448" alternate_id_2="4500751" commentary="False" date="11.03.2016" id="4272979" static_id="11031623435232343499" status="12:30" time="12:30">
-<home goals="?" id="2343523" name="M. Nazareth"></home>
-<away goals="?" id="2343499" name="H. Nazareth"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155449" alternate_id_2="4500763" commentary="False" date="11.03.2016" id="4272980" static_id="11031623434862343527" status="13:00" time="13:00">
-<home goals="?" id="2343486" name="Hapoel Bnei Lod"></home>
-<away goals="?" id="2343527" name="M. Herzliya"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155445" alternate_id_2="4500774" commentary="False" date="11.03.2016" id="4272976" static_id="11031623434922352855" status="13:00" time="13:00">
-<home goals="?" id="2343492" name="Hapoel Katamon"></home>
-<away goals="?" id="2352855" name="Beitar Tel Aviv"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155444" alternate_id_2="4500741" commentary="False" date="11.03.2016" id="4272975" static_id="11031623435012343503" status="13:00" time="13:00">
-<home goals="?" id="2343501" name="Hapoel Petah Tikva"></home>
-<away goals="?" id="2343503" name="Hap. Ramat Gan"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4155442" alternate_id_2="4500773" commentary="False" date="11.03.2016" id="4272973" static_id="11031623434602343481" status="13:00" time="13:00">
-<home goals="?" id="2343460" name="Moadon Sport Ashdod"></home>
-<away goals="?" id="2343481" name="Ashkelon"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="italy" name="Italy: Serie A" cup="False" id="3102" sub_id="31020"><match alternate_id="4182094" alternate_id_2="4489455" commentary="True" date="11.03.2016" id="4299612" static_id="11031623437552343846" status="19:45" time="19:45">
-<home goals="?" id="2343755" name="Juventus"></home>
-<away goals="?" id="2343846" name="Sassuolo"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="italy" name="Italy: Serie B" cup="False" id="3098" sub_id="30980"><match alternate_id="4204103" alternate_id_2="4504468" commentary="True" date="11.03.2016" id="4321607" static_id="11031623436592343694" status="19:30" time="19:30">
-<home goals="?" id="2343659" name="Brescia"></home>
-<away goals="?" id="2343694" name="Crotone"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="jamaica" name="Jamaica: Premier League" cup="False" id="3103" sub_id=""><match alternate_id="4207784" alternate_id_2="4503410" commentary="False" date="10.03.2016" id="4325288" static_id="10031623439422343948" status="20:30" time="20:30">
-<home goals="?" id="2343942" name="Boys' Town"></home>
-<away goals="?" id="2343948" name="Reno"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4207782" alternate_id_2="4503229" commentary="False" date="10.03.2016" id="4325286" static_id="10031623439402343956" status="23:00" time="23:00">
-<home goals="?" id="2343940" name="Arnett Gardens"></home>
-<away goals="?" id="2343956" name="Waterhouse"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="japan" name="Japan: J-League - First Stage" cup="False" id="3104" sub_id="31043"><match alternate_id="4241978" alternate_id_2="4496523" commentary="False" date="11.03.2016" id="4359451" static_id="11031623439722344023" status="10:00" time="10:00">
-<home goals="?" id="2343972" name="FC Tokyo"></home>
-<away goals="?" id="2344023" name="Kobe"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4241979" alternate_id_2="4496524" commentary="False" date="11.03.2016" id="4359452" static_id="11031623439762344001" status="10:00" time="10:00">
-<home goals="?" id="2343976" name="G-Osaka"></home>
-<away goals="?" id="2344001" name="Omiya Ardija"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="jordan" name="Jordan: Premier League" cup="False" id="3108" sub_id="31080"><match alternate_id="" alternate_id_2="4504845" commentary="False" date="11.03.2016" id="" static_id="11031623440352352434" status="13:00" time="13:00">
-<home goals="?" id="2344035" name="Al Faisaly Amman"></home>
-<away goals="?" id="2352434" name="Al Sareeh"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="" alternate_id_2="4504846" commentary="False" date="11.03.2016" id="" static_id="11031623440362346823" status="13:00" time="13:00">
-<home goals="?" id="2344036" name="Al Hussein"></home>
-<away goals="?" id="2346823" name="Al Ahli"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="kosovo" name="Kosovo: Superliga" cup="False" id="4282" sub_id="42820"><match alternate_id="4254553" alternate_id_2="4505041" commentary="False" date="11.03.2016" id="4371981" static_id="11031623547082356789" status="12:30" time="12:30">
-<home goals="?" id="2354708" name="Kosova Vushtrri"></home>
-<away goals="?" id="2356789" name="Gjilani"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="kuwait" name="Kuwait: Premier League" cup="False" id="3117" sub_id="31170"><match alternate_id="4250195" alternate_id_2="4504847" commentary="False" date="11.03.2016" id="4367643" static_id="11031623442102344214" status="14:10" time="14:10">
-<home goals="?" id="2344210" name="Al Sulaibikhat"></home>
-<away goals="?" id="2344214" name="Yarmouk"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4250194" alternate_id_2="4504848" commentary="False" date="11.03.2016" id="4367642" static_id="11031623442122344209" status="14:10" time="14:10">
-<home goals="?" id="2344212" name="Kazma SC"></home>
-<away goals="?" id="2344209" name="Al Shabab"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4250196" alternate_id_2="4504849" commentary="False" date="11.03.2016" id="4367644" static_id="11031623442042344201" status="16:45" time="16:45">
-<home goals="?" id="2344204" name="Al Kuwait"></home>
-<away goals="?" id="2344201" name="Al Arabi"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="latvia" name="Latvia: Synottip Virsliga" cup="False" id="4511" sub_id=""><match alternate_id="" alternate_id_2="4502538" commentary="False" date="11.03.2016" id="" static_id="11031623442642344291" status="16:00" time="16:00">
-<home goals="?" id="2344264" name="FK Liepaja"></home>
-<away goals="?" id="2344291" name="Spartaks"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="malaysia" name="Malaysia: Super League" cup="False" id="3135" sub_id="31350"><match alternate_id="4240090" alternate_id_2="4499219" commentary="False" date="11.03.2016" id="4357565" static_id="11031623446552344646" status="13:00" time="13:00">
-<home goals="?" id="2344655" name="Terengganu"></home>
-<away goals="?" id="2344646" name="Selangor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="malaysia" name="Malaysia: Premier League" cup="False" id="3134" sub_id="31340"><match alternate_id="4240268" alternate_id_2="4498947" commentary="False" date="11.03.2016" id="4357743" static_id="11031623446402344639" status="08:45" time="08:45">
-<home goals="?" id="2344640" name="PKNS FC"></home>
-<away goals="?" id="2344639" name="Perlis"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4240203" alternate_id_2="4498948" commentary="False" date="11.03.2016" id="4357678" static_id="11031623535112353512" status="08:45" time="08:45">
-<home goals="?" id="2353511" name="UiTM"></home>
-<away goals="?" id="2353512" name="Kuala Lumpur"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4240204" alternate_id_2="4500254" commentary="False" date="11.03.2016" id="4357679" static_id="11031623446432344629" status="12:15" time="12:15">
-<home goals="?" id="2344643" name="Sabah"></home>
-<away goals="?" id="2344629" name="Malacca United"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4240205" alternate_id_2="4500255" commentary="False" date="11.03.2016" id="4357680" static_id="11031623446142350591" status="13:00" time="13:00">
-<home goals="?" id="2344614" name="Johor DT II"></home>
-<away goals="?" id="2350591" name="Sime Darby"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4240206" alternate_id_2="4500256" commentary="False" date="11.03.2016" id="4357681" static_id="11031623446262349662" status="13:00" time="13:00">
-<home goals="?" id="2344626" name="Kuantan"></home>
-<away goals="?" id="2349662" name="DRB-Hicom"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4244486" alternate_id_2="4500257" commentary="False" date="11.03.2016" id="4361948" static_id="11031623446312344607" status="13:00" time="13:00">
-<home goals="?" id="2344631" name="NS Matrix"></home>
-<away goals="?" id="2344607" name="ATM FA"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="holland" name="Netherlands: Eredivisie" cup="False" id="3155" sub_id="31550"><match alternate_id="4132690" alternate_id_2="4501430" commentary="True" date="11.03.2016" id="4250229" static_id="11031623450552345227" status="19:00" time="19:00">
-<home goals="?" id="2345055" name="Graafschap"></home>
-<away goals="?" id="2345227" name="Roda"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="holland" name="Netherlands: Eerste Divisie" cup="False" id="3156" sub_id="31560"><match alternate_id="4133097" alternate_id_2="4501069" commentary="True" date="11.03.2016" id="4250636" static_id="11031623450072345189" status="19:00" time="19:00">
-<home goals="?" id="2345007" name="Achilles 29"></home>
-<away goals="?" id="2345189" name="Almere City"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133095" alternate_id_2="4501095" commentary="True" date="11.03.2016" id="4250634" static_id="11031623451722345192" status="19:00" time="19:00">
-<home goals="?" id="2345172" name="Breda"></home>
-<away goals="?" id="2345192" name="Oss"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133099" alternate_id_2="4501089" commentary="True" date="11.03.2016" id="4250638" static_id="11031623450622345069" status="19:00" time="19:00">
-<home goals="?" id="2345062" name="Den Bosch"></home>
-<away goals="?" id="2345069" name="Dordrecht"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133195" alternate_id_2="4501070" commentary="True" date="11.03.2016" id="4250734" static_id="11031623450822345305" status="19:00" time="19:00">
-<home goals="?" id="2345082" name="Eindhoven FC"></home>
-<away goals="?" id="2345305" name="Volendam"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133098" alternate_id_2="4501090" commentary="True" date="11.03.2016" id="4250637" static_id="11031623451072345171" status="19:00" time="19:00">
-<home goals="?" id="2345107" name="G.A. Eagles"></home>
-<away goals="?" id="2345171" name="Maastricht"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133100" alternate_id_2="4501105" commentary="True" date="11.03.2016" id="4250639" static_id="11031623451442345314" status="19:00" time="19:00">
-<home goals="?" id="2345144" name="Jong Ajax"></home>
-<away goals="?" id="2345314" name="Venlo"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133094" alternate_id_2="4501085" commentary="True" date="11.03.2016" id="4250633" static_id="11031623452512345083" status="19:00" time="19:00">
-<home goals="?" id="2345251" name="Sparta Rotterdam"></home>
-<away goals="?" id="2345083" name="Emmen"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133196" alternate_id_2="4501086" commentary="True" date="11.03.2016" id="4250735" static_id="11031623452802345150" status="19:00" time="19:00">
-<home goals="?" id="2345280" name="Telstar"></home>
-<away goals="?" id="2345150" name="Jong PSV"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4133096" alternate_id_2="4501096" commentary="True" date="11.03.2016" id="4250635" static_id="11031623452122345102" status="19:00" time="19:00">
-<home goals="?" id="2345212" name="Waalwijk"></home>
-<away goals="?" id="2345102" name="Sittard"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="nicaragua" name="Nicaragua: Primera Division - Clausura" cup="False" id="3158" sub_id=""><match alternate_id="" alternate_id_2="4504850" commentary="False" date="11.03.2016" id="" static_id="11031623454042345398" status="19:00" time="19:00">
-<home goals="?" id="2345404" name="UNAN-Managua"></home>
-<away goals="?" id="2345398" name="Managua FC"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="norway" name="Norway: Tippeligaen" cup="False" id="3168" sub_id="31680"><match alternate_id="4229460" alternate_id_2="4486943" commentary="False" date="11.03.2016" id="4346948" static_id="11031623455172345614" status="18:00" time="18:00">
-<home goals="?" id="2345517" name="Aalesund"></home>
-<away goals="?" id="2345614" name="Stabaek"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="paraguay" name="Paraguay: Primera Division - Apertura" cup="False" id="3171" sub_id="31710"><match alternate_id="4244361" alternate_id_2="4503152" commentary="True" date="11.03.2016" id="4361823" static_id="11031623457142337875" status="22:00" time="22:00">
-<home goals="?" id="2345714" name="Diaz"></home>
-<away goals="?" id="2337875" name="River Plate"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4244362" alternate_id_2="4503105" commentary="True" date="11.03.2016" id="4361824" static_id="11031623457172345713" status="22:00" time="22:00">
-<home goals="?" id="2345717" name="Libertad Asuncion"></home>
-<away goals="?" id="2345713" name="General Caballero"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="poland" name="Poland: Ekstraklasa" cup="False" id="3177" sub_id="31770"><match alternate_id="4134344" alternate_id_2="4503615" commentary="True" date="11.03.2016" id="4251883" static_id="11031623458542346012" status="17:00" time="17:00">
-<home goals="?" id="2345854" name="Korona Kielce"></home>
-<away goals="?" id="2346012" name="Slask Wroclaw"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4134347" alternate_id_2="4503616" commentary="True" date="11.03.2016" id="4251886" static_id="11031623459792345982" status="19:30" time="19:30">
-<home goals="?" id="2345979" name="Piast Gliwice"></home>
-<away goals="?" id="2345982" name="Podbeskidzie"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="poland" name="Poland: Division 1" cup="False" id="3181" sub_id="31810"><match alternate_id="4143589" alternate_id_2="4482974" commentary="False" date="11.03.2016" id="4261127" static_id="11031623458872345967" status="19:00" time="19:00">
-<home goals="?" id="2345887" name="Rozwoj Katowice"></home>
-<away goals="?" id="2345967" name="Olsztyn"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4143595" alternate_id_2="4483483" commentary="False" date="11.03.2016" id="4261133" static_id="11031623457922346053" status="19:30" time="19:30">
-<home goals="?" id="2345792" name="Arka Gdynia"></home>
-<away goals="?" id="2346053" name="Zaglebie Sosnowiec"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="poland" name="Poland: Division 2" cup="False" id="4093" sub_id=""><match alternate_id="" alternate_id_2="4507084" commentary="False" date="11.03.2016" id="" static_id="11031623458642345855" status="17:00" time="17:00">
-<home goals="?" id="2345864" name="ROW Rybnik"></home>
-<away goals="?" id="2345855" name="Kotwica Kolobrzeg"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="portugal" name="Portugal: Primeira Liga" cup="False" id="3185" sub_id="31850"><match alternate_id="4151533" alternate_id_2="4502064" commentary="True" date="11.03.2016" id="4269068" static_id="11031623462112346103" status="20:30" time="20:30">
-<home goals="?" id="2346211" name="Maritimo"></home>
-<away goals="?" id="2346103" name="Boavista"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="qatar" name="Qatar: Premier League" cup="False" id="3189" sub_id="31890"><match alternate_id="4251816" alternate_id_2="4504851" commentary="False" date="11.03.2016" id="4369254" static_id="11031623463332346340" status="15:00" time="15:00">
-<home goals="?" id="2346333" name="Al Khor"></home>
-<away goals="?" id="2346340" name="Lekhwiya SC"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4251817" alternate_id_2="4504852" commentary="False" date="11.03.2016" id="4369255" static_id="11031623463362346332" status="15:00" time="15:00">
-<home goals="?" id="2346336" name="Al-Sadd"></home>
-<away goals="?" id="2346332" name="Al-Kharitiyath"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4251819" alternate_id_2="4504853" commentary="False" date="11.03.2016" id="4369257" static_id="11031623463292346331" status="17:15" time="17:15">
-<home goals="?" id="2346329" name="Al Arabi"></home>
-<away goals="?" id="2346331" name="Al Jaish"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4251818" alternate_id_2="4504854" commentary="False" date="11.03.2016" id="4369256" static_id="11031623463352346345" status="17:15" time="17:15">
-<home goals="?" id="2346335" name="Al Rayyan"></home>
-<away goals="?" id="2346345" name="Qatar SC"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="romania" name="Romania: Liga 1 - Relegation Group" cup="False" id="3194" sub_id=""><match alternate_id="4251990" alternate_id_2="4504344" commentary="True" date="11.03.2016" id="4369428" static_id="11031623465602351527" status="18:30" time="18:30">
-<home goals="?" id="2346560" name="Petrolul"></home>
-<away goals="?" id="2351527" name="CSMS Iasi"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="russia" name="Russia: Premier League" cup="False" id="3290" sub_id="32900"><match alternate_id="4140711" alternate_id_2="4484545" commentary="True" date="11.03.2016" id="4258249" static_id="11031623466962346695" status="16:00" time="16:00">
-<home goals="?" id="2346696" name="Kuban"></home>
-<away goals="?" id="2346695" name="Krylya Sovetov Samara"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="russia" name="Russia: Division 1" cup="False" id="3196" sub_id="31960"><match alternate_id="4155701" alternate_id_2="4483502" commentary="False" date="11.03.2016" id="4273232" static_id="11031623533202346708" status="11:00" time="11:00">
-<home goals="?" id="2353320" name="Spartak Moscow 2"></home>
-<away goals="?" id="2346708" name="Luch Energiya"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="russia" name="Russia: Youth League" cup="False" id="4220" sub_id="42200"><match alternate_id="4239667" alternate_id_2="4484022" commentary="False" date="11.03.2016" id="4357146" static_id="11031623540592354020" status="10:00" time="10:00">
-<home goals="?" id="2354059" name="Ural U21"></home>
-<away goals="?" id="2354020" name="Anzhi U21"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4239666" alternate_id_2="4484007" commentary="False" date="11.03.2016" id="4357145" static_id="11031623540352354032" status="14:00" time="14:00">
-<home goals="?" id="2354035" name="Spartak Moscow U21"></home>
-<away goals="?" id="2354032" name="Amkar U21"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="saudiarabia" name="Saudi Arabia: Saudi Professional League" cup="False" id="3201" sub_id="32010"><match alternate_id="4234580" alternate_id_2="4500712" commentary="False" date="11.03.2016" id="4352062" static_id="11031623442062346823" status="15:25" time="15:25">
-<home goals="?" id="2344206" name="Al Qadisiya"></home>
-<away goals="?" id="2346823" name="Al Ahli SC"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4234581" alternate_id_2="4500713" commentary="False" date="11.03.2016" id="4352063" static_id="11031623468602349072" status="16:10" time="16:10">
-<home goals="?" id="2346860" name="Najran"></home>
-<away goals="?" id="2349072" name="Al Khaleej"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4234582" alternate_id_2="4501202" commentary="False" date="11.03.2016" id="4352064" static_id="11031623468522346850" status="17:45" time="17:45">
-<home goals="?" id="2346852" name="Al-Taawon"></home>
-<away goals="?" id="2346850" name="Al-Shabab"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="scotland" name="Scotland: Premiership" cup="False" id="3203" sub_id="32030"><match alternate_id="4180540" alternate_id_2="4500465" commentary="True" date="11.03.2016" id="4298061" static_id="11031623469352346897" status="19:45" time="19:45">
-<home goals="?" id="2346935" name="Motherwell"></home>
-<away goals="?" id="2346897" name="Dundee Utd"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="scotland" name="Scotland: Championship" cup="False" id="3206" sub_id="32060"><match alternate_id="4138833" alternate_id_2="4500998" commentary="True" date="11.03.2016" id="4256372" static_id="11031623469462346915" status="19:45" time="19:45">
-<home goals="?" id="2346946" name="Rangers"></home>
-<away goals="?" id="2346915" name="Morton"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="serbia" name="Serbia: Super Liga" cup="False" id="3214" sub_id="32140"><match alternate_id="4134829" alternate_id_2="4501106" commentary="False" date="11.03.2016" id="4252368" static_id="11031623471712346996" status="15:00" time="15:00">
-<home goals="?" id="2347171" name="Vojvodina"></home>
-<away goals="?" id="2346996" name="Borac"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="singapore" name="Singapore: S.League" cup="False" id="3215" sub_id="32150"><match alternate_id="4237081" alternate_id_2="4492439" commentary="False" date="11.03.2016" id="4354562" static_id="11031623471952347192" status="11:45" time="11:45">
-<home goals="?" id="2347195" name="Balestier Khalsa"></home>
-<away goals="?" id="2347192" name="Warriors"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4237082" alternate_id_2="4492440" commentary="False" date="11.03.2016" id="4354563" static_id="11031623471972347200" status="12:15" time="12:15">
-<home goals="?" id="2347197" name="Brunei DPMM"></home>
-<away goals="?" id="2347200" name="Home Utd"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="slovakia" name="Slovakia: Fortuna Liga" cup="False" id="3219" sub_id="32190"><match alternate_id="4153406" alternate_id_2="4485689" commentary="False" date="11.03.2016" id="4270937" static_id="11031623472232347264" status="17:00" time="17:00">
-<home goals="?" id="2347223" name="Dun. Streda"></home>
-<away goals="?" id="2347264" name="Senica"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="slovenia" name="Slovenia: Prva Liga" cup="False" id="3223" sub_id="32230"><match alternate_id="4142068" alternate_id_2="4485642" commentary="False" date="11.03.2016" id="4259606" static_id="11031623473482347302" status="18:00" time="18:00">
-<home goals="?" id="2347348" name="Zavrc"></home>
-<away goals="?" id="2347302" name="Domzale"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="southafrica" name="South Africa: Premier League" cup="False" id="3227" sub_id="32270"><match alternate_id="4158179" alternate_id_2="4500752" commentary="True" date="11.03.2016" id="4275708" static_id="11031623474172347402" status="18:00" time="18:00">
-<home goals="?" id="2347417" name="Maritzburg Utd"></home>
-<away goals="?" id="2347402" name="Golden Arrows"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4247065" alternate_id_2="4504594" commentary="True" date="10.03.2016" id="4364520" static_id="10031623378752339413" status="85" time="22:30">
-<home goals="1" id="2337875" name="River Plate"></home>
-<away goals="1" id="2339413" name="Sao Paulo"></away>
-<events>
-<event assist="" assistid="" extra_min="" id="24059444" minute="9" player="Hudson" playerid="2364927" result="" team="away" type="yellowcard"></event>
-<event assist="D. Lugano" assistid="4733" extra_min="" id="24059445" minute="17" player="Ganso" playerid="2397206" result="[0 - 1]" team="away" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="24059446" minute="33" player="T. Mendes (o.g.)" playerid="2498982" result="[1 - 1]" team="home" type="goal"></event>
-<event assist="" assistid="" extra_min="" id="24059447" minute="39" player="J. Calleri" playerid="2597088" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="24059448" minute="45" player="E. Mammana" playerid="2621740" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="24059449" minute="56" player="I. Fernandez" playerid="2488982" result="" team="home" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="24059450" minute="65" player="Maicon" playerid="2421870" result="" team="away" type="yellowcard"></event>
-<event assist="" assistid="" extra_min="" id="24059451" minute="67" player="D. Lugano" playerid="2336566" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949334" minute="15" player="P. M. da Silva" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949335" minute="16" player="T. Humberto" playerid="2364492" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23949336" minute="25" player="M. Fernandes de Araujo" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23949337" minute="39" player="J. Recife" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949338" minute="64" player="W. Pottker" playerid="2539219" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949339" minute="65" player="Marcao" playerid="2560799" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949340" minute="88" player="Djavan" playerid="" result="" team="away" type="yellowcard"></event>
 </events>
 <ht score="[1-1]"></ht>
-</match><match alternate_id="4235084" alternate_id_2="4504595" commentary="True" date="11.03.2016" id="4352565" static_id="11031623388162337759" status="00:45" time="00:45">
-<home goals="?" id="2338816" name="Bolivar"></home>
-<away goals="?" id="2337759" name="Boca Juniors"></away>
+<ft score="[1-1]"></ft>
+</match><match alternate_id="4250909" alternate_id_2="4493585" commentary="False" date="16.03.2016" id="4368350" static_id="16031623504792339244" status="FT" time="23:30">
+<home goals="0" id="2350479" name="Parauapebas"></home>
+<away goals="1" id="2339244" name="Londrina"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23949354" minute="46" player="Marcondes" playerid="2562544" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949355" minute="53" player="Romulo" playerid="2767496" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949356" minute="78" player="Matheus" playerid="2574346" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-1]"></ft>
+</match><match alternate_id="4250917" alternate_id_2="4493576" commentary="False" date="17.03.2016" id="4368358" static_id="17031623390712339132" status="FT" time="00:45">
+<home goals="1" id="2339071" name="Confianca"></home>
+<away goals="0" id="2339132" name="Flamengo RJ"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23949264" minute="8" player="Elielton" playerid="2451140" result="" team="home" type="redcard"></event>
+<event assist="" assistid="" extra_min="" id="23949265" minute="79" player="Everton" playerid="2448536" result="[1 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[1-0]"></ft>
+</match><match alternate_id="4250915" alternate_id_2="4493596" commentary="False" date="17.03.2016" id="4368356" static_id="17031623547132338987" status="FT" time="00:45">
+<home goals="0" id="2354713" name="Globo"></home>
+<away goals="0" id="2338987" name="Bahia"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23949464" minute="20" player="Luisinho" playerid="2503056" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949465" minute="40" player="Vava" playerid="2364878" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949466" minute="46" player="H. Monjardim" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949467" minute="48" player="Leomir" playerid="2451573" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949468" minute="53" player="Robson" playerid="2570819" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949469" minute="61" player="Romulo" playerid="2710438" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949470" minute="68" player="Jamerson" playerid="2627891" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949471" minute="73" player="Denis" playerid="2663388" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949472" minute="81" player="P. Oliveira" playerid="" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-0]"></ft>
+</match><match alternate_id="4250927" alternate_id_2="4493598" commentary="False" date="17.03.2016" id="4368368" static_id="17031623394252339141" status="FT" time="00:45">
+<home goals="1" id="2339425" name="Imperatriz"></home>
+<away goals="1" id="2339141" name="Fortaleza"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23949484" minute="47" player="Anselmo" playerid="2360796" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949485" minute="48" player="Macleyson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23949486" minute="58" player="J. Tatu" playerid="2568197" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949487" minute="69" player="Everton" playerid="2399112" result="[1 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23949488" minute="81" player="Clebinho" playerid="2502792" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[1-1]"></ft>
+</match><match alternate_id="4250913" alternate_id_2="4493604" commentary="False" date="17.03.2016" id="4368354" static_id="17031623393622338829" status="FT" time="00:45">
+<home goals="0" id="2339362" name="Rio Branco ES"></home>
+<away goals="1" id="2338829" name="Santa Cruz"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23949544" minute="1" player="W. C. Alves de Lima" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949545" minute="25" player="C. Gladiador" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949546" minute="73" player="Santiago" playerid="" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="23949547" minute="90" player="Ratinho" playerid="2528295" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="4" id="23949548" minute="90" player="B. Moraes" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-1]"></ft>
+</match><match alternate_id="4250919" alternate_id_2="4493579" commentary="False" date="17.03.2016" id="4368360" static_id="17031623391292339380" status="22:15" time="22:15">
+<home goals="?" id="2339129" name="Ferroviaria"></home>
+<away goals="?" id="2339380" name="Salgueiro"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4235085" alternate_id_2="4504609" commentary="True" date="11.03.2016" id="4352566" static_id="11031623398002338976" status="00:45" time="00:45">
-<home goals="?" id="2339800" name="Colo Colo"></home>
-<away goals="?" id="2338976" name="Atletico-MG"></away>
+</match><match alternate_id="4250923" alternate_id_2="4493606" commentary="False" date="17.03.2016" id="4368364" static_id="17031623395092339284" status="22:15" time="22:15">
+<home goals="?" id="2339509" name="Vitoria da Conquista"></home>
+<away goals="?" id="2339284" name="Nautico"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4235086" alternate_id_2="4504596" commentary="True" date="11.03.2016" id="4352567" static_id="11031623406992344809" status="00:45" time="00:45">
-<home goals="?" id="2340699" name="LDU Quito"></home>
-<away goals="?" id="2344809" name="Toluca"></away>
+</match><match alternate_id="4250921" alternate_id_2="4493616" commentary="False" date="17.03.2016" id="4368362" static_id="17031623395182338974" status="22:15" time="22:15">
+<home goals="?" id="2339518" name="Ypiranga FC"></home>
+<away goals="?" id="2338974" name="Atletico GO"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="spain" name="Spain: Primera Division" cup="False" id="3232" sub_id="32320"><match alternate_id="4157081" alternate_id_2="4504460" commentary="True" date="11.03.2016" id="4274610" static_id="11031623478832348013" status="19:30" time="19:30">
-<home goals="?" id="2347883" name="Malaga"></home>
-<away goals="?" id="2348013" name="Gijon"></away>
+</match><match alternate_id="4250925" alternate_id_2="4493573" commentary="False" date="18.03.2016" id="4368366" static_id="18031623390082338977" status="00:30" time="00:30">
+<home goals="?" id="2339008" name="Brasil de Pelotas"></home>
+<away goals="?" id="2338977" name="Atletico-PR"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="spain" name="Spain: Segunda Division B - Group 4" cup="False" id="3229" sub_id="32293"><match alternate_id="4180055" alternate_id_2="4503339" commentary="False" date="11.03.2016" id="4297576" static_id="11031623531562347942" status="19:00" time="19:00">
-<home goals="?" id="2353156" name="Granada CF B"></home>
-<away goals="?" id="2347942" name="Jaen"></away>
+</match></league><league country="brazil" name="Brazil: Copa Verde" cup="True" id="4408" sub_id=""><match alternate_id="4229097" alternate_id_2="4486846" commentary="False" date="16.03.2016" id="4346585" static_id="16031623393562339285" status="FT" time="23:00">
+<home goals="4" id="2339356" name="Remo"></home>
+<away goals="0" id="2339285" name="Nautico FC"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23881964" minute="51" player="Goiano" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881965" minute="64" player="Welthon" playerid="2506628" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881966" minute="71" player="Welthon" playerid="2506628" result="[3 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881967" minute="90" player="Welthon" playerid="2506628" result="[4 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[4-0]"></ft>
+</match><match alternate_id="4229094" alternate_id_2="4486842" commentary="False" date="16.03.2016" id="4346582" static_id="16031623389572339116" status="FT" time="23:30">
+<home goals="2" id="2338957" name="Aparecidense"></home>
+<away goals="0" id="2339116" name="Espirito Santo"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23881924" minute="62" player="Robert" playerid="2502722" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881925" minute="77" player="Washington" playerid="2410581" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4253765" alternate_id_2="4486844" commentary="False" date="16.03.2016" id="4371199" static_id="16031623391492339201" status="FT" time="23:30">
+<home goals="3" id="2339149" name="Gama"></home>
+<away goals="0" id="2339201" name="Interporto"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23881944" minute="49" player="Grampola" playerid="2444502" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881945" minute="63" player="Gama" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881946" minute="85" player="Grampola" playerid="2444502" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[3-0]"></ft>
+</match><match alternate_id="4248618" alternate_id_2="4486843" commentary="False" date="17.03.2016" id="4366068" static_id="17031623390982339068" status="FT" time="00:30">
+<home goals="2" id="2339098" name="Cuiaba Esporte"></home>
+<away goals="0" id="2339068" name="Comercial MS"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23881934" minute="37" player="Uederson" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881935" minute="78" player="Rodrigo" playerid="" result="" team="away" type="redcard"></event>
+<event assist="" assistid="" extra_min="" id="23881936" minute="90" player="Vanger" playerid="" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4248619" alternate_id_2="4486845" commentary="False" date="17.03.2016" id="4366069" static_id="17031623392802339394" status="FT" time="00:30">
+<home goals="4" id="2339280" name="Nacional-AM"></home>
+<away goals="2" id="2339394" name="Santos AP"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23881954" minute="16" player="Dantas" playerid="" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881955" minute="29" player="Wanderley" playerid="2410566" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881956" minute="65" player="Dede" playerid="" result="[2 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881957" minute="73" player="Osvaldir" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881958" minute="82" player="Moreno" playerid="" result="[4 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23881959" minute="90" player="Bruno (pen.)" playerid="" result="[4 - 2]" team="away" type="goal"></event>
+</events>
+<ht score="[-]"></ht>
+<ft score="[4-2]"></ft>
+</match><match alternate_id="4248620" alternate_id_2="4486847" commentary="False" date="17.03.2016" id="4366070" static_id="17031623393602339152" status="Postp." time="01:30">
+<home goals="?" id="2339360" name="Rio Branco"></home>
+<away goals="?" id="2339152" name="Genus"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4253190" alternate_id_2="4504930" commentary="False" date="18.03.2016" id="4370627" static_id="18031623392452339503" status="00:30" time="00:30">
+<home goals="?" id="2339245" name="Luverdense"></home>
+<away goals="?" id="2339503" name="Vila Nova FC"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="bulgaria" name="Bulgaria: B Pfg" cup="False" id="2984" sub_id="29842"><match alternate_id="4149745" alternate_id_2="4503354" commentary="False" date="17.03.2016" id="4267280" static_id="17031623564162356415" status="15:30" time="15:30">
+<home goals="?" id="2356416" name="Litex Lovech II"></home>
+<away goals="?" id="2356415" name="Ludogorets II"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="colombia" name="Colombia: Copa Aguila" cup="True" id="3737" sub_id="37371"><match alternate_id="4253257" alternate_id_2="4505122" commentary="False" date="16.03.2016" id="4370692" static_id="16031623399632349376" status="FT" time="23:30">
+<home goals="0" id="2339963" name="Chico"></home>
+<away goals="0" id="2349376" name="Llaneros"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24064724" minute="84" player="E. Soto" playerid="2627166" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-0]"></ft>
+</match><match alternate_id="4254533" alternate_id_2="4504935" commentary="False" date="17.03.2016" id="4371964" static_id="17031623399762350527" status="FT" time="00:00">
+<home goals="2" id="2339976" name="Ind. Medellin"></home>
+<away goals="0" id="2350527" name="Aguilas"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24062854" minute="44" player="Rodriguez" playerid="" result="" team="away" type="redcard"></event>
+<event assist="" assistid="" extra_min="1" id="24062855" minute="45" player="L. Castro" playerid="2684696" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24062856" minute="79" player="J. Arango" playerid="2421464" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4254534" alternate_id_2="4504953" commentary="False" date="17.03.2016" id="4371965" static_id="17031623399842339974" status="FT" time="00:30">
+<home goals="0" id="2339984" name="Once Caldas"></home>
+<away goals="1" id="2339974" name="Envigado"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24063034" minute="46" player="J. Ortiz" playerid="2507743" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-1]"></ft>
+</match><match alternate_id="4254538" alternate_id_2="4504824" commentary="False" date="17.03.2016" id="4371969" static_id="17031623496322339957" status="FT" time="01:00">
+<home goals="0" id="2349632" name="Cortulua"></home>
+<away goals="1" id="2339957" name="America De Cali"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24061744" minute="89" player="D. Gonzalez Mosquera" playerid="" result="[0 - 1]" team="away" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-1]"></ft>
+</match><match alternate_id="4254540" alternate_id_2="4504934" commentary="False" date="17.03.2016" id="4371971" static_id="17031623399662339959" status="20:00" time="20:00">
+<home goals="?" id="2339966" name="Cucuta"></home>
+<away goals="?" id="2339959" name="Bucaramanga"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4254539" alternate_id_2="4506285" commentary="False" date="17.03.2016" id="4371970" static_id="17031623399692339968" status="20:00" time="20:00">
+<home goals="?" id="2339969" name="Deportes Tolima"></home>
+<away goals="?" id="2339968" name="Quindio"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4255904" alternate_id_2="4506539" commentary="False" date="18.03.2016" id="4373331" static_id="18031623399822339962" status="00:45" time="00:45">
+<home goals="?" id="2339982" name="Millonarios"></home>
+<away goals="?" id="2339962" name="Bogota"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="denmark" name="Denmark: Bet25 Liga" cup="False" id="3022" sub_id="30220"><match alternate_id="4149940" alternate_id_2="4483125" commentary="False" date="17.03.2016" id="4267475" static_id="17031623405742340596" status="17:00" time="17:00">
+<home goals="?" id="2340574" name="Vendsyssel FF"></home>
+<away goals="?" id="2340596" name="Lyngby"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="el_salvador" name="El Salvador: Primera Division - Clausura" cup="False" id="3027" sub_id="30273"><match alternate_id="4235543" alternate_id_2="4496504" commentary="False" date="17.03.2016" id="4353024" static_id="17031623407992340801" status="FT" time="01:15">
+<home goals="6" id="2340799" name="Alianza FC"></home>
+<away goals="1" id="2340801" name="Atletico Marte"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="23978544" minute="13" player="E. Sanchez" playerid="2455093" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23978545" minute="30" player="R. Zelaya" playerid="2407407" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23978546" minute="32" player="O. Guerrero" playerid="2742788" result="[2 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23978547" minute="58" player="J. C. Portillo" playerid="" result="[3 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23978548" minute="64" player="J. Gomez" playerid="2529984" result="" team="away" type="redcard"></event>
+<event assist="" assistid="" extra_min="" id="23978549" minute="75" player="W. Plaza" playerid="2408921" result="[4 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="23978550" minute="78" player="H. Sosa" playerid="2476127" result="[5 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="2" id="23978551" minute="90" player="O. Guerrero" playerid="2742788" result="[6 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[2-1]"></ht>
+<ft score="[6-1]"></ft>
+</match></league><league country="england" name="England: Premier League U21" cup="False" id="4133" sub_id="41330"><match alternate_id="4256078" alternate_id_2="4498349" commentary="False" date="17.03.2016" id="4373505" static_id="17031623535812353574" status="19:00" time="19:00">
+<home goals="?" id="2353581" name="Everton U21"></home>
+<away goals="?" id="2353574" name="Middlesbrough U21"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="europe" name="Europe: Europa League - Play Offs" cup="False" id="2840" sub_id="284014"><match alternate_id="4251626" alternate_id_2="4502713" commentary="True" date="17.03.2016" id="4369066" static_id="17031623421142348103" status="18:00" time="18:00">
+<home goals="?" id="2342114" name="Bayer Leverkusen"></home>
+<away goals="?" id="2348103" name="Villarreal"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251632" alternate_id_2="4502707" commentary="True" date="17.03.2016" id="4369072" static_id="17031623437582340451" status="18:00" time="18:00">
+<home goals="?" id="2343758" name="Lazio"></home>
+<away goals="?" id="2340451" name="Sparta Prague"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251628" alternate_id_2="4502710" commentary="True" date="17.03.2016" id="4369068" static_id="17031623480942347512" status="18:00" time="18:00">
+<home goals="?" id="2348094" name="Valencia"></home>
+<away goals="?" id="2347512" name="Ath Bilbao"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251622" alternate_id_2="4502712" commentary="True" date="17.03.2016" id="4369062" static_id="17031623385732349038" status="20:05" time="20:05">
+<home goals="?" id="2338573" name="Anderlecht"></home>
+<away goals="?" id="2349038" name="Shakhtar"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251636" alternate_id_2="4502706" commentary="True" date="17.03.2016" id="4369076" static_id="17031623462792348860" status="20:05" time="20:05">
+<home goals="?" id="2346279" name="Braga"></home>
+<away goals="?" id="2348860" name="Fenerbahce"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251630" alternate_id_2="4502708" commentary="True" date="17.03.2016" id="4369070" static_id="17031623410932341082" status="20:05" time="20:05">
+<home goals="?" id="2341093" name="Manchester United"></home>
+<away goals="?" id="2341082" name="Liverpool"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251624" alternate_id_2="4502714" commentary="True" date="17.03.2016" id="4369064" static_id="17031623480082348442" status="20:05" time="20:05">
+<home goals="?" id="2348008" name="Sevilla"></home>
+<away goals="?" id="2348442" name="Basel"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251634" alternate_id_2="4502709" commentary="True" date="17.03.2016" id="4369074" static_id="17031623412392342136" status="20:05" time="20:05">
+<home goals="?" id="2341239" name="Tottenham"></home>
+<away goals="?" id="2342136" name="Dortmund"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="europe" name="Europe: Euro U17 - Qualification - Second Stage" cup="False" id="3942" sub_id=""><match alternate_id="4256082" alternate_id_2="4485410" commentary="False" date="17.03.2016" id="4373509" static_id="17031623500042350023" status="10:00" time="10:00">
+<home goals="?" id="2350004" name="Russia U17"></home>
+<away goals="?" id="2350023" name="Georgia U17"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4256083" alternate_id_2="4485409" commentary="False" date="17.03.2016" id="4373510" static_id="17031623435472350048" status="12:00" time="12:00">
+<home goals="?" id="2343547" name="Italy U17"></home>
+<away goals="?" id="2350048" name="Bosnia and Herzegovina U17"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="georgia" name="Georgia: Umaglesi Liga" cup="False" id="3723" sub_id=""><match alternate_id="" alternate_id_2="4503468" commentary="False" date="17.03.2016" id="" static_id="17031623420382342035" status="14:00" time="14:00">
+<home goals="?" id="2342038" name="Dinamo Tbilisi"></home>
+<away goals="?" id="2342035" name="Dila Gori"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="germany" name="Germany: Regionalliga West" cup="False" id="3060" sub_id="30602"><match alternate_id="4153752" alternate_id_2="4504726" commentary="False" date="17.03.2016" id="4271283" static_id="17031623513052342504" status="18:30" time="18:30">
+<home goals="?" id="2351305" name="Viktoria Koln"></home>
+<away goals="?" id="2342504" name="FC Wegberg-Beeck"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="germany" name="Germany: Oberliga Westfalen" cup="False" id="3061" sub_id="306117"><match alternate_id="4174108" alternate_id_2="4479936" commentary="False" date="17.03.2016" id="4291633" static_id="17031623499772352928" status="18:30" time="18:30">
+<home goals="?" id="2349977" name="Westfalia Rhynern"></home>
+<away goals="?" id="2352928" name="Neuenkirchen"></away>
 <events>
 </events>
 <ht score=""></ht>
-</match></league><league country="sudan" name="Sudan: Premier League" cup="False" id="3234" sub_id="32340"><match alternate_id="4241436" alternate_id_2="4504855" commentary="False" date="11.03.2016" id="4358909" static_id="11031623481732356079" status="16:45" time="16:45">
-<home goals="?" id="2348173" name="Amal Atbara"></home>
-<away goals="?" id="2356079" name="Hilal Obied"></away>
+</match></league><league country="haiti" name="Haiti: Championnat National - Serie De Ouverture" cup="False" id="3073" sub_id=""><match alternate_id="" alternate_id_2="4501679" commentary="False" date="16.03.2016" id="" static_id="16031623428232342833" status="21:00" time="21:00">
+<home goals="?" id="2342823" name="Aigle Noir"></home>
+<away goals="?" id="2342833" name="Don Bosco"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="" alternate_id_2="4501680" commentary="False" date="16.03.2016" id="" static_id="16031623505602356126" status="21:00" time="21:00">
+<home goals="?" id="2350560" name="America des Cayes"></home>
+<away goals="?" id="2356126" name="Inter de Grand-Goave"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="iceland" name="Iceland: League Cup" cup="True" id="3373" sub_id="33730"><match alternate_id="4231851" alternate_id_2="4501062" commentary="False" date="17.03.2016" id="4349335" static_id="17031623431032343136" status="17:30" time="17:30">
+<home goals="?" id="2343103" name="Fjolnir"></home>
+<away goals="?" id="2343136" name="Thor Akureyri"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4231853" alternate_id_2="4503608" commentary="False" date="17.03.2016" id="4349337" static_id="17031623431232343146" status="19:00" time="19:00">
+<home goals="?" id="2343123" name="KR Reykjavik"></home>
+<away goals="?" id="2343146" name="Vikingur Reykjavik"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="jamaica" name="Jamaica: Premier League" cup="False" id="3103" sub_id=""><match alternate_id="4207790" alternate_id_2="4506975" commentary="False" date="17.03.2016" id="4325294" static_id="17031623532922351876" status="20:30" time="20:30">
+<home goals="?" id="2353292" name="Cavalier"></home>
+<away goals="?" id="2351876" name="Montego Bay"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4207785" alternate_id_2="4506974" commentary="False" date="17.03.2016" id="4325289" static_id="17031623439442343940" status="20:30" time="20:30">
+<home goals="?" id="2343944" name="Humble Lions"></home>
+<away goals="?" id="2343940" name="Arnett Gardens"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="liberia" name="Liberia: Lfa First Division" cup="False" id="4294" sub_id=""><match alternate_id="4254278" alternate_id_2="4506976" commentary="False" date="17.03.2016" id="4371709" static_id="17031623571482354722" status="16:00" time="16:00">
+<home goals="?" id="2357148" name="Elwa United"></home>
+<away goals="?" id="2354722" name="Barrack Young Controllers"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4254279" alternate_id_2="4506977" commentary="False" date="17.03.2016" id="4371710" static_id="17031623571302344336" status="16:00" time="16:00">
+<home goals="?" id="2357130" name="Mighty Dragons"></home>
+<away goals="?" id="2344336" name="NPA Anchors"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4249722" alternate_id_2="4498540" commentary="False" date="17.03.2016" id="4367171" static_id="17031623571312357149" status="16:00" time="16:00">
+<home goals="?" id="2357131" name="Nimba"></home>
+<away goals="?" id="2357149" name="Holder"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="lithuania" name="Lithuania: A Lyga" cup="False" id="3126" sub_id="31260"><match alternate_id="4251302" alternate_id_2="4502501" commentary="False" date="17.03.2016" id="4368742" static_id="17031623444132344431" status="16:00" time="16:00">
+<home goals="?" id="2344413" name="Jonava"></home>
+<away goals="?" id="2344431" name="Kauno Zalgiris"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4251303" alternate_id_2="4502502" commentary="False" date="17.03.2016" id="4368743" static_id="17031623505892355237" status="17:30" time="17:30">
+<home goals="?" id="2350589" name="Trakai"></home>
+<away goals="?" id="2355237" name="Stumbras"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="mexico" name="Mexico: Copa Mexico - Clausura - Play Offs" cup="True" id="4083" sub_id="40832"><match alternate_id="4255689" alternate_id_2="4507147" commentary="False" date="17.03.2016" id="4373116" static_id="17031623447612356311" status="FT" time="02:00">
+<home goals="3" id="2344761" name="Cruz Azul"></home>
+<away goals="0" id="2356311" name="Juarez"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24084974" minute="38" player="N. Maz" playerid="2376012" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084975" minute="62" player="J. Garcia Sancho" playerid="2585752" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084976" minute="67" player="J. Guerron" playerid="2354821" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24084977" minute="70" player="D. Stringel" playerid="2373624" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084978" minute="76" player="V. Zuniga" playerid="2621304" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24084979" minute="89" player="J. Guerron" playerid="2354821" result="[3 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[3-0]"></ft>
+</match><match alternate_id="4255690" alternate_id_2="4507148" commentary="False" date="17.03.2016" id="4373117" static_id="17031623552122354124" status="Pen." time="04:00">
+<home goals="2" id="2355212" name="Dep. Tepic"></home>
+<away goals="2" id="2354124" name="Atl. San Luis"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24084984" minute="25" player="L. Villagra" playerid="2508526" result="[0 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24084985" minute="32" player="" playerid="" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084986" minute="41" player="A. Coronado" playerid="2434448" result="[1 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24084987" minute="62" player="D. Campos" playerid="2402090" result="[1 - 2]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24084988" minute="77" player="U. Alvarez" playerid="2421542" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084989" minute="85" player="U. Alvarez (o.g.)" playerid="2421542" result="[2 - 2]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24084990" minute="87" player="O. Arce" playerid="2469363" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084991" minute="88" player="F. Fonseca" playerid="2566330" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24084992" minute="89" player="S. Setti" playerid="2355545" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[1-1]"></ht>
+<ft score="[2-2]"></ft>
+<et score="[-]"></et>
+<penalty localteam="3" visitorteam="4"></penalty>
+</match></league><league country="north_and_central_america" name="North and Central America: Concacaf Champions League - Play Offs" cup="False" id="2844" sub_id="28442"><match alternate_id="4253063" alternate_id_2="4504745" commentary="True" date="17.03.2016" id="4370500" static_id="17031623447972344749" status="FT" time="02:00">
+<home goals="0" id="2344797" name="Santos Laguna"></home>
+<away goals="0" id="2344749" name="Club America"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24060954" minute="22" player="N. Araujo" playerid="2473972" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24060955" minute="24" player="M. Samudio" playerid="2355569" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24060956" minute="65" player="O. Martinez" playerid="2359793" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24060957" minute="72" player="M. Arroyo" playerid="2365388" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24060958" minute="72" player="M. Bravo" playerid="2395517" result="" team="home" type="yellowcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[0-0]"></ft>
+</match></league><league country="russia" name="Russia: Youth League" cup="False" id="4220" sub_id="42200"><match alternate_id="4228299" alternate_id_2="4485308" commentary="False" date="17.03.2016" id="4345789" static_id="17031623540202354035" status="11:00" time="11:00">
+<home goals="?" id="2354020" name="Anzhi U21"></home>
+<away goals="?" id="2354035" name="Spartak Moscow U21"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="singapore" name="Singapore: S.League" cup="False" id="3215" sub_id="32150"><match alternate_id="4237083" alternate_id_2="4492441" commentary="False" date="17.03.2016" id="4354564" static_id="17031623472002347211" status="11:30" time="11:30">
+<home goals="?" id="2347200" name="Home Utd"></home>
+<away goals="?" id="2347211" name="Young Lions"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="slovakia" name="Slovakia: 2. Liga - East" cup="False" id="3619" sub_id="36191"><match alternate_id="4175904" alternate_id_2="4480196" commentary="False" date="17.03.2016" id="4293429" static_id="17031623472602347256" status="14:00" time="14:00">
+<home goals="?" id="2347260" name="Rimavska Sobota"></home>
+<away goals="?" id="2347256" name="Poprad"></away>
 <events>
 </events>
 <ht score=""></ht>
-</match></league><league country="syria" name="Syria: Premier League" cup="False" id="3246" sub_id="32460"><match alternate_id="4252328" alternate_id_2="4504856" commentary="False" date="11.03.2016" id="4369766" static_id="11031623559892349070" status="09:00" time="09:00">
-<home goals="?" id="2355989" name="Jableh"></home>
-<away goals="?" id="2349070" name="Al Jazira"></away>
+</match></league><league country="southamerica" name="South America: Copa Libertadores" cup="True" id="2873" sub_id="28730"><match alternate_id="4235089" alternate_id_2="4504961" commentary="True" date="17.03.2016" id="4352570" static_id="17031623389762339800" status="FT" time="00:45">
+<home goals="3" id="2338976" name="Atletico-MG"></home>
+<away goals="0" id="2339800" name="Colo Colo"></away>
+<events>
+<event assist="Patric" assistid="33478" extra_min="" id="24063114" minute="1" player="J. Cazares" playerid="2501523" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24063115" minute="17" player="J. Barroso" playerid="2349564" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24063116" minute="20" player="R. Carioca" playerid="2365352" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24063117" minute="44" player="J. Beausejour" playerid="2353869" result="" team="away" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="1" id="24063118" minute="45" player="Patric" playerid="2365311" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24063119" minute="68" player="Luan" playerid="2445263" result="" team="home" type="yellowcard"></event>
+<event assist="J. Cazares" assistid="169690" extra_min="" id="24063120" minute="72" player="Hyuri" playerid="" result="[3 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24063121" minute="74" player="E. Pavez" playerid="2407644" result="" team="away" type="yellowcard"></event>
+</events>
+<ht score="[2-0]"></ht>
+<ft score="[3-0]"></ft>
+</match><match alternate_id="4235090" alternate_id_2="4504946" commentary="True" date="17.03.2016" id="4352571" static_id="17031623390742345708" status="FT" time="00:45">
+<home goals="2" id="2339074" name="Corinthians"></home>
+<away goals="0" id="2345708" name="Cerro Porteno"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24062964" minute="20" player="Luciano" playerid="2566517" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24062965" minute="20" player="V. Mareco" playerid="2350266" result="" team="away" type="yellowcard"></event>
+<event assist="Bruno Henrique" assistid="136155" extra_min="" id="24062966" minute="22" player="Lucca" playerid="2491419" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24062967" minute="36" player="Fagner" playerid="2349139" result="" team="home" type="yellowcard"></event>
+<event assist="" assistid="" extra_min="" id="24062968" minute="60" player="Lucca" playerid="2491419" result="[2 - 0]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+<ft score="[2-0]"></ft>
+</match><match alternate_id="4235091" alternate_id_2="4506935" commentary="True" date="17.03.2016" id="4352572" static_id="17031623457202340693" status="22:30" time="22:30">
+<home goals="?" id="2345720" name="Olimpia Asuncion"></home>
+<away goals="?" id="2340693" name="Emelec"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4252329" alternate_id_2="4504857" commentary="False" date="11.03.2016" id="4369767" static_id="11031623486462353623" status="12:00" time="12:00">
-<home goals="?" id="2348646" name="Al Karamah"></home>
+</match><match alternate_id="4246863" alternate_id_2="4506936" commentary="True" date="17.03.2016" id="4364318" static_id="17031623378752337876" status="22:30" time="22:30">
+<home goals="?" id="2337875" name="River Plate"></home>
+<away goals="?" id="2337876" name="Rosario Central"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4234722" alternate_id_2="4506978" commentary="True" date="18.03.2016" id="4352203" static_id="18031623492712339306" status="00:45" time="00:45">
+<home goals="?" id="2349271" name="Club Nacional"></home>
+<away goals="?" id="2339306" name="Palmeiras"></away>
+<events></events>
+<ht score=""></ht>
+</match><match alternate_id="4247067" alternate_id_2="4506979" commentary="True" date="18.03.2016" id="4364522" static_id="18031623399702337869" status="00:45" time="00:45">
+<home goals="?" id="2339970" name="Dep. Cali"></home>
+<away goals="?" id="2337869" name="Racing Club"></away>
+<events></events>
+<ht score=""></ht>
+</match></league><league country="syria" name="Syria: Premier League" cup="False" id="3246" sub_id="32460"><match alternate_id="4252335" alternate_id_2="4506980" commentary="False" date="17.03.2016" id="4369773" static_id="17031623490702353623" status="09:00" time="09:00">
+<home goals="?" id="2349070" name="Al Jazira"></home>
 <away goals="?" id="2353623" name="Al Mohafaza"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4252330" alternate_id_2="4504858" commentary="False" date="11.03.2016" id="4369768" static_id="11031623486472348641" status="12:00" time="12:00">
-<home goals="?" id="2348647" name="Al Majd"></home>
+</match><match alternate_id="4252337" alternate_id_2="4506981" commentary="False" date="17.03.2016" id="4369775" static_id="17031623486462348641" status="12:00" time="12:00">
+<home goals="?" id="2348646" name="Al Karamah"></home>
 <away goals="?" id="2348641" name="Hottin"></away>
 <events></events>
 <ht score=""></ht>
-</match><match alternate_id="4252331" alternate_id_2="4504859" commentary="False" date="11.03.2016" id="4369769" static_id="11031623486512348640" status="12:00" time="12:00">
+</match><match alternate_id="4252336" alternate_id_2="4506982" commentary="False" date="17.03.2016" id="4369774" static_id="17031623486512348647" status="12:00" time="12:00">
 <home goals="?" id="2348651" name="Al Taliya"></home>
-<away goals="?" id="2348640" name="Horriya"></away>
+<away goals="?" id="2348647" name="Al Majd"></away>
 <events></events>
 <ht score=""></ht>
-</match></league><league country="turkey" name="Turkey: Super Lig" cup="False" id="3258" sub_id="32580"><match alternate_id="4154923" alternate_id_2="4501483" commentary="True" date="11.03.2016" id="4272454" static_id="11031623489392348910" status="18:00" time="18:00">
-<home goals="?" id="2348939" name="Trabzonspor"></home>
-<away goals="?" id="2348910" name="Mersin"></away>
+</match></league><league country="venezuela" name="Venezuela: Primera Division - Apertura" cup="False" id="3280" sub_id="32801"><match alternate_id="4236134" alternate_id_2="4505840" commentary="True" date="16.03.2016" id="4353615" static_id="16031623493602349676" status="FT" time="23:30">
+<home goals="2" id="2349360" name="Caracas"></home>
+<away goals="1" id="2349676" name="Dep. Petare"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24071904" minute="17" player="C. Flores" playerid="2473215" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24071905" minute="52" player="J. Zuluaga (pen.)" playerid="" result="[1 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24071906" minute="60" player="D. Diaz" playerid="2384232" result="[2 - 1]" team="home" type="goal"></event>
+</events>
+<ht score="[1-0]"></ht>
+<ft score="[2-1]"></ft>
+</match><match alternate_id="4236132" alternate_id_2="4506431" commentary="True" date="17.03.2016" id="4353613" static_id="17031623493812349362" status="FT" time="00:00">
+<home goals="4" id="2349381" name="Mineros"></home>
+<away goals="1" id="2349362" name="Dep. Anzoategui"></away>
+<events>
+<event assist="" assistid="" extra_min="" id="24077814" minute="55" player="R. Blanco" playerid="2384507" result="[1 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24077815" minute="60" player="R. Blanco" playerid="2384507" result="[2 - 0]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24077816" minute="72" player="E. Aguilar (pen.)" playerid="2342066" result="[2 - 1]" team="away" type="goal"></event>
+<event assist="" assistid="" extra_min="" id="24077817" minute="79" player="R. Blanco" playerid="2384507" result="" team="home" type="yellowred"></event>
+<event assist="" assistid="" extra_min="2" id="24077818" minute="90" player="M. Camargo" playerid="2585178" result="[3 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="3" id="24077819" minute="90" player="M. Camargo" playerid="2585178" result="[4 - 1]" team="home" type="goal"></event>
+<event assist="" assistid="" extra_min="7" id="24077820" minute="90" player="A. Lopez" playerid="2540052" result="" team="home" type="redcard"></event>
+</events>
+<ht score="[0-0]"></ht>
+<ft score="[4-1]"></ft>
+</match><match alternate_id="4236136" alternate_id_2="4506430" commentary="True" date="17.03.2016" id="4353617" static_id="17031623493872350678" status="22:30" time="22:30">
+<home goals="?" id="2349387" name="La Guaira"></home>
+<away goals="?" id="2350678" name="Urena"></away>
 <events></events>
-<ht score=""></ht>
-</match></league><league country="turkey" name="Turkey: Ptt 1. Lig" cup="False" id="3255" sub_id="32550"><match alternate_id="4158712" alternate_id_2="4502100" commentary="False" date="11.03.2016" id="4276241" static_id="11031623487992348852" status="16:00" time="16:00">
-<home goals="?" id="2348799" name="Adana Demirspor"></home>
-<away goals="?" id="2348852" name="Elazigspor"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="turkey" name="Turkey: Tff 2. Lig White Group" cup="False" id="3254" sub_id="32540"><match alternate_id="4214160" alternate_id_2="4501645" commentary="False" date="11.03.2016" id="4331661" static_id="11031623489142348885" status="11:30" time="11:30">
-<home goals="?" id="2348914" name="Nazillispor"></home>
-<away goals="?" id="2348885" name="Kahramanmarasspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214157" alternate_id_2="4501592" commentary="False" date="11.03.2016" id="4331658" static_id="11031623488612348921" status="12:00" time="12:00">
-<home goals="?" id="2348861" name="Fethiyespor"></home>
-<away goals="?" id="2348921" name="Pazarspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214156" alternate_id_2="4501492" commentary="False" date="11.03.2016" id="4331657" static_id="11031623488752348798" status="12:00" time="12:00">
-<home goals="?" id="2348875" name="Hatayspor"></home>
-<away goals="?" id="2348798" name="Bugsasspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214159" alternate_id_2="4501629" commentary="False" date="11.03.2016" id="4331660" static_id="11031623489002348922" status="12:30" time="12:30">
-<home goals="?" id="2348900" name="Anadolu Selcukspor"></home>
-<away goals="?" id="2348922" name="Pendikspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214155" alternate_id_2="4501493" commentary="False" date="11.03.2016" id="4331656" static_id="11031623488212348810" status="12:30" time="12:30">
-<home goals="?" id="2348821" name="Bandirmaspor"></home>
-<away goals="?" id="2348810" name="Anadolu Uskudar"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214163" alternate_id_2="4503655" commentary="False" date="11.03.2016" id="4331664" static_id="11031623488742348916" status="12:30" time="12:30">
-<home goals="?" id="2348874" name="Hacettepe"></home>
-<away goals="?" id="2348916" name="Orduspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214158" alternate_id_2="4501616" commentary="False" date="11.03.2016" id="4331659" static_id="11031623488832348824" status="12:30" time="12:30">
-<home goals="?" id="2348883" name="Istanbulspor AS"></home>
-<away goals="?" id="2348824" name="Bayrampasa"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214162" alternate_id_2="4501633" commentary="False" date="11.03.2016" id="4331663" static_id="11031623508312348947" status="12:30" time="12:30">
-<home goals="?" id="2350831" name="Kirklarelispor"></home>
-<away goals="?" id="2348947" name="Menemen Bld."></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4214161" alternate_id_2="4501624" commentary="False" date="11.03.2016" id="4331662" static_id="11031623517432348928" status="12:30" time="12:30">
-<home goals="?" id="2351743" name="Umraniyespor"></home>
-<away goals="?" id="2348928" name="Sariyer"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="turkey" name="Turkey: Tff 2. Lig Red Group" cup="False" id="3254" sub_id="32541"><match alternate_id="4213855" alternate_id_2="4501501" commentary="False" date="11.03.2016" id="4331356" static_id="11031623528882351750" status="11:00" time="11:00">
-<home goals="?" id="2352888" name="Sivas Belediyespor"></home>
-<away goals="?" id="2351750" name="Aydinspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213854" alternate_id_2="4503657" commentary="False" date="11.03.2016" id="4331355" static_id="11031623488112348847" status="11:30" time="11:30">
-<home goals="?" id="2348811" name="Ankara Demirspor"></home>
-<away goals="?" id="2348847" name="Amedspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213850" alternate_id_2="4501625" commentary="False" date="11.03.2016" id="4331351" static_id="11031623488722348832" status="11:30" time="11:30">
-<home goals="?" id="2348872" name="Gumushanespor"></home>
-<away goals="?" id="2348832" name="Bucaspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213852" alternate_id_2="4503658" commentary="False" date="11.03.2016" id="4331353" static_id="11031623488582352886" status="12:30" time="12:30">
-<home goals="?" id="2348858" name="Eyupspor"></home>
-<away goals="?" id="2352886" name="Karagumruk"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213851" alternate_id_2="4503659" commentary="False" date="11.03.2016" id="4331352" static_id="11031623488772348896" status="12:30" time="12:30">
-<home goals="?" id="2348877" name="Inegolspor"></home>
-<away goals="?" id="2348896" name="Keciorengucu"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213856" alternate_id_2="4503660" commentary="False" date="11.03.2016" id="4331357" static_id="11031623488892348812" status="12:30" time="12:30">
-<home goals="?" id="2348889" name="Kartalspor"></home>
-<away goals="?" id="2348812" name="Ankaragucu"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213857" alternate_id_2="4503661" commentary="False" date="11.03.2016" id="4331358" static_id="11031623488992348935" status="12:30" time="12:30">
-<home goals="?" id="2348899" name="Kocaeli Birlikspor"></home>
-<away goals="?" id="2348935" name="Tepecik"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213853" alternate_id_2="4503663" commentary="False" date="11.03.2016" id="4331354" static_id="11031623489322348936" status="12:30" time="12:30">
-<home goals="?" id="2348932" name="Tarsus"></home>
-<away goals="?" id="2348936" name="Tokatspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4213849" alternate_id_2="4503662" commentary="False" date="11.03.2016" id="4331350" static_id="11031623489072354199" status="15:30" time="15:30">
-<home goals="?" id="2348907" name="Manisaspor"></home>
-<away goals="?" id="2354199" name="Tuzlaspor"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="uganda" name="Uganda: Premier League" cup="False" id="4489" sub_id=""><match alternate_id="4254549" alternate_id_2="4505067" commentary="False" date="11.03.2016" id="4371978" static_id="11031623571342342728" status="13:00" time="13:00">
-<home goals="?" id="2357134" name="BUL"></home>
-<away goals="?" id="2342728" name="Police"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254547" alternate_id_2="4505068" commentary="False" date="11.03.2016" id="4371977" static_id="11031623571362357133" status="13:00" time="13:00">
-<home goals="?" id="2357136" name="Express FC"></home>
-<away goals="?" id="2357133" name="Saints FC"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254550" alternate_id_2="4505069" commentary="False" date="11.03.2016" id="4371979" static_id="11031623571372348674" status="13:00" time="13:00">
-<home goals="?" id="2357137" name="Sadolin Paints"></home>
-<away goals="?" id="2348674" name="Simba"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254548" alternate_id_2="4505070" commentary="False" date="11.03.2016" id="4371977" static_id="11031623571322357140" status="13:00" time="13:00">
-<home goals="?" id="2357132" name="Soana"></home>
-<away goals="?" id="2357140" name="JMC Hippos"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254552" alternate_id_2="4504860" commentary="False" date="11.03.2016" id="4371980" static_id="11031623509972357151" status="13:00" time="13:00">
-<home goals="?" id="2350997" name="URA SC"></home>
-<away goals="?" id="2357151" name="Maroons"></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4254551" alternate_id_2="4505071" commentary="False" date="11.03.2016" id="4371979" static_id="11031623547422357153" status="13:00" time="13:00">
-<home goals="?" id="2354742" name="Victoria University"></home>
-<away goals="?" id="2357153" name="Bright Stars"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="ukraine" name="Ukraine: Pari-Match League" cup="False" id="3261" sub_id="32610"><match alternate_id="4138557" alternate_id_2="4484004" commentary="True" date="11.03.2016" id="4256096" static_id="11031623490052348985" status="18:00" time="18:00">
-<home goals="?" id="2349005" name="Karpaty"></home>
-<away goals="?" id="2348985" name="Dyn. Kiev"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="united_arab_emirates" name="United Arab Emirates: Uae League" cup="False" id="3264" sub_id="32640"><match alternate_id="4230746" alternate_id_2="4499221" commentary="False" date="11.03.2016" id="4348234" static_id="11031623490642349081" status="13:45" time="13:45">
-<home goals="?" id="2349064" name="Al Ain"></home>
-<away goals="?" id="2349081" name="Bani Yas"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4230747" alternate_id_2="4499222" commentary="False" date="11.03.2016" id="4348235" static_id="11031623490662349080" status="13:50" time="13:50">
-<home goals="?" id="2349066" name="Al Dhafra"></home>
-<away goals="?" id="2349080" name="Al Wasl"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4230748" alternate_id_2="4499707" commentary="False" date="11.03.2016" id="4348236" static_id="11031623490632349076" status="16:30" time="16:30">
-<home goals="?" id="2349063" name="Al Ahli Dubai"></home>
-<away goals="?" id="2349076" name="Al Shabab"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match></league><league country="usa" name="Usa: Mls" cup="False" id="3273" sub_id="32730"><match alternate_id="4238545" alternate_id_2="4491493" commentary="True" date="12.03.2016" id="4356024" static_id="12031623561362349130" status="00:00" time="00:00">
-<home goals="?" id="2356136" name="Orlando City"></home>
-<away goals="?" id="2349130" name="Chicago Fire"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="wales" name="Wales: Premier League - Relegation Group" cup="False" id="3285" sub_id="32853"><match alternate_id="4237669" alternate_id_2="4493557" commentary="False" date="11.03.2016" id="4355149" static_id="11031623494432349439" status="19:45" time="19:45">
-<home goals="?" id="2349443" name="Bangor"></home>
-<away goals="?" id="2349439" name="Aberystwyth"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="wales" name="Wales: Premier League - Championship Group" cup="False" id="3285" sub_id="32854"><match alternate_id="4237668" alternate_id_2="4493558" commentary="False" date="11.03.2016" id="4355148" static_id="11031623494422349468" status="19:45" time="19:45">
-<home goals="?" id="2349442" name="Bala"></home>
-<away goals="?" id="2349468" name="Connahs Q."></away>
-<events></events>
-<ht score=""></ht>
-</match><match alternate_id="4237670" alternate_id_2="4493559" commentary="False" date="11.03.2016" id="4355150" static_id="11031623495292349492" status="19:45" time="19:45">
-<home goals="?" id="2349529" name="TNS"></home>
-<away goals="?" id="2349492" name="Llandudno"></away>
-<events></events>
-<ht score=""></ht>
-</match></league><league country="world" name="World: Club Friendly" cup="False" id="3367" sub_id="33670"><match alternate_id="4254528" alternate_id_2="4507053" commentary="False" date="11.03.2016" id="4371959" static_id="11031623483672348269" status="14:15" time="14:15">
-<home goals="?" id="2348367" name="Orgryte"></home>
-<away goals="?" id="2348269" name="Falkenbergs"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4254529" alternate_id_2="4507054" commentary="False" date="11.03.2016" id="4371960" static_id="11031623483022348318" status="15:00" time="15:00">
-<home goals="?" id="2348302" name="Goteborg"></home>
-<away goals="?" id="2348318" name="Jonkopings"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4253195" alternate_id_2="4504933" commentary="False" date="11.03.2016" id="4370632" static_id="" status="15:00" time="15:00">
-<home goals="?" id="" name="Raufoss"></home>
-<away goals="?" id="2345598" name="Ranheim"></away>
-<events>
-</events>
-<ht score=""></ht>
-</match><match alternate_id="4253673" alternate_id_2="4506534" commentary="False" date="11.03.2016" id="4371107" static_id="11031623482632348261" status="16:00" time="16:00">
-<home goals="?" id="2348263" name="Elfsborg"></home>
-<away goals="?" id="2348261" name="Djurgarden"></away>
-<events>
-</events>
 <ht score=""></ht>
 </match></league></livescore>

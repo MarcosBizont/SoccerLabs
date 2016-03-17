@@ -746,7 +746,7 @@ function tipgin_api_feed_action_fillmatchesinprogress()
 			}
 			else
 			{
-				watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
+				//watchdog('League rejected', 'League rejected : ' . $league['@attributes']['name'] . ' ' . $league['@attributes']['id'] );
 			}
 		}
 	
@@ -815,9 +815,11 @@ function _tipgin_api_feed_create_match($match,$league)
 		if(!_tipgin_api_feed_allowcompetition_newteams($league['@attributes']['id'])) 
 		{
 			$matchdate = $match['@attributes']['date'] . ' ' . $match['@attributes']['time'];
+/*
 			watchdog('New team rejected', 'New team rejected : ' . $matchdate . ' ' .
 						$league['@attributes']['name'] . ' ' . 
 						$match['home']['@attributes']['name'] . ' ' . $match['home']['@attributes']['id'] . ' ' . $match['away']['@attributes']['name'] .  ' ' . $match['away']['@attributes']['id'] . ' '  . $match['@attributes']['id']);
+*/
 			return false;
 		}
 		if(!$localteam) $localteam = _tipgin_api_feed_create_team($match['home'], $league);
