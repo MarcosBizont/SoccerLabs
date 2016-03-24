@@ -57,6 +57,7 @@ if(isset($_GET['onlycontent']))
 <head>
 <title><?php print $head_title; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<script src="//load.sumome.com/" data-sumo-site-id="c16c8179a5fbf1104f10ccb35984253215b014fa5c5cbbd4ddd5ddfe9e28ceee" async="async"></script>
 <?php print $styles; ?><?php print $scripts; ?><?php print $head; ?>
 <!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
