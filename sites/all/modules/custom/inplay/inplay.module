@@ -571,8 +571,6 @@ function inplay_odds()
         [new Date(2016,4,15,9,20,11),  3.0, 1.96, 2.05],
         [new Date(2016,4,16,10,07,20),  3.95, 4.00, 3.83],
         [new Date(2016,4,17,3,09,10),  4.00, 5.00, 4.83]
-        
- /Users/mac/soccer-labs/sites/all/modules/custom/inplay/inplay.module
       ]);
 
       var options = {
