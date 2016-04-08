@@ -505,6 +505,114 @@ function inplay_odds()
 	if(!user_access('check odds')) return '';
 	
 	global $language;
+        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('betname', 'ASC')
+					    ->orderBy('betsubname', 'ASC')
+					    ->orderBy('betsubname2', 'ASC')
+					    ->orderBy('bookie', 'ASC')
+					    ->orderBy('created', 'ASC')
+					    ->execute();
+		
+		
+		
+		$header = array(t('Bet type'), t('Bookmaker'), t('Odds'), t('Created') );
+		
+		$rows = array();
+		
+		$lastrecord  = array('','','','');
+		while($record = $result->fetchAssoc())		
+		{
+			$newrecord = array($record['betname'] . ' - ' . $record['betsubname'] . ' - ' . $record['betsubname2'], 
+								$record['bookie'], $record['odds'], $record['created'] );
+								
+			if($newrecord[0] != $lastrecord[0] || $newrecord[1] != $lastrecord[1]  )
+			{
+				$rows[] = $lastrecord;
+				$rows[] = $newrecord;
+			}
+			$lastrecord = $newrecord;
+			
+		}
+		
+		if(count($rows)==0) return '';
+		
+    $chart = "<script type='text/javascript'>
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('date', 'Created');
+      data.addColumn('number', '10Bet');
+      data.addColumn('number', '888Sport');
+      data.addColumn('number', 'Bet Fred');
+
+      data.addRows([
+        [new Date(2016,4,15,9,20,11),  3.0, 1.96, 2.05],
+        [new Date(2016,4,16,10,07,20),  3.95, 4.00, 3.83],
+        [new Date(2016,4,17,3,09,10),  4.00, 5.00, 4.83]
+        
+ /Users/mac/soccer-labs/sites/all/modules/custom/inplay/inplay.module
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Box Office Earnings in First Two Weeks of Opening',
+          subtitle: 'in millions of dollars (USD)'
+        },
+        width: 900,
+        height: 500,
+        hAxis: {
+            format: 'M/d/yy:h:m:s',
+            gridlines: {count: 15}
+          },
+        axes: {
+          x: {
+            0: {side: 'bottom'}
+          }
+        }
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, options);
+    }
+  </script>";
+	        
+	$block = "<div class='b_block'>" . $chart . "</div>";
+		
+		
+
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+function inplay_odds_table()
+{
+	if(!user_access('check odds')) return '';
+	
+	global $language;
 	$block = '<div class="block-refresh-button hideme"></div>';
 	if(isset($_POST['url']))
 	{
