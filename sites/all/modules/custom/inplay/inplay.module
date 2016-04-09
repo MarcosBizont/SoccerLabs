@@ -122,8 +122,6 @@ function inplay_init() {
 	}
 
 
-	
-	odds_chart_load();
     
 }
 
@@ -507,6 +505,7 @@ function inplay_block_view($delta='') {
 function inplay_odds()
 {
     if(!user_access('check odds')) return '';	
+    odds_chart_load();
     $chart = '<div id="line_top_x"></div>';
     $block = "<div class='b_block'>" . $chart . "</div>";
     return '<div class="content-inblock">'. $block . '</div>';	
@@ -1079,13 +1078,12 @@ function odds_chart_load(){
 
 	global $language;
         drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
-	
-	if(isset($_POST['url']))
+	$current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	if(isset($current_url))
 	{
-		$nid = explode('#',$_POST['url']);
+		$nid = explode('#',$current_url);
 		$nid = array_pop($nid);
 		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
-		
 		$match = node_load($nid);
 		
 		 
