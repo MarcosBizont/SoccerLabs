@@ -123,117 +123,7 @@ function inplay_init() {
 
 
 	
-	global $language;
-        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
-	
-	if(isset($_POST['url']))
-	{
-		$nid = explode('#',$_POST['url']);
-		$nid = array_pop($nid);
-		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
-		
-		$match = node_load($nid);
-		
-	}	 
-		// ToDO : Group by  betname betsubname betsubname2 bookie
-		// Get First results order by date : Get the date of this records
-		// Get Last results order by date : Get tee date fof this record
-		
-		// Avoid In Play Odds
-		
-		$result = db_select('Odds', 'o')
-					    ->fields('o')
-					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
-					    ->orderBy('created', 'ASC')
-                                            ->orderBy('bookie', 'ASC')
-                                            ->orderBy('odds', 'ASC')
-					    ->execute();
-		 
-                $bookies = $addrow = '';
-                $new_data = array();
-                $bookie_full = array();
-                $rows = '';
-                $title = $match->title;
-                $i =0; 
-		while($record = $result->fetchAssoc())		
-		{   
-                  
-                    $new_data[ $record['created'] ][ $record['bookie'] ] = $record['odds'];
-                    $bookie_full[ $record['bookie'] ] = $record['bookie'];
-                    $i++;
-		}
-      
-        foreach($new_data as $date => $row){
-            
-            $k = 0;
-            $last_bookie = array();
-            foreach ($bookie_full as $bookie){
-                 
-                if(array_key_exists($bookie, $row)){
-                    $row_odd[$k] = $row[$bookie];
-                }else{
-                    $row_odd[$k] = isset($last_bookie[$k-1])?$last_bookie[$k-1]:0;
-                }
-                $last_bookie[$k] = $row_odd[$k];
-                $k++;
-            }
-            
-            $date = explode(' ', $date);
-            $date1 = explode('-', $date[0]);
-            $date2 = explode(':', $date[1]);
-            $row_date = array("new Date(".$date1[0].",".$date1[1].",".$date1[2].",".$date2[0].",".$date2[1].",".$date2[2].")");
-            $addrow = array_merge($row_date, $row_odd);
-            
-            $addrows[] = "[". implode(',', $addrow) . "]";
-            
-         
-        }
-        
-        foreach ($bookie_full as $bookie){
-             $bookies .= "data.addColumn('number', '".$bookie."');";
-               
-        }
-        $addrows = implode(',', $addrows);
-		 
-   drupal_add_js("jQuery(document).ready(function () {  
-
-      google.charts.load('current', {'packages':['line']});
-      google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-      var data = new google.visualization.DataTable();
-      data.addColumn('date', 'Created');
-      ".$bookies."
-
-      data.addRows([
-        ".$addrows."
-      ]);
-
-      var options = {
-        chart: {
-          title: '".$title."',
-         // subtitle: 'in millions of dollars (USD)'
-        },
-        width: 900,
-        height: 500,
-        hAxis: {
-            format: 'M/d/yy h:i:s',
-            gridlines: {count: 15}
-          },
-        axes: {
-          x: {
-            0: {side: 'bottom'}
-          }
-        }
-      };
-
-      var chart = new google.charts.Line(document.getElementById('line_top_x'));
-
-      chart.draw(data, options);
-    }
-   });", 'inline');
-	
+	odds_chart_load();
     
 }
 
@@ -619,13 +509,7 @@ function inplay_odds()
     if(!user_access('check odds')) return '';	
     $chart = '<div id="line_top_x"></div>';
     $block = "<div class='b_block'>" . $chart . "</div>";
-		
-		
-
-		
-}
-	
-	return '<div class="content-inblock">'. $block . '</div>';	
+    return '<div class="content-inblock">'. $block . '</div>';	
 }
 function inplay_odds_table()
 {
@@ -1191,4 +1075,117 @@ function _inplay_getdefaultimage($teamname,$imagestyle = 'team_thumbnail')
 	return theme('image_style',array('style_name' => $imagestyle, 'path' => 'randomteams/' . 
 			_inplay_stringtonumber($teamname) . '.png'));
 }
+function odds_chart_load(){
+
+	global $language;
+        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
 	
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('created', 'ASC')
+                                            ->orderBy('bookie', 'ASC')
+                                            ->orderBy('odds', 'ASC')
+					    ->execute();
+		 
+                $bookies = $addrow = '';
+                $new_data = array();
+                $bookie_full = array();
+                $rows = '';
+                $title = $match->title;
+                $i =0; 
+		while($record = $result->fetchAssoc())		
+		{   
+                  
+                    $new_data[ $record['created'] ][ $record['bookie'] ] = $record['odds'];
+                    $bookie_full[ $record['bookie'] ] = $record['bookie'];
+                    $i++;
+		}
+      
+        foreach($new_data as $date => $row){
+            
+            $k = 0;
+            $last_bookie = array();
+            foreach ($bookie_full as $bookie){
+                 
+                if(array_key_exists($bookie, $row)){
+                    $row_odd[$k] = $row[$bookie];
+                }else{
+                    $row_odd[$k] = isset($last_bookie[$k-1])?$last_bookie[$k-1]:0;
+                }
+                $last_bookie[$k] = $row_odd[$k];
+                $k++;
+            }
+            
+            $date = explode(' ', $date);
+            $date1 = explode('-', $date[0]);
+            $date2 = explode(':', $date[1]);
+            $row_date = array("new Date(".$date1[0].",".$date1[1].",".$date1[2].",".$date2[0].",".$date2[1].",".$date2[2].")");
+            $addrow = array_merge($row_date, $row_odd);
+            
+            $addrows[] = "[". implode(',', $addrow) . "]";
+            
+         
+        }
+        
+        foreach ($bookie_full as $bookie){
+             $bookies .= "data.addColumn('number', '".$bookie."');";
+               
+        }
+        $addrows = implode(',', $addrows);
+		 
+   drupal_add_js("jQuery(document).ready(function () {  
+
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('date', 'Created');
+      ".$bookies."
+
+      data.addRows([
+        ".$addrows."
+      ]);
+
+      var options = {
+        chart: {
+          title: '".$title."',
+         // subtitle: 'in millions of dollars (USD)'
+        },
+        width: 900,
+        height: 500,
+        hAxis: {
+            format: 'M/d/yy h:i:s',
+            gridlines: {count: 15}
+          },
+        axes: {
+          x: {
+            0: {side: 'bottom'}
+          }
+        }
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, options);
+    }
+   });", 'inline');
+   }
+}
