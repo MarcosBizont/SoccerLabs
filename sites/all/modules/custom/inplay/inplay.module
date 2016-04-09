@@ -125,7 +125,7 @@ function inplay_init() {
 	
 	global $language;
         drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
-	$block = '<div class="block-refresh-button hideme"></div>';
+	
 	if(isset($_POST['url']))
 	{
 		$nid = explode('#',$_POST['url']);
@@ -234,7 +234,7 @@ function inplay_init() {
     }
      });", 'inline');
 	
-    
+    }
 }
 
 /**
