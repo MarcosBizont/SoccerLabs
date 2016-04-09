@@ -134,7 +134,7 @@ function inplay_init() {
 		
 		$match = node_load($nid);
 		
-		 
+	}	 
 		// ToDO : Group by  betname betsubname betsubname2 bookie
 		// Get First results order by date : Get the date of this records
 		// Get Last results order by date : Get tee date fof this record
@@ -232,9 +232,9 @@ function inplay_init() {
 
       chart.draw(data, options);
     }
-     });", 'inline');
+   });", 'inline');
 	
-    }
+    
 }
 
 /**
