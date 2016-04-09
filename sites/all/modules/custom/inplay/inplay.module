@@ -120,6 +120,120 @@ function inplay_init() {
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay_mobile.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay_mobile.css', array('weight' => 11));
 	}
+
+
+	
+	global $language;
+        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('created', 'ASC')
+                                            ->orderBy('bookie', 'ASC')
+                                            ->orderBy('odds', 'ASC')
+					    ->execute();
+		 
+                $bookies = $addrow = '';
+                $new_data = array();
+                $bookie_full = array();
+                $rows = '';
+                $title = $match->title;
+                $i =0; 
+		while($record = $result->fetchAssoc())		
+		{   
+                  
+                    $new_data[ $record['created'] ][ $record['bookie'] ] = $record['odds'];
+                    $bookie_full[ $record['bookie'] ] = $record['bookie'];
+                    $i++;
+		}
+      
+        foreach($new_data as $date => $row){
+            
+            $k = 0;
+            $last_bookie = array();
+            foreach ($bookie_full as $bookie){
+                 
+                if(array_key_exists($bookie, $row)){
+                    $row_odd[$k] = $row[$bookie];
+                }else{
+                    $row_odd[$k] = isset($last_bookie[$k-1])?$last_bookie[$k-1]:0;
+                }
+                $last_bookie[$k] = $row_odd[$k];
+                $k++;
+            }
+            
+            $date = explode(' ', $date);
+            $date1 = explode('-', $date[0]);
+            $date2 = explode(':', $date[1]);
+            $row_date = array("new Date(".$date1[0].",".$date1[1].",".$date1[2].",".$date2[0].",".$date2[1].",".$date2[2].")");
+            $addrow = array_merge($row_date, $row_odd);
+            
+            $addrows[] = "[". implode(',', $addrow) . "]";
+            
+         
+        }
+        
+        foreach ($bookie_full as $bookie){
+             $bookies .= "data.addColumn('number', '".$bookie."');";
+               
+        }
+        $addrows = implode(',', $addrows);
+		 
+   drupal_add_js("jQuery(document).ready(function () {  
+
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('date', 'Created');
+      ".$bookies."
+
+      data.addRows([
+        ".$addrows."
+      ]);
+
+      var options = {
+        chart: {
+          title: '".$title."',
+         // subtitle: 'in millions of dollars (USD)'
+        },
+        width: 900,
+        height: 500,
+        hAxis: {
+            format: 'M/d/yy h:i:s',
+            gridlines: {count: 15}
+          },
+        axes: {
+          x: {
+            0: {side: 'bottom'}
+          }
+        }
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, options);
+    }
+     });", 'inline');
+	
     
 }
 
@@ -502,107 +616,14 @@ function inplay_block_view($delta='') {
 // Cache : ToDo
 function inplay_odds()
 {
-	if(!user_access('check odds')) return '';
-	
-	global $language;
-        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
-	$block = '<div class="block-refresh-button hideme"></div>';
-	if(isset($_POST['url']))
-	{
-		$nid = explode('#',$_POST['url']);
-		$nid = array_pop($nid);
-		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
-		
-		$match = node_load($nid);
-		
-		 
-		// ToDO : Group by  betname betsubname betsubname2 bookie
-		// Get First results order by date : Get the date of this records
-		// Get Last results order by date : Get tee date fof this record
-		
-		// Avoid In Play Odds
-		
-		$result = db_select('Odds', 'o')
-					    ->fields('o')
-					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
-					    ->orderBy('betname', 'ASC')
-					    ->orderBy('betsubname', 'ASC')
-					    ->orderBy('betsubname2', 'ASC')
-					    ->orderBy('bookie', 'ASC')
-					    ->orderBy('created', 'ASC')
-					    ->execute();
-		
-		
-		
-		$header = array(t('Bet type'), t('Bookmaker'), t('Odds'), t('Created') );
-		
-		$rows = array();
-		
-		$lastrecord  = array('','','','');
-		while($record = $result->fetchAssoc())		
-		{
-			$newrecord = array($record['betname'] . ' - ' . $record['betsubname'] . ' - ' . $record['betsubname2'], 
-								$record['bookie'], $record['odds'], $record['created'] );
-								
-			if($newrecord[0] != $lastrecord[0] || $newrecord[1] != $lastrecord[1]  )
-			{
-				$rows[] = $lastrecord;
-				$rows[] = $newrecord;
-			}
-			$lastrecord = $newrecord;
-			
-		}
-		
-		if(count($rows)==0) return '';
-		
-    $chart = "<script type='text/javascript'>
-      google.charts.load('current', {'packages':['line']});
-      google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-      var data = new google.visualization.DataTable();
-      data.addColumn('date', 'Created');
-      data.addColumn('number', '10Bet');
-      data.addColumn('number', '888Sport');
-      data.addColumn('number', 'Bet Fred');
-
-      data.addRows([
-        [new Date(2016,4,15,9,20,11),  3.0, 1.96, 2.05],
-        [new Date(2016,4,16,10,07,20),  3.95, 4.00, 3.83],
-        [new Date(2016,4,17,3,09,10),  4.00, 5.00, 4.83]
-      ]);
-
-      var options = {
-        chart: {
-          title: 'Box Office Earnings in First Two Weeks of Opening',
-          subtitle: 'in millions of dollars (USD)'
-        },
-        width: 900,
-        height: 500,
-        hAxis: {
-            format: 'M/d/yy:h:m:s',
-            gridlines: {count: 15}
-          },
-        axes: {
-          x: {
-            0: {side: 'bottom'}
-          }
-        }
-      };
-
-      var chart = new google.charts.Line(document.getElementById('line_top_x'));
-
-      chart.draw(data, options);
-    }
-  </script>";
-	        
-	$block = "<div class='b_block'>" . $chart . "</div>";
+    if(!user_access('check odds')) return '';	
+    $chart = '<div id="line_top_x"></div>';
+    $block = "<div class='b_block'>" . $chart . "</div>";
 		
 		
 
 		
-	}
+}
 	
 	return '<div class="content-inblock">'. $block . '</div>';	
 }
@@ -651,7 +672,7 @@ function inplay_odds_table()
 								
 			if($newrecord[0] != $lastrecord[0] || $newrecord[1] != $lastrecord[1]  )
 			{
-				$rows[] = $lastrecord;
+				///$rows[] = $lastrecord;
 				$rows[] = $newrecord;
 			}
 			$lastrecord = $newrecord;
