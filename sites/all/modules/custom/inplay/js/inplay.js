@@ -3,6 +3,7 @@
 	$('#block-views-real-time-block-1, #block-views-real-time-block-2, .page-node-4629 #block-system-main').parent().hide();
 	$('#block-views-real-time-block-3').parent().addClass('inplayoutside').parent().addClass('b_block');
 	
+        
 	
 	this.preProcessInplay = function()
 	{
@@ -447,6 +448,12 @@
 	setInterval(function() {
 	    updateInplayGameRows();
 	}, 120 * 1000);
+        
+        // ToDo : Remove Live from here
+	$('#block-inplay-inplay-odds h4').live( "click", function () {
+            google.charts.load('current', {'packages':['line']});
+            google.charts.setOnLoadCallback(drawChart);
+	});
 	
 	
 	
