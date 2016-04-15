@@ -449,12 +449,7 @@
 	    updateInplayGameRows();
 	}, 120 * 1000);
         
-        // ToDo : Remove Live from here
-	$('#block-inplay-inplay-odds h4').live( "click", function () {
-            google.charts.load('current', {'packages':['line']});
-            google.charts.setOnLoadCallback(drawChart);
-	});
-	
+ 
 	
 	
 })(jQuery);
