@@ -498,25 +498,30 @@ function inplay_block_view($delta='') {
       $block['content'] = inplay_trial();
       break;
     case 'inplay_odds' :
-      $chart_data = chart_data();
-      $block['subject'] = '<a href="#dashboard_div" class="chartLink" data-chart-data='.$chart_data["rows"].'>
+      $block['subject'] = '<a href="#dashboard_div" class="chartLink">
       Show Chart
       </a><i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds');
       $block['content'] = inplay_odds_chart();
       break;
     case 'inplay_odds_chart' :
-      $chart_data = chart_data();
       $block['subject'] = '<i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds chart');
-      $block['content'] = '<a href="#dashboard_div" class="chartLink" data-chart-data="'.$chart_data['rows'].'">
-      Show Chart
-      </a>'.inplay_odds_chart();
+      $block['content'] = inplay_odds_chart();
       break;
   } 
   return $block;
 }
-function chart_data(){
- global $language;
-$current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+// Cache : ToDo
+function inplay_odds_chart()
+{
+    if(!user_access('check odds')) return '';	
+    global $language;
+        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
+        drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js', 'external');
+        drupal_add_js('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js', 'external');
+        drupal_add_css(drupal_get_path('module', 'inplay') . '/css/chart.css');
+        drupal_add_css('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.css','external');
+	$current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	if(isset($current_url))
 	{
 		$nid = explode('#',$current_url);
@@ -602,26 +607,86 @@ $current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                 $view[] = $i; 
             }
         }
-        $bookies = "[". implode(',', $bookies). "]";
-        $addrows = array_merge(array($bookies), $addrows);
-        $rows = implode(',', $addrows);
+        $bookies = implode(',', $bookies);
+        $addrows = implode(',', $addrows);
         $views = implode(',', $view);
-        return array('rows'=>"[".$rows."]",'view'=>$views);
-  }
-}
-// Cache : ToDo
-function inplay_odds_chart()
-{
-    if(!user_access('check odds')) return '';	
+		 
+   drupal_add_js("jQuery(document).ready(function () {  
+
+      google.charts.load('current', {'packages':['corechart','controls']});
+      google.charts.setOnLoadCallback(drawDashboard);
+
    
-        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
-        drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js', 'external');
-        drupal_add_js('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js', 'external');
-        drupal_add_css(drupal_get_path('module', 'inplay') . '/css/chart.css');
-        drupal_add_css('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.css','external');
-	
-	 
+function drawDashboard() {
+        var data = google.visualization.arrayToDataTable([
+          ///['Created', '10Bet', 'Bet Fred', 'Bet365'],
+          //Bet365
+          [".$bookies."],".$addrows."
+          //[new Date(2016,03,16,18,35),0,0,2.00],
    
+        ]);
+        
+        // Create a dashboard.
+        var dashboard = new google.visualization.Dashboard(
+            document.getElementById('dashboard_div'));
+
+        // Create a range slider, passing some options
+        var typeFilter = new google.visualization.ControlWrapper({
+          'controlType': 'CategoryFilter',
+          'containerId': 'filter_div',
+          'options': {
+            'filterColumnLabel': 'Type',
+            'ui': {
+                    'allowMultiple':false,
+                    'sortValues': false,
+                    'label':'Bet type',
+                    'selectedValuesLayout': 'below'
+                   },
+          }
+        });
+
+        // Create a pie chart, passing some options
+        var lineChart = new google.visualization.ChartWrapper({
+        'chartType': 'LineChart',
+        'containerId': 'chart_div',
+        'pieSliceText': 'label',
+        'options': {
+          title: 'Atletico Rafaela - Racing Club',
+          legend: { position: 'right' },
+          width: 900,
+          height:600,
+          hAxis: {
+            format: 'M/d/yyyy h:m',
+            gridlines: {count: 15}
+          },
+          //min: 0, 
+          //interpolateNulls: true
+        },
+        // The pie chart will use the columns 'Name' and 'Donuts eaten'
+        // out of all the available ones.
+        'view': {'columns': [".$views."]}
+      });
+
+        // Establish dependencies, declaring that 'filter' drives 'pieChart',
+        // so that the pie chart will only display entries that are let through
+        // given the chosen slider range.
+        dashboard.bind(typeFilter, lineChart);
+
+        // Draw the dashboard.
+        dashboard.draw(data);
+
+      }
+      //fancybox
+    $('a.chartLink').each(function() {
+       $(this).fancybox({
+         'hideOnContentClick': false,
+         onComplete: function() {
+           drawDashboard();
+         }
+       });
+     });
+   });", 'inline');
+   }
     $chart = '<!--Div that will hold the dashboard-->
     <div style="display:none">
     <div id="dashboard_div" style="height:600px;width:900px">
