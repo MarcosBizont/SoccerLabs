@@ -205,6 +205,17 @@
 			}
 						
 		});
+    
+         //fancybox
+        $('a.chartLink').each(function() {
+         
+           $(this).fancybox({
+             'hideOnContentClick': false,
+             onComplete: function() {
+               drawDashboard();
+             }
+           });
+         });
 		
 		$(".sidebarleft .content-inblock").hide();
 		
