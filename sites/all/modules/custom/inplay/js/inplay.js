@@ -3,6 +3,7 @@
 	$('#block-views-real-time-block-1, #block-views-real-time-block-2, .page-node-4629 #block-system-main').parent().hide();
 	$('#block-views-real-time-block-3').parent().addClass('inplayoutside').parent().addClass('b_block');
 	
+        
 	
 	this.preProcessInplay = function()
 	{
@@ -204,6 +205,17 @@
 			}
 						
 		});
+    
+         //fancybox
+        $('a.chartLink').each(function() {
+         
+           $(this).fancybox({
+             'hideOnContentClick': false,
+             onComplete: function() {
+               drawDashboard();
+             }
+           });
+         });
 		
 		$(".sidebarleft .content-inblock").hide();
 		
@@ -447,7 +459,8 @@
 	setInterval(function() {
 	    updateInplayGameRows();
 	}, 120 * 1000);
-	
+        
+ 
 	
 	
 })(jQuery);
