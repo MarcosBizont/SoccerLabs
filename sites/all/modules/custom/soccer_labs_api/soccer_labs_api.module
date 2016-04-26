@@ -206,3 +206,177 @@ function soccer_labs_api_get_games() {
 	
 	return $return;
 }
+
+
+function soccer_labs_api_upcoming_game(){
+	if(!isset($_POST['team'])){
+		return;
+	}
+	
+	$team = $_POST['team'];
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		 ->entityCondition('bundle', 'team')
+		 ->propertyCondition('title', "%".$team."%","LIKE")
+		->addMetaData('account', user_load(1))
+		->range(0, 1);
+	$teams = $query->execute();
+	
+	if(isset($teams['node'])){
+		$teams = array_keys($teams['node']);
+		$team_id = $teams[0];
+		
+		$game_1 = _get_match($team_id , 'local' , '>=');
+		$game_2 = _get_match($team_id , 'visitor' , '>=');
+		
+		if($game_1 != false && $game_2 == false){
+			return $game_1;
+		}elseif($game_1 == false && $game_2 != false){
+			return $game_2;
+		}elseif($game_1 != false && $game_2 != false){
+			$dates_1 = field_get_items('node', node_load($game_1['nid']), 'field_match_date');
+			$date_1 = $dates_1[0]['value'];
+			$dates_2= field_get_items('node', node_load($game_2['nid']), 'field_match_date');
+			$date_2 = $dates_2[0]['value'];
+			return $date_1 < $date_2 ? $game_1 : $game_2;
+		}
+		return false;
+	}else{
+		return false;
+	}
+	
+}
+
+function soccer_labs_api_recent_game(){
+	if(!isset($_POST['team'])){
+		return;
+	}
+	
+	$team = $_POST['team'];
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		 ->entityCondition('bundle', 'team')
+		 ->propertyCondition('title', "%".$team."%","LIKE")
+		->addMetaData('account', user_load(1))
+		->range(0, 1);
+	$teams = $query->execute();
+	
+	if(isset($teams['node'])){
+		$teams = array_keys($teams['node']);
+		$team_id = $teams[0];
+		
+		$game_1 = _get_match($team_id , 'local' , '<=');
+		$game_2 = _get_match($team_id , 'visitor' , '<=');
+		
+		if($game_1 != false && $game_2 == false){
+			return $game_1;
+		}elseif($game_1 == false && $game_2 != false){
+			return $game_2;
+		}elseif($game_1 != false && $game_2 != false){
+			$dates_1 = field_get_items('node', node_load($game_1['nid']), 'field_match_date');
+			$date_1 = $dates_1[0]['value'];
+			$dates_2= field_get_items('node', node_load($game_2['nid']), 'field_match_date');
+			$date_2 = $dates_2[0]['value'];
+			return $date_1 > $date_2 ? $game_1 : $game_2;
+		}
+		return false;
+	}else{
+		return false;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+//helper function
+//team_type = local / visitor
+//date_operator = >= / <=
+function _get_match($team_id , $team_type , $date_operator = '>='){
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	$team_type = $team_type == 'local' ? 'field_local_team' : 'field_visitor_team';
+	//return $team_id;
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition($team_type, 'target_id', $team_id)
+		  ->range(0, 1)
+		  ->fieldOrderBy('field_match_date','value','DESC');
+	if(isset($_POST['competition']) && is_array($_POST['competition']) )
+	{
+		$leagues = $_POST['competition'];
+	}else{
+		$leagues = array(1365 , 1446);
+	}			  
+	$query->fieldCondition('field_competition', 'target_id', $leagues, 'IN');
+	//get only future games
+	$from = new DateTime('now',new DateTimeZone('America/Yellowknife'));
+	$query->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), $date_operator);
+	$result = $query->execute();
+	
+	if(isset($result['node'])){
+		$games = array_keys($result['node']);
+		$node = node_load($games[0]);
+		$obj = array();
+		$obj['nid'] = $node->nid;
+			
+		$obj['match_date'] = $node->field_match_date[LANGUAGE_NONE][0];
+		$date = new DateTime($obj['match_date']['value'], new DateTimeZone($obj['match_date']['timezone_db']));
+		$date->setTimeZone(new DateTimeZone('America/Mexico_City'));
+		$obj['match_date']['formatted_value'] = $date->format('j M');
+		$obj['match_date']['time_formatted_value'] = $date->format('H:i');
+		$obj['match_status'] = $node->field_match_status[LANGUAGE_NONE][0]['value'];
+			
+		if(isset($node->field_competition[LANGUAGE_NONE][0]['target_id']))
+		{
+			$nodecompetition = node_load($node->field_competition[LANGUAGE_NONE][0]['target_id']);	
+			$obj['competition']['nid'] = $nodecompetition->nid;
+			$obj['competition']['title'] = $nodecompetition->title;
+		}
+			
+		if(isset($node->field_local_team[LANGUAGE_NONE][0]['target_id']))
+		{
+			$nodeteam = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);	
+			$obj['local_team']['nid'] = $nodeteam->nid;
+			$obj['local_team']['title'] = $nodeteam->title;
+			$obj['local_team']['score'] = $node->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			$obj['local_team']['image'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+			$obj['local_team']['imagethumbnail'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $nodeteam->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+		}
+			
+		if(isset($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']))
+		{
+			$nodeteam = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);	
+			$obj['visitor_team']['nid'] = $nodeteam->nid;
+			$obj['visitor_team']['title'] = $nodeteam->title;
+			$obj['visitor_team']['score'] = $node->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			$obj['visitor_team']['image'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+			$obj['visitor_team']['imagethumbnail'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $nodeteam->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+		}
+			
+		$stats = commentaries_inplaytips_getStats($node);
+		$obj['stats'] = ( $stats ? $stats : array() );
+			
+		$cards = commentaries_inplaytips_getCards($node);
+		$obj['cards'] = ( $cards ? $cards : array() );
+			
+		$goals = commentaries_inplaytips_getGoals($node);
+		$obj['goals'] = ( $goals ? $goals : array() );
+			
+			
+		return $obj;
+		
+	}else{
+		return false;
+	}
+}

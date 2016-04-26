@@ -1,0 +1,47 @@
+<?php
+
+function futbot_cron(){
+	module_load_include('inc', 'twitter');
+	$twitter_account = twitter_account_load( 'CarlosFutbot' , false);
+	$twitter = twitter_connect($twitter_account, true);
+	
+	$options = array(
+		'since_id' => variable_get('futbot_last_tweet_replied' , 722527959505088514)
+	);
+
+	
+	$mentions = $twitter->mentions_timeline( $options );
+
+	if( !is_array( $mentions ) ){
+		return;
+	}
+
+	
+	foreach($mentions as $key => $mention){
+	
+	
+		$query = db_query("SELECT * FROM futbot_mentions WHERE id='". $mention->id ."'");
+		$values = $query->fetchAssoc();
+		if($values){
+			//Do nothing
+		}else{
+			
+			try {
+				$status = '@'.$mention->user->screen_name . ' This is a reply to your tweet number ' . $mention->id;
+				$twitter->statuses_update($status, array('in_reply_to_status_id' => $mention->id));
+				
+			}
+			catch (TwitterException $e) {
+				watchdog('futbot', 'could not reply to tweet id :  %tid', array('%tid' => $mention->id), WATCHDOG_NOTICE);
+			}
+			
+		}
+
+
+	}
+	
+	if(count($mentions) > 0){
+		variable_set('futbot_last_tweet_replied' , $mentions[0]->id);
+	}
+
+}

@@ -17,6 +17,15 @@ function soccer_labs_api_services_resources() {
           'callback' => 'soccer_labs_api_get_games',
           'access arguments' => array('use api for extract info'),
         ),
+		'upcoming_game' => array(
+          'callback' => 'soccer_labs_api_upcoming_game', 
+          'access arguments' => array('use api for extract info'),
+        ),
+		'recent_game' => array(
+          'callback' => 'soccer_labs_api_recent_game', 
+          'access arguments' => array('use api for extract info'),
+        ),
+		
       ),
     ),
   );
