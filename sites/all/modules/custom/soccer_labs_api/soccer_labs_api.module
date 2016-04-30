@@ -336,16 +336,16 @@ function soccer_labs_api_get_answer_bot(){
 				if(empty($response->error)){
 					//probability is greater than 50%, use an answer from frist array of answers
 					if( !$game[0] ){
-						return 'No '. $tipo . ' game found for team ' .$res[0][0]['label'] . '. Use an array of answers';
+						return random_answer('gamenotfound');
 					}
 
-					return $game;
+					return random_answer('less', $game);
 				}else{
 					return $response->error;
 				}
 			}elseif($res[0][0]['probability'] < 0.50){
 				//probability is less than 50%, use 2nd array of answers
-				return 'probability is less than 50%, use 2nd array of answers';
+				return random_answer('less');
 			}
 			
 			
@@ -362,7 +362,58 @@ function soccer_labs_api_get_answer_bot(){
 	}
 }
 
-//helper function
+//helper functions
+
+//returns a ramdom answer
+function random_answer($case , $match = null){
+	switch($case){
+		case 'less':
+		//probability less than 50%, don't use $match
+		$answers = array(
+			"random 1 < 50%", 
+			"random 2  < 50%", 
+			"random 3 < 50% ", 
+			"random 4 < 50% ", 
+			"random 5 < 50% ", 
+			"random 6 < 50% ", 
+			"random 7  < 50%", 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		break;
+		case 'more':
+		//probability more than 50%
+		$answers = array(
+			"random 1: ". $match['match_date']['value'], 
+			"random 2: ". $match['match_date']['value'], 
+			"random 3: ". $match['match_date']['value'], 
+			"random 4 :". $match['match_date']['value'], 
+			"random 5 :". $match['match_date']['value'], 
+			"random 6 :". $match['match_date']['value'], 
+			"random 7 :". $match['match_date']['value'], 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		
+		break;
+		case 'gamenotfound';
+		//no match found
+		$answers = array(
+			"random 1: not found", 
+			"random 2: not found", 
+			"random 3: not found", 
+			"random 4: not found", 
+			"random 5: not found", 
+			"random 6: not found", 
+			"random 7: not found", 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		
+		break;
+	}
+}
+
 //team_type = local / visitor
 //date_operator = >= / <=
 function _get_match($team_id , $team_type , $date_operator = '>='){
