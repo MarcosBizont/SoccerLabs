@@ -72,11 +72,11 @@ function facebook_comments_box_block_view($delta = '') {
         $fcb_url = url($path, array('absolute' => TRUE));
 
         // Meta mark up for the page.
-        $markup = '<meta property="og:type" content="Article" />';
-        $markup .= '<meta property="og:title" content="' . $fcb_title . '"/>';
-        $markup .= '<meta property="og:url" content="' . $fcb_url . '"/>';
-        $markup .= '<meta property="og:image" content="' . theme_get_setting('logo') . '"/>';
-        $markup .= '<meta property="fb:admins" content="' . check_plain(variable_get('facebook_comments_box_admin_id', NULL)) . '">';
+        //$markup = '<meta property="og:type" content="Article" />';
+        //$markup .= '<meta property="og:title" content="' . $fcb_title . '"/>';
+        //$markup .= '<meta property="og:url" content="' . $fcb_url . '"/>';
+        //$markup .= '<meta property="og:image" content="' . theme_get_setting('logo') . '"/>';
+        $markup = '<meta property="fb:admins" content="' . check_plain(variable_get('facebook_comments_box_admin_id', NULL)) . '">';
 
         // Setup the array.
         $metafcb = array(

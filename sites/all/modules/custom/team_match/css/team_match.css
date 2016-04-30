@@ -97,8 +97,8 @@
 }
 
 
-#block-views-tips-blocks-block .views-field-name,
-#block-views-tips-blocks-block .views-label
+.view-tips-blocks .views-field-name,
+.view-tips-blocks .views-label
 {
 	color: #000;
 }
@@ -126,4 +126,11 @@
 
 .containerforsimbet i {
     font-size: 24px;
+}
+
+
+.betnowmatchdescription
+{
+	font-size: 12px;
+	line-height: 100%;
 }

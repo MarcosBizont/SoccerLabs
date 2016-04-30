@@ -5472,13 +5472,13 @@ body.landing .precontentinhome #block-formblock-user-register
 	display: none;
 }
 
-#block-views-header-in-match-block,
+.headerinmatch,
 #block-views-header-in-team-block
 {
 	padding: 40px 0px;
 }
 
-#block-views-header-in-match-block .views-field.views-field-field-competition
+.headerinmatch .views-field.views-field-field-competition
 {
 	font-size: 38px;
     margin-bottom: 30px;
@@ -5486,7 +5486,7 @@ body.landing .precontentinhome #block-formblock-user-register
     line-height: 110%;
 }
 
-#block-views-header-in-match-block .views-field
+.headerinmatch .views-field
 {
 	color: #000;
     float: left;
@@ -5503,22 +5503,22 @@ body.landing .precontentinhome #block-formblock-user-register
     width: 100%;
 }
 
-#block-views-header-in-match-block .views-field img,
+.headerinmatch .views-field img,
 #block-views-header-in-team-block .views-field img
 {
 	display: inline;
 }
-#block-views-header-in-match-block .views-field .score
+.headerinmatch .views-field .score
 {
 	font-size: 150px;
 	line-height: 100%;
 }
-.node-type-blog-real #block-views-header-in-match-block .views-field .score {
+.node-type-blog-real .headerinmatch .views-field .score {
     font-size: 130px;
     line-height: 150%;
 }
 
-#block-views-header-in-match-block .views-field .score i
+.headerinmatch .views-field .score i
 {
 	font-size: 100px;
 	margin: 0 20px;
@@ -5658,8 +5658,9 @@ body.landing .precontentinhome #block-formblock-user-register
 .waitingtips
 {
 	color: #000;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 120%;
 }
 
 .matchsocial
@@ -5766,28 +5767,28 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 		width: 75px;
 	}
 	
-	#block-views-header-in-match-block .views-field 
+	.headerinmatch .views-field 
 	{
 		font-size: 14px;
 		width: 30%;
 	}
 	
-	#block-views-header-in-match-block .views-field.views-field-nothing
+	.headerinmatch .views-field.views-field-nothing
 	{
 		width: 40%;
 	} 
 	
-	#block-views-header-in-match-block  .date-display-single
+	.headerinmatch  .date-display-single
 	{
 		font-size: 10px;
 	}
 	
-	#block-views-header-in-match-block .views-field .score {
+	.headerinmatch .views-field .score {
 	    font-size: 35px;
 		line-height: 150%;
 	}
 	
-	#block-views-header-in-match-block .views-field .score i {
+	.headerinmatch .views-field .score i {
 	    font-size: 18px;
 	    margin: 0 20px;
 	}
@@ -5801,7 +5802,7 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 		border: none;
 	}
 	
-	#block-views-header-in-match-block .views-field.views-field-field-competition
+	.headerinmatch .views-field.views-field-field-competition
 	{
 		font-size: 20px;
 	}
@@ -5875,11 +5876,21 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 	display: none;
 }
 
-#block-block-21
+.socialregister
 {
 	text-align: center;
 }
 
-#block-block-21 .matchsocial {
+.matchsocial {
     margin: 10px auto;
+}
+
+.hideme
+{
+	display: none;
+}
+
+#cboxContent .hideme
+{
+	display: block;	
 }

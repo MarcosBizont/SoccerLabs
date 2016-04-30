@@ -1,0 +1,165 @@
+<?php
+/**
+ * @file
+ * Google Analytics Event Tracking Module API Example.
+ *
+ * Shows a quick and dirty example of how to integrate the Google Analytics
+ * Event Tracking Module into an user's module.
+ */
+
+/**
+ * Implements hook_google_analytics_et_settings_info().
+ */
+function soccer_labs_events_google_analytics_et_settings_info() {
+  $settings = array();
+
+
+  return $settings;
+}
+
+/**
+ * Implements hook_google_analytics_et_api().
+ */
+function soccer_labs_events_google_analytics_et_api() {
+  return _soccer_labs_events_set_selectors_array();
+}
+
+/**
+ * Internal function returns the example selectors array.
+ */
+function _soccer_labs_events_set_selectors_array() {
+  $selectors = array();
+
+/*
+// Scroll
+.page-node-98815
+#footer
+*/
+
+  $selectors = array(
+    array(
+      'event' => 'mousedown',
+      'selector' => 'a.btnsocial.btn-facebook',
+      'category' => 'Register Facebook',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => 'a.btnsocial.btn-twitter',
+      'category' => 'Register Twitter',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '.orinlogin a',
+      'category' => 'Register By Email intention',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '#user-register-form #edit-submit',
+      'category' => 'Register By Email submit',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '.head .logo a',
+      'category' => 'Click to home by logo',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => 'a.betnowmatch',
+      'category' => 'Click to bet in match',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    
+    array(
+      'event' => 'mousedown',
+      'selector' => '.view-display-id-block_sevenmag_social_top a',
+      'category' => 'Social icons block jumpoff',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '#mymenuone a',
+      'category' => 'Top menu click',
+      'action' => 'click',
+      'label' => '!href',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '#block-menu-menu-sidebar-menu a',
+      'category' => 'Sidebar menu click',
+      'action' => 'click',
+      'label' => '!href',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '#block-menu-menu-footer-menu a',
+      'category' => 'Footer menu click',
+      'action' => 'click',
+      'label' => '!href',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '#block-views-tips-blocks-block-2 a',
+      'category' => 'Anon tips click interaction',
+      'action' => 'click',
+      'label' => '!href',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),    
+    array(
+      'event' => 'mousedown',
+      'selector' => '#block-views-tips-blocks-block-2 span.views-label-nothing',
+      'category' => 'Anon tips click to open bookers',
+      'action' => 'click',
+      'label' => '!currentPage',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),
+    array(
+      'event' => 'mousedown',
+      'selector' => '.view-related-blog a',
+      'category' => 'Blog related click',
+      'action' => 'click',
+      'label' => '!href',
+      'value' => 0,
+      'options' => array('trackOnce' => TRUE),
+    ),    
+    
+    
+    
+    
+  );
+
+  return $selectors;
+}

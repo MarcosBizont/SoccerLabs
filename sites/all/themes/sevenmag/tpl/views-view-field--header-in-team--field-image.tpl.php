@@ -2,7 +2,9 @@
 	
 if(stripos($output, '/default_images/'))
 {
-	print _inplay_getdefaultimage($row->nid,'medium');
-}	
-else
-	print $output; ?>
+	$output = _inplay_getdefaultimage($row->nid,'medium');
+}
+?>
+	
+	
+<?php print str_replace('<img','<img itemprop="image"',$output); ?>

@@ -57,6 +57,21 @@ if(isset($_GET['onlycontent']))
 <head>
 <title><?php print $head_title; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<script src="//load.sumome.com/" data-sumo-site-id="c16c8179a5fbf1104f10ccb35984253215b014fa5c5cbbd4ddd5ddfe9e28ceee" async="async"></script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '266304883701823');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=266304883701823&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 <?php print $styles; ?><?php print $scripts; ?><?php print $head; ?>
 <!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
@@ -96,16 +111,13 @@ if(isset($_GET['onlycontent']))
 if(current_path() != "node/99865")
 {
 ?>
-<!--Start of Zopim Live Chat Script-->
 <script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){
-z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-$.src='//v2.zopim.com/?2xsZOzHP9YWvmlc2aDuA2dRCwhWlNpry';z.t=+new Date;$.
-type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+(function(d, t) {
+  var a = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  a.async = a.src = '//cdn.speaklyn.com/f323ca9b5b7d09bb26a4324e76a4f682.js';
+  s.parentNode.insertBefore(a, s);
+}(document, 'script'));
 </script>
-<!--End of Zopim Live Chat Script-->
 <?php 
 	}
 ?>

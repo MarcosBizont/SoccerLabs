@@ -64,7 +64,7 @@ jQuery(function($){
 					'</div>'+
 				'</div>'+
 
-				'<a href="http://soccer-labs.com" target="_blank" style="text; text-decoration: none;"><div class="linkSoccerLabs" style="text-align: center; background-color: #2A333C; border-top: 1px solid #F5F8F8;  color: #91A8BF; overflow: hidden; width: 275px;">' +
+				'<a href="http://soccer-labs.com/es?utm_source=rectanguloverde&utm_medium=widget_games&utm_campaign=widgets" target="_blank" style="text; text-decoration: none;"><div class="linkSoccerLabs" style="text-align: center; background-color: #2A333C; border-top: 1px solid #F5F8F8;  color: #91A8BF; overflow: hidden; width: 275px;">' +
 				'<span style="position: relative; top: -9px; font-weight: normal;">Apuesta gratis en </span>' +
 					'<img src="https://soccer-labs.com/labs/widget_games/logoSoccerLabs.png" style="width: 120px; height: 30px;" />' +
 				'</div>' +
