@@ -304,7 +304,6 @@ function soccer_labs_api_get_answer_bot(){
 	}
 	
 	if (($library = libraries_detect('testclassifier')) && !empty($library['installed'])) {
-		// The library is installed. Awesome!
 		libraries_load('testclassifier');
 		
 		$ml = new MonkeyLearn\Client('6f783f4985a739f54c028b1e2bb975f8322ad38a');
@@ -313,37 +312,60 @@ function soccer_labs_api_get_answer_bot(){
 		
 		$res = $ml->classifiers->classify($module_id, $text_list , true);
 		
-		$tipo = $res[0][0]['label'];
+		$type = $res[0][0]['label'];
 		
-		if( $tipo == "previous" || $tipo == "upcoming" ){
+		if( $type == "previous" || $type == "upcoming" )
+		{
 			$module_id = 'cl_sbv6FQvb';
 			$res = $ml->classifiers->classify($module_id, $text_list, true);
 			
-			//  $tipo will define which method to use (methods already developed by you)
-			$method_to_use = $tipo == "previous" ? "recent_game" : "upcoming_game";
-			
-			// If probability is higher than 50% we will be asking for the methods (again depend of the $tipo var)
 			if($res[0][0]['probability'] > 0.50){
-				$data = 'team='. $res[0][0]['label'] .'&competition[]=43169';
-				$response = drupal_http_request("http://52.34.197.63/en/api/slb/".$method_to_use."?api-key=testkey", array(
+				
+				$_POST['team'] = $res[0][0]['label'];
+				switch($type)
+				{
+					case 'previous':
+						$game = soccer_labs_api_recent_game();
+						if(!$game)
+							return random_answer('gamenotfound');	
+						else
+							return random_answer('previous', $game);
+					break;
+					case 'upcoming':
+						$game = soccer_labs_api_recent_game();
+						if(!$game)
+							return random_answer('gamenotfound');	
+						else
+							return random_answer('upcoming', $game);
+					break;
+					default:
+						return random_answer('less');
+					break;
+				}
+				
+/*
+				$response = drupal_http_request("https://soccer-labs.com/en/api/slb/".$method_to_use."?api-key=testkey", array(
 					'data' => $data,
 					'method' => 'POST',
 					'headers' => array('Content-Type' => 'application/x-www-form-urlencoded'),
 				));
 				
 				$game = json_decode($response->data);
-				
-				if(empty($response->error)){
+				return $response;
+				if(!isset($response->error)){
 					//probability is greater than 50%, use an answer from frist array of answers
 					if( !$game[0] ){
+						
 						return random_answer('gamenotfound');
 					}
-
+					return 'noo';
 					return random_answer('less', $game);
 				}else{
 					return $response->error;
 				}
-			}elseif($res[0][0]['probability'] < 0.50){
+*/
+			}
+			elseif($res[0][0]['probability'] < 0.50){
 				//probability is less than 50%, use 2nd array of answers
 				return random_answer('less');
 			}
@@ -370,27 +392,42 @@ function random_answer($case , $match = null){
 		case 'less':
 		//probability less than 50%, don't use $match
 		$answers = array(
-			"random 1 < 50%", 
-			"random 2  < 50%", 
-			"random 3 < 50% ", 
-			"random 4 < 50% ", 
-			"random 5 < 50% ", 
-			"random 6 < 50% ", 
-			"random 7  < 50%", 
+			"less 1 < 50%", 
+			"less 2  < 50%", 
+			"less 3 < 50% ", 
+			"less 4 < 50% ", 
+			"less 5 < 50% ", 
+			"less 6 < 50% ", 
+			"less 7  < 50%", 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
 		break;
-		case 'more':
+		case 'upcoming':
 		//probability more than 50%
 		$answers = array(
-			"random 1: ". $match['match_date']['value'], 
-			"random 2: ". $match['match_date']['value'], 
-			"random 3: ". $match['match_date']['value'], 
-			"random 4 :". $match['match_date']['value'], 
-			"random 5 :". $match['match_date']['value'], 
-			"random 6 :". $match['match_date']['value'], 
-			"random 7 :". $match['match_date']['value'], 
+			"upcoming 1: ". $match['match_date']['value'], 
+			"upcoming 2: ". $match['match_date']['value'], 
+			"upcoming 3: ". $match['match_date']['value'], 
+			"upcoming 4 :". $match['match_date']['value'], 
+			"upcoming 5 :". $match['match_date']['value'], 
+			"upcoming 6 :". $match['match_date']['value'], 
+			"upcoming 7 :". $match['match_date']['value'], 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		
+		break;
+		case 'previous':
+		//probability more than 50%
+		$answers = array(
+			"previous 1: ". $match['match_date']['value'], 
+			"previous 2: ". $match['match_date']['value'], 
+			"previous 3: ". $match['match_date']['value'], 
+			"previous 4 :". $match['match_date']['value'], 
+			"previous 5 :". $match['match_date']['value'], 
+			"previous 6 :". $match['match_date']['value'], 
+			"previous 7 :". $match['match_date']['value'], 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
@@ -399,13 +436,13 @@ function random_answer($case , $match = null){
 		case 'gamenotfound';
 		//no match found
 		$answers = array(
-			"random 1: not found", 
-			"random 2: not found", 
-			"random 3: not found", 
-			"random 4: not found", 
-			"random 5: not found", 
-			"random 6: not found", 
-			"random 7: not found", 
+			"gamenotfound 1: not found", 
+			"gamenotfound 2: not found", 
+			"gamenotfound 3: not found", 
+			"gamenotfound 4: not found", 
+			"gamenotfound 5: not found", 
+			"gamenotfound 6: not found", 
+			"gamenotfound 7: not found", 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
@@ -431,7 +468,7 @@ function _get_match($team_id , $team_type , $date_operator = '>='){
 	{
 		$leagues = $_POST['competition'];
 	}else{
-		$leagues = array(1365 , 1446);
+		$leagues = array(1365 , 1446, 2362, 1806, 2124, 1972, 1925,2169, 10404, 11780, 2510);
 	}		
 	$query->fieldCondition('field_competition', 'target_id', $leagues, 'IN');
 	//get only future games

@@ -207,6 +207,7 @@
 		});
     
          //fancybox
+/*
         $('a.chartLink').each(function() {
          
            $(this).fancybox({
@@ -216,6 +217,7 @@
              }
            });
          });
+*/
 		
 		$(".sidebarleft .content-inblock").hide();
 		

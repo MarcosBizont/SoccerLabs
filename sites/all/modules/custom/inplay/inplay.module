@@ -498,9 +498,7 @@ function inplay_block_view($delta='') {
       $block['content'] = inplay_trial();
       break;
     case 'inplay_odds' :
-      $block['subject'] = '<a href="#dashboard_div" class="chartLink">
-      Show Chart
-      </a><i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds');
+      $block['subject'] = '<i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds');
       $block['content'] = inplay_odds_chart();
       break;
     case 'inplay_odds_chart' :
@@ -514,6 +512,8 @@ function inplay_block_view($delta='') {
 // Cache : ToDo
 function inplay_odds_chart()
 {
+    return '';
+    
     if(!user_access('check odds')) return '';	
     global $language;
         drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
