@@ -121,6 +121,28 @@ if(current_path() != "node/99865")
 <?php 
 	}
 ?>
+<script type="text/javascript">
+(function(e, t) {
+    function r(e, t) {
+        e[t] = function() {
+            e.push([ t ].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+    }
+    var n = "JacoRecorder";
+    (function(e, t, i, s) {
+        if (!i.__VERSION) {
+            e[n] = i;
+            var o = [ "init", "identify", "startRecording", "stopRecording", "removeUserTracking", "setUserInfo" ];
+            for (var u = 0; u < o.length; u++) r(i, o[u]);
+            i.__VERSION = .9, i.__INIT_TIME = 1 * new Date;
+            var a = t.createElement("script");
+            a.async = !0, a.setAttribute("crossorigin", "anonymous"), a.src = s;
+            var f = t.getElementsByTagName("head")[0];
+            f.appendChild(a);
+        }
+    })(e, t, e[n] || [], "//recorder-assets.getjaco.com/recorder.js");
+}).call(window, window, document), window.JacoRecorder.push([ "init", "1b635854-4087-4303-a72c-23e176e29634", {} ]);
+</script>
 </head>
 <body class="<?php print $classes;?>"  <?php print $attributes;?>>
 
