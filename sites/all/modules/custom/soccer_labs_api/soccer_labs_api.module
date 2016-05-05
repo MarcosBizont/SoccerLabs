@@ -319,9 +319,7 @@ function soccer_labs_api_get_answer_bot(){
 			$module_id = 'cl_sbv6FQvb';
 			$res = $ml->classifiers->classify($module_id, $text_list, true);
 			
-			return $res;
-			
-			if($res[0][1]['probability'] > 0.50){
+			if( (($res[0][0]['probability'] * 0.5) + ($res[0][1]['probability'] * 0.5)) > 0.6){
 				
 				$_POST['team'] = $res[0][1]['label'];
 				switch($type)
@@ -367,7 +365,8 @@ function soccer_labs_api_get_answer_bot(){
 				}
 */
 			}
-			elseif($res[0][1]['probability'] < 0.50){
+			else
+			{
 				//probability is less than 50%, use 2nd array of answers
 				return random_answer('less');
 			}
