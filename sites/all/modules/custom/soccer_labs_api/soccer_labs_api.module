@@ -435,7 +435,7 @@ function random_answer($case , $match = null){
 		
 		
 		break;
-		case 'gamenotfound';
+		case 'gamenotfound':
 		//no match found
 		$answers = array(
 			"Lo siento, no tengo ese partido", 
