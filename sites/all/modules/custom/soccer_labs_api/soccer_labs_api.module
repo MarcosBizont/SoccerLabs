@@ -319,6 +319,8 @@ function soccer_labs_api_get_answer_bot(){
 			$module_id = 'cl_sbv6FQvb';
 			$res = $ml->classifiers->classify($module_id, $text_list, true);
 			
+			return $res;
+			
 			if($res[0][1]['probability'] > 0.50){
 				
 				$_POST['team'] = $res[0][1]['label'];
