@@ -311,7 +311,7 @@ function soccer_labs_api_get_answer_bot(){
 		$module_id = 'cl_hqNxVmTU';
 		
 		$res = $ml->classifiers->classify($module_id, $text_list , true);
-		
+		//return $res;
 		$type = $res[0][0]['label'];
 		
 		if( $type == "previous" || $type == "upcoming" )
@@ -332,7 +332,7 @@ function soccer_labs_api_get_answer_bot(){
 							return random_answer('previous', $game);
 					break;
 					case 'upcoming':
-						$game = soccer_labs_api_recent_game();
+						$game = soccer_labs_api_upcoming_game();
 						if(!$game)
 							return random_answer('gamenotfound');	
 						else
@@ -389,6 +389,7 @@ function soccer_labs_api_get_answer_bot(){
 
 //returns a ramdom answer
 function random_answer($case , $match = null){
+	
 	switch($case){
 		case 'less':
 		//probability less than 50%, don't use $match
@@ -405,30 +406,30 @@ function random_answer($case , $match = null){
 		
 		break;
 		case 'upcoming':
-		//probability more than 50%
+		$otherteam =  ($match['local_team']['title']==$_POST['team'] ?  $match['visitor_team']['title'] : $match['local_team']['title'] );
 		$answers = array(
-		    "El siguiente partido es contra ". $match['match_date']['value'], 
-		    "Se enfrentarán a ". $match['match_date']['value'], 
-		    "Jugaran contra el ". $match['match_date']['value'], 
-		    "Se medirán vs :". $match['match_date']['value'], 
-		    "La próxima jornada será contra :". $match['match_date']['value'], 
-		    "El siguiente juego de ellos es contra:". $match['match_date']['value'], 
-		    "Se verán las caras frente a :". $match['match_date']['value'], 
+		    "El siguiente partido es contra " . $otherteam . " el " . $match['match_date']['value'], 
+		    "Se enfrentarán a " . $otherteam . " el ". $match['match_date']['value'], 
+		    "Jugaran contra el " . $otherteam . " el " . $match['match_date']['value'], 
+		    "Se medirán vs " . $otherteam . " el " . $match['match_date']['value'], 
+		    "La próxima jornada será contra " . $otherteam . " el " . $match['match_date']['value'], 
+		    "El siguiente juego de ellos es contra " . $otherteam . " el " . $match['match_date']['value'], 
+		    "Se verán las caras frente a " . $otherteam . " el " . $match['match_date']['value'], 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
 		
 		break;
 		case 'previous':
-		//probability more than 50%
+		$otherteam =  ($match['local_team']['title']==$_POST['team'] ?  $match['visitor_team']['title'] : $match['local_team']['title'] );
 		$answers = array(
-			"Jugaron contra ". $match['match_date']['value'], 
-			"El último partido fue frente a ". $match['match_date']['value'], 
-			"El partido pasado fue vs ". $match['match_date']['value'], 
-			"La jornada anterior jugó contra ". $match['match_date']['value'], 
-			"En el partido pasado jugaron vs ". $match['match_date']['value'], 
-			"Se enfrentaron al ". $match['match_date']['value'], 
-			"Fue la jornada pasada frente al ". $match['match_date']['value'], 
+			"Jugaron contra " . $otherteam . " el " . $match['match_date']['value'], 
+			"El último partido fue frente a " . $otherteam . " el " . $match['match_date']['value'], 
+			"El partido pasado fue vs " . $otherteam . " el " . $match['match_date']['value'], 
+			"La jornada anterior jugó contra " . $otherteam . " el " . $match['match_date']['value'], 
+			"En el partido pasado jugaron vs " . $otherteam . " el " . $match['match_date']['value'], 
+			"Se enfrentaron al " . $otherteam . " el " . $match['match_date']['value'], 
+			"Fue la jornada pasada frente al " . $otherteam . " el " . $match['match_date']['value'], 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
