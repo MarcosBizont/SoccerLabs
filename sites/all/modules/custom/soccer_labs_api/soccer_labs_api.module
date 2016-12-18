@@ -342,28 +342,6 @@ function soccer_labs_api_get_answer_bot(){
 						return random_answer('less');
 					break;
 				}
-				
-/*
-				$response = drupal_http_request("https://soccer-labs.com/en/api/slb/".$method_to_use."?api-key=testkey", array(
-					'data' => $data,
-					'method' => 'POST',
-					'headers' => array('Content-Type' => 'application/x-www-form-urlencoded'),
-				));
-				
-				$game = json_decode($response->data);
-				return $response;
-				if(!isset($response->error)){
-					//probability is greater than 50%, use an answer from frist array of answers
-					if( !$game[0] ){
-						
-						return random_answer('gamenotfound');
-					}
-					return 'noo';
-					return random_answer('less', $game);
-				}else{
-					return $response->error;
-				}
-*/
 			}
 			else
 			{
@@ -372,6 +350,11 @@ function soccer_labs_api_get_answer_bot(){
 			}
 			
 			
+		}
+		elseif( $type == "greeting")
+		{
+			//probability is less than 50%, use 2nd array of answers
+			return random_answer('greeting');
 		}
 		
 	}
@@ -389,7 +372,6 @@ function soccer_labs_api_get_answer_bot(){
 
 //returns a ramdom answer
 function random_answer($case , $match = null){
-	
 	switch($case){
 		case 'less':
 		//probability less than 50%, don't use $match
@@ -407,29 +389,45 @@ function random_answer($case , $match = null){
 		break;
 		case 'upcoming':
 		$otherteam =  ($match['local_team']['title']==$_POST['team'] ?  $match['visitor_team']['title'] : $match['local_team']['title'] );
+		$matchdate = new DateTime($match['match_date']['value'],new DateTimeZone('UTC'));
+		$matchdate->setTimezone(new DateTimeZone('America/Mexico_City'));
+		$matchdate = $matchdate->getTimestamp();
+		$ampm = trim(strftime('%P',$matchdate));
+		setlocale(LC_TIME, "es_ES");
+		$matchdate = trim(strftime('%e de %B a las %I:%M',$matchdate)) . ' ' . $ampm;
 		$answers = array(
-		    "El siguiente partido es contra " . $otherteam . " el " . $match['match_date']['value'], 
-		    "Se enfrentarán a " . $otherteam . " el ". $match['match_date']['value'], 
-		    "Jugaran contra el " . $otherteam . " el " . $match['match_date']['value'], 
-		    "Se medirán vs " . $otherteam . " el " . $match['match_date']['value'], 
-		    "La próxima jornada será contra " . $otherteam . " el " . $match['match_date']['value'], 
-		    "El siguiente juego de ellos es contra " . $otherteam . " el " . $match['match_date']['value'], 
-		    "Se verán las caras frente a " . $otherteam . " el " . $match['match_date']['value'], 
+		    "El siguiente partido es contra " . $otherteam . " el " . $matchdate, 
+		    "Se enfrentarán a " . $otherteam . " el ". $matchdate, 
+		    "Jugaran contra el " . $otherteam . " el " . $matchdate, 
+		    "Se medirán vs " . $otherteam . " el " . $matchdate, 
+		    "La próxima jornada será contra " . $otherteam . " el " . $matchdate, 
+		    "El siguiente juego de ellos es contra " . $otherteam . " el " . $matchdate, 
+		    "Se verán las caras frente a " . $otherteam . " el " . $matchdate, 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
 		
 		break;
 		case 'previous':
+		//return $match;
 		$otherteam =  ($match['local_team']['title']==$_POST['team'] ?  $match['visitor_team']['title'] : $match['local_team']['title'] );
+		$matchdate = new DateTime($match['match_date']['value'],new DateTimeZone('UTC'));
+		$matchdate->setTimezone(new DateTimeZone('America/Mexico_City'));
+		$matchdate = $matchdate->getTimestamp();
+		$ampm = trim(strftime('%P',$matchdate));
+		setlocale(LC_TIME, "es_ES");
+		$matchdate = trim(strftime('%e de %B a las %I:%M',$matchdate)) . ' ' . $ampm;
+		
+		$result = " (" . $match['local_team']['title'] . " " . $match['local_team']['score'] 
+				. "-" . $match['visitor_team']['score'] . " " . $match['visitor_team']['title'] . ")" ;
 		$answers = array(
-			"Jugaron contra " . $otherteam . " el " . $match['match_date']['value'], 
-			"El último partido fue frente a " . $otherteam . " el " . $match['match_date']['value'], 
-			"El partido pasado fue vs " . $otherteam . " el " . $match['match_date']['value'], 
-			"La jornada anterior jugó contra " . $otherteam . " el " . $match['match_date']['value'], 
-			"En el partido pasado jugaron vs " . $otherteam . " el " . $match['match_date']['value'], 
-			"Se enfrentaron al " . $otherteam . " el " . $match['match_date']['value'], 
-			"Fue la jornada pasada frente al " . $otherteam . " el " . $match['match_date']['value'], 
+			"Jugaron contra " . $otherteam . " el " . $matchdate . $result, 
+			"El último partido fue frente a " . $otherteam . " el " . $matchdate . $result, 
+			"El partido pasado fue vs " . $otherteam . " el " . $matchdate . $result, 
+			"La jornada anterior jugó contra " . $otherteam . " el " . $matchdate . $result, 
+			"En el partido pasado jugaron vs " . $otherteam . " el " . $matchdate . $result, 
+			"Se enfrentaron al " . $otherteam . " el " . $matchdate . $result, 
+			"Fue la jornada pasada frente al " . $otherteam . " el " . $matchdate . $result, 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
 		
@@ -447,8 +445,14 @@ function random_answer($case , $match = null){
 			"Aún no tengo ese juego, intenta más tarde", 
 		);
 		return $answers[rand ( 0 , count($answers) - 1 )];
-		
-		
+		break;
+		case 'greeting':
+		//no match found
+		$answers = array(
+			"Hola", 
+			"Saludos!",
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
 		break;
 	}
 }

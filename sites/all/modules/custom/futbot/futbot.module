@@ -20,14 +20,16 @@ function futbot_cron(){
 	foreach($mentions as $key => $mention){
 	
 	
-		$query = db_query("SELECT * FROM futbot_mentions WHERE id='". $mention->id ."'");
+		$query = db_query("SELECT 1 FROM futbot_mentions WHERE id='". $mention->id ."'");
 		$values = $query->fetchAssoc();
 		if($values){
 			//Do nothing
 		}else{
 			
 			try {
-				$status = '@'.$mention->user->screen_name . ' This is a reply to your tweet number ' . $mention->id;
+				$_POST['mention'] = $mention->text;
+				$reply = soccer_labs_api_get_answer_bot();
+				$status = '@'.$mention->user->screen_name . ' ' . $reply;
 				$twitter->statuses_update($status, array('in_reply_to_status_id' => $mention->id));
 				
 			}
