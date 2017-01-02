@@ -27,6 +27,8 @@ function _inplay_start_session_time($hour = 3)
  * Implements hook_init().
  */
 function inplay_init() {
+        
+     
 	
 	
 	global $user;
@@ -75,7 +77,7 @@ function inplay_init() {
 	    
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/chosen/chosen.css');
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/multiple-select/multiple-select.css');
-	    
+	   
 	    
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay.css', array('weight' => 10));
@@ -120,6 +122,8 @@ function inplay_init() {
 		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay_mobile.js', array('scope' => 'footer'));
 	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay_mobile.css', array('weight' => 11));
 	}
+
+
     
 }
 
@@ -433,6 +437,8 @@ function inplay_block_info() {
   $blocks['inplay_trial'] = array('info' => t('Trial'), );
   
   $blocks['inplay_odds'] = array('info' => t('Odds'), );
+
+  $blocks['inplay_odds_chart'] = array('info' => t('Odds chart'), );
   
   return $blocks;
 }
@@ -493,13 +499,204 @@ function inplay_block_view($delta='') {
       break;
     case 'inplay_odds' :
       $block['subject'] = '<i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds');
-      $block['content'] = inplay_odds();
+      $block['content'] = inplay_odds_chart();
+      break;
+    case 'inplay_odds_chart' :
+      $block['subject'] = '<i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds chart');
+      $block['content'] = inplay_odds_chart();
       break;
   } 
   return $block;
 }
 
 // Cache : ToDo
+function inplay_odds_chart()
+{
+    return '';
+    
+    if(!user_access('check odds')) return '';	
+    global $language;
+        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
+        drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js', 'external');
+        drupal_add_js('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js', 'external');
+        drupal_add_css(drupal_get_path('module', 'inplay') . '/css/chart.css');
+        drupal_add_css('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.css','external');
+	$current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	if(isset($current_url))
+	{
+		$nid = explode('#',$current_url);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+                $nid = '275990';
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('betname', 'ASC')
+                                            ->orderBy('betsubname', 'ASC')
+					    ->orderBy('betsubname2', 'ASC')
+                                            ->orderBy('created', 'ASC')
+                                            ->orderBy('bookie', 'ASC')
+                                            ->orderBy('odds', 'ASC')
+					    ->execute();
+		 
+                $bookies = array("'Created'","'Type'");
+                $new_data = array();
+                $type = array();
+                $bookie_full = array();
+                $rows = '';
+                $title = $match->title;
+                $i =0; 
+		while($record = $result->fetchAssoc())		
+		{   
+                    $betname = array($record['betname'],$record['betsubname'],$record['betsubname2']);
+                    $betname = implode('-', $betname);
+                    $new_data[ $betname ][ $record['created'] ][ $record['bookie'] ] = $record['odds'];
+                    $bookie_full[ $record['bookie'] ] = $record['bookie'];
+                    $i++;
+		}
+      $last_bookie = array();
+      $exit = false;
+      $j = 0;
+      foreach($new_data as $type => $row){
+        $row_type = array("'".$type."'");
+        foreach($row as $date => $booker){           
+            $k = 0;            
+            foreach ($bookie_full as $bookie){                
+                if(array_key_exists($bookie, $booker)){
+                    $row_odd[$k] = $booker[$bookie];
+                    $exit = true; $j++;
+                }else{
+                    $row_odd[$k] = isset($last_bookie[$bookie][$j])?$last_bookie[$bookie][$j]:0;
+                    //$row_odd[$k] = 0;
+                }
+                //if($row_odd[$k] <>0) $last_bookie[$bookie][$j] = $row_odd[$k];            
+                $k++;             
+            }
+            
+            $date = explode(' ', $date);
+            $date1 = explode('-', $date[0]);
+            $date2 = explode(':', $date[1]);
+            $row_date = array("new Date(".$date1[0].",".$date1[1].",".$date1[2].",".$date2[0].",".$date2[1].")");
+            $addrow = array_merge($row_date, $row_type, $row_odd);
+            
+            $addrows[] = "[". implode(',', $addrow) . "]";
+            
+         
+        }
+      }
+        $count_booker = count($bookie_full);
+        foreach ($bookie_full as $bookie){
+             $bookies[] = "'".$bookie."'";
+              
+        }
+        
+        //Addition Created + Type to columns
+        $count_booker = $count_booker+2;
+        $view = array();
+        for($i=0;$i < $count_booker;$i++){
+            if($i <> 1){
+                $view[] = $i; 
+            }
+        }
+        $bookies = implode(',', $bookies);
+        $addrows = implode(',', $addrows);
+        $views = implode(',', $view);
+		 
+   drupal_add_js("jQuery(document).ready(function () {  
+
+      google.charts.load('current', {'packages':['corechart','controls']});
+      google.charts.setOnLoadCallback(drawDashboard);
+
+   
+function drawDashboard() {
+        var data = google.visualization.arrayToDataTable([
+          ///['Created', '10Bet', 'Bet Fred', 'Bet365'],
+          //Bet365
+          [".$bookies."],".$addrows."
+          //[new Date(2016,03,16,18,35),0,0,2.00],
+   
+        ]);
+        
+        // Create a dashboard.
+        var dashboard = new google.visualization.Dashboard(
+            document.getElementById('dashboard_div'));
+
+        // Create a range slider, passing some options
+        var typeFilter = new google.visualization.ControlWrapper({
+          'controlType': 'CategoryFilter',
+          'containerId': 'filter_div',
+          'options': {
+            'filterColumnLabel': 'Type',
+            'ui': {
+                    'allowMultiple':false,
+                    'sortValues': false,
+                    'label':'Bet type',
+                    'selectedValuesLayout': 'below'
+                   },
+          }
+        });
+
+        // Create a pie chart, passing some options
+        var lineChart = new google.visualization.ChartWrapper({
+        'chartType': 'LineChart',
+        'containerId': 'chart_div',
+        'pieSliceText': 'label',
+        'options': {
+          title: 'Atletico Rafaela - Racing Club',
+          legend: { position: 'right' },
+          width: 900,
+          height:600,
+          hAxis: {
+            format: 'M/d/yyyy h:m',
+            gridlines: {count: 15}
+          },
+          //min: 0, 
+          //interpolateNulls: true
+        },
+        // The pie chart will use the columns 'Name' and 'Donuts eaten'
+        // out of all the available ones.
+        'view': {'columns': [".$views."]}
+      });
+
+        // Establish dependencies, declaring that 'filter' drives 'pieChart',
+        // so that the pie chart will only display entries that are let through
+        // given the chosen slider range.
+        dashboard.bind(typeFilter, lineChart);
+
+        // Draw the dashboard.
+        dashboard.draw(data);
+
+      }
+      //fancybox
+    $('a.chartLink').each(function() {
+       $(this).fancybox({
+         'hideOnContentClick': false,
+         onComplete: function() {
+           drawDashboard();
+         }
+       });
+     });
+   });", 'inline');
+   }
+    $chart = '<!--Div that will hold the dashboard-->
+    <div style="display:none">
+    <div id="dashboard_div" style="height:600px;width:900px">
+      <!--Divs that will hold each control and chart-->
+      <div id="filter_div"></div>
+      <div id="chart_div"></div>
+    </div></div>';
+    $block = "<div class='b_block'>" . $chart . "</div>";
+    return '<div class="content-inblock">'. $block . '</div>';	
+}
 function inplay_odds()
 {
 	if(!user_access('check odds')) return '';
@@ -545,7 +742,7 @@ function inplay_odds()
 								
 			if($newrecord[0] != $lastrecord[0] || $newrecord[1] != $lastrecord[1]  )
 			{
-				$rows[] = $lastrecord;
+				///$rows[] = $lastrecord;
 				$rows[] = $newrecord;
 			}
 			$lastrecord = $newrecord;
@@ -1064,4 +1261,4 @@ function _inplay_getdefaultimage($teamname,$imagestyle = 'team_thumbnail')
 	return theme('image_style',array('style_name' => $imagestyle, 'path' => 'randomteams/' . 
 			_inplay_stringtonumber($teamname) . '.png'));
 }
-	
+ 

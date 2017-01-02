@@ -2,6 +2,7 @@
 	
 
 
+/*
 if(inplay_is_anonymus())
 {
 	echo "<div class='waitingtips'>" . t('We have tips waiting for you, please register and enjoy your free trial') . "</div>";
@@ -13,7 +14,10 @@ if(inplay_is_anonymus())
 	
 	// ToDo : Randomly shows tips, try to take in consideration session
 }
-elseif(!inplay_is_member() && !inplay_is_anonymus())
+else
+*/
+
+if(!inplay_is_member() && !inplay_is_anonymus())
 {
 	echo "<div class='tipsforyou nocachesave'>" . t('We have tips here waiting for you, please consider <a href="/en/be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
 }

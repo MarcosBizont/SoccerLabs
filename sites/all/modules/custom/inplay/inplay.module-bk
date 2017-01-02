@@ -1,0 +1,1199 @@
+<?PHP
+
+
+function _inplay_start_session_time($hour = 3)
+{
+	if (($cache_start = cache_get('inplay_session_time_start', 'cache')) 
+				&& ($cache_end = cache_get('inplay_session_time_end', 'cache')) )  {
+		$_SESSION['inplay_session_time_start'] = $cache_start->data;
+		$_SESSION['inplay_session_time_end'] = $cache_end->data;
+	}
+	else 
+	{
+		$_SESSION['inplay_session_time_start'] = strtotime('now -' . $hour . ' hours');
+		$_SESSION['inplay_session_time_end'] = strtotime('now +' . $hour . ' hours');
+		cache_set('inplay_session_time_start', $_SESSION['inplay_session_time_start'], 'cache', time() + 60 * 2);
+		cache_set('inplay_session_time_end', $_SESSION['inplay_session_time_end'], 'cache', time() + 60 * 2);
+	}
+	
+	$_SESSION['inplay_session_remove_start'] = 0;
+	$_SESSION['inplay_session_remove_end'] = 0;
+	$_SESSION['inplay_session_offset_new'] = 0;
+	$_SESSION['inplay_session_offset_old'] = 0;
+	$_SESSION['inplay_inplay_nids'] = '';
+}
+
+/**
+ * Implements hook_init().
+ */
+function inplay_init() {
+        
+     
+	
+	
+	global $user;
+	$user = user_load($user->uid);
+	
+	if (current_path() == "node/4629") {
+		
+		if(isset($_GET['competition']))
+		{
+			if($_GET['competition']=='')
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
+			if($_GET['competition']=='all')
+				$_SESSION['inplay_competitions'] = '';	
+			if(is_numeric($_GET['competition']))
+				$_SESSION['inplay_competitions'] = array($_GET['competition']);	
+		}
+		else
+		{
+			if(isset($user->field_prefered_competitions[LANGUAGE_NONE]))
+			{
+				$user_competition = array();
+				foreach($user->field_prefered_competitions[LANGUAGE_NONE] as $comp) 
+					$user_competition[] = $comp['target_id'];
+				$_SESSION['inplay_competitions'] = $user_competition;
+			}
+			else
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default_allowed', '');
+			
+				
+		}
+	
+	
+	
+
+		_inplay_start_session_time(3);
+		
+	
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/isotope.pkgd.min.js', array('scope' => 'footer'));
+		
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/chosen/chosen.jquery.min.js', array('scope' => 'footer'));
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/multiple-select/jquery.multiple.select.js', array('scope' => 'footer'));
+		
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.js', array('scope' => 'footer'));
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.css');
+	    
+	    
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/chosen/chosen.css');
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/multiple-select/multiple-select.css');
+	   
+	    
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay.js', array('scope' => 'footer'));
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay.css', array('weight' => 10));
+	    
+	}
+	
+	if(current_path() == "node/99865")
+	{
+		if(isset($_GET['competition']))
+		{
+			if($_GET['competition']=='')
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default', '');	
+			if($_GET['competition']=='all')
+				$_SESSION['inplay_competitions'] = '';	
+			if(is_numeric($_GET['competition']))
+				$_SESSION['inplay_competitions'] = array($_GET['competition']);	
+		}
+		else
+		{
+			if(isset($user->field_prefered_competitions[LANGUAGE_NONE]))
+			{
+				$user_competition = array();
+				foreach($user->field_prefered_competitions[LANGUAGE_NONE] as $comp) 
+					$user_competition[] = $comp['target_id'];
+				$_SESSION['inplay_competitions'] = $user_competition;
+			}
+			else
+				$_SESSION['inplay_competitions'] = variable_get('inplay_competitions_default_allowed', '');
+		}
+		
+		_inplay_start_session_time(2);
+		
+		
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.js', array('scope' => 'footer'));
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/js/webui-popover-1.1.2/src/jquery.webui-popover.css');
+	    
+		
+		
+		//drupal_add_js(drupal_get_path('module', 'team_match') . '/js/team_match.js', array('scope' => 'footer'));
+		drupal_add_css(drupal_get_path('module', 'team_match') . '/css/team_match.css', array('weight' => 10));
+		
+		drupal_add_js(drupal_get_path('module', 'inplay') . '/js/inplay_mobile.js', array('scope' => 'footer'));
+	    drupal_add_css(drupal_get_path('module', 'inplay') . '/css/inplay_mobile.css', array('weight' => 11));
+	}
+
+
+    
+}
+
+/**
+ * Implements hook_view_menu().
+ */
+ 
+ function inplay_menu(){
+    
+    $items['inplay/autocomplete/competition'] = array(
+		'title' => 'Autocomplete for competitions',
+		'page callback' => '_inplay_autocomplete_competition',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplay/refresh/competition'] = array(
+		'title' => 'Fresh session and get view',
+		'page callback' => '_inplay_refresh_competition',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplay/loadnew/gamerows'] = array(
+		'title' => 'Add new rows on scroll',
+		'page callback' => '_inplay_loadnew_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplay/loadold/gamerows'] = array(
+		'title' => 'Add old rows on scroll',
+		'page callback' => '_inplay_loadold_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplay/loadinplay/gamerows'] = array(
+		'title' => 'Add in play rows on scroll',
+		'page callback' => '_inplay_loadinplay_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplaym/loadnew/gamerows'] = array(
+		'title' => 'Add new rows on scroll (mobile)',
+		'page callback' => '_inplaym_loadnew_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplaym/loadold/gamerows'] = array(
+		'title' => 'Add old rows on scroll (mobile)',
+		'page callback' => '_inplaym_loadold_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['inplaym/loadinplay/gamerows'] = array(
+		'title' => 'Add in play rows on scroll (mobile)',
+		'page callback' => '_inplaym_loadinplay_gamerows',
+		'access arguments' => array('access content'),  
+		'type' => MENU_CALLBACK
+    );
+    
+    $items['admin/config/inplay'] = array(
+		'title' => 'Inplay settings',
+		'description' => 'Settings for inplay',
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('inplay_settings_admin'),
+		'access arguments' => array('administer inplay settings'),
+		'type' => MENU_NORMAL_ITEM,
+   );
+    
+	return $items;
+}
+
+function inplay_permission() {
+  return array(
+    'administer inplay settings' => array(
+      'title' => t('Administer inplay settings'),
+      'description' => t('Perform administer inplay settings.'),
+    ),
+    'check odds' => array(
+      'title' => t('Check odds by match'),
+      'description' => t('Check odds by match.'),
+    ),
+  );
+}
+
+
+function inplay_settings_admin() {
+  
+  $form = array();
+  
+  $competitions = _inplay_autocomplete_competition('');
+  $form['inplay_competitions_default'] = array(
+  	'#type' => 'select',
+	'#options' => $competitions,
+	'#title' => t('Competitions by default: main leagues'),
+    '#default_value' => variable_get('inplay_competitions_default', ''),
+    '#required' => TRUE,
+    '#multiple' => TRUE,
+    '#size'=> 20,
+  );
+  
+  $form['inplay_competitions_default_allowed'] = array(
+  	'#type' => 'select',
+	'#options' => $competitions,
+	'#title' => t('Competitions allowed: Inplay button'),
+    '#default_value' => variable_get('inplay_competitions_default_allowed', ''),
+    '#required' => TRUE,
+    '#multiple' => TRUE,
+    '#size'=> 20,
+  );
+  
+  return system_settings_form($form);
+}
+
+
+// Functions to load rows
+function _inplay_loadnew_gamerows($viewname = 'real_time')
+{
+	$rowsbyload = 15;
+	$original_start = $_SESSION['inplay_session_time_start'];
+	$original_end = $_SESSION['inplay_session_time_end'];
+	
+	$_SESSION['inplay_session_time_start'] = $_SESSION['inplay_session_time_end'];
+	$_SESSION['inplay_session_remove_end'] = 1;	
+	
+	$view = views_get_view($viewname);
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_3');
+	$view->set_items_per_page($rowsbyload);
+	$view->set_offset($_SESSION['inplay_session_offset_new']);
+	$view->pre_execute();
+	$view->execute();
+	$view->result = array_reverse($view->result);
+	$numrows = $view->total_rows;
+	$rettext =  $view->render();
+	
+	$_SESSION['inplay_session_time_start'] = $original_start;
+	$_SESSION['inplay_session_remove_end'] = 0;	
+	$_SESSION['inplay_session_offset_new'] += $rowsbyload;
+	
+	echo $rettext;
+	
+}
+function _inplaym_loadnew_gamerows()
+{
+	_inplay_loadnew_gamerows('in_play_mobile');
+}
+
+
+function _inplay_loadold_gamerows($viewname = 'real_time')
+{
+	$rowsbyload = 20;
+	$original_start = $_SESSION['inplay_session_time_start'];
+	$original_end = $_SESSION['inplay_session_time_end'];
+	
+	$_SESSION['inplay_session_time_end'] = $_SESSION['inplay_session_time_start'];
+	$_SESSION['inplay_session_remove_start'] = 1;	
+	
+	$view = views_get_view($viewname);
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_3');
+	$view->set_items_per_page($rowsbyload);
+	$view->set_offset($_SESSION['inplay_session_offset_old']);
+	$view->pre_execute();
+	$view->execute();
+	$numrows = $view->total_rows;
+	$rettext =  $view->render();
+	
+	$_SESSION['inplay_session_time_end'] = $original_end;
+	$_SESSION['inplay_session_remove_start'] = 0;	
+	$_SESSION['inplay_session_offset_old'] += $rowsbyload;
+	
+	echo $rettext;	
+}
+function _inplaym_loadold_gamerows()
+{
+	_inplay_loadold_gamerows('in_play_mobile');	
+}
+
+function _inplay_loadinplay_gamerows($viewname = 'real_time')
+{
+	$rowsbyload = 500;
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1));
+		  
+	$query->fieldCondition('field_available_live_score', 'value', '1', '=');
+	//$query->fieldCondition('field_match_status', 'value', 'FT', '<>');
+	$query->fieldCondition('field_match_status', 'value', 'Postp.', '<>');
+	
+	$from = new DateTime('now',new DateTimeZone('UTC'));
+	$from = $from->modify('-140 minutes');
+	$to = new DateTime('now', new DateTimeZone('UTC'));
+	$to = $to->modify('+5 minutes');
+	
+	$query->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=');
+	$query->fieldCondition('field_match_date', 'value', $to->format('Y-m-d H:i:s'), '<=');
+	
+	$result = $query->execute();
+	
+	$nids = array();
+	if (isset($result['node'])) $nids = array_keys($result['node']);
+	
+	if(count($nids)==0) 
+	{
+		echo '';
+		exit();
+	}
+	
+	
+	$_SESSION['inplay_inplay_nids'] = $nids;
+	
+	$view = views_get_view($viewname);
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_3');
+	$view->set_items_per_page($rowsbyload);
+	$view->pre_execute();
+	$view->execute();
+	$rettext =  $view->render();
+	
+	$_SESSION['inplay_inplay_nids'] = '';
+	
+	echo $rettext;		
+	
+}
+function _inplaym_loadinplay_gamerows()
+{
+	_inplay_loadinplay_gamerows('in_play_mobile');		
+}
+
+
+
+function _inplay_refresh_competition()
+{
+	$_SESSION['inplay_competitions'] = $_POST['data']["data_to_send"];
+
+	_inplay_start_session_time();
+		
+	$view = views_get_view('real_time');
+	$view->get_total_rows = TRUE;
+	$view->set_display('block_3');
+	$view->pre_execute();
+	$view->execute();
+	echo $view->render();
+	//echo $_POST['data'][0];
+}
+
+function _inplay_autocomplete_competition($string)
+{
+	$matches = array();
+	$query = db_select('node', 'n');
+	$query->condition('n.type', 'competition');
+	$query->condition('n.title', '%' . db_like($string) . '%', 'LIKE');
+	$query->fields('n', array('title','nid'));
+	//$query->range(0,20);
+			    
+	$result = $query->execute();
+	
+	foreach ($result as $data) {
+		$matches[$data->nid] = check_plain($data->title);
+	}
+	return $matches;
+}
+
+function inplay_search_api_views_query_alter(&$query)
+{
+	if($query->name=='real_time' || $query->name=='in_play_mobile' )
+	{
+		$query->query->where[1]['conditions'][1][1] = $_SESSION['inplay_session_time_start'];
+		$query->query->where[1]['conditions'][2][1] = $_SESSION['inplay_session_time_end'];
+		
+		if(isset($_SESSION['inplay_session_remove_start'])) 
+			if($_SESSION['inplay_session_remove_start']) 
+				unset($query->query->where[1]['conditions'][1]);
+		if(isset($_SESSION['inplay_session_remove_end']))
+			if($_SESSION['inplay_session_remove_end']) 
+			{
+				unset($query->sort['field_match_date']->options['order']);
+				$query->query->sort('field_match_date', 'ASC');
+				unset($query->query->where[1]['conditions'][2]);
+			}
+	}
+}
+
+
+/**
+ * Implements hook_block_info().
+ */
+function inplay_block_info() {
+  $blocks = array();
+  $blocks['inplay_header'] = array('info' => t('Header in play'), );
+  $blocks['inplay_stats'] = array('info' => t('Standings in play'), );
+  $blocks['inplay_commentaries'] = array('info' => t('Commentaries in play'), );
+  $blocks['inplay_quickbet'] = array('info' => t('Quickbet'), );
+  $blocks['inplay_tips'] = array('info' => t('Tips in play'), );
+  $blocks['inplay_game_stats'] = array('info' => t('Game stats in play'), );
+  $blocks['inplay_last5_game_stats'] = array('info' => t('Last 5 games stats in play'), );
+  $blocks['inplay_last5_game_stats_lv'] = array('info' => t('Last 5 games L/V stats in play'), );
+  $blocks['inplay_last5_games'] = array('info' => t('Last 5 games in play'), );
+  $blocks['inplay_last5_games_lv'] = array('info' => t('Last 5 games L/V in play'), );
+  
+  $blocks['inplay_controls'] = array('info' => t('Controls for in play'), );
+  
+  $blocks['inplay_trial'] = array('info' => t('Trial'), );
+  
+  $blocks['inplay_odds'] = array('info' => t('Odds'), );
+
+  $blocks['inplay_odds_chart'] = array('info' => t('Odds chart'), );
+  
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function inplay_block_view($delta='') {
+  $block = array();
+  switch($delta) {
+    case 'inplay_header' :
+      $block['subject'] = '';
+      $block['content'] = inplay_header_view();
+      break;
+    case 'inplay_stats' :
+      $block['subject'] = '<i class="fa fa-2x fa-legal"></i>' . t('Standings');
+      $block['content'] = inplay_stats_view();
+      break;
+    case 'inplay_commentaries' :
+      $block['subject'] = '<i class="fa fa-2x fa-comments"></i>' . t('Commentaries');
+      $block['content'] = inplay_commentaries_view();
+      break;
+    case 'inplay_quickbet' :
+      $block['subject'] = '<i class="fa fa-2x fa-bullseye"></i>' . t('Simulate bet');
+      $block['content'] = inplay_quickbet_view();
+      break;
+    case 'inplay_tips' :
+      $block['subject'] = '<i class="fa fa-2x fa-lightbulb-o"></i>' . t('Tips');
+      $block['content'] = inplay_tips_view();
+      break;
+    case 'inplay_game_stats' :
+      $block['subject'] = '<i class="fa fa-2x fa-list"></i>' . t('Game in progress stats');
+      $block['content'] = inplay_game_stats();
+      break;
+    case 'inplay_last5_game_stats' :
+      $block['subject'] = '<i class="fa fa-2x fa-book"></i>' . t('Last 5 games');
+      $block['content'] = inplay_last5_game_stats();
+      break;
+    case 'inplay_last5_game_stats_lv' :
+      $block['subject'] = '<i class="fa fa-2x fa-book"></i>' . t('Last 5 games (L/V)');
+      $block['content'] = inplay_last5_game_stats_lv();
+      break;
+    case 'inplay_last5_games' :
+      $block['subject'] = '<i class="fa fa-2x fa-reply"></i>' . t('Last 5 games');
+      $block['content'] = inplay_last5_games();
+      break;
+    case 'inplay_last5_games_lv' :
+      $block['subject'] = '<i class="fa fa-2x fa-reply"></i>' . t('Last 5 games (L/V)');
+      $block['content'] = inplay_last5_games_lv();
+      break;
+    case 'inplay_controls' :
+      $block['subject'] = '';
+      $block['content'] = drupal_get_form('inplay_controls_form');
+      break;
+    case 'inplay_trial' :
+      $block['subject'] = '';
+      $block['content'] = inplay_trial();
+      break;
+    case 'inplay_odds' :
+      $chart_data = chart_data();
+      $block['subject'] = '<a href="#dashboard_div" class="chartLink" data-chart-data='.$chart_data["rows"].'>
+      Show Chart
+      </a><i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds');
+      $block['content'] = inplay_odds_chart();
+      break;
+    case 'inplay_odds_chart' :
+      $chart_data = chart_data();
+      $block['subject'] = '<i class="fa fa-2x fa-bar-chart-o"></i>' . t('Odds chart');
+      $block['content'] = '<a href="#dashboard_div" class="chartLink" data-chart-data="'.$chart_data['rows'].'">
+      Show Chart
+      </a>'.inplay_odds_chart();
+      break;
+  } 
+  return $block;
+}
+function chart_data(){
+ global $language;
+$current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	if(isset($current_url))
+	{
+		$nid = explode('#',$current_url);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+                $nid = '275990';
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('betname', 'ASC')
+                                            ->orderBy('betsubname', 'ASC')
+					    ->orderBy('betsubname2', 'ASC')
+                                            ->orderBy('created', 'ASC')
+                                            ->orderBy('bookie', 'ASC')
+                                            ->orderBy('odds', 'ASC')
+					    ->execute();
+		 
+                $bookies = array("'Created'","'Type'");
+                $new_data = array();
+                $type = array();
+                $bookie_full = array();
+                $rows = '';
+                $title = $match->title;
+                $i =0; 
+		while($record = $result->fetchAssoc())		
+		{   
+                    $betname = array($record['betname'],$record['betsubname'],$record['betsubname2']);
+                    $betname = implode('-', $betname);
+                    $new_data[ $betname ][ $record['created'] ][ $record['bookie'] ] = $record['odds'];
+                    $bookie_full[ $record['bookie'] ] = $record['bookie'];
+                    $i++;
+		}
+      $last_bookie = array();
+      $exit = false;
+      $j = 0;
+      foreach($new_data as $type => $row){
+        $row_type = array("'".$type."'");
+        foreach($row as $date => $booker){           
+            $k = 0;            
+            foreach ($bookie_full as $bookie){                
+                if(array_key_exists($bookie, $booker)){
+                    $row_odd[$k] = $booker[$bookie];
+                    $exit = true; $j++;
+                }else{
+                    $row_odd[$k] = isset($last_bookie[$bookie][$j])?$last_bookie[$bookie][$j]:0;
+                    //$row_odd[$k] = 0;
+                }
+                //if($row_odd[$k] <>0) $last_bookie[$bookie][$j] = $row_odd[$k];            
+                $k++;             
+            }
+            
+            $date = explode(' ', $date);
+            $date1 = explode('-', $date[0]);
+            $date2 = explode(':', $date[1]);
+            $row_date = array("new Date(".$date1[0].",".$date1[1].",".$date1[2].",".$date2[0].",".$date2[1].")");
+            $addrow = array_merge($row_date, $row_type, $row_odd);
+            
+            $addrows[] = "[". implode(',', $addrow) . "]";
+            
+         
+        }
+      }
+        $count_booker = count($bookie_full);
+        foreach ($bookie_full as $bookie){
+             $bookies[] = "'".$bookie."'";
+              
+        }
+        
+        //Addition Created + Type to columns
+        $count_booker = $count_booker+2;
+        $view = array();
+        for($i=0;$i < $count_booker;$i++){
+            if($i <> 1){
+                $view[] = $i; 
+            }
+        }
+        $bookies = "[". implode(',', $bookies). "]";
+        $addrows = array_merge(array($bookies), $addrows);
+        $rows = implode(',', $addrows);
+        $views = implode(',', $view);
+        return array('rows'=>"[".$rows."]",'view'=>$views);
+  }
+}
+// Cache : ToDo
+function inplay_odds_chart()
+{
+    if(!user_access('check odds')) return '';	
+   
+        drupal_add_js('https://www.gstatic.com/charts/loader.js', 'external');
+        drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js', 'external');
+        drupal_add_js('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js', 'external');
+        drupal_add_css(drupal_get_path('module', 'inplay') . '/css/chart.css');
+        drupal_add_css('http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.css','external');
+	
+	 
+   
+    $chart = '<!--Div that will hold the dashboard-->
+    <div style="display:none">
+    <div id="dashboard_div" style="height:600px;width:900px">
+      <!--Divs that will hold each control and chart-->
+      <div id="filter_div"></div>
+      <div id="chart_div"></div>
+    </div></div>';
+    $block = "<div class='b_block'>" . $chart . "</div>";
+    return '<div class="content-inblock">'. $block . '</div>';	
+}
+function inplay_odds()
+{
+	if(!user_access('check odds')) return '';
+	
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		$match = node_load($nid);
+		
+		 
+		// ToDO : Group by  betname betsubname betsubname2 bookie
+		// Get First results order by date : Get the date of this records
+		// Get Last results order by date : Get tee date fof this record
+		
+		// Avoid In Play Odds
+		
+		$result = db_select('Odds', 'o')
+					    ->fields('o')
+					    ->condition('matchid', $match->field_tipginapi_id['und'][0]['value'],'=')
+					    ->orderBy('betname', 'ASC')
+					    ->orderBy('betsubname', 'ASC')
+					    ->orderBy('betsubname2', 'ASC')
+					    ->orderBy('bookie', 'ASC')
+					    ->orderBy('created', 'ASC')
+					    ->execute();
+		
+		
+		
+		$header = array(t('Bet type'), t('Bookmaker'), t('Odds'), t('Created') );
+		
+		$rows = array();
+		
+		$lastrecord  = array('','','','');
+		while($record = $result->fetchAssoc())		
+		{
+			$newrecord = array($record['betname'] . ' - ' . $record['betsubname'] . ' - ' . $record['betsubname2'], 
+								$record['bookie'], $record['odds'], $record['created'] );
+								
+			if($newrecord[0] != $lastrecord[0] || $newrecord[1] != $lastrecord[1]  )
+			{
+				///$rows[] = $lastrecord;
+				$rows[] = $newrecord;
+			}
+			$lastrecord = $newrecord;
+			
+		}
+		
+		if(count($rows)==0) return '';
+		
+		$table = theme('table', array('header' => $header, 'rows'=> $rows));
+					    
+		$block = "<div class='b_block'>" . $table . "</div>";
+		
+		
+/*
+		if ($cache = cache_get('commentaries_inplaylast5_games_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaylast5_games($nid);
+			cache_set('commentaries_inplaylast5_games_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*60*48);
+		}
+*/
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+function inplay_trial()
+{
+	$message = '';
+	if(inplay_is_ontrial())
+	{
+		$message = '<div class="inplaymessages messages warning">' . 
+				t('You are on trial period. Don\'t forgot to <a href="/en/be-member">become a member</a> and win money with our tips all the time.') . '</div>';	
+	}
+	elseif(!inplay_is_member() && !inplay_is_ontrial())
+	{
+		$message = '<div class="inplaymessages messages error">' . 
+				t('Your trial period is over!. <a href="/en/be-member">Become a member</a> and win money with our tips all the time.') . '</div>';	
+	}
+	return $message;
+				
+}
+
+function inplay_getmatchtitle($nid)
+{
+	$node = node_load($nid);
+	$nodecompetition = node_load($node->field_competition[LANGUAGE_NONE][0]['target_id']);
+	$block = '<div id="toptitle" class="b_title"><h4 class="section_title">' . $nodecompetition->title . '</h4></div>';
+	$block .= '<div id="toptitle" class="b_title"><h4 class="section_title">' . $node->title . '</h4></div>';
+	//$block .= '<div class="b_block" >' . $blockinto . '</div>';	
+	return $block;
+}
+
+function inplay_controls_form($form, &$form_state)
+{
+	$competitions = _inplay_autocomplete_competition('');
+	//$_SESSION['inplay_competitions'] = array(2169,2362);
+	$defaultvalues = $_SESSION['inplay_competitions'];
+	$form['competition'] = array(
+		'#type' => 'select',
+		'#title' => '',
+		'#options' => $competitions,
+		'#multiple' => TRUE,
+		'#default_value' => $defaultvalues
+	);
+	
+	$form['#prefix'] = '<div><i class="fa fa-2x fa-cog"></i></div><div class="clearfix"></div>' ;
+	
+	/*$form['submit'] = array(
+		'#type' => 'submit',
+		'#value' => t('Submit Button'),
+	);*/
+	
+	return $form;
+}
+
+
+// Cache : Short Cache, every 5 minutes or so 
+function inplay_header_view()
+{
+	// Header para cada juego
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplay_header_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplay_header($nid);
+			cache_set('commentaries_inplay_header_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*2);
+		}
+		
+	}
+	
+	return $block;	
+}
+
+// Cache : Long cache, 48 hours 
+function inplay_last5_games()
+{
+	// Ultimos 5 juegos globales de los dos equipos del match
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplaylast5_games_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaylast5_games($nid);
+			cache_set('commentaries_inplaylast5_games_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*60*48);
+		}
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+// Cache : Long cache, 48 hours 
+function inplay_last5_games_lv()
+{
+	// Ultimos 5 juegos como local del local y como visitante del visitante de los dos equipos del match
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplaylast5_games_lv_' . $language->language . '_' . $nid, 'cache_block')) {
+			$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaylast5_games_lv($nid);
+			cache_set('commentaries_inplaylast5_games_lv_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*60*48);
+		}
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+// Cache : Short Cache, every 5 minutes or so 
+function inplay_game_stats()
+{
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplaygame_stats_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaygame_stats($nid);
+			cache_set('commentaries_inplaygame_stats_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*2);
+		}
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+// Cache : Long cache, 48 hours 
+function inplay_last5_game_stats()
+{
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplaylast5_game_stats_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaylast5_game_stats($nid);
+			cache_set('commentaries_inplaylast5_game_stats_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*60*48);
+		}
+		
+		
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+// Cache : Long cache, 48 hours 
+function inplay_last5_game_stats_lv()
+{
+	global $language;
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplaylast5_game_stats_lv_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaylast5_game_stats_lv($nid);
+			cache_set('commentaries_inplaylast5_game_stats_lv_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*60*48);
+		}
+		
+		
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+function inplay_stats_view()
+{
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		$block .= commentaries_inplaystats_view($nid);
+	}
+	
+	//
+	return '<div class="content-inblock">'. $block . '</div>';	
+	
+}
+
+function inplay_commentaries_view()
+{
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		//$nid = 102258;
+		if ($cache = cache_get('comm_commentaries_' . $nid, 'cache'))
+			 
+			if(isset($cache->data->comment))
+			{
+				$rows = array();
+				foreach($cache->data->comment as $comm) 
+					if(isset($comm->comment)) 
+					{
+						$class = '';
+						if(isset($comm->isgoal)) if(strtoupper($comm->isgoal)=='TRUE') $class .= 'isgoal ';
+						if(isset($comm->isimportant)) if(strtoupper($comm->isimportant)=='TRUE') $class .= 'isimportant '; 
+						$rows[] =  array('<span class="' . $class . '"><strong>' . $comm->minute . '</strong> ' . $comm->comment . '</span>');
+					}
+				$header = array('');
+				if(count($rows)>0)
+				{
+					$lastcomment = array_pop($rows);
+					array_unshift($rows, $lastcomment);
+			
+					$block = theme('table', array('header' => $header, 'rows'=> $rows));
+					$block = commentaries_themethisblock('',$block); 	
+				}
+			}
+		
+		
+	}
+	return '<div class="content-inblock"><div class="commentarieslist">'. $block . '</div></div>';	
+}
+
+// No Cache
+function inplay_quickbet_view()
+{
+	global $user;
+	global $language;
+	
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		
+		if(inplay_is_tipster())
+			$block .= "<div class='b_block quickbet'><a href='node/add/simbet?field_match_simbet=$nid' target='_blank'>Create custom bet</a></div>";
+		
+		if(inplay_is_quickview_available($nid))
+		{
+			// ToDo : Si ya no tiene bets hoy mostrar los planes
+			// Social Changes : Todos pueden apostar mientras esten registrados
+/*
+			if(!inplay_is_member())
+			{
+				$block .= "<div class='b_block'>" . t('Please consider <a href="be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
+				$block .= _inplay_getplanbody();
+			}
+			else
+			{
+*/
+				$url =  url("simulate_bet", array('query' => array('as_iframe' => 1, 'field_match_simbet' => $nid)));
+				$link = '<iframe src="' . $url . '" 
+								style="width: 100%; height: 500px;"></iframe>';
+				$block .= "<div class='b_block quickbet'>" . $link . "</div>";	
+			//}
+		}
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+// Cache : Medium Cache, every 30 minutes or so 
+function inplay_tips_view()
+{
+	global $user;
+	global $language;
+	
+	$block = '<div class="block-refresh-button hideme"></div>';
+	if(isset($_POST['url']))
+	{
+		$nid = explode('#',$_POST['url']);
+		$nid = array_pop($nid);
+		if(!is_numeric($nid)) $nid = inplay_get_default_nid();
+		
+		if ($cache = cache_get('commentaries_inplaytips_view_' . $language->language . '_' . $nid, 'cache_block')) {
+		  	$block = $cache->data;
+		}
+		else 
+		{
+			$block .= commentaries_inplaytips_view($nid);
+			if(strpos($block, 'nocachesave')===false)
+				cache_set('commentaries_inplaytips_view_' . $language->language . '_' . $nid, $block, 'cache_block', time() + 60*30);
+		}
+		
+		if(strpos($block, 'b_block'))
+		{
+			if(!inplay_is_member())
+			{
+				$block = "<div class='b_block'>" . t('We have tips here waiting for you, please consider <a href="be-member">be a member</a> and enjoy all the fun all the time') . "</div>";
+				$block .= _inplay_getplanbody();	
+			}
+		}
+	}
+	
+	return '<div class="content-inblock">'. $block . '</div>';	
+}
+
+function inplay_get_default_nid()
+{
+	$from = new DateTime('now',new DateTimeZone('UTC'));
+	
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), '>=')		
+		  ->fieldOrderBy('field_match_date', 'value', 'ASC')->range(0,1);
+	
+	$result = $query->execute();
+	$return_array = array();
+	
+	if (isset($result['node'])) 
+	{
+		$matchids = array_keys($result['node']);
+		$nid = reset($matchids);
+	}	
+	
+	return $nid;
+}
+
+
+/**
+ * Implements hook_form_alter().
+ * @see http://drupal.org/node/1079826 for more information on this code.
+ */
+function inplay_form_alter(&$form, $form_state, $form_id) {
+	//dpm($form);
+  if ($form_id == 'views_exposed_form' && $form_state['view']->name == 'real_time') {
+	$form['competition'] = array(
+      '#type' => 'autocomplete_deluxe',
+      '#autocomplete_deluxe_path' => url('inplay/autocomplete/competition', array('absolute' => TRUE)),
+      '#multiple' => TRUE,
+      '#autocomplete_min_length' => 5,
+      '#autocomplete_multiple_delimiter' => ',',
+      '#after_build' => array('inplay_autocomplete_competition_after_build'),
+      '#use_synonyms' => FALSE,
+      '#not_found_message' => t('No competitions found')
+    );
+  };
+}
+
+function inplay_autocomplete_competition_after_build($element, &$form_state) {
+  
+  
+  
+  return $element;
+}
+
+function inplay_is_anonymus()
+{
+	global $user;
+	return !in_array(2, array_keys($user->roles));
+}
+
+function inplay_is_member()
+{
+	global $user;
+	return in_array(7, array_keys($user->roles)) || in_array(6, array_keys($user->roles)) || in_array(4, array_keys($user->roles)) || in_array(3, array_keys($user->roles));
+}
+
+function inplay_is_ontrial()
+{
+	global $user;
+	return in_array(7, array_keys($user->roles));
+}
+
+function inplay_is_tipster()
+{
+	// ToDo : Logar con el permiso correspondiente
+	// 'access arguments' => array('make a custom simulated bet'),
+	global $user;
+	return ( in_array(9, array_keys($user->roles)) || $user->uid == 1 );
+}
+
+function inplay_is_quickview_available($nid)
+{
+	module_load_include('inc', 'tips', 'tips_tipfin_odds_library');
+	
+	$match = node_load($nid);
+	$match_date = new DateTime($match->field_match_date[LANGUAGE_NONE][0]['value'],new DateTimeZone('UTC'));
+	
+	$now = new DateTime('now',new DateTimeZone('UTC'));
+	$now = $now->modify('+10 minutes'); 
+	if($now >= $match_date)
+	{
+		return false;	
+	}
+	
+	// Tip type options available
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'taxonomy_term')
+		  ->entityCondition('bundle', 'tip_type')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition('field_is_available_for_custom_be', 'value', '1', '=')
+		  ->propertyOrderBy('weight');
+	
+	$result = $query->execute();
+	$result = reset($result);
+	$optionstoallow = array();
+	foreach($result as &$term) $optionstoallow[] = $term->tid;
+	$oddsavailable = tips_tipfin_odds_library_check_odds_for_match($nid, $optionstoallow);
+	if(count($oddsavailable) <= 0) return false;
+	
+	return true;
+}
+
+function _inplay_getplanbody()
+{
+	global $language;
+	if($language->language=='es')
+	{
+		$node = node_load(73420);
+		return $node->body[LANGUAGE_NONE][0]['value'];	
+	}
+	else
+	{
+		$node = node_load(13);
+		return $node->body[LANGUAGE_NONE][0]['value'];		
+	}
+}
+
+function _inplay_stringtonumber($dest,$low=1,$high=12)
+{
+    $strarr = str_split($dest);
+    $ret = 0;
+    foreach($strarr as $value)
+		$ret += ord(strtolower($value));    
+    
+    if($ret<$low) return $low;
+    
+    while($ret > $high)
+    {
+		$strarr = str_split($ret);
+		$ret = 0;
+		foreach($strarr as $value)
+	    {
+			$ret += $value;    
+	    }    
+    }
+    
+    return $ret;
+}
+
+function _inplay_getdefaultimage($teamname,$imagestyle = 'team_thumbnail')
+{
+	return theme('image_style',array('style_name' => $imagestyle, 'path' => 'randomteams/' . 
+			_inplay_stringtonumber($teamname) . '.png'));
+}
+ 

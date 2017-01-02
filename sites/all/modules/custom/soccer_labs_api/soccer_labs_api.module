@@ -1,5 +1,19 @@
 <?php
-	
+function soccer_labs_api_libraries_info() {
+	$libraries['testclassifier'] = array(
+		'name' => 'Test Classifier',
+		'vendor url' => 'http://www.monkeylearn.com/',
+		'download url' => 'http://www.monkeylearn.com/',
+		'version' => 1.0, 
+		'files' => array(
+		  'php' => array('autoload.php'),
+		),
+	);
+	return $libraries;
+}
+
+
+
 function soccer_labs_api_permission() {
   return array(
     'use api for extract info' => array(
@@ -205,4 +219,325 @@ function soccer_labs_api_get_games() {
 		}
 	
 	return $return;
+}
+
+
+function soccer_labs_api_upcoming_game(){
+	if(!isset($_POST['team'])){
+		return;
+	}
+	
+	$team = $_POST['team'];
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		 ->entityCondition('bundle', 'team')
+		 ->propertyCondition('title', "%".$team."%","LIKE")
+		->addMetaData('account', user_load(1))
+		->range(0, 1);
+	$teams = $query->execute();
+	
+	if(isset($teams['node'])){
+		$teams = array_keys($teams['node']);
+		$team_id = $teams[0];
+		
+		$game_1 = _get_match($team_id , 'local' , '>=');
+		$game_2 = _get_match($team_id , 'visitor' , '>=');
+		
+		if($game_1 != false && $game_2 == false){
+			return $game_1;
+		}elseif($game_1 == false && $game_2 != false){
+			return $game_2;
+		}elseif($game_1 != false && $game_2 != false){
+			$dates_1 = field_get_items('node', node_load($game_1['nid']), 'field_match_date');
+			$date_1 = $dates_1[0]['value'];
+			$dates_2= field_get_items('node', node_load($game_2['nid']), 'field_match_date');
+			$date_2 = $dates_2[0]['value'];
+			return $date_1 < $date_2 ? $game_1 : $game_2;
+		}
+		return false;
+	}else{
+		return false;
+	}
+	
+}
+
+function soccer_labs_api_recent_game(){
+	if(!isset($_POST['team'])){
+		return;
+	}
+	
+	$team = $_POST['team'];
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		 ->entityCondition('bundle', 'team')
+		 ->propertyCondition('title', "%".$team."%","LIKE")
+		->addMetaData('account', user_load(1))
+		->range(0, 1);
+	$teams = $query->execute();
+	if(isset($teams['node'])){
+		$teams = array_keys($teams['node']);
+		$team_id = $teams[0];
+		
+		$game_1 = _get_match($team_id , 'local' , '<=');
+		$game_2 = _get_match($team_id , 'visitor' , '<=');
+		return $game_2;
+		if($game_1 != false && $game_2 == false){
+			return $game_1;
+		}elseif($game_1 == false && $game_2 != false){
+			return $game_2;
+		}elseif($game_1 != false && $game_2 != false){
+			$dates_1 = field_get_items('node', node_load($game_1['nid']), 'field_match_date');
+			$date_1 = $dates_1[0]['value'];
+			$dates_2= field_get_items('node', node_load($game_2['nid']), 'field_match_date');
+			$date_2 = $dates_2[0]['value'];
+			return $date_1 > $date_2 ? $game_1 : $game_2;
+		}
+		return false;
+	}else{
+		return false;
+	}
+}
+
+function soccer_labs_api_get_answer_bot(){
+	if( !isset($_POST['mention']) ){
+		return false;
+	}
+	
+	if (($library = libraries_detect('testclassifier')) && !empty($library['installed'])) {
+		libraries_load('testclassifier');
+		
+		$ml = new MonkeyLearn\Client('6f783f4985a739f54c028b1e2bb975f8322ad38a');
+		$text_list = array($_POST['mention']);
+		$module_id = 'cl_hqNxVmTU';
+		
+		$res = $ml->classifiers->classify($module_id, $text_list , true);
+		//return $res;
+		$type = $res[0][0]['label'];
+		
+		if( $type == "previous" || $type == "upcoming" )
+		{
+			$module_id = 'cl_sbv6FQvb';
+			$res = $ml->classifiers->classify($module_id, $text_list, true);
+			
+			if( (($res[0][0]['probability'] * 0.5) + ($res[0][1]['probability'] * 0.5)) > 0.4){
+				
+				$_POST['team'] = $res[0][1]['label'];
+				switch($type)
+				{
+					case 'previous':
+						$game = soccer_labs_api_recent_game();
+						if(!$game)
+							return random_answer('gamenotfound');	
+						else
+							return random_answer('previous', $game);
+					break;
+					case 'upcoming':
+						$game = soccer_labs_api_upcoming_game();
+						if(!$game)
+							return random_answer('gamenotfound');	
+						else
+							return random_answer('upcoming', $game);
+					break;
+					default:
+						return random_answer('less');
+					break;
+				}
+			}
+			else
+			{
+				//probability is less than 50%, use 2nd array of answers
+				return random_answer('less');
+			}
+			
+			
+		}
+		elseif( $type == "greeting")
+		{
+			//probability is less than 50%, use 2nd array of answers
+			return random_answer('greeting');
+		}
+		
+	}
+	else {
+		// Something went wrong. :(
+		// This contains a short status code of what went wrong, such as 'not found'.
+		$error = $library['error'];
+		// This contains a detailed (localized) error message.
+		$error_message = $library['error message'];
+		return $error_message;
+	}
+}
+
+//helper functions
+
+//returns a ramdom answer
+function random_answer($case , $match = null){
+	switch($case){
+		case 'less':
+		//probability less than 50%, don't use $match
+		$answers = array(
+			"No te entiendo ", 
+		    "¿Podrías repetirlo? ", 
+		    "No sé a qué te refieres ", 
+		    "No he logrado encontrar a ese equipo ", 
+		    "No lo encuentro, intenta de nuevo ", 
+		    "¿Podrías intentarlo de nuevo? No lo encuentro ", 
+		    "Ahora no tengo disponible ese equipo ", 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		break;
+		case 'upcoming':
+		$otherteam =  ($match['local_team']['title']==$_POST['team'] ?  $match['visitor_team']['title'] : $match['local_team']['title'] );
+		$matchdate = new DateTime($match['match_date']['value'],new DateTimeZone('UTC'));
+		$matchdate->setTimezone(new DateTimeZone('America/Mexico_City'));
+		$matchdate = $matchdate->getTimestamp();
+		$ampm = trim(strftime('%P',$matchdate));
+		setlocale(LC_TIME, "es_ES");
+		$matchdate = trim(strftime('%e de %B a las %I:%M',$matchdate)) . ' ' . $ampm;
+		$answers = array(
+		    "El siguiente partido es contra " . $otherteam . " el " . $matchdate, 
+		    "Se enfrentarán a " . $otherteam . " el ". $matchdate, 
+		    "Jugaran contra el " . $otherteam . " el " . $matchdate, 
+		    "Se medirán vs " . $otherteam . " el " . $matchdate, 
+		    "La próxima jornada será contra " . $otherteam . " el " . $matchdate, 
+		    "El siguiente juego de ellos es contra " . $otherteam . " el " . $matchdate, 
+		    "Se verán las caras frente a " . $otherteam . " el " . $matchdate, 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		
+		break;
+		case 'previous':
+		//return $match;
+		$otherteam =  ($match['local_team']['title']==$_POST['team'] ?  $match['visitor_team']['title'] : $match['local_team']['title'] );
+		$matchdate = new DateTime($match['match_date']['value'],new DateTimeZone('UTC'));
+		$matchdate->setTimezone(new DateTimeZone('America/Mexico_City'));
+		$matchdate = $matchdate->getTimestamp();
+		$ampm = trim(strftime('%P',$matchdate));
+		setlocale(LC_TIME, "es_ES");
+		$matchdate = trim(strftime('%e de %B a las %I:%M',$matchdate)) . ' ' . $ampm;
+		
+		$result = " (" . $match['local_team']['title'] . " " . $match['local_team']['score'] 
+				. "-" . $match['visitor_team']['score'] . " " . $match['visitor_team']['title'] . ")" ;
+		$answers = array(
+			"Jugaron contra " . $otherteam . " el " . $matchdate . $result, 
+			"El último partido fue frente a " . $otherteam . " el " . $matchdate . $result, 
+			"El partido pasado fue vs " . $otherteam . " el " . $matchdate . $result, 
+			"La jornada anterior jugó contra " . $otherteam . " el " . $matchdate . $result, 
+			"En el partido pasado jugaron vs " . $otherteam . " el " . $matchdate . $result, 
+			"Se enfrentaron al " . $otherteam . " el " . $matchdate . $result, 
+			"Fue la jornada pasada frente al " . $otherteam . " el " . $matchdate . $result, 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		
+		
+		break;
+		case 'gamenotfound':
+		//no match found
+		$answers = array(
+			"Lo siento, no tengo ese partido", 
+			"No he podido encontrar ese juego", 
+			"No halle el partido que mencionaste", 
+			"El juego que solicitas no está disponible", 
+			"No pude encontrarlo", 
+			"Ese partido no está ahora disponible", 
+			"Aún no tengo ese juego, intenta más tarde", 
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		break;
+		case 'greeting':
+		//no match found
+		$answers = array(
+			"Hola", 
+			"Saludos!",
+		);
+		return $answers[rand ( 0 , count($answers) - 1 )];
+		break;
+	}
+}
+
+//team_type = local / visitor
+//date_operator = >= / <=
+function _get_match($team_id , $team_type , $date_operator = '>='){
+	module_load_include('inc', 'commentaries', 'commentaries_strategies');
+	$team_type = $team_type == 'local' ? 'field_local_team' : 'field_visitor_team';
+	//return $team_id;
+	$query = new EntityFieldQuery();
+	$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'match')
+		  ->addMetaData('account', user_load(1))
+		  ->fieldCondition($team_type, 'target_id', $team_id)
+		  ->range(0, 1)
+		  ->fieldOrderBy('field_match_date','value','DESC');
+	if(isset($_POST['competition']) && is_array($_POST['competition']) )
+	{
+		$leagues = $_POST['competition'];
+	}else{
+		$leagues = array(1365 , 1446, 2362, 1806, 2124, 1972, 1925,2169, 10404, 11780, 2510);
+	}		
+	$query->fieldCondition('field_competition', 'target_id', $leagues, 'IN');
+	//get only future games
+	$from = new DateTime('now',new DateTimeZone('America/Yellowknife'));
+	$query->fieldCondition('field_match_date', 'value', $from->format('Y-m-d H:i:s'), $date_operator);
+	$result = $query->execute();
+	if(isset($result['node'])){
+		$games = array_keys($result['node']);
+		$node = node_load($games[0]);
+		$obj = array();
+		$obj['nid'] = $node->nid;
+			
+		$obj['match_date'] = $node->field_match_date[LANGUAGE_NONE][0];
+		$date = new DateTime($obj['match_date']['value'], new DateTimeZone($obj['match_date']['timezone_db']));
+		$date->setTimeZone(new DateTimeZone('America/Mexico_City'));
+		$obj['match_date']['formatted_value'] = $date->format('j M');
+		$obj['match_date']['time_formatted_value'] = $date->format('H:i');
+		$obj['match_status'] = $node->field_match_status[LANGUAGE_NONE][0]['value'];
+			
+		if(isset($node->field_competition[LANGUAGE_NONE][0]['target_id']))
+		{
+			$nodecompetition = node_load($node->field_competition[LANGUAGE_NONE][0]['target_id']);	
+			$obj['competition']['nid'] = $nodecompetition->nid;
+			$obj['competition']['title'] = $nodecompetition->title;
+		}
+			
+		if(isset($node->field_local_team[LANGUAGE_NONE][0]['target_id']))
+		{
+			$nodeteam = node_load($node->field_local_team[LANGUAGE_NONE][0]['target_id']);	
+			$obj['local_team']['nid'] = $nodeteam->nid;
+			$obj['local_team']['title'] = $nodeteam->title;
+			$obj['local_team']['score'] = $node->field_local_team_score[LANGUAGE_NONE][0]['value'];
+			$obj['local_team']['image'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+			$obj['local_team']['imagethumbnail'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $nodeteam->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+		}
+			
+		if(isset($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']))
+		{
+			$nodeteam = node_load($node->field_visitor_team[LANGUAGE_NONE][0]['target_id']);	
+			$obj['visitor_team']['nid'] = $nodeteam->nid;
+			$obj['visitor_team']['title'] = $nodeteam->title;
+			$obj['visitor_team']['score'] = $node->field_visitor_team_score[LANGUAGE_NONE][0]['value'];
+			$obj['visitor_team']['image'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) : '' ) ;
+			$obj['visitor_team']['imagethumbnail'] = (isset($nodeteam->field_image[LANGUAGE_NONE][0]['uri']) ? 
+								file_create_url(image_style_url('team_thumbnail-copy', $nodeteam->field_image[LANGUAGE_NONE][0]['uri'])) : '' ) ;
+		}
+			
+		$stats = commentaries_inplaytips_getStats($node);
+		$obj['stats'] = ( $stats ? $stats : array() );
+			
+		$cards = commentaries_inplaytips_getCards($node);
+		$obj['cards'] = ( $cards ? $cards : array() );
+			
+		$goals = commentaries_inplaytips_getGoals($node);
+		$obj['goals'] = ( $goals ? $goals : array() );
+			
+			
+		return $obj;
+		
+	}else{
+		return false;
+	}
 }

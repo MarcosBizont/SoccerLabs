@@ -1,0 +1,19 @@
+<?php
+
+/*
+* Implements hook_schema()
+*/
+
+function futbot_schema() {
+	$schema['futbot_mentions'] = array(
+		'description' => 'Save twitter mention ids for futbot module',
+		'fields' => array(
+			'id' => array(
+				'type' => 'varchar',
+				'description' => 'twitter id of tweet',
+				'length' => 255
+			)
+		)
+	);
+  return $schema;
+}
