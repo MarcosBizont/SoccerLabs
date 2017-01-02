@@ -24,8 +24,8 @@ body.newstyle .thecontent h2
 	line-height: 150%;
 }
 
-body.newstyle .widget, 
-body.newstyle.node-type-blog-real .b_block 
+body.newstyle .widget,
+body.newstyle.node-type-blog-real .b_block
 {
 	border: none;
 	box-shadow: none;
@@ -104,7 +104,7 @@ body.newstyle .tagcloud a {
 	font-variant: initial;
 	text-transform:uppercase;
 	font-family: tahoma, regular;
-	
+
 }
 
 body.newstyle .tagcloud a:hover {
@@ -155,7 +155,7 @@ body.newstyle.page-blogs #block-views-blog-block-2 h2 a {
 
 body.newstyle #block-views-blog-post-banner-block h2, body.newstyle.page-blogs #block-views-blog-block-2 h2 {
     text-transform: uppercase;
-    font-weight: bold;	
+    font-weight: bold;
     font-family: tahoma, bold;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -170,7 +170,7 @@ body.newstyle .field-name-field-banner-blog, body.newstyle.page-blogs #block-vie
     margin-right: auto;
 }
 
-body.newstyle #block-block-27 {
+body.newstyle #block-block-27 , body.newstyle #block-block-28{
 	 margin-left: auto;
     margin-right: auto;
     margin-top:40px;
@@ -179,32 +179,32 @@ body.newstyle #block-block-27 {
     margin-bottom:100px;
 }
 
-body.newstyle.page-blogs #block-block-27 {
+body.newstyle.page-blogs #block-block-27, body.newstyle.page-blogs #block-block-28 {
     margin-bottom:50px;
 }
 
-body.newstyle #block-block-27 ul {
+body.newstyle #block-block-27 ul, body.newstyle #block-block-28 ul  {
 	text-align:center;
 }
 
-body.newstyle #block-block-27 ul li {
+body.newstyle #block-block-27 ul li, body.newstyle #block-block-28 ul li {
 	display:inline-block;
 	margin-left:6px;
 }
 
-body.newstyle #block-block-27 ul li.twitter a {
+body.newstyle #block-block-27 ul li.twitter a, body.newstyle #block-block-28 ul li.twitter a {
    background-image: url(/sites/all/themes/sevenmag/images/twittericon.png);
 }
 
-body.newstyle #block-block-27 ul li.facebook a {
+body.newstyle #block-block-27 ul li.facebook a, body.newstyle #block-block-28 ul li.facebook a {
     background-image: url(/sites/all/themes/sevenmag/images/facebookicon.png);
 }
 
-body.newstyle #block-block-27 ul li.google a {
+body.newstyle #block-block-27 ul li.google a, body.newstyle #block-block-28 ul li.google a {
     background-image: url(/sites/all/themes/sevenmag/images/googleplusicon.png);
 }
 
-body.newstyle #block-block-27 ul li a {
+body.newstyle #block-block-27 ul li a , body.newstyle #block-block-28 ul li a {
     display: block;
     width: 32px;
     height: 32px;
@@ -217,7 +217,8 @@ body.newstyle #block-block-27 ul li a {
     background-size: 32px 32px;
 }
 
-body.newstyle #block-block-27 ul li a:hover, body.newstyle #block-block-27 ul li a:focus {
+body.newstyle #block-block-27 ul li a:hover, body.newstyle #block-block-27 ul li a:focus,
+body.newstyle #block-block-28 ul li a:hover, body.newstyle #block-block-28 ul li a:focus {
 	 color: transparent!important;
 }
 
@@ -225,7 +226,7 @@ body.newstyle #block-views-about-author-blog-post-block-1 .field-name-ds-user-pi
 border-radius: 50%;
  -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
--khtml-border-radius: 50%; 
+-khtml-border-radius: 50%;
 margin-right:25px;
 }
 
@@ -236,15 +237,15 @@ body.newstyle .view-about-author-blog-post .field-name-field-aboutme {
 	width:85%; margin-top:10px; font-size: 14px;
 }
 body.newstyle .view-about-author-blog-post {
- margin-top: -84px;	
-}  
+ margin-top: -84px;
+}
 
 body.newstyle .view-about-author-blog-post .field-name-field-fullname:before {
     content: "posted by ";
 	font-size: 12px;
 	color: #bbb;
     }
-    
+
 body.newstyle .view-about-author-blog-post .field-name-field-fullname {
 	color: black;
     }
@@ -319,7 +320,7 @@ body.newstyle .flippy .next {
 
 body.newstyle ul.flippy {
     margin-top: 20px;
-} 
+}
 body.newstyle ul.flippy li {
     margin: 0!important;
     padding: 0px;
@@ -388,16 +389,16 @@ body.newstyle #simplenews-block-form-861 .form-submit {
     text-transform: uppercase;
     font-weight: bold;
     background:black;
-    margin-left: -4px;	
- }  
- 
+    margin-left: -4px;
+ }
+
 body.newstyle #simplenews-block-form-861 input[type='text']{
      height: 40px;
      background: #e8e8e8;
      border:0px;
-     width: 159px;	
+     width: 159px;
  }
- 
+
 body.newstyle #simplenews-block-form-861 .compact-form-label {
     top: -2px;
     left: 10px;
@@ -454,7 +455,7 @@ body.newstyle.page-blogs .thecontent .view-blog .views-row {
     margin-bottom: 25px;
     padding: 30px 20px;
     background-color: white;}
-    
+
 body.newstyle.page-blogs .view-blog.view-display-id-page .field-name-title .field-items .field-item a {
 	text-transform: uppercase;
 	font-family: tahoma;
@@ -466,7 +467,7 @@ body.newstyle.page-blogs .field-name-body .field-items .field-item p {
 	color: #b3b3b3;
 	font-family: tahoma, bold;
 }
-    
+
 body.newstyle.page-blogs .field-name-node-link .field-items .field-item a {
 padding: 10px 0px;
     background-color: #008000;
@@ -489,7 +490,7 @@ body.newstyle.page-blogs .field-name-ds-user-picture img {
 border-radius: 50%;
  -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
--khtml-border-radius: 50%; 
+-khtml-border-radius: 50%;
 background-color: white;
 padding:8px;
 margin-left: 15px;
