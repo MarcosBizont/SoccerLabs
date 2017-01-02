@@ -122,21 +122,19 @@ body.newstyle #block-views-blog-block-1 h2{
 body.newstyle .precontentinhome {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/sites/all/themes/sevenmag/img/backgrounds/barcaback.jpg) no-repeat center center fixed;;
 }
-body.newstyle .precontentinhome .field-name-field-banner img {
+body.newstyle .precontentinhome .field-name-field-banner {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    position: fixed;
+    width: 1920px;
+    position: absolute;
     left: 0;
     right: 0;
     z-index: 0;
-	-webkit-filter: brightness(50%);
-    filter: brightness(50%);
-    top: 157px;
+    height: 100%;
 }
 
 
-body.newstyle #block-views-blog-post-banner-block p, body.newstyle #block-views-blog-post-banner-block h2, body.newstyle.page-blogs #block-views-blog-block-2 .field-name-body .field-items .field-item p {
+body.newstyle #block-views-blog-post-banner-block p, body.newstyle #block-views-blog-post-banner-block h2 {
 	font-variant: initial;
 	color: white;
 	font-family: tahoma, regular;
@@ -144,16 +142,8 @@ body.newstyle #block-views-blog-post-banner-block p, body.newstyle #block-views-
    font-size:16px;
 }
 
-body.newstyle.page-blogs #block-views-blog-block-2 h2 a {
-	font-variant: initial;
-	color: white;
-	font-family: tahoma, regular;
-	font-size:36px;
-  	letter-spacing: 3px;
-}
 
-
-body.newstyle #block-views-blog-post-banner-block h2, body.newstyle.page-blogs #block-views-blog-block-2 h2 {
+body.newstyle #block-views-blog-post-banner-block h2 {
     text-transform: uppercase;
     font-weight: bold;	
     font-family: tahoma, bold;
@@ -161,10 +151,9 @@ body.newstyle #block-views-blog-post-banner-block h2, body.newstyle.page-blogs #
     margin-bottom: 30px;
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
 }
 
-body.newstyle .field-name-field-banner-blog, body.newstyle.page-blogs #block-views-blog-block-2 .field-name-body {
+body.newstyle .field-name-field-banner-blog {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -177,10 +166,6 @@ body.newstyle #block-block-27 {
     width: 155px;
     height: 32px;
     margin-bottom:100px;
-}
-
-body.newstyle.page-blogs #block-block-27 {
-    margin-bottom:50px;
 }
 
 body.newstyle #block-block-27 ul {
@@ -406,31 +391,6 @@ body.newstyle #simplenews-block-form-861 .compact-form-label {
 
 /* Blogs page */
 
-body.newstyle.page-blogs #block-views-blog-block-2 .field-name-node-link .field-items .field-item {
-	text-align: center;
-}
-
-body.newstyle.page-blogs #block-views-blog-block-2 .field-name-title .field-items .field-item h2 {
-	z-index:1;
-	position:relative;
-}
-body.newstyle.page-blogs #block-views-blog-block-2 .field-name-body .field-items .field-item p {
-	z-index:1;
-	position:relative;
-}
-body.newstyle.page-blogs #block-views-blog-block-2 .field-name-node-link .field-items .field-item a {
-	z-index:1;
-	position:relative;
-}
-
-body.newstyle.page-blogs #block-views-blog-block-2 .field-name-node-link {
-	margin-top:40px
-}
-
-body.newstyle.page-blogs #block-views-blog-block-2 .view-blog .views-row {
-	border:0px;
-}
-
 body.newstyle.page-blogs .b_block {
 	padding:0px;
 	border:0px;
@@ -455,7 +415,7 @@ body.newstyle.page-blogs .thecontent .view-blog .views-row {
     padding: 30px 20px;
     background-color: white;}
     
-body.newstyle.page-blogs .view-blog.view-display-id-page .field-name-title .field-items .field-item a {
+body.newstyle.page-blogs .field-name-title .field-items .field-item a {
 	text-transform: uppercase;
 	font-family: tahoma;
 	font-weight: bold;
@@ -493,74 +453,10 @@ border-radius: 50%;
 background-color: white;
 padding:8px;
 margin-left: 15px;
-margin-top: -10px;
+margin-top: -20px;
 position: absolute;
-max-width: 8%;
+max-width: 8%
 }
 
 body.newstyle.page-blogs .view-blog .about-author {float:left;}
-body.newstyle.page-blogs .field-name-post-date .field-items .field-item {float:right; font-size:12px;}
-
-body.newstyle.page-blogs .field-name-field-fullname .field-items .field-item:before {
-	content: "posted by ";
-	color:#ccc;
-	font-weight:400;
-	font-family:tahoma, regular;
-}
-
-body.newstyle.page-blogs .field-name-field-fullname .field-items .field-item {
-	color:black;
-	font-weight:bold;
-	font-family:tahoma, regular;
-	position: absolute;
-	margin-left:13%;
-	font-size:12px;
-}
-
-body.newstyle.page-blogs .field-name-field-banner .field-items .field-item img {
-margin-top:5px
-}
-
-@media only screen and (max-width: 800px) {
-body.newstyle.page-blogs .field-name-field-fullname .field-items .field-item {
-	margin-left:14%;
-}
-}
-
-@media only screen and (max-width: 640px) {
-body.newstyle.page-blogs .field-name-field-fullname .field-items .field-item {
-	margin-left:0%;
-}
-body.newstyle.page-blogs .field-name-ds-user-picture img {
-	display:none
-}
-
-body.newstyle .thecontent h2 {
-    line-height: 120%;
-}
-}
-
-@media only screen and (max-width: 440px) {
-body.newstyle.page-blogs .field-name-post-date .field-items .field-item {
-	display:none
-}
-}
-
-body.newstyle ul.pager li a, body.newstyle ul.pager li.pager-current {
-    color: black;
-    background: white;
-}
-
-body.newstyle ul.pager li a:active, body.newstyle ul.pager li.pager-current:active {
-    color: white;
-    background: black;
-}
-
-body.newstyle ul.pager li {
-    margin-left: 10px!important;
-}
-
-body.newstyle ul.pager li.pager-current, body.newstyle ul.pager li a:hover{
-	background:black;
-	color:white !important;
-
+body.newstyle.page-blogs .field-name-post-date .field-items .field-item {float:right;}

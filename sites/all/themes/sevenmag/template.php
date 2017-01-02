@@ -86,8 +86,6 @@ function sevenmag_preprocess_page(&$vars) {
             $vars['field_sidebar'] = $output;
         endif;
     endif;
-	
-	
 }
 
 
@@ -185,4 +183,3 @@ function hook_preprocess_page(&$variables) {
     }
   }
 }
-

@@ -78,7 +78,18 @@
 	
 	<?php
 		if($page['precontent']):
-			print '<div class="precontentinhome">';
+			print '<div class="precontentinhome">';        
+            if (!empty($node)):
+            $fieldExample = field_get_items('node', $node, 'field_banner'); 
+            if ($fieldExample):
+            print render(field_view_field('node', $node, 'field_banner', array('label'=>'hidden'))); 
+            //print $fieldExample[0]['value'];
+            endif;
+            endif; 
+            //$field = field_get_items('node', $node, 'field_banner');
+            //if ($field) {
+             //  print render(field_view_field('node', $node, 'field_banner', array('label'=>'hidden'))); 
+            //}  
 				print '<div class="post clearfix">';
 					print '<div class="row clearfix">';
 						print render($page['precontent']); 
