@@ -120,7 +120,8 @@ body.newstyle #block-views-blog-block-1 h2{
 /* blog node */
 
 body.newstyle .precontentinhome {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/sites/all/themes/sevenmag/img/backgrounds/barcaback.jpg) no-repeat center center fixed;;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/sites/all/themes/sevenmag/img/backgrounds/barcaback.jpg) no-repeat center center fixed;
+    background-attachment: fixed;
 }
 body.newstyle .precontentinhome .field-name-field-banner img {
     margin-left: auto;
@@ -143,6 +144,7 @@ body.newstyle #block-views-blog-post-banner-block p, body.newstyle #block-views-
    text-align: center;
    font-size:16px;
 }
+
 
 body.newstyle.page-blogs #block-views-blog-block-2 h2 a {
 	font-variant: initial;
@@ -374,7 +376,8 @@ body.newstyle #block-views-blog-block-1 .field-name-field-fullname .field-items 
 
 /*Simplenews block in blog*/
 
-body.newstyle #block-simplenews-861 .b_title, #block-simplenews-861 .widget p {
+body.newstyle #block-simplenews-861 .b_title, #block-simplenews-861 .widget p,
+#block-simplenews-861 label {
 	display:none
 }
 
