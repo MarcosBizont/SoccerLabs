@@ -195,6 +195,8 @@ body.newstyle #block-block-27 , body.newstyle #block-block-28{
 
 body.newstyle.page-blogs #block-block-27, body.newstyle.page-blogs #block-block-28 {
     margin-bottom:50px;
+    position: relative;
+    z-index: 9999;
 }
 
 body.newstyle #block-block-27 ul, body.newstyle #block-block-28 ul  {
