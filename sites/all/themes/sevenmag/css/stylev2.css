@@ -544,12 +544,22 @@ body.newstyle.page-blogs .field-name-ds-user-picture img {
 body.newstyle .thecontent h2 {
     line-height: 120%;
 }
+
+body.newstyle .flippy .next {
+    float: none;
+}
+
 }
 
 @media only screen and (max-width: 440px) {
 body.newstyle.page-blogs .field-name-post-date .field-items .field-item {
 	display:none
 }
+
+body.newstyle .flippy .next {
+    float: none;
+}
+
 }
 
 body.newstyle ul.pager li a, body.newstyle ul.pager li.pager-current {
@@ -569,4 +579,11 @@ body.newstyle ul.pager li {
 body.newstyle ul.pager li.pager-current, body.newstyle ul.pager li a:hover{
 	background:black;
 	color:white !important;
+}
+
+/* Body blog */
+body.newstyle .node-blog-real, body.newstyle.field-name-body{
+    color: #000000;
+}
+
 
