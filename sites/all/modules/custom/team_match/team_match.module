@@ -275,3 +275,19 @@ function match_tips()
 {
 	return "";
 }
+
+
+
+function team_match_node_presave($node) 
+{
+	if($node->type == 'team_segment')
+	{
+		drupal_set_message(t('Your team segment had been applied and you have a new team.'), 'status');
+	}
+	// Si el nodo es term_segment entonces debemos de asegurarnos que ya existe un new node
+	// Si no existe crear un nuevo nodo Con el nombre del titulo
+		// Toma el/los de el equipo anterior y busca los juegos que  coincidan con las competiciones  indicadas, 
+		// en caso que esea coincidente se le asigna el nuevo equipo
+	
+	
+}
