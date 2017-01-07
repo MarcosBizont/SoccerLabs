@@ -282,10 +282,62 @@ function team_match_node_presave($node)
 {
 	if($node->type == 'team_segment')
 	{
-		drupal_set_message(t('Your team segment had been applied and you have a new team.'), 'status');
+		if(!isset($node->field_new_team['und'][0]['target_id']))
+		{
+			// New team
+			$name = $node->title;
+			$tipginapi_id = $node->field_tipginapi_id['und'][0]['value'];
+			$cps = array();
+			foreach($node->field_competition['und'] as $item)
+				$cps[] = $item['target_id'];
+			
+			$new_team = _tipgin_api_feed_create_team_byargs($name, $tipginapi_id, $cps);
+			$node->field_new_team['und'][0]['target_id'] = $new_team->nid;
+			
+			// Change matchs nid
+			// For Local
+			$query = new EntityFieldQuery();
+			$query->entityCondition('entity_type', 'node')
+				  ->entityCondition('bundle', 'match')
+				  ->addMetaData('account', user_load(1))
+				  ->fieldCondition('field_local_team', 'target_id', $node->field_team['und'][0]['target_id'], '=')
+				  ->fieldCondition('field_competition', 'target_id', $cps, 'IN');	
+		
+			$result = $query->execute();
+			if (isset($result['node'])) 
+			{
+				$match_ids = array_keys($result['node']);
+				$match_items = entity_load('node', $match_ids);
+				foreach($match_items as $match)
+				{
+					$match->field_local_team['und'][0]['target_id'] = $new_team->nid;
+					node_save($match);
+				}
+			}
+			
+			// For Visitor
+			$query = new EntityFieldQuery();
+			$query->entityCondition('entity_type', 'node')
+				  ->entityCondition('bundle', 'match')
+				  ->addMetaData('account', user_load(1))
+				  ->fieldCondition('field_visitor_team', 'target_id', $node->field_team['und'][0]['target_id'], '=')
+				  ->fieldCondition('field_competition', 'target_id', $cps, 'IN');	
+		
+			$result = $query->execute();
+			if (isset($result['node'])) 
+			{
+				$match_ids = array_keys($result['node']);
+				$match_items = entity_load('node', $match_ids);
+				foreach($match_items as $match)
+				{
+					$match->field_visitor_team['und'][0]['target_id'] = $new_team->nid;
+					node_save($match);
+				}
+			}
+			
+			drupal_set_message(t('Your team segment had been applied and you have a new team.'), 'status');
+		}
 	}
-	// Si el nodo es term_segment entonces debemos de asegurarnos que ya existe un new node
-	// Si no existe crear un nuevo nodo Con el nombre del titulo
 		// Toma el/los de el equipo anterior y busca los juegos que  coincidan con las competiciones  indicadas, 
 		// en caso que esea coincidente se le asigna el nuevo equipo
 	

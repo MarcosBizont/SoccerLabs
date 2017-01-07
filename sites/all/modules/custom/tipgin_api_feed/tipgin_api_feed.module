@@ -1010,6 +1010,33 @@ function _tipgin_api_feed_create_team($team, $league)
 	return $tm;	
 }
 
+function _tipgin_api_feed_create_team_byargs($name, $tipginapi_id, $cps)
+{
+	$tm = new stdClass();
+	$tm->type = 'team';
+	$tm->status = 1;
+	$tm->uid = 1;
+	$tm->title = $name;
+	$tm->promote = 0;
+	$tm->created = time();
+	$tm->timestamp = $tm->created;
+	$tm->changed = $tm->created;
+	$tm->sticky = 0;
+	$tm->revision = 0;
+	$tm->language = 'und';
+	
+	
+	$tm->field_tipginapi_id[LANGUAGE_NONE][0]['value'] = $tipginapi_id;
+	
+	$tm->field_competition[LANGUAGE_NONE] = array();
+	foreach($cps as $cpid)
+		$tm->field_competition[LANGUAGE_NONE][] = array('target_id' => $cpid);	
+	
+	node_save($tm);
+	
+	return $tm;	
+}
+
 function _tipgin_api_feed_update_team($team, $league)
 {
 	if(intval($team['@attributes']['id'])==0) return false;
