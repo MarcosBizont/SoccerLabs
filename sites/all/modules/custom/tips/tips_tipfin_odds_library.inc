@@ -79,8 +79,8 @@ function tips_tipfin_odds_library_check_odds_for_match_for_tiptype($matchid, $ti
 			{
 				if($tipginapi_id=='noid')
 				{
-					$localteam = _tipgin_api_feed_team_exists($match['home']);
-					$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+					$localteam = _tipgin_api_feed_team_exists($match['home'],$league);
+					$visitorteam = _tipgin_api_feed_team_exists($match['away'],$league);
 					if($localteam&&$visitorteam)
 					{
 						if($node_local_team->nid==$localteam->nid&&$node_visitor_team->nid==$visitorteam->nid)
@@ -173,8 +173,8 @@ function tips_tipfin_odds_library_check_odds_for_tip($tip)
 			{
 				if($tipginapi_id=='noid')
 				{
-					$localteam = _tipgin_api_feed_team_exists($match['home']);
-					$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+					$localteam = _tipgin_api_feed_team_exists($match['home'],$league);
+					$visitorteam = _tipgin_api_feed_team_exists($match['away'],$league);
 					if($localteam&&$visitorteam)
 					{
 						if($node_local_team->nid==$localteam->nid&&$node_visitor_team->nid==$visitorteam->nid)

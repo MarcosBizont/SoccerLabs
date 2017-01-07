@@ -760,8 +760,6 @@ function _tipgin_api_feed_processmatch($match,$league)
 {
 	if(intval($match['@attributes']['id'])==0) return false;
 	
-	// Fixes by wrong data
-	
 	if(!isset($match['home']['@attributes']['goals']) && isset($match['home']['@attributes']['score'])) 
 		$match['home']['@attributes']['goals'] = $match['home']['@attributes']['score'];
 	if(!isset($match['away']['@attributes']['goals']) && isset($match['away']['@attributes']['score'])) 
@@ -771,14 +769,6 @@ function _tipgin_api_feed_processmatch($match,$league)
 	if(!isset($match['away']['@attributes']['goals'])) $match['away']['@attributes']['goals'] = '?';
 	if(!isset($match['events'])) $match['events'] = array();
 	
-	// ToDo : Check exceptions.
-	// _tipgin_api_feed_competition_getnid($league['@attributes']['id']);
-	// $localteam = _tipgin_api_feed_team_exists($match['home']);
-	// $visitorteam = _tipgin_api_feed_team_exists($match['away']);
-	// Exception =  array(teamnid, array(competitionnid,))
-	
-	// In case we have have a match :
-		// $team['@attributes']['id'] <-- Change it to something different and resume the process
 	
 	if(intval($match['@attributes']['id'])==4151056)
 	{
@@ -818,8 +808,8 @@ function _tipgin_api_feed_processmatch($match,$league)
 function _tipgin_api_feed_create_match($match,$league)
 {
 	// teams
-	$localteam = _tipgin_api_feed_team_exists($match['home']);
-	$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+	$localteam = _tipgin_api_feed_team_exists($match['home'],$league);
+	$visitorteam = _tipgin_api_feed_team_exists($match['away'],$league);
 	
 	if(!$localteam || !$visitorteam)
 	{
@@ -953,8 +943,8 @@ function _tipgin_api_feed_match_exists($match,$league)
 	if(!$mt && _tipgin_api_feed_iscompetition_old($league['@attributes']['id']))
 	{
 		$matchdate = $match['@attributes']['date'] . ' ' . $match['@attributes']['time'];
-		$localteam = _tipgin_api_feed_team_exists($match['home']);
-		$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+		$localteam = _tipgin_api_feed_team_exists($match['home'],$league);
+		$visitorteam = _tipgin_api_feed_team_exists($match['away'],$league);
 		
 		if(!$localteam || !$visitorteam) return false;
 		
@@ -1055,7 +1045,7 @@ function _tipgin_api_feed_update_team($team, $league)
 	return $tm;	
 }
 
-function _tipgin_api_feed_team_exists($team)
+function _tipgin_api_feed_team_exists($team, $league)
 {
 	$query = new EntityFieldQuery();
 	$query->entityCondition('entity_type', 'node')

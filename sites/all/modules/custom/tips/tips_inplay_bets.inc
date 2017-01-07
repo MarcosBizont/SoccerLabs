@@ -99,8 +99,8 @@ function tips_inplay_bets_check_odds($matchnode, $oddssuggested,$params)
 			{
 				if($tipginapi_id=='noid')
 				{
-					$localteam = _tipgin_api_feed_team_exists($match['home']);
-					$visitorteam = _tipgin_api_feed_team_exists($match['away']);
+					$localteam = _tipgin_api_feed_team_exists($match['home'],$league);
+					$visitorteam = _tipgin_api_feed_team_exists($match['away'],$league);
 					if($localteam&&$visitorteam)
 					{
 						if($node_local_team->nid==$localteam->nid&&$node_visitor_team->nid==$visitorteam->nid)
