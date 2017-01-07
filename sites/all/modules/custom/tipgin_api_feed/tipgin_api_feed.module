@@ -760,6 +760,8 @@ function _tipgin_api_feed_processmatch($match,$league)
 {
 	if(intval($match['@attributes']['id'])==0) return false;
 	
+	// Fixes by wrong data
+	
 	if(!isset($match['home']['@attributes']['goals']) && isset($match['home']['@attributes']['score'])) 
 		$match['home']['@attributes']['goals'] = $match['home']['@attributes']['score'];
 	if(!isset($match['away']['@attributes']['goals']) && isset($match['away']['@attributes']['score'])) 
@@ -768,6 +770,15 @@ function _tipgin_api_feed_processmatch($match,$league)
 	if(!isset($match['home']['@attributes']['goals'])) $match['home']['@attributes']['goals'] = '?';
 	if(!isset($match['away']['@attributes']['goals'])) $match['away']['@attributes']['goals'] = '?';
 	if(!isset($match['events'])) $match['events'] = array();
+	
+	// ToDo : Check exceptions.
+	// _tipgin_api_feed_competition_getnid($league['@attributes']['id']);
+	// $localteam = _tipgin_api_feed_team_exists($match['home']);
+	// $visitorteam = _tipgin_api_feed_team_exists($match['away']);
+	// Exception =  array(teamnid, array(competitionnid,))
+	
+	// In case we have have a match :
+		// $team['@attributes']['id'] <-- Change it to something different and resume the process
 	
 	if(intval($match['@attributes']['id'])==4151056)
 	{
@@ -1058,6 +1069,10 @@ function _tipgin_api_feed_team_exists($team)
 	{
 		$teamobj = array_keys($result['node']);
 		$team_items = entity_load('node', $teamobj);
+		
+		// ToDo : Do we have any segment?
+		// return the new team
+		
 		$tm = reset($team_items);
 	}
 	
