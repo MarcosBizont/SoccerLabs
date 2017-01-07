@@ -1059,11 +1059,25 @@ function _tipgin_api_feed_team_exists($team, $league)
 	{
 		$teamobj = array_keys($result['node']);
 		$team_items = entity_load('node', $teamobj);
-		
-		// ToDo : Do we have any segment?
-		// return the new team
-		
 		$tm = reset($team_items);
+		
+		$cpid = _tipgin_api_feed_competition_getnid($league['@attributes']['id']);
+		$query_ts = new EntityFieldQuery();
+		$query_ts->entityCondition('entity_type', 'node')
+			  ->entityCondition('bundle', 'team_segment')
+			  ->addMetaData('account', user_load(1))
+			  ->fieldCondition('field_team', 'target_id', $tm->nid, '=')
+			  ->fieldCondition('field_competition', 'target_id', $cpid, '=')
+			  ->range(0,1);	
+		
+		$result_ts = $query_ts->execute();
+		if (isset($result_ts['node'])) 
+		{
+			$teamsegmentobj = array_keys($result_ts['node']);
+			$teamsegment_items = entity_load('node', $teamsegmentobj);
+			$tms = reset($teamsegment_items);
+			$tm = node_load($tms->field_new_team[LANGUAGE_NONE][0]['target_id']);
+		}
 	}
 	
 	return $tm;	
