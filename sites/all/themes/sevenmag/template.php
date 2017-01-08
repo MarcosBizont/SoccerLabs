@@ -1,54 +1,54 @@
-<?php 
+<?php
 global $base_url;
 
 function sevenmag_preprocess_html(&$variables) {
 	//drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic', array('type' => 'external'));
-	
-	
+
+
 	if (isset($_GET['as_iframe']) && $_GET['as_iframe'] == 1) {
 		$variables['theme_hook_suggestions'][] = 'html__popup_iframe';
 	}
-	
-	
+
+
 	drupal_add_css(base_path().path_to_theme().'/css/symple_shortcodes_styles.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/style.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/stylev2.css', array('type' => 'external'));
-	
-	
+
+
 	//drupal_add_css(base_path().path_to_theme().'/css/style.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/icons.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/animate.css', array('type' => 'external'));
 	drupal_add_css(base_path().path_to_theme().'/css/responsive.css', array('type' => 'external'));
 	drupal_add_css('//fonts.googleapis.com/css?family=Montserrat', array('type' => 'external'));
-	
+
 	//RTL version
 	$styling = theme_get_setting('styling', 'sevenmag');
 	if($styling=='rtl')
 		drupal_add_css(base_path().path_to_theme().'/css/rtl.css', array('type' => 'external'));
 	//End RTL Version
-	
+
 	//Version background
 	$version = theme_get_setting('version_c', 'sevenmag');
 	if($version=='dark')
 		drupal_add_css(base_path().path_to_theme().'/css/dark.css', array('type' => 'external'));
-	
+
 	drupal_add_css(base_path().path_to_theme().'/css/update.css', array('type' => 'external'));
 
 	//JS Footer
 	drupal_add_js(path_to_theme().'/js/jquery.js', array('type' => 'file', 'scope' => 'footer'));
 	drupal_add_js(path_to_theme().'/js/seven.min.js', array('type' => 'file', 'scope' => 'footer'));
 	drupal_add_js(path_to_theme().'/js/owl.carousel.min.js', array('type' => 'file', 'scope' => 'footer'));
-	
+
 	if($styling=='rtl') //RTL version
 		drupal_add_js(path_to_theme().'/js/jquery.li-scroller-rtl.1.0.js', array('type' => 'file', 'scope' => 'footer'));
 	else //LTR Version
 		drupal_add_js(path_to_theme().'/js/jquery.li-scroller.1.0.js', array('type' => 'file', 'scope' => 'footer'));
-	
+
 	drupal_add_js(path_to_theme().'/js/jquery.fitvids.js', array('type' => 'file', 'scope' => 'footer'));
-	
+
 	drupal_add_js(path_to_theme().'/js/custom.js', array('type' => 'file', 'scope' => 'footer'));
 	drupal_add_js(path_to_theme().'/js/update.js', array('type' => 'file', 'scope' => 'footer'));
-	
+
 }
 
 
@@ -63,17 +63,17 @@ function sevenmag_customize_comment_form(&$form) {
 }
 
 function sevenmag_preprocess_page(&$vars) {
-	
-	if (isset($vars['node'])) {  
+
+	if (isset($vars['node'])) {
 		$vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type;
 	}
 	if (isset($_GET['as_iframe']) && $_GET['as_iframe'] == 1) {
 		$vars['theme_hook_suggestions'][] = 'page__popup_iframe';
 	}
-	
+
 	//404 page
-	$status = drupal_get_http_header("status");  
-	if($status == "404 Not Found") {      
+	$status = drupal_get_http_header("status");
+	if($status == "404 Not Found") {
 		$vars['theme_hook_suggestions'][] = 'page__404';
 	}
 	if (isset($vars['node'])) :
@@ -93,27 +93,29 @@ function sevenmag_preprocess_page(&$vars) {
 function sevenmag_css_alter(&$css) {
 	unset($css[drupal_get_path('module', 'system') . '/system.menus.css']);
 	unset($css[drupal_get_path('module', 'system') . '/system.theme.css']);
-	
+
 //	unset($css[drupal_get_path('module', 'system') . '/system.base.css']);
 }
 
 function sevenmag_form_alter(&$form, &$form_state, $form_id) {
 	if ($form_id == 'search_block_form') {
-		$form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
-		$form['search_block_form']['#default_value'] = t('Search'); // Set a default value for the textfield
+
+		//$form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
+		//$form['search_block_form']['#default_value'] = t('Search'); // Set a default value for the textfield
 		$form['search_block_form']['#attributes']['id'] = array("mod-search-searchword");
 		//disabled submit button
 		//unset($form['actions']['submit']);
-		unset($form['search_block_form']['#title']);
-		$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search';}";
-		$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search') {this.value = '';}";
+		//unset($form['search_block_form']['#title']);
+		//$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search';}";
+		//$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search') {this.value = '';}";*/
+
 	}
 	if($form_id == 'contact_site_form'){
 		$form['mail']['#attributes']['class'] = array("input-contact-form");
 		$form['name']['#attributes']['class'] = array("input-contact-form");
 		$form['subject']['#attributes']['class'] = array("input-contact-form");
 		$form['message']['#attributes']['class'] = array("message-contact-form");
-		$form['actions']['submit']['#attributes']['class'] = array('btn btn-success contact-form-button'); 
+		$form['actions']['submit']['#attributes']['class'] = array('btn btn-success contact-form-button');
 	}
 	if ($form_id == 'comment_form') {
 		$form['comment_filter']['format'] = array(); // nuke wysiwyg from comments
@@ -145,7 +147,7 @@ function sevenmag_breadcrumb($variables) {
 	$crumbs ='';
 	$breadcrumb = $variables['breadcrumb'];
 	if (!empty($breadcrumb)) {
-		
+
 		foreach($breadcrumb as $value) {
 			$crumbs .= '&nbsp;'.$value.' <i>/</i>';
 		}
@@ -160,7 +162,7 @@ function sevenmag_menu_tree__main_menu($variables) {
 	$str .= '<ul class="sf-menu res_mode">';
 		$str .= $variables['tree'];
 	$str .= '</ul>';
-	
+
 	return $str;
 }
 //custom footer menu
@@ -169,7 +171,7 @@ function sevenmag_menu_tree__menu_footer_menu($variables) {
 	$str .= '<ul class="sf-menu">';
 		$str .= $variables['tree'];
 	$str .= '</ul>';
-	
+
 	return $str;
 }
 
