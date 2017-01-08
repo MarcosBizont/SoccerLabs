@@ -99,16 +99,8 @@ function sevenmag_css_alter(&$css) {
 
 function sevenmag_form_alter(&$form, &$form_state, $form_id) {
 	if ($form_id == 'search_block_form') {
-
-		//$form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
-		//$form['search_block_form']['#default_value'] = t('Search'); // Set a default value for the textfield
 		$form['search_block_form']['#attributes']['id'] = array("mod-search-searchword");
-		//disabled submit button
-		//unset($form['actions']['submit']);
-		//unset($form['search_block_form']['#title']);
-		//$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search';}";
-		//$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search') {this.value = '';}";*/
-
+		$form['search_block_form']['#attributes']['placeholder'] = t('Search');
 	}
 	if($form_id == 'contact_site_form'){
 		$form['mail']['#attributes']['class'] = array("input-contact-form");
