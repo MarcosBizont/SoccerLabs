@@ -245,7 +245,7 @@ body.newstyle .view-about-author-blog-post {
 }
 
 body.newstyle .view-about-author-blog-post .field-name-field-fullname:before {
-    content: "posted by ";
+    /*content: "posted by ";*/
 	font-size: 12px;
 	color: #bbb;
     }
@@ -326,7 +326,7 @@ body.newstyle ul.flippy {
     margin-top: 20px;
 }
 body.newstyle ul.flippy li {
-    margin: 0!important;
+    margin: 0;
     padding: 0px;
     }
 
@@ -369,7 +369,7 @@ body.newstyle #block-views-blog-block-1 .field-name-field-fullname .field-items 
 }
 
 body.newstyle #block-views-blog-block-1 .field-name-field-fullname .field-items .field-item:before {
-	content: "posted by ";
+	/*content: "posted by ";*/
 	color:#ccc;
 	font-weight:400;
 	font-family:tahoma, regular;
@@ -587,7 +587,7 @@ body.newstyle .flippy .next {
 }
 
 ul.flippy li {
-    margin: 0;
+    margin: 0 0 10px 0 !important;
     padding: 10px;
     display: block;
     width: auto;
