@@ -546,7 +546,33 @@ body.newstyle .thecontent h2 {
 }
 
 body.newstyle .flippy .next {
-    float: none;
+    float: right;
+}
+
+ul.flippy li {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    width: auto;
+    list-style-type: none;
+    list-style-image: none;
+    background: none;
+    white-space: nowrap;
+    text-align: center;
+}
+
+body.newstyle .flippy .empty {
+    padding: 15px 0px;
+    background-color: #e8e8e8;
+    color: #aaa;
+    text-transform: uppercase;
+    font-variant: initial;
+    font-family: tahoma;
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 0 !important;
+    display: block;
 }
 
 }
@@ -558,6 +584,31 @@ body.newstyle.page-blogs .field-name-post-date .field-items .field-item {
 
 body.newstyle .flippy .next {
     float: none;
+}
+
+ul.flippy li {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    width: auto;
+    list-style-type: none;
+    list-style-image: none;
+    background: none;
+    white-space: nowrap;
+    text-align: center;
+}
+
+body.newstyle .flippy .empty {
+    padding: 15px 0px;
+    background-color: #e8e8e8;
+    color: #aaa;
+    text-transform: uppercase;
+    font-variant: initial;
+    font-family: tahoma;
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 10% !important;
 }
 
 }

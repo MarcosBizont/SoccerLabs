@@ -5863,6 +5863,22 @@ div.block-formblock .form-text, div#block-formblock-user_password_request .form-
 	    padding: 0;
 	}
 }
+
+
+@media only screen and (max-width: 440px) {
+
+	a.btn_canvas.mymenuone {
+	    display: block;
+	    float: right;
+	    height: 5px;
+	    margin: 20px 0 0;
+	}
+
+
+}
+
+
+
 .bar-point .review-result { background-color: #55b2f3; }
 .review-wrapper, .review-title, .review-desc p{ color: #3f3f3f;}
 .review-list li, .review-wrapper{ background: #ffffff;}
